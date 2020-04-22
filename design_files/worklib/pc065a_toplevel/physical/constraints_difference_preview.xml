@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Cadence/SPB_17.2/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_17.2/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
+
+  <RptSummary Col1="Layout" Col2="Schematic">
+    <Entry Name="Report time">Thu Jan 23 10:24:19 2020
+</Entry>
+    <Entry Name="Software version">17.2 (060)</Entry>
+    <Entry Name="Layout">P:\cad\designs\uob-hep-pc065a\trunk\design_files\worklib\pc065a_toplevel\physical\double_width_fmc.brd</Entry>
+    <Entry Name="Schematic">P:\cad\designs\uob-hep-pc065a\trunk\design_files\worklib\pc065a_toplevel\packaged\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\phpgb\AppData\Local\Temp\#Taaaaah14468.tmp</Entry>
+    <Entry Name="Destination design updated">No</Entry>
+    <Entry Name="Update Mode">Diff3</Entry>
+    <Entry Name="Constraint Information"></Entry>
+    <Entry Name="Objects with conflicts">0</Entry>
+  </RptSummary>
+
+  <Tree>
+    <Item Filter="0x1" Name="Summary" Ref="main-summary">
+      <Item Filter="0x0" Name="Buses [8]" Ref="21">
+        <Item Filter="0x0" Name="Fmc_La" Ref="7"/>
+        <Item Filter="0x0" Name="Fmc_La*" Ref="6"/>
+        <Item Filter="0x0" Name="In" Ref="8"/>
+        <Item Filter="0x0" Name="Vi" Ref="2"/>
+        <Item Filter="0x0" Name="Vm1" Ref="5"/>
+        <Item Filter="0x0" Name="Vm2" Ref="4"/>
+        <Item Filter="0x0" Name="Vp1" Ref="3"/>
+        <Item Filter="0x0" Name="Vthresh" Ref="9"/>
+      </Item>
+      <Item Filter="0x0" Name="DiffPairs [22]" Ref="20">
+        <Item Filter="0x0" Name="Beam_Trigger0" Ref="1f"/>
+        <Item Filter="0x0" Name="Beam_Trigger1" Ref="1e"/>
+        <Item Filter="0x0" Name="Beam_Trigger2" Ref="1d"/>
+        <Item Filter="0x0" Name="Beam_Trigger3" Ref="1c"/>
+        <Item Filter="0x0" Name="Beam_Trigger_Cfd0" Ref="1a"/>
+        <Item Filter="0x0" Name="Beam_Trigger_Cfd2" Ref="19"/>
+        <Item Filter="0x0" Name="Beam_Trigger_Cfd3" Ref="18"/>
+        <Item Filter="0x0" Name="Busy0" Ref="17"/>
+        <Item Filter="0x0" Name="Busy1" Ref="15"/>
+        <Item Filter="0x0" Name="Busy2" Ref="14"/>
+        <Item Filter="0x0" Name="Clk2" Ref="12"/>
+        <Item Filter="0x0" Name="Cont0" Ref="11"/>
+        <Item Filter="0x0" Name="Cont1" Ref="10"/>
+        <Item Filter="0x0" Name="Cont2" Ref="1b"/>
+        <Item Filter="0x0" Name="Ctrig1" Ref="c"/>
+        <Item Filter="0x0" Name="Ctrig2" Ref="b"/>
+        <Item Filter="0x0" Name="Dut_Clk0" Ref="16"/>
+        <Item Filter="0x0" Name="Front_Panel_Clk" Ref="a"/>
+        <Item Filter="0x0" Name="Spare1" Ref="f"/>
+        <Item Filter="0x0" Name="Spare2" Ref="e"/>
+        <Item Filter="0x0" Name="Trig0" Ref="d"/>
+        <Item Filter="0x0" Name="Trig2" Ref="13"/>
+      </Item>
+    </Item>
+  </Tree>
+
+  <Summaries>
+    <MainSummary ID="main-summary">
+      <ChangedObject Filter="0x0" Name="Buses" ObjNumber="8" Ref="21"/>
+      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="22" Ref="20"/>
+    </MainSummary>
+    <GroupSummary ID="20" Name="DiffPairs">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Beam_Trigger0" Notes="0" Other="0" Ref="1f" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Beam_Trigger1" Notes="0" Other="0" Ref="1e" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Beam_Trigger2" Notes="0" Other="0" Ref="1d" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Beam_Trigger3" Notes="0" Other="0" Ref="1c" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Beam_Trigger_Cfd0" Notes="0" Other="0" Ref="1a" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Beam_Trigger_Cfd2" Notes="0" Other="0" Ref="19" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Beam_Trigger_Cfd3" Notes="0" Other="0" Ref="18" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Busy0" Notes="0" Other="0" Ref="17" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Busy1" Notes="0" Other="0" Ref="15" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Busy2" Notes="0" Other="0" Ref="14" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Clk2" Notes="0" Other="0" Ref="12" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Cont0" Notes="0" Other="0" Ref="11" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Cont1" Notes="0" Other="0" Ref="10" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Cont2" Notes="0" Other="0" Ref="1b" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Ctrig1" Notes="0" Other="0" Ref="c" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Ctrig2" Notes="0" Other="0" Ref="b" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Dut_Clk0" Notes="0" Other="0" Ref="16" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Front_Panel_Clk" Notes="0" Other="0" Ref="a" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Spare1" Notes="0" Other="0" Ref="f" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Spare2" Notes="0" Other="0" Ref="e" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Trig0" Notes="0" Other="0" Ref="d" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Trig2" Notes="0" Other="0" Ref="13" Reference="0" Status="Deleted"/>
+    </GroupSummary>
+    <ObjectSummary ID="1f" Kind="DiffPair" Name="Beam_Trigger0" Status="Deleted"/>
+    <ObjectSummary ID="1e" Kind="DiffPair" Name="Beam_Trigger1" Status="Deleted"/>
+    <ObjectSummary ID="1d" Kind="DiffPair" Name="Beam_Trigger2" Status="Deleted"/>
+    <ObjectSummary ID="1c" Kind="DiffPair" Name="Beam_Trigger3" Status="Deleted"/>
+    <ObjectSummary ID="1a" Kind="DiffPair" Name="Beam_Trigger_Cfd0" Status="Deleted"/>
+    <ObjectSummary ID="19" Kind="DiffPair" Name="Beam_Trigger_Cfd2" Status="Deleted"/>
+    <ObjectSummary ID="18" Kind="DiffPair" Name="Beam_Trigger_Cfd3" Status="Deleted"/>
+    <ObjectSummary ID="17" Kind="DiffPair" Name="Busy0" Status="Deleted"/>
+    <ObjectSummary ID="15" Kind="DiffPair" Name="Busy1" Status="Deleted"/>
+    <ObjectSummary ID="14" Kind="DiffPair" Name="Busy2" Status="Deleted"/>
+    <ObjectSummary ID="12" Kind="DiffPair" Name="Clk2" Status="Deleted"/>
+    <ObjectSummary ID="11" Kind="DiffPair" Name="Cont0" Status="Deleted"/>
+    <ObjectSummary ID="10" Kind="DiffPair" Name="Cont1" Status="Deleted"/>
+    <ObjectSummary ID="1b" Kind="DiffPair" Name="Cont2" Status="Deleted"/>
+    <ObjectSummary ID="c" Kind="DiffPair" Name="Ctrig1" Status="Deleted"/>
+    <ObjectSummary ID="b" Kind="DiffPair" Name="Ctrig2" Status="Deleted"/>
+    <ObjectSummary ID="16" Kind="DiffPair" Name="Dut_Clk0" Status="Deleted"/>
+    <ObjectSummary ID="a" Kind="DiffPair" Name="Front_Panel_Clk" Status="Deleted"/>
+    <ObjectSummary ID="f" Kind="DiffPair" Name="Spare1" Status="Deleted"/>
+    <ObjectSummary ID="e" Kind="DiffPair" Name="Spare2" Status="Deleted"/>
+    <ObjectSummary ID="d" Kind="DiffPair" Name="Trig0" Status="Deleted"/>
+    <ObjectSummary ID="13" Kind="DiffPair" Name="Trig2" Status="Deleted"/>
+    <GroupSummary ID="21" Name="Buses">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Fmc_La" Notes="0" Other="0" Ref="7" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Fmc_La*" Notes="0" Other="0" Ref="6" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="In" Notes="0" Other="0" Ref="8" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Vi" Notes="0" Other="0" Ref="2" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Vm1" Notes="0" Other="0" Ref="5" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Vm2" Notes="0" Other="0" Ref="4" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Vp1" Notes="0" Other="0" Ref="3" Reference="0" Status="Deleted"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Vthresh" Notes="0" Other="0" Ref="9" Reference="0" Status="Deleted"/>
+    </GroupSummary>
+    <ObjectSummary ID="7" Kind="Bus" Name="Fmc_La" Status="Deleted"/>
+    <ObjectSummary ID="6" Kind="Bus" Name="Fmc_La*" Status="Deleted"/>
+    <ObjectSummary ID="8" Kind="Bus" Name="In" Status="Deleted"/>
+    <ObjectSummary ID="2" Kind="Bus" Name="Vi" Status="Deleted"/>
+    <ObjectSummary ID="5" Kind="Bus" Name="Vm1" Status="Deleted"/>
+    <ObjectSummary ID="4" Kind="Bus" Name="Vm2" Status="Deleted"/>
+    <ObjectSummary ID="3" Kind="Bus" Name="Vp1" Status="Deleted"/>
+    <ObjectSummary ID="9" Kind="Bus" Name="Vthresh" Status="Deleted"/>
+  </Summaries>
+
+  <Notes>
+    <Note Text="The basecopy file generated by the last back-to-front flow not found.&#xA;" Type="Warning"/>
+    <Note Text="Baseline file(s) are invalid so Changes-only may make incorrect changes." Type="Warning"/>
+  </Notes>
+
+  <Layers>
+    <Layer Name="TOP" Type="Conductor"/>
+    <Layer Name="L2" Type="Plane"/>
+    <Layer Name="L3" Type="Plane"/>
+    <Layer Name="L4" Type="Plane"/>
+    <Layer Name="L5" Type="Plane"/>
+    <Layer Name="BOTTOM" Type="Conductor"/>
+  </Layers>
+
+  <GenericLayers>
+    <Layer Name="Conductor"/>
+    <Layer Name="Plane"/>
+  </GenericLayers>
+
+</ConstraintDifferenceReport>

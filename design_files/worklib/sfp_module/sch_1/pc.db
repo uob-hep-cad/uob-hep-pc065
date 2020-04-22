@@ -1,0 +1,115 @@
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.2-2016 S063 (3833650) 1/3/2020 on Wed Mar 11 15:47:19 2020
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#ISCELL
+  standard inport *
+  page1_i10
+#ISCELL
+  standard outport *
+  page1_i11
+#ISCELL
+  standard outport *
+  page1_i12
+#CELL
+  bris_cds_discrete max9381_umax *
+  page1_i13
+#ISCELL
+  cnpower p3v3 *
+  page1_i14
+#ISCELL
+  cnpower gnd *
+  page1_i15
+#CELL
+  cnpassive rsmd0402 *
+  page1_i16
+#CELL
+  cnpassive rsmd0402 *
+  page1_i18
+#CELL
+  cnconnector con20p_sfp *
+  page1_i19
+#ISCELL
+  standard ioport *
+  page1_i2
+#ISCELL
+  cnpower gnd *
+  page1_i20
+#CELL
+  cnpassive rsmd0402 *
+  page1_i21
+#ISCELL
+  cnpower p3v3 *
+  page1_i22
+#CELL
+  cnpassive rsmd0402 *
+  page1_i23
+#CELL
+  cnpassive rsmd0402 *
+  page1_i24
+#CELL
+  cnpassive rsmd0402 *
+  page1_i25
+#CELL
+  cndiscrete inductance *
+  page1_i29
+#ISCELL
+  standard inport *
+  page1_i3
+#CELL
+  cndiscrete inductance *
+  page1_i30
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i31
+#ISCELL
+  cnpower gnd *
+  page1_i32
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i33
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i35
+#ISCELL
+  cnpower gnd *
+  page1_i36
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i39
+#ISCELL
+  standard outport *
+  page1_i4
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i40
+#ISCELL
+  cnpower p3v3 *
+  page1_i41
+#ISCELL
+  cnpower gnd *
+  page1_i42
+#CELL
+  cnpassive rsmd0402 *
+  page1_i43
+#CELL
+  cnpassive rsmd0402 *
+  page1_i44
+#ISCELL
+  cnpower p1v3 *
+  page1_i45
+#ISCELL
+  standard outport *
+  page1_i5
+#ISCELL
+  standard inport *
+  page1_i6
+#ISCELL
+  standard inport *
+  page1_i7
+#ISCELL
+  standard inport *
+  page1_i8
+#ISCELL
+  standard inport *
+  page1_i9
