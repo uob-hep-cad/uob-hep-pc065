@@ -7,9 +7,6 @@
 #CELL
   cnpassive rsmd0402 *
   page1_i10
-#CELL
-  cnpassive rsmd0402 *
-  page1_i11
 #ISCELL
   cnpower p2v5 *
   page1_i12
@@ -22,6 +19,12 @@
 #ISCELL
   cnpower gnd *
   page1_i15
+#ISCELL
+  cnpower p2v5 *
+  page1_i16
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i17
 #CELL
   cnpassive rsmd0402 *
   page1_i2

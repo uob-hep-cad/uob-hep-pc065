@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc065a_toplevel_32.brd                        )
+(    Drawing          : pc065a_toplevel_60.brd                        )
 (    Software Version : 17.2S063                                      )
-(    Date/Time        : Mon Mar 23 17:09:09 2020                      )
+(    Date/Time        : Thu May 14 10:15:53 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'P:\cad\designs\uob-hep-pc065a\trunk\design_files\worklib\pc065a_toplevel\packaged'
 Design Directory:            'P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical'
-Old design name:             'P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/pc065a_toplevel_32.brd'
-New design name:             'P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/pc065a_toplevel_33.brd'
+Old design name:             'P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/pc065a_toplevel_60.brd'
+New design name:             'P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/pc065a_toplevel_61.brd'
 
-CmdLine: netrev -proj P:\cad\designs\uob-hep-pc065a\trunk\design_files\pc065a_toplevel.cpm -y 1 -z -O P:\cad\designs\uob-hep-pc065a\trunk\design_files\worklib\pc065a_toplevel\physical\pc065a_toplevel_32.brd P:\cad\designs\uob-hep-pc065a\trunk\design_files\worklib\pc065a_toplevel\physical\pc065a_toplevel_33.brd -q P:\cad\designs\uob-hep-pc065a\trunk\design_files\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj P:\cad\designs\uob-hep-pc065a\trunk\design_files\pc065a_toplevel.cpm -y 1 -z -O P:\cad\designs\uob-hep-pc065a\trunk\design_files\worklib\pc065a_toplevel\physical\pc065a_toplevel_60.brd P:\cad\designs\uob-hep-pc065a\trunk\design_files\worklib\pc065a_toplevel\physical\pc065a_toplevel_61.brd -q P:\cad\designs\uob-hep-pc065a\trunk\design_files\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/packaged/pstchip.dat 
-   Finished reading P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/packaged/pstchip.dat (00:00:00.70)
+   Finished reading P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/packaged/pstchip.dat (00:00:00.74)
 Starting to read P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/packaged/pstxprt.dat 
    Finished reading P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/packaged/pstxprt.dat (00:00:00.02)
 Starting to read P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/packaged/pstxnet.dat 
@@ -41,8 +41,8 @@ Starting to read P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/phpgb/AppData/Local/Temp/#Taaaaag08944.tmp
-	Start time: Mon Mar 23 17:09:09 2020
+	Allegro Baseline:   C:/Users/phpgb/AppData/Local/Temp/#Taaaaag00604.tmp
+	Start time: Thu May 14 10:15:53 2020
 ===========================================================
 
 
@@ -50,7 +50,7 @@ The constraint difference report file can be viewed using the following command:
 cdnFlowOOSMsg.exe -file file:///P:/cad/designs/uob-hep-pc065a/trunk/design_files/temp/constraints_difference_report.xml
 
 ===========================================================
-Finished Constraint Update	Time: Mon Mar 23 17:09:09 2020
+Finished Constraint Update	Time: Thu May 14 10:15:53 2020
 ===========================================================
 
 ------ Library Paths ------
@@ -119,9 +119,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 23 17:09:08 2020
+netrev run on May 14 10:15:52 2020
    DESIGN NAME : 'PC065A_TOPLEVEL'
-   PACKAGING ON 23-Mar-2020 AT 17:08:51
+   PACKAGING ON 14-May-2020 AT 10:15:36
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -136,7 +136,7 @@ netrev run on Mar 23 17:09:08 2020
               'bris_cds_switches' 'cn74lv' 'cn74tiac' 'cn75als' 'cncmos'
               'cnconnector' 'cndiscrete' 'cnpassive' 'cnpld' 'cnpower'
               'cnspecial' 'cnstandard' 'cnvlsi' 'standard' 'cnmech'
-              'cninterface' 'cnlinear'
+              'cninterface' 'cnlinear' 'cnmemory'
    MASTER_LIBRARIES  <none>
    MAX_ERRORS 500
    MERGE_MINIMUM 5
@@ -153,6 +153,6 @@ netrev run on Mar 23 17:09:08 2020
  No oversight detected
  No warning detected
 
-cpu time      0:05:39
+cpu time      0:05:10
 elapsed time  0:00:01
 

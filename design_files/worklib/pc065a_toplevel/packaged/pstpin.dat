@@ -1,6 +1,15 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 23-Mar-2020 AT 17:08:51 }
-TIME=' COMPILATION ON 23-Mar-2020 AT 17:08:51';
+{ Packager-XL run on 14-May-2020 AT 10:15:36 }
+TIME=' COMPILATION ON 14-May-2020 AT 10:15:36';
+primitive '24AA025E48T-I/SN';body '24AA025E48';
+    'VCC':'(8)';
+    'VSS':'(4)';
+    'SDA':'(5)';BIDI;
+    'SCL':'(6)';IN;
+    'A0':'(1)';IN;
+    'A1':'(2)';IN;
+    'A2':'(3)';IN;
+end_primitive;
 primitive '854S058AGILF-VDD=P3V3';body '854S058I';
     'PCLK'<0>:'(24,22,16,14,11,9,3,1)';$S;IN;
     'NPCLK'<0>:'(23,21,15,13,12,10,4,2)';$S;IN;
@@ -291,6 +300,10 @@ primitive 'MP20075_REG'; body 'MP20075_REG';
 end_primitive;
 primitive 'PCOAX-U.FL-R-SMT-1(10)';body 'PCOAX';
     'A':'(1)';
+end_primitive;
+primitive 'RSMD0402_-00,';body 'RSMD0402';
+    'A'<0>:'(1)';BIDI;
+    'B'<0>:'(2)';BIDI;
 end_primitive;
 primitive 'RSMD0402_0.0625W-XX,1%';body 'RSMD0402';
     'A'<0>:'(1)';BIDI;
