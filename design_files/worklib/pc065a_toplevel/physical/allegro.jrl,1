@@ -1,0 +1,45 @@
+\t (00:00:05) allegro 17.2 S061 Linux SPB 64-bit Edition
+\t (00:00:05)     Journal start - Tue May  5 17:17:52 2020
+\t (00:00:05)         Host=excession.phy.bris.ac.uk User=phdgc Pid=19116 CPUs=12
+\t (00:00:05) CmdLine= /software/CAD/Cadence/SPB17.20.061/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc065a/trunk/design_files/pc065a_toplevel.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession phdgc_ProjectMgr16907 -mpshost excession.phy.bris.ac.uk
+\t (00:00:05) 
+   (00:00:06) Loading axlcore.cxt 
+   (00:00:06) *Error* load: can't access file - "~/Download/fcircle.il"
+   (00:00:06) Searching for nsWare programs v2.62
+   (00:00:06) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
+   (00:00:06) 	NsWare programs must reside in this directory!
+\t (00:00:06) Opening existing design...
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged pc065a_toplevel_60
+\d (00:00:07) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/pc065a_toplevel_60.brd
+\i (00:00:07) trapsize 720
+\i (00:00:07) trapsize 741
+\i (00:00:07) trapsize 736
+\i (00:00:07) trapsize 736
+\i (00:00:07) generaledit 
+\i (00:00:12) open 
+\i (00:00:16) fillin "menu_cancel"
+\i (00:00:16) generaledit 
+\i (00:00:40) roam start
+\i (00:00:40) roam x 160
+\i (00:00:40) roam y -64
+\i (00:00:41) roam x 528
+\i (00:00:41) roam y -112
+\i (00:00:41) roam x 736
+\i (00:00:41) roam y -112
+\i (00:00:41) roam x 864
+\i (00:00:41) roam y -112
+\i (00:00:41) roam end
+\i (00:00:42) roam start
+\i (00:00:42) roam y -112
+\i (00:00:42) roam y -512
+\i (00:00:42) roam x 32
+\i (00:00:42) roam y -704
+\i (00:00:42) roam x 80
+\i (00:00:42) roam y -832
+\i (00:00:42) roam x 64
+\i (00:00:42) roam y -896
+\i (00:00:43) roam end
+\i (00:00:51) zoom fit 
+\i (00:00:51) trapsize 5641
+\i (00:00:59) exit 
+\t (00:00:59)     Journal end - Tue May  5 17:18:46 2020

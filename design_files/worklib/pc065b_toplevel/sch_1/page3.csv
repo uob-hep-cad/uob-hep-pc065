@@ -1,0 +1,1329 @@
+FILE_TYPE = CONNECTIVITY;
+{Allegro Design Entry HDL 17.2-2016 S063 (3833650) 1/3/2020}
+"PAGE_NUMBER" = 4;
+0"NC";
+1"GND\g";
+2"GND\g";
+3"P3V3\g";
+4"GND\g";
+5"FMC_LA_N<0..33>";
+6"TD_FFD_N<0..7>";
+7"TD_FFD_P<0..7>";
+8"FMC_LA_P<0..33>";
+9"SFP_I2C_SCL_CVCC<0..7>";
+10"RD_FPGA_N<0..3>";
+11"RD_FPGA_P<0..3>";
+12"SFP_I2C_SDA_CVCC<0..7>";
+13"MUX_SEL_CVCC<0..2>";
+14"CLK_DIR";
+15"RD_FPGA_P<1>";
+16"RD_FPGA_P<2>";
+17"CLK_MAIN_N<8>";
+18"CLK_IN_N<1>";
+19"CLK_IN_P<1>";
+20"CLK_BIDIR_P<0..1>";
+21"CLK_M2C_N<0..1>";
+22"REC_CLK_FPGA_N";
+23"CLK_MAIN_P<8>";
+24"CLK_M2C_P<0..1>";
+25"REC_CLK_FPGA_P";
+26"CLK_BIDIR_N<0..1>";
+27"RST_I2C_B_CVCC";
+28"I2C_SDA_CVCC";
+29"I2C_SCL_CVCC";
+30"PGOOD_C2M";
+31"CDR_D_N";
+32"CDR_D_P";
+33"FMC_LA_N<33>";
+34"FMC_LA_N<15>";
+35"FMC_LA_N<11>";
+36"FMC_LA_N<7>";
+37"FMC_LA_N<19>";
+38"FMC_LA_N<21>";
+39"FMC_LA_N<2>";
+40"PRSNT_L";
+41"UN$4$FMCHPCGENERIC$I1$GA0";
+42"UN$4$FMCHPCGENERIC$I1$GA1";
+43"FMC_LA_P<27>";
+44"FMC_LA_P<1>";
+45"FMC_LA_N<27>";
+46"SFP_I2C_SDA_CVCC<7>";
+47"SFP_I2C_SDA_CVCC<6>";
+48"SFP_I2C_SDA_CVCC<5>";
+49"SFP_I2C_SDA_CVCC<4>";
+50"SFP_I2C_SDA_CVCC<3>";
+51"SFP_I2C_SDA_CVCC<2>";
+52"SFP_I2C_SDA_CVCC<1>";
+53"SFP_I2C_SDA_CVCC<0>";
+54"TD_FFD_P<3>";
+55"RD_FPGA_P<0>";
+56"TD_FFD_P<5>";
+57"FMC_LA_N<8>";
+58"RD_FPGA_P<3>";
+59"FMC_LA_N<6>";
+60"FMC_LA_N<30>";
+61"FMC_LA_N<28>";
+62"FMC_LA_N<3>";
+63"FMC_LA_N<18>";
+64"FMC_LA_N<31>";
+65"FMC_LA_N<9>";
+66"FMC_LA_N<10>";
+67"FMC_LA_N<12>";
+68"FMC_LA_N<24>";
+69"TD_FFD_P<6>";
+70"TD_FFD_P<4>";
+71"FMC_LA_N<14>";
+72"TD_FFD_P<0>";
+73"TD_FFD_P<1>";
+74"TD_FFD_P<2>";
+75"TD_FFD_P<7>";
+76"FMC_LA_N<4>";
+%"FMC_HPC_GENERIC"
+"1","(4875,3125)","0","uob_hep_pc065a_lib","I1";
+;
+BLOCK"TRUE"
+CDS_LIB"uob_hep_pc065a_lib";
+"DP_C2M_P<0..9>"
+VHDL_MODE"OUT"0;
+"DP_C2M_N<0..9> \B"
+VHDL_MODE"OUT"0;
+"PG_C2M"
+VHDL_MODE"OUT"30;
+"SDA"
+VHDL_MODE"INOUT"28;
+"GA1"
+VHDL_MODE"OUT"42;
+"GA0"
+VHDL_MODE"OUT"41;
+"SCL"
+VHDL_MODE"OUT"29;
+"TRST_L"
+VHDL_MODE"OUT"0;
+"TMS"
+VHDL_MODE"OUT"0;
+"TDO"
+VHDL_MODE"IN"0;
+"TDI"
+VHDL_MODE"OUT"0;
+"TCK"
+VHDL_MODE"OUT"0;
+"CLK_DIR"
+VHDL_MODE"IN"14;
+"CLK_BIDIR_N<0..1> \B"
+VHDL_MODE"INOUT"26;
+"CLK_BIDIR_P<0..1>"
+VHDL_MODE"INOUT"20;
+"PG_M2C"
+VHDL_MODE"IN"0;
+"HA_N<0..23> \B"
+VHDL_MODE"INOUT"0;
+"HA_P<0..23>"
+VHDL_MODE"INOUT"0;
+"LA_N<0..33> \B"
+VHDL_MODE"INOUT"5;
+"LA_P<0..33>"
+VHDL_MODE"INOUT"8;
+"CLK_M2C_P<0..1>"
+VHDL_MODE"IN"24;
+"CLK_M2C_N<0..1> \B"
+VHDL_MODE"IN"21;
+"PRSNT_M2C_L"
+VHDL_MODE"IN"40;
+"HB_P<0..21>"
+VHDL_MODE"INOUT"0;
+"DP_M2C_N<0..9> \B"
+VHDL_MODE"IN"0;
+"DP_M2C_P<0..9>"
+VHDL_MODE"IN"0;
+"GBTCLK_M2C_N<0..1> \B"
+VHDL_MODE"IN"0;
+"GBTCLK_M2C_P<0..1>"
+VHDL_MODE"IN"0;
+"HB_N<0..21> \B"
+VHDL_MODE"INOUT"0;
+"VREF_A_M2C"
+VHDL_MODE"IN"0;
+"VREF_B_M2C"
+VHDL_MODE"IN"0;
+"VIO_B_M2C"
+VHDL_MODE"IN"0;
+%"INPORT"
+"1","(-250,5125)","0","standard","I100";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"IN"
+HDL_PORT"IN"32;
+%"TAP"
+"6","(1150,4775)","2","standard","I101";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"6;
+"S \NAC"
+BN"0"39;
+%"TAP"
+"6","(1150,4700)","2","standard","I102";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"6;
+"S \NAC"
+BN"1"76;
+%"TAP"
+"6","(1150,4625)","2","standard","I103";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"6;
+"S \NAC"
+BN"2"36;
+%"TAP"
+"6","(1150,4550)","2","standard","I104";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"6;
+"S \NAC"
+BN"3"35;
+%"TAP"
+"6","(1150,4475)","2","standard","I105";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"6;
+"S \NAC"
+BN"4"34;
+%"TAP"
+"6","(1150,4400)","2","standard","I106";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"6;
+"S \NAC"
+BN"5"37;
+%"TAP"
+"6","(1150,4325)","2","standard","I107";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"6;
+"S \NAC"
+BN"6"38;
+%"TAP"
+"6","(1150,4250)","2","standard","I108";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"6;
+"S \NAC"
+BN"7"68;
+%"OUTPORT"
+"1","(-700,4850)","2","standard","I110";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"OUT"
+HDL_PORT"OUT"7;
+%"TAP"
+"6","(-175,4775)","0","standard","I111";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"7;
+"S \NAC"
+BN"0"72;
+%"TAP"
+"6","(-175,4475)","0","standard","I112";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"7;
+"S \NAC"
+BN"4"70;
+%"TAP"
+"6","(-175,4625)","0","standard","I113";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"7;
+"S \NAC"
+BN"2"74;
+%"TAP"
+"6","(-175,4700)","0","standard","I114";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"7;
+"S \NAC"
+BN"1"73;
+%"TAP"
+"6","(-175,4550)","0","standard","I115";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"7;
+"S \NAC"
+BN"3"54;
+%"TAP"
+"6","(-175,4400)","0","standard","I116";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"7;
+"S \NAC"
+BN"5"56;
+%"TAP"
+"6","(-175,4325)","0","standard","I117";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"7;
+"S \NAC"
+BN"6"69;
+%"TAP"
+"6","(-175,4250)","0","standard","I118";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"7;
+"S \NAC"
+BN"7"75;
+%"OUTPORT"
+"1","(2175,2775)","2","standard","I119";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"OUT"
+HDL_PORT"OUT"19;
+%"INPORT"
+"1","(2175,3275)","0","standard","I12";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+VHDL_PORT"IN"
+HDL_PORT"IN"25;
+%"TAP"
+"6","(325,5125)","2","standard","I120";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"0"32;
+%"TAP"
+"6","(625,5125)","0","standard","I121";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"0"31;
+%"RSMD0402"
+"2","(5175,1675)","1","cnpassive","I123";
+;
+CDS_LOCATION"R184"
+CDS_SEC"1"
+$SEC"1"
+VALUE"0R0"
+$LOCATION"R184"
+CDS_LIB"cnpassive"
+TOL"1%"
+PACK_TYPE"1/16W"
+DIST"FLAT"
+MAX_TEMP"RTMAX"
+NEGTOL"RTOL%"
+POSTOL"RTOL%"
+POWER"RMAX"
+SIZE"1B"
+SLOPE"RSMAX"
+TC1"RTMPL"
+TC2"RTMPQ"
+TOL_ON_OFF"ON"
+VOLTAGE"RVMAX";
+"A <SIZE-1..0>\NAC"
+$PN"1"1;
+"B <SIZE-1..0>\NAC"
+$PN"2"41;
+%"RSMD0402"
+"2","(5275,1675)","1","cnpassive","I124";
+;
+CDS_LOCATION"R185"
+CDS_SEC"1"
+$SEC"1"
+VALUE"0R0"
+$LOCATION"R185"
+TOL"1%"
+PACK_TYPE"1/16W"
+DIST"FLAT"
+MAX_TEMP"RTMAX"
+NEGTOL"RTOL%"
+POSTOL"RTOL%"
+POWER"RMAX"
+SIZE"1B"
+SLOPE"RSMAX"
+TC1"RTMPL"
+TC2"RTMPQ"
+TOL_ON_OFF"ON"
+VOLTAGE"RVMAX"
+CDS_LIB"cnpassive";
+"A <SIZE-1..0>\NAC"
+$PN"1"1;
+"B <SIZE-1..0>\NAC"
+$PN"2"42;
+%"GND"
+"1","(5225,1425)","0","cnpower","I125";
+;
+CDS_LIB"cnpower"
+BODY_TYPE"PLUMBING"
+HDL_POWER"GND"
+SIZE"1B";
+"A<SIZE-1..0>\NAC"
+VHDL_INIT"0"1;
+%"TAP"
+"2","(2725,3275)","0","standard","I128";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"24;
+"S \NAC"
+BN"0"25;
+%"TAP"
+"2","(2725,3200)","0","standard","I129";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"24;
+"S \NAC"
+BN"1"23;
+%"INPORT"
+"1","(2150,3000)","0","standard","I13";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+VHDL_PORT"IN"
+HDL_PORT"IN"22;
+%"INPORT"
+"1","(1200,5125)","2","standard","I130";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"IN"
+HDL_PORT"IN"31;
+%"TAP"
+"6","(2725,2925)","2","standard","I131";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"21;
+"S \NAC"
+BN"1"17;
+%"TAP"
+"6","(2725,3000)","2","standard","I132";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"21;
+"S \NAC"
+BN"0"22;
+%"TAP"
+"6","(2825,2675)","2","standard","I134";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"26;
+"S \NAC"
+BN"0"18;
+%"OUTPORT"
+"1","(2175,2675)","2","standard","I135";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"OUT"
+HDL_PORT"OUT"18;
+%"TAP"
+"6","(2825,2775)","2","standard","I136";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"20;
+"S \NAC"
+BN"0"19;
+%"RSMD0603"
+"2","(3000,2425)","0","cnpassive","I137";
+;
+TOL"1%"
+VALUE"10K"
+PACK_TYPE"1/10W"
+CDS_LIB"cnpassive"
+$LOCATION"R?"
+DIST"FLAT"
+MAX_TEMP"RTMAX"
+NEGTOL"RTOL%"
+POSTOL"RTOL%"
+POWER"RMAX"
+SIZE"1B"
+SLOPE"RSMAX"
+TC1"RTMPL"
+TC2"RTMPQ"
+TOL_ON_OFF"ON"
+VOLTAGE"RVMAX";
+"A <SIZE-1..0>\NAC"3;
+"B <SIZE-1..0>\NAC"14;
+%"P3V3"
+"1","(2800,2525)","2","cnpower","I138";
+;
+SIZE"1B"
+BODY_TYPE"PLUMBING"
+CDS_LIB"cnpower"
+HDL_POWER"P3V3";
+"A<SIZE-1..0>\NAC"
+VHDL_INIT"1"3;
+%"RSMD0603"
+"2","(3000,2325)","0","cnpassive","I139";
+;
+VOLTAGE"RVMAX"
+TOL_ON_OFF"ON"
+TC2"RTMPQ"
+TC1"RTMPL"
+SLOPE"RSMAX"
+SIZE"1B"
+POWER"RMAX"
+POSTOL"RTOL%"
+NEGTOL"RTOL%"
+MAX_TEMP"RTMAX"
+DIST"FLAT"
+$LOCATION"R?"
+CDS_LIB"cnpassive"
+PACK_TYPE"1/10W"
+TOL"1%"
+VALUE"XX";
+"A <SIZE-1..0>\NAC"2;
+"B <SIZE-1..0>\NAC"14;
+%"INPORT"
+"1","(2175,3200)","0","standard","I14";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+HDL_PORT"IN"
+VHDL_PORT"IN"23;
+%"GND"
+"1","(2800,2175)","0","cnpower","I140";
+;
+SIZE"1B"
+HDL_POWER"GND"
+BODY_TYPE"PLUMBING"
+CDS_LIB"cnpower";
+"A<SIZE-1..0>\NAC"
+VHDL_INIT"0"2;
+%"INPORT"
+"1","(2150,2925)","0","standard","I15";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"IN"
+HDL_PORT"IN"17;
+%"IOPORT"
+"1","(-825,5425)","2","standard","I16";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+HDL_PORT"INOUT"
+VHDL_PORT"INOUT"8;
+%"IOPORT"
+"1","(-825,5325)","2","standard","I17";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+HDL_PORT"INOUT"
+VHDL_PORT"INOUT"5;
+%"TAP"
+"6","(325,4775)","2","standard","I18";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"2"72;
+%"TAP"
+"6","(325,4700)","2","standard","I19";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"4"73;
+%"RSMD0402"
+"2","(3125,2050)","0","cnpassive","I2";
+;
+CDS_LOCATION"R30"
+CDS_SEC"1"
+$SEC"1"
+$LOCATION"R30"
+VALUE"0R0"
+VOLTAGE"RVMAX"
+TOL_ON_OFF"ON"
+TC2"RTMPQ"
+TC1"RTMPL"
+SLOPE"RSMAX"
+SIZE"1B"
+POWER"RMAX"
+POSTOL"RTOL%"
+NEGTOL"RTOL%"
+MAX_TEMP"RTMAX"
+DIST"FLAT"
+PACK_TYPE"1/16W"
+TOL"1%"
+CDS_LIB"cnpassive";
+"A <SIZE-1..0>\NAC"
+$PN"1"4;
+"B <SIZE-1..0>\NAC"
+$PN"2"40;
+%"TAP"
+"6","(325,4625)","2","standard","I20";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"7"74;
+%"TAP"
+"6","(325,4550)","2","standard","I21";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"11"54;
+%"TAP"
+"6","(325,4250)","2","standard","I22";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"24"75;
+%"TAP"
+"6","(325,4475)","2","standard","I23";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"15"70;
+%"TAP"
+"6","(325,4400)","2","standard","I24";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"19"56;
+%"TAP"
+"6","(325,4325)","2","standard","I25";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"21"69;
+%"TAP"
+"6","(625,4775)","0","standard","I26";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"2"39;
+%"TAP"
+"6","(625,4700)","0","standard","I27";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"4"76;
+%"TAP"
+"6","(625,4625)","0","standard","I28";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"7"36;
+%"TAP"
+"6","(625,4550)","0","standard","I29";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"11"35;
+%"GND"
+"1","(2975,1850)","0","cnpower","I3";
+;
+BODY_TYPE"PLUMBING"
+HDL_POWER"GND"
+SIZE"1B"
+CDS_LIB"cnpower";
+"A<SIZE-1..0>\NAC"
+VHDL_INIT"0"4;
+%"TAP"
+"6","(625,4475)","0","standard","I30";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"15"34;
+%"TAP"
+"6","(625,4400)","0","standard","I31";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"19"37;
+%"TAP"
+"6","(625,4325)","0","standard","I32";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"21"38;
+%"TAP"
+"6","(625,4250)","0","standard","I33";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"24"68;
+%"TAP"
+"6","(625,3925)","0","standard","I34";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"3"62;
+%"TAP"
+"6","(325,3925)","2","standard","I35";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"3"55;
+%"TAP"
+"6","(325,3850)","2","standard","I36";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"28"15;
+%"TAP"
+"6","(625,3850)","0","standard","I37";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"28"61;
+%"TAP"
+"6","(325,3775)","2","standard","I38";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"30"16;
+%"TAP"
+"6","(625,3775)","0","standard","I39";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"30"60;
+%"OUTPORT"
+"1","(6200,5050)","0","standard","I4";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+HDL_PORT"OUT"
+VHDL_PORT"OUT"30;
+%"TAP"
+"6","(325,3700)","2","standard","I40";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"8"58;
+%"TAP"
+"6","(625,3700)","0","standard","I41";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"8"57;
+%"TAP"
+"6","(325,3225)","2","standard","I44";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"31"50;
+%"TAP"
+"6","(325,3450)","2","standard","I45";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"6"53;
+%"TAP"
+"6","(325,3375)","2","standard","I46";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"12"52;
+%"TAP"
+"6","(325,3300)","2","standard","I47";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"10"51;
+%"TAP"
+"6","(625,3450)","0","standard","I48";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"6"59;
+%"TAP"
+"6","(625,3375)","0","standard","I49";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"12"67;
+%"OUTPORT"
+"1","(5625,1000)","0","standard","I5";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"OUT"
+HDL_PORT"OUT"29;
+%"TAP"
+"6","(625,3300)","0","standard","I50";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"10"66;
+%"TAP"
+"6","(625,3225)","0","standard","I51";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"31"64;
+%"TAP"
+"6","(625,2925)","0","standard","I52";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"33"33;
+%"TAP"
+"6","(625,3000)","0","standard","I53";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"18"63;
+%"TAP"
+"6","(625,3075)","0","standard","I54";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"9"65;
+%"TAP"
+"6","(625,3150)","0","standard","I55";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"14"71;
+%"TAP"
+"6","(325,3150)","2","standard","I56";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"14"49;
+%"TAP"
+"6","(325,3000)","2","standard","I57";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"18"47;
+%"TAP"
+"6","(325,3075)","2","standard","I58";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"9"48;
+%"TAP"
+"6","(325,2925)","2","standard","I59";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"33"46;
+%"IOPORT"
+"1","(5625,1075)","0","standard","I6";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"INOUT"
+HDL_PORT"INOUT"28;
+%"TAP"
+"6","(-200,3450)","0","standard","I60";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"12;
+"S \NAC"
+BN"0"53;
+%"TAP"
+"6","(-200,3375)","0","standard","I61";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"12;
+"S \NAC"
+BN"1"52;
+%"TAP"
+"6","(-200,3225)","0","standard","I62";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"12;
+"S \NAC"
+BN"3"50;
+%"TAP"
+"6","(-200,3300)","0","standard","I63";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"12;
+"S \NAC"
+BN"2"51;
+%"TAP"
+"6","(-200,3150)","0","standard","I64";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"12;
+"S \NAC"
+BN"4"49;
+%"TAP"
+"6","(-200,3075)","0","standard","I65";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"12;
+"S \NAC"
+BN"5"48;
+%"TAP"
+"6","(-200,3000)","0","standard","I66";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"12;
+"S \NAC"
+BN"6"47;
+%"TAP"
+"6","(-200,2925)","0","standard","I67";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"12;
+"S \NAC"
+BN"7"46;
+%"IOPORT"
+"1","(-900,3550)","2","standard","I68";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"INOUT"
+HDL_PORT"INOUT"12;
+%"OUTPORT"
+"1","(1850,3550)","0","standard","I69";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+VHDL_PORT"OUT"
+HDL_PORT"OUT"9;
+%"TAP"
+"6","(1125,3450)","2","standard","I70";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"9;
+"S \NAC"
+BN"0"59;
+%"TAP"
+"6","(1125,3375)","2","standard","I71";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"9;
+"S \NAC"
+BN"1"67;
+%"TAP"
+"6","(1125,3300)","2","standard","I72";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"9;
+"S \NAC"
+BN"2"66;
+%"TAP"
+"6","(1125,3225)","2","standard","I73";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"9;
+"S \NAC"
+BN"3"64;
+%"TAP"
+"6","(1125,3075)","2","standard","I74";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"9;
+"S \NAC"
+BN"5"65;
+%"TAP"
+"6","(1125,3150)","2","standard","I75";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"9;
+"S \NAC"
+BN"4"71;
+%"TAP"
+"6","(1125,2925)","2","standard","I76";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"9;
+"S \NAC"
+BN"7"33;
+%"TAP"
+"6","(1125,3000)","2","standard","I77";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"9;
+"S \NAC"
+BN"6"63;
+%"TAP"
+"6","(-200,2650)","0","standard","I79";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"13;
+"S \NAC"
+BN"0"43;
+%"TAP"
+"6","(-200,2575)","0","standard","I80";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"13;
+"S \NAC"
+BN"1"44;
+%"TAP"
+"6","(-200,2500)","0","standard","I81";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"13;
+"S \NAC"
+BN"2"45;
+%"OUTPORT"
+"1","(-750,2775)","2","standard","I82";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+HDL_PORT"OUT"
+VHDL_PORT"OUT"13;
+%"TAP"
+"6","(325,2650)","2","standard","I83";
+;
+CDS_LIB"standard"
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"27"43;
+%"TAP"
+"6","(325,2575)","2","standard","I84";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"8;
+"S \NAC"
+BN"1"44;
+%"TAP"
+"6","(525,2500)","2","standard","I85";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"27"45;
+%"TAP"
+"6","(625,2575)","0","standard","I86";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE";
+"B \NAC \NWC"5;
+"S \NAC"
+BN"1"27;
+%"OUTPORT"
+"1","(1325,2575)","0","standard","I87";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"OUT"
+HDL_PORT"OUT"27;
+%"INPORT"
+"1","(-725,4025)","0","standard","I88";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+HDL_PORT"IN"
+VHDL_PORT"IN"11;
+%"TAP"
+"6","(-175,3925)","0","standard","I89";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"11;
+"S \NAC"
+BN"0"55;
+%"TAP"
+"6","(-175,3850)","0","standard","I90";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"11;
+"S \NAC"
+BN"1"15;
+%"TAP"
+"6","(-175,3775)","0","standard","I91";
+;
+BODY_TYPE"PLUMBING"
+HDL_TAP"TRUE"
+CDS_LIB"standard";
+"B \NAC \NWC"11;
+"S \NAC"
+BN"2"16;
+%"TAP"
+"6","(-175,3700)","0","standard","I92";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"11;
+"S \NAC"
+BN"3"58;
+%"INPORT"
+"1","(1700,4025)","2","standard","I93";
+;
+OFFPAGE"TRUE"
+CDS_LIB"standard";
+"A"
+HDL_PORT"IN"
+VHDL_PORT"IN"10;
+%"TAP"
+"6","(1150,3925)","2","standard","I94";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"10;
+"S \NAC"
+BN"0"62;
+%"TAP"
+"6","(1150,3850)","2","standard","I95";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"10;
+"S \NAC"
+BN"1"61;
+%"TAP"
+"6","(1150,3775)","2","standard","I96";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"10;
+"S \NAC"
+BN"2"60;
+%"TAP"
+"6","(1150,3700)","2","standard","I97";
+;
+HDL_TAP"TRUE"
+BODY_TYPE"PLUMBING"
+CDS_LIB"standard";
+"B \NAC \NWC"10;
+"S \NAC"
+BN"3"57;
+%"OUTPORT"
+"1","(1700,4850)","0","standard","I98";
+;
+CDS_LIB"standard"
+OFFPAGE"TRUE";
+"A"
+VHDL_PORT"OUT"
+HDL_PORT"OUT"6;
+END.

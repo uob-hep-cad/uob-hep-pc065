@@ -1,0 +1,878 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : pc065a_toplevel_53.brd                        )
+(    Software Version : 17.2S063                                      )
+(    Date/Time        : Tue Apr 07 21:45:13 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+ WARNING: Generating english output data from a metric database
+ may cause slight roundoff error of coordinates in output file.
+
+
+
+
+================================================================
+     PROCESSING FILM < L01P >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_L01P.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(79.8673 -10.0001) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(77.5248 -10.0000) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(31.4609 7.8000) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00669                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02520                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+  SQUARE     0.02362                     0.000 NO     DARK 
+  SQUARE     0.06299                     0.000 NO     DARK 
+  SQUARE     0.12795                     0.000 NO     DARK 
+  RECTANGLE  0.01300     x 0.03000       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.01378      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.00984       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.00984      90.000 NO     DARK 
+  RECTANGLE  0.03346     x 0.00984       0.000 NO     DARK 
+  RECTANGLE  0.03346     x 0.00984      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724       0.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.01772       0.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.01772      90.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.04724       0.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.07087     x 0.09843      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.08268     x 0.06299       0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,500.00  90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,500.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,500.00 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,500.00 270.000 NO     DARK 
+
+     art_pc065a_L01P.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < L02P >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_L02P.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(79.8673 -10.0001) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(77.5248 -10.0000) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2.1049 3.3248) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2.1048 4.4752) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+
+     art_pc065a_L02P.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < L03P >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_L03P.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00669                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+
+     art_pc065a_L03P.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < L04P >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_L04P.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(79.8673 -10.0001) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(77.5248 -10.0000) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2.1049 3.3248) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2.1048 4.4752) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+
+     art_pc065a_L04P.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < L05P >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_L05P.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+
+     art_pc065a_L05P.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < L06P >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_L06P.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00669                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+
+     art_pc065a_L06P.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < ASSEMBLY_TOP >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_ASSEMBLY_TOP.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (0.8500 -9.2000) in MM
+           ... using undefined line width of 0.2000 MM
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000 MM
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00098                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00492                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00799                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+
+     art_pc065a_ASSEMBLY_TOP.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < SMD1 >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_SMD1.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.02520                                  DARK 
+  SQUARE     0.02362                     0.000 NO     DARK 
+  SQUARE     0.06299                     0.000 NO     DARK 
+  SQUARE     0.12795                     0.000 NO     DARK 
+  RECTANGLE  0.01200     x 0.02600       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.00984       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.00984      90.000 NO     DARK 
+  RECTANGLE  0.03346     x 0.00984       0.000 NO     DARK 
+  RECTANGLE  0.03346     x 0.00984      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724       0.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.01772       0.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.01772      90.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.04724       0.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.06378     x 0.08858      90.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.04724       0.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.01969      90.000 NO     DARK 
+
+     art_pc065a_SMD1.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_OUTLINE.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+
+     art_pc065a_OUTLINE.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOHR >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_BOHR.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.5000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     art_pc065a_BOHR.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < POS2 >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_POS2.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2500 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00709                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00799                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+
+     art_pc065a_POS2.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < POS1 >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_POS1.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2500 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00669                                  DARK 
+  CIRCLE     0.00709                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00799                                  DARK 
+  CIRCLE     0.00984                                  DARK 
+
+     art_pc065a_POS1.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < LSM2 >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_LSM2.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.05120                                  DARK 
+  CIRCLE     0.06102                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+  SQUARE     0.03346                     0.000 NO     DARK 
+  SQUARE     0.08858                     0.000 NO     DARK 
+  SQUARE     0.20866                     0.000 NO     DARK 
+  RECTANGLE  0.02400     x 0.03600      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.04134     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.06496     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.06890     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.08661     x 0.04134       0.000 NO     DARK 
+
+     art_pc065a_LSM2.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < LSM1 >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_LSM1.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.03504                                  DARK 
+  CIRCLE     0.05120                                  DARK 
+  CIRCLE     0.06102                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06500                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+  SQUARE     0.03346                     0.000 NO     DARK 
+  SQUARE     0.06299                     0.000 NO     DARK 
+  SQUARE     0.12795                     0.000 NO     DARK 
+  RECTANGLE  0.01900     x 0.03600       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.00984       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.00984      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.02165      90.000 NO     DARK 
+  RECTANGLE  0.03346     x 0.00984       0.000 NO     DARK 
+  RECTANGLE  0.03346     x 0.00984      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150       0.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.01772       0.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.01772      90.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.04724       0.000 NO     DARK 
+  RECTANGLE  0.05709     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.06496     x 0.05709       0.000 NO     DARK 
+  RECTANGLE  0.06496     x 0.05709      90.000 NO     DARK 
+  RECTANGLE  0.07677     x 0.10433      90.000 NO     DARK 
+  RECTANGLE  0.07874     x 0.01969      90.000 NO     DARK 
+  RECTANGLE  0.09449     x 0.07480       0.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,1000.0  90.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,1000.0 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,1000.0 180.000 NO     DARK 
+  PAD SHAPE  ROUNDED_RECTANGLE ,1000.0 270.000 NO     DARK 
+
+     art_pc065a_LSM1.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < ASSEMBLY_BOTTOM >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_ASSEMBLY_BOTTOM.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00098                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00492                                  DARK 
+  CIRCLE     0.00709                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.00799                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+
+     art_pc065a_ASSEMBLY_BOTTOM.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < SMD2 >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_SMD2.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  SQUARE     0.02362                     0.000 NO     DARK 
+  SQUARE     0.08858                     0.000 NO     DARK 
+  SQUARE     0.20866                     0.000 NO     DARK 
+  RECTANGLE  0.01400     x 0.02600      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.04134     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.01772       0.000 NO     DARK 
+  RECTANGLE  0.08661     x 0.04134       0.000 NO     DARK 
+
+     art_pc065a_SMD2.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < L08P >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_L08P.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(63.3222 19.9202) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(62.5000 19.0248) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(70.7027 19.8873) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(74.0000 19.4248) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(74.0000 18.1248) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(96.9700 18.4001) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(21.2048 20.8481) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(35.9814 20.2740) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(32.5501 0.7503) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00591                                  DARK 
+  CIRCLE     0.00669                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+  SQUARE     0.02362                     0.000 NO     DARK 
+  SQUARE     0.08858                     0.000 NO     DARK 
+  SQUARE     0.20866                     0.000 NO     DARK 
+  RECTANGLE  0.01400     x 0.02600      90.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01181       0.000 NO     DARK 
+  RECTANGLE  0.03150     x 0.01181      90.000 NO     DARK 
+  RECTANGLE  0.04134     x 0.03937      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724       0.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.01772       0.000 NO     DARK 
+  RECTANGLE  0.08661     x 0.04134       0.000 NO     DARK 
+
+     art_pc065a_L08P.ger created with warnings
+
+
+================================================================
+     PROCESSING FILM < L07P >
+     TO FILE < P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/artwork/art_pc065a_L07P.ger > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000 MM
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Segment with same start and end points at
+	(135.1001 13.1752) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(135.1000 12.0248) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(79.8673 -10.0001) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(77.5248 -10.0000) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2.1049 8.4248) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-2.1048 9.5752) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(25.2248 -6.0000) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(25.6752 -6.7000) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(25.0999 -6.1248) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+
+
+  APERTURES USED (UNIT = IN):
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02559                                  DARK 
+  CIRCLE     0.03937                                  DARK 
+  CIRCLE     0.03940                                  DARK 
+  CIRCLE     0.05500                                  DARK 
+  CIRCLE     0.06496                                  DARK 
+  CIRCLE     0.06693                                  DARK 
+  CIRCLE     0.06890                                  DARK 
+  CIRCLE     0.14173                                  DARK 
+
+     art_pc065a_L07P.ger created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        art_pc065a_L01P.ger created with warnings
+        art_pc065a_L02P.ger created with warnings
+        art_pc065a_L03P.ger created with warnings
+        art_pc065a_L04P.ger created with warnings
+        art_pc065a_L05P.ger created with warnings
+        art_pc065a_L06P.ger created with warnings
+        art_pc065a_ASSEMBLY_TOP.ger created with warnings
+        art_pc065a_SMD1.ger created with warnings
+        art_pc065a_OUTLINE.ger created with warnings
+        art_pc065a_BOHR.ger created with warnings
+        art_pc065a_POS2.ger created with warnings
+        art_pc065a_POS1.ger created with warnings
+        art_pc065a_LSM2.ger created with warnings
+        art_pc065a_LSM1.ger created with warnings
+        art_pc065a_ASSEMBLY_BOTTOM.ger created with warnings
+        art_pc065a_SMD2.ger created with warnings
+        art_pc065a_L08P.ger created with warnings
+        art_pc065a_L07P.ger created with warnings
+
+ ARTWORK had warnings

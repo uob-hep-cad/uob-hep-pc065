@@ -1,0 +1,101 @@
+\t (00:00:05) allegro 17.2 S055 Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Thu Jun 04 09:54:09 2020
+\t (00:00:05)         Host=IT074217 User=phdgc Pid=10664 CPUs=12
+\t (00:00:05) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:05) 
+   (00:00:05) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged pc065b_toplevel_06
+\d (00:00:08) Design opened: Z:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065b_toplevel/physical/pc065b_toplevel_06.brd
+\i (00:00:08) trapsize 21473
+\i (00:00:08) trapsize 22066
+\i (00:00:08) trapsize 21473
+\i (00:00:08) trapsize 21907
+\i (00:00:09) generaledit 
+\i (00:00:40) odb_out 
+\t (00:00:40) Valor: Extract out files
+\i (00:00:41) fillin yes 
+\t (00:00:41) extracting technology file
+\t (00:00:41) Starting techfile...
+\t (00:00:45) extracting cross-section report
+\i (00:00:45) reports 'Cross-Section Report' nographic write Z:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065b_toplevel/physical/crosssection_pc065b_toplevel_06.out 
+\t (00:00:45) extracting DFA requirements
+\t (00:00:45) Extracting Analysis Regions
+\t (00:00:45) extracting Component Properties
+\t (00:00:52)  ----- Valor extract completed successfully with zones ----- 
+
+\t (00:00:53) Valor: Extract out files dra
+\t (00:00:53) Starting extracta...
+\t (00:00:59) Valor: Extract out files dra
+\t (00:00:59) Starting extracta...
+\e (00:00:59) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:01:01) Valor: Extract out files dra
+\t (00:01:01) Starting extracta...
+\e (00:01:02) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:01:03) Starting ODB++ Inside export...
+   (00:08:08) Loading mfg.cxt 
+   (00:08:08) Loading signal.cxt 
+\i (00:08:11) fillin confirm
+\i (00:08:11) generaledit 
+\i (00:08:24) odb_out 
+\t (00:08:24) Valor: Extract out files
+\i (00:08:26) fillin no 
+\t (00:08:27) extracting technology file
+\t (00:08:27) Starting techfile...
+\t (00:08:30) extracting cross-section report
+\i (00:08:30) reports 'Cross-Section Report' nographic write Z:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065b_toplevel/physical/crosssection_pc065b_toplevel_06.out 
+\t (00:08:30) extracting DFA requirements
+\t (00:08:30) Extracting Analysis Regions
+\t (00:08:30) extracting Component Properties
+\t (00:08:36)  ----- Valor extract completed successfully with zones ----- 
+
+\t (00:08:36) Valor: Extract out files dra
+\t (00:08:36) Starting extracta...
+\t (00:08:43) Valor: Extract out files dra
+\t (00:08:43) Starting extracta...
+\e (00:08:44) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:08:45) Valor: Extract out files dra
+\t (00:08:45) Starting extracta...
+\e (00:08:46) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:08:47) Starting ODB++ Inside export...
+   (00:11:44) function valor_extract_info redefined
+   (00:11:44) function odbGenFilmsParameters redefined
+   (00:11:44) function odbGenDraFiles redefined
+   (00:11:44) function outputRegions redefined
+\i (00:12:09) fillin confirm
+\i (00:12:09) generaledit 
+\i (00:18:55) ipc2581 out 
+\i (00:19:18) setwindow form.ipc2581_out
+\i (00:19:18) FORM ipc2581_out func_mode DESIGN 
+\i (00:19:20) FORM ipc2581_out func_mode ASSEMBLY 
+\i (00:19:25) FORM ipc2581_out zip_file YES 
+\i (00:19:30) FORM ipc2581_out export  
+\i (00:19:34) fillin yes 
+\t (00:19:34) Starting Exporting IPC2581 File...
+\t (00:19:38) IPC2581 output completed.
+\i (00:19:44) setwindow pcb
+\i (00:19:44) setwindow text
+\i (00:19:44) close
+\i (00:19:45) setwindow form.ipc2581_out
+\i (00:19:45) FORM ipc2581_out ipc2581_mapping  
+\i (00:19:52) setwindow form.ipc2581map
+\i (00:19:52) FORM ipc2581map ipc2581_mapping cell 1,1 
+\i (00:20:27) FORM ipc2581map close  
+\i (00:20:27) setwindow pcb
+\i (00:20:27) generaledit 
+\i (00:20:31) setwindow form.ipc2581_out
+\i (00:20:31) FORM ipc2581_out export  
+\t (00:20:31) Starting Exporting IPC2581 File...
+\t (00:20:40) IPC2581 output completed.
+\i (00:20:53) setwindow pcb
+\i (00:20:53) setwindow text
+\i (00:20:53) close
+\i (00:21:10) setwindow form.ipc2581_out
+\i (00:21:10) FORM ipc2581_out cancel  
+\i (00:21:10) setwindow pcb
+\i (00:21:10) generaledit 
+\i (150:49:47) trapsize 26852
+\i (150:49:54) exit 
+\e (150:49:54) Do you want to save the changes you made to pc065b_toplevel_06.brd?
+\i (150:49:56) fillin no 
+\t (150:49:56)     Journal end - Wed Jun 10 16:44:01 2020

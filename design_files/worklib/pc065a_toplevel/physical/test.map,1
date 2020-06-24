@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<STEP-3D-MAPPING revision="A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header lengthUnit="MM"/>
+  <Body>
+    <MapItem package="TYCO_2007132">
+      <StepModel type="PRIMARY" file="sfpcage-2007132-1.stp">
+        <Offset x="-42.400000" y="-21.360000" z="5.100000"/>
+        <Rotation x="90.000" y="0.000" z="-90.000"/>
+        <MapColor colorIndex="206" r="1.000000" g="0.698039" b="1.000000"/>
+        </StepModel>
+      </MapItem>
+    <MapItem package="SAMTEC_ASP-134606-01">
+      <StepModel type="PRIMARY" file="459704305.stp">
+        <Offset x="-44.451000" y="-1.270000" z="2.235000"/>
+        <Rotation x="90.000" y="0.000" z="-90.000"/>
+        <MapColor colorIndex="206" r="1.000000" g="0.698039" b="1.000000"/>
+        </StepModel>
+      </MapItem>
+    <MapItem package="C0603">
+      <StepModel type="PRIMARY" file="User Library-RESC1608X05N.STEP">
+        <Offset x="0.000000" y="0.000000" z="0.000000"/>
+        <Rotation x="0.000" y="0.000" z="0.000"/>
+        </StepModel>
+      </MapItem>
+    </Body>
+  </STEP-3D-MAPPING>
