@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '24AA025E48'
+CLASS=IC
+
+{========================================================================================}
+: TYPE              | PACK_TYPE                   = STATUS      | PART_NUMBER        | MANUFACTURER | DESCRIPTION                                      | DATASHEET_URL                                                 | PINCOUNT | SMD   | CASE     | JEDEC_TYPE           ;
+{========================================================================================}
+ '24AA025E48T-I/SN' | 'SOIC'(~24AA025E48T-I/SN)   = 'Preferred' | '24AA025E48T-I/SN' | 'MICROCHIP'  | '2K I2C Serial EEPROM with EUI-48 Node Identity' | 'file://cern.ch/dfs/Services/cdslib/datasheets/24aa02e48.pdf' | '8'      | 'YES' | 'SOIC8'  | 'SOIC127P600X175-8N'
+
+END_PART
+
+END.
+
+

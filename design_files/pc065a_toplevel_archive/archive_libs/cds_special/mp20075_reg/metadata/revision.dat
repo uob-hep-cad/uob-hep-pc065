@@ -1,0 +1,204 @@
+(Cell	mp20075_reg
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/09/20,11:02:52)
+
+			(User	phpgb)
+
+			(Path	bris_cds_special.mp20075_reg)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/05/19,15:09:00)
+
+			(User	phpgb)
+
+			(Path	bris_cds_special.mp20075_reg)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	03/09/20,11:02:52)
+
+					(User	phpgb)
+
+					(Path	bris_cds_special.mp20075_reg)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000009284e1b9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/09/20,11:02:52)
+
+							(User	phpgb)
+
+							(Path	bris_cds_special.mp20075_reg)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b6e0389)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000003e981f6b)
+
+			(Primitives	1
+
+				(Primitive	MP20075_REG
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/09/20,11:02:52)
+
+							(User	phpgb)
+
+							(Path	bris_cds_special.mp20075_reg)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MP20075_REG
+
+							(PackType	MP20075_REG)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	msop-therm)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bab037b)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.2-2016 S063 (3833650))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001d5f03d3)
+
+)
+

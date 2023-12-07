@@ -1,0 +1,18 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SFP_CAGE_X4'
+CLASS=IO
+PHYS_DES_PREFIX=SFP
+CASE=4SFP_CAGE
+
+{==============================================================================================================} 
+:    TYPE                      = STATUS        |    PART_NUMBER     | MANUFACTURER        |       DESCRIPTION                                                          | DATASHEET_URL                                                    | PINCOUNT | SMD  |  JEDEC_TYPE  ; 
+{==============================================================================================================}
+
+  '2007132'(~TYCO_2007132)     = 'Preferred'   | '2007132-1'        | 'TYCO ELECTRONICS'  |  '1x4 SFP Cage Assembly Press-Fit, External EMI Spring'                  | 'file://cern.ch/dfs/Services/cdslib/datasheets/tyco_2007132.pdf'   | '47'     | 'NO' | 'TYCO_2007132'   : POWER_PINS='(GND:1..46)', PRESSFIT='YES'
+  '2007178'(~TYCO_2007178)     = 'Preferred'   | '2007178-1'        | 'TYCO ELECTRONICS'  |  '1x4 SFP Cage Assembly Press-Fit, External EMI Spring with Light Pipes' | 'file://cern.ch/dfs/Services/cdslib/datasheets/tyco_2007178.pdf'   | '47'     | 'NO' | 'TYCO_2007178'   : POWER_PINS='(GND:1..46)', PRESSFIT='YES'
+  '1658744-1'(~TYCO_1658744-1) = 'Preferred'   | '1658744-1'        | 'TYCO ELECTRONICS'  |  '1x4 SFP Cage Assembly Press-Fit'                                       | 'file://cern.ch/dfs/Services/cdslib/datasheets/tyco_1658744-1.pdf' | '51'     | 'NO' | 'TYCO_1658744-1' : POWER_PINS='(GND:1..50)', PRESSFIT='YES'
+
+END_PART
+END.
+

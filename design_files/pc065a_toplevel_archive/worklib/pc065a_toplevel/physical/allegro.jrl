@@ -1,0 +1,2705 @@
+\t (00:00:01) allegro 17.2 S063 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Apr 23 16:53:52 2020
+\t (00:00:01)         Host=IT062971 User=phpgb Pid=10616 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj P:\cad\designs\uob-hep-pc065a\trunk\design_files\pc065a_toplevel.cpm -product Allegro_performance -mpssession phpgb_ProjectMgr6243 -mpshost IT062971
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged pc065a_toplevel_58
+\d (00:00:02) Design opened: P:/cad/designs/uob-hep-pc065a/trunk/design_files/worklib/pc065a_toplevel/physical/pc065a_toplevel_58.brd
+\i (00:00:02) trapsize 5607
+\i (00:00:02) trapsize 5762
+\i (00:00:02) trapsize 5073
+\i (00:00:02) trapsize 5073
+\i (00:00:02) generaledit 
+\i (00:00:05) roam x -96 
+\i (00:00:05) roam x -96
+\i (00:00:06) roam x -96 
+\i (00:00:06) roam x -96
+\i (00:00:06) roam x -96 
+\i (00:00:06) roam x -96
+\i (00:00:06) roam x -96 
+\i (00:00:06) roam x -96
+\i (00:00:12) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: 8layer"
+\i (00:00:12) color -globvis off 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/NCROUTE_PATH' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/CUTOUT' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/WB_GUIDE_LINE' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/OFF_GRID_AREA' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/SOLDERMASK_BOTTOM' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/SOLDERMASK_TOP' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/ASSEMBLY_DETAIL' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/SWITCH_AREA_BOTTOM' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/SWITCH_AREA_TOP' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/BOTH_ROOMS' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/BOTTOM_ROOM' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/TOP_ROOM' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/PLACE_GRID_BOTTOM' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/PLACE_GRID_TOP' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/DIMENSION' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/TOOLING_CORNERS' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/PLATING_BAR' 
+\i (00:00:12) color -vis 'BOARD GEOMETRY/OUTLINE' 
+\i (00:00:12) color -vis 'COMPONENT VALUE/ASSEMBLY_EMBEDDED' 
+\i (00:00:12) color -vis 'COMPONENT VALUE/DISPLAY_EMBEDDED' 
+\i (00:00:12) color -vis 'COMPONENT VALUE/DISPLAY_BOTTOM' 
+\i (00:00:12) color -vis 'COMPONENT VALUE/DISPLAY_TOP' 
+\i (00:00:12) color -vis 'COMPONENT VALUE/SILKSCREEN_BOTTOM' 
+\i (00:00:12) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
+\i (00:00:12) color -vis 'COMPONENT VALUE/ASSEMBLY_BOTTOM' 
+\i (00:00:12) color -vis 'COMPONENT VALUE/ASSEMBLY_TOP' 
+\i (00:00:12) color -vis 'DEVICE TYPE/ASSEMBLY_EMBEDDED' 
+\i (00:00:12) color -vis 'DEVICE TYPE/DISPLAY_EMBEDDED' 
+\i (00:00:12) color -vis 'DRAWING FORMAT/DRAWING_ORIGIN' 
+\i (00:00:12) color -vis 'DRAWING FORMAT/REVISION_DATA' 
+\i (00:00:12) color -vis 'DRAWING FORMAT/REVISION_BLOCK' 
+\i (00:00:12) color -vis 'DRAWING FORMAT/TITLE_DATA' 
+\i (00:00:12) color -vis 'DRAWING FORMAT/TITLE_BLOCK' 
+\i (00:00:13) color -vis 'DRAWING FORMAT/OUTLINE' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/L2_GND' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/L3_SIG' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/L4_GND' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/L5_PWR' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/L6_SIG' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/L7_PWR' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/BOTTOM' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/INTER_LAYER' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/PASTEMASK_BOTTOM' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/PASTEMASK_TOP' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/SOLDERMASK_BOTTOM' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/SOLDERMASK_TOP' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/PACKAGE_BOTTOM' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/PACKAGE_TOP' 
+\i (00:00:13) color -vis 'DRC ERROR CLASS/ALL' 
+\i (00:00:13) color -vis ETCH/TOP 
+\i (00:00:13) color -vis ETCH/L2_GND 
+\i (00:00:13) color -vis ETCH/L3_SIG 
+\i (00:00:13) color -vis ETCH/L4_GND 
+\i (00:00:13) color -vis ETCH/L5_PWR 
+\i (00:00:13) color -vis ETCH/L6_SIG 
+\i (00:00:13) color -vis ETCH/L7_PWR 
+\i (00:00:13) color -vis ETCH/BOTTOM 
+\i (00:00:13) color -vis ETCH/BOND_BOTTOM 
+\i (00:00:13) color -vis ETCH/BOND_TOP 
+\i (00:00:13) color -vis ETCH/WIRE 
+\i (00:00:13) color -vis MANUFACTURING/NCLEGEND-1-6 
+\i (00:00:13) color -vis MANUFACTURING/XSECTION_CHART 
+\i (00:00:13) color -vis MANUFACTURING/NO_PROBE_BOTTOM 
+\i (00:00:13) color -vis MANUFACTURING/NO_PROBE_TOP 
+\i (00:00:13) color -vis MANUFACTURING/AUTOSILK_BOTTOM 
+\i (00:00:13) color -vis MANUFACTURING/AUTOSILK_TOP 
+\i (00:00:13) color -vis MANUFACTURING/PROBE_BOTTOM 
+\i (00:00:13) color -vis MANUFACTURING/PROBE_TOP 
+\i (00:00:13) color -vis MANUFACTURING/NCDRILL_FIGURE 
+\i (00:00:13) color -vis MANUFACTURING/NCDRILL_LEGEND 
+\i (00:00:13) color -vis MANUFACTURING/NO_GLOSS_INTERNAL 
+\i (00:00:13) color -vis MANUFACTURING/NO_GLOSS_BOTTOM 
+\i (00:00:13) color -vis MANUFACTURING/NO_GLOSS_TOP 
+\i (00:00:13) color -vis MANUFACTURING/NO_GLOSS_ALL 
+\i (00:00:13) color -vis MANUFACTURING/PHOTOPLOT_OUTLINE 
+\i (00:00:13) color -vis ANALYSIS/PCB_TEMPERATURE 
+\i (00:00:13) color -vis ANALYSIS/HIGH_ISOCONTOUR 
+\i (00:00:13) color -vis ANALYSIS/MEDIUM3_ISOCONTOUR 
+\i (00:00:13) color -vis ANALYSIS/MEDIUM2_ISOCONTOUR 
+\i (00:00:13) color -vis ANALYSIS/MEDIUM1_ISOCONTOUR 
+\i (00:00:13) color -vis ANALYSIS/LOW_ISOCONTOUR 
+\i (00:00:13) color -vis 'PACKAGE GEOMETRY/PASTEMASK_BOTTOM' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/PASTEMASK_TOP' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/DFA_BOUND_BOTTOM' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/DFA_BOUND_TOP' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/DISPLAY_BOTTOM' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/DISPLAY_TOP' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/SOLDERMASK_BOTTOM' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/SOLDERMASK_TOP' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/BODY_CENTER' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_BOTTOM' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/PAD_STACK_NAME' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/PIN_NUMBER' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/PLACE_BOUND_BOTTOM' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/PLACE_BOUND_TOP' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_BOTTOM' 
+\i (00:00:14) color -vis 'PACKAGE GEOMETRY/ASSEMBLY_TOP' 
+\i (00:00:14) color -vis 'PACKAGE KEEPIN/ALL' 
+\i (00:00:14) color -vis 'PACKAGE KEEPOUT/BOTTOM' 
+\i (00:00:14) color -vis 'PACKAGE KEEPOUT/TOP' 
+\i (00:00:14) color -vis 'PACKAGE KEEPOUT/ALL' 
+\i (00:00:14) color -vis PIN/TOP 
+\i (00:00:14) color -vis PIN/L2_GND 
+\i (00:00:14) color -vis PIN/L3_SIG 
+\i (00:00:14) color -vis PIN/L4_GND 
+\i (00:00:14) color -vis PIN/L5_PWR 
+\i (00:00:14) color -vis PIN/L6_SIG 
+\i (00:00:14) color -vis PIN/L7_PWR 
+\i (00:00:14) color -vis PIN/BOTTOM 
+\i (00:00:14) color -vis PIN/FILMMASKBOTTOM 
+\i (00:00:14) color -vis PIN/FILMMASKTOP 
+\i (00:00:14) color -vis PIN/PASTEMASK_BOTTOM 
+\i (00:00:14) color -vis PIN/PASTEMASK_TOP 
+\i (00:00:14) color -vis PIN/SOLDERMASK_BOTTOM 
+\i (00:00:14) color -vis PIN/SOLDERMASK_TOP 
+\i (00:00:14) color -vis 'REF DES/ASSEMBLY_EMBEDDED' 
+\i (00:00:14) color -vis 'REF DES/DISPLAY_EMBEDDED' 
+\i (00:00:14) color -vis 'REF DES/DISPLAY_BOTTOM' 
+\i (00:00:14) color -vis 'REF DES/DISPLAY_TOP' 
+\i (00:00:14) color -vis 'REF DES/SILKSCREEN_BOTTOM' 
+\i (00:00:14) color -vis 'REF DES/SILKSCREEN_TOP' 
+\i (00:00:14) color -vis 'REF DES/ASSEMBLY_BOTTOM' 
+\i (00:00:14) color -vis 'REF DES/ASSEMBLY_TOP' 
+\i (00:00:14) color -vis 'ROUTE KEEPIN/ALL' 
+\i (00:00:14) color -vis 'ROUTE KEEPOUT/TOP' 
+\i (00:00:14) color -vis 'ROUTE KEEPOUT/L2_GND' 
+\i (00:00:14) color -vis 'ROUTE KEEPOUT/L3_SIG' 
+\i (00:00:14) color -vis 'ROUTE KEEPOUT/L4_GND' 
+\i (00:00:14) color -vis 'ROUTE KEEPOUT/L5_PWR' 
+\i (00:00:14) color -vis 'ROUTE KEEPOUT/L6_SIG' 
+\i (00:00:14) color -vis 'ROUTE KEEPOUT/L7_PWR' 
+\i (00:00:15) color -vis 'ROUTE KEEPOUT/BOTTOM' 
+\i (00:00:15) color -vis 'ROUTE KEEPOUT/ALL' 
+\i (00:00:15) color -vis TOLERANCE/ASSEMBLY_EMBEDDED 
+\i (00:00:15) color -vis TOLERANCE/DISPLAY_EMBEDDED 
+\i (00:00:15) color -vis TOLERANCE/DISPLAY_BOTTOM 
+\i (00:00:15) color -vis TOLERANCE/DISPLAY_TOP 
+\i (00:00:15) color -vis TOLERANCE/SILKSCREEN_BOTTOM 
+\i (00:00:15) color -vis TOLERANCE/SILKSCREEN_TOP 
+\i (00:00:15) color -vis TOLERANCE/ASSEMBLY_BOTTOM 
+\i (00:00:15) color -vis TOLERANCE/ASSEMBLY_TOP 
+\i (00:00:15) color -vis 'USER PART NUMBER/ASSEMBLY_EMBEDDED' 
+\i (00:00:15) color -vis 'USER PART NUMBER/DISPLAY_EMBEDDED' 
+\i (00:00:15) color -vis 'USER PART NUMBER/DISPLAY_BOTTOM' 
+\i (00:00:15) color -vis 'USER PART NUMBER/DISPLAY_TOP' 
+\i (00:00:15) color -vis 'USER PART NUMBER/SILKSCREEN_BOTTOM' 
+\i (00:00:15) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:00:15) color -vis 'USER PART NUMBER/ASSEMBLY_BOTTOM' 
+\i (00:00:15) color -vis 'USER PART NUMBER/ASSEMBLY_TOP' 
+\i (00:00:15) color -vis 'VIA CLASS/TOP' 
+\i (00:00:15) color -vis 'VIA CLASS/L2_GND' 
+\i (00:00:15) color -vis 'VIA CLASS/L3_SIG' 
+\i (00:00:15) color -vis 'VIA CLASS/L4_GND' 
+\i (00:00:15) color -vis 'VIA CLASS/L5_PWR' 
+\i (00:00:15) color -vis 'VIA CLASS/L6_SIG' 
+\i (00:00:15) color -vis 'VIA CLASS/L7_PWR' 
+\i (00:00:15) color -vis 'VIA CLASS/BOTTOM' 
+\i (00:00:15) color -vis 'VIA CLASS/FILMMASKBOTTOM' 
+\i (00:00:15) color -vis 'VIA CLASS/FILMMASKTOP' 
+\i (00:00:15) color -vis 'VIA CLASS/PASTEMASK_BOTTOM' 
+\i (00:00:15) color -vis 'VIA CLASS/PASTEMASK_TOP' 
+\i (00:00:15) color -vis 'VIA CLASS/SOLDERMASK_BOTTOM' 
+\i (00:00:15) color -vis 'VIA CLASS/SOLDERMASK_TOP' 
+\i (00:00:15) color -vis 'VIA KEEPOUT/TOP' 
+\i (00:00:15) color -vis 'VIA KEEPOUT/L2_GND' 
+\i (00:00:15) color -vis 'VIA KEEPOUT/L3_SIG' 
+\i (00:00:15) color -vis 'VIA KEEPOUT/L4_GND' 
+\i (00:00:15) color -vis 'VIA KEEPOUT/L5_PWR' 
+\i (00:00:15) color -vis 'VIA KEEPOUT/L6_SIG' 
+\i (00:00:15) color -vis 'VIA KEEPOUT/L7_PWR' 
+\i (00:00:15) color -vis 'VIA KEEPOUT/BOTTOM' 
+\i (00:00:15) color -vis 'VIA KEEPOUT/ALL' 
+\i (00:00:15) color -vis 'ANTI ETCH/TOP' 
+\i (00:00:15) color -vis 'ANTI ETCH/L2_GND' 
+\i (00:00:15) color -vis 'ANTI ETCH/L3_SIG' 
+\i (00:00:15) color -vis 'ANTI ETCH/L4_GND' 
+\i (00:00:15) color -vis 'ANTI ETCH/L5_PWR' 
+\i (00:00:15) color -vis 'ANTI ETCH/L6_SIG' 
+\i (00:00:15) color -vis 'ANTI ETCH/L7_PWR' 
+\i (00:00:15) color -vis 'ANTI ETCH/BOTTOM' 
+\i (00:00:15) color -vis 'ANTI ETCH/ALL' 
+\i (00:00:16) color -vis BOUNDARY/L2_GND 
+\i (00:00:16) color -vis BOUNDARY/L3_SIG 
+\i (00:00:16) color -vis BOUNDARY/L4_GND 
+\i (00:00:16) color -vis BOUNDARY/L5_PWR 
+\i (00:00:16) color -vis BOUNDARY/L7_PWR 
+\i (00:00:16) color -vis BOUNDARY/BOTTOM 
+\i (00:00:16) color -vis BOUNDARY/MULTI_USER_LOCK 
+\i (00:00:16) color -vis BOUNDARY/ALL 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/TOP' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/L2_GND' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/L3_SIG' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/L4_GND' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/L5_PWR' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/L6_SIG' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/L7_PWR' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/BOTTOM' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/INNER_PLANE_LAYERS' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/INNER_SIGNAL_LAYERS' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/OUTER_LAYERS' 
+\i (00:00:16) color -vis 'CONSTRAINT REGION/ALL' 
+\i (00:00:16) color -vis PLAN/TOP 
+\i (00:00:16) color -vis PLAN/L2_GND 
+\i (00:00:16) color -vis PLAN/L3_SIG 
+\i (00:00:16) color -vis PLAN/L4_GND 
+\i (00:00:16) color -vis PLAN/L5_PWR 
+\i (00:00:16) color -vis PLAN/L6_SIG 
+\i (00:00:16) color -vis PLAN/L7_PWR 
+\i (00:00:16) color -vis PLAN/BOTTOM 
+\i (00:00:16) color -vis PLAN/DENSITY_VERY_LOW 
+\i (00:00:16) color -vis PLAN/DENSITY_LOW 
+\i (00:00:16) color -vis PLAN/DENSITY_MEDIUM 
+\i (00:00:16) color -vis PLAN/DENSITY_HIGH 
+\i (00:00:16) color -vis PLAN/DENSITY_VERY_HIGH 
+\i (00:00:16) color -vis PLAN/ALL 
+\i (00:00:16) color -vis CAVITY/TOP 
+\i (00:00:16) color -vis CAVITY/L2_GND 
+\i (00:00:16) color -vis CAVITY/L3_SIG 
+\i (00:00:16) color -vis CAVITY/L4_GND 
+\i (00:00:16) color -vis CAVITY/L5_PWR 
+\i (00:00:16) color -vis CAVITY/L6_SIG 
+\i (00:00:16) color -vis CAVITY/L7_PWR 
+\i (00:00:16) color -vis CAVITY/BOTTOM 
+\i (00:00:16) color -vis 'EMBEDDED GEOMETRY' 
+\i (00:00:16) color -vis 'RIGID FLEX/STIFFENER_METAL_BOTTOM' 
+\i (00:00:16) color -vis 'RIGID FLEX/STIFFENER_METAL_TOP' 
+\i (00:00:16) color -vis 'RIGID FLEX/STIFFENER_BOTTOM' 
+\i (00:00:16) color -vis 'RIGID FLEX/STIFFENER_TOP' 
+\i (00:00:16) color -vis 'RIGID FLEX/EMI_SHIELD_BOTTOM' 
+\i (00:00:16) color -vis 'RIGID FLEX/EMI_SHIELD_TOP' 
+\i (00:00:16) color -vis 'RIGID FLEX/COVERLAY_BOTTOM' 
+\i (00:00:17) color -vis 'RIGID FLEX/COVERLAY_TOP' 
+\i (00:00:17) color -vis 'RIGID FLEX/TRANSITION_ZONE' 
+\i (00:00:17) color -vis 'RIGID FLEX/BEND_LINE' 
+\i (00:00:17) color -vis 'RIGID FLEX/BEND_AREA' 
+\i (00:00:17) color -vis 'RIGID FLEX/ZONE_OUTLINE' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/SILVER_INK_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/SILVER_INK_TOP' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/CARBON_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/CARBON_TOP' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/TIN_PLATE_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/TIN_PLATE_TOP' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/GOLD_SOFT_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/GOLD_SOFT_TOP' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/GOLD_HARD_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/GOLD_HARD_TOP' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/OSP_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/OSP_TOP' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/IMMERSION_SILVER_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/IMMERSION_SILVER_TOP' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/IMMERSION_TIN_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/IMMERSION_TIN_TOP' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/ENEPIG_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/ENEPIG_TOP' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/ENIG_BOTTOM' 
+\i (00:00:17) color -vis 'SURFACE FINISHES/ENIG_TOP' 
+\i (00:00:17) trapsize 5073
+\i (00:00:17) generaledit 
+\i (00:00:22) QtSignal CVPLayerGrid CVPBoxAllL2_Gnd clicked false
+\i (00:00:23) QtSignal CVPLayerGrid CVPBoxAllL4_Gnd clicked false
+\i (00:00:25) QtSignal CVPLayerGrid CVPBoxAllL5_Pwr clicked false
+\i (00:00:26) QtSignal CVPLayerGrid CVPBoxAllL7_Pwr clicked false
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in -17.4060 -10.4807
+\i (00:00:31) trapsize 2537
+\i (00:00:39) roam x 96 
+\i (00:00:39) roam x 96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:40) roam x 96 
+\i (00:00:40) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:41) roam x 96 
+\i (00:00:41) roam x 96
+\i (00:00:53) roam x -96 
+\i (00:00:53) roam x -96
+\i (00:00:53) roam x -96 
+\i (00:00:53) roam x -96
+\i (00:00:53) roam x -96 
+\i (00:00:53) roam x -96
+\i (00:00:53) roam x -96 
+\i (00:00:53) roam x -96
+\i (00:00:53) roam x -96 
+\i (00:00:53) roam x -96
+\i (00:00:53) roam x -96 
+\i (00:00:53) roam x -96
+\i (00:00:53) roam x -96 
+\i (00:00:53) roam x -96
+\i (00:00:54) roam x -96 
+\i (00:00:54) roam x -96
+\i (00:00:54) roam x -96 
+\i (00:00:54) roam x -96
+\i (00:00:54) roam x -96 
+\i (00:00:54) roam x -96
+\i (00:01:01) place manual 
+\i (00:01:05) setwindow form.plc_manual
+\i (00:01:05) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:01:05) Placing C112 / CAPCERSMDCL2_0402-100NF_X7R,16V / C0402 on Top.
+\i (00:01:05) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 51.1350 10.8274
+\i (00:01:06) trapsize 5073
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 28.9138 -24.1786
+\i (00:01:06) trapsize 10147
+\i (00:01:08) pick grid 0.7189 -16.4672
+\t (00:01:08) last pick:  0.7000 -16.5000
+\t (00:01:08) Placing IC1 / 24AA025E48T-I/SN / SOIC127P600X175-8N on Top.
+\i (00:01:09) pick grid 10.2567 -18.9024
+\t (00:01:09) last pick:  10.3000 -18.9000
+\t (00:01:09) Placing R201 / RSMD0402_0.0625W-XX,1% / C0402 on Top.
+\i (00:01:10) pick grid 21.0122 -20.9317
+\t (00:01:10) last pick:  21.0000 -20.9000
+\t (00:01:10) Placing R202 / RSMD0402_1/16W-0R0,1% / C0402 on Top.
+\i (00:01:10) pick grid 20.8093 -14.4378
+\t (00:01:10) last pick:  20.8000 -14.4000
+\t (00:01:10) Placing R203 / RSMD0402_1/16W-0R0,1% / C0402 on Top.
+\i (00:01:11) pick grid 25.6797 -17.0760
+\t (00:01:11) last pick:  25.7000 -17.1000
+\t (00:01:11) Placing R204 / RSMD0402_1/16W-0R0,1% / C0402 on Top.
+\i (00:01:11) pick grid 26.2885 -21.7435
+\t (00:01:11) last pick:  26.3000 -21.7000
+\i (00:01:12) pick grid 26.2885 -26.8168
+\t (00:01:12) last pick:  26.3000 -26.8000
+\i (00:01:12) prepopup 15.7360 -27.0197
+\i (00:01:13) done 
+\i (00:01:13) generaledit 
+\i (00:01:15) pick grid 24.2592 -29.8608
+\t (00:01:15) last pick:  24.3000 -29.9000
+\i (00:01:18) prepopup 44.3497 -23.1640
+\i (00:01:19) pick grid 47.3937 -18.2936
+\t (00:01:19) last pick:  47.4000 -18.3000
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in 44.7555 -20.3229
+\i (00:01:19) trapsize 5073
+\i (00:01:21) zoom in 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom in 40.7983 -21.0331
+\i (00:01:21) trapsize 2537
+\i (00:01:25) zoom out 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom out 47.7488 -18.4964
+\i (00:01:25) trapsize 5073
+\i (00:01:29) zoom in 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom in 23.4981 -15.5539
+\i (00:01:29) trapsize 2537
+\i (00:01:36) drag_start grid 8.8362 -20.2214
+\i (00:01:36) slide 
+\t (00:01:36) Selected item not valid for current operation, ignored: Vertical Line Segment "Package Geometry/Silkscreen_Top"
+\t (00:01:36) No valid items selected for the current operation, exiting.
+\i (00:01:36) generaledit 
+\i (00:01:38) drag_stop grid 4.2195 -22.2507
+\i (00:01:38) pick grid 1.5813 -23.8742
+\t (00:01:38) last pick:  1.6000 -23.9000
+\i (00:01:39) drag_start grid 7.3142 -20.0692
+\i (00:01:39) move 
+\t (00:01:39) last pick:  10.3000 -18.9000
+\t (00:01:39) Moving IC1 / 24AA025E48T-I/SN / SOIC127P600X175-8N.
+\t (00:01:39) Pick new location for the element(s).
+\i (00:01:44) iangle 90 
+\t (00:01:44) last pick:  9.0000 0.0000
+\i (00:01:47) drag_stop grid 36.1815 -18.5979
+\i (00:01:47) generaledit 
+\i (00:01:47) zoom out 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom out 37.1455 -19.0545
+\i (00:01:47) trapsize 5073
+\i (00:01:51) pick grid 48.2054 -16.7207
+\t (00:01:51) last pick:  48.2000 -16.7000
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in 58.3520 -7.0814
+\i (00:01:52) trapsize 2537
+\i (00:01:52) zoom in 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom in 57.8955 -7.2843
+\i (00:01:52) trapsize 1268
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 57.1345 -6.8023
+\i (00:01:54) trapsize 634
+\i (00:01:55) zoom in 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom in 57.0077 -6.8530
+\i (00:01:55) trapsize 317
+\i (00:01:56) zoom out 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom out 56.9950 -6.8657
+\i (00:01:56) trapsize 634
+\i (00:01:56) zoom out 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom out 56.9824 -6.8783
+\i (00:01:56) trapsize 1268
+\i (00:01:57) zoom out 1 
+\i (00:01:57) setwindow pcb
+\i (00:01:57) zoom out 56.9824 -6.8783
+\i (00:01:57) trapsize 2537
+\i (00:02:00) roam x -96 
+\i (00:02:00) roam x -96
+\i (00:02:02) zoom in 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom in 19.4266 -1.1961
+\i (00:02:02) trapsize 1268
+\i (00:02:04) zoom in 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom in 32.4397 -5.0265
+\i (00:02:04) trapsize 634
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 31.9831 -1.1327
+\i (00:02:06) trapsize 1268
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 31.9830 -1.1326
+\i (00:02:06) trapsize 2537
+\i (00:02:09) color192 
+\i (00:02:09) generaledit 
+\i (00:02:25) QtSignal CVDColorTable CVDColorButton0:18 clicked
+\i (00:02:27) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 116 0
+\i (00:02:27) QtSignal CVDNetSplitter CVDNetTable dataChanged 116 0
+\i (00:02:27) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:02:29) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 118 0
+\i (00:02:29) QtSignal CVDNetSplitter CVDNetTable dataChanged 118 0
+\i (00:02:29) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:02:32) QtSignal CVDColorTable CVDColorButton3:18 clicked
+\i (00:02:33) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 116 0
+\i (00:02:33) QtSignal CVDNetSplitter CVDNetTable dataChanged 116 0
+\i (00:02:33) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:02:34) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 118 0
+\i (00:02:34) QtSignal CVDNetSplitter CVDNetTable dataChanged 118 0
+\i (00:02:34) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:02:36) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:02:37) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:02:38) pick grid 46.0362 -21.0201
+\t (00:02:38) last pick:  46.0000 -21.0000
+\i (00:02:40) zoom in 1 
+\i (00:02:40) setwindow pcb
+\i (00:02:40) zoom in 13.3639 -6.9162
+\i (00:02:40) trapsize 1268
+\i (00:02:41) pick grid 13.8459 -12.4969
+\t (00:02:41) last pick:  13.8000 -12.5000
+\i (00:02:42) zoom in 1 
+\i (00:02:42) setwindow pcb
+\i (00:02:42) zoom in 14.0235 -6.3074
+\i (00:02:42) trapsize 634
+\i (00:02:42) zoom in 1 
+\i (00:02:42) setwindow pcb
+\i (00:02:42) zoom in 14.0235 -6.3074
+\i (00:02:42) trapsize 317
+\i (00:02:44) zoom out 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom out 14.0109 -6.3327
+\i (00:02:44) trapsize 634
+\i (00:02:44) zoom out 1 
+\i (00:02:44) setwindow pcb
+\i (00:02:44) zoom out 14.0108 -6.4089
+\i (00:02:44) trapsize 1268
+\i (00:02:45) zoom out 1 
+\i (00:02:45) setwindow pcb
+\i (00:02:45) zoom out 14.0107 -6.4089
+\i (00:02:45) trapsize 2537
+\i (00:02:47) roam y -96 
+\i (00:02:47) roam y -96
+\i (00:02:48) roam y -96 
+\i (00:02:48) roam y -96
+\i (00:02:51) zoom out 1 
+\i (00:02:51) setwindow pcb
+\i (00:02:51) zoom out 26.8463 3.8514
+\i (00:02:51) trapsize 5073
+\i (00:02:55) roam y -96 
+\i (00:02:55) roam y -96
+\i (00:03:00) setwindow form.mini
+\i (00:03:00) FORM mini class BOARD GEOMETRY 
+\i (00:03:03) FORM mini class MANUFACTURING 
+\i (00:03:08) FORM mini class BOARD GEOMETRY 
+\i (00:03:11) FORM mini subclass SILKSCREEN_TOP 
+\i (00:03:12) FORM mini subcolor 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) pick grid 8.8867 -25.6247
+\t (00:03:14) last pick:  8.9000 -25.6000
+\i (00:03:16) zoom in 1 
+\i (00:03:16) setwindow pcb
+\i (00:03:16) zoom in -5.6231 22.9780
+\i (00:03:16) trapsize 2537
+\i (00:03:19) pick grid 20.6569 0.1987
+\t (00:03:19) last pick:  20.7000 0.2000
+\i (00:03:21) pick grid -10.2906 12.5777
+\t (00:03:21) last pick:  -10.3000 12.6000
+\i (00:03:21) zoom out 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom out -10.2906 12.5777
+\i (00:03:21) trapsize 5073
+\i (00:03:23) drag_start grid 34.9637 -15.5287
+\i (00:03:23) move 
+\t (00:03:23) last pick:  36.2000 -18.6000
+\t (00:03:23) Moving IC1 / 24AA025E48T-I/SN / SOIC127P600X175-8N.
+\t (00:03:23) Pick new location for the element(s).
+\i (00:03:31) drag_stop grid 0.1606 15.9261
+\i (00:03:31) generaledit 
+\i (00:03:32) pick grid -18.7123 18.6657
+\t (00:03:32) last pick:  -18.7000 18.7000
+\i (00:03:33) zoom in 1 
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom in -0.9556 17.4481
+\i (00:03:33) trapsize 2537
+\i (00:03:33) zoom in 1 
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom in -0.9556 17.4481
+\i (00:03:33) trapsize 1268
+\i (00:03:59) roam y 96 
+\i (00:03:59) roam y 96
+\i (00:03:59) roam y 96 
+\i (00:03:59) roam y 96
+\i (00:04:00) roam y 96 
+\i (00:04:00) roam y 96
+\i (00:04:12) drag_start grid 0.6933 13.9474
+\i (00:04:12) move 
+\t (00:04:12) last pick:  0.2000 15.9000
+\t (00:04:12) Moving IC1 / 24AA025E48T-I/SN / SOIC127P600X175-8N.
+\t (00:04:12) Pick new location for the element(s).
+\i (00:04:13) iangle 90 
+\t (00:04:13) last pick:  9.0000 0.0000
+\i (00:04:14) iangle 90 
+\t (00:04:14) last pick:  9.0000 0.0000
+\i (00:04:14) iangle 90 
+\t (00:04:14) last pick:  9.0000 0.0000
+\i (00:04:16) iangle 90 
+\t (00:04:16) last pick:  9.0000 0.0000
+\i (00:04:21) drag_stop grid 0.1606 15.4694
+\i (00:04:21) generaledit 
+\i (00:04:22) pick grid -8.0582 13.6937
+\t (00:04:22) last pick:  -8.1000 13.7000
+\i (00:04:23) drag_start grid 0.8455 17.4480
+\i (00:04:23) move 
+\t (00:04:23) last pick:  0.2000 15.5000
+\t (00:04:23) Moving IC1 / 24AA025E48T-I/SN / SOIC127P600X175-8N.
+\t (00:04:23) Pick new location for the element(s).
+\i (00:04:23) iangle 90 
+\t (00:04:23) last pick:  9.0000 0.0000
+\i (00:04:23) iangle 90 
+\t (00:04:23) last pick:  9.0000 0.0000
+\i (00:04:24) drag_stop grid 0.0845 15.6977
+\i (00:04:24) generaledit 
+\i (00:04:26) pick grid -8.9207 14.1503
+\t (00:04:26) last pick:  -8.9000 14.2000
+\i (00:04:27) zoom out 1 
+\i (00:04:27) setwindow pcb
+\i (00:04:27) zoom out -9.0729 12.7044
+\i (00:04:27) trapsize 2537
+\i (00:04:30) zoom in 1 
+\i (00:04:30) setwindow pcb
+\i (00:04:30) zoom in -8.9714 14.9367
+\i (00:04:30) trapsize 1268
+\i (00:04:32) drag_start grid -0.7018 14.9368
+\i (00:04:32) move 
+\t (00:04:32) last pick:  -0.4000 15.7000
+\t (00:04:32) Pick new location for the element(s).
+\i (00:04:35) drag_stop grid -0.3974 15.7231
+\i (00:04:35) generaledit 
+\i (00:04:36) pick grid -6.8152 15.1143
+\t (00:04:36) last pick:  -6.8000 15.1000
+\i (00:04:38) pop dyn_option_select 'Application Mode@:@Etch Edit' 
+\i (00:04:38) etchedit 
+\i (00:04:39) pick grid -7.4747 11.8167
+\t (00:04:39) last pick:  -7.5000 11.8000
+\i (00:04:40) drag_start grid -0.8033 14.8099
+\i (00:04:40) move 
+\t (00:04:40) last pick:  0.1000 15.7000
+\t (00:04:40) Moving IC1 / 24AA025E48T-I/SN / SOIC127P600X175-8N.
+\t (00:04:40) Pick new location for the element(s).
+\i (00:04:52) drag_stop grid 0.2875 15.6724
+\i (00:04:52) etchedit 
+\i (00:04:54) pick grid -8.1596 14.4294
+\t (00:04:54) last pick:  -8.2000 14.4000
+\i (00:05:14) zoom out 1 
+\i (00:05:14) setwindow pcb
+\i (00:05:14) zoom out -9.4533 13.2879
+\i (00:05:14) trapsize 2537
+\i (00:05:14) zoom out 1 
+\i (00:05:14) setwindow pcb
+\i (00:05:14) zoom out -9.3012 13.2880
+\i (00:05:14) trapsize 5073
+\i (00:05:15) zoom out 1 
+\i (00:05:15) setwindow pcb
+\i (00:05:15) zoom out 74.7135 5.4750
+\i (00:05:15) trapsize 10147
+\i (00:05:21) 3d 
+\i (00:05:46) etchedit 
+\i (00:05:48) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 598 350 498 465 4 4 33554432 +
+\i (00:05:49) QtSignal 4973.32 2293.66 208.892
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4973.32 2293.66 208.892 4973.32 +
+\i (00:05:49) QtSignal 2293.66 208.892
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4973.32 2293.67 208.891 5042.07 +
+\i (00:05:49) QtSignal 2362.42 208.891
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4904.7 2527.24 85.5219 5218.42 +
+\i (00:05:49) QtSignal 2651.14 -48.9416
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5042.47 3346.18 -436.663 +
+\i (00:05:49) QtSignal 5167.63 3246.54 -547.586
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5208.66 3437.39 -717.467 +
+\i (00:05:49) QtSignal 5258.4 3270.01 -825.717
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5276.23 3293.4 -879.444 5271.91 +
+\i (00:05:49) QtSignal 3166.3 -920.263
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5259.99 3152.56 -884.136 +
+\i (00:05:49) QtSignal 5229.99 2996.27 -905.209
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5198.45 2989.49 -788.666 +
+\i (00:05:49) QtSignal 5146.35 2854.86 -776.406
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5113.16 2891.78 -607.393 +
+\i (00:05:49) QtSignal 5081.2 2888.26 -611.47
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5071.5 2917.15 -545.18 4729.1 +
+\i (00:05:49) QtSignal 2668.92 -476.842
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4973.55 3157.25 522.464 4789.9 +
+\i (00:05:49) QtSignal 3128.98 678.682
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5236.08 3647.25 1068.48 5191.45 +
+\i (00:05:49) QtSignal 3672.09 1108.38
+\i (00:05:49) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5339.18 3815.22 1166.37 5299.23 +
+\i (00:05:49) QtSignal 3844.6 1208.11
+\i (00:05:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5465.89 3981.81 1253.09 5446.01 +
+\i (00:05:50) QtSignal 3997.6 1289.69
+\i (00:05:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5573.62 4089.14 1312.61 5578.82 +
+\i (00:05:50) QtSignal 4083.1 1305.31
+\i (00:05:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5548.56 4061.68 1300.99 5586.01 +
+\i (00:05:50) QtSignal 4020.19 1250.06
+\i (00:05:50) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5390.82 3866.24 1209.12 5422.68 +
+\i (00:05:50) QtSignal 3840.63 1173.81
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5297.57 3724.72 1133.3 5304.62 +
+\i (00:05:51) QtSignal 3720.22 1126.46
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5280.89 3696.37 1117.23 5277.4 +
+\i (00:05:51) QtSignal 3702.88 1109.36
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5271.66 3697.1 1107.02 5302.62 +
+\i (00:05:51) QtSignal 3724.21 967.664
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5076.88 3469.02 839.927 5097.09 +
+\i (00:05:51) QtSignal 3475.33 807.242
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5031.91 3406.91 750.396 5075.22 +
+\i (00:05:51) QtSignal 3422.56 687.576
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4962.9 3293.33 564.861 4982.18 +
+\i (00:05:51) QtSignal 3329.94 517.393
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4926.87 3264.07 440.544 5007.06 +
+\i (00:05:51) QtSignal 3284.32 373.634
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4896.57 3139.78 163.725 4942.41 +
+\i (00:05:51) QtSignal 3182.65 120.215
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4897.13 3109.65 -9.36816 +
+\i (00:05:51) QtSignal 4925.48 3147.84 -34.9382
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4904.24 3111.73 -116.203 +
+\i (00:05:51) QtSignal 4914.78 3111.49 -118.559
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4909.15 3102.3 -143.892 5024.89 +
+\i (00:05:51) QtSignal 3303.64 -241.406
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4996.79 3208.06 -491.994 +
+\i (00:05:51) QtSignal 4996.22 3218.84 -491.859
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4996.23 3218.8 -489.975 5251.69 +
+\i (00:05:51) QtSignal 3707.88 -477.421
+\i (00:05:51) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5199.81 3545.75 -629.322 +
+\i (00:05:51) QtSignal 5213.24 3598.9 -561.685
+\i (00:05:52) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5211.86 3594.21 -565.033 +
+\i (00:05:52) QtSignal 5222.75 3606.58 -539.315
+\i (00:05:52) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5227.07 3618.24 -547.232 +
+\i (00:05:52) QtSignal 5222.89 3624.3 -539.328
+\i (00:05:52) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 651 362 551 477 4 0 +
+\i (00:05:52) QtSignal 33554432 5219.2 3614.27 -533.737
+\i (00:05:53) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 568 499 468 614 0 0 120
+\i (00:05:54) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 641 477 541 592 0 0 -120
+\i (00:05:54) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 641 477 541 592 0 0 -120
+\i (00:05:54) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 16777248 33554432 false 1
+\i (00:05:54) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 642 470 542 585 4 4 33554432 +
+\i (00:05:54) QtSignal 4101.57 -533.244 180.156
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4101.57 -533.244 180.156 +
+\i (00:05:55) QtSignal 4113.59 -533.86 186.98
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4121.82 -511.652 174.948 +
+\i (00:05:55) QtSignal 4290.2 -508.816 299.426
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4447.54 -210.953 163.346 +
+\i (00:05:55) QtSignal 4468.35 -218.519 179.954
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4492.12 -182.342 167.957 +
+\i (00:05:55) QtSignal 4654.49 -249.093 302.885
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4843.98 -26.5049 252.709 +
+\i (00:05:55) QtSignal 4884.43 -61.7105 317.594
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4969.36 12.2794 313.028 4997.23 +
+\i (00:05:55) QtSignal -21.7842 388.675
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5087.2 46.3157 393.883 5108.19 +
+\i (00:05:55) QtSignal 8.57498 449.685
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5174.95 54.2616 460.399 5162.04 +
+\i (00:05:55) QtSignal 67.4751 480.993
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5176.21 77.0281 484.151 5182.45 +
+\i (00:05:55) QtSignal 38.6039 568.416
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5266.47 91.1494 592.958 5262.3 +
+\i (00:05:55) QtSignal 86.8038 611.573
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5278.92 97.0278 617.918 5272.88 +
+\i (00:05:55) QtSignal 77.4061 663.385
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5313.84 101.568 680.973 5294.74 +
+\i (00:05:55) QtSignal 96.8871 726.812
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5328.57 116.512 744.03 5315.42 +
+\i (00:05:55) QtSignal 66.3125 820.99
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5375.87 98.9927 858.282 5349.42 +
+\i (00:05:55) QtSignal 102.426 892.944
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5367.92 112.351 906.707 5341.3 +
+\i (00:05:55) QtSignal 91.3665 954.624
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5370.01 106.714 978.811 5370.58 +
+\i (00:05:55) QtSignal 82.6971 992.555
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5382.35 88.998 1003.69 5372.12 +
+\i (00:05:55) QtSignal 81.2836 1018.48
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5380.6 85.5258 1026.72 5359.92 +
+\i (00:05:55) QtSignal 94.3028 1042.86
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5364.63 96.7847 1047.77 5353.56 +
+\i (00:05:55) QtSignal 76.4766 1068.32
+\i (00:05:55) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5365.84 82.8589 1081.8 5365.33 +
+\i (00:05:55) QtSignal 70.4326 1087.87
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5370.14 72.8632 1093.41 5347.2 +
+\i (00:05:56) QtSignal 56.1505 1120.34
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5359.71 61.9849 1135.19 5347.65 +
+\i (00:05:56) QtSignal 53.3529 1147.95
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5353.34 56.016 1155.28 5351.13 +
+\i (00:05:56) QtSignal 30.5969 1166.01
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5358.63 33.9627 1176.12 5336.15 +
+\i (00:05:56) QtSignal 41.853 1190.18
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5338.58 42.9254 1193.62 5299.89 +
+\i (00:05:56) QtSignal 15.9004 1228.51
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5311.57 20.7661 1246.18 5309.79 +
+\i (00:05:56) QtSignal 7.76715 1250.58
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5312.53 8.92792 1255.27 5300.65 +
+\i (00:05:56) QtSignal 12.6018 1261.31
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5301.23 12.8465 1262.34 5255.73 +
+\i (00:05:56) QtSignal -41.526 1300.84
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5266.6 -37.7772 1320.96 5241.96 +
+\i (00:05:56) QtSignal -30.7145 1331.36
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5241.96 -30.7143 1331.36 +
+\i (00:05:56) QtSignal 5239.49 -43.9616 1334.51
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5241.07 -43.4024 1338.25 +
+\i (00:05:56) QtSignal 5228.56 -39.9387 1343.01
+\i (00:05:56) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5228.47 -39.9698 1342.79 +
+\i (00:05:56) QtSignal 5195.57 -72.946 1360.66
+\i (00:05:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5198.75 -71.9846 1368.69 +
+\i (00:05:57) QtSignal 5185.98 -68.5939 1372.78
+\i (00:05:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5185.67 -68.6834 1371.87 +
+\i (00:05:57) QtSignal 5154.33 -88.6624 1384.1
+\i (00:05:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5155.27 -88.3999 1386.84 +
+\i (00:05:57) QtSignal 5152.3 -101.795 1388.64
+\i (00:05:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5153.01 -101.633 1391.19 +
+\i (00:05:57) QtSignal 5133.96 -125.117 1397.73
+\i (00:05:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5134.67 -124.997 1400.28 +
+\i (00:05:57) QtSignal 5108.58 -118.333 1406.61
+\i (00:05:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5107.6 -118.451 1402.37 5104.44 +
+\i (00:05:57) QtSignal -131.879 1403.48
+\i (00:05:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5104.84 -131.835 1405.37 +
+\i (00:05:57) QtSignal 5085.26 -155.382 1409.79
+\i (00:05:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5085.39 -155.347 1410.26 +
+\i (00:05:57) QtSignal 5058.99 -148.701 1415.17
+\i (00:05:57) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5058.05 -148.637 1409.46 +
+\i (00:05:57) QtSignal 5034.84 -185.604 1412.62
+\i (00:05:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5034.76 -185.499 1411.66 +
+\i (00:05:58) QtSignal 4981.19 -229.107 1415.58
+\i (00:05:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4980.24 -227.695 1403.15 +
+\i (00:05:58) QtSignal 4973.21 -254.343 1400.59
+\i (00:05:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4973.15 -254.161 1399.15 +
+\i (00:05:58) QtSignal 4942.89 -260.576 1399.44
+\i (00:05:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4942.7 -259.092 1389.89 4758.58 +
+\i (00:05:58) QtSignal -465.691 1358.84
+\i (00:05:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4771.29 -412.96 1215.46 4711.93 +
+\i (00:05:58) QtSignal -471.39 1174.5
+\i (00:05:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4727.71 -443.39 1121.17 4623.46 +
+\i (00:05:58) QtSignal -516.676 1042.69
+\i (00:05:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4668.79 -444.862 941.218 +
+\i (00:05:58) QtSignal 4651.83 -459.624 919.962
+\i (00:05:58) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4663.87 -444.014 900.403 +
+\i (00:05:58) QtSignal 4657.48 -473.695 872.086
+\i (00:05:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4671.24 -455.947 851.55 4669.44 +
+\i (00:05:59) QtSignal -465.419 841.622
+\i (00:05:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4674.18 -459.11 834.869 4644.75 +
+\i (00:05:59) QtSignal -475.678 798.153
+\i (00:05:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4669.13 -442.607 766.038 +
+\i (00:05:59) QtSignal 4653.11 -463.198 730.905
+\i (00:05:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4675.62 -433.755 705.113 +
+\i (00:05:59) QtSignal 4673.63 -450.549 683.204
+\i (00:05:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4686.31 -434.085 669.973 +
+\i (00:05:59) QtSignal 4684.07 -458.308 636.331
+\i (00:05:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4704.29 -431.172 616.706 +
+\i (00:05:59) QtSignal 4703.92 -438.744 605.129
+\i (00:05:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4710.8 -429.274 598.852 4685.9 +
+\i (00:05:59) QtSignal -453.928 533.085
+\i (00:05:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4734.26 -385.024 494.278 +
+\i (00:05:59) QtSignal 4722.69 -378.488 490.438
+\i (00:05:59) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4728.45 -370.794 486.515 +
+\i (00:05:59) QtSignal 4729.58 -390.311 449.891
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4755.19 -356.117 433.814 +
+\i (00:06:00) QtSignal 4766.63 -362.832 437.746
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4761.02 -370.587 441.104 +
+\i (00:06:00) QtSignal 4837.3 -380.517 542.845
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4762.79 -486.235 600.386 +
+\i (00:06:00) QtSignal 4787.63 -475.643 642.333
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4763.56 -517.275 669.125 +
+\i (00:06:00) QtSignal 4776.17 -522.18 671.986
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4773.06 -528.052 675.929 +
+\i (00:06:00) QtSignal 4812.51 -511.849 730.403
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4785.83 -563.126 768.595 +
+\i (00:06:00) QtSignal 4826.17 -559.081 797.646
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4812.3 -589.664 822.883 4854.53 +
+\i (00:06:00) QtSignal -574.674 860.792
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4840.73 -609.806 892.428 +
+\i (00:06:00) QtSignal 4881.99 -610.088 906.936
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4876.44 -627.832 923.808 +
+\i (00:06:00) QtSignal 4878.72 -609.127 944.08
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4875 -623.327 958.084 4959.96 +
+\i (00:06:00) QtSignal -610.112 992.978
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4952.36 -642.385 1028.38 +
+\i (00:06:00) QtSignal 4953.72 -632.209 1037.66
+\i (00:06:00) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4953.05 -638.269 1044.52 +
+\i (00:06:00) QtSignal 5021.69 -646.712 1043.73
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5021.38 -653.861 1051.89 +
+\i (00:06:01) QtSignal 5037.9 -634.084 1069.03
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5038.24 -646.593 1083.75 +
+\i (00:06:01) QtSignal 5124.87 -619.09 1102.43
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5126.06 -635.549 1123.54 +
+\i (00:06:01) QtSignal 5127.4 -624.454 1131.71
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5128.53 -629.018 1137.84 +
+\i (00:06:01) QtSignal 5284.88 -571.463 1151.22
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5283.87 -577.206 1158.36 +
+\i (00:06:01) QtSignal 5339.09 -535.632 1160.91
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5340.31 -538.277 1164.83 +
+\i (00:06:01) QtSignal 5444.62 -474.072 1147.37
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5433.35 -467.001 1130.72 +
+\i (00:06:01) QtSignal 5481.54 -418.585 1119.86
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5474.51 -415.369 1110.89 +
+\i (00:06:01) QtSignal 5496.98 -383.765 1105.66
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5493.37 -382.4 1101.33 5536.2 +
+\i (00:06:01) QtSignal -331.168 1083.28
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5522.26 -327.211 1067.73 +
+\i (00:06:01) QtSignal 5542.72 -320.744 1050.27
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5531.81 -317.756 1039.04 +
+\i (00:06:01) QtSignal 5587.34 -218.663 1009.41
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5552.44 -215.868 976.869 +
+\i (00:06:01) QtSignal 5582.89 -162.013 945.933
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5552.4 -162.174 921.072 5594.42 +
+\i (00:06:01) QtSignal -101.411 864.918
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5536.59 -106.69 824.164 5542.13 +
+\i (00:06:01) QtSignal -59.916 807.724
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5519.65 -63.6497 793.643 +
+\i (00:06:01) QtSignal 5542.33 -37.3606 748.401
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5495.88 -46.5737 722.311 +
+\i (00:06:01) QtSignal 5500.1 -13.884 701.219
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5473.59 -20.388 687.797 5500.78 +
+\i (00:06:01) QtSignal 133.865 551.68
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5301.85 47.2436 469.952 5295.43 +
+\i (00:06:01) QtSignal 92.2816 417.847
+\i (00:06:01) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5222.97 54.7461 400.146 5222.33 +
+\i (00:06:01) QtSignal 71.2386 359.638
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5170.61 42.9341 350.75 5143.75 +
+\i (00:06:02) QtSignal 108.877 283.666
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5038.24 39.6947 272.387 5015.41 +
+\i (00:06:02) QtSignal 74.5656 259.052
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4983.64 51.3789 257.804 4975.97 +
+\i (00:06:02) QtSignal 63.7705 188.798
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4887.78 -4.80109 191.26 4870.78 +
+\i (00:06:02) QtSignal 17.0419 191.523
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4859.54 7.96011 192.509 4845.71 +
+\i (00:06:02) QtSignal 15.7211 109.881
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4739.09 -76.7665 126.516 +
+\i (00:06:02) QtSignal 4706.19 -49.6352 86.1823
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4639.34 -113.468 104.051 +
+\i (00:06:02) QtSignal 4632.08 -119.206 63.6016
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4582.25 -167.593 81.3386 +
+\i (00:06:02) QtSignal 4476.35 -111.769 -49.2627
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4275.7 -366.265 64.5931 4210.98 +
+\i (00:06:02) QtSignal -352.906 5.59802
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4123.34 -489.171 88.3698 +
+\i (00:06:02) QtSignal 4032.76 -485.554 11.2614
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3933.06 -687.116 152.942 +
+\i (00:06:02) QtSignal 3812.93 -702.853 65.1335
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3728.15 -974.298 293.044 +
+\i (00:06:02) QtSignal 3661.75 -996.684 253.099
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3635.9 -1140.35 398.911 3617.68 +
+\i (00:06:02) QtSignal -1166.84 372.682
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3609.11 -1231.67 448.246 +
+\i (00:06:02) QtSignal 3553.62 -1243.52 433.218
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3549.7 -1337.41 547.201 3531.26 +
+\i (00:06:02) QtSignal -1366.69 524.296
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3532.05 -1428.83 608.027 +
+\i (00:06:02) QtSignal 3427.18 -1501.01 559.509
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3469.05 -1718.58 888.438 +
+\i (00:06:02) QtSignal 3390.77 -1785.17 865.284
+\i (00:06:02) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3459.62 -1929.23 1143.56 +
+\i (00:06:02) QtSignal 3402.08 -1993.96 1131.18
+\i (00:06:03) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3482.88 -2092.44 1374.97 +
+\i (00:06:03) QtSignal 3430.12 -2189.63 1360.59
+\i (00:06:03) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3556.02 -2277.55 1678.83 +
+\i (00:06:03) QtSignal 3551.63 -2290.64 1678.08
+\i (00:06:03) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3567.84 -2297.9 1716.4 3493.09 +
+\i (00:06:03) QtSignal -2405.02 1728.93
+\i (00:06:03) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3697.1 -2455.24 2131.68 3663.72 +
+\i (00:06:03) QtSignal -2488.17 2148.7
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3751.23 -2490.73 2298 3756.82 +
+\i (00:06:04) QtSignal -2521.02 2295.16
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3793.44 -2518.02 2357.84 +
+\i (00:06:04) QtSignal 3816.65 -2525.13 2344.55
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3798.77 -2527.22 2313.12 +
+\i (00:06:04) QtSignal 3834.3 -2537.8 2294.44
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3810.5 -2541.39 2248.16 3847.03 +
+\i (00:06:04) QtSignal -2551.82 2231.41
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3826.53 -2555.92 2186 3876.42 +
+\i (00:06:04) QtSignal -2569.59 2166.3
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3854.13 -2575.68 2107.92 +
+\i (00:06:04) QtSignal 3967.45 -2548.89 2066.01
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3906.26 -2580.91 1785.96 +
+\i (00:06:04) QtSignal 4008.09 -2562.19 1766.28
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3991.19 -2578.67 1551.41 +
+\i (00:06:04) QtSignal 4024.05 -2557.57 1548.89
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4022.52 -2561.87 1438.9 4079.55 +
+\i (00:06:04) QtSignal -2560.05 1438.53
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4083.53 -2562.27 1352.96 +
+\i (00:06:04) QtSignal 4110.53 -2568.07 1354.85
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4112.21 -2568.48 1334.63 +
+\i (00:06:04) QtSignal 4161.31 -2536.58 1338.8
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4184.77 -2538.61 1184.9 4198.14 +
+\i (00:06:04) QtSignal -2541.48 1187.05
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4199.7 -2541.35 1178 4231.94 +
+\i (00:06:04) QtSignal -2520.03 1184.12
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4253.44 -2517.99 1085.06 +
+\i (00:06:04) QtSignal 4269.36 -2507.35 1089.07
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4281.18 -2505.18 1040.31 +
+\i (00:06:04) QtSignal 4307.54 -2510.94 1046.49
+\i (00:06:04) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4311.61 -2510.16 1031.1 4329.93 +
+\i (00:06:04) QtSignal -2486.05 1037.42
+\i (00:06:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4356.17 -2480.84 951.198 +
+\i (00:06:05) QtSignal 4382.15 -2486.68 958.773
+\i (00:06:05) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4386.66 -2485.63 945.039 +
+\i (00:06:05) QtSignal 4389.15 -2472.15 946.885
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4402.65 -2468.99 908.263 +
+\i (00:06:06) QtSignal 4415.48 -2471.94 912.508
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4417.86 -2471.35 905.941 +
+\i (00:06:06) QtSignal 4613.99 -2489.02 977.163
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4684.21 -2483.06 866.242 +
+\i (00:06:06) QtSignal 4817.15 -2521.03 958.234
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4820.96 -2520.84 953.89 4848.47 +
+\i (00:06:06) QtSignal -2530.62 983.405
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4847.93 -2530.63 983.885 +
+\i (00:06:06) QtSignal 4970.83 -2562.86 1130.8
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4964.61 -2563.32 1140.66 +
+\i (00:06:06) QtSignal 4987.82 -2575.93 1189.31
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4971.1 -2574.98 1196.8 4999.55 +
+\i (00:06:06) QtSignal -2563.59 1264.73
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5048.34 -2566.51 1251.13 +
+\i (00:06:06) QtSignal 5059.71 -2575.56 1290.02
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5040.88 -2574.58 1295.21 +
+\i (00:06:06) QtSignal 5043.97 -2577.56 1308.36
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5037.4 -2577.17 1309.94 5045.98 +
+\i (00:06:06) QtSignal -2586.07 1349.57
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5024.01 -2584.6 1354.03 5068.46 +
+\i (00:06:06) QtSignal -2629.55 1623.85
+\i (00:06:06) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4863.42 -2608.57 1631.36 +
+\i (00:06:06) QtSignal 4839.57 -2605.63 1770.42
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4771.52 -2595.94 1759.57 +
+\i (00:06:07) QtSignal 4732.78 -2599 1864.15
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4646.15 -2587.12 1828.34 +
+\i (00:06:07) QtSignal 4620.52 -2567.24 1881.04
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4624.51 -2567.03 1886.64 +
+\i (00:06:07) QtSignal 4601.96 -2572.18 1921.12
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4556.53 -2566.86 1890.47 +
+\i (00:06:07) QtSignal 4491.63 -2580.03 1979.19
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4367.21 -2562.57 1876.64 +
+\i (00:06:07) QtSignal 4338.43 -2566.88 1906.25
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4294.17 -2559.45 1861.99 +
+\i (00:06:07) QtSignal 4253.75 -2564.86 1899.43
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4195.97 -2553.97 1834.1 4067.27 +
+\i (00:06:07) QtSignal -2555.11 1939.95
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3921.9 -2519.8 1727.19 3811.12 +
+\i (00:06:07) QtSignal -2499.98 1787.31
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3741.02 -2477.13 1636.07 +
+\i (00:06:07) QtSignal 3635.8 -2481.6 1670.2
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3579.33 -2458.1 1446.74 3565.7 +
+\i (00:06:07) QtSignal -2458.46 1449.15
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3560.82 -2455.43 1420.49 +
+\i (00:06:07) QtSignal 3410.42 -2445.4 1445.81
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3387.14 -2412.01 1135.52 +
+\i (00:06:07) QtSignal 3373.31 -2412.07 1135.06
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3374.65 -2409.2 1103.09 3347.01 +
+\i (00:06:07) QtSignal -2409.27 1101.68
+\i (00:06:07) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3351.44 -2403.44 1036.88 +
+\i (00:06:07) QtSignal 3337.66 -2403.43 1035.7
+\i (00:06:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3340.75 -2400.49 1003.13 +
+\i (00:06:09) QtSignal 3354.51 -2400.52 1004.55
+\i (00:06:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3351.44 -2403.44 1036.88 +
+\i (00:06:09) QtSignal 3365.23 -2403.45 1038.07
+\i (00:06:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3362.75 -2406.34 1070.21 +
+\i (00:06:09) QtSignal 3473.4 -2433.78 1075.31
+\i (00:06:09) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3468.4 -2447.44 1242.43 3551.34 +
+\i (00:06:09) QtSignal -2473.78 1233.14
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3559.39 -2484.41 1329.49 +
+\i (00:06:10) QtSignal 3613.88 -2482.96 1319.88
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3637.4 -2500.28 1428.05 3664.24 +
+\i (00:06:10) QtSignal -2499.25 1421.38
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3678.6 -2507.66 1473.87 3718.48 +
+\i (00:06:10) QtSignal -2505.9 1462.48
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3742.82 -2518.03 1538.16 +
+\i (00:06:10) QtSignal 3782.03 -2529.6 1522.54
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3795.04 -2535.2 1559.58 3871.74 +
+\i (00:06:10) QtSignal -2557.62 1523.89
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3897.6 -2567.75 1587.91 3909.81 +
+\i (00:06:10) QtSignal -2566.71 1581.47
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3921.48 -2571.36 1602.38 +
+\i (00:06:10) QtSignal 3957.41 -2581.65 1579.62
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3972.64 -2587.35 1606.82 +
+\i (00:06:10) QtSignal 3996.08 -2584.91 1592.31
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4021.36 -2594.24 1630.05 +
+\i (00:06:10) QtSignal 4067.19 -2588.98 1599.46
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4119.47 -2606.39 1669.18 +
+\i (00:06:10) QtSignal 4152.14 -2601.88 1643.97
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4193.18 -2614.1 1692.17 4245.33 +
+\i (00:06:10) QtSignal -2605.89 1647.44
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4315.17 -2624.25 1718.64 +
+\i (00:06:10) QtSignal 4324.77 -2622.39 1708.84
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4339.31 -2625.88 1722.19 +
+\i (00:06:10) QtSignal 4358.16 -2622.07 1702.27
+\i (00:06:10) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4387.24 -2628.74 1727.58 +
+\i (00:06:10) QtSignal 4396.77 -2613.27 1720.33
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4441.45 -2622.63 1756.81 +
+\i (00:06:11) QtSignal 4459.21 -2618.58 1735.97
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4488.51 -2624.08 1759 4514.02 +
+\i (00:06:11) QtSignal -2617.8 1726.86
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4557.74 -2625.36 1758.23 +
+\i (00:06:11) QtSignal 4557.46 -2638.89 1755.36
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4525.21 -2633.24 1733.54 +
+\i (00:06:11) QtSignal 4533.13 -2631.04 1722.4
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4547.86 -2633.74 1732.16 +
+\i (00:06:11) QtSignal 4632.8 -2609.18 1608.24
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4779.66 -2631.45 1684.82 +
+\i (00:06:11) QtSignal 4794.88 -2650.68 1641.38
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4760.54 -2645.71 1630.93 +
+\i (00:06:11) QtSignal 4765.25 -2643.04 1618.2
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4778.66 -2645.01 1622.62 +
+\i (00:06:11) QtSignal 4819.06 -2620.71 1507.34
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4923.95 -2633.83 1532.13 +
+\i (00:06:11) QtSignal 4928.73 -2627.91 1505.52
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4951.58 -2630.24 1508.69 +
+\i (00:06:11) QtSignal 4957.33 -2621.21 1468.58
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4989.65 -2624.18 1471.66 +
+\i (00:06:11) QtSignal 5000.69 -2606.84 1334.11
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5045.12 -2610.22 1336.88 +
+\i (00:06:11) QtSignal 5042.7 -2603.75 1310.08
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 5058.5 -2604.68 1308.14 5054.47 +
+\i (00:06:11) QtSignal -2628.26 1288.53
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4982.21 -2623.23 1300.3 4970.93 +
+\i (00:06:11) QtSignal -2620.24 1230.71
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4963.33 -2619.73 1234.16 +
+\i (00:06:11) QtSignal 4944.7 -2599.54 1155.8
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4973.65 -2601.58 1146.71 +
+\i (00:06:11) QtSignal 4942.27 -2577.35 1058.32
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4963.9 -2578.26 1048.81 4923.96 +
+\i (00:06:11) QtSignal -2583.85 971.132
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4864.91 -2582.87 1010.52 +
+\i (00:06:11) QtSignal 4850.34 -2575.79 988.073
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4852.73 -2575.87 986.437 +
+\i (00:06:11) QtSignal 4845.05 -2572.31 975.488
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4846.03 -2572.34 974.78 4638.93 +
+\i (00:06:11) QtSignal -2493.21 691.056
+\i (00:06:11) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4533.43 -2502.37 825.906 +
+\i (00:06:11) QtSignal 4521.47 -2499.07 819.787
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4519 -2499.51 824.472 4333.03 +
+\i (00:06:12) QtSignal -2477.11 730.838
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4270.01 -2503.14 937.082 +
+\i (00:06:12) QtSignal 4190.21 -2485.97 921.889
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4180.37 -2493.47 982.936 +
+\i (00:06:12) QtSignal 4139.78 -2485.4 979.598
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4137.07 -2489.92 1012.51 +
+\i (00:06:12) QtSignal 4012.27 -2480.07 1006.88
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 4019.07 -2505.3 1166.33 3973.49 +
+\i (00:06:12) QtSignal -2525.52 1167.94
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3992.17 -2544.21 1292.63 +
+\i (00:06:12) QtSignal 3951.82 -2537.79 1300.01
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3959.97 -2543.51 1343.07 +
+\i (00:06:12) QtSignal 3890.99 -2546.83 1357.54
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3923.66 -2563.84 1474.5 3910.65 +
+\i (00:06:12) QtSignal -2561.96 1478.82
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3915.56 -2564.06 1494.09 +
+\i (00:06:12) QtSignal 3850.87 -2554.82 1516.83
+\i (00:06:12) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasRotateEvent 3881.51 -2566.69 1597.3 3864.34 +
+\i (00:06:12) QtSignal -2592.19 1600.73
+\i (00:06:13) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 680 606 580 721 4 0 +
+\i (00:06:13) QtSignal 33554432 3907.11 -2605.74 1695.15
+\i (00:06:16) QtSignal pcb3dViewer pcb3dViewer closed
+\i (00:06:17) pick grid -31.8142 25.3625
+\t (00:06:17) last pick:  -31.8000 25.4000
+\i (00:06:17) zoom in 1 
+\i (00:06:17) setwindow pcb
+\i (00:06:17) zoom in -35.0611 7.9102
+\i (00:06:17) trapsize 5073
+\i (00:06:17) zoom in 1 
+\i (00:06:17) setwindow pcb
+\i (00:06:17) zoom in -35.0611 7.9102
+\i (00:06:17) trapsize 2537
+\i (00:06:22) roam y -96 
+\i (00:06:22) roam y -96
+\i (00:06:23) roam y 96 
+\i (00:06:23) roam y 96
+\i (00:06:24) roam x 96 
+\i (00:06:24) roam x 96
+\i (00:06:33) roam start
+\i (00:06:33) roam x 96
+\i (00:06:33) roam y 64
+\i (00:06:33) roam x 48
+\i (00:06:33) roam end
+\i (00:06:36) drag_start grid 20.3906 -14.3111
+\i (00:06:36) move 
+\t (00:06:36) last pick:  20.8000 -14.4000
+\t (00:06:36) Moving R202 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:06:36) Pick new location for the element(s).
+\i (00:06:38) drag_stop grid -11.0642 15.0635
+\i (00:06:38) etchedit 
+\i (00:06:38) pick grid -11.5715 8.0623
+\t (00:06:38) last pick:  -11.6000 8.1000
+\i (00:06:40) prepopup -11.0642 14.6069
+\i (00:06:42) pop dyn_option_select @:@Mirror 
+\i (00:06:42) mirror 
+\i (00:06:42) etchedit 
+\i (00:06:42) pick grid -11.5715 14.6577
+\t (00:06:42) last pick:  -11.6000 14.7000
+\i (00:06:42) add connect 
+\t (00:06:42) Pick first element.
+\t (00:06:43) Target Symbol Pin is defined on TOP.
+\t (00:06:43) last pick:  -10.6500 15.1000
+\i (00:06:44) prepopup -8.0709 13.5415
+\i (00:06:45) cancel 
+\i (00:06:45) etchedit 
+\i (00:06:46) zoom in 1 
+\i (00:06:46) setwindow pcb
+\i (00:06:46) zoom in 0.6552 22.0140
+\i (00:06:46) trapsize 1268
+\i (00:06:49) pick grid -7.9695 19.7056
+\t (00:06:49) last pick:  -8.0000 19.7000
+\i (00:06:52) create fanout 
+\i (00:07:02) pick grid -1.6278 18.5641
+\t (00:07:02) last pick:  -1.6000 18.6000
+\t (00:07:02) Generate Fanouts completed, #Pins=7, IC1, #Ignored=1(Unassigned)
+\i (00:07:03) prepopup -7.3607 18.7671
+\i (00:07:04) done 
+\i (00:07:04) etchedit 
+\i (00:07:08) QtSignal CVPLayerGrid CVPBoxAllL2_Gnd clicked true
+\i (00:07:09) QtSignal CVPLayerGrid CVPBoxAllL2_Gnd clicked false
+\i (00:07:10) QtSignal CVPLayerGrid CVPBoxAllL4_Gnd clicked true
+\i (00:07:11) QtSignal CVPLayerGrid CVPBoxAllL4_Gnd clicked false
+\i (00:07:13) QtSignal CVPLayerGrid CVPBoxAllL5_Pwr clicked true
+\i (00:07:14) QtSignal CVPLayerGrid CVPBoxAllL5_Pwr clicked false
+\i (00:07:15) QtSignal CVPLayerGrid CVPBoxAllL7_Pwr clicked true
+\i (00:07:16) QtSignal CVPLayerGrid CVPBoxAllL7_Pwr clicked false
+\i (00:07:17) pick grid -9.6183 9.8887
+\t (00:07:17) last pick:  -9.6000 9.9000
+\i (00:07:18) pick grid -9.6437 12.7552
+\t (00:07:18) last pick:  -9.6000 12.8000
+\i (00:07:19) prepopup -10.5315 14.8099
+\i (00:07:20) pick grid -8.8827 18.3105
+\t (00:07:20) last pick:  -8.9000 18.3000
+\i (00:07:22) pick grid -8.3753 9.7619
+\t (00:07:22) last pick:  -8.4000 9.8000
+\i (00:07:23) pick grid -11.3686 9.5336
+\t (00:07:23) last pick:  -11.4000 9.5000
+\i (00:07:25) pick grid -12.4340 10.4722
+\t (00:07:25) last pick:  -12.4000 10.5000
+\i (00:07:27) drag_start grid -11.6223 14.8860
+\i (00:07:27) move 
+\t (00:07:27) last pick:  -11.1000 15.1000
+\t (00:07:27) Moving R202 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:07:27) Pick new location for the element(s).
+\i (00:07:28) iangle 90 
+\t (00:07:28) last pick:  9.0000 0.0000
+\i (00:07:31) drag_stop grid 2.2026 16.2811
+\i (00:07:31) etchedit 
+\i (00:07:32) pick grid -11.7237 17.1943
+\t (00:07:32) last pick:  -11.7000 17.2000
+\i (00:07:35) roam y 96 
+\i (00:07:35) roam y 96
+\i (00:07:36) roam y 96 
+\i (00:07:36) roam y 96
+\i (00:07:36) roam y 96 
+\i (00:07:36) roam y 96
+\i (00:07:36) roam y 96 
+\i (00:07:36) roam y 96
+\i (00:07:36) roam y 96 
+\i (00:07:36) roam y 96
+\i (00:07:36) roam y 96 
+\i (00:07:36) roam y 96
+\i (00:07:36) roam y 96 
+\i (00:07:36) roam y 96
+\i (00:07:36) roam y 96 
+\i (00:07:36) roam y 96
+\i (00:07:37) roam y 96 
+\i (00:07:37) roam y 96
+\i (00:07:37) roam y 96 
+\i (00:07:37) roam y 96
+\i (00:07:37) roam y 96 
+\i (00:07:37) roam y 96
+\i (00:07:37) roam y 96 
+\i (00:07:37) roam y 96
+\i (00:07:38) roam x 96 
+\i (00:07:38) roam x 96
+\i (00:07:38) roam x 96 
+\i (00:07:38) roam x 96
+\i (00:07:38) roam x 96 
+\i (00:07:38) roam x 96
+\i (00:07:38) roam x 96 
+\i (00:07:38) roam x 96
+\i (00:07:39) roam x 96 
+\i (00:07:39) roam x 96
+\i (00:07:39) roam x 96 
+\i (00:07:39) roam x 96
+\i (00:07:40) drag_start grid 21.4052 -21.2617
+\i (00:07:40) move 
+\t (00:07:40) last pick:  21.0000 -20.9000
+\t (00:07:40) Moving R201 / RSMD0402_0.0625W-XX,1% / C0402.
+\t (00:07:40) Pick new location for the element(s).
+\i (00:07:41) roam x -112
+\i (00:07:41) roam y -32
+\i (00:07:41) roam x -272
+\i (00:07:41) roam y -144
+\i (00:07:41) roam x -80
+\i (00:07:41) roam y -112
+\i (00:07:41) roam x -16
+\i (00:07:41) roam y -16
+\i (00:07:41) roam x -32
+\i (00:07:41) roam y -32
+\i (00:07:41) roam y -16
+\i (00:07:42) drag_stop grid -8.2231 -2.1859
+\i (00:07:42) etchedit 
+\i (00:07:42) zoom out 1 
+\i (00:07:42) setwindow pcb
+\i (00:07:42) zoom out -3.0737 -8.2485
+\i (00:07:42) trapsize 2537
+\i (00:07:44) drag_start grid 25.5908 -16.9239
+\i (00:07:44) move 
+\t (00:07:44) last pick:  25.7000 -17.1000
+\t (00:07:44) Moving R203 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:07:44) Pick new location for the element(s).
+\i (00:07:45) drag_stop grid -6.3206 9.4067
+\i (00:07:45) etchedit 
+\i (00:07:46) drag_start grid 27.2143 -22.1495
+\i (00:07:46) move 
+\t (00:07:46) last pick:  26.3000 -21.7000
+\t (00:07:46) Moving R204 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:07:46) Pick new location for the element(s).
+\i (00:07:47) drag_stop grid -8.9080 7.4789
+\i (00:07:47) etchedit 
+\i (00:07:49) drag_start grid 0.8836 -16.5181
+\i (00:07:49) move 
+\t (00:07:49) last pick:  0.7000 -16.5000
+\t (00:07:49) Moving C112 / CAPCERSMDCL2_0402-100NF_X7R,16V / C0402.
+\t (00:07:49) Pick new location for the element(s).
+\i (00:07:50) roam y -16
+\i (00:07:50) roam y -96
+\i (00:07:50) roam y -96
+\i (00:07:50) roam y -112
+\i (00:07:50) roam y -32
+\i (00:07:50) roam y -16
+\i (00:07:50) drag_stop grid -12.5608 29.4211
+\i (00:07:50) etchedit 
+\i (00:07:51) pick grid -11.1402 14.0996
+\t (00:07:51) last pick:  -11.1000 14.1000
+\i (00:07:53) drag_start grid -6.9294 8.9755
+\i (00:07:53) move 
+\t (00:07:53) last pick:  -6.3000 9.4000
+\t (00:07:53) Moving R203 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:07:53) Pick new location for the element(s).
+\i (00:07:54) drag_stop grid -5.7625 16.2304
+\i (00:07:54) etchedit 
+\i (00:07:54) pick grid -11.8505 16.3826
+\t (00:07:54) last pick:  -11.9000 16.4000
+\i (00:07:55) prepopup -5.7118 15.9260
+\i (00:07:56) pop dyn_option_select @:@Mirror 
+\i (00:07:57) mirror 
+\i (00:07:57) etchedit 
+\i (00:07:57) pick grid -10.2270 17.0422
+\t (00:07:57) last pick:  -10.2000 17.0000
+\i (00:07:59) prepopup -8.3499 7.5550
+\i (00:08:01) pop dyn_option_select @:@Mirror 
+\i (00:08:01) mirror 
+\i (00:08:01) etchedit 
+\i (00:08:01) pick grid -15.0975 12.9328
+\t (00:08:01) last pick:  -15.1000 12.9000
+\i (00:08:03) drag_start grid -6.4220 16.4334
+\i (00:08:03) move 
+\t (00:08:03) last pick:  -5.8000 16.2000
+\t (00:08:03) Moving R203 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:08:03) Pick new location for the element(s).
+\i (00:08:04) iangle 90 
+\t (00:08:04) last pick:  9.0000 0.0000
+\i (00:08:04) iangle 90 
+\t (00:08:04) last pick:  9.0000 0.0000
+\i (00:08:04) iangle 90 
+\t (00:08:04) last pick:  9.0000 0.0000
+\i (00:08:07) drag_stop grid -0.4355 16.1290
+\i (00:08:07) etchedit 
+\i (00:08:07) pick grid -15.8585 15.1143
+\t (00:08:07) last pick:  -15.9000 15.1000
+\i (00:08:08) zoom in 1 
+\i (00:08:08) setwindow pcb
+\i (00:08:08) zoom in -12.1549 9.8887
+\i (00:08:08) trapsize 1268
+\i (00:08:09) drag_start grid -9.1363 7.5804
+\i (00:08:09) move 
+\t (00:08:09) last pick:  -8.9000 7.5000
+\t (00:08:09) Moving R204 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:08:09) Pick new location for the element(s).
+\i (00:08:10) iangle 90 
+\t (00:08:10) last pick:  9.0000 0.0000
+\i (00:08:10) iangle 90 
+\t (00:08:10) last pick:  9.0000 0.0000
+\i (00:08:10) iangle 90 
+\t (00:08:10) last pick:  9.0000 0.0000
+\i (00:08:15) drag_stop grid 0.8582 16.0528
+\i (00:08:15) etchedit 
+\i (00:08:16) pick grid -10.8358 16.2304
+\t (00:08:16) last pick:  -10.8000 16.2000
+\i (00:08:18) zoom in 1 
+\i (00:08:18) setwindow pcb
+\i (00:08:18) zoom in 3.0398 20.4667
+\i (00:08:18) trapsize 634
+\i (00:08:20) drag_start grid -0.5877 16.4207
+\i (00:08:20) move 
+\t (00:08:20) last pick:  -0.4000 16.1000
+\t (00:08:20) Moving R203 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:08:20) Pick new location for the element(s).
+\i (00:08:28) drag_stop grid -0.4228 16.2178
+\i (00:08:28) etchedit 
+\i (00:08:28) pick grid -9.2123 18.3105
+\t (00:08:28) last pick:  -9.2000 18.3000
+\i (00:08:30) drag_start grid 0.8582 15.6217
+\i (00:08:30) move 
+\t (00:08:30) last pick:  0.9000 16.1000
+\t (00:08:30) Moving R204 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:08:30) Pick new location for the element(s).
+\i (00:08:33) drag_stop grid 0.8709 16.1671
+\i (00:08:33) etchedit 
+\i (00:08:34) pick grid -6.6376 16.8139
+\t (00:08:34) last pick:  -6.6000 16.8000
+\i (00:08:35) drag_start grid 2.1646 15.6724
+\i (00:08:35) move 
+\t (00:08:35) last pick:  2.2000 16.3000
+\t (00:08:35) Moving R202 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:08:35) Pick new location for the element(s).
+\i (00:08:41) drag_stop grid 2.2027 16.1544
+\i (00:08:42) etchedit 
+\i (00:08:42) pick grid -6.2825 16.3954
+\t (00:08:42) last pick:  -6.3000 16.4000
+\i (00:08:43) zoom out 1 
+\i (00:08:43) setwindow pcb
+\i (00:08:43) zoom out -0.1184 16.0529
+\i (00:08:43) trapsize 1268
+\i (00:08:47) roam y 96 
+\i (00:08:47) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:49) roam y 96 
+\i (00:08:49) roam y 96
+\i (00:08:51) prepopup -8.8953 -2.5917
+\i (00:08:53) pop dyn_option_select @:@Mirror 
+\i (00:08:53) mirror 
+\i (00:08:53) etchedit 
+\i (00:08:53) pick grid -12.7257 -1.9575
+\t (00:08:53) last pick:  -12.7000 -2.0000
+\i (00:08:54) drag_start grid -8.5656 -2.3127
+\i (00:08:54) move 
+\t (00:08:54) last pick:  -8.2000 -2.2000
+\t (00:08:54) Moving R201 / RSMD0402_0.0625W-XX,1% / C0402.
+\t (00:08:54) Pick new location for the element(s).
+\i (00:08:55) drag_stop grid -5.9782 11.8673
+\i (00:08:55) etchedit 
+\i (00:08:56) roam start
+\i (00:08:56) roam y -16
+\i (00:08:56) roam x 32
+\i (00:08:56) roam y -128
+\i (00:08:56) roam x 16
+\i (00:08:56) roam y -16
+\i (00:08:56) roam x 16
+\i (00:08:56) roam y -128
+\i (00:08:56) roam x 48
+\i (00:08:56) roam y -176
+\i (00:08:56) roam x 64
+\i (00:08:56) roam y -240
+\i (00:08:56) roam x 64
+\i (00:08:56) roam y -256
+\i (00:08:56) roam x 80
+\i (00:08:56) roam y -288
+\i (00:08:56) roam x 80
+\i (00:08:56) roam y -304
+\i (00:08:56) roam x 96
+\i (00:08:56) roam y -304
+\i (00:08:56) roam x 64
+\i (00:08:56) roam y -240
+\i (00:08:56) roam x 64
+\i (00:08:56) roam y -224
+\i (00:08:56) roam end
+\i (00:08:57) zoom out 1 
+\i (00:08:57) setwindow pcb
+\i (00:08:57) zoom out 7.1491 65.0360
+\i (00:08:57) trapsize 2537
+\i (00:08:57) zoom out 1 
+\i (00:08:57) setwindow pcb
+\i (00:08:57) zoom out 7.1490 65.0360
+\i (00:08:57) trapsize 5073
+\i (00:08:58) roam y 96 
+\i (00:08:58) roam y 96
+\i (00:08:58) roam y 96 
+\i (00:08:58) roam y 96
+\i (00:08:59) roam y 96 
+\i (00:08:59) roam y 96
+\i (00:09:00) roam y 96 
+\i (00:09:00) roam y 96
+\i (00:09:01) pick grid -8.0710 20.4413
+\t (00:09:01) last pick:  -8.1000 20.4000
+\i (00:09:02) zoom in 1 
+\i (00:09:02) setwindow pcb
+\i (00:09:02) zoom in -10.9121 16.6870
+\i (00:09:02) trapsize 2537
+\i (00:09:02) zoom in 1 
+\i (00:09:02) setwindow pcb
+\i (00:09:02) zoom in -10.6584 15.4187
+\i (00:09:02) trapsize 1268
+\i (00:09:04) drag_start grid -6.4982 11.9942
+\i (00:09:04) move 
+\t (00:09:04) last pick:  -6.0000 11.9000
+\t (00:09:04) Moving R201 / RSMD0402_0.0625W-XX,1% / C0402.
+\t (00:09:04) Pick new location for the element(s).
+\i (00:09:05) drag_stop grid -6.0670 16.3573
+\i (00:09:05) etchedit 
+\i (00:09:08) zoom in 1 
+\i (00:09:08) setwindow pcb
+\i (00:09:08) zoom in -3.9362 17.8032
+\i (00:09:08) trapsize 634
+\i (00:09:10) drag_start grid -0.5244 16.6236
+\i (00:09:10) move 
+\t (00:09:10) last pick:  -0.4000 16.2000
+\t (00:09:10) Moving R203 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:09:10) Pick new location for the element(s).
+\i (00:09:16) drag_stop grid -1.5644 16.3065
+\i (00:09:16) etchedit 
+\i (00:09:17) drag_start grid 1.1625 16.6870
+\i (00:09:17) move 
+\t (00:09:17) last pick:  0.9000 16.2000
+\t (00:09:17) Moving R204 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:09:17) Pick new location for the element(s).
+\i (00:09:20) drag_stop grid -0.3088 16.2685
+\i (00:09:21) etchedit 
+\i (00:09:22) drag_start grid 2.3547 16.5602
+\i (00:09:22) move 
+\t (00:09:22) last pick:  2.2000 16.2000
+\t (00:09:22) Moving R202 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:09:22) Pick new location for the element(s).
+\i (00:09:31) drag_stop grid 0.9722 16.2812
+\i (00:09:31) etchedit 
+\i (00:09:32) pick grid -5.7372 20.2891
+\t (00:09:32) last pick:  -5.7000 20.3000
+\i (00:09:33) drag_start grid -6.2065 16.3573
+\i (00:09:33) move 
+\t (00:09:33) last pick:  -6.1000 16.4000
+\t (00:09:33) Moving R201 / RSMD0402_0.0625W-XX,1% / C0402.
+\t (00:09:33) Pick new location for the element(s).
+\i (00:09:34) iangle 90 
+\t (00:09:34) last pick:  9.0000 0.0000
+\i (00:09:39) drag_stop grid 2.2913 16.3192
+\i (00:09:39) etchedit 
+\i (00:09:40) pick grid -6.7392 18.9193
+\t (00:09:40) last pick:  -6.7000 18.9000
+\i (00:09:50) drag_start grid -0.2707 15.7865
+\i (00:09:50) move 
+\t (00:09:50) last pick:  -0.3000 16.3000
+\t (00:09:50) Moving R204 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:09:50) Pick new location for the element(s).
+\i (00:09:51) iangle 90 
+\t (00:09:51) last pick:  9.0000 0.0000
+\i (00:09:51) iangle 90 
+\t (00:09:51) last pick:  9.0000 0.0000
+\i (00:09:56) drag_stop grid -0.2707 16.2939
+\i (00:09:57) etchedit 
+\i (00:09:58) pick grid -6.2953 16.8519
+\t (00:09:58) last pick:  -6.3000 16.9000
+\i (00:09:58) drag_start grid -1.4503 15.6216
+\i (00:09:59) move 
+\t (00:09:59) last pick:  -1.6000 16.3000
+\t (00:09:59) Moving R203 / RSMD0402_1/16W-0R0,1% / C0402.
+\t (00:09:59) Pick new location for the element(s).
+\i (00:09:59) iangle 90 
+\t (00:09:59) last pick:  9.0000 0.0000
+\i (00:09:59) iangle 90 
+\t (00:09:59) last pick:  9.0000 0.0000
+\i (00:10:07) drag_stop grid -1.5644 16.2558
+\i (00:10:07) etchedit 
+\i (00:10:08) pick grid -6.1685 19.5154
+\t (00:10:08) last pick:  -6.2000 19.5000
+\i (00:10:10) pick grid -0.2327 16.8139
+\t (00:10:10) last pick:  -0.2000 16.8000
+\i (00:10:10) add connect 
+\t (00:10:10) Pick first element.
+\t (00:10:10) Target Via is defined from TOP to BOTTOM.
+\t (00:10:10) last pick:  -0.3000 16.7500
+\i (00:10:11) mouse_pos 0.8074 19.2618
+\i (00:10:11) pick grid 0.8708 19.6676
+\t (00:10:11) last pick:  0.9000 19.7000
+\t (00:10:11) No DRC errors detected.
+\t (00:10:11) Pick first element.
+\i (00:10:12) etchedit 
+\i (00:10:14) pick grid -1.6025 16.4714
+\t (00:10:14) last pick:  -1.6000 16.5000
+\i (00:10:14) add connect 
+\t (00:10:14) Pick first element.
+\t (00:10:14) Target Via is defined from TOP to BOTTOM.
+\t (00:10:14) last pick:  -1.6000 16.7500
+\i (00:10:15) mouse_pos -0.3468 19.2871
+\i (00:10:16) pick grid -0.2327 19.4901
+\t (00:10:16) last pick:  -0.2000 19.5000
+\t (00:10:16) No DRC errors detected.
+\t (00:10:16) Pick first element.
+\i (00:10:16) etchedit 
+\i (00:10:17) pick grid 1.0610 16.5856
+\t (00:10:17) last pick:  1.1000 16.6000
+\i (00:10:17) add connect 
+\t (00:10:17) Pick first element.
+\t (00:10:17) Target Symbol Pin is defined on BOTTOM.
+\t (00:10:17) last pick:  1.0000 16.7500
+\i (00:10:18) mouse_pos 1.8981 16.7124
+\i (00:10:18) mouse_pos 1.9615 17.3466
+\i (00:10:19) mouse_pos 2.0123 19.2618
+\i (00:10:19) pick grid 2.0884 19.4520
+\t (00:10:19) last pick:  2.1000 19.5000
+\t (00:10:19) No DRC errors detected.
+\t (00:10:19) Pick first element.
+\i (00:10:20) etchedit 
+\i (00:10:21) pick grid 2.3294 16.6617
+\t (00:10:21) last pick:  2.3000 16.7000
+\i (00:10:21) add connect 
+\t (00:10:21) Pick first element.
+\t (00:10:21) Target Via is defined from TOP to BOTTOM.
+\t (00:10:21) last pick:  2.3000 16.7500
+\i (00:10:21) mouse_pos 1.4035 16.8139
+\i (00:10:22) pick grid 1.1371 16.8012
+\t (00:10:22) last pick:  1.1000 16.8000
+\t (00:10:22) No DRC errors detected.
+\t (00:10:22) Pick first element.
+\i (00:10:22) etchedit 
+\i (00:10:23) pick grid 2.3547 15.7358
+\t (00:10:23) last pick:  2.4000 15.7000
+\i (00:10:23) add connect 
+\t (00:10:24) Pick first element.
+\t (00:10:24) Target Via is defined from TOP to BOTTOM.
+\t (00:10:24) last pick:  2.3000 15.8500
+\i (00:10:27) pop bbdrill -cursor 
+\t (00:10:27) last pick:  2.3000 15.0000
+\t (00:10:27) No DRC errors detected.
+\t (00:10:27) VIA22RD0-3D used for drill.
+\t (00:10:27) No DRC errors detected.
+\t (00:10:27) Pick first element.
+\i (00:10:28) etchedit 
+\i (00:10:29) pick grid 0.9469 15.8626
+\t (00:10:29) last pick:  0.9000 15.9000
+\i (00:10:29) add connect 
+\t (00:10:30) Pick first element.
+\t (00:10:30) last pick:  1.0000 15.8500
+\i (00:10:30) mouse_pos 0.9469 15.8626
+\i (00:10:30) mouse_pos 1.0610 14.9875
+\i (00:10:32) pop bbdrill -cursor 
+\t (00:10:32) last pick:  1.1000 15.0000
+\t (00:10:32) No DRC errors detected.
+\t (00:10:32) last pick:  1.0000 15.1000
+\t (00:10:32) VIA22RD0-3D used for drill.
+\t (00:10:32) No DRC errors detected.
+\t (00:10:32) Pick first element.
+\i (00:10:32) etchedit 
+\i (00:10:37) create fanout 
+\i (00:10:39) pick grid -0.1312 15.8373
+\t (00:10:39) last pick:  -0.1000 15.8000
+\t (00:10:39) Generate Fanouts completed, #Pins=1, R204, #Ignored=1(Tied to Multiple Components)
+\i (00:10:41) pick grid -1.6786 15.7612
+\t (00:10:41) last pick:  -1.7000 15.8000
+\t (00:10:41) Generate Fanouts completed, #Pins=1, R203, #Ignored=1(Tied to Multiple Components)
+\i (00:10:41) prepopup -7.3861 17.8159
+\i (00:10:42) done 
+\i (00:10:42) etchedit 
+\i (00:10:43) zoom out 1 
+\i (00:10:43) setwindow pcb
+\i (00:10:43) zoom out -6.6251 18.2725
+\i (00:10:43) trapsize 1268
+\i (00:10:45) roam y 96 
+\i (00:10:45) roam y 96
+\i (00:10:45) roam y 96 
+\i (00:10:45) roam y 96
+\i (00:10:46) roam y 96 
+\i (00:10:46) roam y 96
+\i (00:10:58) setwindow form.mini
+\i (00:10:58) FORM mini subclass TOP 
+\i (00:10:59) setwindow pcb
+\i (00:10:59) pick grid -1.5518 11.5629
+\t (00:10:59) last pick:  -1.6000 11.6000
+\i (00:10:59) add connect 
+\t (00:10:59) Pick first element.
+\t (00:10:59) Target Via is defined from TOP to BOTTOM.
+\t (00:10:59) last pick:  -1.6050 11.7700
+\i (00:11:04) prepopup 0.0463 10.6497
+\i (00:11:10) pop dyn_option_select 'Change Active Layer@:@BOTTOM' 
+\i (00:11:15) zoom out 1 
+\i (00:11:15) setwindow pcb
+\i (00:11:15) zoom out 8.4934 5.6525
+\i (00:11:15) trapsize 2537
+\i (00:11:22) zoom in 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom in 6.9207 10.6243
+\i (00:11:22) trapsize 1268
+\i (00:11:27) pick grid -0.2580 10.1931
+\t (00:11:27) last pick:  -0.3000 10.2000
+\t (00:11:27) No DRC errors detected.
+\i (00:11:34) pick grid 12.0702 10.1170
+\t (00:11:34) last pick:  12.1000 10.1000
+\t (00:11:34) No DRC errors detected.
+\t (00:11:34) last pick:  12.0565 10.1435
+\i (00:11:34) redraw 
+\i (00:11:36) prepopup 11.7404 9.9394
+\i (00:11:37) done 
+\i (00:11:37) etchedit 
+\i (00:11:38) pick grid -0.4102 11.5375
+\t (00:11:38) last pick:  -0.4000 11.5000
+\i (00:11:38) add connect 
+\t (00:11:39) Pick first element.
+\t (00:11:39) Target Via is defined from TOP to BOTTOM.
+\t (00:11:39) last pick:  -0.3350 11.7700
+\i (00:11:40) pick grid 0.6552 10.6497
+\t (00:11:40) last pick:  0.7000 10.6000
+\t (00:11:40) No DRC errors detected.
+\t (00:11:40) last pick:  0.7000 10.7350
+\i (00:11:47) pick grid 12.4253 10.6497
+\t (00:11:47) last pick:  12.4000 10.6000
+\t (00:11:47) No DRC errors detected.
+\i (00:11:47) prepopup 12.4253 10.6497
+\i (00:11:48) done 
+\i (00:11:48) etchedit 
+\i (00:12:03) prepopup 11.7912 10.1424
+\i (00:12:04) pop dyn_option_select '@:@Add connect' 
+\i (00:12:04) add connect 
+\t (00:12:05) Pick first element.
+\t (00:12:05) Target Via is defined from TOP to BOTTOM.
+\t (00:12:05) last pick:  11.7912 10.1435
+\i (00:12:11) pop bbdrill -cursor 
+\t (00:12:11) last pick:  18.0000 10.9000
+\t (00:12:11) No DRC errors detected.
+\t (00:12:11) VIA22RD0-3D used for drill.
+\t (00:12:11) No DRC errors detected.
+\i (00:12:16) mouse_pos 17.0421 5.2466
+\i (00:12:17) mouse_pos 17.2958 5.2973
+\i (00:12:18) prepopup 19.0714 8.4935
+\i (00:12:23) mouse_pos 17.4226 5.2466
+\i (00:12:24) pick grid 17.1689 4.7139
+\t (00:12:24) last pick:  17.2000 4.7000
+\t (00:12:24) No DRC errors detected.
+\t (00:12:24) Pick first element.
+\i (00:12:24) etchedit 
+\i (00:12:27) prepopup 11.6897 10.4975
+\i (00:12:30) pick grid 12.5522 12.5522
+\t (00:12:30) last pick:  12.6000 12.6000
+\i (00:12:31) prepopup 11.8673 10.6243
+\i (00:12:32) pop dyn_option_select '@:@Add connect' 
+\i (00:12:32) add connect 
+\t (00:12:33) Pick first element.
+\t (00:12:33) Target Via is defined from TOP to BOTTOM.
+\t (00:12:33) last pick:  11.8673 10.6000
+\i (00:12:37) pop bbdrill -cursor 
+\t (00:12:37) last pick:  14.1000 10.7000
+\t (00:12:37) No DRC errors detected.
+\t (00:12:37) last pick:  14.0000 10.6000
+\t (00:12:37) VIA22RD0-3D used for drill.
+\t (00:12:37) No DRC errors detected.
+\i (00:12:42) prepopup 13.4907 10.9541
+\i (00:12:43) done 
+\i (00:12:43) etchedit 
+\i (00:12:46) roam y 96 
+\i (00:12:46) roam y 96
+\i (00:12:46) roam y 96 
+\i (00:12:46) roam y 96
+\i (00:12:49) pick grid 14.6576 3.8514
+\t (00:12:49) last pick:  14.7000 3.9000
+\i (00:12:49) add connect 
+\t (00:12:50) Pick first element.
+\t (00:12:50) Target Via is defined from TOP to BOTTOM.
+\t (00:12:50) last pick:  14.6000 3.9000
+\i (00:12:53) mouse_pos 14.3278 10.1677
+\i (00:12:53) mouse_pos 14.4547 10.1931
+\i (00:12:53) mouse_pos 14.3786 10.2438
+\i (00:12:54) pick grid 14.1249 10.5736
+\t (00:12:54) last pick:  14.1000 10.6000
+\t (00:12:54) No DRC errors detected.
+\t (00:12:54) Pick first element.
+\i (00:12:54) etchedit 
+\i (00:12:57) color192 
+\i (00:12:57) etchedit 
+\i (00:12:58) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:58) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:12:59) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:00) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:01) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:02) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:03) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:03) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:03) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:03) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:03) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:03) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:04) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:04) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:04) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:04) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:04) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:04) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:05) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:05) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:05) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:05) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:05) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:05) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:05) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:05) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:06) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:07) QtSignal CVDNetTable CVDNetTableDelegate clickedColor 116 0
+\i (00:13:07) QtSignal CVDNetSplitter CVDNetTable dataChanged 116 0
+\i (00:13:07) QtSignal CVDNetSplitter CVDNetTable selectionChanged
+\i (00:13:09) QtSignal CVDNetTable CVDNetTableDelegate clearedColor 116 0
+\i (00:13:10) QtSignal CVDNetSplitter CVDNetTable dataChanged 116 0
+\i (00:13:11) QtSignal CVDNetTable CVDNetTableDelegate clearedColor 118 0
+\i (00:13:11) QtSignal CVDNetSplitter CVDNetTable dataChanged 118 0
+\i (00:13:13) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:13:19) roam y -96 
+\i (00:13:19) roam y -96
+\i (00:13:19) roam y -96 
+\i (00:13:19) roam y -96
+\i (00:13:24) status 
+\i (00:13:24) etchedit 
+\i (00:13:26) setwindow form.status
+\i (00:13:26) FORM status drc_update  
+\t (00:13:26) Running DRC, wait...
+\t (00:13:26) Performing DRC...
+\t (00:13:26) Multithreaded DRC update (8 threads).
+\t (00:13:26) DRC done; 1 errors detected.
+\t (00:13:26) DRC done.
+\i (00:13:28) FORM status drc_color 1 
+\i (00:13:28) setwindow pcb
+\i (00:13:28) reports drc 
+\i (00:13:29) etchedit 
+\i (00:13:30) zoom center 
+\t (00:13:30) Pick center for the new display.
+\i (00:13:30) pick -4.2500,29.9000 
+\t (00:13:30) last pick:  -4.2500 29.9000
+\i (00:13:30) trapsize 1268
+\i (00:13:33) setwindow text
+\i (00:13:33) close
+\i (00:13:34) setwindow form.status
+\i (00:13:34) FORM status done  
+\i (00:13:39) setwindow pcb
+\i (00:13:39) pick grid -17.2377 35.5568
+\t (00:13:39) last pick:  -17.2000 35.6000
+\i (00:13:40) zoom out 1 
+\i (00:13:40) setwindow pcb
+\i (00:13:40) zoom out -11.7839 33.4260
+\i (00:13:40) trapsize 2537
+\i (00:13:41) zoom out 1 
+\i (00:13:41) setwindow pcb
+\i (00:13:41) zoom out -11.7838 33.4261
+\i (00:13:41) trapsize 5073
+\i (00:13:43) roam y -96 
+\i (00:13:43) roam y -96
+\i (00:13:44) roam y 96 
+\i (00:13:44) roam y 96
+\i (00:13:44) roam y 96 
+\i (00:13:44) roam y 96
+\i (00:13:46) zoom in 1 
+\i (00:13:46) setwindow pcb
+\i (00:13:46) zoom in -4.4783 16.9914
+\i (00:13:46) trapsize 2537
+\i (00:13:47) zoom in 1 
+\i (00:13:47) setwindow pcb
+\i (00:13:47) zoom in -4.2753 14.5562
+\i (00:13:47) trapsize 1268
+\i (00:13:48) zoom in 1 
+\i (00:13:48) setwindow pcb
+\i (00:13:48) zoom in -4.2753 14.5562
+\i (00:13:48) trapsize 634
+\i (00:13:50) zoom out 1 
+\i (00:13:50) setwindow pcb
+\i (00:13:50) zoom out -4.2753 14.5562
+\i (00:13:50) trapsize 1268
+\i (00:13:51) zoom out 1 
+\i (00:13:51) setwindow pcb
+\i (00:13:51) zoom out -4.2754 14.5562
+\i (00:13:51) trapsize 2537
+\i (00:13:56) drag_start grid -13.3060 29.2689
+\i (00:13:56) move 
+\t (00:13:56) last pick:  -12.6000 29.4000
+\t (00:13:56) Moving C112 / CAPCERSMDCL2_0402-100NF_X7R,16V / C0402.
+\t (00:13:56) Pick new location for the element(s).
+\i (00:13:57) drag_stop grid -8.1311 12.8820
+\i (00:13:57) etchedit 
+\i (00:14:01) create fanout 
+\i (00:14:03) setwindow form.crfan
+\i (00:14:03) FORM crfan crfan_cancel  
+\i (00:14:03) setwindow pcb
+\i (00:14:03) etchedit 
+\i (00:14:04) pick grid -14.7772 9.9394
+\t (00:14:04) last pick:  -14.8000 9.9000
+\i (00:14:05) pick grid dbl -14.7772 9.9394
+\t (00:14:05) last pick:  -14.8000 9.9000
+\i (00:14:07) create fanout 
+\i (00:14:08) pick grid -8.6385 12.8820
+\t (00:14:08) last pick:  -8.6000 12.9000
+\t (00:14:08) Generate Fanouts completed, #Pins=2, C112
+\i (00:14:08) prepopup -10.1097 7.5550
+\i (00:14:09) done 
+\i (00:14:09) etchedit 
+\i (00:14:09) zoom in 1 
+\i (00:14:09) setwindow pcb
+\i (00:14:09) zoom in -10.2619 7.8086
+\i (00:14:09) trapsize 1268
+\i (00:14:12) drag_start grid -8.5623 12.9581
+\i (00:14:12) move 
+\t (00:14:12) last pick:  -8.1000 12.9000
+\t (00:14:12) Moving C112 / CAPCERSMDCL2_0402-100NF_X7R,16V / C0402.
+\t (00:14:12) Pick new location for the element(s).
+\i (00:14:13) iangle 90 
+\t (00:14:13) last pick:  9.0000 0.0000
+\i (00:14:16) drag_stop grid 3.5884 13.0342
+\i (00:14:16) etchedit 
+\i (00:14:17) pick grid -9.7799 13.4908
+\t (00:14:17) last pick:  -9.8000 13.5000
+\i (00:14:19) zoom out 1 
+\i (00:14:19) setwindow pcb
+\i (00:14:19) zoom out -1.7387 7.0730
+\i (00:14:19) trapsize 2537
+\i (00:14:26) status 
+\i (00:14:26) etchedit 
+\i (00:14:28) setwindow form.status
+\i (00:14:28) FORM status drc_update  
+\t (00:14:28) Running DRC, wait...
+\t (00:14:28) Performing DRC...
+\t (00:14:28) Multithreaded DRC update (8 threads).
+\t (00:14:28) No DRC errors detected.
+\t (00:14:28) DRC done.
+\i (00:14:29) FORM status done  
+\i (00:14:34) setwindow pcb
+\i (00:14:34) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: PaoloSilk_top"
+\i (00:14:35) color -globvis off 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/NCROUTE_PATH' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/MECHANICAL_COMPONENTS' 
+\t (00:14:35) Invalid subclass specified: MECHANICAL_COMPONENTS
+
+\i (00:14:35) color -vis 'BOARD GEOMETRY/CUT_MARKS' 
+\t (00:14:35) Invalid subclass specified: CUT_MARKS
+
+\i (00:14:35) color -vis 'BOARD GEOMETRY/FIDUCIALS' 
+\t (00:14:35) Invalid subclass specified: FIDUCIALS
+
+\i (00:14:35) color -vis 'BOARD GEOMETRY/CUTOUT' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/WB_GUIDE_LINE' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/OFF_GRID_AREA' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/SOLDERMASK_BOTTOM' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/SOLDERMASK_TOP' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/ASSEMBLY_DETAIL' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/SILKSCREEN_TOP' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/SWITCH_AREA_BOTTOM' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/SWITCH_AREA_TOP' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/BOTH_ROOMS' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/BOTTOM_ROOM' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/TOP_ROOM' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/PLACE_GRID_BOTTOM' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/PLACE_GRID_TOP' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/TOOLING_CORNERS' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/ASSEMBLY_NOTES' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/PLATING_BAR' 
+\i (00:14:35) color -vis 'BOARD GEOMETRY/OUTLINE' 
+\i (00:14:35) color -vis 'COMPONENT VALUE/ASSEMBLY_EMBEDDED' 
+\i (00:14:35) color -vis 'COMPONENT VALUE/DISPLAY_EMBEDDED' 
+\i (00:14:35) color -vis 'COMPONENT VALUE/DISPLAY_BOTTOM' 
+\i (00:14:35) color -vis 'COMPONENT VALUE/DISPLAY_TOP' 
+\i (00:14:35) color -vis 'COMPONENT VALUE/SILKSCREEN_BOTTOM' 
+\i (00:14:35) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
+\i (00:14:35) color -vis 'COMPONENT VALUE/ASSEMBLY_BOTTOM' 
+\i (00:14:35) color -vis 'COMPONENT VALUE/ASSEMBLY_TOP' 
+\i (00:14:35) color -vis 'DEVICE TYPE/ASSEMBLY_EMBEDDED' 
+\i (00:14:35) color -vis 'DEVICE TYPE/DISPLAY_EMBEDDED' 
+\i (00:14:35) color -vis 'DRAWING FORMAT/CONSTRUCTION' 
+\t (00:14:35) Invalid subclass specified: CONSTRUCTION
+
+\i (00:14:35) color -vis 'DRAWING FORMAT/DRAWING_ORIGIN' 
+\i (00:14:35) color -vis 'DRAWING FORMAT/REVISION_DATA' 
+\i (00:14:35) color -vis 'DRAWING FORMAT/REVISION_BLOCK' 
+\i (00:14:35) color -vis 'DRAWING FORMAT/TITLE_DATA' 
+\i (00:14:35) color -vis 'DRAWING FORMAT/TITLE_BLOCK' 
+\i (00:14:35) color -vis 'DRAWING FORMAT/OUTLINE' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/BOTTOM' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/INTER_LAYER' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/PASTEMASK_BOTTOM' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/PASTEMASK_TOP' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/SOLDERMASK_BOTTOM' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/SOLDERMASK_TOP' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/PACKAGE_BOTTOM' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/PACKAGE_TOP' 
+\i (00:14:35) color -vis 'DRC ERROR CLASS/ALL' 
+\i (00:14:35) color -vis ETCH/BOND_BOTTOM 
+\i (00:14:35) color -vis ETCH/BOND_TOP 
+\i (00:14:35) color -vis ETCH/WIRE 
+\i (00:14:35) color -vis MANUFACTURING/NCLEGEND-SLOTS 
+\t (00:14:35) Invalid subclass specified: NCLEGEND-SLOTS
+
+\i (00:14:35) color -vis MANUFACTURING/NCLEGEND-1-6 
+\i (00:14:35) color -vis MANUFACTURING/NCLEGEND-1-8 
+\t (00:14:35) Invalid subclass specified: NCLEGEND-1-8
+
+\i (00:14:35) color -vis MANUFACTURING/NCLEGEND-1-2 
+\t (00:14:35) Invalid subclass specified: NCLEGEND-1-2
+
+\i (00:14:35) color -vis MANUFACTURING/MYSILK_TOP 
+\t (00:14:35) Invalid subclass specified: MYSILK_TOP
+
+\i (00:14:35) color -vis MANUFACTURING/XSECTION_CHART 
+\i (00:14:35) color -vis MANUFACTURING/NO_PROBE_BOTTOM 
+\i (00:14:35) color -vis MANUFACTURING/NO_PROBE_TOP 
+\i (00:14:35) color -vis MANUFACTURING/PROBE_BOTTOM 
+\i (00:14:36) color -vis MANUFACTURING/PROBE_TOP 
+\i (00:14:36) color -vis MANUFACTURING/NCDRILL_FIGURE 
+\i (00:14:36) color -vis MANUFACTURING/NCDRILL_LEGEND 
+\i (00:14:36) color -vis MANUFACTURING/NO_GLOSS_INTERNAL 
+\i (00:14:36) color -vis MANUFACTURING/NO_GLOSS_BOTTOM 
+\i (00:14:36) color -vis MANUFACTURING/NO_GLOSS_TOP 
+\i (00:14:36) color -vis MANUFACTURING/NO_GLOSS_ALL 
+\i (00:14:36) color -vis MANUFACTURING/PHOTOPLOT_OUTLINE 
+\i (00:14:36) color -vis ANALYSIS/PCB_TEMPERATURE 
+\i (00:14:36) color -vis ANALYSIS/HIGH_ISOCONTOUR 
+\i (00:14:36) color -vis ANALYSIS/MEDIUM3_ISOCONTOUR 
+\i (00:14:36) color -vis ANALYSIS/MEDIUM2_ISOCONTOUR 
+\i (00:14:36) color -vis ANALYSIS/MEDIUM1_ISOCONTOUR 
+\i (00:14:36) color -vis ANALYSIS/LOW_ISOCONTOUR 
+\i (00:14:36) color -vis 'PACKAGE GEOMETRY/PASTEMASK_BOTTOM' 
+\i (00:14:36) color -vis 'PACKAGE GEOMETRY/PASTEMASK_TOP' 
+\i (00:14:36) color -vis 'PACKAGE GEOMETRY/DISPLAY_TOP' 
+\i (00:14:36) color -vis 'PACKAGE GEOMETRY/BODY_CENTER' 
+\i (00:14:36) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_TOP' 
+\i (00:14:36) color -vis 'PACKAGE GEOMETRY/PAD_STACK_NAME' 
+\i (00:14:36) color -vis 'PACKAGE GEOMETRY/PIN_NUMBER' 
+\i (00:14:36) color -vis 'PACKAGE KEEPIN/ALL' 
+\i (00:14:36) color -vis 'PACKAGE KEEPOUT/BOTTOM' 
+\i (00:14:36) color -vis 'PACKAGE KEEPOUT/TOP' 
+\i (00:14:36) color -vis 'PACKAGE KEEPOUT/ALL' 
+\i (00:14:36) color -vis PIN/FILMMASKBOTTOM 
+\i (00:14:36) color -vis PIN/FILMMASKTOP 
+\i (00:14:36) color -vis PIN/PASTEMASK_TOP 
+\i (00:14:36) color -vis PIN/SOLDERMASK_TOP 
+\i (00:14:36) color -vis 'REF DES/ASSEMBLY_EMBEDDED' 
+\i (00:14:36) color -vis 'REF DES/DISPLAY_EMBEDDED' 
+\i (00:14:36) color -vis 'ROUTE KEEPIN/ALL' 
+\i (00:14:36) color -vis 'ROUTE KEEPOUT/TOP' 
+\i (00:14:36) color -vis 'ROUTE KEEPOUT/ML1' 
+\t (00:14:36) Invalid subclass specified: ML1
+
+\i (00:14:36) color -vis 'ROUTE KEEPOUT/ML2' 
+\t (00:14:36) Invalid subclass specified: ML2
+
+\i (00:14:36) color -vis 'ROUTE KEEPOUT/ML3' 
+\t (00:14:36) Invalid subclass specified: ML3
+
+\i (00:14:36) color -vis 'ROUTE KEEPOUT/ML4' 
+\t (00:14:36) Invalid subclass specified: ML4
+
+\i (00:14:36) color -vis 'ROUTE KEEPOUT/ML5' 
+\t (00:14:36) Invalid subclass specified: ML5
+
+\i (00:14:36) color -vis 'ROUTE KEEPOUT/ML6' 
+\t (00:14:36) Invalid subclass specified: ML6
+
+\i (00:14:36) color -vis 'ROUTE KEEPOUT/BOTTOM' 
+\i (00:14:36) color -vis 'ROUTE KEEPOUT/ALL' 
+\i (00:14:36) color -vis TOLERANCE/ASSEMBLY_EMBEDDED 
+\i (00:14:36) color -vis TOLERANCE/DISPLAY_EMBEDDED 
+\i (00:14:36) color -vis TOLERANCE/DISPLAY_BOTTOM 
+\i (00:14:36) color -vis TOLERANCE/DISPLAY_TOP 
+\i (00:14:36) color -vis TOLERANCE/SILKSCREEN_BOTTOM 
+\i (00:14:36) color -vis TOLERANCE/SILKSCREEN_TOP 
+\i (00:14:36) color -vis TOLERANCE/ASSEMBLY_BOTTOM 
+\i (00:14:36) color -vis TOLERANCE/ASSEMBLY_TOP 
+\i (00:14:36) color -vis 'USER PART NUMBER/ASSEMBLY_EMBEDDED' 
+\i (00:14:36) color -vis 'USER PART NUMBER/DISPLAY_EMBEDDED' 
+\i (00:14:36) color -vis 'USER PART NUMBER/DISPLAY_BOTTOM' 
+\i (00:14:36) color -vis 'USER PART NUMBER/DISPLAY_TOP' 
+\i (00:14:36) color -vis 'USER PART NUMBER/SILKSCREEN_BOTTOM' 
+\i (00:14:36) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:14:36) color -vis 'USER PART NUMBER/ASSEMBLY_BOTTOM' 
+\i (00:14:36) color -vis 'USER PART NUMBER/ASSEMBLY_TOP' 
+\i (00:14:36) color -vis 'VIA CLASS/FILMMASKBOTTOM' 
+\i (00:14:36) color -vis 'VIA CLASS/FILMMASKTOP' 
+\i (00:14:36) color -vis 'VIA CLASS/PASTEMASK_BOTTOM' 
+\i (00:14:36) color -vis 'VIA CLASS/PASTEMASK_TOP' 
+\i (00:14:36) color -vis 'VIA CLASS/SOLDERMASK_BOTTOM' 
+\i (00:14:36) color -vis 'VIA CLASS/SOLDERMASK_TOP' 
+\i (00:14:36) color -vis 'VIA KEEPOUT/TOP' 
+\i (00:14:36) color -vis 'VIA KEEPOUT/ML1' 
+\t (00:14:36) Invalid subclass specified: ML1
+
+\i (00:14:36) color -vis 'VIA KEEPOUT/ML2' 
+\t (00:14:36) Invalid subclass specified: ML2
+
+\i (00:14:36) color -vis 'VIA KEEPOUT/ML3' 
+\t (00:14:36) Invalid subclass specified: ML3
+
+\i (00:14:36) color -vis 'VIA KEEPOUT/ML4' 
+\t (00:14:36) Invalid subclass specified: ML4
+
+\i (00:14:36) color -vis 'VIA KEEPOUT/ML5' 
+\t (00:14:36) Invalid subclass specified: ML5
+
+\i (00:14:36) color -vis 'VIA KEEPOUT/ML6' 
+\t (00:14:37) Invalid subclass specified: ML6
+
+\i (00:14:37) color -vis 'VIA KEEPOUT/BOTTOM' 
+\i (00:14:37) color -vis 'VIA KEEPOUT/ALL' 
+\i (00:14:37) color -vis 'ANTI ETCH/TOP' 
+\i (00:14:37) color -vis 'ANTI ETCH/ML1' 
+\t (00:14:37) Invalid subclass specified: ML1
+
+\i (00:14:37) color -vis 'ANTI ETCH/ML2' 
+\t (00:14:37) Invalid subclass specified: ML2
+
+\i (00:14:37) color -vis 'ANTI ETCH/ML3' 
+\t (00:14:37) Invalid subclass specified: ML3
+
+\i (00:14:37) color -vis 'ANTI ETCH/ML4' 
+\t (00:14:37) Invalid subclass specified: ML4
+
+\i (00:14:37) color -vis 'ANTI ETCH/ML5' 
+\t (00:14:37) Invalid subclass specified: ML5
+
+\i (00:14:37) color -vis 'ANTI ETCH/ML6' 
+\t (00:14:37) Invalid subclass specified: ML6
+
+\i (00:14:37) color -vis 'ANTI ETCH/BOTTOM' 
+\i (00:14:37) color -vis 'ANTI ETCH/ALL' 
+\i (00:14:37) color -vis BOUNDARY/MULTI_USER_LOCK 
+\i (00:14:37) color -vis BOUNDARY/ALL 
+\i (00:14:37) color -vis 'CONSTRAINT REGION/TOP' 
+\i (00:14:37) color -vis 'CONSTRAINT REGION/ML1' 
+\t (00:14:37) Invalid subclass specified: ML1
+
+\i (00:14:37) color -vis 'CONSTRAINT REGION/ML2' 
+\t (00:14:37) Invalid subclass specified: ML2
+
+\i (00:14:37) color -vis 'CONSTRAINT REGION/ML3' 
+\t (00:14:37) Invalid subclass specified: ML3
+
+\i (00:14:37) color -vis 'CONSTRAINT REGION/ML4' 
+\t (00:14:37) Invalid subclass specified: ML4
+
+\i (00:14:37) color -vis 'CONSTRAINT REGION/ML5' 
+\t (00:14:37) Invalid subclass specified: ML5
+
+\i (00:14:37) color -vis 'CONSTRAINT REGION/ML6' 
+\t (00:14:37) Invalid subclass specified: ML6
+
+\i (00:14:37) color -vis 'CONSTRAINT REGION/BOTTOM' 
+\i (00:14:37) color -vis 'CONSTRAINT REGION/INNER_PLANE_LAYERS' 
+\i (00:14:37) color -vis 'CONSTRAINT REGION/INNER_SIGNAL_LAYERS' 
+\i (00:14:37) color -vis 'CONSTRAINT REGION/OUTER_LAYERS' 
+\i (00:14:37) color -vis 'CONSTRAINT REGION/ALL' 
+\i (00:14:37) color -vis PLAN/TOP 
+\i (00:14:37) color -vis PLAN/BOTTOM 
+\i (00:14:37) color -vis PLAN/DENSITY_VERY_LOW 
+\i (00:14:37) color -vis PLAN/DENSITY_LOW 
+\i (00:14:37) color -vis PLAN/DENSITY_MEDIUM 
+\i (00:14:37) color -vis PLAN/DENSITY_HIGH 
+\i (00:14:37) color -vis PLAN/DENSITY_VERY_HIGH 
+\i (00:14:37) color -vis PLAN/ALL 
+\i (00:14:37) color -vis CAVITY/TOP 
+\i (00:14:37) color -vis CAVITY/ML1 
+\t (00:14:37) Invalid subclass specified: ML1
+
+\i (00:14:37) color -vis CAVITY/ML2 
+\t (00:14:37) Invalid subclass specified: ML2
+
+\i (00:14:37) color -vis CAVITY/ML3 
+\t (00:14:37) Invalid subclass specified: ML3
+
+\i (00:14:37) color -vis CAVITY/ML4 
+\t (00:14:37) Invalid subclass specified: ML4
+
+\i (00:14:37) color -vis CAVITY/ML5 
+\t (00:14:37) Invalid subclass specified: ML5
+
+\i (00:14:37) color -vis CAVITY/ML6 
+\t (00:14:37) Invalid subclass specified: ML6
+
+\i (00:14:37) color -vis CAVITY/BOTTOM 
+\i (00:14:37) color -vis 'EMBEDDED GEOMETRY' 
+\i (00:14:37) color -vis 'RIGID FLEX/STIFFENER_METAL_BOTTOM' 
+\i (00:14:37) color -vis 'RIGID FLEX/STIFFENER_METAL_TOP' 
+\i (00:14:37) color -vis 'RIGID FLEX/STIFFENER_BOTTOM' 
+\i (00:14:37) color -vis 'RIGID FLEX/STIFFENER_TOP' 
+\i (00:14:37) color -vis 'RIGID FLEX/EMI_SHIELD_BOTTOM' 
+\i (00:14:37) color -vis 'RIGID FLEX/EMI_SHIELD_TOP' 
+\i (00:14:37) color -vis 'RIGID FLEX/COVERLAY_BOTTOM' 
+\i (00:14:37) color -vis 'RIGID FLEX/COVERLAY_TOP' 
+\i (00:14:37) color -vis 'RIGID FLEX/TRANSITION_ZONE' 
+\i (00:14:37) color -vis 'RIGID FLEX/BEND_LINE' 
+\i (00:14:37) color -vis 'RIGID FLEX/BEND_AREA' 
+\i (00:14:37) color -vis 'RIGID FLEX/ZONE_OUTLINE' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/SILVER_INK_BOTTOM' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/SILVER_INK_TOP' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/CARBON_BOTTOM' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/CARBON_TOP' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/TIN_PLATE_BOTTOM' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/TIN_PLATE_TOP' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/GOLD_SOFT_BOTTOM' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/GOLD_SOFT_TOP' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/GOLD_HARD_BOTTOM' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/GOLD_HARD_TOP' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/OSP_BOTTOM' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/OSP_TOP' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/IMMERSION_SILVER_BOTTOM' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/IMMERSION_SILVER_TOP' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/IMMERSION_TIN_BOTTOM' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/IMMERSION_TIN_TOP' 
+\i (00:14:37) color -vis 'SURFACE FINISHES/ENEPIG_BOTTOM' 
+\i (00:14:38) color -vis 'SURFACE FINISHES/ENEPIG_TOP' 
+\i (00:14:38) color -vis 'SURFACE FINISHES/ENIG_BOTTOM' 
+\i (00:14:38) color -vis 'SURFACE FINISHES/ENIG_TOP' 
+\i (00:14:38) trapsize 2537
+\i (00:14:38) etchedit 
+\i (00:14:41) setwindow form.mini
+\i (00:14:41) FORM mini class BOARD GEOMETRY 
+\i (00:14:43) FORM mini subclass SILKSCREEN_TOP 
+\i (00:14:46) FORM mini class REF DES 
+\i (00:14:48) FORM mini subclass SILKSCREEN_TOP 
+\i (00:14:50) FORM mini subcolor 1 
+\i (00:14:57) FORM mini class VIA CLASS 
+\i (00:14:59) FORM mini subclass TOP 
+\i (00:15:00) FORM mini subcolor 1 
+\i (00:15:01) setwindow pcb
+\i (00:15:01) pick grid -21.7276 15.8499
+\t (00:15:01) last pick:  -21.7000 15.8000
+\i (00:15:01) zoom in 1 
+\i (00:15:01) setwindow pcb
+\i (00:15:01) zoom in -16.5020 13.4147
+\i (00:15:01) trapsize 1268
+\i (00:15:05) change 
+\i (00:15:13) pick grid 1.9143 14.9367
+\t (00:15:13) last pick:  1.9000 14.9000
+\t (00:15:13) No DRC errors detected.
+\t (00:15:13) Changed 1 items out of 1 items found.
+\i (00:15:16) pick grid 0.1132 16.5856
+\t (00:15:16) last pick:  0.1000 16.6000
+\t (00:15:16) No DRC errors detected.
+\t (00:15:16) Changed 1 items out of 1 items found.
+\i (00:15:17) zoom out 1 
+\i (00:15:17) setwindow pcb
+\i (00:15:17) zoom out -11.0989 16.1797
+\i (00:15:17) trapsize 2537
+\i (00:15:23) prepopup -10.8959 17.5495
+\i (00:15:24) done 
+\i (00:15:24) etchedit 
+\i (00:15:30) pop dyn_option_select 'Application Mode@:@General Edit' 
+\i (00:15:30) generaledit 
+\i (00:15:32) pick grid -10.6929 15.2665
+\t (00:15:32) last pick:  -10.7000 15.3000
+\i (00:15:32) zoom in 1 
+\i (00:15:32) setwindow pcb
+\i (00:15:32) zoom in -6.7865 19.2237
+\i (00:15:32) trapsize 1268
+\i (00:15:34) drag_start grid 0.3923 16.0275
+\i (00:15:34) move 
+\t (00:15:34) last pick:  -0.2000 15.7000
+\t (00:15:34) Pick new location for the element(s).
+\i (00:15:36) iangle 90 
+\t (00:15:36) last pick:  9.0000 0.0000
+\i (00:15:40) drag_stop grid -0.5970 20.0862
+\i (00:15:40) generaledit 
+\i (00:15:45) drag_start grid 2.8275 13.0596
+\i (00:15:45) move 
+\t (00:15:45) last pick:  2.8500 12.0000
+\t (00:15:45) Pick new location for the element(s).
+\i (00:15:51) iangle 90 
+\t (00:15:52) last pick:  9.0000 0.0000
+\i (00:15:52) iangle 90 
+\t (00:15:52) last pick:  9.0000 0.0000
+\i (00:15:52) iangle 90 
+\t (00:15:52) last pick:  9.0000 0.0000
+\i (00:15:54) drag_stop grid 0.2908 10.9034
+\i (00:15:55) generaledit 
+\i (00:15:58) roam x 96 
+\i (00:15:58) roam x 96
+\i (00:16:00) pick grid -8.6290 19.4774
+\t (00:16:00) last pick:  -8.6000 19.5000
+\i (00:16:01) prepopup -1.4248 17.9554
+\i (00:16:03) pop dyn_option_select @:@Move 
+\i (00:16:03) move 
+\t (00:16:04) last pick:  -1.4000 18.0000
+\t (00:16:04) last pick:  0.3000 15.7000
+\t (00:16:04) Moving IC1 / 24AA025E48T-I/SN / SOIC127P600X175-8N.
+\t (00:16:04) Pick new location for the element(s).
+\i (00:16:12) prepopup -0.2833 15.7992
+\i (00:16:13) cancel 
+\i (00:16:13) generaledit 
+\i (00:16:14) pick grid -11.3432 17.4988
+\t (00:16:14) last pick:  -11.3000 17.5000
+\i (00:16:15) zoom out 1 
+\i (00:16:15) setwindow pcb
+\i (00:16:15) zoom out -9.1110 18.9447
+\i (00:16:15) trapsize 2537
+\i (00:16:17) zoom in 1 
+\i (00:16:17) setwindow pcb
+\i (00:16:17) zoom in -6.6757 19.7564
+\i (00:16:17) trapsize 1268
+\i (00:16:18) zoom in 1 
+\i (00:16:18) setwindow pcb
+\i (00:16:18) zoom in -5.8639 18.9193
+\i (00:16:18) trapsize 634
+\i (00:16:19) zoom out 1 
+\i (00:16:19) setwindow pcb
+\i (00:16:19) zoom out -5.8639 18.8940
+\i (00:16:19) trapsize 1268
+\i (00:16:33) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "File: PaoloSilk_bot"
+\i (00:16:33) color -globvis off 
+\i (00:16:33) color -vis 'BOARD GEOMETRY/NCROUTE_PATH' 
+\i (00:16:33) color -vis 'BOARD GEOMETRY/MECHANICAL_COMPONENTS' 
+\t (00:16:33) Invalid subclass specified: MECHANICAL_COMPONENTS
+
+\i (00:16:33) color -vis 'BOARD GEOMETRY/CUT_MARKS' 
+\t (00:16:33) Invalid subclass specified: CUT_MARKS
+
+\i (00:16:33) color -vis 'BOARD GEOMETRY/FIDUCIALS' 
+\t (00:16:33) Invalid subclass specified: FIDUCIALS
+
+\i (00:16:34) color -vis 'BOARD GEOMETRY/CUTOUT' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/DESIGN_OUTLINE' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/WB_GUIDE_LINE' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/OFF_GRID_AREA' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/SOLDERMASK_BOTTOM' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/ASSEMBLY_DETAIL' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/SILKSCREEN_BOTTOM' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/SWITCH_AREA_BOTTOM' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/SWITCH_AREA_TOP' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/BOTH_ROOMS' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/BOTTOM_ROOM' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/TOP_ROOM' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/PLACE_GRID_BOTTOM' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/PLACE_GRID_TOP' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/TOOLING_CORNERS' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/ASSEMBLY_NOTES' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/PLATING_BAR' 
+\i (00:16:34) color -vis 'BOARD GEOMETRY/OUTLINE' 
+\i (00:16:34) color -vis 'COMPONENT VALUE/ASSEMBLY_EMBEDDED' 
+\i (00:16:34) color -vis 'COMPONENT VALUE/DISPLAY_EMBEDDED' 
+\i (00:16:34) color -vis 'COMPONENT VALUE/DISPLAY_BOTTOM' 
+\i (00:16:34) color -vis 'COMPONENT VALUE/DISPLAY_TOP' 
+\i (00:16:34) color -vis 'COMPONENT VALUE/SILKSCREEN_BOTTOM' 
+\i (00:16:34) color -vis 'COMPONENT VALUE/SILKSCREEN_TOP' 
+\i (00:16:34) color -vis 'COMPONENT VALUE/ASSEMBLY_BOTTOM' 
+\i (00:16:34) color -vis 'COMPONENT VALUE/ASSEMBLY_TOP' 
+\i (00:16:34) color -vis 'DEVICE TYPE/ASSEMBLY_EMBEDDED' 
+\i (00:16:34) color -vis 'DEVICE TYPE/DISPLAY_EMBEDDED' 
+\i (00:16:34) color -vis 'DRAWING FORMAT/CONSTRUCTION' 
+\t (00:16:34) Invalid subclass specified: CONSTRUCTION
+
+\i (00:16:34) color -vis 'DRAWING FORMAT/DRAWING_ORIGIN' 
+\i (00:16:34) color -vis 'DRAWING FORMAT/REVISION_DATA' 
+\i (00:16:34) color -vis 'DRAWING FORMAT/REVISION_BLOCK' 
+\i (00:16:34) color -vis 'DRAWING FORMAT/TITLE_DATA' 
+\i (00:16:34) color -vis 'DRAWING FORMAT/TITLE_BLOCK' 
+\i (00:16:35) color -vis 'DRAWING FORMAT/OUTLINE' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/TOP' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/BOTTOM' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/INTER_LAYER' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/PASTEMASK_BOTTOM' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/PASTEMASK_TOP' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/SOLDERMASK_BOTTOM' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/SOLDERMASK_TOP' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/PACKAGE_BOTTOM' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/PACKAGE_TOP' 
+\i (00:16:35) color -vis 'DRC ERROR CLASS/ALL' 
+\i (00:16:35) color -vis ETCH/BOND_BOTTOM 
+\i (00:16:35) color -vis ETCH/BOND_TOP 
+\i (00:16:35) color -vis ETCH/WIRE 
+\i (00:16:35) color -vis MANUFACTURING/NCLEGEND-SLOTS 
+\t (00:16:35) Invalid subclass specified: NCLEGEND-SLOTS
+
+\i (00:16:35) color -vis MANUFACTURING/NCLEGEND-1-6 
+\i (00:16:35) color -vis MANUFACTURING/NCLEGEND-1-8 
+\t (00:16:35) Invalid subclass specified: NCLEGEND-1-8
+
+\i (00:16:35) color -vis MANUFACTURING/NCLEGEND-1-2 
+\t (00:16:35) Invalid subclass specified: NCLEGEND-1-2
+
+\i (00:16:35) color -vis MANUFACTURING/MYSILK_BOT 
+\t (00:16:35) Invalid subclass specified: MYSILK_BOT
+
+\i (00:16:35) color -vis MANUFACTURING/XSECTION_CHART 
+\i (00:16:35) color -vis MANUFACTURING/NO_PROBE_BOTTOM 
+\i (00:16:35) color -vis MANUFACTURING/NO_PROBE_TOP 
+\i (00:16:35) color -vis MANUFACTURING/PROBE_BOTTOM 
+\i (00:16:35) color -vis MANUFACTURING/PROBE_TOP 
+\i (00:16:35) color -vis MANUFACTURING/NCDRILL_FIGURE 
+\i (00:16:35) color -vis MANUFACTURING/NCDRILL_LEGEND 
+\i (00:16:35) color -vis MANUFACTURING/NO_GLOSS_INTERNAL 
+\i (00:16:35) color -vis MANUFACTURING/NO_GLOSS_BOTTOM 
+\i (00:16:35) color -vis MANUFACTURING/NO_GLOSS_TOP 
+\i (00:16:35) color -vis MANUFACTURING/NO_GLOSS_ALL 
+\i (00:16:35) color -vis MANUFACTURING/PHOTOPLOT_OUTLINE 
+\i (00:16:35) color -vis ANALYSIS/PCB_TEMPERATURE 
+\i (00:16:36) color -vis ANALYSIS/HIGH_ISOCONTOUR 
+\i (00:16:36) color -vis ANALYSIS/MEDIUM3_ISOCONTOUR 
+\i (00:16:36) color -vis ANALYSIS/MEDIUM2_ISOCONTOUR 
+\i (00:16:36) color -vis ANALYSIS/MEDIUM1_ISOCONTOUR 
+\i (00:16:36) color -vis ANALYSIS/LOW_ISOCONTOUR 
+\i (00:16:36) color -vis 'PACKAGE GEOMETRY/PASTEMASK_BOTTOM' 
+\i (00:16:36) color -vis 'PACKAGE GEOMETRY/DISPLAY_BOTTOM' 
+\i (00:16:36) color -vis 'PACKAGE GEOMETRY/SOLDERMASK_BOTTOM' 
+\i (00:16:36) color -vis 'PACKAGE GEOMETRY/BODY_CENTER' 
+\i (00:16:36) color -vis 'PACKAGE GEOMETRY/SILKSCREEN_BOTTOM' 
+\i (00:16:36) color -vis 'PACKAGE GEOMETRY/PAD_STACK_NAME' 
+\i (00:16:36) color -vis 'PACKAGE GEOMETRY/PIN_NUMBER' 
+\i (00:16:36) color -vis 'PACKAGE KEEPIN/ALL' 
+\i (00:16:36) color -vis 'PACKAGE KEEPOUT/BOTTOM' 
+\i (00:16:36) color -vis 'PACKAGE KEEPOUT/TOP' 
+\i (00:16:36) color -vis 'PACKAGE KEEPOUT/ALL' 
+\i (00:16:36) color -vis PIN/FILMMASKBOTTOM 
+\i (00:16:36) color -vis PIN/PASTEMASK_BOTTOM 
+\i (00:16:36) color -vis PIN/SOLDERMASK_BOTTOM 
+\i (00:16:36) color -vis 'REF DES/ASSEMBLY_EMBEDDED' 
+\i (00:16:36) color -vis 'REF DES/DISPLAY_EMBEDDED' 
+\i (00:16:36) color -vis 'ROUTE KEEPIN/ALL' 
+\i (00:16:36) color -vis 'ROUTE KEEPOUT/TOP' 
+\i (00:16:36) color -vis 'ROUTE KEEPOUT/ML1' 
+\t (00:16:36) Invalid subclass specified: ML1
+
+\i (00:16:36) color -vis 'ROUTE KEEPOUT/ML2' 
+\t (00:16:36) Invalid subclass specified: ML2
+
+\i (00:16:36) color -vis 'ROUTE KEEPOUT/ML3' 
+\t (00:16:36) Invalid subclass specified: ML3
+
+\i (00:16:36) color -vis 'ROUTE KEEPOUT/ML4' 
+\t (00:16:36) Invalid subclass specified: ML4
+
+\i (00:16:36) color -vis 'ROUTE KEEPOUT/ML5' 
+\t (00:16:36) Invalid subclass specified: ML5
+
+\i (00:16:36) color -vis 'ROUTE KEEPOUT/ML6' 
+\t (00:16:36) Invalid subclass specified: ML6
+
+\i (00:16:36) color -vis 'ROUTE KEEPOUT/BOTTOM' 
+\i (00:16:36) color -vis 'ROUTE KEEPOUT/ALL' 
+\i (00:16:36) color -vis TOLERANCE/ASSEMBLY_EMBEDDED 
+\i (00:16:36) color -vis TOLERANCE/DISPLAY_EMBEDDED 
+\i (00:16:36) color -vis TOLERANCE/DISPLAY_BOTTOM 
+\i (00:16:37) color -vis TOLERANCE/DISPLAY_TOP 
+\i (00:16:37) color -vis TOLERANCE/SILKSCREEN_BOTTOM 
+\i (00:16:37) color -vis TOLERANCE/SILKSCREEN_TOP 
+\i (00:16:37) color -vis TOLERANCE/ASSEMBLY_BOTTOM 
+\i (00:16:37) color -vis TOLERANCE/ASSEMBLY_TOP 
+\i (00:16:37) color -vis 'USER PART NUMBER/ASSEMBLY_EMBEDDED' 
+\i (00:16:37) color -vis 'USER PART NUMBER/DISPLAY_EMBEDDED' 
+\i (00:16:37) color -vis 'USER PART NUMBER/DISPLAY_BOTTOM' 
+\i (00:16:37) color -vis 'USER PART NUMBER/DISPLAY_TOP' 
+\i (00:16:37) color -vis 'USER PART NUMBER/SILKSCREEN_BOTTOM' 
+\i (00:16:37) color -vis 'USER PART NUMBER/SILKSCREEN_TOP' 
+\i (00:16:37) color -vis 'USER PART NUMBER/ASSEMBLY_BOTTOM' 
+\i (00:16:37) color -vis 'USER PART NUMBER/ASSEMBLY_TOP' 
+\i (00:16:37) color -vis 'VIA CLASS/FILMMASKBOTTOM' 
+\i (00:16:37) color -vis 'VIA CLASS/FILMMASKTOP' 
+\i (00:16:37) color -vis 'VIA CLASS/PASTEMASK_BOTTOM' 
+\i (00:16:37) color -vis 'VIA CLASS/PASTEMASK_TOP' 
+\i (00:16:37) color -vis 'VIA CLASS/SOLDERMASK_BOTTOM' 
+\i (00:16:37) color -vis 'VIA CLASS/SOLDERMASK_TOP' 
+\i (00:16:37) color -vis 'VIA KEEPOUT/TOP' 
+\i (00:16:37) color -vis 'VIA KEEPOUT/ML1' 
+\t (00:16:37) Invalid subclass specified: ML1
+
+\i (00:16:37) color -vis 'VIA KEEPOUT/ML2' 
+\t (00:16:37) Invalid subclass specified: ML2
+
+\i (00:16:37) color -vis 'VIA KEEPOUT/ML3' 
+\t (00:16:37) Invalid subclass specified: ML3
+
+\i (00:16:37) color -vis 'VIA KEEPOUT/ML4' 
+\t (00:16:37) Invalid subclass specified: ML4
+
+\i (00:16:37) color -vis 'VIA KEEPOUT/ML5' 
+\t (00:16:37) Invalid subclass specified: ML5
+
+\i (00:16:37) color -vis 'VIA KEEPOUT/ML6' 
+\t (00:16:37) Invalid subclass specified: ML6
+
+\i (00:16:37) color -vis 'VIA KEEPOUT/BOTTOM' 
+\i (00:16:37) color -vis 'VIA KEEPOUT/ALL' 
+\i (00:16:37) color -vis 'ANTI ETCH/TOP' 
+\i (00:16:37) color -vis 'ANTI ETCH/ML1' 
+\t (00:16:37) Invalid subclass specified: ML1
+
+\i (00:16:37) color -vis 'ANTI ETCH/ML2' 
+\t (00:16:37) Invalid subclass specified: ML2
+
+\i (00:16:37) color -vis 'ANTI ETCH/ML3' 
+\t (00:16:37) Invalid subclass specified: ML3
+
+\i (00:16:37) color -vis 'ANTI ETCH/ML4' 
+\t (00:16:37) Invalid subclass specified: ML4
+
+\i (00:16:38) color -vis 'ANTI ETCH/ML5' 
+\t (00:16:38) Invalid subclass specified: ML5
+
+\i (00:16:38) color -vis 'ANTI ETCH/ML6' 
+\t (00:16:38) Invalid subclass specified: ML6
+
+\i (00:16:38) color -vis 'ANTI ETCH/BOTTOM' 
+\i (00:16:38) color -vis 'ANTI ETCH/ALL' 
+\i (00:16:38) color -vis BOUNDARY/MULTI_USER_LOCK 
+\i (00:16:38) color -vis BOUNDARY/ALL 
+\i (00:16:38) color -vis 'CONSTRAINT REGION/TOP' 
+\i (00:16:38) color -vis 'CONSTRAINT REGION/ML1' 
+\t (00:16:38) Invalid subclass specified: ML1
+
+\i (00:16:38) color -vis 'CONSTRAINT REGION/ML2' 
+\t (00:16:38) Invalid subclass specified: ML2
+
+\i (00:16:38) color -vis 'CONSTRAINT REGION/ML3' 
+\t (00:16:38) Invalid subclass specified: ML3
+
+\i (00:16:38) color -vis 'CONSTRAINT REGION/ML4' 
+\t (00:16:38) Invalid subclass specified: ML4
+
+\i (00:16:38) color -vis 'CONSTRAINT REGION/ML5' 
+\t (00:16:38) Invalid subclass specified: ML5
+
+\i (00:16:38) color -vis 'CONSTRAINT REGION/ML6' 
+\t (00:16:38) Invalid subclass specified: ML6
+
+\i (00:16:38) color -vis 'CONSTRAINT REGION/BOTTOM' 
+\i (00:16:38) color -vis 'CONSTRAINT REGION/INNER_PLANE_LAYERS' 
+\i (00:16:38) color -vis 'CONSTRAINT REGION/INNER_SIGNAL_LAYERS' 
+\i (00:16:38) color -vis 'CONSTRAINT REGION/OUTER_LAYERS' 
+\i (00:16:38) color -vis 'CONSTRAINT REGION/ALL' 
+\i (00:16:38) color -vis PLAN/TOP 
+\i (00:16:38) color -vis PLAN/BOTTOM 
+\i (00:16:38) color -vis PLAN/DENSITY_VERY_LOW 
+\i (00:16:38) color -vis PLAN/DENSITY_LOW 
+\i (00:16:38) color -vis PLAN/DENSITY_MEDIUM 
+\i (00:16:38) color -vis PLAN/DENSITY_HIGH 
+\i (00:16:38) color -vis PLAN/DENSITY_VERY_HIGH 
+\i (00:16:38) color -vis PLAN/ALL 
+\i (00:16:38) color -vis CAVITY/TOP 
+\i (00:16:38) color -vis CAVITY/ML1 
+\t (00:16:38) Invalid subclass specified: ML1
+
+\i (00:16:38) color -vis CAVITY/ML2 
+\t (00:16:38) Invalid subclass specified: ML2
+
+\i (00:16:38) color -vis CAVITY/ML3 
+\t (00:16:38) Invalid subclass specified: ML3
+
+\i (00:16:38) color -vis CAVITY/ML4 
+\t (00:16:38) Invalid subclass specified: ML4
+
+\i (00:16:38) color -vis CAVITY/ML5 
+\t (00:16:38) Invalid subclass specified: ML5
+
+\i (00:16:38) color -vis CAVITY/ML6 
+\t (00:16:38) Invalid subclass specified: ML6
+
+\i (00:16:39) color -vis CAVITY/BOTTOM 
+\i (00:16:39) color -vis 'EMBEDDED GEOMETRY' 
+\i (00:16:39) color -vis 'RIGID FLEX/STIFFENER_METAL_BOTTOM' 
+\i (00:16:39) color -vis 'RIGID FLEX/STIFFENER_METAL_TOP' 
+\i (00:16:39) color -vis 'RIGID FLEX/STIFFENER_BOTTOM' 
+\i (00:16:39) color -vis 'RIGID FLEX/STIFFENER_TOP' 
+\i (00:16:39) color -vis 'RIGID FLEX/EMI_SHIELD_BOTTOM' 
+\i (00:16:39) color -vis 'RIGID FLEX/EMI_SHIELD_TOP' 
+\i (00:16:39) color -vis 'RIGID FLEX/COVERLAY_BOTTOM' 
+\i (00:16:39) color -vis 'RIGID FLEX/COVERLAY_TOP' 
+\i (00:16:39) color -vis 'RIGID FLEX/TRANSITION_ZONE' 
+\i (00:16:39) color -vis 'RIGID FLEX/BEND_LINE' 
+\i (00:16:39) color -vis 'RIGID FLEX/BEND_AREA' 
+\i (00:16:39) color -vis 'RIGID FLEX/ZONE_OUTLINE' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/SILVER_INK_BOTTOM' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/SILVER_INK_TOP' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/CARBON_BOTTOM' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/CARBON_TOP' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/TIN_PLATE_BOTTOM' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/TIN_PLATE_TOP' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/GOLD_SOFT_BOTTOM' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/GOLD_SOFT_TOP' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/GOLD_HARD_BOTTOM' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/GOLD_HARD_TOP' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/OSP_BOTTOM' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/OSP_TOP' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/IMMERSION_SILVER_BOTTOM' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/IMMERSION_SILVER_TOP' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/IMMERSION_TIN_BOTTOM' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/IMMERSION_TIN_TOP' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/ENEPIG_BOTTOM' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/ENEPIG_TOP' 
+\i (00:16:39) color -vis 'SURFACE FINISHES/ENIG_BOTTOM' 
+\i (00:16:40) color -vis 'SURFACE FINISHES/ENIG_TOP' 
+\i (00:16:40) trapsize 1268
+\i (00:16:40) generaledit 
+\i (00:16:47) setwindow form.mini
+\i (00:16:47) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:16:50) FORM mini class REF DES 
+\i (00:16:52) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:16:52) FORM mini subcolor 1 
+\i (00:16:57) FORM mini class VIA CLASS 
+\i (00:16:59) FORM mini subclass BOTTOM 
+\i (00:17:00) FORM mini subcolor 1 
+\i (00:17:01) setwindow pcb
+\i (00:17:01) pick grid -9.5167 19.5535
+\t (00:17:01) last pick:  -9.5000 19.6000
+\i (00:17:04) change 
+\i (00:17:05) pick grid -3.4287 14.2519
+\t (00:17:05) last pick:  -3.4000 14.3000
+\t (00:17:05) No DRC errors detected.
+\t (00:17:05) Changed 1 items out of 1 items found.
+\i (00:17:05) pick grid -1.7545 14.1504
+\t (00:17:05) last pick:  -1.8000 14.2000
+\t (00:17:05) No DRC errors detected.
+\t (00:17:05) Changed 1 items out of 1 items found.
+\i (00:17:06) pick grid -0.6130 13.9475
+\t (00:17:06) last pick:  -0.6000 13.9000
+\t (00:17:06) No DRC errors detected.
+\t (00:17:06) Changed 1 items out of 1 items found.
+\i (00:17:06) pick grid 0.4017 13.9475
+\t (00:17:06) last pick:  0.4000 13.9000
+\t (00:17:06) No DRC errors detected.
+\t (00:17:06) Changed 1 items out of 1 items found.
+\i (00:17:07) prepopup -7.7157 15.1905
+\i (00:17:09) done 
+\i (00:17:09) generaledit 
+\i (00:17:10) drag_start grid 1.3656 17.0169
+\i (00:17:10) move 
+\t (00:17:10) last pick:  1.5500 17.3000
+\t (00:17:10) Pick new location for the element(s).
+\i (00:17:15) drag_stop grid 2.5578 14.6070
+\i (00:17:15) generaledit 
+\i (00:17:15) zoom out 1 
+\i (00:17:15) setwindow pcb
+\i (00:17:15) zoom out 0.7314 13.7699
+\i (00:17:15) trapsize 2537
+\i (00:17:19) zoom in 1 
+\i (00:17:19) setwindow pcb
+\i (00:17:19) zoom in -1.0949 14.0236
+\i (00:17:19) trapsize 1268
+\i (00:17:27) pick grid -10.3030 14.0490
+\t (00:17:27) last pick:  -10.3000 14.0000
+\i (00:17:28) drag_start grid 1.8730 14.0237
+\i (00:17:28) move 
+\t (00:17:29) last pick:  2.6000 14.6000
+\t (00:17:29) Pick new location for the element(s).
+\i (00:17:29) iangle 90 
+\t (00:17:29) last pick:  9.0000 0.0000
+\i (00:17:29) iangle 90 
+\t (00:17:29) last pick:  9.0000 0.0000
+\i (00:17:36) drag_stop grid 1.8730 11.9436
+\i (00:17:36) generaledit 
+\i (00:17:37) drag_start grid 0.0974 14.6071
+\i (00:17:37) move 
+\t (00:17:37) last pick:  0.2500 17.3000
+\t (00:17:37) Pick new location for the element(s).
+\i (00:17:37) iangle 90 
+\t (00:17:37) last pick:  9.0000 0.0000
+\i (00:17:38) iangle 90 
+\t (00:17:38) last pick:  9.0000 0.0000
+\i (00:17:41) drag_stop grid 0.5032 11.8675
+\i (00:17:41) generaledit 
+\i (00:17:42) drag_start grid -1.6529 14.6071
+\i (00:17:42) move 
+\t (00:17:42) last pick:  -1.0500 17.3000
+\t (00:17:42) Pick new location for the element(s).
+\i (00:17:42) iangle 90 
+\t (00:17:42) last pick:  9.0000 0.0000
+\i (00:17:42) iangle 90 
+\t (00:17:42) last pick:  9.0000 0.0000
+\i (00:17:45) drag_stop grid -0.9427 11.8675
+\i (00:17:45) generaledit 
+\i (00:17:46) drag_start grid -2.6422 14.5310
+\i (00:17:46) move 
+\t (00:17:46) last pick:  -2.3500 17.3000
+\t (00:17:46) Pick new location for the element(s).
+\i (00:17:46) iangle 90 
+\t (00:17:46) last pick:  9.0000 0.0000
+\i (00:17:46) iangle 90 
+\t (00:17:46) last pick:  9.0000 0.0000
+\i (00:17:49) drag_stop grid -2.2871 11.7914
+\i (00:17:49) generaledit 
+\i (00:17:50) save 
+\i (00:17:52) fillin yes 
+\i (00:17:53) generaledit 
+\i (00:17:55) exit 
+\t (00:17:57)     Journal end - Thu Apr 23 17:11:47 2020

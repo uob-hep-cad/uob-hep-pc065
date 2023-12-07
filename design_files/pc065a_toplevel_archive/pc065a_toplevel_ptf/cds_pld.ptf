@@ -1,0 +1,54 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XC18V512'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER    | PART_DESCRIPTION | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'VQFP'    | 'Xilinx'(!)        = '' | 'xc18v512vq44' | '512kbit EEPROM' | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'XC2V250'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER       | PART_DESCRIPTION      | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'FGA'     | 'Xilinx'(!)        = '' | 'xc2v250-5fg256c' | 'Xilinx Virtex2 FPGA' | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'XC2S300E'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER        | PART_DESCRIPTION          | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'FGA'     | 'Xilinx'(!)        = '' | 'xc2s300e-6fg456c' | 'Xilinx Spartan-IIE FPGA' | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'XC18V02'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER        | PART_DESCRIPTION          | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'VQFP'    | 'Xilinx'(!)        = '' | 'xc18v02vq44'      | '2Mbit EEPROM'            | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'XC95144XL'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER        | PART_DESCRIPTION          | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'TQFP'    | 'Xilinx'(!)        = '' | 'XC95144XL'        | '144 pin (117 I/O) CPLD'  | '-'         | '-'         | '-'        
+
+END_PART
+
+END.
+

@@ -1,0 +1,49 @@
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.2-2016 S063 (3833650) 1/3/2020 on Mon Mar 09 15:43:10 2020
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#CELL
+  cninterface sy58608u *
+  page1_i1
+#CELL
+  cnpassive rsmd0402 *
+  page1_i10
+#CELL
+  cnpassive rsmd0402 *
+  page1_i11
+#ISCELL
+  cnpower p2v5 *
+  page1_i12
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i13
+#CELL
+  cnpassive capcersmdcl2 *
+  page1_i14
+#ISCELL
+  cnpower gnd *
+  page1_i15
+#CELL
+  cnpassive rsmd0402 *
+  page1_i2
+#ISCELL
+  standard outport *
+  page1_i3
+#ISCELL
+  standard outport *
+  page1_i4
+#ISCELL
+  standard outport *
+  page1_i5
+#ISCELL
+  standard outport *
+  page1_i6
+#CELL
+  cnpassive rsmd0402 *
+  page1_i7
+#ISCELL
+  standard inport *
+  page1_i8
+#ISCELL
+  standard inport *
+  page1_i9

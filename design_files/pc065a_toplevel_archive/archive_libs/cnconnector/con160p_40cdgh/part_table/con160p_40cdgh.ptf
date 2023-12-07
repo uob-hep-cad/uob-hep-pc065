@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CON160P_40CDGH'
+CLASS=IO
+
+{========================================================================================}
+:TYPE            | PACK_TYPE                = STATUS      | PART_NUMBER     | MANUFACTURER | DESCRIPTION                                              | DATASHEET_URL                                                     | PINCOUNT | SMD   | CASE | JEDEC_TYPE             ;
+{========================================================================================}
+ 'ASP-134603-01' | ''(~ASP-134603-01)       = 'Preferred' | 'ASP-134603-01' | 'SAMTEC'     | '1.27mm pitch Socket Array Assembly Similar to VITA57'   | 'file://cern.ch/dfs/Services/cdslib/datasheets/ASP-134603-01.pdf' | '160'    | 'YES' | ''   | 'SAMTEC_ASP-134603-01'
+ 'ASP-134604-01' | ''(~ASP-134604-01)       = 'Preferred' | 'ASP-134604-01' | 'SAMTEC'     | '1.27mm pitch Terminal Array Assembly Similar to VITA57' | 'file://cern.ch/dfs/Services/cdslib/datasheets/ASP-134604-01.pdf' | '160'    | 'YES' | ''   | 'SAMTEC_ASP-134604-01'
+ 'ASP-134606-01' | ''(~ASP-134606-01)       = 'Preferred' | 'ASP-134606-01' | 'SAMTEC'     | '1.27mm pitch Terminal Array Assembly Similar to VITA57' | 'file://cern.ch/dfs/Services/cdslib/datasheets/ASP-134606-01.pdf' | '160'    | 'YES' | ''   | 'SAMTEC_ASP-134606-01'
+
+END_PART
+
+END.
+
+

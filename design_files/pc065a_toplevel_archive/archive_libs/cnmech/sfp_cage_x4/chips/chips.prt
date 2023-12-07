@@ -1,0 +1,14 @@
+FILE_TYPE=LIBRARY_PARTS;
+
+primitive 'SFP_CAGE_X4';
+  pin
+    NC:PIN_NUMBER='(NC)';
+  end_pin;
+  body
+    PART_NAME='SFP_CAGE_X4';
+    BODY_NAME='SFP_CAGE_X4';
+    POWER_PINS='(GND:1..46)';
+  end_body;
+end_primitive;
+
+END..

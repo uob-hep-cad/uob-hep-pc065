@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '854S058I'
+CLASS=IC
+PHYS_DES_PREFIX=IC
+
+{========================================================================================}
+: TYPE             |  PACK_TYPE              =  STATUS     | PART_NUMBER      | MANUFACTURER     | DESCRIPTION                                   | DATASHEET_URL                                                | PINCOUNT | SMD   | CASE       | JEDEC_TYPE;
+{========================================================================================}
+ '854S058AGILF'    | 'TSSOP'(~854S058AGILF)  = 'Preferred' | '854S058AGILF'   | 'IDT'            | '8:1 Differential-to-LVDS Clock Multiplexer'  | 'file://cern.ch/dfs/services/cdslib/datasheets/854s058i.pdf' | '24'     | 'YES' | 'TSSOP24'  | 'SOP65P640X120-24N' : POWER_PINS='(GND:17;VDD:5,20)'
+
+END_PART
+END.
+
+
+
+

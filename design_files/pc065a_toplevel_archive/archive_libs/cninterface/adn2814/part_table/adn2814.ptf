@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADN2814'
+CLASS=IC
+
+{========================================================================================}
+:TYPE          | PACK_TYPE              = STATUS      | PART_NUMBER   | MANUFACTURER     | DESCRIPTION                                                                                 | DATASHEET_URL                                               | PINCOUNT | SMD   | CASE       | JEDEC_TYPE                   ;
+{========================================================================================}
+ 'ADN2814ACPZ' | 'LFCSP'(~ADN2814ACPZ)  = 'Preferred' | 'ADN2814ACPZ' | 'ANALOG DEVICES' | 'Continuous Rate 10Mb/s to 675Mb/s Clock and Data Recovery IC with Integrated Limiting Amp' | 'file://cern.ch/dfs/Services/cdslib/datasheets/adn2814.pdf' | '33'     | 'YES' | 'LFCSP-32' | 'QFN50P500X500X100-33N-S325'
+
+END_PART
+
+END.
+
+

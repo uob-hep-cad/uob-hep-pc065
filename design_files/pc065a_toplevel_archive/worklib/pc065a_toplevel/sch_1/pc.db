@@ -1,0 +1,1819 @@
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.2-2016 S063 (3833650) 1/3/2020 on Thu Apr 23 16:51:47 2020
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#ISCELL
+  standard toc *
+  *
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#ISCELL
+  cnpower p1v3 *
+  page7_i1
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i10
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i11
+#ISCELL
+  cnpower gnd *
+  page7_i12
+#ISCELL
+  cnpower p3va *
+  page7_i13
+#CELL
+  cnconnector con3p *
+  page7_i14
+#ISCELL
+  cnpower p2v5 *
+  page7_i15
+#CELL
+  cnpassive tp *
+  page7_i16
+#CELL
+  bris_cds_special mp20075_reg *
+  page7_i17
+#ISCELL
+  cnpower p3v3 *
+  page7_i2
+#ISCELL
+  cnpower p2v5 *
+  page7_i22
+#CELL
+  cnpassive rsmd0402 *
+  page7_i23
+#ISCELL
+  cnpower p3v3 *
+  page7_i24
+#ISCELL
+  cnpower gnd *
+  page7_i25
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i26
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i27
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i28
+#ISCELL
+  cnpower p1v3 *
+  page7_i29
+#ISCELL
+  cnpower gnd *
+  page7_i3
+#CELL
+  cnpassive rsmd0402 *
+  page7_i30
+#CELL
+  cnconnector con4p *
+  page7_i31
+#ISCELL
+  cnpower gnd *
+  page7_i32
+#ISCELL
+  cnpower p3v3 *
+  page7_i33
+#ISCELL
+  cnpower p2v5 *
+  page7_i34
+#ISCELL
+  cnpower p1v3 *
+  page7_i35
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i4
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i5
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i6
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i7
+#ISCELL
+  cnpower gnd *
+  page7_i8
+#ISCELL
+  cnpower p2v5 *
+  page7_i9
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#CELL
+  uob_hep_pc065a_lib fmc_lpc_generic *
+  page4_i1
+#ISCELL
+  standard inport *
+  page4_i100
+#ISCELL
+  standard tap *
+  page4_i101
+#ISCELL
+  standard tap *
+  page4_i102
+#ISCELL
+  standard tap *
+  page4_i103
+#ISCELL
+  standard tap *
+  page4_i104
+#ISCELL
+  standard tap *
+  page4_i105
+#ISCELL
+  standard tap *
+  page4_i106
+#ISCELL
+  standard tap *
+  page4_i107
+#ISCELL
+  standard tap *
+  page4_i108
+#ISCELL
+  standard outport *
+  page4_i110
+#ISCELL
+  standard tap *
+  page4_i111
+#ISCELL
+  standard tap *
+  page4_i112
+#ISCELL
+  standard tap *
+  page4_i113
+#ISCELL
+  standard tap *
+  page4_i114
+#ISCELL
+  standard tap *
+  page4_i115
+#ISCELL
+  standard tap *
+  page4_i116
+#ISCELL
+  standard tap *
+  page4_i117
+#ISCELL
+  standard tap *
+  page4_i118
+#ISCELL
+  standard outport *
+  page4_i119
+#ISCELL
+  standard inport *
+  page4_i12
+#ISCELL
+  standard tap *
+  page4_i120
+#ISCELL
+  standard tap *
+  page4_i121
+#ISCELL
+  standard outport *
+  page4_i122
+#CELL
+  cnpassive rsmd0402 *
+  page4_i123
+#CELL
+  cnpassive rsmd0402 *
+  page4_i124
+#ISCELL
+  cnpower gnd *
+  page4_i125
+#ISCELL
+  standard inport *
+  page4_i13
+#ISCELL
+  standard inport *
+  page4_i14
+#ISCELL
+  standard inport *
+  page4_i15
+#ISCELL
+  standard ioport *
+  page4_i16
+#ISCELL
+  standard ioport *
+  page4_i17
+#ISCELL
+  standard tap *
+  page4_i18
+#ISCELL
+  standard tap *
+  page4_i19
+#CELL
+  cnpassive rsmd0402 *
+  page4_i2
+#ISCELL
+  standard tap *
+  page4_i20
+#ISCELL
+  standard tap *
+  page4_i21
+#ISCELL
+  standard tap *
+  page4_i22
+#ISCELL
+  standard tap *
+  page4_i23
+#ISCELL
+  standard tap *
+  page4_i24
+#ISCELL
+  standard tap *
+  page4_i25
+#ISCELL
+  standard tap *
+  page4_i26
+#ISCELL
+  standard tap *
+  page4_i27
+#ISCELL
+  standard tap *
+  page4_i28
+#ISCELL
+  standard tap *
+  page4_i29
+#ISCELL
+  cnpower gnd *
+  page4_i3
+#ISCELL
+  standard tap *
+  page4_i30
+#ISCELL
+  standard tap *
+  page4_i31
+#ISCELL
+  standard tap *
+  page4_i32
+#ISCELL
+  standard tap *
+  page4_i33
+#ISCELL
+  standard tap *
+  page4_i34
+#ISCELL
+  standard tap *
+  page4_i35
+#ISCELL
+  standard tap *
+  page4_i36
+#ISCELL
+  standard tap *
+  page4_i37
+#ISCELL
+  standard tap *
+  page4_i38
+#ISCELL
+  standard tap *
+  page4_i39
+#ISCELL
+  standard outport *
+  page4_i4
+#ISCELL
+  standard tap *
+  page4_i40
+#ISCELL
+  standard tap *
+  page4_i41
+#ISCELL
+  standard tap *
+  page4_i44
+#ISCELL
+  standard tap *
+  page4_i45
+#ISCELL
+  standard tap *
+  page4_i46
+#ISCELL
+  standard tap *
+  page4_i47
+#ISCELL
+  standard tap *
+  page4_i48
+#ISCELL
+  standard tap *
+  page4_i49
+#ISCELL
+  standard outport *
+  page4_i5
+#ISCELL
+  standard tap *
+  page4_i50
+#ISCELL
+  standard tap *
+  page4_i51
+#ISCELL
+  standard tap *
+  page4_i52
+#ISCELL
+  standard tap *
+  page4_i53
+#ISCELL
+  standard tap *
+  page4_i54
+#ISCELL
+  standard tap *
+  page4_i55
+#ISCELL
+  standard tap *
+  page4_i56
+#ISCELL
+  standard tap *
+  page4_i57
+#ISCELL
+  standard tap *
+  page4_i58
+#ISCELL
+  standard tap *
+  page4_i59
+#ISCELL
+  standard ioport *
+  page4_i6
+#ISCELL
+  standard tap *
+  page4_i60
+#ISCELL
+  standard tap *
+  page4_i61
+#ISCELL
+  standard tap *
+  page4_i62
+#ISCELL
+  standard tap *
+  page4_i63
+#ISCELL
+  standard tap *
+  page4_i64
+#ISCELL
+  standard tap *
+  page4_i65
+#ISCELL
+  standard tap *
+  page4_i66
+#ISCELL
+  standard tap *
+  page4_i67
+#ISCELL
+  standard ioport *
+  page4_i68
+#ISCELL
+  standard outport *
+  page4_i69
+#ISCELL
+  standard tap *
+  page4_i70
+#ISCELL
+  standard tap *
+  page4_i71
+#ISCELL
+  standard tap *
+  page4_i72
+#ISCELL
+  standard tap *
+  page4_i73
+#ISCELL
+  standard tap *
+  page4_i74
+#ISCELL
+  standard tap *
+  page4_i75
+#ISCELL
+  standard tap *
+  page4_i76
+#ISCELL
+  standard tap *
+  page4_i77
+#ISCELL
+  standard tap *
+  page4_i79
+#ISCELL
+  standard tap *
+  page4_i80
+#ISCELL
+  standard tap *
+  page4_i81
+#ISCELL
+  standard outport *
+  page4_i82
+#ISCELL
+  standard tap *
+  page4_i83
+#ISCELL
+  standard tap *
+  page4_i84
+#ISCELL
+  standard tap *
+  page4_i85
+#ISCELL
+  standard tap *
+  page4_i86
+#ISCELL
+  standard outport *
+  page4_i87
+#ISCELL
+  standard inport *
+  page4_i88
+#ISCELL
+  standard tap *
+  page4_i89
+#ISCELL
+  standard tap *
+  page4_i90
+#ISCELL
+  standard tap *
+  page4_i91
+#ISCELL
+  standard tap *
+  page4_i92
+#ISCELL
+  standard inport *
+  page4_i93
+#ISCELL
+  standard tap *
+  page4_i94
+#ISCELL
+  standard tap *
+  page4_i95
+#ISCELL
+  standard tap *
+  page4_i96
+#ISCELL
+  standard tap *
+  page4_i97
+#ISCELL
+  standard outport *
+  page4_i98
+#ISCELL
+  standard inport *
+  page4_i99
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#CELL
+  cnmech sfp_cage_x4 *
+  page2_i2
+#CELL
+  cnmech sfp_cage_x4 *
+  page2_i3
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#CELL
+  uob_hep_pc065a_lib sfp_module *
+  page6_i1
+#ISCELL
+  standard tap *
+  page6_i10
+#ISCELL
+  standard tap *
+  page6_i11
+#ISCELL
+  standard tap *
+  page6_i12
+#ISCELL
+  standard tap *
+  page6_i13
+#ISCELL
+  standard outport *
+  page6_i14
+#ISCELL
+  standard outport *
+  page6_i15
+#ISCELL
+  standard outport *
+  page6_i16
+#ISCELL
+  standard outport *
+  page6_i17
+#ISCELL
+  standard tap *
+  page6_i18
+#ISCELL
+  standard tap *
+  page6_i19
+#CELL
+  uob_hep_pc065a_lib sfp_module *
+  page6_i2
+#ISCELL
+  standard tap *
+  page6_i20
+#ISCELL
+  standard tap *
+  page6_i21
+#ISCELL
+  standard tap *
+  page6_i22
+#ISCELL
+  standard tap *
+  page6_i23
+#ISCELL
+  standard tap *
+  page6_i24
+#ISCELL
+  standard tap *
+  page6_i25
+#ISCELL
+  standard outport *
+  page6_i26
+#ISCELL
+  standard outport *
+  page6_i27
+#ISCELL
+  standard tap *
+  page6_i28
+#ISCELL
+  standard tap *
+  page6_i29
+#CELL
+  uob_hep_pc065a_lib sfp_module *
+  page6_i3
+#ISCELL
+  standard tap *
+  page6_i30
+#ISCELL
+  standard tap *
+  page6_i31
+#ISCELL
+  standard tap *
+  page6_i32
+#ISCELL
+  standard tap *
+  page6_i33
+#ISCELL
+  standard tap *
+  page6_i34
+#ISCELL
+  standard tap *
+  page6_i35
+#ISCELL
+  standard tap *
+  page6_i36
+#ISCELL
+  standard tap *
+  page6_i37
+#ISCELL
+  standard tap *
+  page6_i38
+#ISCELL
+  standard tap *
+  page6_i39
+#CELL
+  uob_hep_pc065a_lib sfp_module *
+  page6_i4
+#ISCELL
+  standard tap *
+  page6_i40
+#ISCELL
+  standard tap *
+  page6_i41
+#ISCELL
+  standard tap *
+  page6_i42
+#ISCELL
+  standard tap *
+  page6_i43
+#ISCELL
+  standard inport *
+  page6_i45
+#ISCELL
+  standard ioport *
+  page6_i46
+#ISCELL
+  standard tap *
+  page6_i47
+#ISCELL
+  standard tap *
+  page6_i48
+#ISCELL
+  standard tap *
+  page6_i49
+#CELL
+  uob_hep_pc065a_lib diff_buff_1to2 *
+  page6_i5
+#ISCELL
+  standard tap *
+  page6_i50
+#ISCELL
+  standard tap *
+  page6_i51
+#ISCELL
+  standard tap *
+  page6_i52
+#ISCELL
+  standard tap *
+  page6_i53
+#ISCELL
+  standard tap *
+  page6_i54
+#ISCELL
+  standard inport *
+  page6_i55
+#ISCELL
+  standard inport *
+  page6_i56
+#ISCELL
+  standard inport *
+  page6_i57
+#ISCELL
+  standard inport *
+  page6_i58
+#ISCELL
+  standard tap *
+  page6_i59
+#CELL
+  uob_hep_pc065a_lib diff_buff_1to2 *
+  page6_i6
+#ISCELL
+  standard tap *
+  page6_i60
+#ISCELL
+  standard tap *
+  page6_i61
+#ISCELL
+  standard tap *
+  page6_i62
+#ISCELL
+  standard tap *
+  page6_i63
+#ISCELL
+  standard tap *
+  page6_i64
+#ISCELL
+  standard tap *
+  page6_i65
+#ISCELL
+  standard tap *
+  page6_i66
+#ISCELL
+  standard tap *
+  page6_i67
+#ISCELL
+  standard tap *
+  page6_i68
+#ISCELL
+  standard tap *
+  page6_i69
+#CELL
+  uob_hep_pc065a_lib diff_buff_1to2 *
+  page6_i7
+#ISCELL
+  standard tap *
+  page6_i70
+#ISCELL
+  standard tap *
+  page6_i71
+#ISCELL
+  standard tap *
+  page6_i72
+#ISCELL
+  standard tap *
+  page6_i73
+#ISCELL
+  standard tap *
+  page6_i74
+#CELL
+  uob_hep_pc065a_lib diff_buff_1to2 *
+  page6_i8
+#ISCELL
+  standard inport *
+  page6_i9
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#ISCELL
+  standard tap *
+  page9_i10
+#ISCELL
+  standard tap *
+  page9_i11
+#ISCELL
+  standard tap *
+  page9_i12
+#CELL
+  uob_hep_pc065a_lib sfp_module *
+  page9_i13
+#ISCELL
+  standard tap *
+  page9_i14
+#ISCELL
+  standard tap *
+  page9_i15
+#ISCELL
+  standard tap *
+  page9_i16
+#ISCELL
+  standard inport *
+  page9_i17
+#ISCELL
+  standard tap *
+  page9_i18
+#ISCELL
+  standard inport *
+  page9_i19
+#ISCELL
+  standard ioport *
+  page9_i20
+#ISCELL
+  standard inport *
+  page9_i21
+#ISCELL
+  standard inport *
+  page9_i22
+#ISCELL
+  standard inport *
+  page9_i23
+#ISCELL
+  standard inport *
+  page9_i24
+#ISCELL
+  standard tap *
+  page9_i25
+#ISCELL
+  standard tap *
+  page9_i26
+#ISCELL
+  standard tap *
+  page9_i27
+#ISCELL
+  standard tap *
+  page9_i28
+#ISCELL
+  standard tap *
+  page9_i29
+#ISCELL
+  standard tap *
+  page9_i30
+#ISCELL
+  standard tap *
+  page9_i31
+#ISCELL
+  standard tap *
+  page9_i32
+#ISCELL
+  standard tap *
+  page9_i33
+#ISCELL
+  standard tap *
+  page9_i34
+#CELL
+  uob_hep_pc065a_lib sfp_module *
+  page9_i35
+#ISCELL
+  standard tap *
+  page9_i36
+#ISCELL
+  standard tap *
+  page9_i37
+#ISCELL
+  standard tap *
+  page9_i38
+#ISCELL
+  standard tap *
+  page9_i39
+#ISCELL
+  standard tap *
+  page9_i40
+#ISCELL
+  standard tap *
+  page9_i41
+#ISCELL
+  standard tap *
+  page9_i42
+#ISCELL
+  standard tap *
+  page9_i43
+#ISCELL
+  standard tap *
+  page9_i44
+#CELL
+  uob_hep_pc065a_lib sfp_module *
+  page9_i45
+#ISCELL
+  standard tap *
+  page9_i46
+#CELL
+  uob_hep_pc065a_lib sfp_module *
+  page9_i47
+#ISCELL
+  standard tap *
+  page9_i48
+#ISCELL
+  standard tap *
+  page9_i53
+#ISCELL
+  standard tap *
+  page9_i54
+#ISCELL
+  standard tap *
+  page9_i55
+#ISCELL
+  standard tap *
+  page9_i57
+#ISCELL
+  standard tap *
+  page9_i58
+#ISCELL
+  standard tap *
+  page9_i61
+#ISCELL
+  standard tap *
+  page9_i63
+#ISCELL
+  standard tap *
+  page9_i64
+#ISCELL
+  standard tap *
+  page9_i65
+#ISCELL
+  standard tap *
+  page9_i66
+#ISCELL
+  standard tap *
+  page9_i68
+#ISCELL
+  standard tap *
+  page9_i69
+#ISCELL
+  standard tap *
+  page9_i72
+#ISCELL
+  standard tap *
+  page9_i73
+#ISCELL
+  standard tap *
+  page9_i75
+#ISCELL
+  standard tap *
+  page9_i76
+#ISCELL
+  standard outport *
+  page9_i77
+#ISCELL
+  standard outport *
+  page9_i80
+#ISCELL
+  standard outport *
+  page9_i81
+#ISCELL
+  standard outport *
+  page9_i82
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#CELL
+  bris_cds_special si5395 *
+  page8_i1
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i10
+#CELL
+  cndiscrete inductance *
+  page8_i100
+#CELL
+  cnpassive rsmd0402 *
+  page8_i102
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i103
+#CELL
+  bris_cds_analogue lp38692sd *
+  page8_i104
+#ISCELL
+  cnpower gnd *
+  page8_i105
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i106
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i107
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i108
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i109
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i11
+#CELL
+  cnpassive tp *
+  page8_i110
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i111
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i112
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i113
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i114
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i115
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i116
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i117
+#ISCELL
+  standard ioport *
+  page8_i118
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i12
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i13
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i14
+#ISCELL
+  standard tap *
+  page8_i15
+#ISCELL
+  standard tap *
+  page8_i16
+#ISCELL
+  standard tap *
+  page8_i17
+#ISCELL
+  standard tap *
+  page8_i18
+#ISCELL
+  standard tap *
+  page8_i19
+#ISCELL
+  standard tap *
+  page8_i20
+#ISCELL
+  standard tap *
+  page8_i21
+#ISCELL
+  standard tap *
+  page8_i22
+#CELL
+  cnpassive rsmd0402 *
+  page8_i25
+#CELL
+  cnpassive rsmd0402 *
+  page8_i26
+#ISCELL
+  cnpower gnd *
+  page8_i27
+#CELL
+  cnpassive rsmd0402 *
+  page8_i28
+#CELL
+  cnpassive rsmd0402 *
+  page8_i29
+#CELL
+  cnpassive rsmd0402 *
+  page8_i3
+#CELL
+  cnpassive rsmd0402 *
+  page8_i30
+#ISCELL
+  cnpower p1v8a *
+  page8_i34
+#ISCELL
+  cnpower p3v3a *
+  page8_i35
+#ISCELL
+  cnpower p3v3b *
+  page8_i36
+#ISCELL
+  cnpower p3v3b *
+  page8_i38
+#ISCELL
+  standard inport *
+  page8_i39
+#CELL
+  cnpassive rsmd0402 *
+  page8_i4
+#ISCELL
+  standard inport *
+  page8_i40
+#ISCELL
+  standard outport *
+  page8_i41
+#ISCELL
+  standard outport *
+  page8_i42
+#ISCELL
+  standard tap *
+  page8_i43
+#ISCELL
+  standard tap *
+  page8_i44
+#ISCELL
+  standard tap *
+  page8_i45
+#ISCELL
+  standard tap *
+  page8_i46
+#ISCELL
+  standard tap *
+  page8_i47
+#ISCELL
+  standard tap *
+  page8_i48
+#ISCELL
+  standard tap *
+  page8_i49
+#CELL
+  cnpassive rsmd0402 *
+  page8_i5
+#ISCELL
+  standard tap *
+  page8_i50
+#ISCELL
+  standard tap *
+  page8_i51
+#ISCELL
+  standard tap *
+  page8_i52
+#ISCELL
+  standard tap *
+  page8_i53
+#ISCELL
+  standard tap *
+  page8_i54
+#ISCELL
+  standard tap *
+  page8_i55
+#ISCELL
+  standard tap *
+  page8_i56
+#ISCELL
+  standard tap *
+  page8_i57
+#ISCELL
+  standard tap *
+  page8_i58
+#ISCELL
+  standard tap *
+  page8_i59
+#CELL
+  cnpassive rsmd0402 *
+  page8_i6
+#ISCELL
+  standard tap *
+  page8_i60
+#ISCELL
+  standard outport *
+  page8_i61
+#ISCELL
+  standard outport *
+  page8_i62
+#CELL
+  cnpassive rsmd0402 *
+  page8_i63
+#CELL
+  cnpassive rsmd0402 *
+  page8_i64
+#CELL
+  cnpassive rsmd0402 *
+  page8_i65
+#CELL
+  cnpassive rsmd0402 *
+  page8_i66
+#CELL
+  cnpassive rsmd0402 *
+  page8_i67
+#CELL
+  cnpassive rsmd0402 *
+  page8_i68
+#ISCELL
+  cnpower gnd *
+  page8_i69
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i7
+#ISCELL
+  standard inport *
+  page8_i70
+#ISCELL
+  standard inport *
+  page8_i72
+#ISCELL
+  cnpower p3v3a *
+  page8_i73
+#CELL
+  bris_cds_discrete dsc1123ci5 *
+  page8_i74
+#CELL
+  cnpassive rsmd0402 *
+  page8_i75
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i76
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i77
+#CELL
+  cnpassive rsmd0402 *
+  page8_i78
+#CELL
+  cnpassive rsmd0402 *
+  page8_i79
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i8
+#ISCELL
+  cnpower gnd *
+  page8_i80
+#CELL
+  cnconnector con3p *
+  page8_i81
+#ISCELL
+  cnpower gnd *
+  page8_i82
+#ISCELL
+  cnpower p3v3c *
+  page8_i83
+#CELL
+  cnpassive rsmd0402 *
+  page8_i84
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i85
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i86
+#CELL
+  cndiscrete inductance *
+  page8_i87
+#ISCELL
+  cnpower gnd *
+  page8_i88
+#ISCELL
+  cnpower p3v3 *
+  page8_i89
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i9
+#CELL
+  cndiscrete inductance *
+  page8_i91
+#ISCELL
+  cnpower p3v3 *
+  page8_i92
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i93
+#ISCELL
+  cnpower gnd *
+  page8_i94
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i95
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i96
+#ISCELL
+  cnpower gnd *
+  page8_i97
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i98
+#ISCELL
+  cnpower p3v3 *
+  page8_i99
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#CELL
+  cninterface 854s058i *
+  page10_i1
+#ISCELL
+  standard tap *
+  page10_i10
+#ISCELL
+  standard tap *
+  page10_i11
+#ISCELL
+  standard tap *
+  page10_i12
+#ISCELL
+  standard tap *
+  page10_i13
+#ISCELL
+  standard tap *
+  page10_i14
+#ISCELL
+  standard tap *
+  page10_i15
+#ISCELL
+  standard tap *
+  page10_i16
+#ISCELL
+  standard tap *
+  page10_i17
+#ISCELL
+  standard tap *
+  page10_i18
+#ISCELL
+  standard tap *
+  page10_i19
+#ISCELL
+  standard tap *
+  page10_i2
+#ISCELL
+  standard tap *
+  page10_i20
+#ISCELL
+  standard tap *
+  page10_i21
+#ISCELL
+  standard tap *
+  page10_i22
+#ISCELL
+  standard tap *
+  page10_i23
+#CELL
+  cnpassive rsmd0402 *
+  page10_i24
+#CELL
+  cnpassive rsmd0402 *
+  page10_i25
+#CELL
+  cnpassive rsmd0402 *
+  page10_i26
+#CELL
+  cnpassive rsmd0402 *
+  page10_i27
+#CELL
+  cnpassive rsmd0402 *
+  page10_i28
+#CELL
+  cnpassive rsmd0402 *
+  page10_i29
+#ISCELL
+  standard tap *
+  page10_i3
+#CELL
+  cnpassive rsmd0402 *
+  page10_i30
+#CELL
+  cnpassive rsmd0402 *
+  page10_i31
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i32
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i33
+#CELL
+  cninterface adn2814 *
+  page10_i34
+#CELL
+  cnpassive rsmd0402 *
+  page10_i35
+#CELL
+  cnpassive rsmd0402 *
+  page10_i36
+#ISCELL
+  cnpower gnd *
+  page10_i37
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i38
+#CELL
+  cnpassive rsmd0402 *
+  page10_i39
+#ISCELL
+  standard tap *
+  page10_i4
+#CELL
+  cnpassive rsmd0402 *
+  page10_i40
+#ISCELL
+  standard outport *
+  page10_i41
+#CELL
+  cnpassive rsmd0402 *
+  page10_i42
+#CELL
+  cnpassive rsmd0402 *
+  page10_i43
+#ISCELL
+  cnpower p3v3 *
+  page10_i44
+#CELL
+  cnpassive rsmd0402 *
+  page10_i45
+#CELL
+  cnpassive rsmd0402 *
+  page10_i46
+#ISCELL
+  cnpower gnd *
+  page10_i47
+#CELL
+  cnpassive rsmd0402 *
+  page10_i48
+#CELL
+  cnpassive capcersmdcl2 *
+  page10_i49
+#ISCELL
+  standard inport *
+  page10_i5
+#CELL
+  cnpassive rsmd0402 *
+  page10_i50
+#ISCELL
+  standard outport *
+  page10_i51
+#ISCELL
+  standard outport *
+  page10_i52
+#ISCELL
+  standard outport *
+  page10_i53
+#CELL
+  cnpassive rsmd0402 *
+  page10_i54
+#CELL
+  uob_hep_pc065a_lib diff_buff_1to2 *
+  page10_i55
+#ISCELL
+  standard outport *
+  page10_i56
+#ISCELL
+  standard outport *
+  page10_i57
+#ISCELL
+  standard outport *
+  page10_i58
+#ISCELL
+  standard outport *
+  page10_i59
+#ISCELL
+  standard inport *
+  page10_i6
+#ISCELL
+  standard inport *
+  page10_i60
+#ISCELL
+  standard ioport *
+  page10_i61
+#ISCELL
+  standard inport *
+  page10_i7
+#ISCELL
+  standard tap *
+  page10_i8
+#ISCELL
+  standard tap *
+  page10_i9
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#ISCELL
+  standard outport *
+  page12_i13
+#ISCELL
+  standard ioport *
+  page12_i14
+#CELL
+  uob_hep_pc065a_lib i2c_level_translate *
+  page12_i20
+#CELL
+  uob_hep_pc065a_lib i2c_level_translate *
+  page12_i21
+#CELL
+  uob_hep_pc065a_lib i2c_level_translate *
+  page12_i22
+#CELL
+  uob_hep_pc065a_lib i2c_level_translate *
+  page12_i23
+#CELL
+  uob_hep_pc065a_lib i2c_level_translate *
+  page12_i24
+#CELL
+  uob_hep_pc065a_lib i2c_level_translate *
+  page12_i25
+#CELL
+  uob_hep_pc065a_lib i2c_level_translate *
+  page12_i26
+#CELL
+  uob_hep_pc065a_lib i2c_level_translate *
+  page12_i27
+#CELL
+  uob_hep_pc065a_lib i2c_level_translate *
+  page12_i28
+#ISCELL
+  standard inport *
+  page12_i29
+#ISCELL
+  standard inport *
+  page12_i3
+#ISCELL
+  standard ioport *
+  page12_i30
+#ISCELL
+  standard ioport *
+  page12_i31
+#ISCELL
+  standard outport *
+  page12_i32
+#ISCELL
+  standard tap *
+  page12_i33
+#ISCELL
+  standard tap *
+  page12_i34
+#ISCELL
+  standard tap *
+  page12_i35
+#ISCELL
+  standard tap *
+  page12_i36
+#ISCELL
+  standard tap *
+  page12_i37
+#ISCELL
+  standard tap *
+  page12_i38
+#ISCELL
+  standard tap *
+  page12_i39
+#ISCELL
+  standard ioport *
+  page12_i4
+#ISCELL
+  standard tap *
+  page12_i40
+#ISCELL
+  standard tap *
+  page12_i41
+#ISCELL
+  standard tap *
+  page12_i42
+#ISCELL
+  standard tap *
+  page12_i43
+#ISCELL
+  standard tap *
+  page12_i44
+#ISCELL
+  standard tap *
+  page12_i45
+#ISCELL
+  standard tap *
+  page12_i46
+#ISCELL
+  standard tap *
+  page12_i47
+#ISCELL
+  standard tap *
+  page12_i48
+#ISCELL
+  standard tap *
+  page12_i49
+#ISCELL
+  standard tap *
+  page12_i50
+#ISCELL
+  standard tap *
+  page12_i51
+#ISCELL
+  standard tap *
+  page12_i52
+#ISCELL
+  standard tap *
+  page12_i53
+#ISCELL
+  standard tap *
+  page12_i54
+#ISCELL
+  standard tap *
+  page12_i55
+#ISCELL
+  standard tap *
+  page12_i56
+#ISCELL
+  standard tap *
+  page12_i57
+#ISCELL
+  standard tap *
+  page12_i58
+#ISCELL
+  standard tap *
+  page12_i59
+#ISCELL
+  standard tap *
+  page12_i60
+#ISCELL
+  standard tap *
+  page12_i61
+#ISCELL
+  standard tap *
+  page12_i62
+#ISCELL
+  standard tap *
+  page12_i63
+#ISCELL
+  standard tap *
+  page12_i64
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#CELL
+  bris_cds_special tca9539 *
+  page13_i1
+#ISCELL
+  standard tap *
+  page13_i10
+#ISCELL
+  standard tap *
+  page13_i11
+#ISCELL
+  standard tap *
+  page13_i12
+#ISCELL
+  standard tap *
+  page13_i13
+#ISCELL
+  standard tap *
+  page13_i14
+#ISCELL
+  standard tap *
+  page13_i15
+#ISCELL
+  standard tap *
+  page13_i16
+#ISCELL
+  standard tap *
+  page13_i17
+#ISCELL
+  standard tap *
+  page13_i18
+#ISCELL
+  standard tap *
+  page13_i19
+#ISCELL
+  standard ioport *
+  page13_i2
+#ISCELL
+  standard tap *
+  page13_i20
+#ISCELL
+  standard tap *
+  page13_i21
+#ISCELL
+  standard tap *
+  page13_i22
+#ISCELL
+  standard tap *
+  page13_i23
+#ISCELL
+  standard outport *
+  page13_i24
+#ISCELL
+  standard outport *
+  page13_i26
+#ISCELL
+  standard inport *
+  page13_i3
+#ISCELL
+  standard tap *
+  page13_i36
+#ISCELL
+  standard tap *
+  page13_i37
+#ISCELL
+  standard tap *
+  page13_i38
+#ISCELL
+  standard tap *
+  page13_i39
+#ISCELL
+  standard tap *
+  page13_i40
+#ISCELL
+  standard tap *
+  page13_i41
+#ISCELL
+  standard tap *
+  page13_i42
+#ISCELL
+  standard tap *
+  page13_i43
+#CELL
+  bris_cds_special tca9539 *
+  page13_i44
+#CELL
+  cnpassive rsmd0402 *
+  page13_i45
+#CELL
+  cnpassive rsmd0402 *
+  page13_i46
+#ISCELL
+  cnpower gnd *
+  page13_i47
+#ISCELL
+  standard ioport *
+  page13_i48
+#ISCELL
+  standard inport *
+  page13_i49
+#ISCELL
+  standard tap *
+  page13_i5
+#ISCELL
+  cnpower p3v3 *
+  page13_i51
+#ISCELL
+  standard inport *
+  page13_i52
+#ISCELL
+  standard inport *
+  page13_i53
+#ISCELL
+  standard inport *
+  page13_i54
+#ISCELL
+  standard inport *
+  page13_i55
+#ISCELL
+  standard inport *
+  page13_i56
+#ISCELL
+  standard inport *
+  page13_i57
+#CELL
+  cnpassive capcersmdcl2 *
+  page13_i58
+#CELL
+  cnpassive capcersmdcl2 *
+  page13_i59
+#CELL
+  cnpassive rsmd0402 *
+  page13_i6
+#ISCELL
+  cnpower p3v3 *
+  page13_i60
+#ISCELL
+  cnpower p3v3 *
+  page13_i61
+#ISCELL
+  cnpower gnd *
+  page13_i62
+#ISCELL
+  cnpower gnd *
+  page13_i63
+#CELL
+  cnpassive rsmd0402 *
+  page13_i66
+#ISCELL
+  cnpower p3v3 *
+  page13_i68
+#CELL
+  cnpassive rsmd0402 *
+  page13_i69
+#ISCELL
+  cnpower gnd *
+  page13_i7
+#CELL
+  cnpassive rsmd0402 *
+  page13_i70
+#ISCELL
+  cnpower gnd *
+  page13_i71
+#ISCELL
+  cnpower gnd *
+  page13_i72
+#CELL
+  cnpassive rsmd0402 *
+  page13_i73
+#ISCELL
+  cnpower p3v3 *
+  page13_i74
+#CELL
+  bris_cds_special 74avc4t245_bris *
+  page13_i75
+#CELL
+  bris_cds_special 74avc4t245_bris *
+  page13_i76
+#ISCELL
+  standard tap *
+  page13_i77
+#ISCELL
+  standard tap *
+  page13_i78
+#ISCELL
+  standard tap *
+  page13_i79
+#CELL
+  cnpassive rsmd0402 *
+  page13_i8
+#ISCELL
+  standard inport *
+  page13_i80
+#ISCELL
+  standard tap *
+  page13_i81
+#ISCELL
+  standard tap *
+  page13_i82
+#ISCELL
+  standard tap *
+  page13_i83
+#ISCELL
+  standard outport *
+  page13_i84
+#ISCELL
+  standard inport *
+  page13_i85
+#ISCELL
+  standard outport *
+  page13_i86
+#ISCELL
+  standard tap *
+  page13_i9
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#CELL
+  cnconnector pcoax *
+  page11_i10
+#ISCELL
+  standard outport *
+  page11_i11
+#ISCELL
+  standard outport *
+  page11_i12
+#CELL
+  cnconnector pcoax *
+  page11_i13
+#ISCELL
+  cnpower p3v3 *
+  page11_i3
+#ISCELL
+  cnpower gnd *
+  page11_i4
+#ISCELL
+  standard ioport *
+  page11_i5
+#ISCELL
+  standard outport *
+  page11_i6
+#CELL
+  cnconnector con3p *
+  page11_i7
+#CELL
+  cnpassive rsmd0402 *
+  page11_i8
+#CELL
+  cnpassive rsmd0402 *
+  page11_i9
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#ISCELL
+  standard ioport *
+  page5_i10
+#ISCELL
+  standard inport *
+  page5_i11
+#ISCELL
+  cnpower gnd *
+  page5_i12
+#ISCELL
+  cnpower p3v3 *
+  page5_i13
+#CELL
+  cnpassive rsmd0402 *
+  page5_i2
+#CELL
+  cnpassive rsmd0402 *
+  page5_i3
+#ISCELL
+  cnpower p3v3 *
+  page5_i4
+#ISCELL
+  cnpower gnd *
+  page5_i5
+#CELL
+  cnpassive capcersmdcl2 *
+  page5_i6
+#CELL
+  cnpassive rsmd0402 *
+  page5_i7
+#CELL
+  cnpassive rsmd0402 *
+  page5_i8
+#CELL
+  cnmemory 24aa025e48 *
+  page5_i9

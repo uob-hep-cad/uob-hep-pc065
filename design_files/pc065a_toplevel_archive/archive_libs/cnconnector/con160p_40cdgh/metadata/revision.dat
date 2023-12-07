@@ -1,0 +1,238 @@
+(Cell	con400p40abcdefghjk
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	Major)
+
+		(Status	Modified)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	)
+
+			(User	)
+
+			(Path	)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/02/09,12:28:01)
+
+			(User	couturie)
+
+			(Path	libdev1_lib.con160p_40cdgh)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000d2ddea46)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/02/09,12:23:17)
+
+							(User	couturie)
+
+							(Path	libdev1_lib.con160p_40cdgh)
+
+						)
+
+						(LastModifyInfo	
+
+							(Time	09/02/09,12:28:01)
+
+							(User	couturie)
+
+							(Path	libdev1_lib.con160p_40cdgh)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000089e3e817)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/02/09,12:23:08)
+
+							(User	couturie)
+
+							(Path	libdev1_lib.con160p_40cdgh)
+
+						)
+
+						(LastModifyInfo	
+
+							(Time	09/02/09,12:28:01)
+
+							(User	couturie)
+
+							(Path	libdev1_lib.con160p_40cdgh)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d7103dd)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000002b4e6474)
+
+			(Primitives	1
+
+				(Primitive	CON160P_40CDGH
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.7)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/02/09,09:09:03)
+
+							(User	couturie)
+
+							(Path	libdev1_lib.con400p40abcdefghjk)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	CON160P_40CDGH
+
+							(PackType	CON160P_40CDGH)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	2
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+							(FunctionGroup	2[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c5d0389)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-s035)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c410382)
+
+)
+
