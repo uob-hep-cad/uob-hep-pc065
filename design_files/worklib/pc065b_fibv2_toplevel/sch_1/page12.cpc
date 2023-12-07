@@ -1,0 +1,39 @@
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#ISCELL
+  standard ioport *
+  page5_i10
+#ISCELL
+  standard inport *
+  page5_i11
+#ISCELL
+  cnpower gnd *
+  page5_i12
+#ISCELL
+  cnpower p3v3 *
+  page5_i13
+#CELL
+  cnpassive rsmd0402 *
+  page5_i2
+#CELL
+  cnpassive rsmd0402 *
+  page5_i3
+#ISCELL
+  cnpower p3v3 *
+  page5_i4
+#ISCELL
+  cnpower gnd *
+  page5_i5
+#CELL
+  cnpassive capcersmdcl2 *
+  page5_i6
+#CELL
+  cnpassive rsmd0402 *
+  page5_i7
+#CELL
+  cnpassive rsmd0402 *
+  page5_i8
+#CELL
+  cnmemory 24aa025e48 *
+  page5_i9
