@@ -65,8 +65,23 @@
   standard ioport *
   page8_i118
 #CELL
+  bris_cds_logic cdclvd110 *
+  page8_i119
+#CELL
   cnpassive capcersmdcl2 *
   page8_i12
+#CELL
+  bris_cds_discrete sit5022 *
+  page8_i120
+#CELL
+  cnconnector pcoax *
+  page8_i121
+#CELL
+  cnconnector pcoax *
+  page8_i122
+#CELL
+  bris_cds_logic tmp1075ndrlr *
+  page8_i124
 #CELL
   cnpassive capcersmdcl2 *
   page8_i13
