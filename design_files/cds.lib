@@ -1,8 +1,22 @@
+DEFINE bris_cds_standard    ../../library/cds_standard
+DEFINE cnpassive    ../../library/cnpassive
+DEFINE cnmech    ../../library/cnmech
+DEFINE cndiscrete    ../../library/cndiscrete
+DEFINE bris_cds_analogue    ../../library/cds_analogue
+DEFINE cnconnector    ../../library/cnconnector
+DEFINE bris_cds_logic    ../../library/cds_logic
+DEFINE bris_cds_discrete    ../../library/cds_discrete
+DEFINE cninterface    ../../library/cninterface
+#DEFINE uob_hep_pc065a_lib    worklib
+DEFINE bris_cds_special    ../../library/cds_special
+DEFINE cnmemory    ../../library/cnmemory
+DEFINE cnpower    ../../library/cnpower
+## DEFINE standard    ../../library/standard
 DEFINE uob_hep_pc065a_lib worklib
 
-INCLUDE $RAL_CDSLIB_PSD15/cds.lib
-INCLUDE $BRIS_CDSLIB/cds.lib
+#INCLUDE $RAL_CDSLIB_PSD15/cds.lib
+#INCLUDE $BRIS_CDSLIB/cds.lib
 #INCLUDE $CERN_CDSLIB/lib_psd16.x/cds.lib
-INCLUDE $CERN_CDSLIB/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cds.lib
+#INCLUDE $CERN_CDSLIB/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cds.lib
 
 INCLUDE $CONCEPT_INST_DIR/share/cdssetup/cds.lib
