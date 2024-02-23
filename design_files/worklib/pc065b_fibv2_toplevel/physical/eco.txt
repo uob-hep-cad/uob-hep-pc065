@@ -3,243 +3,1820 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 10:24:17 2024  |
+|                                                    Fri Feb 23 11:29:21 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  CLK_IN_N<1>  pins MOVED FROM this net (to net name listed on right)
-                                 U1.4             7.1000 -23.000
-                                                  UNNAMED_8_CAPCERSMDCL2_I168_B
+  CLK_BIDIR_N<1> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J3                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_IN_P<1>  pins MOVED FROM this net (to net name listed on right)
-                                 U1.3             7.1000 -22.200
-                                                  UNNAMED_8_CAPCERSMDCL2_I167_B
+  CLK_BIDIR_P<1> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J2                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_N<0> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.30           10.1000 -19.200
+  CLK_DIR      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B1                          
+                                 R13.2                          
+                                 R14.2                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_N<1> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.28           11.7000 -19.200
+  CLK_IN_N<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K5                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_N<2> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.26           13.3000 -19.200
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_N<3> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.23           15.5000 -21.400
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_N<4> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.21           15.5000 -23.000
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_N<5> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.19           15.5000 -24.600
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_N<6> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.17           15.5000 -26.200
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_N<7> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.14           12.5000 -27.600
+  CLK_IN_P<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K4                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   CLK_MAIN_N<8> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.12           10.9000 -27.600
+                                 J2.G3                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_N<9> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.10            9.3000 -27.600
+  CLK_MAIN_P<8> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G2                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<0> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.31            9.3000 -19.200
+  DP_C2M_N<0>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C3                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<1> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.29           10.9000 -19.200
+  DP_C2M_N<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A23                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<2> pins ADDED TO this existing net (pins not previously on any net)
+  DP_C2M_N<2>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A27                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_C2M_N<3>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A31                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_C2M_N<4>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A35                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_C2M_N<5>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A39                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_C2M_N<6>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B37                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_C2M_N<7>  pins ADDED TO this existing net (pins not previously on any net)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 10:24:17 2024  |
+|                                                    Fri Feb 23 11:29:21 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 U1.27           12.5000 -19.200
+                                 J2.B33                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<3> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.24           15.5000 -20.600
+  DP_C2M_N<8>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B29                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<4> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.22           15.5000 -22.200
+  DP_C2M_N<9>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B25                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<5> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.20           15.5000 -23.800
+  DP_C2M_P<0>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C2                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<6> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.18           15.5000 -25.400
+  DP_C2M_P<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A22                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<7> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.15           13.3000 -27.600
+  DP_C2M_P<2>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A26                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<8> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.13           11.7000 -27.600
+  DP_C2M_P<3>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A30                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_MAIN_P<9> pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.11           10.1000 -27.600
+  DP_C2M_P<4>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A34                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_RST_B    pins MOVED FROM this net (to net name listed on right)
-                                 R9.2            12.2500 -2.3000
-                                                                            GND
+  DP_C2M_P<5>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A38                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CLK_VOLTREFOUT pins ADDED TO this new net
-                                 U1.5             7.1000 -23.800
+  DP_C2M_P<6>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B36                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GND          pins MOVED FROM this net (to net name listed on right)
-                                 C16.1           23.4000 -0.5500
-                                                                    CLK_IN_P<1>
-                                 C18.1           23.5000 -4.1500
-                                                                    CLK_IN_N<1>
+  DP_C2M_P<7>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B32                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  P1V8A        pins MOVED FROM this net (to net name listed on right)
-                                 C18.2           23.5000 -3.2500
-                                                  UNNAMED_8_CAPCERSMDCL2_I168_B
+  DP_C2M_P<8>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B28                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  P3V3A        pins MOVED FROM this net (to net name listed on right)
-                                 R2.1             3.3500  2.0000
-                                                  UNNAMED_8_CAPCERSMDCL2_I167_B
-                                 R9.1            11.3500 -2.3000
-                                                                 CLK_VOLTREFOUT
+  DP_C2M_P<9>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B24                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_N<0>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_N<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_N<2>  pins ADDED TO this existing net (pins not previously on any net)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 10:24:17 2024  |
+|                                                    Fri Feb 23 11:29:21 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  P3V3B        pins ADDED TO this existing net (pins not previously on any net)
-                                 U1.16           14.1000 -27.600
-                                 U1.32            8.5000 -19.200
+                                 J2.A7                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_CAPCERSMDCL2_I167_B pins ADDED TO this new net
-                                 C16.2           23.4000 -1.4500
+  DP_M2C_N<3>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A11                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_LP38692SD_I104_EN pins MOVED FROM this net (to net name listed on right)
-                                 R2.2             4.2500  2.0000
-                                                  UNNAMED_8_CAPCERSMDCL2_I168_B
+  DP_M2C_N<4>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_N<5>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_N<6>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_N<7>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B13                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_N<8>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_N<9>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<0>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<2>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<3>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<4>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<5>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<6>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<7>  pins ADDED TO this existing net (pins not previously on any net)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 10:24:17 2024  |
+|                                                    Fri Feb 23 11:29:21 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C19                 CAPCERSMDCL2_0805-22UF,6.3V 16.7000 -4.0000
- C20                 CAPCERSMDCL2_0402-100NF_X7R,16V 19.5000 -4.0000
- C21                 CAPCERSMDCL2_0402-100NF_X7R,16V 13.6000 -9.3000
- C22                 CAPCERSMDCL2_0402-100NF_X7R,16V 13.6000 -8.3000
- C23                 CAPCERSMDCL2_0402-100NF_X7R,16V 11.8000 -6.7000
- C24                 CAPCERSMDCL2_0402-100NF_X7R,16V 11.8000 -5.6000
- C25                 CAPCERSMDCL2_0402-100NF_X7R,16V 11.9000  1.4000
- C26                 CAPCERSMDCL2_0402-100NF_X7R,16V 11.9000  2.5000
- C27                 CAPCERSMDCL2_0402-100NF_X7R,16V 20.1000 -8.3000
- C28                 CAPCERSMDCL2_0402-100NF_X7R,16V 20.1000 -9.3000
- IC3                 SI5395A-A-GM-VDD=P1V8A,VDDA=P3A 20.2000 -1.0000
- R13                 RSMD0402_1/16W-100,1% 15.1000 -8.8000
- R14                 RSMD0402_1/16W-100,1% 13.7000 -6.2000
- R15                 RSMD0402_1/16W-100,1% 13.8000  2.0000
- R16                 RSMD0402_1/16W-100,1% 18.6000 -8.8000
- TP1                 TP_HOLE-0.8MM          6.5000  9.2000
- U2                  LP38692SD_WSON-1.8V,TEXAS INSTA  3.5000  6.3000
+                                 J2.B12                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<8>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B8                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP_M2C_P<9>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FANOUT_IP_SEL pins ADDED TO this new net
+                                 J2.H38                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_N<13> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_N<16> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_N<17> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_N<20> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G22                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_N<22> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G25                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_N<23> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D24                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_N<25> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G28                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_N<26> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D27                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_N<29> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G31                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<13> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<16> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<17> pins ADDED TO this existing net (pins not previously on any net)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 10:24:17 2024  |
+|                                                    Fri Feb 23 11:29:21 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C16                 CAPCERSMDCL2_0402-100NF_X7R,16V 23.4000 -1.0000 CAPCERSMDCL2_0805-10UF,10V_GEN
- R2                  RSMD0402_1/16W-100,1%  3.8000  2.0000 RSMD0402_1/16W-4.7K,1%
+                                 J2.D20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<20> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<22> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G24                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<23> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D23                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<25> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G27                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<26> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D26                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<29> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G30                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA_P<32> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H37                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GBTCLK_M2C_N<0> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GBTCLK_M2C_N<1> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GBTCLK_M2C_P<0> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GBTCLK_M2C_P<1> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.B20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.A1                          
+                                 J2.A4                          
+                                 J2.A5                          
+                                 J2.A8                          
+                                 J2.A9                          
+                                 J2.A12                         
+                                 J2.A13                         
+                                 J2.A16                         
+                                 J2.A17                         
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   6  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 10:24:17 2024  |
+|                                                    Fri Feb 23 11:29:21 2024  |
 |------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C16.2          23.4000 -1.0000 PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
- C16.2          23.4000 -1.0000 ROOM           CLOCK_MODULE
- C16.2          23.4000 -1.0000 SIZE           1
- C16.2          23.4000 -1.0000 XY             (-4250,5450)
- C18.2          23.5000 -3.7000 XY             (-4250,5250)
- C29.2           9.7000 -1.7000 XY             (-3925,6825)
- C30.2                          XY             (-1850,4300)
- C121.2                         XY             (-1850,3800)
- IC2.5          -21.400 -16.400 XY             (-4125,6175)
- PX3.1          -8.7000 -18.100 XY             (-975,4300)
- PX4.1          -9.1000 -24.300 XY             (-975,3800)
- QZ1.6           2.1000 -7.6000 XY             (-5100,4950)
- R2.2            3.8000  2.0000 DIST           FLAT
- R2.2            3.8000  2.0000 MAX_TEMP       RTMAX
- R2.2            3.8000  2.0000 NEGTOL         RTOL%
- R2.2            3.8000  2.0000 POSTOL         RTOL%
- R2.2            3.8000  2.0000 PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
- R2.2            3.8000  2.0000 ROOM           CLOCK_MODULE
- R2.2            3.8000  2.0000 SIZE           1
- R2.2            3.8000  2.0000 SLOPE          RSMAX
- R2.2            3.8000  2.0000 TC1            RTMPL
- R2.2            3.8000  2.0000 TC2            RTMPQ
- R2.2            3.8000  2.0000 TOL_ON_OFF     ON
- R2.2            3.8000  2.0000 XY             (-3950,5350)
- R3.2            1.9000 -3.7000 XY             (-5625,4850)
- R4.2            4.5000 -6.8000 XY             (-4250,4950)
- R5.2            4.5000 -9.0000 XY             (-3800,4850)
- R6.2           19.7000  2.3000 XY             (-3800,4750)
- R7.2           14.1000  5.1000 XY             (-3800,4650)
- R8.2           16.9000  6.5000 XY             (-4800,6675)
- R9.2           11.8000 -2.3000 XY             (-2175,4750)
- R10.2          11.9000  0.3000 XY             (-4600,6675)
- R11.2          15.8000  6.5000 XY             (-2900,6400)
- R12.2                          XY             (-1575,4125)
- R17.2                          XY             (-1575,3625)
- R18.2                          XY             (-1400,4300)
- R19.2                          XY             (-1400,3800)
- U1.25           7.3000 -20.600 XY             (-3250,4950)
+                                 J2.A20                         
+                                 J2.A21                         
+                                 J2.A24                         
+                                 J2.A25                         
+                                 J2.A28                         
+                                 J2.A29                         
+                                 J2.A32                         
+                                 J2.A33                         
+                                 J2.A36                         
+                                 J2.A37                         
+                                 J2.A40                         
+                                 J2.B2                          
+                                 J2.B3                          
+                                 J2.B6                          
+                                 J2.B7                          
+                                 J2.B10                         
+                                 J2.B11                         
+                                 J2.B14                         
+                                 J2.B15                         
+                                 J2.B18                         
+                                 J2.B19                         
+                                 J2.B22                         
+                                 J2.B23                         
+                                 J2.B26                         
+                                 J2.B27                         
+                                 J2.B30                         
+                                 J2.B31                         
+                                 J2.B34                         
+                                 J2.B35                         
+                                 J2.B38                         
+                                 J2.B39                         
+                                 J2.C1                          
+                                 J2.C4                          
+                                 J2.C5                          
+                                 J2.C8                          
+                                 J2.C9                          
+                                 J2.C12                         
+                                 J2.C13                         
+                                 J2.C16                         
+                                 J2.C17                         
+                                 J2.C20                         
+                                 J2.C21                         
+                                 J2.C24                         
+                                 J2.C25                         
+                                 J2.C28                         
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   7  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 10:24:17 2024  |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.C29                         
+                                 J2.C32                         
+                                 J2.C33                         
+                                 J2.C36                         
+                                 J2.C38                         
+                                 J2.C40                         
+                                 J2.D2                          
+                                 J2.D3                          
+                                 J2.D6                          
+                                 J2.D7                          
+                                 J2.D10                         
+                                 J2.D13                         
+                                 J2.D16                         
+                                 J2.D19                         
+                                 J2.D22                         
+                                 J2.D25                         
+                                 J2.D28                         
+                                 J2.D37                         
+                                 J2.D39                         
+                                 J2.E1                          
+                                 J2.E4                          
+                                 J2.E5                          
+                                 J2.E8                          
+                                 J2.E11                         
+                                 J2.E14                         
+                                 J2.E17                         
+                                 J2.E20                         
+                                 J2.E23                         
+                                 J2.E26                         
+                                 J2.E29                         
+                                 J2.E32                         
+                                 J2.E35                         
+                                 J2.E38                         
+                                 J2.E40                         
+                                 J2.F2                          
+                                 J2.F3                          
+                                 J2.F6                          
+                                 J2.F9                          
+                                 J2.F12                         
+                                 J2.F15                         
+                                 J2.F18                         
+                                 J2.F21                         
+                                 J2.F24                         
+                                 J2.F27                         
+                                 J2.F30                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.F33                         
+                                 J2.F36                         
+                                 J2.F39                         
+                                 J2.G1                          
+                                 J2.G4                          
+                                 J2.G5                          
+                                 J2.G8                          
+                                 J2.G11                         
+                                 J2.G14                         
+                                 J2.G17                         
+                                 J2.G20                         
+                                 J2.G23                         
+                                 J2.G26                         
+                                 J2.G29                         
+                                 J2.G32                         
+                                 J2.G35                         
+                                 J2.G38                         
+                                 J2.G40                         
+                                 J2.H3                          
+                                 J2.H6                          
+                                 J2.H9                          
+                                 J2.H12                         
+                                 J2.H15                         
+                                 J2.H18                         
+                                 J2.H21                         
+                                 J2.H24                         
+                                 J2.H27                         
+                                 J2.H30                         
+                                 J2.H33                         
+                                 J2.H36                         
+                                 J2.H39                         
+                                 J2.J1                          
+                                 J2.J4                          
+                                 J2.J5                          
+                                 J2.J8                          
+                                 J2.J11                         
+                                 J2.J14                         
+                                 J2.J17                         
+                                 J2.J20                         
+                                 J2.J23                         
+                                 J2.J26                         
+                                 J2.J29                         
+                                 J2.J32                         
+                                 J2.J35                         
+                                 J2.J38                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.J40                         
+                                 J2.K2                          
+                                 J2.K3                          
+                                 J2.K6                          
+                                 J2.K9                          
+                                 J2.K12                         
+                                 J2.K15                         
+                                 J2.K18                         
+                                 J2.K21                         
+                                 J2.K24                         
+                                 J2.K27                         
+                                 J2.K30                         
+                                 J2.K33                         
+                                 J2.K36                         
+                                 J2.K39                         
+                                 R14.1                          
+                                 R15.1                          
+                                 R16.1                          
+                                 R20.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<0>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<1>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<2>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K8                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<3>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<4>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F8                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<5>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<6>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<7>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<8>      pins ADDED TO this existing net (pins not previously on any net)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.F11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<9>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<10>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<11>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J13                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<12>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<13>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E13                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<14>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<15>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<16>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<17>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<18>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<19>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<20>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<21>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<22>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J22                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_N<23>     pins ADDED TO this existing net (pins not previously on any net)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.K23                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<0>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<1>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<2>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<3>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<4>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<5>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<6>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<7>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<8>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<9>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<10>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K13                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<11>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J12                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<12>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F13                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<13>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E12                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<14>     pins ADDED TO this existing net (pins not previously on any net)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.J15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<15>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<16>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<17>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<18>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<19>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<20>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<21>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<22>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HA_P<23>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K22                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<0>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K26                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<1>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J25                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<2>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F23                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<3>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E22                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<4>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F26                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<5>      pins ADDED TO this existing net (pins not previously on any net)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.E25                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<6>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K29                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<7>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J28                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<8>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F29                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<9>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E28                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<10>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K32                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<11>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J31                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<12>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F32                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<13>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E31                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<14>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K35                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<15>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J34                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<16>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F35                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<17>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K38                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<18>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J37                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<19>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E34                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<20>     pins ADDED TO this existing net (pins not previously on any net)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.F38                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_N<21>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E37                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<0>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K25                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<1>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J24                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<2>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F22                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<3>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<4>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F25                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<5>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E24                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<6>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K28                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<7>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J27                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<8>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F28                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<9>      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E27                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<10>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K31                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<11>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J30                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<12>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F31                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<13>     pins ADDED TO this existing net (pins not previously on any net)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.E30                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<14>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K34                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<15>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J33                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<16>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F34                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<17>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K37                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<18>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J36                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<19>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E33                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<20>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F37                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HB_P<21>     pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E36                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C_SCL_CVCC pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C30                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C_SDA_CVCC pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C31                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P3V3AUX      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D32                         
+                                 R21.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P3V3         pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C39                         
+                                 J2.D36                         
+                                 J2.D38                         
+                                 J2.D40                         
+                                 R13.1                          
+                                 R21.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P12V         pins ADDED TO this existing net (pins not previously on any net)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  16  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.C35                         
+                                 J2.C37                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PGOOD_C2M    pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PG_M2C       pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.F1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PRSNT_L      pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H2                          
+                                 R15.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_N<0> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_N<1> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H32                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_N<2> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H35                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_N<3> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G13                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_N<4> pins ADDED TO this new net
+                                 J2.G7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_N<5> pins ADDED TO this new net
+                                 J2.C27                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_N<7> pins ADDED TO this new net
+                                 J2.D12                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_P<0> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_P<1> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H31                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_P<2> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H34                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_P<3> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G12                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  RD_FPGA_P<4> pins ADDED TO this new net
+                                 J2.G6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_P<5> pins ADDED TO this new net
+                                 J2.C26                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_P<6> pins ADDED TO this new net
+                                 J2.D8                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_P<7> pins ADDED TO this new net
+                                 J2.D11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  REC_CLK_FPGA_N pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  REC_CLK_FPGA_P pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RST_I2C_B_CVCC pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SCL_CVCC<0> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SCL_CVCC<1> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SCL_CVCC<2> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SCL_CVCC<3> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G34                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SCL_CVCC<4> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SCL_CVCC<5> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SCL_CVCC<6> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C23                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SCL_CVCC<7> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G37                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  18  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SFP_I2C_SDA_CVCC<0> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SDA_CVCC<1> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SDA_CVCC<2> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SDA_CVCC<3> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G33                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SDA_CVCC<4> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SDA_CVCC<5> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SDA_CVCC<6> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.C22                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_I2C_SDA_CVCC<7> pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.G36                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TCK          pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D29                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TDI          pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D30                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TDO          pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D31                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_N<0>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H8                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_N<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H11                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_N<2>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_N<3>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  19  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  TD_FFD_N<4>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_N<5>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H23                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_N<6>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H26                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_N<7>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H29                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_P<0>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_P<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_P<2>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H13                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_P<3>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_P<4>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_P<5>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H22                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_P<6>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H25                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TD_FFD_P<7>  pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H28                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TMS          pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D33                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRST_L       pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.D34                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_FMCHPCGENERIC_I62_GA0 pins ADDED TO this new net
+                                 J2.C34                         
+                                 R16.2                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  20  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  UNNAMED_4_FMCHPCGENERIC_I62_GA1 pins ADDED TO this new net
+                                 J2.D35                         
+                                 R20.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VADJ         pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.E39                         
+                                 J2.F40                         
+                                 J2.G39                         
+                                 J2.H40                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VIO_B_M2C    pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.J39                         
+                                 J2.K40                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VREF_A_M2C   pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.H1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VREF_B_M2C   pins ADDED TO this existing net (pins not previously on any net)
+                                 J2.K1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  21  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C55                 CAPCERSMDCL2_0402-1UF,10V 52.8000  5.0000
+ C56                 CAPCERSMDCL2_0402-1UF,10V 52.8000  6.0000
+ C57                 CAPCERSMDCL2_0402-100NF_X7R,16V 56.6000  7.6000
+ C58                 CAPCERSMDCL2_0402-470NF,6.3V_GA 61.0000  0.5000
+ C110                CAPCERSMDCL2_0402-100NF_X7R,16V 75.6000  8.4000
+ C111                CAPCERSMDCL2_0805-10UF,10V_GEN 79.0000  8.0000
+ C117                CAPCERSMDCL2_0402-100NF_X7R,16V 73.6000 12.2000
+ IC8                 854S058AGILF-VDD=P3V3 45.8000  5.6000
+ IC9                 ADN2814ACPZ-VCC=P3V3,VEE=GND 60.4000  5.5000
+ IC13                SY58608UMG-VCC=P2V5   76.8000 11.2000
+ J3                  CON400P_40ABCDEFGHJK_VITA571-AA 101.490 -2.0000
+ R30                 RSMD0402_0.0625W-XX,1% 78.6000  2.7000
+ R33                 RSMD0603_1/10W-10K,1% 71.4000 -3.9000
+ R58                 RSMD0603_1/10W-XX,1%  71.4000 -5.8000
+ R66                 RSMD0402_0.0625W-XX,1% 117.900 -2.4000
+ R74                 RSMD0402_1/16W-100,1% 40.0000  1.6000
+ R75                 RSMD0402_1/16W-100,1% 40.0000  3.5000
+ R76                 RSMD0402_1/16W-100,1% 40.0000  7.6000
+ R77                 RSMD0402_1/16W-100,1% 40.0000  9.5000
+ R78                 RSMD0402_1/16W-100,1% 51.2000  9.5000
+ R79                 RSMD0402_1/16W-100,1% 51.2000  7.6000
+ R80                 RSMD0402_1/16W-100,1% 51.2000  3.5000
+ R81                 RSMD0402_1/16W-100,1% 51.2000  1.6000
+ R82                 RSMD0402_1/16W-0R0,1% 65.2000  4.7000
+ R83                 RSMD0402_0.0625W-XX,1% 65.2000  3.6000
+ R84                 RSMD0402_1/16W-0R0,1% 58.4000  0.5000
+ R85                 RSMD0402_1/16W-0R0,1% 59.5000  0.5000
+ R86                 RSMD0402_1/16W-0R0,1% 55.1000  0.5000
+ R87                 RSMD0402_1/16W-0R0,1% 56.2000  0.5000
+ R88                 RSMD0402_1/16W-0R0,1% 57.3000  0.5000
+ R89                 RSMD0402_0.0625W-XX,1% 65.2000  6.8000
+ R90                 RSMD0402_1/16W-0R0,1% 61.9000 10.5000
+ R91                 RSMD0402_1/16W-0R0,1% 63.0000  0.5000
+ R92                 RSMD0402_0.0625W-XX,1% 60.3000 10.1000
+ R96                 RSMD0402_-00,         73.6000 10.2000
+ R97                 RSMD0402_0.0625W-XX,1% 80.2000 12.3000
+ R98                 RSMD0402_0.0625W-XX,1% 80.2000 10.1000
+ R184                RSMD0402_1/16W-0R0,1% 119.300 -7.0000
+ R185                RSMD0402_1/16W-0R0,1% 120.500 -2.4000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  22  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2                  CON400P_40ABCDEFGHJK_VITA571-AA 
+ R13                 RSMD0603_1/10W-10K,1% 
+ R14                 RSMD0603_1/10W-XX,1%  
+ R15                 RSMD0402_0.0625W-XX,1% 
+ R16                 RSMD0402_1/16W-0R0,1% 
+ R20                 RSMD0402_1/16W-0R0,1% 
+ R21                 RSMD0402_0.0625W-XX,1% 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  23  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.A9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.A9                          TYPE           ASP-134488-01
+ J2.A9                          XY             (425,1425)
+ J2.B9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.B9                          TYPE           ASP-134488-01
+ J2.B9                          XY             (2900,1425)
+ J2.C9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.C9                          TYPE           ASP-134488-01
+ J2.C9                          XY             (-2500,1950)
+ J2.D9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.D9                          TYPE           ASP-134488-01
+ J2.D9                          XY             (-550,1950)
+ J2.E9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.E9                          TYPE           ASP-134488-01
+ J2.E9                          XY             (-2950,2475)
+ J2.F9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.F9                          TYPE           ASP-134488-01
+ J2.F9                          XY             (-975,2475)
+ J2.G9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.G9                          TYPE           ASP-134488-01
+ J2.G9                          XY             (1400,1950)
+ J2.H9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.H9                          TYPE           ASP-134488-01
+ J2.H9                          XY             (3350,1950)
+ J2.J9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.J9                          TYPE           ASP-134488-01
+ J2.J9                          XY             (1000,2475)
+ J2.K9                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
+ J2.K9                          TYPE           ASP-134488-01
+ J2.K9                          XY             (2975,2475)
+ R13.2                          DIST           FLAT
+ R13.2                          MAX_TEMP       RTMAX
+ R13.2                          NEGTOL         RTOL%
+ R13.2                          POSTOL         RTOL%
+ R13.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0603/chips/chips.prt
+ R13.2                          SIZE           1
+ R13.2                          SLOPE          RSMAX
+ R13.2                          TC1            RTMPL
+ R13.2                          TC2            RTMPQ
+ R13.2                          TOL_ON_OFF     ON
+ R13.2                          XY             (3625,2225)
+ R14.2                          DIST           FLAT
+ R14.2                          MAX_TEMP       RTMAX
+ R14.2                          NEGTOL         RTOL%
+ R14.2                          POSTOL         RTOL%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  24  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R14.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0603/chips/chips.prt
+ R14.2                          SIZE           1
+ R14.2                          SLOPE          RSMAX
+ R14.2                          TC1            RTMPL
+ R14.2                          TC2            RTMPQ
+ R14.2                          TOL_ON_OFF     ON
+ R14.2                          XY             (3625,2125)
+ R15.2                          DIST           FLAT
+ R15.2                          MAX_TEMP       RTMAX
+ R15.2                          NEGTOL         RTOL%
+ R15.2                          POSTOL         RTOL%
+ R15.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R15.2                          SIZE           1
+ R15.2                          SLOPE          RSMAX
+ R15.2                          TC1            RTMPL
+ R15.2                          TC2            RTMPQ
+ R15.2                          TOL_ON_OFF     ON
+ R15.2                          XY             (3650,1850)
+ R16.2                          DIST           FLAT
+ R16.2                          MAX_TEMP       RTMAX
+ R16.2                          NEGTOL         RTOL%
+ R16.2                          POSTOL         RTOL%
+ R16.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R16.2                          SIZE           1
+ R16.2                          SLOPE          RSMAX
+ R16.2                          TC1            RTMPL
+ R16.2                          TC2            RTMPQ
+ R16.2                          TOL_ON_OFF     ON
+ R16.2                          XY             (5800,1475)
+ R20.2                          DIST           FLAT
+ R20.2                          MAX_TEMP       RTMAX
+ R20.2                          NEGTOL         RTOL%
+ R20.2                          POSTOL         RTOL%
+ R20.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R20.2                          SIZE           1
+ R20.2                          SLOPE          RSMAX
+ R20.2                          TC1            RTMPL
+ R20.2                          TC2            RTMPQ
+ R20.2                          TOL_ON_OFF     ON
+ R20.2                          XY             (5900,1475)
+ R21.2                          DIST           FLAT
+ R21.2                          MAX_TEMP       RTMAX
+ R21.2                          NEGTOL         RTOL%
+ R21.2                          POSTOL         RTOL%
+ R21.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  25  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R21.2                          SIZE           1
+ R21.2                          SLOPE          RSMAX
+ R21.2                          TC1            RTMPL
+ R21.2                          TC2            RTMPQ
+ R21.2                          TOL_ON_OFF     ON
+ R21.2                          XY             (525,1200)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  26  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C16.1          23.4000 -0.5500 CDS_PINID      A(0)
- C16.2          23.4000 -1.4500 CDS_PINID      B(0)
+ J2.A1                          CDS_PINID      A(1)
+ J2.A2                          CDS_PINID      A(2)
+ J2.A3                          CDS_PINID      A(3)
+ J2.A4                          CDS_PINID      A(4)
+ J2.A5                          CDS_PINID      A(5)
+ J2.A6                          CDS_PINID      A(6)
+ J2.A7                          CDS_PINID      A(7)
+ J2.A8                          CDS_PINID      A(8)
+ J2.A9                          CDS_PINID      A(9)
+ J2.A10                         CDS_PINID      A(10)
+ J2.A11                         CDS_PINID      A(11)
+ J2.A12                         CDS_PINID      A(12)
+ J2.A13                         CDS_PINID      A(13)
+ J2.A14                         CDS_PINID      A(14)
+ J2.A15                         CDS_PINID      A(15)
+ J2.A16                         CDS_PINID      A(16)
+ J2.A17                         CDS_PINID      A(17)
+ J2.A18                         CDS_PINID      A(18)
+ J2.A19                         CDS_PINID      A(19)
+ J2.A20                         CDS_PINID      A(20)
+ J2.A21                         CDS_PINID      A(21)
+ J2.A22                         CDS_PINID      A(22)
+ J2.A23                         CDS_PINID      A(23)
+ J2.A24                         CDS_PINID      A(24)
+ J2.A25                         CDS_PINID      A(25)
+ J2.A26                         CDS_PINID      A(26)
+ J2.A27                         CDS_PINID      A(27)
+ J2.A28                         CDS_PINID      A(28)
+ J2.A29                         CDS_PINID      A(29)
+ J2.A30                         CDS_PINID      A(30)
+ J2.A31                         CDS_PINID      A(31)
+ J2.A32                         CDS_PINID      A(32)
+ J2.A33                         CDS_PINID      A(33)
+ J2.A34                         CDS_PINID      A(34)
+ J2.A35                         CDS_PINID      A(35)
+ J2.A36                         CDS_PINID      A(36)
+ J2.A37                         CDS_PINID      A(37)
+ J2.A38                         CDS_PINID      A(38)
+ J2.A39                         CDS_PINID      A(39)
+ J2.A40                         CDS_PINID      A(40)
+ J2.B1                          CDS_PINID      B(1)
+ J2.B2                          CDS_PINID      B(2)
+ J2.B3                          CDS_PINID      B(3)
+ J2.B4                          CDS_PINID      B(4)
+ J2.B5                          CDS_PINID      B(5)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  27  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :      33                                        |
-|       Components deleted    :      17                                        |
-|       Components changed    :       2                                        |
-|       Pin property added    :       2                                        |
-|       Slot property added   :      38                                        |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.B6                          CDS_PINID      B(6)
+ J2.B7                          CDS_PINID      B(7)
+ J2.B8                          CDS_PINID      B(8)
+ J2.B9                          CDS_PINID      B(9)
+ J2.B10                         CDS_PINID      B(10)
+ J2.B11                         CDS_PINID      B(11)
+ J2.B12                         CDS_PINID      B(12)
+ J2.B13                         CDS_PINID      B(13)
+ J2.B14                         CDS_PINID      B(14)
+ J2.B15                         CDS_PINID      B(15)
+ J2.B16                         CDS_PINID      B(16)
+ J2.B17                         CDS_PINID      B(17)
+ J2.B18                         CDS_PINID      B(18)
+ J2.B19                         CDS_PINID      B(19)
+ J2.B20                         CDS_PINID      B(20)
+ J2.B21                         CDS_PINID      B(21)
+ J2.B22                         CDS_PINID      B(22)
+ J2.B23                         CDS_PINID      B(23)
+ J2.B24                         CDS_PINID      B(24)
+ J2.B25                         CDS_PINID      B(25)
+ J2.B26                         CDS_PINID      B(26)
+ J2.B27                         CDS_PINID      B(27)
+ J2.B28                         CDS_PINID      B(28)
+ J2.B29                         CDS_PINID      B(29)
+ J2.B30                         CDS_PINID      B(30)
+ J2.B31                         CDS_PINID      B(31)
+ J2.B32                         CDS_PINID      B(32)
+ J2.B33                         CDS_PINID      B(33)
+ J2.B34                         CDS_PINID      B(34)
+ J2.B35                         CDS_PINID      B(35)
+ J2.B36                         CDS_PINID      B(36)
+ J2.B37                         CDS_PINID      B(37)
+ J2.B38                         CDS_PINID      B(38)
+ J2.B39                         CDS_PINID      B(39)
+ J2.B40                         CDS_PINID      B(40)
+ J2.C1                          CDS_PINID      C(1)
+ J2.C2                          CDS_PINID      C(2)
+ J2.C3                          CDS_PINID      C(3)
+ J2.C4                          CDS_PINID      C(4)
+ J2.C5                          CDS_PINID      C(5)
+ J2.C6                          CDS_PINID      C(6)
+ J2.C7                          CDS_PINID      C(7)
+ J2.C8                          CDS_PINID      C(8)
+ J2.C9                          CDS_PINID      C(9)
+ J2.C10                         CDS_PINID      C(10)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  28  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.C11                         CDS_PINID      C(11)
+ J2.C12                         CDS_PINID      C(12)
+ J2.C13                         CDS_PINID      C(13)
+ J2.C14                         CDS_PINID      C(14)
+ J2.C15                         CDS_PINID      C(15)
+ J2.C16                         CDS_PINID      C(16)
+ J2.C17                         CDS_PINID      C(17)
+ J2.C18                         CDS_PINID      C(18)
+ J2.C19                         CDS_PINID      C(19)
+ J2.C20                         CDS_PINID      C(20)
+ J2.C21                         CDS_PINID      C(21)
+ J2.C22                         CDS_PINID      C(22)
+ J2.C23                         CDS_PINID      C(23)
+ J2.C24                         CDS_PINID      C(24)
+ J2.C25                         CDS_PINID      C(25)
+ J2.C26                         CDS_PINID      C(26)
+ J2.C27                         CDS_PINID      C(27)
+ J2.C28                         CDS_PINID      C(28)
+ J2.C29                         CDS_PINID      C(29)
+ J2.C30                         CDS_PINID      C(30)
+ J2.C31                         CDS_PINID      C(31)
+ J2.C32                         CDS_PINID      C(32)
+ J2.C33                         CDS_PINID      C(33)
+ J2.C34                         CDS_PINID      C(34)
+ J2.C35                         CDS_PINID      C(35)
+ J2.C36                         CDS_PINID      C(36)
+ J2.C37                         CDS_PINID      C(37)
+ J2.C38                         CDS_PINID      C(38)
+ J2.C39                         CDS_PINID      C(39)
+ J2.C40                         CDS_PINID      C(40)
+ J2.D1                          CDS_PINID      D(1)
+ J2.D2                          CDS_PINID      D(2)
+ J2.D3                          CDS_PINID      D(3)
+ J2.D4                          CDS_PINID      D(4)
+ J2.D5                          CDS_PINID      D(5)
+ J2.D6                          CDS_PINID      D(6)
+ J2.D7                          CDS_PINID      D(7)
+ J2.D8                          CDS_PINID      D(8)
+ J2.D9                          CDS_PINID      D(9)
+ J2.D10                         CDS_PINID      D(10)
+ J2.D11                         CDS_PINID      D(11)
+ J2.D12                         CDS_PINID      D(12)
+ J2.D13                         CDS_PINID      D(13)
+ J2.D14                         CDS_PINID      D(14)
+ J2.D15                         CDS_PINID      D(15)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  29  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.D16                         CDS_PINID      D(16)
+ J2.D17                         CDS_PINID      D(17)
+ J2.D18                         CDS_PINID      D(18)
+ J2.D19                         CDS_PINID      D(19)
+ J2.D20                         CDS_PINID      D(20)
+ J2.D21                         CDS_PINID      D(21)
+ J2.D22                         CDS_PINID      D(22)
+ J2.D23                         CDS_PINID      D(23)
+ J2.D24                         CDS_PINID      D(24)
+ J2.D25                         CDS_PINID      D(25)
+ J2.D26                         CDS_PINID      D(26)
+ J2.D27                         CDS_PINID      D(27)
+ J2.D28                         CDS_PINID      D(28)
+ J2.D29                         CDS_PINID      D(29)
+ J2.D30                         CDS_PINID      D(30)
+ J2.D31                         CDS_PINID      D(31)
+ J2.D32                         CDS_PINID      D(32)
+ J2.D33                         CDS_PINID      D(33)
+ J2.D34                         CDS_PINID      D(34)
+ J2.D35                         CDS_PINID      D(35)
+ J2.D36                         CDS_PINID      D(36)
+ J2.D37                         CDS_PINID      D(37)
+ J2.D38                         CDS_PINID      D(38)
+ J2.D39                         CDS_PINID      D(39)
+ J2.D40                         CDS_PINID      D(40)
+ J2.E1                          CDS_PINID      E(1)
+ J2.E2                          CDS_PINID      E(2)
+ J2.E3                          CDS_PINID      E(3)
+ J2.E4                          CDS_PINID      E(4)
+ J2.E5                          CDS_PINID      E(5)
+ J2.E6                          CDS_PINID      E(6)
+ J2.E7                          CDS_PINID      E(7)
+ J2.E8                          CDS_PINID      E(8)
+ J2.E9                          CDS_PINID      E(9)
+ J2.E10                         CDS_PINID      E(10)
+ J2.E11                         CDS_PINID      E(11)
+ J2.E12                         CDS_PINID      E(12)
+ J2.E13                         CDS_PINID      E(13)
+ J2.E14                         CDS_PINID      E(14)
+ J2.E15                         CDS_PINID      E(15)
+ J2.E16                         CDS_PINID      E(16)
+ J2.E17                         CDS_PINID      E(17)
+ J2.E18                         CDS_PINID      E(18)
+ J2.E19                         CDS_PINID      E(19)
+ J2.E20                         CDS_PINID      E(20)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  30  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.E21                         CDS_PINID      E(21)
+ J2.E22                         CDS_PINID      E(22)
+ J2.E23                         CDS_PINID      E(23)
+ J2.E24                         CDS_PINID      E(24)
+ J2.E25                         CDS_PINID      E(25)
+ J2.E26                         CDS_PINID      E(26)
+ J2.E27                         CDS_PINID      E(27)
+ J2.E28                         CDS_PINID      E(28)
+ J2.E29                         CDS_PINID      E(29)
+ J2.E30                         CDS_PINID      E(30)
+ J2.E31                         CDS_PINID      E(31)
+ J2.E32                         CDS_PINID      E(32)
+ J2.E33                         CDS_PINID      E(33)
+ J2.E34                         CDS_PINID      E(34)
+ J2.E35                         CDS_PINID      E(35)
+ J2.E36                         CDS_PINID      E(36)
+ J2.E37                         CDS_PINID      E(37)
+ J2.E38                         CDS_PINID      E(38)
+ J2.E39                         CDS_PINID      E(39)
+ J2.E40                         CDS_PINID      E(40)
+ J2.F1                          CDS_PINID      F(1)
+ J2.F2                          CDS_PINID      F(2)
+ J2.F3                          CDS_PINID      F(3)
+ J2.F4                          CDS_PINID      F(4)
+ J2.F5                          CDS_PINID      F(5)
+ J2.F6                          CDS_PINID      F(6)
+ J2.F7                          CDS_PINID      F(7)
+ J2.F8                          CDS_PINID      F(8)
+ J2.F9                          CDS_PINID      F(9)
+ J2.F10                         CDS_PINID      F(10)
+ J2.F11                         CDS_PINID      F(11)
+ J2.F12                         CDS_PINID      F(12)
+ J2.F13                         CDS_PINID      F(13)
+ J2.F14                         CDS_PINID      F(14)
+ J2.F15                         CDS_PINID      F(15)
+ J2.F16                         CDS_PINID      F(16)
+ J2.F17                         CDS_PINID      F(17)
+ J2.F18                         CDS_PINID      F(18)
+ J2.F19                         CDS_PINID      F(19)
+ J2.F20                         CDS_PINID      F(20)
+ J2.F21                         CDS_PINID      F(21)
+ J2.F22                         CDS_PINID      F(22)
+ J2.F23                         CDS_PINID      F(23)
+ J2.F24                         CDS_PINID      F(24)
+ J2.F25                         CDS_PINID      F(25)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  31  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.F26                         CDS_PINID      F(26)
+ J2.F27                         CDS_PINID      F(27)
+ J2.F28                         CDS_PINID      F(28)
+ J2.F29                         CDS_PINID      F(29)
+ J2.F30                         CDS_PINID      F(30)
+ J2.F31                         CDS_PINID      F(31)
+ J2.F32                         CDS_PINID      F(32)
+ J2.F33                         CDS_PINID      F(33)
+ J2.F34                         CDS_PINID      F(34)
+ J2.F35                         CDS_PINID      F(35)
+ J2.F36                         CDS_PINID      F(36)
+ J2.F37                         CDS_PINID      F(37)
+ J2.F38                         CDS_PINID      F(38)
+ J2.F39                         CDS_PINID      F(39)
+ J2.F40                         CDS_PINID      F(40)
+ J2.G1                          CDS_PINID      G(1)
+ J2.G2                          CDS_PINID      G(2)
+ J2.G3                          CDS_PINID      G(3)
+ J2.G4                          CDS_PINID      G(4)
+ J2.G5                          CDS_PINID      G(5)
+ J2.G6                          CDS_PINID      G(6)
+ J2.G7                          CDS_PINID      G(7)
+ J2.G8                          CDS_PINID      G(8)
+ J2.G9                          CDS_PINID      G(9)
+ J2.G10                         CDS_PINID      G(10)
+ J2.G11                         CDS_PINID      G(11)
+ J2.G12                         CDS_PINID      G(12)
+ J2.G13                         CDS_PINID      G(13)
+ J2.G14                         CDS_PINID      G(14)
+ J2.G15                         CDS_PINID      G(15)
+ J2.G16                         CDS_PINID      G(16)
+ J2.G17                         CDS_PINID      G(17)
+ J2.G18                         CDS_PINID      G(18)
+ J2.G19                         CDS_PINID      G(19)
+ J2.G20                         CDS_PINID      G(20)
+ J2.G21                         CDS_PINID      G(21)
+ J2.G22                         CDS_PINID      G(22)
+ J2.G23                         CDS_PINID      G(23)
+ J2.G24                         CDS_PINID      G(24)
+ J2.G25                         CDS_PINID      G(25)
+ J2.G26                         CDS_PINID      G(26)
+ J2.G27                         CDS_PINID      G(27)
+ J2.G28                         CDS_PINID      G(28)
+ J2.G29                         CDS_PINID      G(29)
+ J2.G30                         CDS_PINID      G(30)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  32  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.G31                         CDS_PINID      G(31)
+ J2.G32                         CDS_PINID      G(32)
+ J2.G33                         CDS_PINID      G(33)
+ J2.G34                         CDS_PINID      G(34)
+ J2.G35                         CDS_PINID      G(35)
+ J2.G36                         CDS_PINID      G(36)
+ J2.G37                         CDS_PINID      G(37)
+ J2.G38                         CDS_PINID      G(38)
+ J2.G39                         CDS_PINID      G(39)
+ J2.G40                         CDS_PINID      G(40)
+ J2.H1                          CDS_PINID      H(1)
+ J2.H2                          CDS_PINID      H(2)
+ J2.H3                          CDS_PINID      H(3)
+ J2.H4                          CDS_PINID      H(4)
+ J2.H5                          CDS_PINID      H(5)
+ J2.H6                          CDS_PINID      H(6)
+ J2.H7                          CDS_PINID      H(7)
+ J2.H8                          CDS_PINID      H(8)
+ J2.H9                          CDS_PINID      H(9)
+ J2.H10                         CDS_PINID      H(10)
+ J2.H11                         CDS_PINID      H(11)
+ J2.H12                         CDS_PINID      H(12)
+ J2.H13                         CDS_PINID      H(13)
+ J2.H14                         CDS_PINID      H(14)
+ J2.H15                         CDS_PINID      H(15)
+ J2.H16                         CDS_PINID      H(16)
+ J2.H17                         CDS_PINID      H(17)
+ J2.H18                         CDS_PINID      H(18)
+ J2.H19                         CDS_PINID      H(19)
+ J2.H20                         CDS_PINID      H(20)
+ J2.H21                         CDS_PINID      H(21)
+ J2.H22                         CDS_PINID      H(22)
+ J2.H23                         CDS_PINID      H(23)
+ J2.H24                         CDS_PINID      H(24)
+ J2.H25                         CDS_PINID      H(25)
+ J2.H26                         CDS_PINID      H(26)
+ J2.H27                         CDS_PINID      H(27)
+ J2.H28                         CDS_PINID      H(28)
+ J2.H29                         CDS_PINID      H(29)
+ J2.H30                         CDS_PINID      H(30)
+ J2.H31                         CDS_PINID      H(31)
+ J2.H32                         CDS_PINID      H(32)
+ J2.H33                         CDS_PINID      H(33)
+ J2.H34                         CDS_PINID      H(34)
+ J2.H35                         CDS_PINID      H(35)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  33  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.H36                         CDS_PINID      H(36)
+ J2.H37                         CDS_PINID      H(37)
+ J2.H38                         CDS_PINID      H(38)
+ J2.H39                         CDS_PINID      H(39)
+ J2.H40                         CDS_PINID      H(40)
+ J2.J1                          CDS_PINID      J(1)
+ J2.J2                          CDS_PINID      J(2)
+ J2.J3                          CDS_PINID      J(3)
+ J2.J4                          CDS_PINID      J(4)
+ J2.J5                          CDS_PINID      J(5)
+ J2.J6                          CDS_PINID      J(6)
+ J2.J7                          CDS_PINID      J(7)
+ J2.J8                          CDS_PINID      J(8)
+ J2.J9                          CDS_PINID      J(9)
+ J2.J10                         CDS_PINID      J(10)
+ J2.J11                         CDS_PINID      J(11)
+ J2.J12                         CDS_PINID      J(12)
+ J2.J13                         CDS_PINID      J(13)
+ J2.J14                         CDS_PINID      J(14)
+ J2.J15                         CDS_PINID      J(15)
+ J2.J16                         CDS_PINID      J(16)
+ J2.J17                         CDS_PINID      J(17)
+ J2.J18                         CDS_PINID      J(18)
+ J2.J19                         CDS_PINID      J(19)
+ J2.J20                         CDS_PINID      J(20)
+ J2.J21                         CDS_PINID      J(21)
+ J2.J22                         CDS_PINID      J(22)
+ J2.J23                         CDS_PINID      J(23)
+ J2.J24                         CDS_PINID      J(24)
+ J2.J25                         CDS_PINID      J(25)
+ J2.J26                         CDS_PINID      J(26)
+ J2.J27                         CDS_PINID      J(27)
+ J2.J28                         CDS_PINID      J(28)
+ J2.J29                         CDS_PINID      J(29)
+ J2.J30                         CDS_PINID      J(30)
+ J2.J31                         CDS_PINID      J(31)
+ J2.J32                         CDS_PINID      J(32)
+ J2.J33                         CDS_PINID      J(33)
+ J2.J34                         CDS_PINID      J(34)
+ J2.J35                         CDS_PINID      J(35)
+ J2.J36                         CDS_PINID      J(36)
+ J2.J37                         CDS_PINID      J(37)
+ J2.J38                         CDS_PINID      J(38)
+ J2.J39                         CDS_PINID      J(39)
+ J2.J40                         CDS_PINID      J(40)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  34  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.K1                          CDS_PINID      K(1)
+ J2.K2                          CDS_PINID      K(2)
+ J2.K3                          CDS_PINID      K(3)
+ J2.K4                          CDS_PINID      K(4)
+ J2.K5                          CDS_PINID      K(5)
+ J2.K6                          CDS_PINID      K(6)
+ J2.K7                          CDS_PINID      K(7)
+ J2.K8                          CDS_PINID      K(8)
+ J2.K9                          CDS_PINID      K(9)
+ J2.K10                         CDS_PINID      K(10)
+ J2.K11                         CDS_PINID      K(11)
+ J2.K12                         CDS_PINID      K(12)
+ J2.K13                         CDS_PINID      K(13)
+ J2.K14                         CDS_PINID      K(14)
+ J2.K15                         CDS_PINID      K(15)
+ J2.K16                         CDS_PINID      K(16)
+ J2.K17                         CDS_PINID      K(17)
+ J2.K18                         CDS_PINID      K(18)
+ J2.K19                         CDS_PINID      K(19)
+ J2.K20                         CDS_PINID      K(20)
+ J2.K21                         CDS_PINID      K(21)
+ J2.K22                         CDS_PINID      K(22)
+ J2.K23                         CDS_PINID      K(23)
+ J2.K24                         CDS_PINID      K(24)
+ J2.K25                         CDS_PINID      K(25)
+ J2.K26                         CDS_PINID      K(26)
+ J2.K27                         CDS_PINID      K(27)
+ J2.K28                         CDS_PINID      K(28)
+ J2.K29                         CDS_PINID      K(29)
+ J2.K30                         CDS_PINID      K(30)
+ J2.K31                         CDS_PINID      K(31)
+ J2.K32                         CDS_PINID      K(32)
+ J2.K33                         CDS_PINID      K(33)
+ J2.K34                         CDS_PINID      K(34)
+ J2.K35                         CDS_PINID      K(35)
+ J2.K36                         CDS_PINID      K(36)
+ J2.K37                         CDS_PINID      K(37)
+ J2.K38                         CDS_PINID      K(38)
+ J2.K39                         CDS_PINID      K(39)
+ J2.K40                         CDS_PINID      K(40)
+ R13.1                          CDS_PINID      A(0)
+ R13.2                          CDS_PINID      B(0)
+ R14.1                          CDS_PINID      A(0)
+ R14.2                          CDS_PINID      B(0)
+ R15.1                          CDS_PINID      A(0)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  35  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 11:29:21 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R15.2                          CDS_PINID      B(0)
+ R16.1                          CDS_PINID      A(0)
+ R16.2                          CDS_PINID      B(0)
+ R20.1                          CDS_PINID      A(0)
+ R20.2                          CDS_PINID      B(0)
+ R21.1                          CDS_PINID      A(0)
+ R21.2                          CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|       Nets changed          :     411                                        |
+|       Components added      :       7                                        |
+|       Components deleted    :      39                                        |
+|       Pin property added    :     412                                        |
+|       Slot property added   :      96                                        |
 |                                                                              |
-|   Total ECO changes reported:      92                                        |
+|   Total ECO changes reported:     965                                        |
 |------------------------------------------------------------------------------|

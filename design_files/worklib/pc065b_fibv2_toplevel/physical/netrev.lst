@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : pc065c_fibv2_toplevel_06.brd                  )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Fri Feb 23 10:24:17 2024                      )
+(    Date/Time        : Fri Feb 23 11:29:21 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -27,11 +27,11 @@ CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\
 ------ Preparing to read pst files ------
 
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.34)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.31)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat 
    Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat (00:00:00.01)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat (00:00:00.03)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat (00:00:00.02)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -41,8 +41,8 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai34104.tmp
-	Start time: Fri Feb 23 10:24:17 2024
+	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai32816.tmp
+	Start time: Fri Feb 23 11:29:22 2024
 ===========================================================
 
 
@@ -50,7 +50,7 @@ The constraint difference report file can be viewed using the following command:
 cdnFlowOOSMsg.exe -file "file://///ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/temp/constraints_difference_report.xml"
 
 ===========================================================
-Finished Constraint Update	Time: Fri Feb 23 10:24:18 2024
+Finished Constraint Update	Time: Fri Feb 23 11:29:22 2024
 ===========================================================
 
 ------ Library Paths ------
@@ -77,9 +77,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Feb 23 10:24:17 2024
+netrev run on Feb 23 11:29:21 2024
    DESIGN NAME : 'PC065B_FIBV2_TOPLEVEL'
-   PACKAGING ON 23-Feb-2024 AT 10:24:08
+   PACKAGING ON 23-Feb-2024 AT 11:29:12
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -108,6 +108,6 @@ netrev run on Feb 23 10:24:17 2024
  No oversight detected
  No warning detected
 
-cpu time      0:04:09
-elapsed time  0:00:01
+cpu time      0:04:21
+elapsed time  0:00:02
 

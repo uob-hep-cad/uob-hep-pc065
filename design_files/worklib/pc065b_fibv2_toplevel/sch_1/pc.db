@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Fri Feb 23 10:23:06 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Fri Feb 23 11:29:00 2024
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -134,11 +134,14 @@
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
-#CELL
-  uob_hep_pc065a_lib fmc_hpc_generic *
+#ISCELL
+  standard outport *
   page4_i1
 #ISCELL
-  standard inport *
+  standard tap *
+  page4_i10
+#ISCELL
+  standard tap *
   page4_i100
 #ISCELL
   standard tap *
@@ -156,16 +159,22 @@
   standard tap *
   page4_i105
 #ISCELL
-  standard tap *
+  standard ioport *
   page4_i106
 #ISCELL
-  standard tap *
+  standard outport *
   page4_i107
 #ISCELL
-  standard tap *
+  standard ioport *
   page4_i108
 #ISCELL
-  standard outport *
+  standard tap *
+  page4_i109
+#ISCELL
+  standard tap *
+  page4_i11
+#ISCELL
+  standard tap *
   page4_i110
 #ISCELL
   standard tap *
@@ -192,26 +201,35 @@
   standard tap *
   page4_i118
 #ISCELL
-  standard outport *
+  standard tap *
   page4_i119
 #ISCELL
-  standard inport *
+  standard tap *
   page4_i12
 #ISCELL
-  standard tap *
+  standard inport *
   page4_i120
 #ISCELL
   standard tap *
   page4_i121
-#CELL
-  cnpassive rsmd0402 *
+#ISCELL
+  standard tap *
+  page4_i122
+#ISCELL
+  standard tap *
   page4_i123
-#CELL
-  cnpassive rsmd0402 *
+#ISCELL
+  standard tap *
   page4_i124
 #ISCELL
-  cnpower gnd *
+  standard tap *
   page4_i125
+#ISCELL
+  standard tap *
+  page4_i126
+#ISCELL
+  standard tap *
+  page4_i127
 #ISCELL
   standard tap *
   page4_i128
@@ -219,10 +237,10 @@
   standard tap *
   page4_i129
 #ISCELL
-  standard inport *
+  standard tap *
   page4_i13
 #ISCELL
-  standard inport *
+  standard tap *
   page4_i130
 #ISCELL
   standard tap *
@@ -231,40 +249,19 @@
   standard tap *
   page4_i132
 #ISCELL
-  standard tap *
-  page4_i134
-#ISCELL
-  standard outport *
-  page4_i135
+  standard ioport *
+  page4_i133
 #ISCELL
   standard tap *
-  page4_i136
-#CELL
-  cnpassive rsmd0603 *
-  page4_i137
-#ISCELL
-  cnpower p3v3 *
-  page4_i138
-#CELL
-  cnpassive rsmd0603 *
-  page4_i139
-#ISCELL
-  standard inport *
   page4_i14
 #ISCELL
-  cnpower gnd *
-  page4_i140
-#CELL
-  cnpassive rsmd0402 *
-  page4_i141
-#ISCELL
-  standard inport *
+  standard tap *
   page4_i15
 #ISCELL
-  standard ioport *
+  standard tap *
   page4_i16
 #ISCELL
-  standard ioport *
+  standard tap *
   page4_i17
 #ISCELL
   standard tap *
@@ -272,6 +269,9 @@
 #ISCELL
   standard tap *
   page4_i19
+#CELL
+  cnpassive rsmd0402 *
+  page4_i2
 #ISCELL
   standard tap *
   page4_i20
@@ -302,8 +302,8 @@
 #ISCELL
   standard tap *
   page4_i29
-#ISCELL
-  cnpower gnd *
+#CELL
+  cnpassive rsmd0402 *
   page4_i3
 #ISCELL
   standard tap *
@@ -336,7 +336,7 @@
   standard tap *
   page4_i39
 #ISCELL
-  standard outport *
+  standard ioport *
   page4_i4
 #ISCELL
   standard tap *
@@ -344,6 +344,12 @@
 #ISCELL
   standard tap *
   page4_i41
+#ISCELL
+  standard tap *
+  page4_i42
+#ISCELL
+  standard tap *
+  page4_i43
 #ISCELL
   standard tap *
   page4_i44
@@ -354,16 +360,16 @@
   standard tap *
   page4_i46
 #ISCELL
-  standard tap *
+  standard outport *
   page4_i47
 #ISCELL
-  standard tap *
+  standard inport *
   page4_i48
 #ISCELL
-  standard tap *
+  standard inport *
   page4_i49
 #ISCELL
-  standard outport *
+  cnpower gnd *
   page4_i5
 #ISCELL
   standard tap *
@@ -377,41 +383,41 @@
 #ISCELL
   standard tap *
   page4_i53
-#ISCELL
-  standard tap *
+#CELL
+  cnpassive rsmd0603 *
   page4_i54
-#ISCELL
-  standard tap *
+#CELL
+  cnpassive rsmd0603 *
   page4_i55
 #ISCELL
-  standard tap *
+  cnpower p3v3 *
   page4_i56
 #ISCELL
-  standard tap *
+  cnpower gnd *
   page4_i57
 #ISCELL
-  standard tap *
+  standard inport *
   page4_i58
 #ISCELL
-  standard tap *
+  standard inport *
   page4_i59
 #ISCELL
-  standard ioport *
+  standard outport *
   page4_i6
 #ISCELL
-  standard tap *
+  standard outport *
   page4_i60
 #ISCELL
-  standard tap *
+  standard outport *
   page4_i61
-#ISCELL
-  standard tap *
+#CELL
+  uob_hep_pc065a_lib fmc_hpc_generic *
   page4_i62
-#ISCELL
-  standard tap *
+#CELL
+  cnpassive rsmd0402 *
   page4_i63
 #ISCELL
-  standard tap *
+  cnpower gnd *
   page4_i64
 #ISCELL
   standard tap *
@@ -423,11 +429,14 @@
   standard tap *
   page4_i67
 #ISCELL
-  standard ioport *
+  standard tap *
   page4_i68
 #ISCELL
-  standard outport *
+  standard tap *
   page4_i69
+#ISCELL
+  standard outport *
+  page4_i7
 #ISCELL
   standard tap *
   page4_i70
@@ -450,11 +459,17 @@
   standard tap *
   page4_i76
 #ISCELL
-  standard tap *
+  standard outport *
   page4_i77
+#ISCELL
+  standard inport *
+  page4_i78
 #ISCELL
   standard tap *
   page4_i79
+#ISCELL
+  standard tap *
+  page4_i8
 #ISCELL
   standard tap *
   page4_i80
@@ -462,7 +477,7 @@
   standard tap *
   page4_i81
 #ISCELL
-  standard outport *
+  standard tap *
   page4_i82
 #ISCELL
   standard tap *
@@ -477,14 +492,17 @@
   standard tap *
   page4_i86
 #ISCELL
-  standard outport *
+  standard tap *
   page4_i87
 #ISCELL
-  standard inport *
+  standard tap *
   page4_i88
 #ISCELL
   standard tap *
   page4_i89
+#ISCELL
+  standard inport *
+  page4_i9
 #ISCELL
   standard tap *
   page4_i90
@@ -495,7 +513,7 @@
   standard tap *
   page4_i92
 #ISCELL
-  standard inport *
+  standard tap *
   page4_i93
 #ISCELL
   standard tap *
@@ -510,8 +528,11 @@
   standard tap *
   page4_i97
 #ISCELL
-  standard outport *
+  standard tap *
   page4_i98
+#ISCELL
+  standard tap *
+  page4_i99
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -1154,189 +1175,6 @@
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
-#CELL
-  cninterface 854s058i *
-  page10_i1
-#ISCELL
-  standard tap *
-  page10_i10
-#ISCELL
-  standard tap *
-  page10_i11
-#ISCELL
-  standard tap *
-  page10_i12
-#ISCELL
-  standard tap *
-  page10_i13
-#ISCELL
-  standard tap *
-  page10_i14
-#ISCELL
-  standard tap *
-  page10_i15
-#ISCELL
-  standard tap *
-  page10_i16
-#ISCELL
-  standard tap *
-  page10_i17
-#ISCELL
-  standard tap *
-  page10_i18
-#ISCELL
-  standard tap *
-  page10_i19
-#ISCELL
-  standard tap *
-  page10_i2
-#ISCELL
-  standard tap *
-  page10_i20
-#ISCELL
-  standard tap *
-  page10_i21
-#ISCELL
-  standard tap *
-  page10_i22
-#ISCELL
-  standard tap *
-  page10_i23
-#CELL
-  cnpassive rsmd0402 *
-  page10_i24
-#CELL
-  cnpassive rsmd0402 *
-  page10_i25
-#CELL
-  cnpassive rsmd0402 *
-  page10_i26
-#CELL
-  cnpassive rsmd0402 *
-  page10_i27
-#CELL
-  cnpassive rsmd0402 *
-  page10_i28
-#CELL
-  cnpassive rsmd0402 *
-  page10_i29
-#ISCELL
-  standard tap *
-  page10_i3
-#CELL
-  cnpassive rsmd0402 *
-  page10_i30
-#CELL
-  cnpassive rsmd0402 *
-  page10_i31
-#CELL
-  cnpassive capcersmdcl2 *
-  page10_i32
-#CELL
-  cnpassive capcersmdcl2 *
-  page10_i33
-#CELL
-  cninterface adn2814 *
-  page10_i34
-#CELL
-  cnpassive rsmd0402 *
-  page10_i35
-#CELL
-  cnpassive rsmd0402 *
-  page10_i36
-#ISCELL
-  cnpower gnd *
-  page10_i37
-#CELL
-  cnpassive capcersmdcl2 *
-  page10_i38
-#CELL
-  cnpassive rsmd0402 *
-  page10_i39
-#ISCELL
-  standard tap *
-  page10_i4
-#CELL
-  cnpassive rsmd0402 *
-  page10_i40
-#ISCELL
-  standard outport *
-  page10_i41
-#CELL
-  cnpassive rsmd0402 *
-  page10_i42
-#CELL
-  cnpassive rsmd0402 *
-  page10_i43
-#ISCELL
-  cnpower p3v3 *
-  page10_i44
-#CELL
-  cnpassive rsmd0402 *
-  page10_i45
-#CELL
-  cnpassive rsmd0402 *
-  page10_i46
-#ISCELL
-  cnpower gnd *
-  page10_i47
-#CELL
-  cnpassive rsmd0402 *
-  page10_i48
-#CELL
-  cnpassive capcersmdcl2 *
-  page10_i49
-#ISCELL
-  standard inport *
-  page10_i5
-#CELL
-  cnpassive rsmd0402 *
-  page10_i50
-#ISCELL
-  standard outport *
-  page10_i51
-#ISCELL
-  standard outport *
-  page10_i52
-#ISCELL
-  standard outport *
-  page10_i53
-#CELL
-  cnpassive rsmd0402 *
-  page10_i54
-#CELL
-  uob_hep_pc065a_lib diff_buff_1to2 *
-  page10_i55
-#ISCELL
-  standard outport *
-  page10_i56
-#ISCELL
-  standard outport *
-  page10_i57
-#ISCELL
-  standard outport *
-  page10_i58
-#ISCELL
-  standard outport *
-  page10_i59
-#ISCELL
-  standard inport *
-  page10_i6
-#ISCELL
-  standard inport *
-  page10_i60
-#ISCELL
-  standard ioport *
-  page10_i61
-#ISCELL
-  standard inport *
-  page10_i7
-#ISCELL
-  standard tap *
-  page10_i8
-#ISCELL
-  standard tap *
-  page10_i9
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -1778,6 +1616,3 @@
 #CELL
   cnmemory 24aa025e48 *
   page5_i9
-#ISCELL
-  bris_cds_standard bris_std_a3 *
-  *
