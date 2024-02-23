@@ -11,7 +11,7 @@ DEFINE cninterface    ../../library/cninterface
 DEFINE bris_cds_special    ../../library/cds_special
 DEFINE cnmemory    ../../library/cnmemory
 DEFINE cnpower    ../../library/cnpower
-## DEFINE standard    ../../library/standard
+DEFINE standard    ../../library/standard
 DEFINE uob_hep_pc065a_lib worklib
 
 #INCLUDE $RAL_CDSLIB_PSD15/cds.lib
@@ -19,4 +19,4 @@ DEFINE uob_hep_pc065a_lib worklib
 #INCLUDE $CERN_CDSLIB/lib_psd16.x/cds.lib
 #INCLUDE $CERN_CDSLIB/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cds.lib
 
-INCLUDE $CONCEPT_INST_DIR/share/cdssetup/cds.lib
+#INCLUDE $CONCEPT_INST_DIR/share/cdssetup/cds.lib

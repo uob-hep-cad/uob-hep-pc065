@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S034 (4072884) 11/12/2022 on Wed Jan 17 17:30:58 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Fri Feb 23 08:04:04 2024
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -23,9 +23,6 @@
 #ISCELL
   cnpower p3va *
   page7_i13
-#CELL
-  cnconnector con3p *
-  page7_i14
 #ISCELL
   cnpower p2v5 *
   page7_i15
@@ -84,8 +81,41 @@
   cnpower p1v3 *
   page7_i35
 #CELL
+  cnpassive rsmd0402 *
+  page7_i38
+#CELL
+  cnpower bourns_sf_0603s300_2 *
+  page7_i39
+#CELL
   cnpassive capcersmdcl2 *
   page7_i4
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i40
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i42
+#ISCELL
+  cnpower p3v3 *
+  page7_i43
+#ISCELL
+  cnpower gnd *
+  page7_i44
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i45
+#ISCELL
+  cnpower gnd *
+  page7_i46
+#ISCELL
+  cnpower gnd *
+  page7_i47
+#ISCELL
+  cnpower gnd *
+  page7_i48
+#ISCELL
+  cnpower gnd *
+  page7_i49
 #CELL
   cnpassive capcersmdcl2 *
   page7_i5
@@ -224,6 +254,9 @@
 #ISCELL
   cnpower gnd *
   page4_i140
+#CELL
+  cnpassive rsmd0402 *
+  page4_i141
 #ISCELL
   standard inport *
   page4_i15
@@ -239,9 +272,6 @@
 #ISCELL
   standard tap *
   page4_i19
-#CELL
-  cnpassive rsmd0402 *
-  page4_i2
 #ISCELL
   standard tap *
   page4_i20

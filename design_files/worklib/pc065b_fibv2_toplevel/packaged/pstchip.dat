@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 17-Jan-2024 AT 17:31:10 }
+{ Packager-XL run on 23-Feb-2024 AT 08:04:10 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -269,6 +269,29 @@ with Integrated Limiting Amp';
       PARENT_PPT_PART='ADN2814ACPZ';
   end_body;
 end_primitive;
+primitive 'BOURNS_SF_0603S300_2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='BI';
+    '2':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='BOURNS_SF_0603S300_2';
+      BODY_NAME='BOURNS_SF_0603S300_2';
+      JEDEC_TYPE='C0603';
+      PHYS_DES_PREFIX='F';
+      CLASS='DISCRETE';
+  end_body;
+end_primitive;
 primitive 'CAPCERSMDCL2_0402-100NF_X7R,16V';
   pin
     'A'<0>:
@@ -482,6 +505,49 @@ primitive 'CAPCERSMDCL2_0805-22UF,6.3V';
       PARENT_PART_TYPE='CAPCERSMDCL2_0805';
       PARENT_PPT='CAPCERSMDCL2';
       PARENT_PPT_PART='CAPCERSMDCL2_0805-22UF,6.3V';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0805-4.7UF,10V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Not Preferred';
+      PART_NUMBER='GRM21BF51A475ZA01';
+      MANUFACTURER='MURATA';
+      DESCRIPTION='SMD Y5V Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0805';
+      JEDEC_TYPE='C0805';
+      VALUE='4.7uF';
+      VOLT='10V';
+      TOL='+80%-20%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0805';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0805-4.7UF,10V';
   end_body;
 end_primitive;
 primitive 'CDCLVD110_LQFP-TI';
@@ -4729,7 +4795,7 @@ primitive 'TCA9803DGKR';
       PARENT_PPT_PART='TCA9803DGKR';
   end_body;
 end_primitive;
-primitive 'TMP1075NDRLR_SOT-TEXAS INSTRUMA';
+primitive 'TMP1075NDRLR-TEXAS INSTRUMENTSA';
   pin
     'SCL':
       PIN_NUMBER='(1)';

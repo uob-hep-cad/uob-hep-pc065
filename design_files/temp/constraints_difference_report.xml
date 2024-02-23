@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Cadence/SPB_17.4/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_17.4/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
+
+  <RptSummary Col1="Layout" Col2="Schematic">
+    <Entry Name="Report time">Fri Feb 23 08:04:21 2024
+</Entry>
+    <Entry Name="Software version">17.4 (S011)</Entry>
+    <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_06.brd</Entry>
+    <Entry Name="Schematic">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\packaged\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\HASTIN~1\AppData\Local\Temp\#Taaaaai32800.tmp</Entry>
+    <Entry Name="Destination design updated">Yes</Entry>
+    <Entry Name="Update Mode">Diff3</Entry>
+    <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
+    <Entry Name="Objects with conflicts">0</Entry>
+  </RptSummary>
+
+  <Tree>
+    <Item Filter="0x1" Name="Summary" Ref="main-summary">
+      <Item Filter="0x0" Name="Buses [1]" Ref="f">
+        <Item Filter="0x0" Name="MUX_SEL_CVCC" Ref="d"/>
+      </Item>
+      <Item Filter="0x0" Name="DiffPairs [12]" Ref="e">
+        <Item Filter="0x0" Name="FMC_LA&lt;10>" Ref="5"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;12>" Ref="6"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;13>" Ref="7"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;14>" Ref="8"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;18>" Ref="9"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;1>" Ref="1"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;27>" Ref="a"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;31>" Ref="b"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;33>" Ref="c"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;5>" Ref="2"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;6>" Ref="3"/>
+        <Item Filter="0x0" Name="FMC_LA&lt;9>" Ref="4"/>
+      </Item>
+    </Item>
+  </Tree>
+
+  <Summaries>
+    <MainSummary ID="main-summary">
+      <ChangedObject Filter="0x0" Name="Buses" ObjNumber="1" Ref="f"/>
+      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="12" Ref="e"/>
+    </MainSummary>
+    <GroupSummary ID="e" Name="DiffPairs">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;10>" Notes="1" Other="0" Ref="5" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;12>" Notes="1" Other="0" Ref="6" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;13>" Notes="1" Other="0" Ref="7" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;14>" Notes="1" Other="0" Ref="8" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;18>" Notes="1" Other="0" Ref="9" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;1>" Notes="1" Other="0" Ref="1" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;27>" Notes="1" Other="0" Ref="a" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;31>" Notes="1" Other="0" Ref="b" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;33>" Notes="1" Other="0" Ref="c" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;5>" Notes="1" Other="0" Ref="2" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;6>" Notes="1" Other="0" Ref="3" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;9>" Notes="1" Other="0" Ref="4" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="5" Kind="DiffPair" Name="FMC_LA&lt;10>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;10>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="6" Kind="DiffPair" Name="FMC_LA&lt;12>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;12>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="7" Kind="DiffPair" Name="FMC_LA&lt;13>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;13>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="8" Kind="DiffPair" Name="FMC_LA&lt;14>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;14>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="9" Kind="DiffPair" Name="FMC_LA&lt;18>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;18>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="1" Kind="DiffPair" Name="FMC_LA&lt;1>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;1>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="a" Kind="DiffPair" Name="FMC_LA&lt;27>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;27>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="b" Kind="DiffPair" Name="FMC_LA&lt;31>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;31>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="c" Kind="DiffPair" Name="FMC_LA&lt;33>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;33>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="2" Kind="DiffPair" Name="FMC_LA&lt;5>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;5>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="3" Kind="DiffPair" Name="FMC_LA&lt;6>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;6>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="4" Kind="DiffPair" Name="FMC_LA&lt;9>">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;9>&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <GroupSummary ID="f" Name="Buses">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MUX_SEL_CVCC" Notes="1" Other="0" Ref="d" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="d" Kind="Bus" Name="MUX_SEL_CVCC">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating Bus: &quot;MUX_SEL_CVCC&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+  </Summaries>
+
+  <Notes>
+    <Note Ref="1" Text="Not creating DiffPair: &quot;FMC_LA&lt;1>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;1>)" Type="Warning"/>
+    <Note Ref="2" Text="Not creating DiffPair: &quot;FMC_LA&lt;5>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;5>)" Type="Warning"/>
+    <Note Ref="3" Text="Not creating DiffPair: &quot;FMC_LA&lt;6>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;6>)" Type="Warning"/>
+    <Note Ref="4" Text="Not creating DiffPair: &quot;FMC_LA&lt;9>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;9>)" Type="Warning"/>
+    <Note Ref="5" Text="Not creating DiffPair: &quot;FMC_LA&lt;10>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;10>)" Type="Warning"/>
+    <Note Ref="6" Text="Not creating DiffPair: &quot;FMC_LA&lt;12>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;12>)" Type="Warning"/>
+    <Note Ref="7" Text="Not creating DiffPair: &quot;FMC_LA&lt;13>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;13>)" Type="Warning"/>
+    <Note Ref="8" Text="Not creating DiffPair: &quot;FMC_LA&lt;14>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;14>)" Type="Warning"/>
+    <Note Ref="9" Text="Not creating DiffPair: &quot;FMC_LA&lt;18>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;18>)" Type="Warning"/>
+    <Note Ref="a" Text="Not creating DiffPair: &quot;FMC_LA&lt;27>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;27>)" Type="Warning"/>
+    <Note Ref="b" Text="Not creating DiffPair: &quot;FMC_LA&lt;31>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;31>)" Type="Warning"/>
+    <Note Ref="c" Text="Not creating DiffPair: &quot;FMC_LA&lt;33>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;33>)" Type="Warning"/>
+    <Note Ref="d" Text="Not creating Bus: &quot;MUX_SEL_CVCC&quot;. Preserving deletion. (Bus MUX_SEL_CVCC)" Type="Warning"/>
+  </Notes>
+
+  <Layers>
+    <Layer Name="TOP" Type="Conductor"/>
+    <Layer Name="L2_GND" Type="Plane"/>
+    <Layer Name="L3_SIG" Type="Conductor"/>
+    <Layer Name="L4_GND" Type="Plane"/>
+    <Layer Name="L5_PWR" Type="Plane"/>
+    <Layer Name="L6_SIG" Type="Conductor"/>
+    <Layer Name="L7_PWR" Type="Plane"/>
+    <Layer Name="BOTTOM" Type="Conductor"/>
+  </Layers>
+
+  <GenericLayers>
+    <Layer Name="Conductor"/>
+    <Layer Name="Plane"/>
+  </GenericLayers>
+
+</ConstraintDifferenceReport>

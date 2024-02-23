@@ -1,87 +1,89 @@
-\t (00:00:15) allegro 17.4 S034 Linux SPB 64-bit Edition
-\t (00:00:15)     Journal start - Wed Jan 17 17:36:25 2024
-\t (00:00:15)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=10307 CPUs=20
-\t (00:00:15) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc065a/git/uob-hep-pc065/design_files/pc065c_fibv2_toplevel.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr17802 -mpshost dilbert.phy.bris.ac.uk
-\t (00:00:15) 
-   (00:00:15) Loading axlcore.cxt 
-   (00:00:15) Searching for nsWare programs v2.62
-   (00:00:15) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
-   (00:00:15) 	NsWare programs must reside in this directory!
-\t (00:00:15) Opening existing design...
-\i (00:00:15) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_03"
-\d (00:00:15) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc065a/git/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_03.brd
-\i (00:00:15) trapsize 2777
-\i (00:00:15) trapsize 2830
-\i (00:00:15) trapsize 2841
-\i (00:00:15) trapsize 2686
-\i (00:00:16) trapsize 4791
-\i (00:00:16) generaledit 
-\i (00:00:24) place manual 
-\i (00:00:24) setwindow form.plc_manual
-\i (00:00:24) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:27) FORM plc_manual tree  IC2 'Components by refdes' 
-\i (00:00:27) FORM plc_manual tree 'MULTISEL YES' IC2 'Components by refdes' 
-\w (00:00:27) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:27) Placing IC2 / TMP1075NDRLR_SOT-TEXAS INSTRUMA / SOT_DRL_TEX on Top.
-\i (00:00:31) setwindow pcb
-\i (00:00:31) pick grid -21.4491 -16.3748
-\t (00:00:31) last pick:  -21.4000 -16.4000
-\i (00:00:33) setwindow form.plc_manual
-\i (00:00:33) FORM plc_manual tree  PX3 'Components by refdes' 
-\i (00:00:33) FORM plc_manual tree 'MULTISEL YES' PX3 'Components by refdes' 
-\t (00:00:33) Placing PX3 / PCOAX-U.FL-R-SMT-1(10) / HIROSE_U-FL-R-SMT-1_10 on Top.
-\i (00:00:35) setwindow pcb
-\i (00:00:35) pick grid -8.7045 -18.0996
-\t (00:00:35) last pick:  -8.7000 -18.1000
-\i (00:00:37) setwindow form.plc_manual
-\i (00:00:37) FORM plc_manual tree  PX4 'Components by refdes' 
-\i (00:00:37) FORM plc_manual tree 'MULTISEL YES' PX4 'Components by refdes' 
-\t (00:00:37) Placing PX4 / PCOAX-U.FL-R-SMT-1(10) / HIROSE_U-FL-R-SMT-1_10 on Top.
-\i (00:00:39) setwindow pcb
-\i (00:00:39) pick grid -9.0878 -24.3281
-\t (00:00:39) last pick:  -9.1000 -24.3000
-\i (00:00:41) setwindow form.plc_manual
-\i (00:00:41) FORM plc_manual tree  QZ2 'Components by refdes' 
-\i (00:00:41) FORM plc_manual tree 'MULTISEL YES' QZ2 'Components by refdes' 
-\t (00:00:41) Placing QZ2 / SIT5022AI-2CE-33N-250.000000 / QFN_5032_6PINS on Top.
-\i (00:00:43) setwindow pcb
-\i (00:00:43) pick grid -24.7071 -23.0824
-\t (00:00:43) last pick:  -24.7000 -23.1000
-\i (00:00:44) setwindow form.plc_manual
-\i (00:00:44) FORM plc_manual tree  U1 'Components by refdes' 
-\i (00:00:46) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
-\t (00:00:46) Placing U1 / CDCLVD110_LQFP-TI / LQFP32_080 on Top.
-\i (00:00:48) setwindow pcb
-\i (00:00:48) pick grid 7.2981 -20.5910
-\t (00:00:48) last pick:  7.3000 -20.6000
-\i (00:00:53) setwindow form.plc_manual
-\i (00:00:53) FORM plc_manual done  
-\i (00:00:53) setwindow pcb
-\i (00:00:53) generaledit 
-\i (00:00:55) zoom out 1 
-\i (00:00:55) setwindow pcb
-\i (00:00:55) zoom out 27.7086 -27.5862
-\i (00:00:55) trapsize 9582
-\i (00:00:55) zoom out 1 
-\i (00:00:55) setwindow pcb
-\i (00:00:55) zoom out 54.4682 12.4973
-\i (00:00:55) trapsize 19165
-\i (00:00:56) zoom in 1 
-\i (00:00:56) setwindow pcb
-\i (00:00:56) zoom in 99.6971 126.1445
-\i (00:00:56) trapsize 9582
-\i (00:00:57) roam y 96 
-\i (00:00:57) roam y 96
-\i (00:00:58) roam y 96 
-\i (00:00:58) roam y 96
-\i (00:00:58) roam y 96 
-\i (00:00:58) roam y 96
-\i (00:00:58) roam y 96 
-\i (00:00:58) roam y 96
-\i (00:00:58) roam y 96 
-\i (00:00:58) roam y 96
-\i (00:01:01) save 
-\i (00:01:04) fillin yes 
-\i (00:01:04) generaledit 
-\i (00:02:14) exit 
-\t (00:02:14)     Journal end - Wed Jan 17 17:38:25 2024
+\t (00:00:01) allegro 17.4 S011 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Feb 23 07:43:57 2024
+\t (00:00:01)         Host=ELWE4 User=hastingsp Pid=18040 CPUs=32
+\t (00:00:01) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product PCB_librarian_expert -mpssession hastingsp_ProjectMgr31710 -mpshost ELWE4
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_06"
+\d (00:00:02) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd
+\i (00:00:02) trapsize 9382
+\i (00:00:02) trapsize 9613
+\i (00:00:02) trapsize 9382
+\i (00:00:02) trapsize 8159
+\i (00:00:02) trapsize 8266
+\i (00:00:02) trapsize 8457
+\i (00:00:03) generaledit 
+\i (00:00:06) place manual 
+\i (00:00:06) setwindow form.plc_manual
+\i (00:00:06) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:08) FORM plc_manual tree  F1 'Components by refdes' 
+\i (00:00:08) FORM plc_manual tree 'MULTISEL YES' F1 'Components by refdes' 
+\t (00:00:08) Placing F1 / BOURNS_SF_0603S300_2 / C0603 on Top.
+\i (00:00:09) setwindow pcb
+\i (00:00:09) pick grid 156.7653 38.6621
+\t (00:00:09) last pick:  156.8000 38.7000
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 162.1780 39.1696
+\i (00:00:10) trapsize 4229
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 144.0123 40.0153
+\i (00:00:10) trapsize 2114
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 144.0123 40.0576
+\i (00:00:10) trapsize 1057
+\i (00:00:12) setwindow form.plc_manual
+\i (00:00:12) FORM plc_manual tree  R62 'Components by refdes' 
+\i (00:00:12) FORM plc_manual tree 'MULTISEL YES' R62 'Components by refdes' 
+\t (00:00:12) Placing R62 / RSMD0402_0.0625W-XX,1% / C0402 on Top.
+\i (00:00:13) setwindow pcb
+\i (00:00:13) pick grid 148.7696 39.3599
+\t (00:00:13) last pick:  148.8000 39.4000
+\i (00:00:14) prepopup 145.3867 38.0913
+\i (00:00:14) done 
+\i (00:00:14) generaledit 
+\i (00:00:15) roam start
+\i (00:00:15) roam x 144
+\i (00:00:15) roam x 176
+\i (00:00:15) roam x 80
+\i (00:00:15) roam x 96
+\i (00:00:15) roam x 112
+\i (00:00:15) roam y -16
+\i (00:00:15) roam x 128
+\i (00:00:15) roam y -16
+\i (00:00:15) roam x 80
+\i (00:00:15) roam y -16
+\i (00:00:15) roam x 80
+\i (00:00:15) roam end
+\i (00:00:17) cns show 
+\i (00:00:17) show element 
+\i (00:00:19) setwindow form.find
+\i (00:00:19) FORM find clines YES 
+\i (00:00:20) FORM find clines NO 
+\i (00:00:21) FORM find components YES 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) pick grid 156.9134 38.5104
+\t (00:00:21) last pick:  156.9000 38.5000
+\i (00:00:22) pick grid 157.4631 38.6372
+\t (00:00:22) last pick:  157.5000 38.6000
+\i (00:00:31) setwindow text
+\i (00:00:31) close
+\i (00:02:34) xrefdes F1 
+\i (00:02:34) xrefdes F1 
+\i (00:02:34) xname_flush 
+\i (00:02:34) trapsize 475
+\i (00:02:34) xrefdes F1 
+\i (00:02:34) xrefdes F1 
+\i (00:02:34) xname_flush 
+\i (00:02:34) trapsize 475
+\i (00:04:17) pick grid 166.4884 39.7754
+\t (00:04:17) last pick:  166.5000 39.8000
+\i (00:04:18) setwindow text
+\i (00:04:18) close
+\i (00:04:19) exit 
+\e (00:04:19) Do you want to save the changes you made to pc065c_fibv2_toplevel_06.brd?
+\i (00:04:20) fillin yes 
+\t (00:04:23)     Journal end - Fri Feb 23 07:48:19 2024

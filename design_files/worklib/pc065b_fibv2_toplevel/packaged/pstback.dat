@@ -1,4 +1,4 @@
-{ Packager-XL run on 17-Jan-2024 AT 17:31:10 }
+{ Packager-XL run on 23-Feb-2024 AT 08:04:10 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page8";
 BODY = "SI5395","I1": LOCATION = "IC3" #&CDS_LOCATION = "IC3" &SEC = "1" #&CDS_SEC = "1";
@@ -505,10 +505,6 @@ BODY = "CAPCERSMDCL2","I10": LOCATION = "C39" #&CDS_LOCATION = "C39" &SEC = "1" 
 BODY = "CAPCERSMDCL2","I11": LOCATION = "C38" #&CDS_LOCATION = "C38" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
-BODY = "CON3P","I14": LOCATION = "J39" #&CDS_LOCATION = "J39" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"A<1>":   PN = "2"  !CDS_PN = "2";
-"A<2>":   PN = "3"  !CDS_PN = "3";
 BODY = "TP","I16": LOCATION = "TP10" #&CDS_LOCATION = "TP10" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 BODY = "MP20075_REG","I17": LOCATION = "U11" #&CDS_LOCATION = "U11" &SEC = "1" #&CDS_SEC = "1";
@@ -541,6 +537,21 @@ BODY = "CON4P","I31": LOCATION = "J40" #&CDS_LOCATION = "J40" &SEC = "1" #&CDS_S
 "A<1>":   PN = "2"  !CDS_PN = "2";
 "A<2>":   PN = "3"  !CDS_PN = "3";
 "A<3>":   PN = "4"  !CDS_PN = "4";
+BODY = "RSMD0402","I38": LOCATION = "R62" #&CDS_LOCATION = "R62" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "BOURNS_SF_0603S300_2","I39": LOCATION = "F1" #&CDS_LOCATION = "F1" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+BODY = "CAPCERSMDCL2","I40": LOCATION = "C120" #&CDS_LOCATION = "C120" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "CAPCERSMDCL2","I42": LOCATION = "C119" #&CDS_LOCATION = "C119" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "CAPCERSMDCL2","I45": LOCATION = "C118" #&CDS_LOCATION = "C118" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page5";
 BODY = "RSMD0402","I2": LOCATION = "R201" #&CDS_LOCATION = "R201" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
@@ -566,9 +577,6 @@ BODY = "24AA025E48","I9": LOCATION = "IC1" #&CDS_LOCATION = "IC1" &SEC = "1" #&C
 "VCC":   PN = "8"  !CDS_PN = "8";
 "VSS":   PN = "4"  !CDS_PN = "4";
 DRAWING = "@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page4";
-BODY = "RSMD0402","I2": LOCATION = "R30" #&CDS_LOCATION = "R30" &SEC = "1" #&CDS_SEC = "1";
-"A<0>":   PN = "1"  !CDS_PN = "1";
-"B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0402","I123": LOCATION = "R184" #&CDS_LOCATION = "R184" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
@@ -579,6 +587,9 @@ BODY = "RSMD0603","I137": LOCATION = "R33" #&CDS_LOCATION = "R33" &SEC = "1" #&C
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 BODY = "RSMD0603","I139": LOCATION = "R58" #&CDS_LOCATION = "R58" &SEC = "1" #&CDS_SEC = "1";
+"A<0>":   PN = "1"  !CDS_PN = "1";
+"B<0>":   PN = "2"  !CDS_PN = "2";
+BODY = "RSMD0402","I141": LOCATION = "R30" #&CDS_LOCATION = "R30" &SEC = "1" #&CDS_SEC = "1";
 "A<0>":   PN = "1"  !CDS_PN = "1";
 "B<0>":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page2";

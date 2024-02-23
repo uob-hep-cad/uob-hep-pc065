@@ -121,6 +121,9 @@
 #ISCELL
   cnpower gnd *
   page4_i140
+#CELL
+  cnpassive rsmd0402 *
+  page4_i141
 #ISCELL
   standard inport *
   page4_i15
@@ -136,9 +139,6 @@
 #ISCELL
   standard tap *
   page4_i19
-#CELL
-  cnpassive rsmd0402 *
-  page4_i2
 #ISCELL
   standard tap *
   page4_i20
