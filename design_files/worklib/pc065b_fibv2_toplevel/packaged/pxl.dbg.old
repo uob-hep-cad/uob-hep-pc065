@@ -1,8 +1,8 @@
-Log File: C:\Users\HASTIN~1\AppData\Local\Temp\si6k.0
-Markers File: C:\Users\HASTIN~1\AppData\Local\Temp\si6k.1
-Debug File: C:\Users\HASTIN~1\AppData\Local\Temp\si6k.3
+Log File: C:\Users\HASTIN~1\AppData\Local\Temp\spg0.0
+Markers File: C:\Users\HASTIN~1\AppData\Local\Temp\spg0.1
+Debug File: C:\Users\HASTIN~1\AppData\Local\Temp\spg0.3
      Debug[0] := TRUE
-Elapsed time since start = (00:00:01)
+Elapsed time since start = (00:00:00)
 
  **************************************************************
  *  End processing project file and command line  (00:00:00)  *
@@ -13,7 +13,70 @@ Elapsed time since start = (00:00:01)
  *  Loading State Files  *
  *************************
 
-Elapsed time since start = (00:00:06)
+ERROR(SPCODD-156): Page 10 not found in design for module @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1) of type PC065B_FIBV2_TOPLEVEL.
+      Information for the page is available in the pxl subdesign state file of the module but not present in the schematic.
+      To update the subdesign state file, set the module as root and package. Once the subdesign state file is corrected, set the top as root and package again.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I1@CNINTERFACE.854S058I(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I24@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I25@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I26@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I27@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I28@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I29@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I30@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I31@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I32@CNPASSIVE.CAPCERSMDCL2(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I33@CNPASSIVE.CAPCERSMDCL2(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I34@CNINTERFACE.ADN2814(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I35@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I36@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I38@CNPASSIVE.CAPCERSMDCL2(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I39@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I40@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I42@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I43@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I45@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I46@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I48@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I49@CNPASSIVE.CAPCERSMDCL2(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I50@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I54@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      ERROR(SPCODD-156): Page 1 not found in design for module @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I55@UOB_HEP_PC065A_LIB.DIFF_BUFF_1TO2(SCH_1) of type DIFF_BUFF_1TO2.
+      Information for the page is available in the pxl subdesign state file of the module but not present in the schematic.
+      To update the subdesign state file, set the module as root and package. Once the subdesign state file is corrected, set the top as root and package again.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I55@UOB_HEP_PC065A_LIB.DIFF_BUFF_1TO2(SCH_1):PAGE1_I1@CNINTERFACE.SY58608U(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I55@UOB_HEP_PC065A_LIB.DIFF_BUFF_1TO2(SCH_1):PAGE1_I2@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I55@UOB_HEP_PC065A_LIB.DIFF_BUFF_1TO2(SCH_1):PAGE1_I7@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I55@UOB_HEP_PC065A_LIB.DIFF_BUFF_1TO2(SCH_1):PAGE1_I10@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I55@UOB_HEP_PC065A_LIB.DIFF_BUFF_1TO2(SCH_1):PAGE1_I13@CNPASSIVE.CAPCERSMDCL2(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I55@UOB_HEP_PC065A_LIB.DIFF_BUFF_1TO2(SCH_1):PAGE1_I14@CNPASSIVE.CAPCERSMDCL2(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE10_I55@UOB_HEP_PC065A_LIB.DIFF_BUFF_1TO2(SCH_1):PAGE1_I17@CNPASSIVE.CAPCERSMDCL2(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I123@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I124@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I137@CNPASSIVE.RSMD0603(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I139@CNPASSIVE.RSMD0603(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I141@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      ERROR(SPCODD-156): Page 1 not found in design for module @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1) of type FMC_HPC_GENERIC.
+      Information for the page is available in the pxl subdesign state file of the module but not present in the schematic.
+      To update the subdesign state file, set the module as root and package. Once the subdesign state file is corrected, set the top as root and package again.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE1_I4@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE1_I5@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      ERROR(SPCODD-156): Page 3 not found in design for module @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1) of type FMC_HPC_GENERIC.
+      Information for the page is available in the pxl subdesign state file of the module but not present in the schematic.
+      To update the subdesign state file, set the module as root and package. Once the subdesign state file is corrected, set the top as root and package again.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE3_I1@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE3_I3@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE3_I4@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE3_I87@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      ERROR(SPCODD-156): Page 2 not found in design for module @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1) of type FMC_HPC_GENERIC.
+      Information for the page is available in the pxl subdesign state file of the module but not present in the schematic.
+      To update the subdesign state file, set the module as root and package. Once the subdesign state file is corrected, set the top as root and package again.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE2_I1@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE2_I2@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE2_I3@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE2_I4@CNCONNECTOR.CON400P_40ABCDEFGHJK_VITA571(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I1@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE2_I52@CNPASSIVE.RSMD0402(CHIPS) has been deleted from the design.
+      Elapsed time since start = (00:00:02)
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -24,7 +87,7 @@ Elapsed time since start = (00:00:06)
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:06)
+Elapsed time since start = (00:00:02)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -35,7 +98,7 @@ Elapsed time since start = (00:00:06)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:06)
+Elapsed time since start = (00:00:02)
 
  *******************************
  *  End packaging  (00:00:00)  *
