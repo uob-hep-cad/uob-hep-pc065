@@ -3,113 +3,39 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 08:04:21 2024  |
+|                                                    Fri Feb 23 10:08:35 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 C118.2                         
-                                 C119.2                         
-                                 C120.1                         
+  CLK_MAIN_N<9> pins ADDED TO this new net
+                                 C121.1                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  P3V3         pins ADDED TO this existing net (pins not previously on any net)
-                                 C118.1                         
-                                 C119.1                         
-                                 C120.2                         
+  CLK_MAIN_P<9> pins ADDED TO this new net
+                                 C30.1                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 08:04:21 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- CAPCERSMDCL2_0805-4.7UF,10V
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 08:04:21 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C118                CAPCERSMDCL2_0805-10UF,10V_GEN 
- C119                CAPCERSMDCL2_0402-100NF_X7R,16V 
- C120                CAPCERSMDCL2_0805-4.7UF,10V 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 08:04:21 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C118                           ROOM           P1V3_REG
- C119                           ROOM           P1V3_REG
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 08:04:21 2024  |
+|                                                    Fri Feb 23 10:08:35 2024  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C99.2          133.200 17.7000 XY             (1400,2825)
- C100.2         133.200 19.7000 XY             (1625,2825)
- C101.2         134.900  8.1000 XY             (1850,2825)
- C118.2                         PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
- C118.2                         ROOM           P1V3_REG
- C118.2                         SIZE           1
- C118.2                         XY             (1225,3775)
- C119.2                         PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
- C119.2                         ROOM           P1V3_REG
- C119.2                         SIZE           1
- C119.2                         XY             (1225,3575)
- C120.2                         PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
- C120.2                         SIZE           1
- C120.2                         XY             (675,2825)
- R62.2          148.800 39.4000 XY             (350,2875)
- R182.2         133.400  8.1000 XY             (350,3000)
- R183.2         131.900  8.1000 XY             (550,3200)
- U11.4          133.000 12.6000 XY             (1025,3100)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
+ C30.2                          XY             (4150,7150)
+ C121.2                         XY             (4150,6650)
+ PX3.1          -8.7000 -18.100 XY             (5025,7150)
+ PX4.1          -9.1000 -24.300 XY             (5025,6650)
+ R12.2                          XY             (4425,6975)
+ R17.2                          XY             (4425,6475)
+ R18.2                          XY             (4600,7150)
+ R19.2                          XY             (4600,6650)
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
-|                                                    Fri Feb 23 08:04:21 2024  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C118.1                         CDS_PINID      A(0)
- C118.2                         CDS_PINID      B(0)
- C119.1                         CDS_PINID      A(0)
- C119.2                         CDS_PINID      B(0)
- C120.1                         CDS_PINID      A(0)
- C120.2                         CDS_PINID      B(0)
-|------------------------------------------------------------------------------|
-|       Nets changed          :       6                                        |
-|       Comp definitions added:       1                                        |
-|       Components added      :       3                                        |
-|       Comp property added   :       2                                        |
-|       Pin property added    :       6                                        |
-|       Slot property added   :      18                                        |
+|       Nets changed          :       2                                        |
+|       Slot property added   :       8                                        |
 |                                                                              |
-|   Total ECO changes reported:      36                                        |
+|   Total ECO changes reported:      10                                        |
 |------------------------------------------------------------------------------|

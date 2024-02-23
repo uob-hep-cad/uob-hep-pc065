@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 23-Feb-2024 AT 08:04:10 }
+{ Packager-XL run on 23-Feb-2024 AT 10:08:23 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -267,29 +267,6 @@ with Integrated Limiting Amp';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='ADN2814';
       PARENT_PPT_PART='ADN2814ACPZ';
-  end_body;
-end_primitive;
-primitive 'BOURNS_SF_0603S300_2';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      PINUSE='BI';
-    '2':
-      PIN_NUMBER='(2)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='BOURNS_SF_0603S300_2';
-      BODY_NAME='BOURNS_SF_0603S300_2';
-      JEDEC_TYPE='C0603';
-      PHYS_DES_PREFIX='F';
-      CLASS='DISCRETE';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -3408,44 +3385,6 @@ df';
       PARENT_PPT_PART='CON4P-MTLW-104-07-L-S-250';
   end_body;
 end_primitive;
-primitive 'DSC1123CI5-50.0000-VDD=P3V3C';
-  pin
-    'OUTN':
-      PIN_NUMBER='(5)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OUTP':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'EN':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-  end_pin;
-  body
-      PART_NAME='DSC1123CI5';
-      BODY_NAME='DSC1123CI5';
-      PHYS_DES_PREFIX='QZ';
-      CLASS='IC';
-      NC_PINS='(2)';
-      STATUS='Preferred';
-      PART_NUMBER='DSC1123CI5-50.0000';
-      MANUFACTURER='Micrel';
-      DESCRIPTION='3.3V 100ppm 3.2x2.5mm SMD LVDS Oscillator - DSC1103  Series';
-      DATASHEET_URL='http://www.micrel.com/_PDF/clk/DSC1103-23.pdf';
-      PINCOUNT='6';
-      SMD='YES';
-      CASE='3.2mmx2.5mm';
-      JEDEC_TYPE='OSCSC105P250X320X180-6N';
-      VALUE='40.00MHz';
-      POWER_PINS='(GND:3;P3V3C:6)';
-      PARENT_PART_TYPE='DSC1123CI5_SMD';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='DSC1123CI5';
-      PARENT_PPT_PART='DSC1123CI5-50.0000';
-  end_body;
-end_primitive;
 primitive 'INDUCTANCE_0402HP-4.7NH_2%';
   pin
     'B'<0>:
@@ -3931,6 +3870,84 @@ primitive 'RSMD0402_1/16W-4.7K,1%';
       PARENT_PPT_PART='RSMD0402_1/16W-4.7K,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0402_1/16W-49.9,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0402';
+      BODY_NAME='RSMD0402';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0402';
+      SMD='YES';
+      STATUS='Not Preferred';
+      PART_NUMBER='R0402_49R9_1%_0.063W_200PPM';
+      VALUE='49.9';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0402';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0402_1/16W';
+      PARENT_PPT='RSMD0402';
+      PARENT_PPT_PART='RSMD0402_1/16W-49.9,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0402_1/16W-499,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0402';
+      BODY_NAME='RSMD0402';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0402';
+      SMD='YES';
+      STATUS='Not Preferred';
+      PART_NUMBER='R0402_499R_1%_0.063W_100PPM';
+      VALUE='470';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0402';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0402_1/16W';
+      PARENT_PPT='RSMD0402';
+      PARENT_PPT_PART='RSMD0402_1/16W-499,1%';
+  end_body;
+end_primitive;
 primitive 'RSMD0402_1/16W-51,1%';
   pin
     'A'<0>:
@@ -4047,6 +4064,35 @@ primitive 'RSMD0603_1/10W-XX,1%';
       PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_1/10W-XX,1%';
+  end_body;
+end_primitive;
+primitive 'SF-0603S300-2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='SF-0603S300-2';
+      BODY_NAME='SF-0603S300-2';
+      JEDEC_TYPE='C0603';
+      PHYS_DES_PREFIX='F';
+      CLASS='DISCRETE';
   end_body;
 end_primitive;
 primitive 'SI5395A-A-GM-VDD=P1V8A,VDDA=P3A';
@@ -4381,18 +4427,24 @@ Output Jitter Attenuator/Clock Multiplier';
 end_primitive;
 primitive 'SIT5022AI-2CE-33N-250.000000';
   pin
-    'ENDIS':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'OUTP':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUTN':
       PIN_NUMBER='(5)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
+    'OUTP':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'ENDIS':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='SIT5022';
@@ -4410,7 +4462,6 @@ ated Oscillator - SiT5022 Series';
       CASE='7.0x5.0mm';
       JEDEC_TYPE='QFN_5032_6PINS';
       VALUE='250MHz';
-      POWER_PINS='(GND:3;VDD:6)';
       NC_PINS='(2)';
       *='*';
       PARENT_PART_TYPE='SIT5022_145';
