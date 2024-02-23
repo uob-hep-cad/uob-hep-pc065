@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 23-Feb-2024 AT 07:50:29 }
-TIME=' COMPILATION ON 23-Feb-2024 AT 07:50:29';
+{ Packager-XL run on 23-Feb-2024 AT 08:04:10 }
+TIME=' COMPILATION ON 23-Feb-2024 AT 08:04:10';
 primitive '24AA025E48T-I/SN';body '24AA025E48';
     'VCC':'(8)';
     'VSS':'(4)';
@@ -63,6 +63,10 @@ primitive 'CAPCERSMDCL2_0805-10UF,10V_GEN';body 'CAPCERSMDCL2';
     'B'<0>:'(2)';BIDI;
 end_primitive;
 primitive 'CAPCERSMDCL2_0805-22UF,6.3V';body 'CAPCERSMDCL2';
+    'A'<0>:'(1)';BIDI;
+    'B'<0>:'(2)';BIDI;
+end_primitive;
+primitive 'CAPCERSMDCL2_0805-4.7UF,10V';body 'CAPCERSMDCL2';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
 end_primitive;

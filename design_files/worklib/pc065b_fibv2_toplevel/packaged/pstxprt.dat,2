@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 23-Feb-2024 AT 07:43:36 }
+{ Packager-XL run on 23-Feb-2024 AT 07:50:29 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065B_FIBV2_TOPLEVEL';
- POST_TIME='23-Feb-2024 AT 07:43:36';
+ POST_TIME='23-Feb-2024 AT 07:50:29';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -4242,27 +4242,6 @@ SECTION_NUMBER 1
  ROOM='SFP_4',
  PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
 DUNE/library/cnconnector/con20p_sfp/chips/chips.prt';
-
-PART_NAME
- J39 'CON3P-MTLW-103-07-L-S-250':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE7_I14@CNCONNECTOR.CON3P(CHIPS)':
- C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page7_i14@cnconnector.~
-con3p(chips)',
- P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page2_i14@cnconnector.~
-con3p(chips)',
- PATH='I14',
- DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE7',
- TYPE='MTLW-103-07-L-S-250',
- PHYS_PAGE='2',
- XY='(2475,4950)',
- ROT='2',
- VER='1',
- CDS_LIB='cnconnector',
- CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
- PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
-DUNE/library/cnconnector/con3p/chips/chips.prt';
 
 PART_NAME
  J40 'CON4P-MTLW-104-07-L-S-250':;
@@ -12204,8 +12183,8 @@ SECTION_NUMBER 1
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE7',
  SIZE='1',
  PHYS_PAGE='2',
- XY='(1950,4900)',
- ROT='2',
+ XY='(3575,4775)',
+ ROT='0',
  VER='1',
  PACK_TYPE='HOLE',
  CDS_LIB='cnpassive',

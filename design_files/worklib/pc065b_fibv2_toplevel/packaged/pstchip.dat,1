@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 23-Feb-2024 AT 07:35:24 }
+{ Packager-XL run on 23-Feb-2024 AT 07:43:36 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -267,6 +267,29 @@ with Integrated Limiting Amp';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='ADN2814';
       PARENT_PPT_PART='ADN2814ACPZ';
+  end_body;
+end_primitive;
+primitive 'BOURNS_SF_0603S300_2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='BI';
+    '2':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='BOURNS_SF_0603S300_2';
+      BODY_NAME='BOURNS_SF_0603S300_2';
+      JEDEC_TYPE='C0603';
+      PHYS_DES_PREFIX='F';
+      CLASS='DISCRETE';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0402-100NF_X7R,16V';

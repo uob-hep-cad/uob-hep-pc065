@@ -71,9 +71,6 @@
   cnpassive capcersmdcl2 *
   page8_i12
 #CELL
-  bris_cds_discrete sit5022 *
-  page8_i120
-#CELL
   cnconnector pcoax *
   page8_i121
 #CELL
@@ -82,12 +79,75 @@
 #CELL
   bris_cds_logic tmp1075ndrlr *
   page8_i124
+#ISCELL
+  cnpower p3v3a *
+  page8_i125
+#ISCELL
+  cnpower gnd *
+  page8_i126
+#CELL
+  cnpassive rsmd0402 *
+  page8_i127
+#CELL
+  cnpassive rsmd0402 *
+  page8_i128
+#ISCELL
+  cnpower p3v3a *
+  page8_i129
 #CELL
   cnpassive capcersmdcl2 *
   page8_i13
+#ISCELL
+  cnpower p3v3a *
+  page8_i130
+#ISCELL
+  cnpower gnd *
+  page8_i131
+#CELL
+  cnpassive rsmd0402 *
+  page8_i132
+#ISCELL
+  cnpower p3v3a *
+  page8_i133
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i134
+#ISCELL
+  cnpower gnd *
+  page8_i135
+#ISCELL
+  cnpower gnd *
+  page8_i137
+#CELL
+  cnpassive rsmd0402 *
+  page8_i139
 #CELL
   cnpassive capcersmdcl2 *
   page8_i14
+#ISCELL
+  cnpower p3v3c *
+  page8_i140
+#ISCELL
+  cnpower gnd *
+  page8_i141
+#ISCELL
+  cnpower gnd *
+  page8_i142
+#CELL
+  cnpassive rsmd0402 *
+  page8_i144
+#CELL
+  cnpassive rsmd0402 *
+  page8_i145
+#CELL
+  cnpassive rsmd0402 *
+  page8_i146
+#ISCELL
+  cnpower gnd *
+  page8_i147
+#CELL
+  bris_cds_discrete sit5022 *
+  page8_i148
 #ISCELL
   standard tap *
   page8_i15
@@ -114,25 +174,7 @@
   page8_i22
 #CELL
   cnpassive rsmd0402 *
-  page8_i25
-#CELL
-  cnpassive rsmd0402 *
-  page8_i26
-#ISCELL
-  cnpower gnd *
-  page8_i27
-#CELL
-  cnpassive rsmd0402 *
-  page8_i28
-#CELL
-  cnpassive rsmd0402 *
-  page8_i29
-#CELL
-  cnpassive rsmd0402 *
   page8_i3
-#CELL
-  cnpassive rsmd0402 *
-  page8_i30
 #ISCELL
   cnpower p1v8a *
   page8_i34
@@ -228,25 +270,7 @@
   page8_i62
 #CELL
   cnpassive rsmd0402 *
-  page8_i63
-#CELL
-  cnpassive rsmd0402 *
-  page8_i64
-#CELL
-  cnpassive rsmd0402 *
   page8_i65
-#CELL
-  cnpassive rsmd0402 *
-  page8_i66
-#CELL
-  cnpassive rsmd0402 *
-  page8_i67
-#CELL
-  cnpassive rsmd0402 *
-  page8_i68
-#ISCELL
-  cnpower gnd *
-  page8_i69
 #CELL
   cnpassive capcersmdcl2 *
   page8_i7
@@ -260,35 +284,8 @@
   cnpower p3v3a *
   page8_i73
 #CELL
-  bris_cds_discrete dsc1123ci5 *
-  page8_i74
-#CELL
-  cnpassive rsmd0402 *
-  page8_i75
-#CELL
-  cnpassive capcersmdcl2 *
-  page8_i76
-#CELL
-  cnpassive capcersmdcl2 *
-  page8_i77
-#CELL
-  cnpassive rsmd0402 *
-  page8_i78
-#CELL
-  cnpassive rsmd0402 *
-  page8_i79
-#CELL
   cnpassive capcersmdcl2 *
   page8_i8
-#ISCELL
-  cnpower gnd *
-  page8_i80
-#CELL
-  cnconnector con3p *
-  page8_i81
-#ISCELL
-  cnpower gnd *
-  page8_i82
 #ISCELL
   cnpower p3v3c *
   page8_i83

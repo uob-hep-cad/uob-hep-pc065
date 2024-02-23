@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 23-Feb-2024 AT 07:35:24 }
-TIME=' COMPILATION ON 23-Feb-2024 AT 07:35:24';
+{ Packager-XL run on 23-Feb-2024 AT 07:43:36 }
+TIME=' COMPILATION ON 23-Feb-2024 AT 07:43:36';
 primitive '24AA025E48T-I/SN';body '24AA025E48';
     'VCC':'(8)';
     'VSS':'(4)';
@@ -41,6 +41,10 @@ primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';body 'ADN2814';
     'DATAOUTN':'(28)';OUT;
     'DATAOUTP':'(29)';OUT;
     'PAD':'(33)';
+end_primitive;
+primitive 'BOURNS_SF_0603S300_2';body 'BOURNS_SF_0603S300_2';
+    '1':'(1)';BIDI;
+    '2':'(2)';BIDI;
 end_primitive;
 primitive 'CAPCERSMDCL2_0402-100NF_X7R,16V';body 'CAPCERSMDCL2';
     'A'<0>:'(1)';BIDI;

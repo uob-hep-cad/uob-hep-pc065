@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 23-Feb-2024 AT 07:35:24 }
+{ Packager-XL run on 23-Feb-2024 AT 07:43:36 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065B_FIBV2_TOPLEVEL';
- POST_TIME='23-Feb-2024 AT 07:35:24';
+ POST_TIME='23-Feb-2024 AT 07:43:36';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -3030,6 +3030,26 @@ SECTION_NUMBER 1
  VALUE='100NF_X7R',
  PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
 DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ F1 'BOURNS_SF_0603S300_2':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE7_I39@CNPOWER.BOURNS_SF_0603S300_2(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page7_i39@cnpower.bour~
+ns_sf_0603s300_2(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page2_i39@cnpower.bour~
+ns_sf_0603s300_2(chips)',
+ PATH='I39',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE7',
+ PHYS_PAGE='2',
+ XY='(2950,4775)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnpower',
+ CDS_PART_NAME='BOURNS_SF_0603S300_2',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpower/bourns_sf_0603s300_2/chips/chips.prt';
 
 PART_NAME
  IC1 '24AA025E48T-I/SN':;

@@ -77,9 +77,6 @@
   cnpassive rsmd0402 *
   page7_i38
 #CELL
-  cnpower bourns_sf_0603s300_2 *
-  page7_i39
-#CELL
   cnpassive capcersmdcl2 *
   page7_i4
 #CELL
@@ -112,6 +109,9 @@
 #CELL
   cnpassive capcersmdcl2 *
   page7_i5
+#CELL
+  bris_cds_discrete sf-0603s300-2 *
+  page7_i50
 #CELL
   cnpassive capcersmdcl2 *
   page7_i6

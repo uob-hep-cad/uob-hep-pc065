@@ -22,4 +22,16 @@
 		<property name="VALUE"  value="47uF"/>
 		<property name="VOLTAGE"  value="10V"/>
 	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_4K7_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="4.7k"/>
+	</component>
+	<component cell="sit5022" library="bris_cds_discrete" partname="SIT5022" partno="" quantity="1" >
+		<property name="PACK_TYPE"  value="145"/>
+		<property name="TYPE"  value="SIT5022AI-2CE-33N-250.000000X"/>
+		<property name="VALUE"  value="250MHz"/>
+	</component>
+	<component cell="sf-0603s300-2" library="bris_cds_discrete" partname="SF-0603S300-2" partno="" quantity="1" >
+	</component>
 </sc:shoppingCart>
