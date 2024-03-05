@@ -16,9 +16,6 @@
 #ISCELL
   cnpower p3va *
   page7_i13
-#CELL
-  cnconnector con3p *
-  page7_i14
 #ISCELL
   cnpower p2v5 *
   page7_i15
@@ -77,11 +74,44 @@
   cnpower p1v3 *
   page7_i35
 #CELL
+  cnpassive rsmd0402 *
+  page7_i38
+#CELL
   cnpassive capcersmdcl2 *
   page7_i4
 #CELL
   cnpassive capcersmdcl2 *
+  page7_i40
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i42
+#ISCELL
+  cnpower p3v3 *
+  page7_i43
+#ISCELL
+  cnpower gnd *
+  page7_i44
+#CELL
+  cnpassive capcersmdcl2 *
+  page7_i45
+#ISCELL
+  cnpower gnd *
+  page7_i46
+#ISCELL
+  cnpower gnd *
+  page7_i47
+#ISCELL
+  cnpower gnd *
+  page7_i48
+#ISCELL
+  cnpower gnd *
+  page7_i49
+#CELL
+  cnpassive capcersmdcl2 *
   page7_i5
+#CELL
+  bris_cds_discrete sf-0603s300-2 *
+  page7_i50
 #CELL
   cnpassive capcersmdcl2 *
   page7_i6

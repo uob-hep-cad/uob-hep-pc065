@@ -2,71 +2,154 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_02.brd     |
-|                                                    Wed Jan 17 17:31:13 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 14:02:58 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- TMP1075NDRLR_SOT-TEXAS INSTRUMA
+  RD_BUF_N<0>  pins MOVED FROM this net (to net name listed on right)
+                                 J7.12           10.8400 26.7000
+                                                                   RD_FPGA_N<0>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_BUF_N<1>  pins MOVED FROM this net (to net name listed on right)
+                                 J12.12          25.0900 26.7000
+                                                                   RD_FPGA_N<1>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_BUF_N<2>  pins MOVED FROM this net (to net name listed on right)
+                                 J16.12          39.3400 26.7000
+                                                                   RD_FPGA_N<2>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_BUF_N<3>  pins MOVED FROM this net (to net name listed on right)
+                                 J20.12          53.5900 26.7000
+                                                                   RD_FPGA_N<3>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_BUF_P<0>  pins MOVED FROM this net (to net name listed on right)
+                                 J7.13           11.6400 26.7000
+                                                                   RD_FPGA_P<0>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_BUF_P<1>  pins MOVED FROM this net (to net name listed on right)
+                                 J12.13          25.8900 26.7000
+                                                                   RD_FPGA_P<1>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_BUF_P<2>  pins MOVED FROM this net (to net name listed on right)
+                                 J16.13          40.1400 26.7000
+                                                                   RD_FPGA_P<2>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_BUF_P<3>  pins MOVED FROM this net (to net name listed on right)
+                                 J20.13          54.3900 26.7000
+                                                                   RD_FPGA_P<3>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_MUX_N<4>  pins MOVED FROM this net (to net name listed on right)
+                                 J36.12          72.5400 26.7000
+                                                                   RD_FPGA_N<4>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_MUX_N<5>  pins MOVED FROM this net (to net name listed on right)
+                                 J32.12          86.7900 26.7000
+                                                                   RD_FPGA_N<5>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_MUX_N<6>  pins MOVED FROM this net (to net name listed on right)
+                                 J28.12          101.040 26.7000
+                                                                 RST_I2C_B_CVCC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_MUX_N<7>  pins MOVED FROM this net (to net name listed on right)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_02.brd     |
-|                                                    Wed Jan 17 17:31:13 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 14:02:58 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC2                 TMP1075NDRLR_SOT-TEXAS INSTRUMA 
- PX3                 PCOAX-U.FL-R-SMT-1(10) 
- PX4                 PCOAX-U.FL-R-SMT-1(10) 
+                                 J24.12          115.290 26.7000
+                                                                   RD_FPGA_N<7>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_MUX_P<4>  pins MOVED FROM this net (to net name listed on right)
+                                 J36.13          73.3400 26.7000
+                                                                   RD_FPGA_P<4>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_MUX_P<5>  pins MOVED FROM this net (to net name listed on right)
+                                 J32.13          87.5900 26.7000
+                                                                   RD_FPGA_P<5>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_MUX_P<6>  pins MOVED FROM this net (to net name listed on right)
+                                 J28.13          101.840 26.7000
+                                                                   RD_FPGA_P<6>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_MUX_P<7>  pins MOVED FROM this net (to net name listed on right)
+                                 J24.13          116.090 26.7000
+                                                                   RD_FPGA_P<7>
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_02.brd     |
-|                                                    Wed Jan 17 17:31:13 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 14:02:58 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C102                CAPCERSMDCL2_0402-100NF_X7R,16V  5.1000 19.6000
+ C103                CAPCERSMDCL2_0805-10UF,10V_GEN  4.7000 16.2000
+ C104                CAPCERSMDCL2_0402-100NF_X7R,16V 19.4000 19.6000
+ C105                CAPCERSMDCL2_0805-10UF,10V_GEN 19.0000 16.2000
+ C106                CAPCERSMDCL2_0402-100NF_X7R,16V 33.6000 19.6000
+ C107                CAPCERSMDCL2_0805-10UF,10V_GEN 33.2000 16.2000
+ C108                CAPCERSMDCL2_0402-100NF_X7R,16V 47.8000 19.6000
+ C109                CAPCERSMDCL2_0805-10UF,10V_GEN 47.4000 16.2000
+ C113                CAPCERSMDCL2_0402-100NF_X7R,16V  8.9000 21.6000
+ C114                CAPCERSMDCL2_0402-100NF_X7R,16V 23.2000 21.6000
+ C115                CAPCERSMDCL2_0402-100NF_X7R,16V 37.4000 21.6000
+ C116                CAPCERSMDCL2_0402-100NF_X7R,16V 51.6000 21.6000
+ IC4                 SY58608UMG-VCC=P2V5    7.9000 18.4000
+ IC5                 SY58608UMG-VCC=P2V5   22.2000 18.4000
+ IC6                 SY58608UMG-VCC=P2V5   36.4000 18.4000
+ IC7                 SY58608UMG-VCC=P2V5   50.6000 18.4000
+ IC21                SN74AVC4T245RSVR_BRIS-VCCA=P2VB 65.7000 18.5000
+ R59                 RSMD0402_-00,          6.9000 21.6000
+ R60                 RSMD0402_0.0625W-XX,1%  9.0000 15.0000
+ R61                 RSMD0402_0.0625W-XX,1%  6.8000 15.0000
+ R63                 RSMD0402_-00,         21.2000 21.6000
+ R64                 RSMD0402_0.0625W-XX,1% 23.3000 15.0000
+ R65                 RSMD0402_0.0625W-XX,1% 21.1000 15.0000
+ R67                 RSMD0402_-00,         35.4000 21.6000
+ R68                 RSMD0402_0.0625W-XX,1% 37.5000 15.0000
+ R69                 RSMD0402_0.0625W-XX,1% 35.3000 15.0000
+ R71                 RSMD0402_-00,         49.6000 21.6000
+ R72                 RSMD0402_0.0625W-XX,1% 51.7000 15.0000
+ R73                 RSMD0402_0.0625W-XX,1% 49.5000 15.0000
+ R176                RSMD0402_1/16W-0R0,1% 68.7000 16.8000
+ R177                RSMD0402_1/16W-0R0,1% 62.9000 16.8000
+ R178                RSMD0402_1/16W-0R0,1% 68.7000 17.9000
+ R179                RSMD0402_1/16W-0R0,1% 62.9000 17.9000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_06.brd     |
+|                                                    Fri Feb 23 14:02:58 2024  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC2.5                          PRIM_FILE      /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/tmp1075ndrlr/chips/chips.prt
- IC2.5                          XY             (-1300,4000)
- PX3.1                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
- PX3.1                          TYPE           U.FL-R-SMT-1(10)
- PX3.1                          XY             (-2075,3550)
- PX4.1                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
- PX4.1                          TYPE           U.FL-R-SMT-1(10)
- PX4.1                          XY             (-2075,3375)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
+ C97.2          55.4000 -5.4000 XY             (-3150,775)
+ C98.2          43.7000 -5.3000 XY             (375,900)
+ IC10.20        53.6000 -5.3000 XY             (-1825,1250)
+ IC23.20        41.8000 -5.3000 XY             (1625,1250)
+ R31.2          59.0000 -6.6000 XY             (-2425,1000)
+ R32.2          52.9000 -8.9000 XY             (-2425,950)
+ R180.2         47.1000 -6.7000 XY             (1025,1000)
+ R181.2         41.1000 -8.9000 XY             (1025,950)
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_02.brd     |
-|                                                    Wed Jan 17 17:31:13 2024  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC2.1                          CDS_PINID      SCL
- IC2.2                          CDS_PINID      GND
- IC2.3                          CDS_PINID      ALERT
- IC2.4                          CDS_PINID      A0
- IC2.5                          CDS_PINID      \v+\
- IC2.6                          CDS_PINID      SDA
- PX3.1                          CDS_PINID      A
- PX4.1                          CDS_PINID      A
-|------------------------------------------------------------------------------|
-|       Comp definitions added:       1                                        |
-|       Components added      :       3                                        |
-|       Pin property added    :       8                                        |
+|       Nets changed          :      16                                        |
+|       Components deleted    :      33                                        |
 |       Slot property added   :       8                                        |
 |                                                                              |
-|   Total ECO changes reported:      20                                        |
+|   Total ECO changes reported:      57                                        |
 |------------------------------------------------------------------------------|

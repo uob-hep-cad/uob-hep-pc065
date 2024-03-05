@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:shoppingCart xmlns:sc="http://www.cadence.com/SPB/shopping_cart" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" checksum="0">
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_0R_1%_0.063W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="0R0"/>
+	</component>
+	<component cell="bourns_sf_0603s300_2" library="cnpower" partname="BOURNS_SF_0603S300_2" partno="" quantity="1" >
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_XX_1%_0.063W" quantity="1" >
+		<property name="PACK_TYPE"  value="0.0625W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="XX"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="GRM21BF51A475ZA01" quantity="1" >
+		<property name="PACK_TYPE"  value="0805"/>
+		<property name="VALUE"  value="4.7uF"/>
+		<property name="VOLTAGE"  value="10V"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC1206_47UF_10V_20%_X5R" quantity="1" >
+		<property name="PACK_TYPE"  value="1206"/>
+		<property name="VALUE"  value="47uF"/>
+		<property name="VOLTAGE"  value="10V"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_4K7_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="4.7k"/>
+	</component>
+	<component cell="sit5022" library="bris_cds_discrete" partname="SIT5022" partno="" quantity="1" >
+		<property name="PACK_TYPE"  value="145"/>
+		<property name="TYPE"  value="SIT5022AI-2CE-33N-250.000000X"/>
+		<property name="VALUE"  value="250MHz"/>
+	</component>
+	<component cell="sf-0603s300-2" library="bris_cds_discrete" partname="SF-0603S300-2" partno="" quantity="1" >
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_499R_1%_0.063W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="499"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_49R9_1%_0.1W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/10W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="49.9"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_49R9_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="49.9"/>
+	</component>
+</sc:shoppingCart>

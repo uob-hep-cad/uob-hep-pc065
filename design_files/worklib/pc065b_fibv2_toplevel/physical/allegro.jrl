@@ -1,87 +1,113 @@
-\t (00:00:15) allegro 17.4 S034 Linux SPB 64-bit Edition
-\t (00:00:15)     Journal start - Wed Jan 17 17:36:25 2024
-\t (00:00:15)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=10307 CPUs=20
-\t (00:00:15) CmdLine= /software/CAD/Cadence/SPB17.40.034/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc065a/git/uob-hep-pc065/design_files/pc065c_fibv2_toplevel.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr17802 -mpshost dilbert.phy.bris.ac.uk
-\t (00:00:15) 
-   (00:00:15) Loading axlcore.cxt 
-   (00:00:15) Searching for nsWare programs v2.62
-   (00:00:15) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
-   (00:00:15) 	NsWare programs must reside in this directory!
-\t (00:00:15) Opening existing design...
-\i (00:00:15) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_03"
-\d (00:00:15) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc065a/git/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_03.brd
-\i (00:00:15) trapsize 2777
-\i (00:00:15) trapsize 2830
-\i (00:00:15) trapsize 2841
-\i (00:00:15) trapsize 2686
-\i (00:00:16) trapsize 4791
-\i (00:00:16) generaledit 
-\i (00:00:24) place manual 
-\i (00:00:24) setwindow form.plc_manual
-\i (00:00:24) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:27) FORM plc_manual tree  IC2 'Components by refdes' 
-\i (00:00:27) FORM plc_manual tree 'MULTISEL YES' IC2 'Components by refdes' 
-\w (00:00:27) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:00:27) Placing IC2 / TMP1075NDRLR_SOT-TEXAS INSTRUMA / SOT_DRL_TEX on Top.
-\i (00:00:31) setwindow pcb
-\i (00:00:31) pick grid -21.4491 -16.3748
-\t (00:00:31) last pick:  -21.4000 -16.4000
-\i (00:00:33) setwindow form.plc_manual
-\i (00:00:33) FORM plc_manual tree  PX3 'Components by refdes' 
-\i (00:00:33) FORM plc_manual tree 'MULTISEL YES' PX3 'Components by refdes' 
-\t (00:00:33) Placing PX3 / PCOAX-U.FL-R-SMT-1(10) / HIROSE_U-FL-R-SMT-1_10 on Top.
-\i (00:00:35) setwindow pcb
-\i (00:00:35) pick grid -8.7045 -18.0996
-\t (00:00:35) last pick:  -8.7000 -18.1000
-\i (00:00:37) setwindow form.plc_manual
-\i (00:00:37) FORM plc_manual tree  PX4 'Components by refdes' 
-\i (00:00:37) FORM plc_manual tree 'MULTISEL YES' PX4 'Components by refdes' 
-\t (00:00:37) Placing PX4 / PCOAX-U.FL-R-SMT-1(10) / HIROSE_U-FL-R-SMT-1_10 on Top.
-\i (00:00:39) setwindow pcb
-\i (00:00:39) pick grid -9.0878 -24.3281
-\t (00:00:39) last pick:  -9.1000 -24.3000
-\i (00:00:41) setwindow form.plc_manual
-\i (00:00:41) FORM plc_manual tree  QZ2 'Components by refdes' 
-\i (00:00:41) FORM plc_manual tree 'MULTISEL YES' QZ2 'Components by refdes' 
-\t (00:00:41) Placing QZ2 / SIT5022AI-2CE-33N-250.000000 / QFN_5032_6PINS on Top.
-\i (00:00:43) setwindow pcb
-\i (00:00:43) pick grid -24.7071 -23.0824
-\t (00:00:43) last pick:  -24.7000 -23.1000
-\i (00:00:44) setwindow form.plc_manual
-\i (00:00:44) FORM plc_manual tree  U1 'Components by refdes' 
-\i (00:00:46) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
-\t (00:00:46) Placing U1 / CDCLVD110_LQFP-TI / LQFP32_080 on Top.
-\i (00:00:48) setwindow pcb
-\i (00:00:48) pick grid 7.2981 -20.5910
-\t (00:00:48) last pick:  7.3000 -20.6000
-\i (00:00:53) setwindow form.plc_manual
-\i (00:00:53) FORM plc_manual done  
-\i (00:00:53) setwindow pcb
-\i (00:00:53) generaledit 
-\i (00:00:55) zoom out 1 
-\i (00:00:55) setwindow pcb
-\i (00:00:55) zoom out 27.7086 -27.5862
-\i (00:00:55) trapsize 9582
-\i (00:00:55) zoom out 1 
-\i (00:00:55) setwindow pcb
-\i (00:00:55) zoom out 54.4682 12.4973
-\i (00:00:55) trapsize 19165
-\i (00:00:56) zoom in 1 
-\i (00:00:56) setwindow pcb
-\i (00:00:56) zoom in 99.6971 126.1445
-\i (00:00:56) trapsize 9582
-\i (00:00:57) roam y 96 
-\i (00:00:57) roam y 96
-\i (00:00:58) roam y 96 
-\i (00:00:58) roam y 96
-\i (00:00:58) roam y 96 
-\i (00:00:58) roam y 96
-\i (00:00:58) roam y 96 
-\i (00:00:58) roam y 96
-\i (00:00:58) roam y 96 
-\i (00:00:58) roam y 96
-\i (00:01:01) save 
-\i (00:01:04) fillin yes 
-\i (00:01:04) generaledit 
-\i (00:02:14) exit 
-\t (00:02:14)     Journal end - Wed Jan 17 17:38:25 2024
+\t (00:00:02) allegro 17.4 S011 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Tue Feb 27 11:24:18 2024
+\t (00:00:02)         Host=ELWE4 User=hastingsp Pid=33780 CPUs=32
+\t (00:00:02) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product PCB_librarian_expert -mpssession hastingsp_ProjectMgr10187 -mpshost ELWE4
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_07"
+\d (00:00:03) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_07.brd
+\i (00:00:03) trapsize 842
+\i (00:00:03) trapsize 865
+\i (00:00:03) trapsize 842
+\i (00:00:03) trapsize 687
+\i (00:00:03) trapsize 699
+\i (00:00:03) trapsize 699
+\i (00:00:05) generaledit 
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 132.652 11.140
+\i (00:00:06) trapsize 350
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 132.652 11.141
+\i (00:00:06) trapsize 175
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 132.652 11.107
+\i (00:00:06) trapsize 87
+\i (00:00:07) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in 131.131 10.880
+\i (00:00:08) trapsize 44
+\i (00:00:09) roam start
+\i (00:00:09) roam x 32
+\i (00:00:09) roam x 16
+\i (00:00:09) roam x 80
+\i (00:00:09) roam y 16
+\i (00:00:09) roam x 48
+\i (00:00:09) roam y 16
+\i (00:00:09) roam end
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 131.772 11.042
+\i (00:00:09) trapsize 22
+\i (00:00:10) roam start
+\i (00:00:10) roam x 32
+\i (00:00:10) roam x 64
+\i (00:00:10) roam y 16
+\i (00:00:10) roam x 80
+\i (00:00:10) roam x 16
+\i (00:00:10) roam end
+\i (00:00:20) waive drc 
+\t (00:00:20) Select DRC to waive.
+\i (00:00:21) pick grid 132.645 11.437
+\t (00:00:21) last pick:  132.600 11.400
+\i (00:00:22) pick grid 132.636 11.389
+\t (00:00:22) last pick:  132.600 11.400
+\i (00:00:24) prepopup 132.527 11.328
+\i (00:00:25) cancel 
+\i (00:00:25) generaledit 
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 131.797 11.385
+\i (00:00:25) trapsize 44
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 131.797 11.384
+\i (00:00:26) trapsize 87
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 131.797 11.385
+\i (00:00:26) trapsize 175
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 136.587 20.336
+\i (00:00:28) trapsize 87
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 136.639 20.389
+\i (00:00:28) trapsize 44
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 136.648 20.389
+\i (00:00:28) trapsize 22
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 136.648 20.394
+\i (00:00:28) trapsize 11
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 136.677 20.277
+\i (00:00:28) trapsize 22
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 136.676 20.272
+\i (00:00:28) trapsize 44
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 136.677 20.273
+\i (00:00:28) trapsize 87
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 136.676 20.255
+\i (00:00:28) trapsize 175
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 137.446 17.597
+\i (00:00:29) trapsize 350
+\i (00:00:31) exit 
+\e (00:00:31) Do you want to save the changes you made to pc065c_fibv2_toplevel_07.brd?
+\i (00:00:32) fillin no 
+\t (00:00:34)     Journal end - Tue Feb 27 11:24:51 2024
