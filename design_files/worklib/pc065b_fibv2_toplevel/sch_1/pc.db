@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Fri Feb 23 14:02:40 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Tue Mar 12 13:48:32 2024
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -1040,9 +1040,6 @@
 #ISCELL
   standard outport *
   page8_i161
-#ISCELL
-  cnpower p3v3b *
-  page8_i163
 #CELL
   cnpassive rsmd0402 *
   page8_i164
@@ -1059,8 +1056,8 @@
   cnpassive capcersmdcl2 *
   page8_i168
 #ISCELL
-  cnpower p3v3b *
-  page8_i36
+  cnpower p2v5 *
+  page8_i169
 #ISCELL
   standard inport *
   page8_i39
@@ -1068,23 +1065,11 @@
   standard inport *
   page8_i40
 #ISCELL
-  standard outport *
-  page8_i61
-#ISCELL
-  standard outport *
-  page8_i62
-#ISCELL
   standard inport *
   page8_i70
 #ISCELL
-  standard inport *
-  page8_i72
-#ISCELL
   cnpower p3v3a *
   page8_i73
-#ISCELL
-  cnpower p3v3c *
-  page8_i83
 #CELL
   cnpassive rsmd0402 *
   page8_i84
@@ -1106,9 +1091,6 @@
 #CELL
   cndiscrete inductance *
   page8_i91
-#ISCELL
-  cnpower p3v3 *
-  page8_i92
 #CELL
   cnpassive capcersmdcl2 *
   page8_i93

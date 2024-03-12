@@ -3,12 +3,12 @@
 <ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_17.4/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Fri Feb 23 14:02:58 2024
+    <Entry Name="Report time">Tue Mar 12 12:13:19 2024
 </Entry>
     <Entry Name="Software version">17.4 (S011)</Entry>
-    <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_06.brd</Entry>
+    <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_07.brd</Entry>
     <Entry Name="Schematic">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\packaged\pstcmdb.dat</Entry>
-    <Entry Name="Baseline File">C:\Users\HASTIN~1\AppData\Local\Temp\#Taaaaai29252.tmp</Entry>
+    <Entry Name="Baseline File">C:\Users\HASTIN~1\AppData\Local\Temp\#Taaaaai33212.tmp</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Diff3</Entry>
     <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
@@ -17,14 +17,7 @@
 
   <Tree>
     <Item Filter="0x1" Name="Summary" Ref="main-summary">
-      <Item Filter="0x0" Name="Buses [5]" Ref="13">
-        <Item Filter="0x0" Name="MUX_SEL" Ref="d"/>
-        <Item Filter="0x0" Name="RD_BUF_N" Ref="11"/>
-        <Item Filter="0x0" Name="RD_BUF_P" Ref="10"/>
-        <Item Filter="0x0" Name="RD_MUX_N" Ref="f"/>
-        <Item Filter="0x0" Name="RD_MUX_P" Ref="e"/>
-      </Item>
-      <Item Filter="0x0" Name="DiffPairs [12]" Ref="12">
+      <Item Filter="0x0" Name="DiffPairs [12]" Ref="d">
         <Item Filter="0x0" Name="CLK_IN&lt;2>" Ref="1"/>
         <Item Filter="0x0" Name="CLK_IN&lt;3>" Ref="2"/>
         <Item Filter="0x0" Name="FMC_LA&lt;10>" Ref="6"/>
@@ -43,10 +36,9 @@
 
   <Summaries>
     <MainSummary ID="main-summary">
-      <ChangedObject Filter="0x0" Name="Buses" ObjNumber="5" Ref="13"/>
-      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="12" Ref="12"/>
+      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="12" Ref="d"/>
     </MainSummary>
-    <GroupSummary ID="12" Name="DiffPairs">
+    <GroupSummary ID="d" Name="DiffPairs">
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLK_IN&lt;2>" Notes="1" Other="0" Ref="1" Reference="0"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLK_IN&lt;3>" Notes="1" Other="0" Ref="2" Reference="0"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA&lt;10>" Notes="1" Other="0" Ref="6" Reference="0"/>
@@ -120,18 +112,6 @@
         <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;9>&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <GroupSummary ID="13" Name="Buses">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="MUX_SEL" Notes="0" Other="0" Ref="d" Reference="0" Status="Deleted"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="RD_BUF_N" Notes="0" Other="0" Ref="11" Reference="0" Status="Deleted"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="RD_BUF_P" Notes="0" Other="0" Ref="10" Reference="0" Status="Deleted"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="RD_MUX_N" Notes="0" Other="0" Ref="f" Reference="0" Status="Deleted"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="RD_MUX_P" Notes="0" Other="0" Ref="e" Reference="0" Status="Deleted"/>
-    </GroupSummary>
-    <ObjectSummary ID="d" Kind="Bus" Name="MUX_SEL" Status="Deleted"/>
-    <ObjectSummary ID="11" Kind="Bus" Name="RD_BUF_N" Status="Deleted"/>
-    <ObjectSummary ID="10" Kind="Bus" Name="RD_BUF_P" Status="Deleted"/>
-    <ObjectSummary ID="f" Kind="Bus" Name="RD_MUX_N" Status="Deleted"/>
-    <ObjectSummary ID="e" Kind="Bus" Name="RD_MUX_P" Status="Deleted"/>
   </Summaries>
 
   <Notes>

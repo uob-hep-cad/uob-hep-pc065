@@ -1,113 +1,29 @@
 \t (00:00:02) allegro 17.4 S011 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Tue Feb 27 11:24:18 2024
-\t (00:00:02)         Host=ELWE4 User=hastingsp Pid=33780 CPUs=32
-\t (00:00:02) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product PCB_librarian_expert -mpssession hastingsp_ProjectMgr10187 -mpshost ELWE4
+\t (00:00:02)     Journal start - Tue Mar 12 12:13:40 2024
+\t (00:00:02)         Host=ELWE4 User=hastingsp Pid=31080 CPUs=32
+\t (00:00:02) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product PCB_librarian_expert -mpssession hastingsp_ProjectMgr25556 -mpshost ELWE4
 \t (00:00:02) 
    (00:00:02) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_07"
-\d (00:00:03) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_07.brd
-\i (00:00:03) trapsize 842
-\i (00:00:03) trapsize 865
-\i (00:00:03) trapsize 842
-\i (00:00:03) trapsize 687
-\i (00:00:03) trapsize 699
-\i (00:00:03) trapsize 699
-\i (00:00:05) generaledit 
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in 132.652 11.140
-\i (00:00:06) trapsize 350
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in 132.652 11.141
-\i (00:00:06) trapsize 175
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in 132.652 11.107
-\i (00:00:06) trapsize 87
-\i (00:00:07) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in 131.131 10.880
-\i (00:00:08) trapsize 44
-\i (00:00:09) roam start
-\i (00:00:09) roam x 32
-\i (00:00:09) roam x 16
-\i (00:00:09) roam x 80
-\i (00:00:09) roam y 16
-\i (00:00:09) roam x 48
-\i (00:00:09) roam y 16
-\i (00:00:09) roam end
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in 131.772 11.042
-\i (00:00:09) trapsize 22
-\i (00:00:10) roam start
-\i (00:00:10) roam x 32
-\i (00:00:10) roam x 64
-\i (00:00:10) roam y 16
-\i (00:00:10) roam x 80
-\i (00:00:10) roam x 16
-\i (00:00:10) roam end
-\i (00:00:20) waive drc 
-\t (00:00:20) Select DRC to waive.
-\i (00:00:21) pick grid 132.645 11.437
-\t (00:00:21) last pick:  132.600 11.400
-\i (00:00:22) pick grid 132.636 11.389
-\t (00:00:22) last pick:  132.600 11.400
-\i (00:00:24) prepopup 132.527 11.328
-\i (00:00:25) cancel 
-\i (00:00:25) generaledit 
-\i (00:00:25) zoom out 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom out 131.797 11.385
-\i (00:00:25) trapsize 44
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out 131.797 11.384
-\i (00:00:26) trapsize 87
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out 131.797 11.385
-\i (00:00:26) trapsize 175
-\i (00:00:28) zoom in 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom in 136.587 20.336
-\i (00:00:28) trapsize 87
-\i (00:00:28) zoom in 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom in 136.639 20.389
-\i (00:00:28) trapsize 44
-\i (00:00:28) zoom in 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom in 136.648 20.389
-\i (00:00:28) trapsize 22
-\i (00:00:28) zoom in 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom in 136.648 20.394
-\i (00:00:28) trapsize 11
-\i (00:00:28) zoom out 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom out 136.677 20.277
-\i (00:00:28) trapsize 22
-\i (00:00:28) zoom out 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom out 136.676 20.272
-\i (00:00:28) trapsize 44
-\i (00:00:28) zoom out 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom out 136.677 20.273
-\i (00:00:28) trapsize 87
-\i (00:00:28) zoom out 1 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) zoom out 136.676 20.255
-\i (00:00:28) trapsize 175
-\i (00:00:29) zoom out 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom out 137.446 17.597
-\i (00:00:29) trapsize 350
-\i (00:00:31) exit 
-\e (00:00:31) Do you want to save the changes you made to pc065c_fibv2_toplevel_07.brd?
-\i (00:00:32) fillin no 
-\t (00:00:34)     Journal end - Tue Feb 27 11:24:51 2024
+\t (00:00:04) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_07"
+\d (00:00:05) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_07.brd
+\i (00:00:05) trapsize 842
+\i (00:00:05) trapsize 865
+\i (00:00:05) trapsize 842
+\i (00:00:05) trapsize 687
+\i (00:00:05) trapsize 699
+\i (00:00:05) trapsize 699
+\i (00:00:06) generaledit 
+\i (00:05:07) drc update 
+\t (00:05:07) Performing DRC...
+\t (00:05:07) The number of threads for DRC checking is reduced from 32 to the maximum supported (16).
+\t (00:05:07) Multithreaded DRC update (16 threads).
+\t (00:05:07) DRC done; 2008 errors detected.
+\i (00:05:07) generaledit 
+\i (00:05:10) save 
+\i (00:05:11) fillin yes 
+\i (00:05:12) generaledit 
+\i (00:05:15) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:05:18) QtSignal CVPLayerGrid CVPAllConductors clicked false
+\i (00:05:20) exit 
+\t (00:05:23)     Journal end - Tue Mar 12 12:19:01 2024

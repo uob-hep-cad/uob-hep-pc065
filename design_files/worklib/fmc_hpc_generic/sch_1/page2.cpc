@@ -31,6 +31,12 @@
 #ISCELL
   standard inport *
   page2_i107
+#CELL
+  bris_cds_discrete sf-0603s300-2 *
+  page2_i108
+#ISCELL
+  cnpower p3v3 *
+  page2_i109
 #ISCELL
   standard outport *
   page2_i11
@@ -163,9 +169,6 @@
 #ISCELL
   standard outport *
   page2_i50
-#ISCELL
-  cnpower p3v3 *
-  page2_i51
 #CELL
   cnpassive rsmd0402 *
   page2_i52
@@ -223,9 +226,6 @@
 #ISCELL
   standard tap *
   page2_i69
-#ISCELL
-  cnpower p3v3 *
-  page2_i7
 #ISCELL
   standard tap *
   page2_i70
