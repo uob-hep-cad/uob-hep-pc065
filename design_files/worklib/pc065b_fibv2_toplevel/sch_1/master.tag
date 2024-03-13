@@ -9,6 +9,5 @@ page8.csa
 page9.csa
 page10.csa
 page11.csa
-page12.csa
 pc065b_fibv2_toplevel.xcon
 pc065b_fibv2_toplevel.dcf
