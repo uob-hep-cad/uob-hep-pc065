@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 23-Feb-2024 AT 14:02:48 }
+{ Packager-XL run on 12-Mar-2024 AT 12:13:04 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065B_FIBV2_TOPLEVEL';
- POST_TIME='23-Feb-2024 AT 14:02:48';
+ POST_TIME='12-Mar-2024 AT 12:13:04';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -2392,6 +2392,28 @@ crete.\sf-0603s300-2\(chips)',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE7',
  PHYS_PAGE='2',
  XY='(2950,4775)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='bris_cds_discrete',
+ CDS_PART_NAME='SF-0603S300-2',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cds_discrete/sf#2d0603s300#2d2/chips/chips.prt';
+
+PART_NAME
+ F2 'SF-0603S300-2':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I62@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE2_I108@BRIS_CDS_DISCRETE.SF-0603S300-2(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page4_i62@uob_hep_pc06~
+5a_lib.fmc_hpc_generic(sch_1):page2_i108@bris_cds_discrete.\sf-0603s300-2\(chips~
+)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page3_i62@uob_hep_pc06~
+5a_lib.fmc_hpc_generic(sch_1):page2_i108@bris_cds_discrete.\sf-0603s300-2\(chips~
+)',
+ PATH='I108',
+ DRAWING='@UOB_HEP_PC065A_LIB.FMC_HPC_GENERIC(SCH_1):PAGE2',
+ PHYS_PAGE='2',
+ XY='(475,650)',
  ROT='0',
  VER='1',
  CDS_LIB='bris_cds_discrete',

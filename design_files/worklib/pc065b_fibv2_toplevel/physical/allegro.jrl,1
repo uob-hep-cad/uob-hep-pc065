@@ -1,8 +1,8 @@
-\t (00:00:04) allegro 17.4 S011 Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Tue Mar 12 09:05:33 2024
-\t (00:00:04)         Host=ELWE4 User=hastingsp Pid=4788 CPUs=32
-\t (00:00:04) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product PCB_librarian_expert -mpssession hastingsp_ProjectMgr25556 -mpshost ELWE4
-\t (00:00:04) 
+\t (00:00:03) allegro 17.4 S011 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Mar 13 08:00:43 2024
+\t (00:00:03)         Host=ELWE4 User=hastingsp Pid=22124 CPUs=32
+\t (00:00:03) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product PCB_librarian_expert -mpssession hastingsp_ProjectMgr31477 -mpshost ELWE4
+\t (00:00:03) 
    (00:00:04) Loading axlcore.cxt 
 \t (00:00:05) Opening existing design...
 \i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_07"
@@ -12,40 +12,23 @@
 \i (00:00:06) trapsize 842
 \i (00:00:06) trapsize 687
 \i (00:00:06) trapsize 699
-\i (00:00:06) trapsize 699
+\i (00:00:06) trapsize 715
 \i (00:00:09) generaledit 
-\i (00:00:14) roam start
-\i (00:00:14) roam x 16
-\i (00:00:14) roam x 48
-\i (00:00:14) roam y 16
-\i (00:00:14) roam x 16
-\i (00:00:14) roam y 16
-\i (00:00:14) roam x 16
-\i (00:00:14) roam end
-\i (00:00:14) zoom in 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom in 46.563 13.484
-\i (00:00:14) trapsize 350
-\i (00:00:14) zoom in 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom in 46.912 12.435
-\i (00:00:14) trapsize 175
-\i (00:00:15) zoom out 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom out 56.736 12.016
-\i (00:00:15) trapsize 350
-\i (01:40:52) roam start
-\i (01:40:52) roam x 32
-\i (01:40:52) roam x 16
-\i (01:40:52) roam x 32
-\i (01:40:52) roam end
-\i (02:03:47) zoom out 1 
-\i (02:03:47) setwindow pcb
-\i (02:03:47) zoom out 65.030 30.617
-\i (02:03:47) trapsize 699
-\i (02:03:47) zoom out 1 
-\i (02:03:47) setwindow pcb
-\i (02:03:47) zoom out 65.031 30.617
-\i (02:03:47) trapsize 1399
-\i (02:57:37) exit 
-\t (02:57:40)     Journal end - Tue Mar 12 12:03:09 2024
+\i (00:00:41) place manual 
+\i (00:00:41) setwindow form.plc_manual
+\i (00:00:41) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:42) FORM plc_manual tree  F2 'Components by refdes' 
+\i (00:00:42) FORM plc_manual tree 'MULTISEL YES' F2 'Components by refdes' 
+\t (00:00:42) Placing F2 / SF-0603S300-2 / C0603 on Top.
+\i (00:00:43) setwindow pcb
+\i (00:00:43) pick grid 144.497 60.463
+\t (00:00:43) last pick:  144.500 60.500
+\i (00:00:44) setwindow form.plc_manual
+\i (00:00:44) FORM plc_manual done  
+\i (00:00:44) setwindow pcb
+\i (00:00:44) generaledit 
+\i (00:00:46) save 
+\i (00:00:47) fillin yes 
+\i (00:00:48) generaledit 
+\i (00:00:48) exit 
+\t (00:00:51)     Journal end - Wed Mar 13 08:01:31 2024

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : pc065c_fibv2_toplevel_07.brd                  )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Tue Mar 12 12:13:18 2024                      )
+(    Date/Time        : Wed Mar 13 08:01:50 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -27,7 +27,7 @@ CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\
 ------ Preparing to read pst files ------
 
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.46)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.35)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat 
    Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat (00:00:00.01)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat 
@@ -36,13 +36,20 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 ------ Oversights/Warnings/Errors ------
 
 
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol '155060YS73200' used by RefDes DS1 for device 'WURTH_155060YS73200' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
 
 
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai33212.tmp
-	Start time: Tue Mar 12 12:13:19 2024
+	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai02288.tmp
+	Start time: Wed Mar 13 08:01:50 2024
 ===========================================================
 
 
@@ -50,36 +57,36 @@ The constraint difference report file can be viewed using the following command:
 cdnFlowOOSMsg.exe -file "file://///ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/temp/constraints_difference_report.xml"
 
 ===========================================================
-Finished Constraint Update	Time: Tue Mar 12 12:13:19 2024
+Finished Constraint Update	Time: Wed Mar 13 08:01:51 2024
 ===========================================================
 
 ------ Library Paths ------
-MODULEPATH =  . 
-           c:/cadence/spb_17.4/share/local/pcb/modules 
+MODULEPATH =  Y:/Users/CEG/Central Electronics/Projects/Hastingsp/PaMIR/001x/worklib/switcherpsu/physical/ 
+           . 
+           C:/Cadence/SPB_16.5/share/local/pcb/modules 
 
-PSMPATH =  . 
-           symbols 
+PSMPATH =  //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/mu3e/dev/worklib/top/physical 
+           . 
            .. 
-           ../symbols 
-           c:/cadence/spb_17.4/share/local/pcb/symbols 
-           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           Y:/Users/CEG/Central Electronics/Projects/Hastingsp/SLHC/Potting Wirebond Tests/footprints/ 
+           Y:/Users/CEG/Central Electronics/Projects/Hastingsp/SLHC/130nm Double Sided Tape Designs Jan 2018/footprints/ 
+           Y:/users/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/symbols/ 
+           Y:/users/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/formats/ 
 
 PADPATH =  . 
-           symbols 
            .. 
-           ../symbols 
-           c:/cadence/spb_17.4/share/local/pcb/padstacks 
-           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/mu3e/dev/worklib/top/physical 
+           //ppfs6.physics.ox.ac.uk/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/pads 
+           Y:/Users/CEG/Central Electronics/Projects/Hastingsp/SLHC/130nm Double Sided Tape Designs Jan 2018/footprints/ 
+           Y:/users/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/pads/ 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Mar 12 12:13:18 2024
+netrev run on Mar 13 8:01:50 2024
    DESIGN NAME : 'PC065B_FIBV2_TOPLEVEL'
-   PACKAGING ON 12-Mar-2024 AT 12:13:04
+   PACKAGING ON 13-Mar-2024 AT 08:01:35
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -106,8 +113,8 @@ netrev run on Mar 12 12:13:18 2024
 
  No error detected
  No oversight detected
- No warning detected
+  1 warnings detected
 
-cpu time      0:05:44
-elapsed time  0:00:02
+cpu time      0:05:10
+elapsed time  0:00:01
 
