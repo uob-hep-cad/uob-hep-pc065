@@ -2,32 +2,18 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_10.brd     |
-|                                                    Fri Mar 15 07:26:40 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_11.brd     |
+|                                                    Fri Mar 15 10:59:31 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- PX1                 PCOAX-U.FL-R-SMT-1(10)   0.200  -7.200
- PX2                 PCOAX-U.FL-R-SMT-1(10)  -6.900  -8.100
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  FMC_LA_N<29> net RENAMED (to net name listed on right)           RST_I2C_B_CVCC 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RST_I2C_B_CVCC net RENAMED (to net name listed on right)           RD_FPGA_N<6> 
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_10.brd     |
-|                                                    Fri Mar 15 07:26:40 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J1.3            72.100  17.400 XY             (850,1650)
- R93.2           74.000  20.000 XY             (200,1525)
- R94.2           74.000  17.500 XY             (350,1525)
-|------------------------------------------------------------------------------|
-|       Components deleted    :       2                                        |
-|       Slot property added   :       3                                        |
+|       Nets changed          :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       5                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|
