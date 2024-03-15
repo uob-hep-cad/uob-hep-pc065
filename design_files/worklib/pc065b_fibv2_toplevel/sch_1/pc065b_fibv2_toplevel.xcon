@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2024-03-13T10:15:02</modificationTime>
+    <modificationTime>2024-03-15T07:26:05</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065b_fibv2_toplevel" view="sch_1">
       <lastids>
         <instanceid>288</instanceid>
-        <netid>568</netid>
-        <insttermid>4171</insttermid>
+        <netid>573</netid>
+        <insttermid>4227</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -350,21 +350,6 @@
             <term>
               <id>T605</id>
               <name>sda</name>
-              <direction>inout</direction>
-            </term>
-          </terms>
-        </cell>
-        <cell>
-          <id>S35</id>
-          <library>cnconnector</library>
-          <name>pcoax</name>
-          <view>sym_2</view>
-          <parameters>
-          </parameters>
-          <terms>
-            <term>
-              <id>T732</id>
-              <name>a</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -3399,12 +3384,12 @@
           <name>page13_i1</name>
           <powers>
             <power>
-              <name>vss</name>
-              <override>gnd</override>
-            </power>
-            <power>
               <name>vdd</name>
               <override>p3v3</override>
+            </power>
+            <power>
+              <name>vss</name>
+              <override>gnd</override>
             </power>
           </powers>
           <pins>
@@ -3619,12 +3604,12 @@
           <name>page13_i44</name>
           <powers>
             <power>
-              <name>vss</name>
-              <override>gnd</override>
-            </power>
-            <power>
               <name>vdd</name>
               <override>p3v3</override>
+            </power>
+            <power>
+              <name>vss</name>
+              <override>gnd</override>
             </power>
           </powers>
           <pins>
@@ -3879,34 +3864,6 @@
               <lsb>0</lsb>
               <connections>
                 <connection pinmsb="0" pinlsb="0" net="p3v3" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I196</id>
-          <cellid>S35</cellid>
-          <name>page11_i10</name>
-          <pins>
-            <pin>
-              <id>M1676</id>
-              <termid>T732</termid>
-              <connections>
-                <connection net="N9" netmsb="0" netlsb="0" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I197</id>
-          <cellid>S35</cellid>
-          <name>page11_i13</name>
-          <pins>
-            <pin>
-              <id>M1677</id>
-              <termid>T732</termid>
-              <connections>
-                <connection net="N8" netmsb="0" netlsb="0" />
               </connections>
             </pin>
           </pins>
@@ -5876,10 +5833,6 @@
               <scope>interface</scope>
               <direction>input</direction>
             </pageScope>
-            <pageScope number="11">
-              <scope>interface</scope>
-              <direction>output</direction>
-            </pageScope>
           </netScope>
           <netScope ref="clk_in_p">
             <pageScope number="4">
@@ -5889,10 +5842,6 @@
             <pageScope number="8">
               <scope>interface</scope>
               <direction>input</direction>
-            </pageScope>
-            <pageScope number="11">
-              <scope>interface</scope>
-              <direction>output</direction>
             </pageScope>
           </netScope>
           <netScope ref="clk_main_n">
@@ -6641,14 +6590,6 @@
             <pageName>CONNECTORS</pageName>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="clk_in_n">
-                <msb>0</msb>
-                <lsb>0</lsb>
-              </net>
-              <net ref="clk_in_p">
-                <msb>0</msb>
-                <lsb>0</lsb>
-              </net>
               <net ref="gnd"></net>
               <net ref="i2c_scl"></net>
               <net ref="i2c_sda"></net>
@@ -6658,8 +6599,6 @@
               <instance ref="i7"></instance>
               <instance ref="i8"></instance>
               <instance ref="i9"></instance>
-              <instance ref="i10"></instance>
-              <instance ref="i13"></instance>
             </instances>
           </page>
           <page number="12">

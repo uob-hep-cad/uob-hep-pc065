@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 12-Mar-2024 AT 12:13:04 }
+{ Packager-XL run on 13-Mar-2024 AT 08:01:35 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -3687,6 +3687,45 @@ primitive 'RSMD0603_1/10W-XX,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-XX,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0603_1/16W-270,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Not Preferred';
+      PART_NUMBER='R0603_270R_1%_0.063W_100PPM';
+      VALUE='270';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0603_1/16W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/16W-270,1%';
+  end_body;
+end_primitive;
 primitive 'SF-0603S300-2';
   pin
     '1':
@@ -4130,6 +4169,35 @@ pdf';
       PARENT_PART_TYPE='SFP_CAGE_X4';
       PARENT_PPT='SFP_CAGE_X4';
       PARENT_PPT_PART='TYCO_2007132';
+  end_body;
+end_primitive;
+primitive 'WURTH_155060YS73200';
+  pin
+    'K':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='WURTH_155060YS73200';
+      BODY_NAME='WURTH_155060YS73200';
+      JEDEC_TYPE='155060YS73200';
+      PHYS_DES_PREFIX='DS';
+      CLASS='DISCRETE';
   end_body;
 end_primitive;
 END.

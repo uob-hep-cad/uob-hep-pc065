@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 12-Mar-2024 AT 12:13:04 }
-TIME=' COMPILATION ON 12-Mar-2024 AT 12:13:04';
+{ Packager-XL run on 13-Mar-2024 AT 08:01:35 }
+TIME=' COMPILATION ON 13-Mar-2024 AT 08:01:35';
 primitive '24AA025E48T-I/SN';body '24AA025E48';
     'VCC':'(8)';
     'VSS':'(4)';
@@ -565,6 +565,10 @@ primitive 'RSMD0603_1/10W-XX,1%';body 'RSMD0603';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
 end_primitive;
+primitive 'RSMD0603_1/16W-270,1%';body 'RSMD0603';
+    'A'<0>:'(1)';BIDI;
+    'B'<0>:'(2)';BIDI;
+end_primitive;
 primitive 'SF-0603S300-2';body 'SF-0603S300-2';
     '1':'(1)';
     '2':'(2)';
@@ -622,5 +626,9 @@ primitive 'TP_HOLE-0.8MM';body 'TP';
 end_primitive;
 primitive 'TYCO_2007132';body 'SFP_CAGE_X4';
     'NC':'(NC)';
+end_primitive;
+primitive 'WURTH_155060YS73200';body 'WURTH_155060YS73200';
+    'K':'(1)';
+    'A':'(2)';
 end_primitive;
 END.

@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Wed Mar 13 09:09:17 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Fri Mar 15 07:26:07 2024
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -1466,18 +1466,6 @@
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
-#CELL
-  cnconnector pcoax *
-  page11_i10
-#ISCELL
-  standard outport *
-  page11_i11
-#ISCELL
-  standard outport *
-  page11_i12
-#CELL
-  cnconnector pcoax *
-  page11_i13
 #ISCELL
   cnpower p3v3 *
   page11_i3
