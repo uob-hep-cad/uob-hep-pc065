@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 13-Mar-2024 AT 10:15:47 }
+{ Packager-XL run on 15-Mar-2024 AT 07:26:27 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065B_FIBV2_TOPLEVEL';
- POST_TIME='13-Mar-2024 AT 10:15:47';
+ POST_TIME='15-Mar-2024 AT 07:26:27';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -2901,7 +2901,7 @@ con3p(chips)',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE11',
  TYPE='MTLW-103-07-L-S-250',
  PHYS_PAGE='10',
- XY='(2950,3550)',
+ XY='(850,1650)',
  ROT='2',
  VER='1',
  CDS_LIB='cnconnector',
@@ -3791,48 +3791,6 @@ SECTION_NUMBER 1
  VALUE='4.7NH_2%',
  PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
 DUNE/library/cndiscrete/inductance/chips/chips.prt';
-
-PART_NAME
- PX1 'PCOAX-U.FL-R-SMT-1(10)':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE11_I10@CNCONNECTOR.PCOAX(CHIPS)':
- C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page11_i10@cnconnector~
-.pcoax(chips)',
- P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page10_i10@cnconnector~
-.pcoax(chips)',
- PATH='I10',
- DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE11',
- TYPE='U.FL-R-SMT-1(10)',
- PHYS_PAGE='10',
- XY='(-2525,3800)',
- ROT='2',
- VER='2',
- CDS_LIB='cnconnector',
- CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
-DUNE/library/cnconnector/pcoax/chips/chips.prt';
-
-PART_NAME
- PX2 'PCOAX-U.FL-R-SMT-1(10)':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE11_I13@CNCONNECTOR.PCOAX(CHIPS)':
- C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page11_i13@cnconnector~
-.pcoax(chips)',
- P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page10_i13@cnconnector~
-.pcoax(chips)',
- PATH='I13',
- DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE11',
- TYPE='U.FL-R-SMT-1(10)',
- PHYS_PAGE='10',
- XY='(-2525,3650)',
- ROT='2',
- VER='2',
- CDS_LIB='cnconnector',
- CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
-DUNE/library/cnconnector/pcoax/chips/chips.prt';
 
 PART_NAME
  PX3 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -6177,7 +6135,7 @@ md0402(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='10',
- XY='(2300,3425)',
+ XY='(200,1525)',
  ROT='1',
  VER='2',
  PACK_TYPE='0.0625W',
@@ -6211,7 +6169,7 @@ md0402(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='10',
- XY='(2450,3425)',
+ XY='(350,1525)',
  ROT='1',
  VER='2',
  PACK_TYPE='0.0625W',

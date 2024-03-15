@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2024-03-13T09:07:39</modificationTime>
+    <modificationTime>2024-03-13T10:14:17</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065b_fibv2_toplevel" view="sch_1">
       <lastids>
         <instanceid>288</instanceid>
-        <netid>560</netid>
+        <netid>568</netid>
         <insttermid>4171</insttermid>
       </lastids>
       <cells>
@@ -1522,36 +1522,36 @@
           <name>unnamed_13_rsmd0603_i83_a</name>
         </net>
         <net>
-          <id>N548</id>
-          <name>unnamed_13_tca9539_i44_p00</name>
+          <id>N561</id>
+          <name>i2c_led_0</name>
         </net>
         <net>
-          <id>N549</id>
-          <name>unnamed_13_tca9539_i44_p01</name>
+          <id>N562</id>
+          <name>i2c_led_1</name>
         </net>
         <net>
-          <id>N550</id>
-          <name>unnamed_13_tca9539_i44_p02</name>
+          <id>N563</id>
+          <name>i2c_led_2</name>
         </net>
         <net>
-          <id>N551</id>
-          <name>unnamed_13_tca9539_i44_p03</name>
+          <id>N564</id>
+          <name>i2c_led_3</name>
         </net>
         <net>
-          <id>N552</id>
-          <name>unnamed_13_tca9539_i44_p04</name>
+          <id>N565</id>
+          <name>i2c_led_4</name>
         </net>
         <net>
-          <id>N553</id>
-          <name>unnamed_13_tca9539_i44_p05</name>
+          <id>N566</id>
+          <name>i2c_led_5</name>
         </net>
         <net>
-          <id>N554</id>
-          <name>unnamed_13_tca9539_i44_p06</name>
+          <id>N567</id>
+          <name>i2c_led_6</name>
         </net>
         <net>
-          <id>N555</id>
-          <name>unnamed_13_tca9539_i44_p07</name>
+          <id>N568</id>
+          <name>i2c_led_7</name>
         </net>
         <net>
           <id>N20</id>
@@ -3652,56 +3652,48 @@
               <id>M1377</id>
               <termid>T587</termid>
               <connections>
-                <connection net="N548" />
               </connections>
             </pin>
             <pin>
               <id>M1378</id>
               <termid>T588</termid>
               <connections>
-                <connection net="N549" />
               </connections>
             </pin>
             <pin>
               <id>M1379</id>
               <termid>T589</termid>
               <connections>
-                <connection net="N550" />
               </connections>
             </pin>
             <pin>
               <id>M1380</id>
               <termid>T590</termid>
               <connections>
-                <connection net="N551" />
               </connections>
             </pin>
             <pin>
               <id>M1381</id>
               <termid>T591</termid>
               <connections>
-                <connection net="N552" />
               </connections>
             </pin>
             <pin>
               <id>M1382</id>
               <termid>T592</termid>
               <connections>
-                <connection net="N553" />
               </connections>
             </pin>
             <pin>
               <id>M1383</id>
               <termid>T593</termid>
               <connections>
-                <connection net="N554" />
               </connections>
             </pin>
             <pin>
               <id>M1384</id>
               <termid>T594</termid>
               <connections>
-                <connection net="N555" />
               </connections>
             </pin>
             <pin>
@@ -5499,7 +5491,7 @@
               <id>M4084</id>
               <termid>T1594</termid>
               <connections>
-                <connection net="N548" />
+                <connection net="N561" />
               </connections>
             </pin>
             <pin>
@@ -5520,7 +5512,7 @@
               <id>M4086</id>
               <termid>T1594</termid>
               <connections>
-                <connection net="N549" />
+                <connection net="N562" />
               </connections>
             </pin>
             <pin>
@@ -5541,7 +5533,7 @@
               <id>M4088</id>
               <termid>T1594</termid>
               <connections>
-                <connection net="N550" />
+                <connection net="N563" />
               </connections>
             </pin>
             <pin>
@@ -5562,7 +5554,7 @@
               <id>M4090</id>
               <termid>T1594</termid>
               <connections>
-                <connection net="N551" />
+                <connection net="N564" />
               </connections>
             </pin>
             <pin>
@@ -5583,7 +5575,7 @@
               <id>M4092</id>
               <termid>T1594</termid>
               <connections>
-                <connection net="N552" />
+                <connection net="N565" />
               </connections>
             </pin>
             <pin>
@@ -5604,7 +5596,7 @@
               <id>M4094</id>
               <termid>T1594</termid>
               <connections>
-                <connection net="N553" />
+                <connection net="N566" />
               </connections>
             </pin>
             <pin>
@@ -5625,7 +5617,7 @@
               <id>M4096</id>
               <termid>T1594</termid>
               <connections>
-                <connection net="N555" />
+                <connection net="N568" />
               </connections>
             </pin>
             <pin>
@@ -5646,7 +5638,7 @@
               <id>M4098</id>
               <termid>T1594</termid>
               <connections>
-                <connection net="N554" />
+                <connection net="N567" />
               </connections>
             </pin>
             <pin>
@@ -6706,6 +6698,14 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gnd"></net>
+              <net ref="i2c_led_0"></net>
+              <net ref="i2c_led_1"></net>
+              <net ref="i2c_led_2"></net>
+              <net ref="i2c_led_3"></net>
+              <net ref="i2c_led_4"></net>
+              <net ref="i2c_led_5"></net>
+              <net ref="i2c_led_6"></net>
+              <net ref="i2c_led_7"></net>
               <net ref="i2c_scl"></net>
               <net ref="i2c_sda"></net>
               <net ref="p3v3"></net>
@@ -6734,14 +6734,6 @@
               <net ref="unnamed_13_rsmd0603_i81_a"></net>
               <net ref="unnamed_13_rsmd0603_i82_a"></net>
               <net ref="unnamed_13_rsmd0603_i83_a"></net>
-              <net ref="unnamed_13_tca9539_i44_p00"></net>
-              <net ref="unnamed_13_tca9539_i44_p01"></net>
-              <net ref="unnamed_13_tca9539_i44_p02"></net>
-              <net ref="unnamed_13_tca9539_i44_p03"></net>
-              <net ref="unnamed_13_tca9539_i44_p04"></net>
-              <net ref="unnamed_13_tca9539_i44_p05"></net>
-              <net ref="unnamed_13_tca9539_i44_p06"></net>
-              <net ref="unnamed_13_tca9539_i44_p07"></net>
             </nets>
             <instances>
               <instance ref="i1"></instance>
