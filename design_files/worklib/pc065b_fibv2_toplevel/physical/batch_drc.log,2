@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : pc065c_fibv2_toplevel_07.brd                  )
+(    Drawing          : pc065c_fibv2_toplevel_10.brd                  )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Fri Feb 23 14:33:19 2024                      )
+(    Date/Time        : Thu Mar 14 11:00:11 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,10 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  2003
+ ..... Total number of DRC errors  462
+
+
+WARNING: 14 dynamic shape(s) out of date; checking skipped on these elements.
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

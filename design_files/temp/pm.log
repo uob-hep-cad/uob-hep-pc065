@@ -2,35 +2,39 @@ Log File Report from Page Management Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Current Design             :   PC065B_FIBV2_TOPLEVEL
-Current Page List          :   1-13
-Current Total Pages        :   13
-Current Active Page        :   13
+Current Page List          :   1-12
+Current Total Pages        :   12
+Current Active Page        :   8
 
 Command:   Page Delete
 
-   Pages to Delete       :   13
+   Pages to Delete       :   8
    Retain Page Gaps        :   No
 
 
 Details:   Page Delete
 
 	1. Page Edit	1
-	2. Page Delete	13
+	2. Page Delete	8
+	3. Page Move	9	8
+	4. Page Move	10	9
+	5. Page Move	11	10
+	6. Page Move	12	11
 
 
 Results:   Page Delete
 
-   Ending Page List        :   1-12
-   Ending Total Pages      :   12
+   Ending Page List        :   1-11
+   Ending Total Pages      :   11
    Active Page             :   1
 
 Summary:
 
-    Initial Page Count     :  13
-    Final Page Count       :  12
-    Start Time             :  23-Feb-2024 AT 11:27:23
-    End Time               :  23-Feb-2024 AT 11:27:28
-    Elapsed time			:  00:00:05
+    Initial Page Count     :  12
+    Final Page Count       :  11
+    Start Time             :  13-Mar-2024 AT 09:07:30
+    End Time               :  13-Mar-2024 AT 09:07:42
+    Elapsed time			:  00:00:12
 
 Page Delete command completed successfully.
 

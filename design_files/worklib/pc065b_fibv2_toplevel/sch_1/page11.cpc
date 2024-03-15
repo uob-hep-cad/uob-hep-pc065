@@ -1,36 +1,39 @@
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
-#CELL
-  cnconnector pcoax *
-  page11_i10
-#ISCELL
-  standard outport *
-  page11_i11
-#ISCELL
-  standard outport *
-  page11_i12
-#CELL
-  cnconnector pcoax *
-  page11_i13
-#ISCELL
-  cnpower p3v3 *
-  page11_i3
-#ISCELL
-  cnpower gnd *
-  page11_i4
 #ISCELL
   standard ioport *
-  page11_i5
+  page5_i10
 #ISCELL
-  standard outport *
-  page11_i6
-#CELL
-  cnconnector con3p *
-  page11_i7
+  standard inport *
+  page5_i11
+#ISCELL
+  cnpower gnd *
+  page5_i12
+#ISCELL
+  cnpower p3v3 *
+  page5_i13
 #CELL
   cnpassive rsmd0402 *
-  page11_i8
+  page5_i2
 #CELL
   cnpassive rsmd0402 *
-  page11_i9
+  page5_i3
+#ISCELL
+  cnpower p3v3 *
+  page5_i4
+#ISCELL
+  cnpower gnd *
+  page5_i5
+#CELL
+  cnpassive capcersmdcl2 *
+  page5_i6
+#CELL
+  cnpassive rsmd0402 *
+  page5_i7
+#CELL
+  cnpassive rsmd0402 *
+  page5_i8
+#CELL
+  cnmemory 24aa025e48 *
+  page5_i9

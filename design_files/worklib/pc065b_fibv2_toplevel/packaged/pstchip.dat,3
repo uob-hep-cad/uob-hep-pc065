@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 23-Feb-2024 AT 11:29:12 }
+{ Packager-XL run on 13-Mar-2024 AT 10:15:47 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -3295,45 +3295,6 @@ primitive 'PCOAX-U.FL-R-SMT-1(10)';
       PARENT_PPT_PART='PCOAX-U.FL-R-SMT-1(10)';
   end_body;
 end_primitive;
-primitive 'RSMD0402_-00,';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0402';
-      BODY_NAME='RSMD0402';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='0402 Size SMD Jumper';
-      CASE='0402';
-      SMD='YES';
-      STATUS='Not Preferred';
-      PART_NUMBER='R0402_00_JUMPER';
-      VALUE='00';
-      TOL='';
-      PWR='';
-      JEDEC_TYPE='C0402';
-      MANUFACTURER='GENERIC';
-      PARENT_PART_TYPE='RSMD0402_';
-      PARENT_PPT='RSMD0402';
-      PARENT_PPT_PART='RSMD0402_-00,';
-  end_body;
-end_primitive;
 primitive 'RSMD0402_0.0625W-XX,1%';
   pin
     'A'<0>:
@@ -3726,6 +3687,45 @@ primitive 'RSMD0603_1/10W-XX,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-XX,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0603_1/16W-270,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Not Preferred';
+      PART_NUMBER='R0603_270R_1%_0.063W_100PPM';
+      VALUE='270';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0603_1/16W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/16W-270,1%';
+  end_body;
+end_primitive;
 primitive 'SF-0603S300-2';
   pin
     '1':
@@ -3797,131 +3797,6 @@ ated Oscillator - SiT5022 Series';
       PARENT_PART_TYPE='SIT5022_145';
       PARENT_PPT='SIT5022';
       PARENT_PPT_PART='SIT5022AI-2CE-33N-250.000000';
-  end_body;
-end_primitive;
-primitive 'SN74AVC4T245RSVR_BRIS-VCCA=P2VB';
-  pin
-    '2DIR':
-      PIN_NUMBER='(5,5,0,0)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '2A'<0>:
-      PIN_NUMBER='(9,8,0,0)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    '2OE*':
-      PIN_NUMBER='(16,16,0,0)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '2B'<0>:
-      PIN_NUMBER='(12,13,0,0)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    '1OE*':
-      PIN_NUMBER='(0,0,1,1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '1DIR':
-      PIN_NUMBER='(0,0,4,4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    '1A'<0>:
-      PIN_NUMBER='(0,0,7,6)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    '1B'<0>:
-      PIN_NUMBER='(0,0,14,15)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='74AVC4T245_BRIS';
-      BODY_NAME='74AVC4T245_BRIS';
-      PHYS_DES_PREFIX='IC';
-      CLASS='IC';
-      GROUND_NETS='GND';
-      STATUS='Preferred';
-      PART_NUMBER='SN74AVC4T245RSVR';
-      MANUFACTURER='TEXAS INSTRUMENTS';
-      DESCRIPTION='4-Bit Dual-Supply Bus Transceiver with Configurable Voltage T~
-ranslation and 3-State Outputs';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/sn74avc4t245.~
-pdf';
-      PINCOUNT='16';
-      SMD='YES';
-      CASE='UQFN';
-      JEDEC_TYPE='UQFN_16PIN';
-      POWER_PINS='(GND:10,11;P2V5:3;P3V3:2)';
-      PARENT_PART_TYPE='74AVC4T245_BRIS_UQFN';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='74AVC4T245_BRIS';
-      PARENT_PPT_PART='SN74AVC4T245RSVR_BRIS';
-  end_body;
-end_primitive;
-primitive 'SY58608UMG-VCC=P2V5';
-  pin
-    'VREF-AC':
-      PIN_NUMBER='(3)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q0':
-      PIN_NUMBER='(12)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q0*':
-      PIN_NUMBER='(11)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q1':
-      PIN_NUMBER='(10)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q1*':
-      PIN_NUMBER='(9)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'VT':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'IN*':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'IN':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-  end_pin;
-  body
-      PART_NAME='SY58608U';
-      BODY_NAME='SY58608U';
-      PHYS_DES_PREFIX='IC';
-      CLASS='IC';
-      GROUND_NETS='GND';
-      STATUS='Preferred';
-      PART_NUMBER='SY58608UMG';
-      MANUFACTURER='MICREL';
-      DESCRIPTION='3.2Gbps Precision, 1:2 LVDS Fanout Buffer with Internal Termi~
-nation and Fail Safe Input';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/sy58608u.pdf';
-      PINCOUNT='17';
-      SMD='YES';
-      CASE='QFN16';
-      JEDEC_TYPE='QFN50P300X300X90-17N-S160';
-      POWER_PINS='(P2V5:5,8,13,16;GND:6,7,14,15,17)';
-      PARENT_PART_TYPE='SY58608U_QFN';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='SY58608U';
-      PARENT_PPT_PART='SY58608UMG';
   end_body;
 end_primitive;
 primitive 'TCA9539AHF-VDD=P3V3,VSS=GND';
@@ -4294,6 +4169,35 @@ pdf';
       PARENT_PART_TYPE='SFP_CAGE_X4';
       PARENT_PPT='SFP_CAGE_X4';
       PARENT_PPT_PART='TYCO_2007132';
+  end_body;
+end_primitive;
+primitive 'WURTH_155060YS73200';
+  pin
+    'K':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='WURTH_155060YS73200';
+      BODY_NAME='WURTH_155060YS73200';
+      JEDEC_TYPE='155060YS73200';
+      PHYS_DES_PREFIX='DS';
+      CLASS='DISCRETE';
   end_body;
 end_primitive;
 END.

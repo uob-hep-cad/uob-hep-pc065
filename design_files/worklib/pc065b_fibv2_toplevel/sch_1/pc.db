@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Fri Feb 23 14:02:40 2024
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/18/2020 on Fri Mar 15 07:26:07 2024
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -251,6 +251,15 @@
 #ISCELL
   standard ioport *
   page4_i133
+#ISCELL
+  standard tap *
+  page4_i134
+#ISCELL
+  standard tap *
+  page4_i135
+#ISCELL
+  standard tap *
+  page4_i136
 #ISCELL
   standard tap *
   page4_i14
@@ -1040,9 +1049,6 @@
 #ISCELL
   standard outport *
   page8_i161
-#ISCELL
-  cnpower p3v3b *
-  page8_i163
 #CELL
   cnpassive rsmd0402 *
   page8_i164
@@ -1059,8 +1065,8 @@
   cnpassive capcersmdcl2 *
   page8_i168
 #ISCELL
-  cnpower p3v3b *
-  page8_i36
+  cnpower p2v5 *
+  page8_i169
 #ISCELL
   standard inport *
   page8_i39
@@ -1068,23 +1074,11 @@
   standard inport *
   page8_i40
 #ISCELL
-  standard outport *
-  page8_i61
-#ISCELL
-  standard outport *
-  page8_i62
-#ISCELL
   standard inport *
   page8_i70
 #ISCELL
-  standard inport *
-  page8_i72
-#ISCELL
   cnpower p3v3a *
   page8_i73
-#ISCELL
-  cnpower p3v3c *
-  page8_i83
 #CELL
   cnpassive rsmd0402 *
   page8_i84
@@ -1106,9 +1100,6 @@
 #CELL
   cndiscrete inductance *
   page8_i91
-#ISCELL
-  cnpower p3v3 *
-  page8_i92
 #CELL
   cnpassive capcersmdcl2 *
   page8_i93
@@ -1130,9 +1121,6 @@
 #ISCELL
   cnpower p3v3 *
   page8_i99
-#ISCELL
-  bris_cds_standard bris_std_a3 *
-  *
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -1338,9 +1326,6 @@
   standard outport *
   page13_i24
 #ISCELL
-  standard outport *
-  page13_i26
-#ISCELL
   standard inport *
   page13_i3
 #ISCELL
@@ -1397,18 +1382,6 @@
 #ISCELL
   standard inport *
   page13_i53
-#ISCELL
-  standard inport *
-  page13_i54
-#ISCELL
-  standard inport *
-  page13_i55
-#ISCELL
-  standard inport *
-  page13_i56
-#ISCELL
-  standard inport *
-  page13_i57
 #CELL
   cnpassive capcersmdcl2 *
   page13_i58
@@ -1430,30 +1403,69 @@
 #ISCELL
   cnpower gnd *
   page13_i63
+#CELL
+  bris_cds_discrete wurth_155060ys73200 *
+  page13_i64
+#CELL
+  bris_cds_discrete wurth_155060ys73200 *
+  page13_i65
+#CELL
+  bris_cds_discrete wurth_155060ys73200 *
+  page13_i66
+#CELL
+  bris_cds_discrete wurth_155060ys73200 *
+  page13_i67
+#CELL
+  bris_cds_discrete wurth_155060ys73200 *
+  page13_i68
+#CELL
+  bris_cds_discrete wurth_155060ys73200 *
+  page13_i69
 #ISCELL
   cnpower gnd *
   page13_i7
 #CELL
+  bris_cds_discrete wurth_155060ys73200 *
+  page13_i73
+#CELL
+  bris_cds_discrete wurth_155060ys73200 *
+  page13_i75
+#CELL
+  cnpassive rsmd0603 *
+  page13_i76
+#CELL
+  cnpassive rsmd0603 *
+  page13_i77
+#CELL
+  cnpassive rsmd0603 *
+  page13_i78
+#CELL
+  cnpassive rsmd0603 *
+  page13_i79
+#CELL
   cnpassive rsmd0402 *
   page13_i8
+#CELL
+  cnpassive rsmd0603 *
+  page13_i80
+#CELL
+  cnpassive rsmd0603 *
+  page13_i81
+#CELL
+  cnpassive rsmd0603 *
+  page13_i82
+#CELL
+  cnpassive rsmd0603 *
+  page13_i83
+#ISCELL
+  cnpower gnd *
+  page13_i84
 #ISCELL
   standard tap *
   page13_i9
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
-#CELL
-  cnconnector pcoax *
-  page11_i10
-#ISCELL
-  standard outport *
-  page11_i11
-#ISCELL
-  standard outport *
-  page11_i12
-#CELL
-  cnconnector pcoax *
-  page11_i13
 #ISCELL
   cnpower p3v3 *
   page11_i3
