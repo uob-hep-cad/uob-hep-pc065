@@ -1,0 +1,46 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : pc065c_fibv2_toplevel_11.brd                  )
+(    Software Version : 17.4S011                                      )
+(    Date/Time        : Tue Mar 19 09:39:54 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR: in VOID location = (1.074 2.112)
+  class = BOARD GEOMETRY
+  subclass = SILKSCREEN_TOP 
+  Part of Symbol Def UOBLOGO_18MM.
+  ERROR(SPMHDB-187): VOID boundary may not cross itself.
+   Error was fixed.
+       By deleting object with first point location at (1.074 2.112).
+
+ERROR: in VOID location = (5.612 32.574)
+  class = BOARD GEOMETRY
+  subclass = SILKSCREEN_BOTTOM 
+  ERROR(SPMHDB-187): VOID boundary may not cross itself.
+   Error was fixed.
+       By deleting object with first point location at (5.612 32.574).
+
+ERROR: in VOID location = (5.612 47.826)
+  class = BOARD GEOMETRY
+  subclass = SILKSCREEN_TOP 
+  ERROR(SPMHDB-187): VOID boundary may not cross itself.
+   Error was fixed.
+       By deleting object with first point location at (5.612 47.826).
+
+ERROR: in CONNECT LINE (94.075 27.400) - (94.100 27.425)
+  class = ETCH
+  subclass = TOP 
+  ERROR(SPMHA1-415): Line segments cannot overlap.
+   Error was fixed.
+
+Regenerating DRC
+  Original DRC errors:   25
+  Updated DRC errors:    25
+  DRC elapsed time:      00:00:01
+
+0 warnings, 4 errors detected, 4 errors  fixed.
