@@ -2,41 +2,32 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_11.brd     |
-|                                                    Tue Mar 19 10:41:12 2024  |
+|  .../pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd         |
+|                                                    Wed Mar 27 15:14:37 2024  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT PROPERTIES deleted from design                                     |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|   ref  des   |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  250MXTAL_N   pins MOVED FROM this net (to net name listed on right)
-                                 QZ1.5            13.800   8.200
-                                                                     250MXTAL_P
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  250MXTAL_P   pins MOVED FROM this net (to net name listed on right)
-                                 QZ1.4            13.800   9.470
-                                                                     250MXTAL_N
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_8_RSMD0402_I84_B net RENAMED (to net name listed on right)           UNNAMED_8_RSMD0402_I172_B 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+ C31             11.400  37.600 ROOM           SFP_0
+ C32             11.400  49.200 ROOM           SFP_0
+ C33             17.000  40.300 ROOM           SFP_0
+ C34             15.500  41.100 ROOM           SFP_0
+ C35             14.000  40.300 ROOM           SFP_0
+ J7              16.440  41.700 ROOM           SFP_0
+ L4              18.100  40.200 ROOM           SFP_0
+ L5              12.900  40.100 ROOM           SFP_0
+ R22             18.120  33.360 ROOM           SFP_0
+ R23             20.070  33.350 ROOM           SFP_0
+ R24             19.100  49.600 ROOM           SFP_0
+ R25             13.600  49.600 ROOM           SFP_0
+ R26             15.800  49.600 ROOM           SFP_0
+ R27             16.900  49.600 ROOM           SFP_0
+ R28             18.000  49.600 ROOM           SFP_0
+ R29             14.700  49.600 ROOM           SFP_0
+ U3              19.100  29.600 ROOM           SFP_0
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_11.brd     |
-|                                                    Tue Mar 19 10:41:12 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C6.2           -19.700   4.800 XY             (-7300,3050)
- C10.2            2.700 -13.900 XY             (-6875,3050)
- L3.2             1.600  -8.700 XY             (-7050,3225)
- QZ1.6           12.700   8.200 XY             (-6000,3350)
- R3.2            12.700   4.500 XY             (-6525,3250)
-|------------------------------------------------------------------------------|
-|       Nets changed          :       3                                        |
-|       Slot property added   :       5                                        |
+|       Comp property deleted :      17                                        |
 |                                                                              |
-|   Total ECO changes reported:       8                                        |
+|   Total ECO changes reported:      17                                        |
 |------------------------------------------------------------------------------|

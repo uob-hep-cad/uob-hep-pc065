@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc065c_fibv2_toplevel_11.brd                  )
+(    Drawing          : pc065c_fibv2_toplevel_13_fix.brd              )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Tue Mar 19 10:41:12 2024                      )
+(    Date/Time        : Wed Mar 27 15:14:37 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,19 +19,19 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\packaged'
 Design Directory:            '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical'
-Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_11.brd'
-New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_11.brd'
+Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd'
+New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd'
 
-CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -y 1 -z -O \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_11.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_11.brd -q \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -y 1 -z -O \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_13_fix.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_13_fix.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.35)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.33)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat 
    Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat (00:00:00.01)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat (00:00:00.02)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat (00:00:00.03)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -41,45 +41,40 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai26252.tmp
-	Start time: Tue Mar 19 10:41:12 2024
+	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai24200.tmp
+	Start time: Wed Mar 27 15:14:37 2024
 ===========================================================
-
-
-The constraint difference report file can be viewed using the following command:
-cdnFlowOOSMsg.exe -file "file://///ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/temp/constraints_difference_report.xml"
-
 ===========================================================
-Finished Constraint Update	Time: Tue Mar 19 10:41:13 2024
+Finished Constraint Update	Time: Wed Mar 27 15:14:37 2024
 ===========================================================
 
 ------ Library Paths ------
-MODULEPATH =  Y:/Users/CEG/Central Electronics/Projects/Hastingsp/PaMIR/001x/worklib/switcherpsu/physical/ 
-           . 
-           C:/Cadence/SPB_16.5/share/local/pcb/modules 
+MODULEPATH =  . 
+           c:/cadence/spb_17.4/share/local/pcb/modules 
 
-PSMPATH =  //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/mu3e/dev/worklib/top/physical 
-           . 
+PSMPATH =  . 
+           symbols 
            .. 
-           Y:/Users/CEG/Central Electronics/Projects/Hastingsp/SLHC/Potting Wirebond Tests/footprints/ 
-           Y:/Users/CEG/Central Electronics/Projects/Hastingsp/SLHC/130nm Double Sided Tape Designs Jan 2018/footprints/ 
-           Y:/users/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/symbols/ 
-           Y:/users/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/formats/ 
+           ../symbols 
+           c:/cadence/spb_17.4/share/local/pcb/symbols 
+           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
 
 PADPATH =  . 
+           symbols 
            .. 
-           //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/mu3e/dev/worklib/top/physical 
-           //ppfs6.physics.ox.ac.uk/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/pads 
-           Y:/Users/CEG/Central Electronics/Projects/Hastingsp/SLHC/130nm Double Sided Tape Designs Jan 2018/footprints/ 
-           Y:/users/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/pads/ 
+           ../symbols 
+           c:/cadence/spb_17.4/share/local/pcb/padstacks 
+           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Mar 19 10:41:12 2024
+netrev run on Mar 27 15:14:37 2024
    DESIGN NAME : 'PC065B_FIBV2_TOPLEVEL'
-   PACKAGING ON 19-Mar-2024 AT 10:41:00
+   PACKAGING ON 27-Mar-2024 AT 15:14:25
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -108,6 +103,6 @@ netrev run on Mar 19 10:41:12 2024
  No oversight detected
  No warning detected
 
-cpu time      0:03:34
+cpu time      0:03:35
 elapsed time  0:00:01
 
