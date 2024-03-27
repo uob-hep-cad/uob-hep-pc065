@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : pc065c_fibv2_toplevel_11.brd                  )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Tue Mar 19 10:28:46 2024                      )
+(    Date/Time        : Tue Mar 19 10:41:12 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -41,8 +41,8 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai06992.tmp
-	Start time: Tue Mar 19 10:28:46 2024
+	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai26252.tmp
+	Start time: Tue Mar 19 10:41:12 2024
 ===========================================================
 
 
@@ -50,7 +50,7 @@ The constraint difference report file can be viewed using the following command:
 cdnFlowOOSMsg.exe -file "file://///ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/temp/constraints_difference_report.xml"
 
 ===========================================================
-Finished Constraint Update	Time: Tue Mar 19 10:28:46 2024
+Finished Constraint Update	Time: Tue Mar 19 10:41:13 2024
 ===========================================================
 
 ------ Library Paths ------
@@ -77,9 +77,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 19 10:28:45 2024
+netrev run on Mar 19 10:41:12 2024
    DESIGN NAME : 'PC065B_FIBV2_TOPLEVEL'
-   PACKAGING ON 19-Mar-2024 AT 10:28:32
+   PACKAGING ON 19-Mar-2024 AT 10:41:00
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -108,6 +108,6 @@ netrev run on Mar 19 10:28:45 2024
  No oversight detected
  No warning detected
 
-cpu time      0:04:14
-elapsed time  0:00:02
+cpu time      0:03:34
+elapsed time  0:00:01
 

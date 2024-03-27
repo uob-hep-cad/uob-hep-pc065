@@ -3,12 +3,12 @@
 <ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_17.4/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Tue Mar 19 10:28:46 2024
+    <Entry Name="Report time">Tue Mar 19 10:41:12 2024
 </Entry>
     <Entry Name="Software version">17.4 (S011)</Entry>
     <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_11.brd</Entry>
     <Entry Name="Schematic">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\packaged\pstcmdb.dat</Entry>
-    <Entry Name="Baseline File">C:\Users\HASTIN~1\AppData\Local\Temp\#Taaaaai06992.tmp</Entry>
+    <Entry Name="Baseline File">C:\Users\HASTIN~1\AppData\Local\Temp\#Taaaaai26252.tmp</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Diff3</Entry>
     <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
@@ -133,10 +133,10 @@
     <Layer Name="TOP" Type="Conductor"/>
     <Layer Name="L2_GND" Type="Plane"/>
     <Layer Name="L3_SIG" Type="Conductor"/>
-    <Layer Name="L4_GND" Type="Plane"/>
+    <Layer Name="L4_PWR" Type="Plane"/>
     <Layer Name="L5_PWR" Type="Plane"/>
     <Layer Name="L6_SIG" Type="Conductor"/>
-    <Layer Name="L7_PWR" Type="Plane"/>
+    <Layer Name="L7_GND" Type="Plane"/>
     <Layer Name="BOTTOM" Type="Conductor"/>
   </Layers>
 

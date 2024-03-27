@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2024-03-15T10:58:54</modificationTime>
+    <modificationTime>2024-03-19T10:08:27</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065b_fibv2_toplevel" view="sch_1">
       <lastids>
         <instanceid>288</instanceid>
-        <netid>578</netid>
-        <insttermid>4283</insttermid>
+        <netid>583</netid>
+        <insttermid>4339</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1421,16 +1421,6 @@
           <name>unnamed_8_capcersmdcl2_i168_b</name>
         </net>
         <net>
-          <id>N505</id>
-          <name>fanout_ip_sel</name>
-          <scope>interface</scope>
-          <direction>input</direction>
-        </net>
-        <net>
-          <id>N506</id>
-          <name>page4_fanout_ip_sel</name>
-        </net>
-        <net>
           <id>N507</id>
           <name>unnamed_4_fmchpcgeneric_i62_ga0</name>
         </net>
@@ -1453,6 +1443,8 @@
         <net>
           <id>N529</id>
           <name>cdclvd110_ck</name>
+          <scope>interface</scope>
+          <direction>output</direction>
         </net>
         <net>
           <id>N530</id>
@@ -1461,6 +1453,8 @@
         <net>
           <id>N531</id>
           <name>cdclvd110_en</name>
+          <scope>interface</scope>
+          <direction>output</direction>
         </net>
         <net>
           <id>N532</id>
@@ -1469,6 +1463,8 @@
         <net>
           <id>N533</id>
           <name>cdclvd110_si</name>
+          <scope>interface</scope>
+          <direction>output</direction>
         </net>
         <net>
           <id>N534</id>
@@ -1665,8 +1661,6 @@
         <alias net1="N406" lsb1="0" msb1="0" net2="N398" lsb2="-1" msb2="-1" />
         <alias net1="N406" lsb1="0" msb1="1" net2="N405" lsb2="0" msb2="1" />
         <alias net1="N478" lsb1="-1" msb1="-1" net2="N477" lsb2="-1" msb2="-1" />
-        <alias net1="N506" lsb1="-1" msb1="-1" net2="N146" lsb2="32" msb2="32" />
-        <alias net1="N506" lsb1="-1" msb1="-1" net2="N505" lsb2="-1" msb2="-1" />
         <alias net1="N521" lsb1="-1" msb1="-1" net2="N95" lsb2="-1" msb2="-1" />
         <alias net1="N530" lsb1="-1" msb1="-1" net2="N144" lsb2="29" msb2="29" />
         <alias net1="N530" lsb1="-1" msb1="-1" net2="N529" lsb2="-1" msb2="-1" />
@@ -5824,6 +5818,24 @@
         <extension name="schematic_extension">
         <schematicExtension>
         <netScopes>
+          <netScope ref="cdclvd110_ck">
+            <pageScope number="4">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="cdclvd110_en">
+            <pageScope number="4">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
+          <netScope ref="cdclvd110_si">
+            <pageScope number="4">
+              <scope>interface</scope>
+              <direction>output</direction>
+            </pageScope>
+          </netScope>
           <netScope ref="clk_in_n">
             <pageScope number="4">
               <scope>interface</scope>
@@ -5876,12 +5888,6 @@
               <direction>output</direction>
             </pageScope>
             <pageScope number="9">
-              <scope>interface</scope>
-              <direction>input</direction>
-            </pageScope>
-          </netScope>
-          <netScope ref="fanout_ip_sel">
-            <pageScope number="4">
               <scope>interface</scope>
               <direction>input</direction>
             </pageScope>
@@ -6270,7 +6276,6 @@
                 <msb>8</msb>
                 <lsb>8</lsb>
               </net>
-              <net ref="fanout_ip_sel"></net>
               <net ref="fmc_la_n">
                 <msb>33</msb>
                 <lsb>0</lsb>
