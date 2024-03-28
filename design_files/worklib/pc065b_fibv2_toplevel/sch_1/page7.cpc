@@ -73,15 +73,9 @@
 #ISCELL
   cnpower gnd *
   page8_i135
-#ISCELL
-  cnpower gnd *
-  page8_i137
 #CELL
   cnpassive rsmd0402 *
   page8_i139
-#ISCELL
-  cnpower p3v3c *
-  page8_i140
 #ISCELL
   cnpower gnd *
   page8_i141
@@ -100,9 +94,6 @@
 #ISCELL
   cnpower gnd *
   page8_i147
-#CELL
-  bris_cds_discrete sit5022 *
-  page8_i148
 #CELL
   cnpassive rsmd0402 *
   page8_i149
@@ -155,6 +146,33 @@
   cnpower p2v5 *
   page8_i169
 #ISCELL
+  cnpower gnd *
+  page8_i170
+#CELL
+  bris_cds_discrete sit5022 *
+  page8_i171
+#CELL
+  cnpassive rsmd0402 *
+  page8_i172
+#ISCELL
+  cnpower p3v3c *
+  page8_i173
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i174
+#CELL
+  cndiscrete inductance *
+  page8_i175
+#ISCELL
+  cnpower p3v3 *
+  page8_i176
+#ISCELL
+  cnpower gnd *
+  page8_i177
+#CELL
+  cnpassive capcersmdcl2 *
+  page8_i178
+#ISCELL
   standard inport *
   page8_i39
 #ISCELL
@@ -166,24 +184,6 @@
 #ISCELL
   cnpower p3v3a *
   page8_i73
-#CELL
-  cnpassive rsmd0402 *
-  page8_i84
-#CELL
-  cnpassive capcersmdcl2 *
-  page8_i85
-#CELL
-  cnpassive capcersmdcl2 *
-  page8_i86
-#CELL
-  cndiscrete inductance *
-  page8_i87
-#ISCELL
-  cnpower gnd *
-  page8_i88
-#ISCELL
-  cnpower p3v3 *
-  page8_i89
 #CELL
   cndiscrete inductance *
   page8_i91

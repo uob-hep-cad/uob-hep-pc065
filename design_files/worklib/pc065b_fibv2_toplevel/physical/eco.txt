@@ -2,36 +2,32 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_11.brd     |
-|                                                    Tue Mar 19 10:28:46 2024  |
+|  .../pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd         |
+|                                                    Wed Mar 27 15:14:37 2024  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT PROPERTIES deleted from design                                     |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|   ref  des   |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  FANOUT_IP_SEL net RENAMED (to net name listed on right)           FMC_LA_N<32> 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_LA_P<26> net RENAMED (to net name listed on right)           CDCLVD110_SI 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_LA_P<29> net RENAMED (to net name listed on right)           CDCLVD110_CK 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_LA_P<32> net RENAMED (to net name listed on right)           CDCLVD110_EN 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+ C31             11.400  37.600 ROOM           SFP_0
+ C32             11.400  49.200 ROOM           SFP_0
+ C33             17.000  40.300 ROOM           SFP_0
+ C34             15.500  41.100 ROOM           SFP_0
+ C35             14.000  40.300 ROOM           SFP_0
+ J7              16.440  41.700 ROOM           SFP_0
+ L4              18.100  40.200 ROOM           SFP_0
+ L5              12.900  40.100 ROOM           SFP_0
+ R22             18.120  33.360 ROOM           SFP_0
+ R23             20.070  33.350 ROOM           SFP_0
+ R24             19.100  49.600 ROOM           SFP_0
+ R25             13.600  49.600 ROOM           SFP_0
+ R26             15.800  49.600 ROOM           SFP_0
+ R27             16.900  49.600 ROOM           SFP_0
+ R28             18.000  49.600 ROOM           SFP_0
+ R29             14.700  49.600 ROOM           SFP_0
+ U3              19.100  29.600 ROOM           SFP_0
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_11.brd     |
-|                                                    Tue Mar 19 10:28:46 2024  |
-|------------------------------------------------------------------------------|
-| NET PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|     net  name   |   property   |                    value                    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- RD_FPGA_N<6>            BUS_NAME FMC_LA_N
- RD_FPGA_N<6>            BUS_NAME FMC_LA_N
-|------------------------------------------------------------------------------|
-|       Nets changed          :       4                                        |
-|       Net property added    :       2                                        |
+|       Comp property deleted :      17                                        |
 |                                                                              |
-|   Total ECO changes reported:       6                                        |
+|   Total ECO changes reported:      17                                        |
 |------------------------------------------------------------------------------|
