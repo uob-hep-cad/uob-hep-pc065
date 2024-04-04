@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2024-03-19T10:40:45</modificationTime>
+    <modificationTime>2024-04-04T12:13:05</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065b_fibv2_toplevel" view="sch_1">
       <lastids>
-        <instanceid>293</instanceid>
-        <netid>589</netid>
-        <insttermid>4408</insttermid>
+        <instanceid>295</instanceid>
+        <netid>601</netid>
+        <insttermid>4524</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1018,18 +1018,6 @@
           <lsb>0</lsb>
         </net>
         <net>
-          <id>N81</id>
-          <name>rec_clk_fpga_n</name>
-          <scope>interface</scope>
-          <direction>input</direction>
-        </net>
-        <net>
-          <id>N82</id>
-          <name>rec_clk_fpga_p</name>
-          <scope>interface</scope>
-          <direction>input</direction>
-        </net>
-        <net>
           <id>N88</id>
           <name>fmc_la_n</name>
           <scope>interface</scope>
@@ -1309,14 +1297,6 @@
           <lsb>8</lsb>
         </net>
         <net>
-          <id>N397</id>
-          <name>page4_rec_clk_fpga_n</name>
-        </net>
-        <net>
-          <id>N398</id>
-          <name>page4_rec_clk_fpga_p</name>
-        </net>
-        <net>
           <id>N399</id>
           <name>clk_bidir_n</name>
           <msb>1</msb>
@@ -1535,6 +1515,14 @@
           <name>unnamed_8_rsmd0402_i172_b</name>
         </net>
         <net>
+          <id>N595</id>
+          <name>unnamed_4_fmchpcgeneric_i62_tdi</name>
+        </net>
+        <net>
+          <id>N596</id>
+          <name>unnamed_4_fmchpcgeneric_i62_tdo</name>
+        </net>
+        <net>
           <id>N20</id>
           <name>p3v3a</name>
           <scope>global</scope>
@@ -1648,17 +1636,13 @@
         <alias net1="N287" lsb1="1" msb1="1" net2="N9" lsb2="1" msb2="1" />
         <alias net1="N395" lsb1="8" msb1="8" net2="N79" lsb2="8" msb2="8" />
         <alias net1="N396" lsb1="8" msb1="8" net2="N80" lsb2="8" msb2="8" />
-        <alias net1="N397" lsb1="-1" msb1="-1" net2="N81" lsb2="-1" msb2="-1" />
-        <alias net1="N398" lsb1="-1" msb1="-1" net2="N82" lsb2="-1" msb2="-1" />
         <alias net1="N400" lsb1="0" msb1="0" net2="N286" lsb2="1" msb2="1" />
         <alias net1="N400" lsb1="0" msb1="1" net2="N399" lsb2="0" msb2="1" />
         <alias net1="N402" lsb1="0" msb1="0" net2="N287" lsb2="1" msb2="1" />
         <alias net1="N402" lsb1="0" msb1="1" net2="N401" lsb2="0" msb2="1" />
         <alias net1="N404" lsb1="1" msb1="1" net2="N395" lsb2="8" msb2="8" />
-        <alias net1="N404" lsb1="0" msb1="0" net2="N397" lsb2="-1" msb2="-1" />
         <alias net1="N404" lsb1="0" msb1="1" net2="N403" lsb2="0" msb2="1" />
         <alias net1="N406" lsb1="1" msb1="1" net2="N396" lsb2="8" msb2="8" />
-        <alias net1="N406" lsb1="0" msb1="0" net2="N398" lsb2="-1" msb2="-1" />
         <alias net1="N406" lsb1="0" msb1="1" net2="N405" lsb2="0" msb2="1" />
         <alias net1="N478" lsb1="-1" msb1="-1" net2="N477" lsb2="-1" msb2="-1" />
         <alias net1="N521" lsb1="-1" msb1="-1" net2="N95" lsb2="-1" msb2="-1" />
@@ -3278,12 +3262,12 @@
           <name>page13_i1</name>
           <powers>
             <power>
-              <name>vss</name>
-              <override>gnd</override>
-            </power>
-            <power>
               <name>vdd</name>
               <override>p3v3</override>
+            </power>
+            <power>
+              <name>vss</name>
+              <override>gnd</override>
             </power>
           </powers>
           <pins>
@@ -3498,12 +3482,12 @@
           <name>page13_i44</name>
           <powers>
             <power>
-              <name>vss</name>
-              <override>gnd</override>
-            </power>
-            <power>
               <name>vdd</name>
               <override>p3v3</override>
+            </power>
+            <power>
+              <name>vss</name>
+              <override>gnd</override>
             </power>
           </powers>
           <pins>
@@ -5146,12 +5130,14 @@
               <id>M3830</id>
               <termid>T1068</termid>
               <connections>
+                <connection net="N595" />
               </connections>
             </pin>
             <pin>
               <id>M3831</id>
               <termid>T1069</termid>
               <connections>
+                <connection net="N596" />
               </connections>
             </pin>
             <pin>
@@ -5809,6 +5795,56 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I294</id>
+          <cellid>S16</cellid>
+          <name>page4_i140</name>
+          <pins>
+            <pin>
+              <id>M4465</id>
+              <termid>T186</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N595" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M4466</id>
+              <termid>T187</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N596" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I295</id>
+          <cellid>S15</cellid>
+          <name>page7_i51</name>
+          <pins>
+            <pin>
+              <id>M4523</id>
+              <termid>T184</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="gnd" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M4524</id>
+              <termid>T185</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N303" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -6067,18 +6103,6 @@
               <direction>output</direction>
             </pageScope>
           </netScope>
-          <netScope ref="rec_clk_fpga_n">
-            <pageScope number="4">
-              <scope>interface</scope>
-              <direction>input</direction>
-            </pageScope>
-          </netScope>
-          <netScope ref="rec_clk_fpga_p">
-            <pageScope number="4">
-              <scope>interface</scope>
-              <direction>input</direction>
-            </pageScope>
-          </netScope>
           <netScope ref="rst_i2c_b_cvcc">
             <pageScope number="4">
               <scope>interface</scope>
@@ -6298,8 +6322,6 @@
                 <msb>7</msb>
                 <lsb>0</lsb>
               </net>
-              <net ref="rec_clk_fpga_n"></net>
-              <net ref="rec_clk_fpga_p"></net>
               <net ref="rst_i2c_b_cvcc"></net>
               <net ref="sfp_i2c_scl_cvcc">
                 <msb>7</msb>
@@ -6319,6 +6341,8 @@
               </net>
               <net ref="unnamed_4_fmchpcgeneric_i62_ga0"></net>
               <net ref="unnamed_4_fmchpcgeneric_i62_ga1"></net>
+              <net ref="unnamed_4_fmchpcgeneric_i62_tdi"></net>
+              <net ref="unnamed_4_fmchpcgeneric_i62_tdo"></net>
             </nets>
             <instances>
               <instance ref="i2"></instance>
@@ -6327,6 +6351,7 @@
               <instance ref="i55"></instance>
               <instance ref="i62"></instance>
               <instance ref="i63"></instance>
+              <instance ref="i140"></instance>
             </instances>
           </page>
           <page number="5">
@@ -6443,6 +6468,7 @@
               <instance ref="i42"></instance>
               <instance ref="i45"></instance>
               <instance ref="i50"></instance>
+              <instance ref="i51"></instance>
             </instances>
           </page>
           <page number="8">
