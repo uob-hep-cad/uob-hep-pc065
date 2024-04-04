@@ -2,342 +2,82 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd         |
-|                                                    Wed Mar 27 15:11:20 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd     |
+|                                                    Thu Apr  4 11:45:56 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C3              27.800  21.000 ROOM           CLOCK_MODULE
- C4              -5.000  17.800 ROOM           CLOCK_MODULE
- C5               3.700  18.300 ROOM           CLOCK_MODULE
- C6             -19.700   4.800 ROOM           CLOCK_MODULE
- C7              47.700 -16.100 ROOM           CLOCK_MODULE
- C8               2.900  19.900 ROOM           CLOCK_MODULE
- C9              32.100  14.100 ROOM           CLOCK_MODULE
- C10              2.700 -13.900 ROOM           CLOCK_MODULE
- C11             31.300  20.300 ROOM           CLOCK_MODULE
- C12             37.600  -8.400 ROOM           CLOCK_MODULE
- C13             25.500  19.300 ROOM           CLOCK_MODULE
- C14             32.500  20.300 ROOM           CLOCK_MODULE
- C15             35.900 -11.600 ROOM           CLOCK_MODULE
- C16             19.000  12.200 ROOM           CLOCK_MODULE
- C17             36.700 -13.100 ROOM           CLOCK_MODULE
- C18             19.000  11.200 ROOM           CLOCK_MODULE
- C29             -3.400  -3.000 ROOM           CLOCK_MODULE
- C30             14.000   4.100 ROOM           CLOCK_MODULE
- C31             11.400  37.600 ROOM           SFP_0
- C32             11.400  49.200 ROOM           SFP_0
- C33             17.000  40.300 ROOM           SFP_0
- C34             15.500  41.100 ROOM           SFP_0
- C35             14.000  40.300 ROOM           SFP_0
- C40             25.650  37.600 ROOM           SFP_1
- C41             25.650  49.200 ROOM           SFP_1
- C42             31.250  40.300 ROOM           SFP_1
- C43             29.750  41.100 ROOM           SFP_1
- C44             28.250  40.300 ROOM           SFP_1
- C45             39.900  37.600 ROOM           SFP_2
- C46             39.900  49.200 ROOM           SFP_2
- C47             45.500  40.300 ROOM           SFP_2
- C48             44.000  41.100 ROOM           SFP_2
- C49             42.500  40.300 ROOM           SFP_2
- C50             54.150  37.600 ROOM           SFP_3
- C51             54.150  49.200 ROOM           SFP_3
- C52             59.750  40.300 ROOM           SFP_3
- C53             58.250  41.100 ROOM           SFP_3
- C54             56.750  40.300 ROOM           SFP_3
- C59            115.850  37.600 ROOM           SFP_7
- C60            115.850  49.200 ROOM           SFP_7
- C61            121.450  40.300 ROOM           SFP_7
- C62            119.950  41.100 ROOM           SFP_7
- C63            118.450  40.300 ROOM           SFP_7
- C64            101.600  37.600 ROOM           SFP_6
- C65            101.600  49.200 ROOM           SFP_6
+  REC_CLK_FPGA_N net RENAMED (to net name listed on right)           CLK_M2C_N<0> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  REC_CLK_FPGA_P net RENAMED (to net name listed on right)           CLK_M2C_P<0> 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TDI          pins MOVED FROM this net (to net name listed on right)
+                                 J2.D30          116.555   6.995
+                                                UNNAMED_4_FMCHPCGENERIC_I62_TDI
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TDO          pins MOVED FROM this net (to net name listed on right)
+                                 J2.D31          117.825   6.995
+                                                UNNAMED_4_FMCHPCGENERIC_I62_TDO
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_FMCHPCGENERIC_I62_TDI pins ADDED TO this new net
+                                 R65.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_FMCHPCGENERIC_I62_TDO pins ADDED TO this new net
+                                 R65.2                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  .../pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd         |
-|                                                    Wed Mar 27 15:11:20 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd     |
+|                                                    Thu Apr  4 11:45:56 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
+| COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
+|    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C66            107.200  40.300 ROOM           SFP_6
- C67            105.700  41.100 ROOM           SFP_6
- C68            104.200  40.300 ROOM           SFP_6
- C69             87.350  37.600 ROOM           SFP_5
- C70             87.350  49.200 ROOM           SFP_5
- C71             92.950  40.300 ROOM           SFP_5
- C72             91.450  41.100 ROOM           SFP_5
- C73             89.950  40.300 ROOM           SFP_5
- C74             73.100  37.600 ROOM           SFP_4
- C75             73.100  49.200 ROOM           SFP_4
- C76             78.700  40.300 ROOM           SFP_4
- C77             77.200  41.100 ROOM           SFP_4
- C78             75.700  40.300 ROOM           SFP_4
- C79             71.800   1.500 ROOM           I2C_TR_GEN
- C80             70.700   7.100 ROOM           I2C_TR_GEN
- C81             88.400  22.700 ROOM           I2C_TR_1
- C82             91.700  22.700 ROOM           I2C_TR_1
- C83            100.200  22.700 ROOM           I2C_TR_2
- C84            103.500  22.700 ROOM           I2C_TR_2
- C85            111.900  22.700 ROOM           I2C_TR_3
- C86            115.200  22.700 ROOM           I2C_TR_3
- C87            123.600  22.700 ROOM           I2C_TR_4
- C88            126.900  22.700 ROOM           I2C_TR_4
- C89             85.500  26.800 ROOM           I2C_TR_5
- C90             85.500  30.100 ROOM           I2C_TR_5
- C91             99.700  26.800 ROOM           I2C_TR_6
- C92             99.700  30.100 ROOM           I2C_TR_6
- C93            114.100  26.800 ROOM           I2C_TR_7
- C94            114.100  30.100 ROOM           I2C_TR_7
- C95            127.300  26.800 ROOM           I2C_TR_8
- C96            127.300  30.100 ROOM           I2C_TR_8
- C99            136.200  28.600 ROOM           P1V3_REG
- C100           136.200  30.600 ROOM           P1V3_REG
- C101           138.100  18.900 ROOM           P1V3_REG
- C118           152.000  38.100 ROOM           P1V3_REG
- C119           152.000  33.900 ROOM           P1V3_REG
- C121            14.000   5.900 ROOM           CLOCK_MODULE
- IC11            68.500   3.900 ROOM           I2C_TR_GEN
- IC12            90.200  19.600 ROOM           I2C_TR_1
- IC14           102.000  19.600 ROOM           I2C_TR_2
- IC15           113.700  19.600 ROOM           I2C_TR_3
- IC16           125.400  19.600 ROOM           I2C_TR_4
- IC17            88.600  28.600 ROOM           I2C_TR_5
- IC18           102.800  28.600 ROOM           I2C_TR_6
- IC19           117.200  28.600 ROOM           I2C_TR_7
+ R65                 RSMD0402_1/16W-0R0,1% 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  .../pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd         |
-|                                                    Wed Mar 27 15:11:20 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd     |
+|                                                    Thu Apr  4 11:45:56 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
+| SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
+|   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC20           130.400  28.600 ROOM           I2C_TR_8
- J7              16.440  41.700 ROOM           SFP_0
- J12             30.690  41.700 ROOM           SFP_1
- J16             44.940  41.700 ROOM           SFP_2
- J20             59.190  41.700 ROOM           SFP_3
- J24            120.890  41.700 ROOM           SFP_7
- J28            106.640  41.700 ROOM           SFP_6
- J32             92.390  41.700 ROOM           SFP_5
- J36             78.140  41.700 ROOM           SFP_4
- L1               3.100  16.800 ROOM           CLOCK_MODULE
- L2              29.800  20.900 ROOM           CLOCK_MODULE
- L3               1.600  -8.700 ROOM           CLOCK_MODULE
- L4              18.100  40.200 ROOM           SFP_0
- L5              12.900  40.100 ROOM           SFP_0
- L6              32.350  40.200 ROOM           SFP_1
- L7              27.150  40.100 ROOM           SFP_1
- L8              46.600  40.200 ROOM           SFP_2
- L9              41.400  40.100 ROOM           SFP_2
- L10             60.850  40.200 ROOM           SFP_3
- L11             55.650  40.100 ROOM           SFP_3
- L12            122.550  40.200 ROOM           SFP_7
- L13            117.350  40.100 ROOM           SFP_7
- L14            108.300  40.200 ROOM           SFP_6
- L15            103.100  40.100 ROOM           SFP_6
- L16             94.050  40.200 ROOM           SFP_5
- L17             88.850  40.100 ROOM           SFP_5
- L18             79.800  40.200 ROOM           SFP_4
- L19             74.600  40.100 ROOM           SFP_4
- R1              18.100  25.900 ROOM           CDR
- R2              20.600  11.700 ROOM           CLOCK_MODULE
- R3             -10.800   0.700 ROOM           CLOCK_MODULE
- R4              21.600   9.300 ROOM           CLOCK_MODULE
- R5              19.200  13.600 ROOM           CLOCK_MODULE
- R6              19.200  14.700 ROOM           CLOCK_MODULE
- R7              19.200   7.900 ROOM           CLOCK_MODULE
- R9              19.200   9.800 ROOM           CLOCK_MODULE
- R22             18.120  33.360 ROOM           SFP_0
- R23             20.070  33.350 ROOM           SFP_0
- R24             19.100  49.600 ROOM           SFP_0
- R25             13.600  49.600 ROOM           SFP_0
- R26             15.800  49.600 ROOM           SFP_0
- R27             16.900  49.600 ROOM           SFP_0
- R28             18.000  49.600 ROOM           SFP_0
- R29             14.700  49.600 ROOM           SFP_0
- R34             32.370  33.360 ROOM           SFP_1
+ R65.2                          DIST           FLAT
+ R65.2                          MAX_TEMP       RTMAX
+ R65.2                          NEGTOL         RTOL%
+ R65.2                          POSTOL         RTOL%
+ R65.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R65.2                          SIZE           1
+ R65.2                          SLOPE          RSMAX
+ R65.2                          TC1            RTMPL
+ R65.2                          TC2            RTMPQ
+ R65.2                          TOL_ON_OFF     ON
+ R65.2                          XY             (4850,1375)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  .../pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd         |
-|                                                    Wed Mar 27 15:11:20 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd     |
+|                                                    Thu Apr  4 11:45:56 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
+| PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
+|    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R35             34.320  33.350 ROOM           SFP_1
- R36             33.350  49.600 ROOM           SFP_1
- R37             27.850  49.600 ROOM           SFP_1
- R38             30.050  49.600 ROOM           SFP_1
- R39             31.150  49.600 ROOM           SFP_1
- R40             32.250  49.600 ROOM           SFP_1
- R41             28.950  49.600 ROOM           SFP_1
- R42             46.620  33.360 ROOM           SFP_2
- R43             48.570  33.350 ROOM           SFP_2
- R44             47.600  49.600 ROOM           SFP_2
- R45             42.100  49.600 ROOM           SFP_2
- R46             44.300  49.600 ROOM           SFP_2
- R47             45.400  49.600 ROOM           SFP_2
- R48             46.500  49.600 ROOM           SFP_2
- R49             43.200  49.600 ROOM           SFP_2
- R50             60.870  33.360 ROOM           SFP_3
- R51             62.820  33.350 ROOM           SFP_3
- R52             61.850  49.600 ROOM           SFP_3
- R53             56.350  49.600 ROOM           SFP_3
- R54             58.550  49.600 ROOM           SFP_3
- R55             59.650  49.600 ROOM           SFP_3
- R56             60.750  49.600 ROOM           SFP_3
- R57             57.450  49.600 ROOM           SFP_3
- R99            122.570  33.360 ROOM           SFP_7
- R100           124.520  33.350 ROOM           SFP_7
- R101           123.550  49.600 ROOM           SFP_7
- R102           118.050  49.600 ROOM           SFP_7
- R103           120.250  49.600 ROOM           SFP_7
- R104           121.350  49.600 ROOM           SFP_7
- R105           122.450  49.600 ROOM           SFP_7
- R106           119.150  49.600 ROOM           SFP_7
- R107           108.320  33.360 ROOM           SFP_6
- R108           110.270  33.350 ROOM           SFP_6
- R109           109.300  49.600 ROOM           SFP_6
- R110           103.800  49.600 ROOM           SFP_6
- R111           106.000  49.600 ROOM           SFP_6
- R112           107.100  49.600 ROOM           SFP_6
- R113           108.200  49.600 ROOM           SFP_6
- R114           104.900  49.600 ROOM           SFP_6
- R115            94.070  33.360 ROOM           SFP_5
- R116            96.020  33.350 ROOM           SFP_5
- R117            95.050  49.600 ROOM           SFP_5
- R118            89.550  49.600 ROOM           SFP_5
- R119            91.750  49.600 ROOM           SFP_5
- R120            92.850  49.600 ROOM           SFP_5
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
+ R65.1                          CDS_PINID      A(0)
+ R65.2                          CDS_PINID      B(0)
 |------------------------------------------------------------------------------|
-|  .../pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd         |
-|                                                    Wed Mar 27 15:11:20 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R121            93.950  49.600 ROOM           SFP_5
- R122            90.650  49.600 ROOM           SFP_5
- R123            79.820  33.360 ROOM           SFP_4
- R124            81.770  33.350 ROOM           SFP_4
- R125            80.800  49.600 ROOM           SFP_4
- R126            75.300  49.600 ROOM           SFP_4
- R127            77.500  49.600 ROOM           SFP_4
- R128            78.600  49.600 ROOM           SFP_4
- R129            79.700  49.600 ROOM           SFP_4
- R130            76.400  49.600 ROOM           SFP_4
- R131            69.100   4.900 ROOM           I2C_TR_GEN
- R132            69.100   2.900 ROOM           I2C_TR_GEN
- R133            66.300   6.400 ROOM           I2C_TR_GEN
- R134            67.900   4.900 ROOM           I2C_TR_GEN
- R135            67.900   2.900 ROOM           I2C_TR_GEN
- R136            89.400  18.600 ROOM           I2C_TR_1
- R137            89.400  20.600 ROOM           I2C_TR_1
- R138            92.400  17.100 ROOM           I2C_TR_1
- R139            90.900  18.600 ROOM           I2C_TR_1
- R140            90.900  20.600 ROOM           I2C_TR_1
- R141           101.300  18.600 ROOM           I2C_TR_2
- R142           101.300  20.600 ROOM           I2C_TR_2
- R143           104.200  17.100 ROOM           I2C_TR_2
- R144           102.700  18.600 ROOM           I2C_TR_2
- R145           102.700  20.600 ROOM           I2C_TR_2
- R146           113.000  18.600 ROOM           I2C_TR_3
- R147           113.000  20.600 ROOM           I2C_TR_3
- R148           115.900  17.100 ROOM           I2C_TR_3
- R149           114.500  18.600 ROOM           I2C_TR_3
- R150           114.500  20.600 ROOM           I2C_TR_3
- R151           124.700  18.600 ROOM           I2C_TR_4
- R152           124.700  20.600 ROOM           I2C_TR_4
- R153           127.600  17.100 ROOM           I2C_TR_4
- R154           126.200  18.600 ROOM           I2C_TR_4
- R155           126.200  20.600 ROOM           I2C_TR_4
- R156            89.600  27.800 ROOM           I2C_TR_5
- R157            87.600  27.800 ROOM           I2C_TR_5
- R158            91.100  30.800 ROOM           I2C_TR_5
- R159            89.600  29.300 ROOM           I2C_TR_5
- R160            87.600  29.300 ROOM           I2C_TR_5
- R161           103.800  27.800 ROOM           I2C_TR_6
- R162           101.800  27.800 ROOM           I2C_TR_6
- R163           105.300  30.800 ROOM           I2C_TR_6
- R164           103.800  29.300 ROOM           I2C_TR_6
- R165           101.800  29.300 ROOM           I2C_TR_6
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  .../pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd         |
-|                                                    Wed Mar 27 15:11:20 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R166           118.200  27.800 ROOM           I2C_TR_7
- R167           116.200  27.800 ROOM           I2C_TR_7
- R168           119.700  30.800 ROOM           I2C_TR_7
- R169           118.200  29.300 ROOM           I2C_TR_7
- R170           116.200  29.300 ROOM           I2C_TR_7
- R171           131.400  27.900 ROOM           I2C_TR_8
- R172           129.400  27.900 ROOM           I2C_TR_8
- R173           132.900  30.800 ROOM           I2C_TR_8
- R174           131.400  29.400 ROOM           I2C_TR_8
- R175           129.400  29.400 ROOM           I2C_TR_8
- R182           135.900  18.900 ROOM           P1V3_REG
- R183           134.800  18.900 ROOM           P1V3_REG
- R186            20.100  25.900 ROOM           CDR
- R187            32.300  25.900 ROOM           CDR
- R188            34.300  25.900 ROOM           CDR
- R189            46.500  25.900 ROOM           CDR
- R190            48.500  25.900 ROOM           CDR
- R191            60.800  25.900 ROOM           CDR
- R192            62.800  25.900 ROOM           CDR
- R193           122.600  25.900 ROOM           CDR
- R194           124.600  25.900 ROOM           CDR
- R195           108.400  25.900 ROOM           CDR
- R196           110.400  25.900 ROOM           CDR
- R197            94.000  25.900 ROOM           CDR
- R198            96.000  25.900 ROOM           CDR
- R199            79.800  25.900 ROOM           CDR
- R200            81.800  25.900 ROOM           CDR
- U3              19.100  29.600 ROOM           SFP_0
- U4              33.350  29.600 ROOM           SFP_1
- U5              47.600  29.600 ROOM           SFP_2
- U6              61.850  29.600 ROOM           SFP_3
- U7             123.550  29.600 ROOM           SFP_7
- U8             109.300  29.600 ROOM           SFP_6
- U9              95.050  29.600 ROOM           SFP_5
- U10             80.800  29.600 ROOM           SFP_4
- U11            136.000  23.500 ROOM           P1V3_REG
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  .../pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd         |
-|                                                    Wed Mar 27 15:11:20 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|------------------------------------------------------------------------------|
-|       Comp property added   :     261                                        |
+|       Nets changed          :       6                                        |
+|       Components added      :       1                                        |
+|       Pin property added    :       2                                        |
+|       Slot property added   :      11                                        |
 |                                                                              |
-|   Total ECO changes reported:     261                                        |
+|   Total ECO changes reported:      20                                        |
 |------------------------------------------------------------------------------|
