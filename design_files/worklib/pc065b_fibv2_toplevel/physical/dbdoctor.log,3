@@ -2,49 +2,19 @@
 (                                                                     )
 (    DBDOCTOR                                                         )
 (                                                                     )
-(    Drawing          : pc065c_fibv2_toplevel_13.brd                  )
+(    Drawing          : pc065c_fibv2_toplevel_18.brd                  )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Wed Mar 27 14:56:39 2024                      )
+(    Date/Time        : Wed Apr  3 12:26:54 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
+WARNING Deleted redundant via at (43.105 34.274) on net RD_FPGA_P<2>.
+WARNING Deleted redundant via at (42.375 34.274) on net RD_FPGA_N<2>.
 
 Regenerating DRC
-  Original DRC errors:   26
-  Updated DRC errors:    26
+  Original DRC errors:   0
+  Updated DRC errors:    0
   DRC elapsed time:      00:00:01
 
-0 warnings, 0 errors detected, 0 errors  fixed.
-(---------------------------------------------------------------------)
-(                                                                     )
-(    DBDOCTOR                                                         )
-(                                                                     )
-(    Drawing          : pc065c_fibv2_toplevel_13.brd                  )
-(    Software Version : 17.4S011                                      )
-(    Date/Time        : Wed Mar 27 14:59:22 2024                      )
-(                                                                     )
-(---------------------------------------------------------------------)
-
-
-
-Regenerating DRC
-  Original DRC errors:   26
-  Updated DRC errors:    26
-  DRC elapsed time:      00:00:01
-
-0 warnings, 0 errors detected, 0 errors  fixed.
-
-Number of Xnets before update: 0        after update: 0
-Number of Diff Pairs before update: 71   after update: 71
-
-Saved drawing //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_13_fix.brd.
-
-
-<<< Design Uprev Warnings >>>
-
-Wed Mar 27 14:59:22 2024				Page     1
-
-
-Performing DRC...
-DRC done; 26 errors detected.
+2 warnings, 0 errors detected, 0 errors  fixed.
