@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 27-Mar-2024 AT 15:14:25 }
+{ Packager-XL run on 04-Apr-2024 AT 12:13:22 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065B_FIBV2_TOPLEVEL';
- POST_TIME='27-Mar-2024 AT 15:14:25';
+ POST_TIME='04-Apr-2024 AT 12:13:22';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -467,6 +467,32 @@ apcersmdcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
  VOLTAGE='16V',
  ROOM='CLOCK_MODULE',
+ VALUE='100NF_X7R',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C19 'CAPCERSMDCL2_0402-100NF_X7R,16V':
+ ROOM='P1V3_REG';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE7_I51@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page7_i51@cnpassive.ca~
+pcersmdcl2(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page2_i51@cnpassive.ca~
+pcersmdcl2(chips)',
+ PATH='I51',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE7',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(525,3600)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ ROOM='P1V3_REG',
  VALUE='100NF_X7R',
  PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
 DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
@@ -6080,6 +6106,40 @@ md0603(chips)',
  VALUE='270',
  PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
 DUNE/library/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ R65 'RSMD0402_1/16W-0R0,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4_I140@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page4_i140@cnpassive.r~
+smd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page3_i140@cnpassive.r~
+smd0402(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(4850,1375)',
+ ROT='1',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-0R0,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='0R0',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
  R93 'RSMD0402_0.0625W-XX,1%':;

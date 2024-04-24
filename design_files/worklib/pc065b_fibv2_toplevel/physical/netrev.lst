@@ -3,8 +3,8 @@
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
 (    Drawing          : pc065c_fibv2_toplevel_19.brd                  )
-(    Software Version : 17.4S011                                      )
-(    Date/Time        : Thu Apr  4 12:13:34 2024                      )
+(    Software Version : 17.4S033                                      )
+(    Date/Time        : Thu Apr  4 14:23:07 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         '\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\packaged'
-Design Directory:            '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical'
-Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd'
-New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd'
+Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\packaged'
+Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_20.brd'
 
-CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -y 1 -z -O \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_19.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_19.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -y 1 -z -O C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_19.brd C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_20.brd -w C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
-Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.32)
-Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat (00:00:00.02)
-Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat (00:00:00.02)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.24)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat 
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -40,41 +40,89 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 
 ===========================================================
 Start Constraint Diff3 Import
-	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai11176.tmp
-	Start time: Thu Apr  4 12:13:34 2024
+	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaah47596.tmp
+	Start time: Thu Apr  4 14:23:07 2024
 ===========================================================
+NOTE: Constraint information is up-to-date. No processing was required.
 ===========================================================
-Finished Constraint Update	Time: Thu Apr  4 12:13:35 2024
+Finished Constraint Update	Time: Thu Apr  4 14:23:07 2024
 ===========================================================
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           c:/cadence/spb_17.4/share/local/pcb/modules 
+           C:/Cadence/SPB_17.4/share/local/pcb/modules 
 
 PSMPATH =  . 
-           symbols 
-           .. 
-           ../symbols 
-           c:/cadence/spb_17.4/share/local/pcb/symbols 
-           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           F:/cad/bris_cdslib/lib_psd14.x/symbols 
+           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
+           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/formats 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/passif 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/cap 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/led 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/rel 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/sw 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/mec 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/pwr 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/res 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           Z:/cad/bris_cdslib/lib_psd14.x/symbols 
+           Z:/cad/bris_cdslib/lib_psd14.x/formats 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
+           Z:/cad/cern_cds 
+           C:/SPB_Data/cis_hep_partslib/Allegro_Library/symbols 
+           C:/Users/phdgc/AppData/Roaming/SPB_Data/downloaded_parts/allegropcb 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/cadence/spb_17.4/share/local/pcb/padstacks 
-           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+           /software/CAD/Cadence/SPB17.40.034/share/local/pcb/padstacks 
+           /software/CAD/Cadence/SPB17.40.034/share/pcb/pcb_lib/symbols 
+           /software/CAD/Cadence/SPB17.40.034/share/pcb/allegrolib/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/pads 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
+           ./symbols 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/pads/ 
+           F:/cad/bris_cdslib/lib_psd14.x/pads 
+           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
+           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           Z:/cad/bris_cdslib/lib_psd14.x/pads 
+           C:/SPB_Data/cis_hep_partslib/Allegro_Library/pads 
+           C:/Users/phdgc/AppData/Roaming/SPB_Data/downloaded_parts/allegropcb 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Apr 4 12:13:34 2024
+netrev run on Apr 4 14:23:07 2024
    DESIGN NAME : 'PC065B_FIBV2_TOPLEVEL'
-   PACKAGING ON 04-Apr-2024 AT 12:13:22
+   PACKAGING ON 04-Apr-2024 AT 14:23:04
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -103,6 +151,6 @@ netrev run on Apr 4 12:13:34 2024
  No oversight detected
  No warning detected
 
-cpu time      0:03:35
-elapsed time  0:00:01
+cpu time      0:01:57
+elapsed time  0:00:00
 
