@@ -1,0 +1,160 @@
+(Cell	854s058i
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/11/15,17:24:29)
+
+			(User	billerea)
+
+			(Path	cninterface.854s058i)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Fixed)
+
+					(Max_Size	8)
+
+					(Checksum	00000000e21129b9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/11/15,17:24:29)
+
+							(User	billerea)
+
+							(Path	cninterface.854s058i)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001be10380)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000acdcb7d3)
+
+			(Primitives	1
+
+				(Primitive	854S058I_TSSOP
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/11/15,17:24:29)
+
+							(User	billerea)
+
+							(Path	cninterface.854s058i)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	854S058I
+
+							(PackType	854S058I_TSSOP)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[8]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001efb040e)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.3-S040 (v16-3-85BY))
+
+		(License	Concept_HDL_studio)
+
+	)
+
+	(Checksum	000000001d8a03d8)
+
+)
+

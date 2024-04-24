@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'INDUCTANCE'
+PHYS_DES_PREFIX=L
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE         | PACK_TYPE           = STATUS          | PART_NUMBER           | MANUFACTURER      | DESCRIPTION                                                        | DATASHEET_URL                                                                     | PINCOUNT | SMD   | CASE              | JEDEC_TYPE                  | VALUE     ;
+{========================================================================================}
+ '330uH'       | '1400'(!)           = 'Preferred'     | '1433428C'            | 'MURATA'          | '2.8A 150mOhm Bobbin Type Inductor - 1400 Series'                  | 'file://cern.ch/dfs/services/cdslib/datasheets/ind_murata_1400-series.pdf'        | '2'      | 'NO'  | 'D24.4 H14.0mm'  | 'IND_MURATA_1400-D244H140'  | '330uH'   : TOL = '10%'
+
+END_PART
+
+END.
+

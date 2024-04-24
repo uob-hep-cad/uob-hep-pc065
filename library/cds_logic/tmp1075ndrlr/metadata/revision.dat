@@ -1,0 +1,186 @@
+(Cell	tmp1075ndrlr
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.13)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	06/24/22,16:39:46)
+
+			(User	phdgc)
+
+			(Path	bris_cds_logic.tmp1075ndrlr)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.6)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	06/24/22,16:39:46)
+
+					(User	phdgc)
+
+					(Path	bris_cds_logic.tmp1075ndrlr)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006c00d608)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.6)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/24/22,16:39:46)
+
+							(User	phdgc)
+
+							(Path	bris_cds_logic.tmp1075ndrlr)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c0f037c)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000062380adc)
+
+			(Primitives	1
+
+				(Primitive	TMP1075NDRLR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/24/22,16:39:46)
+
+							(User	phdgc)
+
+							(Path	bris_cds_logic.tmp1075ndrlr)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TMP1075NDRLR
+
+							(PackType	TMP1075NDRLR)
+
+							(PackType	TMP1075NDRLR_SOT)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c27038a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S026 (4007227))
+
+		(License	Allegro_Venture_SDA)
+
+	)
+
+	(Checksum	000000001b76037a)
+
+)
+

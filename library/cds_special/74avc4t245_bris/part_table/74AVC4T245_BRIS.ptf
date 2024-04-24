@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74AVC4T245_BRIS'
+CLASS = IC 
+PHYS_DES_PREFIX = IC 
+
+{========================================================================================}
+:'TYPE'            |'PACK_TYPE'                = 'STATUS'       |'PART_NUMBER'       |'MANUFACTURER'         |'DESCRIPTION'                                                                                    |'DATASHEET_URL'                                                     |'PINCOUNT'    |'SMD'    |'CASE'       |'JEDEC_TYPE'             ;
+{========================================================================================}
+ 'SN74AVC4T245D_BRIS'   |'SOIC' (~SN74AVC4T245D_BRIS)    = 'Preferred'  |'SN74AVC4T245D'   |'TEXAS INSTRUMENTS'  |'4-Bit Dual-Supply Bus Transceiver with Configurable Voltage Translation and 3-State Outputs'  |'file://cern.ch/dfs/services/cdslib/datasheets/sn74avc4t245.pdf'  |'16'        |'YES'  |'SOIC16'   |'SOIC127P600X175-16N'  
+ 'SN74AVC4T245PW_BRIS'  |'TSSOP' (~SN74AVC4T245PW_BRIS)  = 'Preferred'  |'SN74AVC4T245PW'  |'TEXAS INSTRUMENTS'  |'4-Bit Dual-Supply Bus Transceiver with Configurable Voltage Translation and 3-State Outputs'  |'file://cern.ch/dfs/services/cdslib/datasheets/sn74avc4t245.pdf'  |'16'        |'YES'  |'TSSOP16'  |'TSSOP16MA_065'        
+ 'SN74AVC4T245RSVR_BRIS'  |'UQFN' (~SN74AVC4T245RSVR_BRIS)  = 'Preferred'  |'SN74AVC4T245RSVR'  |'TEXAS INSTRUMENTS'  |'4-Bit Dual-Supply Bus Transceiver with Configurable Voltage Translation and 3-State Outputs'  |'file://cern.ch/dfs/services/cdslib/datasheets/sn74avc4t245.pdf'  |'16'        |'YES'  |'UQFN'  |'uqfn_16pin'        
+
+END_PART
+
+END.
+

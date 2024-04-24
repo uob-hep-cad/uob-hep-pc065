@@ -1,0 +1,441 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HFM1202'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER | PART_DESCRIPTION            | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SIP'     | 'Honeywell'(!)     = '' | 'HFM1202'   | 'optical ethernet receiver' | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'HFBR-2412'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER | PART_DESCRIPTION            | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'PTH'     | 'Agilent/HP'(!)    = '' | 'HFBR-2412' | 'optical receiver, TTL out' | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'HFBR-1412'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER | PART_DESCRIPTION                 | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'PTH'     | 'Agilent/HP'(!)    = '' | 'HFBR-1412' | 'optical transmitter, low power' | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'FUSE_SMD'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER   | PART_DESCRIPTION                 | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SMD'     | 'Littelfuse'(!)    = '' | 'RS-219-6103' | 'Littelfuse "Omni Block"'        | '-'         | '-'         | ''         
+
+END_PART
+
+PART 'TRU050'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER                      | PART_DESCRIPTION                 | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Vectron'(!)       = '' | 'tru050-g-a-l-g-a-40.000-20.000' | 'Crystal based PLL'              | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'VSC7226'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER                      | PART_DESCRIPTION                 | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'FGA'     | 'Vitesse'(!)       = '' | 'VSC7226-01'                     | 'Quad 3.125Gbit/s Serdes'        | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'LTC1629'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='cat')   = CI | PART_NUMBER                      | PART_DESCRIPTION                            | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SSOP28'  | 'Linear'(!)        = '' | 'LTC1629'                        | 'PolyPhase,Synchronous Step-down Regulator' | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'OARS1'
+CLASS=R
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI  | PART_NUMBER                      | PART_DESCRIPTION                            | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'IRC'     | '-'(~OARS1)        = '-' | 'RS-366-8485'                    | 'Open Air Sense Resistor'                   | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'SLG2016'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI  | PART_NUMBER                      | PART_DESCRIPTION                            | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP'     | 'SIEMENS'(!)       = '-' | 'RS-194-896'                     | 'Intelligent LED'                           | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'ICS8705'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI  | PART_NUMBER                      | PART_DESCRIPTION                            | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'LQFP'    | 'ICS'(!)           = '-' | '-'                              | 'Zero Delay Differential-to-LVCMOS'         | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'LM3351MM'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI  | PART_NUMBER                      | PART_DESCRIPTION                            | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Nat Semi'(!)      = '-' | 'RS 318-1247'                    | 'Switched Capacitor Voltage converter'      | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'RP60'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI  | PART_NUMBER                      | PART_DESCRIPTION                            | OL_COMMENTS                   | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP'     | 'RECOM'(!)         = '-' | 'RP60-4833-SE'                   | '48V --> 3.3V@15A DC-DC converter,'         | 'www.recom-international.com' | '-'         | '-'        
+
+END_PART
+
+PART 'TEN-5'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   | VALUE     = CI                               | PART_NUMBER                                 | PART_DESCRIPTION                     | OL_COMMENTS   | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP'     | 'TRACO'            | '48V/3v3'(!) = '-'                              | 'TEN-5-4810'                                | '48V --> 3.3V@1.2A DC-DC converter,' | 'RS 293-2785' | '-'         | '-'        
+ 'DIP'     | 'TRACO'            | '48V/5v'(!) = '-'                              | 'TEN-5-4811'                                | '48V --> 5V@1A DC-DC converter,'     | 'RS 293-2791' | '-'         | '-'        
+
+END_PART
+
+PART 'TEN-5-DUALOP'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   | VALUE      = CI                               | PART_NUMBER                                 | PART_DESCRIPTION                      | OL_COMMENTS   | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP'     | 'TRACO'            | '48V/+-5V'(!) = '-'                              | 'TEN-5-4821'                                | '48V --> +-5V@500mA DC-DC converter,' | 'RS 293-2892' | '-'         | '-'        
+
+END_PART
+
+PART 'NMXD0512'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   | VALUE      = CI                               | PART_NUMBER                                 | PART_DESCRIPTION                      | OL_COMMENTS        | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'NMXD'    | 'CD'               | '5V/+-12V'(!) = '-'                              | 'NXMD0512SOC'                               | '5V --> +-12V@235mA DC-DC converter,' | 'Farnell 1021553 ' | '-'         | '-'        
+
+END_PART
+
+PART 'ROM'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   | VALUE      = CI                               | PART_NUMBER                                 | PART_DESCRIPTION                                     | OL_COMMENTS        | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SIP'     | 'RECOM'            | '5V/5V'(!) = '-'                              | 'ROM-0505'                                  | '5V --> 5V@200mA DC-DC converter,isolated,regulated' | 'RS 494-3838'      | '-'         | '-'        
+ 'SIP'     | 'XP-Power'         | '5V/24V'(!) = '-'                              | 'IE0524S-H'                                 | '5V --> 24V@42mA DC-DC converter,isolated,regulated' | 'Farnell 1436127'  | '-'         | '-'        
+
+END_PART
+
+PART 'CPC-T'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   | VALUE      = CI                               | PART_NUMBER                                 | PART_DESCRIPTION                                     | OL_COMMENTS        | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP22'   | 'RAL'              | ''(!)      = '-'                              | 'RAL-cpc-t-22'                              | 'skinny-dip 22 pin package'                          | 'research '        | '-'         | '-'        
+ 'DIP24'   | 'RAL'              | ''(!)      = '-'                              | 'RAL-cpc-t-24'                              | 'skinny-dip 24 pin package'                          | 'research '        | '-'         | '-'        
+
+END_PART
+
+PART 'UMP2'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   | VALUE      = CI                               | PART_NUMBER                                 | PART_DESCRIPTION                                     | OL_COMMENTS        | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP'     | 'Kanda'            | ''(!)      = '-'                              | ''                                          | 'USB-to-Parallel module'                             | ''                 | '-'         | '-'        
+
+END_PART
+
+PART 'LT3467'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   | VALUE      = CI                               | PART_NUMBER                                 | PART_DESCRIPTION                                     | OL_COMMENTS        | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT'     | 'Linear'           | ''(!)      = '-'                              | 'LT3467ES6'                                 | '1.1A step-up DC-DC converter with soft-start'       | ''                 | '-'         | '-'        
+
+END_PART
+
+PART 'HF-RELAY'
+CLASS=DISCRETE
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   | VALUE      = CI                               | PART_NUMBER                                 | PART_DESCRIPTION                                     | OL_COMMENTS        | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Tyco'             | ''(!)      = '-'                              | 'HF53'                                      | 'SPDT High-frequency relay. 50-Ohm , 3GHz'           | 'RS616-8742'       | '-'         | '-'        
+
+END_PART
+
+PART 'LM3224'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')         | VALUE      = CI                               | PART_NUMBER                                 | PART_DESCRIPTION                                                                  | OL_COMMENTS             | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'MSOP'    | 'National Semiconductor' | ''(!)      = '-'                              | 'LM3224MM-ADJ'                              | 'DC-DC boost controller with integrated switch. Vin = 2.7V - 7V, Vout-max = 20V ' | 'RS655-4020 , Farnell ' | '-'         | '-'        
+
+END_PART
+
+PART 'LD1117DT'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')         = CI         | PART_NUMBER                      | PART_DESCRIPTION                            | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'D2PAK_VER2' | 'STMICROELECTRONICS'(!)  = '-'        | 'Farnell 1087170'                | '3V3 Voltage regulator'                     | 'Do not use for new designs. Use symbol in cn_linear'                                                                               | '-'                     | '-'        
+ 'SOT223'     | 'CAT'(!)                 = '-'        | 'Farnell 1202826'                | '3V3 fixed regulator'                       | 'Do not use for new designs. Use symbol in bris_cs_analogue'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'LD11DT18'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')         = CI         | PART_NUMBER                      | PART_DESCRIPTION                            | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'D2PAK_VER2' | 'STMICROELECTRONICS'(!)  = '-'        | 'Farnell 1087166'                | '1V8 Voltage regulator'                     | 'Do not use for new designs. Use symbol in bris_cs_analogue'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'FDS6890A'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')         = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC8'      | 'fairchild'(~FDS6890A_SOIC8) = '-'        | 'Farnell'                        | 'Dual N-Channel 2.5v Specified Power Trench Mosfet' | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'SP8K5'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')         = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOP8'       | 'ROHM'(~SP8K5_SOP8)      = '-'        | 'Farnell'                        | '4V Drive Nch+Nch MOS FET'                          | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'IRF7324PBF'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')          = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOP8'       | 'International Rectifier'(~IRF7324PBF_SOP8) = '-'        | 'Farnell'                        | 'HEXFET Power MOSFET'                               | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'ZXM61N02F'
+CLASS=TR
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')          = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23'      | 'ZETEX'(~ZXM61N02F_SOT23) = '-'        | 'Farnell'                        | '20V N-Channel Enhancement mode MOSFET'             | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'ZXM61N03F'
+CLASS=TR
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')          = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23'      | 'ZETEX'(~ZXM61N03F_SOT23) = '-'        | 'Farnell'                        | '30V N-Channel Enhancement mode MOSFET'             | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'FDG6332C'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')          = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SC70-6'     | 'fairchild'(~FDG6332C_SC70-6) = '-'        | 'Farnell 1467973'                | '20V N & P-Channel Power Trench MOSFETs'            | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'DSPIC30F2020'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')            = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC28'     | 'microchip Technology Inc.'(~DSPIC30F2020_SOIC28) = '-'        | 'Farnell 1332026'                | 'DSPIC'                                             | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'LT1175'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')            = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT_223' | 'Linear Technology'(~LT1175_SOT_223) = '-'        | 'Farnell'                        | '500mA Negative low dropout Micropower Regulator'   | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'LT1117-5'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')             = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT_223_VER2' | 'Linear Technology'(~LT1117-5_SOT_223_VER2) = '-'        | 'Farnell'                        | '800mA Positive low dropout Regulator'              | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'MAX15018/9'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')             = CI         | PART_NUMBER                      | PART_DESCRIPTION                                    | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC8'        | 'MAXIM'(~MAX15018/9_SOIC8)   = '-'        | 'Farnell'                        | '125V/3A High_Speed Half-Bridge MOSFET Driver'      | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'CPH6616'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')             = CI         | PART_NUMBER                      | PART_DESCRIPTION                                     | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23-6'      | 'SANYO'(~CPH6616_SOT23-6)    = '-'        | 'Farnell 1735448'                | 'N-Channel Silicon MOSFET General purpose Switching' | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'CS8406'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')             = CI         | PART_NUMBER                      | PART_DESCRIPTION                                     | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'TSSOP28'      | 'CIRRUS LOGIC'(~CS8406_TSSOP28) = '-'        | 'Farnell 1023446'                | '192 KHz Digital Audio Interface Transmitter'        | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'ADP338'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')             = CI         | PART_NUMBER                      | PART_DESCRIPTION                                     | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT223'       | ''(~ADP338_5V_SOT223)        = '-'        | 'Farnell'                        | '1A 5V regulator'                                    | '-'                                                                               | '-'                     | '-'        
+ 'SOT223'       | ''(~ADP338_3V3_SOT223)       = '-'        | 'Farnell'                        | '1A 3V3 regulator'                                   | '-'                                                                               | '-'                     | '-'        
+ 'SOT223'       | ''(~ADP338_2V5_SOT223)       = '-'        | 'Farnell'                        | '1A 2V5 regulator'                                   | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'LP2985A'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')             = CI         | PART_NUMBER                      | PART_DESCRIPTION                                     | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23-5'      | ''(~LP2985A)                 = '-'        | 'Farnell 1703391'                | '100mA 5V regulator'                                 | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'LT1761ESS_2V5'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')             = CI         | PART_NUMBER                      | PART_DESCRIPTION                                     | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23-5'      | 'Linear Technology'(~LT1761ESS_2V5) = '-'        | 'Farnell 1663776'                | '100mA 2V5 regulator'                                | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'LTC6900'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')             = CI         | PART_NUMBER                      | PART_DESCRIPTION                                          | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23'        | 'Linear Technology'(~LTC6900_SOT23) = '-'        | 'Farnell 1663921'                | 'Low power,,1kHz to 20MHz,Resistor set SOT-23 Oscillator' | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'LTC3862'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE      | MANUF(OPT='CAT')             = CI         | PART_NUMBER                      | PART_DESCRIPTION                                          | OL_COMMENTS                                                                       | KL_COMMENTS             | PL_COMMENTS ;
+{========================================================================================}
+ 'SSOP24'       | 'Linear Technology'(~LTC3862_SSOP24) = '-'        | 'Farnell 1673553'                | 'regullator for boost converter'                          | '-'                                                                               | '-'                     | '-'        
+
+END_PART
+
+PART 'FX0-HC53'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | VALUE | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                         | OL_COMMENTS              | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'OSC_4PIN'  | 12.288MHz  | 'Fox'(!)           = '019692A-7'               | 'FXO-HC536R-12.288'         | '12.288MHz surface mount oscillator'                                     | 'Farnell 1641030'        | '-'                                                                  | '-'  
+ 'OSC_4PIN'  | 25MHz      | 'Fox'(!)           = '019693A-7'               | 'FXO-HC536R-25'             | '25 MHz surface mount oscillator'                                        | 'Farnell 1641039'        | '-'                                                                  | '-'        
+END_PART
+
+PART 'OSC_VCXO_4P'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | VALUE | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                                                        | OL_COMMENTS          | KL_COMMENTS     | PL_COMMENTS ;
+{========================================================================================}
+ 'OSC_4PIN_53S'  | 25MHz  | 'Mercury'(!)       = '119692A-7'               | 'VM53S3-25.000-2.5/-30+75'         | 'VM53S3-25.000-2.5/-30+75, Voltage Controlled Oscillator, 25MHz 2.75 to 5V, 4-Pin SMD 5x3.2mm surface mount oscillator' | 'RS 672-0797'        | '-'             | '-'           
+END_PART
+
+PART 'CMOD_A7'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | VALUE | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                                                        | OL_COMMENTS          | KL_COMMENTS     | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP'  | A15  | 'Digilent'(!)       = '119692A-8'               | '410-328'         | '410-328 -  Development Board, Cmod A7 Xilinx Artix-7 FPGA, USB-JTAG Programming Circuit, 512KB SRAM, Artix 15' | 'Farnell 2614573, RS '        | '-'             | '-'
+  'DIP'  | A35  | 'Digilent'(!)       = '119692A-9'               | '410-328-35'         | '410-328 -  Development Board, Cmod A7 Xilinx Artix-7 FPGA, USB-JTAG Programming Circuit, Artix 35' | 'RS 134-6483'        | '-'             | '-'           
+END_PART
+
+
+
+END.
+

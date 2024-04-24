@@ -1,0 +1,19 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CON20P_SFP'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+:TYPE                     = STATUS       | PART_NUMBER  | MANUFACTURER | DESCRIPTION                                                                                 | DATASHEET_URL                                                       | PINCOUNT | SMD   | CASE | JEDEC_TYPE ;
+{========================================================================================}
+ 'SFP Use Help'(!)        = ''           | 'HELP'       |''            |'Please refer to help to know how-to use SFP parts (connector,cage, kit,...)'                | 'file://cern.ch/dfs/Services/cdslib/datasheets/help/HELP - SFP.pdf' | ''       | ''    | ''   | ''                
+ '1888247-1'(!)           = 'Preferred'  | '1888247-1'  | 'TYCO'       | '20 Positions 0.8mm Pitch SMD Right Angle Receptacle Connector for SFP/SFP+ (Up to 16Gb/s)' | 'file://cern.ch/dfs/Services/cdslib/datasheets/tyco_1888247-1.pdf'  | '20'     | 'YES' | ''   | 'TYCO_1888247-1'  
+ '1367073-1'(!)           = 'Preferred'  | '1367073-1'  | 'TYCO'       | '20 Positions 0.8mm Pitch SMD Right Angle Receptacle Connector for SFP/SFP+ (Up to 4Gb/s)'  | 'file://cern.ch/dfs/Services/cdslib/datasheets/tyco_1367073.pdf'    | '20'     | 'YES' | ''   | 'TYCO_1367073'  
+ 'PCB_FINGER'(!)          = ''           | ''           | ''           | 'Pattern Layout for SFP/SFP+ Printed Circuit Board'                                         | 'file://cern.ch/dfs/Services/cdslib/datasheets/pcb_sfp.pdf'         | '20'     | 'YES' | ''   | 'CON20P_SFP_EDGE'  : BOM_IGNORE='TRUE', ROOM='BOARD', MOUNTED='NO'
+
+END_PART
+
+END.
+
+

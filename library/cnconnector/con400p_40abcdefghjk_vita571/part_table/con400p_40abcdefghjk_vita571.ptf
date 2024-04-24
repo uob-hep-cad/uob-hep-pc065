@@ -1,0 +1,21 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CON400P_40ABCDEFGHJK_VITA571'
+PHYS_DES_PREFIX=J
+CLASS=IO
+
+{========================================================================================}
+: TYPE                            = STATUS          | PART_NUMBER                   | MANUFACTURER | DESCRIPTION                                                                              | DATASHEET_URL                                                        | PINCOUNT | SMD   | CASE | JEDEC_TYPE             ;
+{========================================================================================}
+ 'ASP-134486-01'(!)               = 'Obsolete'      | 'ASP-134486-01'               | 'SAMTEC'     | '400 Pins 1.27mm Pitch Socket Array Assembly Similar to VITA57'                          | 'file://cern.ch/dfs/Services/cdslib/datasheets/ASP-134486-01.pdf'    | '400'    | 'YES' | ''   | 'SAMTEC_ASP-134486-01'
+ 'ASP-134488-01'(!)               = 'Obsolete'      | 'ASP-134488-01'               | 'SAMTEC'     | '400 Pins 1.27mm Pitch Terminal Array Assembly Similar to VITA57'                        | 'file://cern.ch/dfs/Services/cdslib/datasheets/ASP-134488-01.pdf'    | '400'    | 'YES' | ''   | 'SAMTEC_ASP-134488-01'
+ 'ASP-134602-01'(!)               = 'Obsolete'      | 'ASP-134602-01'               | 'SAMTEC'     | '400 Pins 1.27mm Pitch Terminal Array Assembly Similar to VITA57'                        | 'file://cern.ch/dfs/Services/cdslib/datasheets/ASP-134602-01.pdf'    | '400'    | 'YES' | ''   | 'SAMTEC_ASP-134602-01'
+ 'SEAF-40-06.5-S-10-2-A-K-TR'(!)  = 'Preferred'     | 'SEAF-40-06.5-S-10-2-A-K-TR'  | 'SAMTEC'     | '400 Pins 1.27mm Pitch 6.55mm Height High Speed/High Density Open Field - SEAF Series'   | 'file://cern.ch/dfs/Services/cdslib/datasheets/samtec_SEAF.pdf'      | '400'    | 'YES' | ''   | 'SAMTEC_SEAF-40-065-S-10-2-A'
+ 'SEAM-40-09.0-S-10-2-A-K-TR'(!)  = 'Preferred'     | 'SEAM-40-09.0-S-10-2-A-K-TR'  | 'SAMTEC'     | '400 Pins 1.27mm Pitch 11.6mm Height High Speed/High Density Open Field - SEAM Series'   | 'file://cern.ch/dfs/Services/cdslib/datasheets/samtec_SEAM.pdf'      | '400'    | 'YES' | ''   | 'SAMTEC_SEAM-40-090-S-10-2-A'
+ 'SEAM-40-03.5-S-10-2-A-K-TR'(!)  = 'Preferred'     | 'SEAM-40-03.5-S-10-2-A-K-TR'  | 'SAMTEC'     | '400 Pins 1.27mm Pitch 6.1mm Height High Speed/High Density Open Field - SEAM Series'    | 'file://cern.ch/dfs/Services/cdslib/datasheets/samtec_SEAM.pdf'      | '400'    | 'YES' | ''   | 'SAMTEC_SEAM-40-035-S-10-2-A'
+
+END_PART
+
+END.
+
+

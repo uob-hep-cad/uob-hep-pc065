@@ -1,0 +1,264 @@
+(Cell	con20p_sfp_plus
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.12)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/17/11,17:32:51)
+
+			(User	couturie)
+
+			(Path	libdev1_lib.con20p_sfp_plus)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	05/18/11,10:37:29)
+
+			(User	couturie)
+
+			(Path	libdev1_lib.con20p_sfp_plus)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a77a0fc6)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/17/11,17:44:04)
+
+							(User	couturie)
+
+							(Path	libdev1_lib.con20p_sfp_plus)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c21e2ced)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/17/11,17:32:51)
+
+							(User	couturie)
+
+							(Path	libdev1_lib.con20p_sfp_plus)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b72038d)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e970a2e1)
+
+			(Primitives	2
+
+				(Primitive	SFP-PLUS_CON20P
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.8)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/17/11,17:32:51)
+
+							(User	couturie)
+
+							(Path	libdev1_lib.con20p_sfp_plus)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SFP-PLUS
+
+							(PackType	SFP-PLUS_CON20P)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+				(Primitive	SFP-PLUS-EDGE_PCB
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.7)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/17/11,17:33:10)
+
+							(User	couturie)
+
+							(Path	libdev1_lib.con20p_sfp_plus)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SFP-PLUS-EDGE
+
+							(PackType	SFP-PLUS-EDGE_PCB)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c1403af)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.01-s025 (v16-1-53))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bb803a4)
+
+)
+

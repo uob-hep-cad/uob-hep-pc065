@@ -1,0 +1,16 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TCA9539'
+CLASS = IC 
+PHYS_DES_PREFIX = IC 
+
+{========================================================================================}
+:'TYPE'        |'PACK_TYPE'            = 'STATUS'           |'PART_NUMBER'    |'MANUFACTURER'    |'DESCRIPTION'                                                                         |'DATASHEET_URL'                                                 |'PINCOUNT'    |'SMD'    |'CASE'       |'JEDEC_TYPE'                   ;
+{========================================================================================}
+ 'TCA9539RTWR'  |'HWQFN' (~TCA9539AHF)  = 'Preferred'  |'TCA9539RTWR'   |'NXP/PHILIPS'   |'Low Voltage 16-Bit I2C-Bus and SMBus Low Power I/O Port with Interrupt and Reset'  |'file://cern.ch/dfs/services/cdslib/datasheets/pca9539a.pdf'  |'25'        |'YES'  |'QFN24'    |'QFN50P400X400X80-25N-S225'  : POWER_PINS = '(VSS:9,25;VDD:21)'
+ 'TCA9539PWR'  |'TSSOP' (~TCA9539APW)  = 'Preferred'  |'TCA9539PWR'   |'NXP/PHILIPS'   |'Low Voltage 16-Bit I2C-Bus and SMBus Low Power I/O Port with Interrupt and Reset'  |'file://cern.ch/dfs/services/cdslib/datasheets/pca9539a.pdf'  |'24'        |'YES'  |'TSSOP24'  |'SOP65P640X110-24N'          : POWER_PINS = '(VSS:12;VDD:24)'
+
+END_PART
+
+END.
+

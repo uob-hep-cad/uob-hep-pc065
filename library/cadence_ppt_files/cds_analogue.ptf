@@ -1,0 +1,555 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CLC428'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER          | PART_DESCRIPTION            | OL_COMMENTS                            | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'National'(!)      = '01886A-1' | 'Nat Semi CLC428AJE' | 'Wideband low noise Op-Amp' | 'Available from Farnell, code 950-543' | '-'         | '-'        
+ 'DIP'     | 'National'(!)      = '01886A-1' | 'Nat Semi CLC428AJP' | 'Wideband low noise Op-Amp' | 'Available from Farnell, code 640-748' | '-'         | '-'        
+
+END_PART
+
+PART 'LT1818'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER          | PART_DESCRIPTION            | OL_COMMENTS                            | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Linear'(!)        = '!'        | 'TI LM311D'          | 'Wideband low noise Op-Amp' | 'Available Farnell 2293183'            | '-'         | '-'        
+
+END_PART
+
+PART 'LM311D'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER          | PART_DESCRIPTION            | OL_COMMENTS                            | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'TI'(!)            = '!'        | 'TI LM311D'          | 'Comparator'                | ''                                     | '-'         | '-'        
+
+END_PART
+
+PART 'AD790JN'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER          | PART_DESCRIPTION            | OL_COMMENTS                            | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP'     | 'AD'(!)            = '!'        | 'AD790JN'            | 'Comparator'                | 'RS 522-9408 , Farnell 9605045'        | '-'         | '-'        
+
+END_PART
+
+PART 'LT1819'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER          | PART_DESCRIPTION            | OL_COMMENTS                            | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Linear'(!)        = '00968A-1' | 'Linear LT1819CS8'   | 'Dual 400MHz Op-Amp'        | '-'                                    | '-'         | '-'        
+
+END_PART
+
+PART 'LT3010'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER                     | PART_DESCRIPTION                                | OL_COMMENTS                            | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Linear'(!)        = '03648A-1' | 'Linear Technology LT3010EMS8E' | '50mA, LDO, high input voltage (80V) Regulator' | '-'                                    | '-'         | '-'        
+
+END_PART
+
+PART 'LT1129CST-5'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER                     | PART_DESCRIPTION                                | OL_COMMENTS                            | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT223'  | 'Linear'(!)        = '03648A-1' | 'Linear Technology LT1129CST-5' | '700mA, 5V LDO Regulator'                       | 'Farnell 1663375'                      | '-'         | '-'        
+
+END_PART
+
+PART 'MAX5402'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER                     | PART_DESCRIPTION                                | OL_COMMENTS                            | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'UMAX'    | 'Maxim-IC'(!)      = '00968A-1' | 'Maxim Max5402 Digital pot'     | ''                                              | '-'                                    | '-'         | '-'        
+
+END_PART
+
+PART 'X9119'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER                     | PART_DESCRIPTION                                | OL_COMMENTS                            | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'TSSOP'   | 'Xicor'(!)         = '00968A-1' | 'Xicor X9119 Digital pot'       | 'Available from http://uk.digikey.com/'         | '-'                                    | '-'         | '-'        
+
+END_PART
+
+PART 'LD1086'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE              | MANUF(OPT='CAT')   = CI                              | PART_NUMBER                                     | PART_DESCRIPTION                       | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'DDPAK'   | 'D2T25'            | 'STM'(!)           = '3354A-1'                       | 'STM LD1086D2T25'                               | 'Fixed 2.5V 1A +ve Voltage Regulator'  | '-'         | '-'         | '-'        
+
+END_PART
+
+PART 'LD1117'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE              | MANUF(OPT='CAT')   = CI                              | PART_NUMBER                                     | PART_DESCRIPTION                       | OL_COMMENTS       | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'D2PAK'   | '3.3V'             | 'STM'(!)           = '3355A-1'                       | 'STM LD1117DT33C'                               | 'Fixed 3.3V +ve Voltage Regulator'     | 'Farnell 1087170' | '-'         | '-'        
+ 'SOT223'  | '3.3V'             | 'STM'(!)           = '3355A-1'                       | 'STM LD1117S33TR'                               | 'Fixed 3.3V +ve Voltage Regulator'     | 'Farnell 1202826' | '-'         | '-'        
+ 'D2PAK'   | '1.8V'             | 'STM'(!)           = '3355A-1'                       | 'STM LD1117DT33C'                               | 'Fixed 3.3V +ve Voltage Regulator'     | 'Farnell 1087170' | '-'         | '-'        
+ 'SOT223'  | '1.8V'             | 'STM'(!)           = '3355A-1'                       | 'STM LD1117S33TR'                               | 'Fixed 3.3V +ve Voltage Regulator'     | 'Farnell 1202826' | '-'         | '-'        
+
+END_PART
+
+PART 'LT1118CST'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE              | MANUF(OPT='CAT')   = CI                              | PART_NUMBER                                     | PART_DESCRIPTION                                    | OL_COMMENTS       | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT223'  | '2.5V'             | 'Linear'(!)        = '3355A-2'                       | 'Linear LT1118CST-2.5'                          | 'Fixed +2.5V current sink/source voltage Regulator' | 'Farnell 1663359' | '-'         | '-'        
+
+END_PART
+
+PART 'THS4131CD'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                     | PART_DESCRIPTION                                         | OL_COMMENTS                                         | KL_COMMENTS       | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'TI'(!)            = '00969A-1'         | 'THS4131CD / THS4131ID'         | 'Available from RS 462-0737, Farnell 1103047 or 8453250' | 'Pin compatible with AD8138'                        | '-'               | '-'        
+
+END_PART
+
+PART 'THS4151CD'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                         | KL_COMMENTS       | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'TI'(!)            = '00969A-1'         | 'THS4151CD / THS4151ID'         | 'Available from Farnell 8453292, also Digikey 296-10054-5-ND but MoQ=75' | 'Pin compatible with AD8138'                        | '-'               | '-'        
+
+END_PART
+
+PART 'AD8129AR'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                         | KL_COMMENTS       | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Analog'(!)        = '00969A-2'         | 'AD8129AR'                      | 'Differential receiver. Available from RS 497-2230 , Farnell 1311346'    | 'Pin compatible with AD8130'                        | '-'               | '-'        
+
+END_PART
+
+PART 'INA133UA'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                         | KL_COMMENTS       | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'TI'(!)            = '009691A-1'        | 'INA133UA'                      | 'Available from RS 378-2733, Farnell 1097640 or 8466955'                 | 'High speed precision difference amp'               | '-'               | '-'        
+
+END_PART
+
+PART 'AD8671'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                         | KL_COMMENTS       | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'AD'(!)            = '009692A-1'        | 'AD8671AR'                      | 'Farnell 1443298 or Digikey'                                             | 'Low noise op-amp'                                  | '-'               | '-'        
+
+END_PART
+
+PART 'DG418'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                         | KL_COMMENTS       | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Vishay'(!)        = '009694A-1'        | 'DG418DY'                       | 'RS184-0275 '                                                            | 'Analog switch. IN=high --> switch closed'          | '-'               | '-'        
+
+END_PART
+
+PART 'DG419'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                         | KL_COMMENTS       | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Vishay'(!)        = '009696A-1'        | 'DG419DY'                       | 'Farnell 1077069'                                                        | 'Single pole Analog switch.'                        | '-'               | '-'        
+
+END_PART
+
+PART 'SSM2142'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                         | KL_COMMENTS       | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'AD'(!)            = '009693A-1'        | 'SSM2142S'                      | 'Farnell 9426329'                                                        | 'Audio line-driver'                                 | '-'               | '-'        
+
+END_PART
+
+PART 'LP2981'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE              | MANUF(OPT='CAT')          = CI                              | PART_NUMBER                                                              | PART_DESCRIPTION                                    | OL_COMMENTS                                  | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23-5' | '2.5V'             | 'National Semi-Conductor'(!) = '03821A-1'                      | 'NSC LP2981AIM5-2.5'                                                     | '2.5V, 100mA Ultra Low Dropout Regulator'           | 'Available from RS 471-8272, and Digikey-UK' | '-'         | '-'        
+
+END_PART
+
+PART 'LM2937IMP'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE              | MANUF(OPT='CAT')          = CI                              | PART_NUMBER                                                              | PART_DESCRIPTION                                    | OL_COMMENTS                                  | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT223'  | '2.5V'             | 'TI'(!)                   = '03821A-2'                      | 'TI LM2937IMP-2.5'                                                       | '2.5V, 400mA Ultra Low Dropout Regulator'           | 'Available from Farnell 9779299'             | '-'         | '-'        
+
+END_PART
+
+PART 'LP38692'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE              | MANUF(OPT='CAT')          = CI                              | PART_NUMBER                                                              | PART_DESCRIPTION                                        | OL_COMMENTS                                   | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT223'  | 'ADJ'              | 'Texas Instruments'(!)    = '03821A-3'                      | 'LP38692MP-ADJ'                                                          | 'Adjustable, 1A Low Dropout Regulator, SOT-223 package' | 'Available from RS 660-6724, Farnell 1496843' | '-'         | '-'
+  'SOT223'  | '1.8'              | 'Texas Instruments'(!)    = '03821A-5'                      | 'LP38692MP-1.8'                                                          | 'TEXAS INSTRUMENTS  LP38692MP-1.8  Fixed LDO Voltage Regulator, 2.7V to 10V, 650mV Dropout, 3.3Vout, 1Aout, SOT-223-5 ' | 'Available from Farnell 2383006' | '-'         | '-'        
+'SOT223'  | '3.3'              | 'Texas Instruments'(!)    = '03821A-4'                      | 'LP38692MP-3.3'                                                          | 'TEXAS INSTRUMENTS  LP38692MP-3.3  Fixed LDO Voltage Regulator, 2.7V to 10V, 650mV Dropout, 3.3Vout, 1Aout, SOT-223-5 ' | 'Available from Farnell 1008056' | '-'         | '-'        
+
+END_PART
+
+PART 'LP38692SD'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE              | MANUF(OPT='CAT')          = CI                              | PART_NUMBER                                                              | PART_DESCRIPTION                                        | OL_COMMENTS                                   | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'WSON'    | '1.8V'             | 'Texas Instruments'(!)    = '03821A-4'                      | 'LP38692SD-1.8'                                                          | 'Fixed 1.8V low dropout regulator, 900mA , stable with ceramic capacitors , WSON-6 package'      | 'Available from Farnell 2492289'              | ''          | ''         
+
+END_PART
+
+
+PART 'LP2985'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE              | MANUF(OPT='CAT')          = CI                              | PART_NUMBER                                                              | PART_DESCRIPTION                                        | OL_COMMENTS                                                          | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23-5' | '2.5V'             | 'Texas Instruments'(!)    = '03821A-2'                      | 'LP2985-25DBVRG4'                                                        | '2.5V, 150mA Ultra Low Dropout Regulator'               | 'Available from RS 660-6724, Farnell 9778543 (Nat. Semi. equivalent' | '-'         | '-'        
+
+END_PART
+
+PART 'LP5951'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE              | MANUF(OPT='CAT')          = CI                              | PART_NUMBER                                                              | PART_DESCRIPTION                                        | OL_COMMENTS                                                          | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23-5' | '1.3V'             | 'Texas Instruments'(!)    = '03821A-3'                      | 'LP5951MF-1.3'                                                           | '1.3V, 150mA Low Dropout Regulator'                     | 'Farnell 1312651'                                                    | '-'         | '-'        
+
+END_PART
+
+PART 'UA741CD'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'TI'(!)            = '015801A-1'               | 'TI UA741CD'                    | 'Compensated Operational Amp. '                                          | 'Available from Farnell 1106042'                        | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'LM3480'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23'   | 'NS'(!)            = ''                        | 'NS LM3480'                     | '3V3 100mA LDO regulator '                                               | 'Available from RS 536-1530 '                           | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'OPA847'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'TI'(!)            = '!'                       | 'TI OPA847'                     | 'OpAmp'                                                                  | 'Available from RS  '                                   | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'MAX506'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP20'   | 'Maxim'(!)         = '!'                       | 'MAX506'                        | 'Quad 8-Bit DACs with rail-to-rail Voltage outputs'                      | 'Available from RS  311-467'                            | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'LP3872'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')   = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT223-5' | 'NS'(!)            = '!'                       | 'LP3872'                        | '3V3 1.5A LDO Regulator'                                                 | 'Available from RS 537-9301'                            | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'AD5316'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')   = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'TSSOP'    | 'AD'(!)            = '!'                       | 'AD5316BRUZ'                    | '4 buffered, 10-bit DACs'                                                | 'Available Farnell 1079338'                             | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'ADCMP561BRQZ'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')   = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'QSOP16'   | 'AD'(!)            = '!'                       | 'ADCMP561BRQZ'                  | 'Dual high speed Comparator'                                             | 'Available Farnell 1438725'                             | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'CS5361'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')      = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'TSSOP24'  | 'CIRRUS LOGIC'(~CS5361_TSSOP24) = '!'                       | 'CS5361'                        | 'Multi-Bit A/D Converter'                                                | 'Available Farnell 1023411'                             | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'AD8221'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')      = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC8'    | 'Analogue Devices'(~AD8221_SOIC8) = '!'                       | 'AD8221'                        | 'Precision Instrumentation amplifier'                                    | 'Available Farnell 1660959'                             | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'AD8139'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')      = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC8'    | 'Analogue Devices'(~AD8139_SOIC8) = '!'                       | 'AD8139'                        | 'LOW NOISE RAIL-TO-RAIL DIFFERENTIAL ADC DRIVER'                         | 'Available Farnell 8397864'                             | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'AD8476'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')      = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'MSOP8'    | 'Analogue Devices'(~AD8476_MSOP8) = '!'                       | ' AD8476ARMZ'                   | 'ifferential Amplifier, Unity-Gain, 1, 50 uV, 5 MHz'                     | 'Available Farnell 	2065943'                            | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'ATF36077'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')      = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'MMIC'     | 'Avango'(~ATF36077_MMIC) = '!'                       | 'ATF36077SIC'                   | 'LOW NOISE HEMT'                                                         | 'Available Farnell 1611539'                             | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'BFT93'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')      = CI                        | PART_NUMBER                     | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT'      | 'NXP'(~BFT93_SOT)     = '!'                       | 'BFT93'                         | 'High bandwidth NPN'                                                     | 'Available Farnell XXXXXXX'                             | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'LMP2022'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                         | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'MSOP'     | 'National Semiconductor'(!) = '14215A-1'                | 'National Semiconductor LMP2022MM' | 'Zero drift, low noise, EMI hardened, Dual Op Amp'                       | '-'                                                     | '-'                                                                  | '-'        
+ 'SOIC'     | 'National Semiconductor'(!) = '13438A-1'                | 'National Semiconductor LMP2022MA' | 'Zero drift, low noise, EMI hardened, Dual Op Amp'                       | '-'                                                     | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'OPA2140'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'MSOP'     | 'TI'(!)                  = '14215A-2'                | 'TI OPA2140AIDGKT'                 | '11MHz, Single Supply, Low Noise, Precision, Rail-to-Rail Output, JFET Amplifier, dual' | 'Farnell 1855120'                                       | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'OPA140'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT23'    | 'TI'(!)                  = '14215A-3'                | 'TI OPA140AIDBVT'                  | '11MHz, Single Supply, Low Noise, Precision, Rail-to-Rail Output, JFET Amplifier'       | 'Farnell 2323353'                                       | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'TPS71701DCKRG4'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SC70'     | 'Texas Instruments'(!)   = '14216A-1'                | 'TI tps71701dckrg4'                | '0.9V - 6.2V adjustable LDO 150mA linear regulator'                                     | 'RS 661-3801 , Farnell 1703393'                         | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'MGA_62563'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOT363'   | 'Avago Technologies'(!)  = '-'                       | 'MGA-62563'                        | 'low noise amplifier 5V'                                                                | '-'                                                     | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'OPA2960'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC8'    | 'TI'(!)                  = '!'                       | 'OPA2690IDG4'                      | 'Dual Wideband, Voltage Feedback Operational Amplifier'                                 | 'Farnell 1207108  '                                     | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'AD8031'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                             | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC8'    | 'AD'(!)                  = '009692A-2'               | 'AD8031brz'                        | 'RS 697-7177'                                                                           | 'SIngle Rail-to-rail op-amp, soic8'                     | '-'                                                                  | '-'        
+ 'SOT23-5'  | 'AD'(!)                  = '009692A-3'               | 'AD8031ARTZ-R2'                    | 'Farnell 1319421 '                                                                      | 'SIngle Rail-to-rail op-amp, sot23 '                    | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'DAC8571'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                                                                        | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'MSOP'     | 'TI'(!)                  = '009692A-4'               | 'DAC8571IDGKG4'                    | 'RS 662-1600'                                                                           | '+2.7V to +5.5V, I2C Interface (Receive Only), Voltage Output, 16-Bit Digital-to-Analog Converter' | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'MAROC3'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                                                                        | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'PQFP'     | 'IN2P3'(!)               = '009692A-5'               | 'MAROC3'                           | 'MAROC3 PMT amplifier'                                                                  | 'MAROC3 64-input PMT amplifier with built in Wilkinson ADC '                                       | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'PRTR5V0U8S'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                                                                        | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'TSSOP'    | 'NXP'(!)                 = '009692A-6'               | 'PRTR5V0U8S'                       | 'ESD Protection Diodes 5.5V Octal TSSOP10 '                                             | 'RS  725-8739 , Farnell 1829284'                                                                   | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'OPA861'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                                                                        | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'     | 'TI'(!)                  = '009692A-7'               | 'OPA861D'                          | 'Wide Bandwidth Operational Transconductance Amplifier (OTA)'                           | 'RS 661-1063 , Farnell 1180133'                                                                    | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'LTM9007_CY'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                                                                        | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'BGA'      | 'Linear'(!)              = '009692A-8'               | 'LTM9007CY-14#PBF'                 | '14-Bit, 40Msps Low Power Octal ADCs'                                                   | 'Digikey LTM9007CY-14#PBF-ND , Farnell  2293075'                                                   | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'LTM9007'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                                                                        | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'BGA'      | 'Linear'(!)              = '009692A-9'               | 'LTM9007CY-14#PBF'                 | '14-Bit, 40Msps Low Power Octal ADCs'                                                   | 'Digikey LTM9007CY-14#PBF-ND , Farnell  2293075'                                                   | '-'                                                                  | '-'        
+
+END_PART
+
+
+PART 'TRF37C75'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                                        | OL_COMMENTS                                                                                        | KL_COMMENTS                                                          | PL_COMMENTS ;
+{========================================================================================}
+ 'WSON'     | 'TI'(!)                  = '009692A-9'               | 'TRF37C75IDSG'                     | '40-4000 MHz RF Gain Block'                                                             | 'Farnell  	2429883'                                                                                | '-'                                                                  | '-'        
+
+END_PART
+
+PART 'PTH12060WAD'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')         = CI                        | PART_NUMBER                        | PART_DESCRIPTION                                                               | OL_COMMENTS        | KL_COMMENTS                           | PL_COMMENTS ;
+{========================================================================================}
+ 'DIL'     | 'Artesyn'(!)                  = '009692A-10'               | 'PTH12060WAD'                     | 'Non-Isolated DC-DC Converter 12V dc Input, 1.2 → 5.5V dc Output, 10A'      | 'RS 462-013'       | '-'                                   | '-'        
+
+END_PART
+
+
+END.
+

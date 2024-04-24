@@ -1,0 +1,661 @@
+
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '100EL16'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI | PART_NUMBER  | PART_DESCRIPTION        | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SOIC'    | 'Synergy'(!)       = '' | 'sy100el16v' | 'differential receiver' | '-'         | '-'         | '-'        
+
+END_PART
+
+PART '100EPT20'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Motorola'(!)      = '02167A-1' | 'Motorola MC10ELT20D' | '3.3V TTL to Differential PECL Translator' | '-'         | '-'         | 'Available Farnell 3608268'
+
+END_PART
+
+PART '100ELT23'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Motorola'(!)      = ''         | 'mc100elt23'          | 'dual PECL->TTL converter'                 | '-'         | '-'         | '-'                        
+
+END_PART
+
+PART '100ELT22'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Motorola'(!)      = ''         | 'mc100elt22'          | 'dual TTL->PECL converter'                 | '-'         | '-'         | '-'                        
+
+END_PART
+
+PART '100EL14'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'ON Semiconductor'(!) = ''         | 'mc100el14dw'         | '1:5 clock distribution'                   | '-'         | '-'         | '-'                        
+
+END_PART
+
+PART '100EL90V'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Micrel/Synergy'(!) = ''         | 'sy100el90v'          | 'Triple (LV)ECL->(LV)PECL converter'       | '-'         | '-'         | '-'                        
+
+END_PART
+
+PART '100EL92'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Micrel/Synergy'(!) = ''         | 'sy100el92'           | 'Triple (LV)PECL->(LV)PECL converter'      | '-'         | '-'         | '-'                        
+
+END_PART
+
+PART '100EL90VA'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Micrel/Synergy'(!) = ''         | 'sy100el90v'          | 'Triple (LV)ECL->(LV)PECL converter'       | '-'         | '-'         | '-'                        
+
+END_PART
+
+PART '100EL92A'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Micrel/Synergy'(!) = ''         | 'sy100el92'           | 'Triple (LV)PECL->(LV)PECL converter'      | '-'         | '-'         | '-'                        
+
+END_PART
+
+PART 'ICS571'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'ICS timing'(!)    = ''         | 'ics571m'             | 'TTL PLL'                                  | '-'         | '-'         | '-'                        
+
+END_PART
+
+PART 'ICS574'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                           | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'ICS timing'(!)    = ''         | 'ics574'              | 'TTL PLL'                                  | '-'         | '-'         | '-'                        
+
+END_PART
+
+PART '100E111L'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS         | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'PLCC'    | 'Synergy'(!)       = '00988A-1' | 'Synergy SY100E111L'  | 'LVPECL 1:9 Differential Clock Driver W/O Enable' | 'Unsocketed Device' | '-'         | '-'                        
+
+END_PART
+
+PART '100324-DIP'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS         | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'DIP'     | 'Fairchild'(!)     = '00988A-1' | 'Fairchild 100324'    | 'Hex TTL-->ECL converter'                         | 'Unsocketed Device' | '-'         | '-'                        
+
+END_PART
+
+PART '74LVX08'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS         | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Fairchild'(!)     = ''         | '74LVX08M'            | 'SMD Quad 2-input Positive AND Gate, 157-6356'    | '-'                 | '-'         | '-'                        
+
+END_PART
+
+PART '74LVC1G123'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                  | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SSOP'    | 'TI'(!)            = ''         | '74LVC1G123DCT'       | 'SMD Monostable, schmitt inputs '                 | 'Available Farnell 1236327 ' | '-'         | '-'                        
+
+END_PART
+
+PART '74LVC86'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')   = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                  | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'NXP'(!)           = '02205A-1' | 'NXP 74LVC86AD'       | 'Quad 2-Input XOR Gate'                           | 'Farnell 1631666'            | '-'         | '-'                        
+
+END_PART
+
+PART 'SN65LVDS352'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')    = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                  | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Texas Instruments'(!) = ''         | 'SN65LVDS352PW'       | 'SMD LVDS receiver'                               | '-'                          | '-'         | '-'                        
+
+END_PART
+
+PART 'SN65LVDS32D'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')    = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                  | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'Texas Instruments'(!) = ''         | 'SN65LVDS32D'         | 'SMD LVDS receiver'                               | 'Farnell 1102954'            | '-'         | '-'                        
+
+END_PART
+
+PART 'SN65LVDS20'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')    = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                  | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SON'     | 'Texas Instruments'(!) = ''         | 'SN65LVDS20DRFT'      | 'SMD LVDS repeater with enable'                   | 'Farnell 1755061'            | '-'         | '-'                        
+
+END_PART
+
+PART 'DS92LV16'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')    = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                  | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'PQFP'    | 'NatSemi'(!)        = ''         | 'DS92LV16TVHG'        | 'SMD 16-bit 80MHz serializer/deserialiser'        | '-'                          | '-'         | '-'                        
+
+END_PART
+
+PART 'DS90C032-EXP'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')    = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                  | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'NatSemi'(!)        = ''         | 'NSC DS90C032TM'      | 'LVDS Quad CMOS Differential line receiver'       | '-'                          | '-'         | '-'                        
+
+END_PART
+
+PART 'DS90LV019'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')    = CI         | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                  | KL_COMMENTS | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'    | 'NatSemi'(!)        = ''         | 'NSC DS90LV019TM'     | 'LVDS 1Tx + 1Rx'                                  | 'RS 349-4278'                | '-'         | '-'                        
+
+END_PART
+
+PART 'OSC-DIL8'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE               | MANUF(OPT='CAT')   = CI                    | PART_NUMBER                                       | PART_DESCRIPTION              | OL_COMMENTS | KL_COMMENTS                 | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP'     | '80MHz'             | 'Gollege'(!)       = '03304A-1'            | 'GXO-U102F-80.00MHz'                              | '80MHz 3.3V LVTTL Oscillator' | '-'         | '-'                         | '-'        
+
+END_PART
+
+PART 'SPC8640'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE               | MANUF(OPT='CAT')   = CI                    | PART_NUMBER                                       | PART_DESCRIPTION                     | OL_COMMENTS      | KL_COMMENTS                 | PL_COMMENTS ;
+{========================================================================================}
+ 'DIP'     | '600kHz'            | 'Seiko/Epson'(!)   = '033041A-1'           | 'SPC8640AN'                                       | '600kHz programmable oscillator TTL' | 'RS 199-2556'    | '-'                         | '-'        
+ 'DIP'     | '1MHz'              | 'Seiko/Epson'(!)   = '033041A-1'           | 'SPC8640BN'                                       | '600kHz programmable oscillator TTL' | 'Farnell 170680' | '-'                         | '-'        
+
+END_PART
+
+PART 'SLX2016'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | MANUF(OPT='CAT')    = CI                 | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'DIP'     | 'Siemens'(!)        = '01513A-1'         | 'slg2016'             | '4 digit led display'                             | '-'                                  | '-'              | '-'                        
+
+END_PART
+
+PART 'PCA9500D'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC16-3' | 'phillips'(!)       = ''                 | 'pca9500d'            | '8-bit I2C and SMBus I/O port with 2kbit EErom'   | '-'                                  | '-'              | '-'                        
+
+END_PART
+
+PART 'SN65MLVD080'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER           | PART_DESCRIPTION                                  | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'TSSOP'    | 'texas instruments'(!) = ''                 | 'sn65mlvd080'         | '8-channel half-duplex m-lvds line transceivers'  | '-'                                  | '-'              | '-'                        
+
+END_PART
+
+PART 'SN65MLVD082'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER           | PART_DESCRIPTION                                              | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'TSSOP'    | 'texas instruments'(!) = ''                 | 'sn65mlvd082'         | '8-channel half-duplex m-lvds line transceiver. Offset input' | '-'                                  | '-'              | '-'                        
+
+END_PART
+
+PART 'AD7450'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                              | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'Analog'(!)         = '00968A-1'         | 'Analog Devices AD7450R'  | ''                                                            | '-'                                  | '-'              | '-'                        
+ 'USOIC'    | 'Analog'(!)         = '00968A-1'         | 'Analog Devices AD7450RM' | ''                                                            | '-'                                  | '-'              | '-'                        
+
+END_PART
+
+PART 'SN65LVDM1676DGG'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                              | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'TSSOP'    | 'texas instruments'(!) = ''                 | 'sn65lvdm1676'            | '16-channel m-lvds line transceiver'                          | '-'                                  | '-'              | '-'                        
+
+END_PART
+
+PART '74LCX00'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                              | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'Fairchild'(!)      = '00195A-1'         | '74LCX00M'                | 'SMD Quad 2-input Positive NAND Gate. t_pd=5ns'               | 'Farnell 1013771'                    | '-'              | '-'                        
+
+END_PART
+
+PART 'MAX3966'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                              | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'QSOP'     | 'Maxim'(!)          = ''                 | '3966ceg'                 | 'SMD Led driver with programable Prebias voltage'             | 'Farnell '                           | '-'              | '-'                        
+
+END_PART
+
+
+PART 'SN65LVDT2D'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                     | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'Texas instruments'(!) = ''                 | 'snlvdt2d'                | 'single high speed differential line receiver, built in termination' | 'RS '                                | '-'              | '-'                        
+
+END_PART
+
+PART 'SN65LVDT101DG4'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                     | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'Texas instruments'(!) = ''                 | 'snlvdt101dg4'                | 'single high speed differential line receiver, PECL output, built in termination' | 'RS '                                | '-'              | '-'                        
+
+END_PART
+
+PART 'SN65LVDT2DBVR'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                     | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOT23-5'  | 'Texas instruments'(!) = ''                 | 'snlvdt2dbv'              | 'single high speed differential line receiver, built in termination' | 'RS 462-0490'                        | '-'              | '-'                        
+
+END_PART
+
+PART 'MAX903ESA'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'Maxim'(!)          = ''                 | 'Max903esa'               | 'Comparator; Voltage; 12 V (analogue), 7 V (Digital); 2.5 mA (typ.); 18 mW (typ.)' | 'RS 2509647223 '                     | '-'              | '-'                        
+
+END_PART
+
+PART 'MAX9031'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOT23'    | 'Maxim'(!)          = ''                 | 'Max9031'                 | 'Comparator; Supply Voltage; 2.5 - 5.5V; 35uA (typ.);'                             | 'Farnell 1550472'                    | '-'              | '-'                        
+
+END_PART
+
+PART 'SN75LVDT386DGG'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'TSSOP'    | 'TI'(!)             = ''                 | 'SN75LVDT386DGG'          | 'Sixteen way LVDS-->TTL receiver'                                                  | 'Farnell 1235029 '                   | '-'              | '-'                        
+
+END_PART
+
+PART 'SN65LVDS387DGG'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'TSSOP'    | 'TI'(!)             = ''                 | 'SN65LVDS387DGG'          | 'Sixteen way TTL-->LVDS driver'                                                    | 'Farnell 1207274 '                   | '-'              | '-'                        
+
+END_PART
+
+PART '74LVC14'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'TI'(!)             = ''                 | '74LVC14'                 | 'Hex 3V3 Schmitt Trigger Inverter. N.B. use VCC not 3v3'                           | 'RS 3800077 '                        | '-'              | '-'                        
+
+END_PART
+
+PART '74HCT154'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'NXP'(!)            = ''                 | '74HCT154'                | '4:16 decoder/demultiplexor'                                                       | 'RS 483-6421'                        | '-'              | '-'                        
+
+END_PART
+
+PART '74HC151'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'NXP'(!)            = ''                 | '74HCT151'                | '8:1 multiplexer'                                                                  | 'RS 436-7436'                        | '-'              | '-'                        
+
+END_PART
+
+PART '74LVC07'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'TI'(!)             = ''                 | 'SN74LVC07ADE4'           | 'Hex non-inverting buffer, open drain outputs'                                     | 'Farnell 1236300'                    | '-'              | '-'                        
+
+END_PART
+
+PART '74LVC2G86'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SSOP'    | 'TI'(!)             = ''                 | 'SN74LVC2G86DCTRG4'       | 'XOR Gate Dual 2-IN CMOS 8-Pin SSOP'     | 'RS 662-8972'       | '-'              | '-'                        
+
+END_PART
+
+PART '74LVC2G07'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOT23'    | 'TI'(!)             = ''                 | 'SN74LVC2G07DBVRG4'       | 'Dual non-inverting buffer, open drain outputs'                                    | 'RS 662-8913, Farnell 1470774'       | '-'              | '-'                        
+
+END_PART
+
+PART '74HC4050'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'TI'(!)             = ''                 | 'CD74HC4050M'             | 'Hex non-inverting buffer, 15V tolerant inputs'                                    | 'Farnell 1643824'                    | '-'              | '-'                        
+
+END_PART
+
+PART '74LVC08'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'TI'(!)             = ''                 | '74LVC08'                 | 'Quad 3V3 AND Gate.  N.B. use VCC not 3v3'                                         | 'RS 3559870 '                        | '-'              | '-'                        
+
+END_PART
+
+PART 'MC100LVEL05'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'On Semiconductor'(!) = ''                 | 'MC100LVEL05'             | '3.3v ECL 2-input Differential AND/NAND'                                           | 'Farnell 4517349'                    | '-'              | '-'                        
+
+END_PART
+
+PART 'PCA9555'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SSOP24'   | 'NXP'(!)            = ''                 | 'PCA9555'                 | '16-bit I2C and SMBus I/O port with interupt'                                      | 'RS 483-7216'                        | '-'              | '-'                        
+
+END_PART
+
+PART 'SN65LVDS105'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'TI'(!)             = ''                 | 'SN65LVDS105D'            | '1:4 TTL-->LVDS Fanout/Repeater'                                                   | 'RS 462-0153'                        | '-'              | '-'                        
+
+END_PART
+
+PART 'SN65LVDS104'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'TI'(!)             = ''                 | 'SN65LVDS104D'            | '1:4 LVDS-->LVDS Fanout/Repeater'                                                  | 'Farnell 1460101'                    | '-'              | '-'                        
+
+END_PART
+
+PART '74HC153'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'Philips'(!)        = ''                 | '74HC153D'                | 'Dual 3V3 4:1 Multiplexer'                                                         | 'Farnell 1201248'                    | '-'              | '-'                        
+ 'DIP'      | 'Philips'(!)        = ''                 | '74HC153N'                | 'Dual 3V3 4:1 Multiplexer'                                                         | 'Farnell 380570'                     | '-'              | '-'                        
+
+END_PART
+
+PART '74HC139'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'Philips'(!)        = ''                 | '74HC159D'                | 'Dual 2:4 Decoder/Demultiplexer'                                                   | 'Farnell 1085333'                    | '-'              | '-'                        
+
+END_PART
+
+PART 'CDCEL949PW'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'TSSOP'    | 'TI'(!)             = ''                 | 'CDCEL949PW'              | 'Programmable 4-PLL VCXO Clock Synthesizer with 1.8-V LVCMOS Outputs'              | 'RS 459-392'                         | '-'              | '-'                        
+
+END_PART
+
+PART 'CDCE949PW'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'TSSOP'    | 'TI'(!)             = ''                 | 'CDCE949PW'               | 'Programmable 4-PLL VCXO Clock Synthesizer with 3.3-V LVCMOS Outputs'              | 'RS 459-392 , Farnell 1494886'       | '-'              | '-'                        
+
+END_PART
+
+PART 'DS90C401M'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC8'    | 'NatSemi'(!)        = ''                 | 'NSC DS90C401M'           | 'LVDS'                                                                             | 'RS 533-8906'                        | '-'              | '-'                        
+
+END_PART
+
+PART 'DS90C402'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC8'    | 'NatSemi'(!)        = ''                 | 'NSC DS90C402M'           | 'LVDS receiver'                                                                    | 'RS 533-8912'                        | '-'              | '-'                        
+
+END_PART
+
+PART 'IL613E'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'NVE'(!)            = ''                 | 'NVE 613E'                | 'Triple passive-input 100MBit/s isolator'                                          | 'RS 418-448'                         | '-'              | '-'                        
+
+END_PART
+
+PART 'DS91C176'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'NatSemi'(!)        = ''                 | 'DS91C176'                | 'M-LVDS Transceiver, 200MBit/s'                                                    | 'RS 651-2436'                        | '-'              | '-'                        
+
+END_PART
+
+PART 'SN65LVDS34D'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOIC'     | 'TI'(!)             = ''                 | 'SN65LVDS34D'             | 'Dual LVDS receiver -4V - 5V common mode range'                                    | 'RS 517-0744'                        | '-'              | '-'                        
+
+END_PART
+
+PART 'SN74AUC2G07'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOT'      | 'TI'(!)             = ''                 | 'TI SN74AUC2G07DBVT '     | 'Dual non-inverting buffer, open drain outputs 0.8-3.6V supply'                    | 'Farnell 1754360, or digikey'        | '-'              | '-'                        
+
+END_PART
+
+PART 'DS90LT012'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOT'      | 'NS'(!)             = ''                 | 'NS DS90LT012'            | 'differential line receiver'                                                       | 'Farnell 1798308, or digikey'        | '-'              | '-'                        
+
+END_PART
+
+PART 'CDCLVC1112'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                                                   | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'TSSOP'      | 'TI'(!)             = ''                 | 'TI CDCLVC1112PW'            | '12-output TTL clock buffer'                                                       | 'Digikey 296-33174-5-ND'        | '-'              | '-'                        
+
+END_PART
+
+PART 'CDCLVD110'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                      | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'LQFP'      | 'TI'(!)             = ''                 | 'TI CDCLVDS110AVF'            | '10-output low jitter LVDS clock buffer'          | 'RS 662-5330 , Digikey 296-21573-ND'        | '-'              | '-'                        
+
+END_PART
+
+PART 'NCP803'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE  |  VALUE |MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                              | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
+{========================================================================================}
+ 'SOT23'    |  4.38V      |'ON Semi'(!) = ''                 | 'NCP803SN438T1G'              | 'ON Semiconductor NCP803SN438T1G, Voltage Supervisor, 1.2 → 4.9 V, 3-Pin SOT-23, 4.38V threshold'                  | 'RS 781-4409'                       | '-'              | '-'
+  'SOT23'    |  3.08V      |'ON Semi'(!) = ''                 | 'NCP803SN308T1G'              | 'ON Semiconductor  NCP803SN308T1G, Voltage Supervisor, 1.2 → 5.5 V, 3-Pin SOT-23, 3.08V threshold. 460ms delay'                  | 'Farnell 1652463'                       | '-'              | '-'
+  'SC70'    |  4.38V      |'ON Semi'(!) = ''                 | 'MAX803SQ438T1G'              | 'ON Semiconductor NCP803SN438T1G, Voltage Supervisor, 1.2 → 4.9 V, 3-Pin SC70, 4.38V threshold'                  | 'RS 806-2475'                       | '-'              | '-'                        
+
+END_PART
+
+END.
+

@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TMP1075NDRLR'
+CLASS=IC
+
+{========================================================================================}
+:MANUFACTURER_NAME   | MANUFACTURER_PART_NUMBER    = PART_NUMBER | JEDEC_TYPE    | PACK_TYPE | MOUSER_PART_NUMBER | MOUSER_PRICE/STOCK                                                                                            | DESCRIPTION                                                                                                                                                                   | DATASHEET                                                                                                                                                                     | HEIGHT   ;
+{========================================================================================}
+ 'Texas Instruments' | 'TMP1075NDRLR'(!)           = ''          | 'SOT_DRL_TEX' | 'SOT'     | '595-TMP1075NDRLR' | 'https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP1075NDRLR?qs=Wj%2FVkw3K%252BMAzhq67b4cIAg%3D%3D' | 'https://www.ti.com/lit/ds/symlink/tmp1075.pdf?ts=1637475227880&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTMP1075NDRLR' | 'https://www.ti.com/lit/ds/symlink/tmp1075.pdf?ts=1637475227880&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTMP1075NDRLR' | '0.6 mm'
+
+END_PART
+
+END.
+
