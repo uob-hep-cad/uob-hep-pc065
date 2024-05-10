@@ -1,0 +1,228 @@
+(Cell	74axc8t245
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/08/24,15:26:53)
+
+			(User	phdgc)
+
+			(Path	bris_cds_logic.74axc8t245)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	05/08/24,15:26:53)
+
+					(User	phdgc)
+
+					(Path	bris_cds_logic.74axc8t245)
+
+				)
+
+			)
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Fixed)
+
+					(Max_Size	8)
+
+					(Checksum	000000005b16e191)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/08/24,15:26:53)
+
+							(User	phdgc)
+
+							(Path	bris_cds_logic.74axc8t245)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Sizable)
+
+					(Max_Size	0)
+
+					(Checksum	00000000b9d0ccb2)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/08/24,15:26:53)
+
+							(User	phdgc)
+
+							(Path	bris_cds_logic.74axc8t245)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c8c03b0)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000f137f059)
+
+			(Primitives	1
+
+				(Primitive	74AXC8T245
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/08/24,15:26:53)
+
+							(User	phdgc)
+
+							(Path	bris_cds_logic.74axc8t245)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	74AXC8T245
+
+							(PackType	74AXC8T245)
+
+							(PackType	74AXC8T245_TSSOP)
+
+							(PackType	74AXC8T245_VQFN)
+
+						)
+
+					)
+
+					(Packages	3
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[8]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d3303af)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S033 (4064022))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bc603a6)
+
+)
+
