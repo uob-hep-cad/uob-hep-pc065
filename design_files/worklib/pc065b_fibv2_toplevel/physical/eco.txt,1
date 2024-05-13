@@ -2,95 +2,30 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_20.brd     |
-|                                                    Mon May 13 08:04:52 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_21.brd     |
+|                                                    Mon May 13 15:17:29 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- SN74AXC8T245RHLR
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  RD_FPGA_N<1> pins MOVED FROM this net (to net name listed on right)
+                                 J2.G7            87.345  10.805
+                                                                   RD_FPGA_N<2>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_N<2> pins MOVED FROM this net (to net name listed on right)
+                                 J2.D9            89.885   6.995
+                                                                   RD_FPGA_N<1>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_P<1> pins MOVED FROM this net (to net name listed on right)
+                                 J2.G6            86.075  10.805
+                                                                   RD_FPGA_P<2>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RD_FPGA_P<2> pins MOVED FROM this net (to net name listed on right)
+                                 J2.D8            88.615   6.995
+                                                                   RD_FPGA_P<1>
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_20.brd     |
-|                                                    Mon May 13 08:04:52 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC3                 SN74AXC8T245RHLR      
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_20.brd     |
-|                                                    Mon May 13 08:04:52 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC3.24                         PRIM_FILE      ./worklib/sn74axc8t245rhlr/chips/chips.prt
- IC3.24                         XY             (1550,2925)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_20.brd     |
-|                                                    Mon May 13 08:04:52 2024  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC3.1                          CDS_PINID      VCCA
- IC3.2                          CDS_PINID      DIR1
- IC3.3                          CDS_PINID      A1
- IC3.4                          CDS_PINID      A2
- IC3.5                          CDS_PINID      A3
- IC3.6                          CDS_PINID      A4
- IC3.7                          CDS_PINID      A5
- IC3.8                          CDS_PINID      A6
- IC3.9                          CDS_PINID      A7
- IC3.10                         CDS_PINID      A8
- IC3.11                         CDS_PINID      DIR2
- IC3.12                         CDS_PINID      GND1
- IC3.13                         CDS_PINID      GND2
- IC3.14                         CDS_PINID      B8
- IC3.15                         CDS_PINID      B7
- IC3.16                         CDS_PINID      B6
- IC3.17                         CDS_PINID      B5
- IC3.18                         CDS_PINID      B4
- IC3.19                         CDS_PINID      B3
- IC3.20                         CDS_PINID      B2
- IC3.21                         CDS_PINID      B1
- IC3.22                         CDS_PINID      \oe*\
- IC3.23                         CDS_PINID      VCCB1
- IC3.24                         CDS_PINID      VCCB2
- IC3.25                         CDS_PINID      EXPAD(0)
- IC3.26                         CDS_PINID      EXPAD(1)
- IC3.27                         CDS_PINID      EXPAD(2)
- IC3.28                         CDS_PINID      EXPAD(3)
- IC3.29                         CDS_PINID      EXPAD(4)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_20.brd     |
-|                                                    Mon May 13 08:04:52 2024  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|------------------------------------------------------------------------------|
-|       Comp definitions added:       1                                        |
-|       Components added      :       1                                        |
-|       Pin property added    :      29                                        |
-|       Slot property added   :       2                                        |
+|       Nets changed          :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:      33                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|

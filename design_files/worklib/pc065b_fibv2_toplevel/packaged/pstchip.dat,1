@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 13-May-2024 AT 07:59:55 }
+{ Packager-XL run on 13-May-2024 AT 15:05:51 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -60,55 +60,6 @@ primitive '24AA025E48T-I/SN';
       PARENT_PART_TYPE='24AA025E48_SOIC';
       PARENT_PPT='24AA025E48';
       PARENT_PPT_PART='24AA025E48T-I/SN';
-  end_body;
-end_primitive;
-primitive '74AXC8T245_VQFN-SN74AXC8T245RHL';
-  pin
-    'DIR':
-      PIN_NUMBER='(2,2,2,2,2,2,2,2)';
-      INPUT_LOAD='(-0.001,0.001)';
-      PINUSE='IN';
-    'OE*':
-      PIN_NUMBER='(22,22,22,22,22,22,22,22)';
-      INPUT_LOAD='(-0.001,0.001)';
-      PINUSE='IN';
-    'B'<0>:
-      PIN_NUMBER='(14,15,16,17,18,19,20,21)';
-      OUTPUT_TYPE='(TS,TS)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(64.0,-32.0)';
-      PINUSE='BI';
-    'A'<0>:
-      PIN_NUMBER='(10,9,8,7,6,5,4,3)';
-      OUTPUT_TYPE='(TS,TS)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(64.0,-32.0)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='74AXC8T245';
-      FAMILY='INTERFACE';
-      BODY_NAME='74AXC8T245';
-      PART_NUMBER='SN74AXC8T245RJWR';
-      MANUFACTURER='Texas Instruments';
-      DESCRIPTION='';
-      TECH='74AVC';
-      PHYS_DES_PREFIX='IC';
-      CLASS='IC';
-      POWER_PINS='(VCCA:1)';
-      POWER_PINS='(VCCB:23,24)';
-      POWER_PINS='(GND:11,12,13)';
-      STATUS='Preferred';
-      DATASHEET_URL='';
-      PINCOUNT='24';
-      SMD='YES';
-      CASE='VQFN24';
-      JEDEC_TYPE='RHL0024A';
-      PARENT_PART_TYPE='74AXC8T245_VQFN';
-      PARENT_PPT='74AXC8T245';
-      PARENT_PPT_PART='74AXC8T245_VQFN-SN74AXC8T245RHL';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -4139,7 +4090,7 @@ primitive 'SN74AXC8T245RHLR';
       PART_NAME='SN74AXC8T245RHLR';
       BODY_NAME='SN74AXC8T245RHLR';
       JEDEC_TYPE='RHL0024A';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='IC';
       CLASS='IC';
   end_body;
 end_primitive;

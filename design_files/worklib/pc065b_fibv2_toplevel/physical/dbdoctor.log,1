@@ -2,17 +2,19 @@
 (                                                                     )
 (    DBDOCTOR                                                         )
 (                                                                     )
-(    Drawing          : pc065c_fibv2_toplevel_11.brd                  )
+(    Drawing          : pc065c_fibv2_toplevel_18.brd                  )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Tue Mar 19 09:40:07 2024                      )
+(    Date/Time        : Wed Apr  3 12:26:54 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
+WARNING Deleted redundant via at (43.105 34.274) on net RD_FPGA_P<2>.
+WARNING Deleted redundant via at (42.375 34.274) on net RD_FPGA_N<2>.
 
 Regenerating DRC
-  Original DRC errors:   25
-  Updated DRC errors:    25
+  Original DRC errors:   0
+  Updated DRC errors:    0
   DRC elapsed time:      00:00:01
 
-0 warnings, 0 errors detected, 0 errors  fixed.
+2 warnings, 0 errors detected, 0 errors  fixed.

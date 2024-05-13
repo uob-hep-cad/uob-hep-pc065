@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc065c_fibv2_toplevel_20.brd                  )
+(    Drawing          : pc065c_fibv2_toplevel_21.brd                  )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Mon May 13 08:06:18 2024                      )
+(    Date/Time        : Mon May 13 15:19:30 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,17 +19,17 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\packaged'
 Design Directory:            '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical'
-Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_20.brd'
-New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_20.brd'
+Old design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_21.brd'
+New design name:             '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_21.brd'
 
-CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -y 1 -z -O \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_20.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_20.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -y 1 -z -O \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_21.brd \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_21.brd -w \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.38)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstchip.dat (00:00:00.29)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat 
-   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat (00:00:00.00)
+   Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxprt.dat (00:00:00.01)
 Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat 
    Finished reading //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstxnet.dat (00:00:00.03)
 
@@ -41,12 +41,11 @@ Starting to read //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hasti
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai30100.tmp
-	Start time: Mon May 13 08:06:18 2024
+	Allegro Baseline:   C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaaai28172.tmp
+	Start time: Mon May 13 15:19:30 2024
 ===========================================================
-NOTE: Constraint information is up-to-date. No processing was required.
 ===========================================================
-Finished Constraint Update	Time: Mon May 13 08:06:18 2024
+Finished Constraint Update	Time: Mon May 13 15:19:30 2024
 ===========================================================
 
 ------ Library Paths ------
@@ -73,9 +72,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on May 13 8:06:18 2024
+netrev run on May 13 15:19:29 2024
    DESIGN NAME : 'PC065B_FIBV2_TOPLEVEL'
-   PACKAGING ON 13-May-2024 AT 08:06:10
+   PACKAGING ON 13-May-2024 AT 15:19:16
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -104,6 +103,6 @@ netrev run on May 13 8:06:18 2024
  No oversight detected
  No warning detected
 
-cpu time      0:03:44
-elapsed time  0:00:01
+cpu time      0:03:51
+elapsed time  0:00:02
 
