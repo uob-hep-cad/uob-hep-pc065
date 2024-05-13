@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2024-04-04T12:13:05</modificationTime>
+    <modificationTime>2024-05-13T08:05:55</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065b_fibv2_toplevel" view="sch_1">
       <lastids>
-        <instanceid>295</instanceid>
-        <netid>601</netid>
-        <insttermid>4524</insttermid>
+        <instanceid>299</instanceid>
+        <netid>616</netid>
+        <insttermid>4750</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -931,6 +931,143 @@
             <term>
               <id>T1595</id>
               <name>k</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S62</id>
+          <library>uob_hep_pc065a_lib</library>
+          <name>sn74axc8t245rhlr</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T1696</id>
+              <name>a1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1697</id>
+              <name>a2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1698</id>
+              <name>a3</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1699</id>
+              <name>a4</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1700</id>
+              <name>a5</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1701</id>
+              <name>a6</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1702</id>
+              <name>a7</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1703</id>
+              <name>a8</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1704</id>
+              <name>b1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1705</id>
+              <name>b2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1706</id>
+              <name>b3</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1707</id>
+              <name>b4</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1708</id>
+              <name>b5</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1709</id>
+              <name>b6</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1710</id>
+              <name>b7</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1711</id>
+              <name>b8</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1712</id>
+              <name>dir1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1713</id>
+              <name>dir2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1714</id>
+              <name>expad</name>
+              <direction>inout</direction>
+              <msb>4</msb>
+              <lsb>0</lsb>
+            </term>
+            <term>
+              <id>T1715</id>
+              <name>gnd1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1716</id>
+              <name>gnd2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1717</id>
+              <name>oe*</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1718</id>
+              <name>vcca</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1719</id>
+              <name>vccb1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1720</id>
+              <name>vccb2</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -3262,12 +3399,12 @@
           <name>page13_i1</name>
           <powers>
             <power>
-              <name>vdd</name>
-              <override>p3v3</override>
-            </power>
-            <power>
               <name>vss</name>
               <override>gnd</override>
+            </power>
+            <power>
+              <name>vdd</name>
+              <override>p3v3</override>
             </power>
           </powers>
           <pins>
@@ -3482,12 +3619,12 @@
           <name>page13_i44</name>
           <powers>
             <power>
-              <name>vdd</name>
-              <override>p3v3</override>
-            </power>
-            <power>
               <name>vss</name>
               <override>gnd</override>
+            </power>
+            <power>
+              <name>vdd</name>
+              <override>p3v3</override>
             </power>
           </powers>
           <pins>
@@ -5845,6 +5982,172 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I299</id>
+          <cellid>S62</cellid>
+          <name>page13_i85</name>
+          <pins>
+            <pin>
+              <id>M4726</id>
+              <termid>T1696</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4727</id>
+              <termid>T1697</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4728</id>
+              <termid>T1698</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4729</id>
+              <termid>T1699</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4730</id>
+              <termid>T1700</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4731</id>
+              <termid>T1701</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4732</id>
+              <termid>T1702</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4733</id>
+              <termid>T1703</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4734</id>
+              <termid>T1704</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4735</id>
+              <termid>T1705</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4736</id>
+              <termid>T1706</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4737</id>
+              <termid>T1707</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4738</id>
+              <termid>T1708</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4739</id>
+              <termid>T1709</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4740</id>
+              <termid>T1710</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4741</id>
+              <termid>T1711</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4742</id>
+              <termid>T1712</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4743</id>
+              <termid>T1713</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4744</id>
+              <termid>T1714</termid>
+              <msb>4</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="4" pinlsb="4" net="gnd" />
+                <connection pinmsb="3" pinlsb="3" net="gnd" />
+                <connection pinmsb="2" pinlsb="2" net="gnd" />
+                <connection pinmsb="1" pinlsb="1" net="gnd" />
+                <connection pinmsb="0" pinlsb="0" net="gnd" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M4745</id>
+              <termid>T1715</termid>
+              <connections>
+                <connection net="gnd" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M4746</id>
+              <termid>T1716</termid>
+              <connections>
+                <connection net="gnd" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M4747</id>
+              <termid>T1717</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4748</id>
+              <termid>T1718</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4749</id>
+              <termid>T1719</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M4750</id>
+              <termid>T1720</termid>
+              <connections>
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -6738,6 +7041,7 @@
               <instance ref="i81"></instance>
               <instance ref="i82"></instance>
               <instance ref="i83"></instance>
+              <instance ref="i85"></instance>
             </instances>
           </page>
         </pages>

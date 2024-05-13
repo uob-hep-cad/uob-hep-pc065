@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2024-04-04T11:01:29</modificationTime>
+    <modificationTime>2024-05-13T08:01:34</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065b_fibv2_toplevel" view="sch_1">
       <lastids>
-        <instanceid>293</instanceid>
-        <netid>594</netid>
-        <insttermid>4464</insttermid>
+        <instanceid>298</instanceid>
+        <netid>616</netid>
+        <insttermid>4725</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1513,6 +1513,14 @@
         <net>
           <id>N589</id>
           <name>unnamed_8_rsmd0402_i172_b</name>
+        </net>
+        <net>
+          <id>N595</id>
+          <name>unnamed_4_fmchpcgeneric_i62_tdi</name>
+        </net>
+        <net>
+          <id>N596</id>
+          <name>unnamed_4_fmchpcgeneric_i62_tdo</name>
         </net>
         <net>
           <id>N20</id>
@@ -5122,12 +5130,14 @@
               <id>M3830</id>
               <termid>T1068</termid>
               <connections>
+                <connection net="N595" />
               </connections>
             </pin>
             <pin>
               <id>M3831</id>
               <termid>T1069</termid>
               <connections>
+                <connection net="N596" />
               </connections>
             </pin>
             <pin>
@@ -5785,6 +5795,56 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I294</id>
+          <cellid>S16</cellid>
+          <name>page4_i140</name>
+          <pins>
+            <pin>
+              <id>M4465</id>
+              <termid>T186</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N595" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M4466</id>
+              <termid>T187</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N596" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I295</id>
+          <cellid>S15</cellid>
+          <name>page7_i51</name>
+          <pins>
+            <pin>
+              <id>M4523</id>
+              <termid>T184</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="gnd" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M4524</id>
+              <termid>T185</termid>
+              <msb>0</msb>
+              <lsb>0</lsb>
+              <connections>
+                <connection pinmsb="0" pinlsb="0" net="N303" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -6281,6 +6341,8 @@
               </net>
               <net ref="unnamed_4_fmchpcgeneric_i62_ga0"></net>
               <net ref="unnamed_4_fmchpcgeneric_i62_ga1"></net>
+              <net ref="unnamed_4_fmchpcgeneric_i62_tdi"></net>
+              <net ref="unnamed_4_fmchpcgeneric_i62_tdo"></net>
             </nets>
             <instances>
               <instance ref="i2"></instance>
@@ -6289,6 +6351,7 @@
               <instance ref="i55"></instance>
               <instance ref="i62"></instance>
               <instance ref="i63"></instance>
+              <instance ref="i140"></instance>
             </instances>
           </page>
           <page number="5">
@@ -6405,6 +6468,7 @@
               <instance ref="i42"></instance>
               <instance ref="i45"></instance>
               <instance ref="i50"></instance>
+              <instance ref="i51"></instance>
             </instances>
           </page>
           <page number="8">

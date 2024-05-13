@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 04-Apr-2024 AT 12:13:22 }
+{ Packager-XL run on 13-May-2024 AT 08:06:10 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065B_FIBV2_TOPLEVEL';
- POST_TIME='04-Apr-2024 AT 12:13:22';
+ POST_TIME='13-May-2024 AT 08:06:10';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -2641,6 +2641,25 @@ gic.tmp1075ndrlr(chips)',
  CDS_PART_NAME='TMP1075NDRLR_SOT-TEXAS INSTRUMA',
  PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
 DUNE/library/cds_logic/tmp1075ndrlr/chips/chips.prt';
+
+PART_NAME
+ IC3 'SN74AXC8T245RHLR':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I85@UOB_HEP_PC065A_LIB.SN74AXC8T245RHLR(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i85@uob_hep_pc0~
+65a_lib.sn74axc8t245rhlr(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i85@uob_hep_pc06~
+5a_lib.sn74axc8t245rhlr(chips)',
+ PATH='I85',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ PHYS_PAGE='9',
+ XY='(1550,2925)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='uob_hep_pc065a_lib',
+ CDS_PART_NAME='SN74AXC8T245RHLR',
+ PRIM_FILE='./worklib/sn74axc8t245rhlr/chips/chips.prt';
 
 PART_NAME
  IC10 'TCA9539AHF-VDD=P3V3,VSS=GND':;
