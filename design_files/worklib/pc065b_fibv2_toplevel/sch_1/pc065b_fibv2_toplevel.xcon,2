@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2024-05-14T10:27:38</modificationTime>
+    <modificationTime>2024-05-14T11:04:49</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065b_fibv2_toplevel" view="sch_1">
       <lastids>
         <instanceid>304</instanceid>
-        <netid>679</netid>
-        <insttermid>5040</insttermid>
+        <netid>690</netid>
+        <insttermid>5152</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1343,6 +1343,9 @@
         <net>
           <id>N227</id>
           <name>rst_i2c_b</name>
+          <scope>interface</scope>
+          <direction>output</direction>
+          <base>1</base>
         </net>
         <net>
           <id>N228</id>
@@ -1355,17 +1358,6 @@
         <net>
           <id>N230</id>
           <name>page13_p3v3</name>
-        </net>
-        <net>
-          <id>N278</id>
-          <name>rst_i2c_b_cvcc</name>
-          <scope>interface</scope>
-          <direction>output</direction>
-          <base>1</base>
-        </net>
-        <net>
-          <id>N280</id>
-          <name>page4_rst_i2c_b_cvcc</name>
         </net>
         <net>
           <id>N286</id>
@@ -1652,10 +1644,6 @@
           <name>led_7</name>
         </net>
         <net>
-          <id>N630</id>
-          <name>page13_p1v3</name>
-        </net>
-        <net>
           <id>N631</id>
           <name>unnamed_13_rsmd0402_i94_b</name>
         </net>
@@ -1798,6 +1786,10 @@
           <lsb>0</lsb>
         </net>
         <net>
+          <id>N685</id>
+          <name>page4_rst_i2c_b</name>
+        </net>
+        <net>
           <id>N20</id>
           <name>p3v3a</name>
           <scope>global</scope>
@@ -1893,8 +1885,6 @@
         <alias net1="N220" lsb1="7" msb1="7" net2="N144" lsb2="33" msb2="33" />
         <alias net1="N220" lsb1="6" msb1="6" net2="N144" lsb2="16" msb2="16" />
         <alias net1="N220" lsb1="0" msb1="7" net2="N218" lsb2="0" msb2="7" />
-        <alias net1="N280" lsb1="-1" msb1="-1" net2="N146" lsb2="29" msb2="29" />
-        <alias net1="N280" lsb1="-1" msb1="-1" net2="N278" lsb2="-1" msb2="-1" />
         <alias net1="N286" lsb1="1" msb1="1" net2="N8" lsb2="1" msb2="1" />
         <alias net1="N287" lsb1="1" msb1="1" net2="N9" lsb2="1" msb2="1" />
         <alias net1="N395" lsb1="8" msb1="8" net2="N79" lsb2="8" msb2="8" />
@@ -1928,20 +1918,6 @@
         <alias net1="N646" lsb1="0" msb1="0" net2="N148" lsb2="6" msb2="6" />
         <alias net1="N646" lsb1="0" msb1="21" net2="N645" lsb2="0" msb2="21" />
         <alias net1="N652" lsb1="-1" msb1="-1" net2="N95" lsb2="-1" msb2="-1" />
-        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N7" lsb2="-1" msb2="-1" />
-        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N47" lsb2="-1" msb2="-1" />
-        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N186" lsb2="-1" msb2="-1" />
-        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N230" lsb2="-1" msb2="-1" />
-        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N358" lsb2="-1" msb2="-1" />
-        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N408" lsb2="-1" msb2="-1" />
-        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N6" lsb2="-1" msb2="-1" />
-        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N15" lsb2="-1" msb2="-1" />
-        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N64" lsb2="-1" msb2="-1" />
-        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N185" lsb2="-1" msb2="-1" />
-        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N226" lsb2="-1" msb2="-1" />
-        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N357" lsb2="-1" msb2="-1" />
-        <alias net1="p1v3" lsb1="-1" msb1="-1" net2="N56" lsb2="-1" msb2="-1" />
-        <alias net1="p1v3" lsb1="-1" msb1="-1" net2="N630" lsb2="-1" msb2="-1" />
         <alias net1="N671" lsb1="-1" msb1="-1" net2="N646" lsb2="8" msb2="8" />
         <alias net1="N671" lsb1="-1" msb1="-1" net2="N663" lsb2="-1" msb2="-1" />
         <alias net1="N672" lsb1="-1" msb1="-1" net2="N646" lsb2="9" msb2="9" />
@@ -1961,6 +1937,21 @@
         <alias net1="N679" lsb1="0" msb1="7" net2="N107" lsb2="0" msb2="7" />
         <alias net1="N679" lsb1="4" msb1="7" net2="N644" lsb2="12" msb2="15" />
         <alias net1="N679" lsb1="0" msb1="3" net2="N646" lsb2="12" msb2="15" />
+        <alias net1="N685" lsb1="-1" msb1="-1" net2="N146" lsb2="29" msb2="29" />
+        <alias net1="N685" lsb1="-1" msb1="-1" net2="N227" lsb2="-1" msb2="-1" />
+        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N7" lsb2="-1" msb2="-1" />
+        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N47" lsb2="-1" msb2="-1" />
+        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N186" lsb2="-1" msb2="-1" />
+        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N230" lsb2="-1" msb2="-1" />
+        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N358" lsb2="-1" msb2="-1" />
+        <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N408" lsb2="-1" msb2="-1" />
+        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N6" lsb2="-1" msb2="-1" />
+        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N15" lsb2="-1" msb2="-1" />
+        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N64" lsb2="-1" msb2="-1" />
+        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N185" lsb2="-1" msb2="-1" />
+        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N226" lsb2="-1" msb2="-1" />
+        <alias net1="gnd" lsb1="-1" msb1="-1" net2="N357" lsb2="-1" msb2="-1" />
+        <alias net1="p1v3" lsb1="-1" msb1="-1" net2="N56" lsb2="-1" msb2="-1" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -6149,7 +6140,7 @@
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
-                <connection pinmsb="0" pinlsb="0" net="p1v3" />
+                <connection pinmsb="0" pinlsb="0" net="N95" />
               </connections>
             </pin>
             <pin>
@@ -6420,9 +6411,6 @@
             <pageScope number="7">
               <scope>global</scope>
             </pageScope>
-            <pageScope number="13">
-              <scope>global</scope>
-            </pageScope>
           </netScope>
           <netScope ref="p2v5">
             <pageScope number="7">
@@ -6501,7 +6489,7 @@
               <direction>output</direction>
             </pageScope>
           </netScope>
-          <netScope ref="rst_i2c_b_cvcc">
+          <netScope ref="rst_i2c_b">
             <pageScope number="4">
               <scope>interface</scope>
               <direction>output</direction>
@@ -6740,7 +6728,7 @@
                 <msb>7</msb>
                 <lsb>0</lsb>
               </net>
-              <net ref="rst_i2c_b_cvcc"></net>
+              <net ref="rst_i2c_b"></net>
               <net ref="sfp_i2c_scl_cvcc">
                 <msb>7</msb>
                 <lsb>0</lsb>
@@ -7116,7 +7104,6 @@
               <net ref="led_6_fpga"></net>
               <net ref="led_7"></net>
               <net ref="led_7_fpga"></net>
-              <net ref="p1v3"></net>
               <net ref="p2v5"></net>
               <net ref="p3v3"></net>
               <net ref="rst_i2c_b"></net>
