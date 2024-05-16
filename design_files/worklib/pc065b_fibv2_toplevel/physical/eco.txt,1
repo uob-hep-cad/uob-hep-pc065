@@ -2,76 +2,26 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd     |
-|                                                    Thu Apr  4 12:13:34 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Thu May 16 09:11:27 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins ADDED TO this existing net (pins not previously on any net)
-                                 C19.1                          
+  SFP_FAULT<0> pins MOVED FROM this net (to net name listed on right)
+                                 J2.K14           96.235  14.615
+                                                                   SFP_FAULT<2>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_7_MP20075REG_I17_REF pins ADDED TO this existing net (pins not previously on any net)
-                                 C19.2                          
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  SFP_FAULT<1> pins MOVED FROM this net (to net name listed on right)
+                                 J2.E10           91.155   8.265
+                                                                   SFP_FAULT<0>
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT<2> pins MOVED FROM this net (to net name listed on right)
+                                 J2.F11           92.425   9.535
+                                                                   SFP_FAULT<1>
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd     |
-|                                                    Thu Apr  4 12:13:34 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C19                 CAPCERSMDCL2_0402-100NF_X7R,16V 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd     |
-|                                                    Thu Apr  4 12:13:34 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENT PROPERTIES added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   ref  des   |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C19                            ROOM           P1V3_REG
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd     |
-|                                                    Thu Apr  4 12:13:34 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C19.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
- C19.2                          ROOM           P1V3_REG
- C19.2                          SIZE           1
- C19.2                          XY             (525,3600)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
-|------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_19.brd     |
-|                                                    Thu Apr  4 12:13:34 2024  |
-|------------------------------------------------------------------------------|
-| PIN PROPERTIES added to design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    pin_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C19.1                          CDS_PINID      A(0)
- C19.2                          CDS_PINID      B(0)
-|------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
-|       Components added      :       1                                        |
-|       Comp property added   :       1                                        |
-|       Pin property added    :       2                                        |
-|       Slot property added   :       4                                        |
+|       Nets changed          :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:      10                                        |
+|   Total ECO changes reported:       3                                        |
 |------------------------------------------------------------------------------|

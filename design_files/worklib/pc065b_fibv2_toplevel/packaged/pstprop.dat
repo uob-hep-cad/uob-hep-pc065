@@ -1,4 +1,15 @@
 
+Section 2 - Conflicts on Net Synonyms
+--------------------------------------
+
+DRAWING = @UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1)
+NET_NAME = SFP_I2C_SDA_CVCC(6)
+   OPF: DIFFERENTIAL_PAIR = FMC_LA<16>; NET = FMC_LA_P(16)
+ * OPF: DIFFERENTIAL_PAIR = FMC_LA<18>
+NET_NAME = SFP_I2C_SCL_CVCC(6)
+   OPF: DIFFERENTIAL_PAIR = FMC_LA<16>; NET = FMC_LA_N(16)
+ * OPF: DIFFERENTIAL_PAIR = FMC_LA<18>
+
 Logical and Physical Net Conflicts 
 ----------------------------------
 
