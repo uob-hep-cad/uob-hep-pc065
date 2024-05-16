@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2024-05-15T10:21:48</modificationTime>
+    <modificationTime>2024-05-16T09:22:38</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065b_fibv2_toplevel" view="sch_1">
       <lastids>
         <instanceid>304</instanceid>
-        <netid>704</netid>
-        <insttermid>5264</insttermid>
+        <netid>714</netid>
+        <insttermid>5376</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1059,6 +1059,7 @@
           <name>sfp_tx_disable</name>
           <scope>interface</scope>
           <direction>input</direction>
+          <base>1</base>
           <msb>7</msb>
           <lsb>0</lsb>
         </net>
@@ -1759,11 +1760,23 @@
         <alias net1="N685" lsb1="-1" msb1="-1" net2="N146" lsb2="29" msb2="29" />
         <alias net1="N685" lsb1="-1" msb1="-1" net2="N227" lsb2="-1" msb2="-1" />
         <alias net1="N696" lsb1="0" msb1="7" net2="N114" lsb2="0" msb2="7" />
-        <alias net1="N696" lsb1="4" msb1="7" net2="N641" lsb2="12" msb2="15" />
-        <alias net1="N696" lsb1="0" msb1="3" net2="N642" lsb2="12" msb2="15" />
+        <alias net1="N696" lsb1="0" msb1="1" net2="N641" lsb2="9" msb2="8" />
+        <alias net1="N696" lsb1="3" msb1="4" net2="N641" lsb2="11" msb2="12" />
+        <alias net1="N696" lsb1="6" msb1="7" net2="N641" lsb2="14" msb2="15" />
+        <alias net1="N696" lsb1="2" msb1="2" net2="N641" lsb2="13" msb2="13" />
+        <alias net1="N696" lsb1="5" msb1="5" net2="N641" lsb2="10" msb2="10" />
         <alias net1="N697" lsb1="0" msb1="7" net2="N115" lsb2="0" msb2="7" />
-        <alias net1="N697" lsb1="4" msb1="7" net2="N641" lsb2="8" msb2="11" />
-        <alias net1="N697" lsb1="0" msb1="3" net2="N642" lsb2="8" msb2="11" />
+        <alias net1="N697" lsb1="0" msb1="0" net2="N642" lsb2="9" msb2="9" />
+        <alias net1="N697" lsb1="3" msb1="3" net2="N642" lsb2="11" msb2="11" />
+        <alias net1="N697" lsb1="1" msb1="1" net2="N642" lsb2="8" msb2="8" />
+        <alias net1="N697" lsb1="7" msb1="7" net2="N642" lsb2="15" msb2="15" />
+        <alias net1="N697" lsb1="4" msb1="4" net2="N642" lsb2="12" msb2="12" />
+        <alias net1="N697" lsb1="6" msb1="6" net2="N642" lsb2="14" msb2="14" />
+        <alias net1="N697" lsb1="5" msb1="5" net2="N642" lsb2="10" msb2="10" />
+        <alias net1="N697" lsb1="2" msb1="2" net2="N642" lsb2="13" msb2="13" />
+        <alias net1="N704" lsb1="4" msb1="7" net2="N644" lsb2="8" msb2="11" />
+        <alias net1="N704" lsb1="0" msb1="3" net2="N646" lsb2="8" msb2="11" />
+        <alias net1="N704" lsb1="0" msb1="7" net2="N703" lsb2="0" msb2="7" />
         <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N7" lsb2="-1" msb2="-1" />
         <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N47" lsb2="-1" msb2="-1" />
         <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N186" lsb2="-1" msb2="-1" />
@@ -1777,9 +1790,6 @@
         <alias net1="gnd" lsb1="-1" msb1="-1" net2="N226" lsb2="-1" msb2="-1" />
         <alias net1="gnd" lsb1="-1" msb1="-1" net2="N357" lsb2="-1" msb2="-1" />
         <alias net1="p1v3" lsb1="-1" msb1="-1" net2="N56" lsb2="-1" msb2="-1" />
-        <alias net1="N704" lsb1="4" msb1="7" net2="N644" lsb2="8" msb2="11" />
-        <alias net1="N704" lsb1="0" msb1="3" net2="N646" lsb2="8" msb2="11" />
-        <alias net1="N704" lsb1="0" msb1="7" net2="N703" lsb2="0" msb2="7" />
       </aliases>
       <differentialnets>
       </differentialnets>
@@ -6153,6 +6163,9 @@
             </pageScope>
           </netScope>
           <netScope ref="sfp_tx_disable">
+            <pageScope number="4">
+              <base>true</base>
+            </pageScope>
             <pageScope number="6">
               <scope>interface</scope>
               <direction>input</direction>

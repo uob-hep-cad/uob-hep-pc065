@@ -2,72 +2,30 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_23.brd     |
-|                                                    Wed May 15 10:22:12 2024  |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Thu May 16 09:23:02 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  FMC_HA_N<8>  net RENAMED (to net name listed on right)           SFP_LOS<4>   
+  SFP_FAULT<2> pins MOVED FROM this net (to net name listed on right)
+                                 J2.K14           96.235  14.615
+                                                                   SFP_FAULT<5>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_N<9>  net RENAMED (to net name listed on right)           SFP_LOS<5>   
+  SFP_FAULT<5> pins MOVED FROM this net (to net name listed on right)
+                                 J2.E13           94.965   8.265
+                                                                   SFP_FAULT<2>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_N<10> net RENAMED (to net name listed on right)           SFP_LOS<6>   
+  SFP_LOS<2>   pins MOVED FROM this net (to net name listed on right)
+                                 J2.K13           94.965  14.615
+                                                                     SFP_LOS<5>
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_N<11> net RENAMED (to net name listed on right)           SFP_LOS<7>   
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_N<12> net RENAMED (to net name listed on right)           SFP_FAULT<4> 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_N<13> net RENAMED (to net name listed on right)           SFP_FAULT<5> 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_N<14> net RENAMED (to net name listed on right)           SFP_FAULT<6> 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_N<15> net RENAMED (to net name listed on right)           SFP_FAULT<7> 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_P<8>  net RENAMED (to net name listed on right)           SFP_LOS<0>   
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_P<9>  net RENAMED (to net name listed on right)           SFP_LOS<1>   
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_P<10> net RENAMED (to net name listed on right)           SFP_LOS<2>   
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_P<11> net RENAMED (to net name listed on right)           SFP_LOS<3>   
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_P<12> net RENAMED (to net name listed on right)           SFP_FAULT<0> 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_P<13> net RENAMED (to net name listed on right)           SFP_FAULT<1> 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_P<14> net RENAMED (to net name listed on right)           SFP_FAULT<2> 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HA_P<15> net RENAMED (to net name listed on right)           SFP_FAULT<3> 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HB_N<8>  net RENAMED (to net name listed on right)           LED_FPGA<4>  
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HB_N<9>  net RENAMED (to net name listed on right)           LED_FPGA<5>  
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HB_N<10> net RENAMED (to net name listed on right)           LED_FPGA<6>  
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HB_N<11> net RENAMED (to net name listed on right)           LED_FPGA<7>  
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HB_P<8>  net RENAMED (to net name listed on right)           LED_FPGA<0>  
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HB_P<9>  net RENAMED (to net name listed on right)           LED_FPGA<1>  
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FMC_HB_P<10> net RENAMED (to net name listed on right)           LED_FPGA<2>  
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  SFP_LOS<5>   pins MOVED FROM this net (to net name listed on right)
+                                 J2.E12           93.695   8.265
+                                                                     SFP_LOS<2>
 |------------------------------------------------------------------------------|
-|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_23.brd     |
-|                                                    Wed May 15 10:22:12 2024  |
-|------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  FMC_HB_P<11> net RENAMED (to net name listed on right)           LED_FPGA<3>  
-|------------------------------------------------------------------------------|
-|       Nets changed          :      24                                        |
+|       Nets changed          :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:      24                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|

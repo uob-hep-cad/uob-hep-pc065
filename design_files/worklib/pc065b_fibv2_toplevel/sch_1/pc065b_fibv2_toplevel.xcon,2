@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2024-05-15T10:17:12</modificationTime>
+    <modificationTime>2024-05-16T09:09:18</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065b_fibv2_toplevel" view="sch_1">
       <lastids>
         <instanceid>304</instanceid>
-        <netid>702</netid>
-        <insttermid>5264</insttermid>
+        <netid>714</netid>
+        <insttermid>5376</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1059,6 +1059,7 @@
           <name>sfp_tx_disable</name>
           <scope>interface</scope>
           <direction>input</direction>
+          <base>1</base>
           <msb>7</msb>
           <lsb>0</lsb>
         </net>
@@ -1590,70 +1591,6 @@
           <name>page13_p2v5</name>
         </net>
         <net>
-          <id>N663</id>
-          <name>led_0_fpga</name>
-        </net>
-        <net>
-          <id>N664</id>
-          <name>led_1_fpga</name>
-        </net>
-        <net>
-          <id>N665</id>
-          <name>led_2_fpga</name>
-        </net>
-        <net>
-          <id>N666</id>
-          <name>led_3_fpga</name>
-        </net>
-        <net>
-          <id>N667</id>
-          <name>led_4_fpga</name>
-        </net>
-        <net>
-          <id>N668</id>
-          <name>led_5_fpga</name>
-        </net>
-        <net>
-          <id>N669</id>
-          <name>led_6_fpga</name>
-        </net>
-        <net>
-          <id>N670</id>
-          <name>led_7_fpga</name>
-        </net>
-        <net>
-          <id>N671</id>
-          <name>page4_led_0_fpga</name>
-        </net>
-        <net>
-          <id>N672</id>
-          <name>page4_led_1_fpga</name>
-        </net>
-        <net>
-          <id>N673</id>
-          <name>page4_led_2_fpga</name>
-        </net>
-        <net>
-          <id>N674</id>
-          <name>page4_led_3_fpga</name>
-        </net>
-        <net>
-          <id>N675</id>
-          <name>page4_led_4_fpga</name>
-        </net>
-        <net>
-          <id>N676</id>
-          <name>page4_led_5_fpga</name>
-        </net>
-        <net>
-          <id>N677</id>
-          <name>page4_led_6_fpga</name>
-        </net>
-        <net>
-          <id>N678</id>
-          <name>page4_led_7_fpga</name>
-        </net>
-        <net>
           <id>N679</id>
           <name>page4_sfp_tx_disable</name>
           <msb>7</msb>
@@ -1672,6 +1609,19 @@
         <net>
           <id>N697</id>
           <name>page4_sfp_los</name>
+          <msb>7</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N703</id>
+          <name>led_fpga</name>
+          <base>1</base>
+          <msb>7</msb>
+          <lsb>0</lsb>
+        </net>
+        <net>
+          <id>N704</id>
+          <name>page4_led_fpga</name>
           <msb>7</msb>
           <lsb>0</lsb>
         </net>
@@ -1804,33 +1754,28 @@
         <alias net1="N646" lsb1="0" msb1="0" net2="N148" lsb2="6" msb2="6" />
         <alias net1="N646" lsb1="0" msb1="21" net2="N645" lsb2="0" msb2="21" />
         <alias net1="N652" lsb1="-1" msb1="-1" net2="N95" lsb2="-1" msb2="-1" />
-        <alias net1="N671" lsb1="-1" msb1="-1" net2="N646" lsb2="8" msb2="8" />
-        <alias net1="N671" lsb1="-1" msb1="-1" net2="N663" lsb2="-1" msb2="-1" />
-        <alias net1="N672" lsb1="-1" msb1="-1" net2="N646" lsb2="9" msb2="9" />
-        <alias net1="N672" lsb1="-1" msb1="-1" net2="N664" lsb2="-1" msb2="-1" />
-        <alias net1="N673" lsb1="-1" msb1="-1" net2="N646" lsb2="10" msb2="10" />
-        <alias net1="N673" lsb1="-1" msb1="-1" net2="N665" lsb2="-1" msb2="-1" />
-        <alias net1="N674" lsb1="-1" msb1="-1" net2="N646" lsb2="11" msb2="11" />
-        <alias net1="N674" lsb1="-1" msb1="-1" net2="N666" lsb2="-1" msb2="-1" />
-        <alias net1="N675" lsb1="-1" msb1="-1" net2="N644" lsb2="8" msb2="8" />
-        <alias net1="N675" lsb1="-1" msb1="-1" net2="N667" lsb2="-1" msb2="-1" />
-        <alias net1="N676" lsb1="-1" msb1="-1" net2="N644" lsb2="9" msb2="9" />
-        <alias net1="N676" lsb1="-1" msb1="-1" net2="N668" lsb2="-1" msb2="-1" />
-        <alias net1="N677" lsb1="-1" msb1="-1" net2="N644" lsb2="10" msb2="10" />
-        <alias net1="N677" lsb1="-1" msb1="-1" net2="N669" lsb2="-1" msb2="-1" />
-        <alias net1="N678" lsb1="-1" msb1="-1" net2="N644" lsb2="11" msb2="11" />
-        <alias net1="N678" lsb1="-1" msb1="-1" net2="N670" lsb2="-1" msb2="-1" />
         <alias net1="N679" lsb1="0" msb1="7" net2="N107" lsb2="0" msb2="7" />
         <alias net1="N679" lsb1="4" msb1="7" net2="N644" lsb2="12" msb2="15" />
         <alias net1="N679" lsb1="0" msb1="3" net2="N646" lsb2="12" msb2="15" />
         <alias net1="N685" lsb1="-1" msb1="-1" net2="N146" lsb2="29" msb2="29" />
         <alias net1="N685" lsb1="-1" msb1="-1" net2="N227" lsb2="-1" msb2="-1" />
         <alias net1="N696" lsb1="0" msb1="7" net2="N114" lsb2="0" msb2="7" />
-        <alias net1="N696" lsb1="4" msb1="7" net2="N641" lsb2="12" msb2="15" />
-        <alias net1="N696" lsb1="0" msb1="3" net2="N642" lsb2="12" msb2="15" />
+        <alias net1="N696" lsb1="1" msb1="1" net2="N641" lsb2="9" msb2="9" />
+        <alias net1="N696" lsb1="3" msb1="7" net2="N641" lsb2="11" msb2="15" />
+        <alias net1="N696" lsb1="0" msb1="0" net2="N641" lsb2="10" msb2="10" />
+        <alias net1="N696" lsb1="2" msb1="2" net2="N641" lsb2="8" msb2="8" />
         <alias net1="N697" lsb1="0" msb1="7" net2="N115" lsb2="0" msb2="7" />
-        <alias net1="N697" lsb1="4" msb1="7" net2="N641" lsb2="8" msb2="11" />
-        <alias net1="N697" lsb1="0" msb1="3" net2="N642" lsb2="8" msb2="11" />
+        <alias net1="N697" lsb1="0" msb1="0" net2="N642" lsb2="9" msb2="9" />
+        <alias net1="N697" lsb1="3" msb1="3" net2="N642" lsb2="11" msb2="11" />
+        <alias net1="N697" lsb1="1" msb1="1" net2="N642" lsb2="8" msb2="8" />
+        <alias net1="N697" lsb1="5" msb1="5" net2="N642" lsb2="13" msb2="13" />
+        <alias net1="N697" lsb1="7" msb1="7" net2="N642" lsb2="15" msb2="15" />
+        <alias net1="N697" lsb1="2" msb1="2" net2="N642" lsb2="10" msb2="10" />
+        <alias net1="N697" lsb1="4" msb1="4" net2="N642" lsb2="12" msb2="12" />
+        <alias net1="N697" lsb1="6" msb1="6" net2="N642" lsb2="14" msb2="14" />
+        <alias net1="N704" lsb1="4" msb1="7" net2="N644" lsb2="8" msb2="11" />
+        <alias net1="N704" lsb1="0" msb1="3" net2="N646" lsb2="8" msb2="11" />
+        <alias net1="N704" lsb1="0" msb1="7" net2="N703" lsb2="0" msb2="7" />
         <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N7" lsb2="-1" msb2="-1" />
         <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N47" lsb2="-1" msb2="-1" />
         <alias net1="p3v3" lsb1="-1" msb1="-1" net2="N186" lsb2="-1" msb2="-1" />
@@ -5547,56 +5492,56 @@
               <id>M4726</id>
               <termid>T1696</termid>
               <connections>
-                <connection net="N663" />
+                <connection net="N703" netmsb="0" netlsb="0" />
               </connections>
             </pin>
             <pin>
               <id>M4727</id>
               <termid>T1697</termid>
               <connections>
-                <connection net="N664" />
+                <connection net="N703" netmsb="1" netlsb="1" />
               </connections>
             </pin>
             <pin>
               <id>M4728</id>
               <termid>T1698</termid>
               <connections>
-                <connection net="N665" />
+                <connection net="N703" netmsb="2" netlsb="2" />
               </connections>
             </pin>
             <pin>
               <id>M4729</id>
               <termid>T1699</termid>
               <connections>
-                <connection net="N666" />
+                <connection net="N703" netmsb="3" netlsb="3" />
               </connections>
             </pin>
             <pin>
               <id>M4730</id>
               <termid>T1700</termid>
               <connections>
-                <connection net="N667" />
+                <connection net="N703" netmsb="4" netlsb="4" />
               </connections>
             </pin>
             <pin>
               <id>M4731</id>
               <termid>T1701</termid>
               <connections>
-                <connection net="N668" />
+                <connection net="N703" netmsb="5" netlsb="5" />
               </connections>
             </pin>
             <pin>
               <id>M4732</id>
               <termid>T1702</termid>
               <connections>
-                <connection net="N669" />
+                <connection net="N703" netmsb="6" netlsb="6" />
               </connections>
             </pin>
             <pin>
               <id>M4733</id>
               <termid>T1703</termid>
               <connections>
-                <connection net="N670" />
+                <connection net="N703" netmsb="7" netlsb="7" />
               </connections>
             </pin>
             <pin>
@@ -6046,6 +5991,11 @@
               <direction>inout</direction>
             </pageScope>
           </netScope>
+          <netScope ref="led_fpga">
+            <pageScope number="4">
+              <base>true</base>
+            </pageScope>
+          </netScope>
           <netScope ref="p1v3">
             <pageScope number="7">
               <scope>global</scope>
@@ -6212,6 +6162,9 @@
             </pageScope>
           </netScope>
           <netScope ref="sfp_tx_disable">
+            <pageScope number="4">
+              <base>true</base>
+            </pageScope>
             <pageScope number="6">
               <scope>interface</scope>
               <direction>input</direction>
@@ -6346,14 +6299,10 @@
               <net ref="gnd"></net>
               <net ref="i2c_scl_cvcc"></net>
               <net ref="i2c_sda_cvcc"></net>
-              <net ref="led_0_fpga"></net>
-              <net ref="led_1_fpga"></net>
-              <net ref="led_2_fpga"></net>
-              <net ref="led_3_fpga"></net>
-              <net ref="led_4_fpga"></net>
-              <net ref="led_5_fpga"></net>
-              <net ref="led_6_fpga"></net>
-              <net ref="led_7_fpga"></net>
+              <net ref="led_fpga">
+                <msb>7</msb>
+                <lsb>0</lsb>
+              </net>
               <net ref="p3v3"></net>
               <net ref="pgood_c2m"></net>
               <net ref="prsnt_l"></net>
@@ -6732,21 +6681,17 @@
             <nets>
               <net ref="gnd"></net>
               <net ref="led_0"></net>
-              <net ref="led_0_fpga"></net>
               <net ref="led_1"></net>
-              <net ref="led_1_fpga"></net>
               <net ref="led_2"></net>
-              <net ref="led_2_fpga"></net>
               <net ref="led_3"></net>
-              <net ref="led_3_fpga"></net>
               <net ref="led_4"></net>
-              <net ref="led_4_fpga"></net>
               <net ref="led_5"></net>
-              <net ref="led_5_fpga"></net>
               <net ref="led_6"></net>
-              <net ref="led_6_fpga"></net>
               <net ref="led_7"></net>
-              <net ref="led_7_fpga"></net>
+              <net ref="led_fpga">
+                <msb>7</msb>
+                <lsb>0</lsb>
+              </net>
               <net ref="p2v5"></net>
               <net ref="p3v3"></net>
               <net ref="unnamed_13_rsmd0402_i94_b"></net>

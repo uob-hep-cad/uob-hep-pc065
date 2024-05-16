@@ -3,12 +3,12 @@
 <ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_17.4/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Wed May 15 10:22:12 2024
+    <Entry Name="Report time">Thu May 16 09:23:03 2024
 </Entry>
     <Entry Name="Software version">17.4 (S011)</Entry>
-    <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_23.brd</Entry>
+    <Entry Name="Layout">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\physical\pc065c_fibv2_toplevel_25.brd</Entry>
     <Entry Name="Schematic">\\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\worklib\pc065b_fibv2_toplevel\packaged\pstcmdb.dat</Entry>
-    <Entry Name="Baseline File">C:\Users\HASTIN~1\AppData\Local\Temp\#Taaaaai37256.tmp</Entry>
+    <Entry Name="Baseline File">C:\Users\HASTIN~1\AppData\Local\Temp\#Taaaaai11904.tmp</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Diff3</Entry>
     <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
@@ -16,11 +16,10 @@
   </RptSummary>
 
   <Tree>
-    <Item Filter="0x3" Name="Summary" Ref="main-summary">
-      <Item Filter="0x2" Name="Buses [10]" Ref="20">
+    <Item Filter="0x1" Name="Summary" Ref="main-summary">
+      <Item Filter="0x0" Name="Buses [9]" Ref="17">
         <Item Filter="0x0" Name="HA_N" Ref="13"/>
         <Item Filter="0x0" Name="HA_P" Ref="12"/>
-        <Item Filter="0x2" Name="LED_FPGA" Ref="16"/>
         <Item Filter="0x0" Name="PAGE4_FMC_HB_N" Ref="14"/>
         <Item Filter="0x0" Name="PAGE4_FMC_HB_P" Ref="15"/>
         <Item Filter="0x0" Name="RD_FPGA_N" Ref="d"/>
@@ -29,7 +28,7 @@
         <Item Filter="0x0" Name="SFP_LOS" Ref="11"/>
         <Item Filter="0x0" Name="SFP_TX_DISABLE" Ref="f"/>
       </Item>
-      <Item Filter="0x0" Name="DiffPairs [12]" Ref="1f">
+      <Item Filter="0x0" Name="DiffPairs [12]" Ref="16">
         <Item Filter="0x0" Name="CLK_IN&lt;0>" Ref="1"/>
         <Item Filter="0x0" Name="CLK_IN&lt;2>" Ref="2"/>
         <Item Filter="0x0" Name="CLK_IN&lt;3>" Ref="3"/>
@@ -48,10 +47,10 @@
 
   <Summaries>
     <MainSummary ID="main-summary">
-      <ChangedObject Filter="0x2" Name="Buses" ObjNumber="10" Ref="20"/>
-      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="12" Ref="1f"/>
+      <ChangedObject Filter="0x0" Name="Buses" ObjNumber="9" Ref="17"/>
+      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="12" Ref="16"/>
     </MainSummary>
-    <GroupSummary ID="1f" Name="DiffPairs">
+    <GroupSummary ID="16" Name="DiffPairs">
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLK_IN&lt;0>" Notes="1" Other="0" Ref="1" Reference="0"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLK_IN&lt;2>" Notes="1" Other="0" Ref="2" Reference="0"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLK_IN&lt;3>" Notes="1" Other="0" Ref="3" Reference="0"/>
@@ -125,10 +124,9 @@
         <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;9>&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <GroupSummary ID="20" Name="Buses">
+    <GroupSummary ID="17" Name="Buses">
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="HA_N" Notes="1" Other="0" Ref="13" Reference="0"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="HA_P" Notes="1" Other="0" Ref="12" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="8" Name="LED_FPGA" Notes="0" Other="0" Ref="16" Reference="0" Status="Created"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_FMC_HB_N" Notes="1" Other="0" Ref="14" Reference="0"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_FMC_HB_P" Notes="1" Other="0" Ref="15" Reference="0"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="RD_FPGA_N" Notes="1" Other="0" Ref="d" Reference="0"/>
@@ -146,18 +144,6 @@
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;HA_P&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
-    </ObjectSummary>
-    <ObjectSummary ID="16" Kind="Bus" Name="LED_FPGA" Status="Created">
-      <Associations Filter="0x2" Type="Membership">
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="LED_FPGA&lt;0>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="LED_FPGA&lt;1>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="LED_FPGA&lt;2>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="LED_FPGA&lt;3>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="LED_FPGA&lt;4>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="LED_FPGA&lt;5>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="LED_FPGA&lt;6>"/>
-        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="LED_FPGA&lt;7>"/>
-      </Associations>
     </ObjectSummary>
     <ObjectSummary ID="14" Kind="Bus" Name="PAGE4_FMC_HB_N">
       <Notes Filter="0x0" Type="Notes">

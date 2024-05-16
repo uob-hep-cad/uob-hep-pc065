@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 14-May-2024 AT 11:06:18 }
+{ Packager-XL run on 16-May-2024 AT 09:09:35 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065B_FIBV2_TOPLEVEL';
- POST_TIME='14-May-2024 AT 11:06:18';
+ POST_TIME='16-May-2024 AT 09:09:35';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -2192,30 +2192,6 @@ SECTION_NUMBER 1
 DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
 
 PART_NAME
- C97 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I58@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
- C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i58@cnpassive.c~
-apcersmdcl2(chips)',
- P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i58@cnpassive.ca~
-pcersmdcl2(chips)',
- PATH='I58',
- DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
- SIZE='1',
- PHYS_PAGE='9',
- XY='(-3450,775)',
- ROT='1',
- VER='1',
- PACK_TYPE='0402',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
- VOLTAGE='16V',
- VALUE='100NF_X7R',
- PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
-DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
-
-PART_NAME
  C99 'CAPCERSMDCL2_0805-10UF,10V_GEN':
  ROOM='P1V3_REG';
 
@@ -2684,29 +2660,6 @@ SECTION_NUMBER 1
  CDS_LIB='uob_hep_pc065a_lib',
  CDS_PART_NAME='SN74AXC8T245RHLR',
  PRIM_FILE='./worklib/sn74axc8t245rhlr/chips/chips.prt';
-
-PART_NAME
- IC10 'TCA9539AHF-VDD=P3V3,VSS=GND':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I1@BRIS_CDS_SPECIAL.TCA9539(CHIPS)':
- C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i1@bris_cds_spe~
-cial.tca9539(chips)',
- P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i1@bris_cds_spec~
-ial.tca9539(chips)',
- PATH='I1',
- DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
- POWER_GROUP='VDD=P3V3;VSS=GND',
- TYPE='TCA9539RTWR',
- PHYS_PAGE='9',
- XY='(-2125,1250)',
- ROT='0',
- VER='1',
- PACK_TYPE='HWQFN',
- CDS_LIB='bris_cds_special',
- CDS_PART_NAME='TCA9539AHF-VDD=P3V3;VSS=GND',
- PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
-DUNE/library/cds_special/tca9539/chips/chips.prt';
 
 PART_NAME
  IC11 'TCA9803DGKR':
@@ -4922,74 +4875,6 @@ md0603(chips)',
  VALUE='270',
  PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
 DUNE/library/cnpassive/rsmd0603/chips/chips.prt';
-
-PART_NAME
- R31 'RSMD0402_1/16W-0R0,1%':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I6@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i6@cnpassive.rs~
-md0402(chips)',
- P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i6@cnpassive.rsm~
-d0402(chips)',
- PATH='I6',
- DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='9',
- XY='(-2725,1000)',
- ROT='0',
- VER='2',
- PACK_TYPE='1/16W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-0R0,1%',
- VOLTAGE='RVMAX',
- TOL='1%',
- VALUE='0R0',
- PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
-DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
-
-PART_NAME
- R32 'RSMD0402_1/16W-0R0,1%':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I8@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i8@cnpassive.rs~
-md0402(chips)',
- P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i8@cnpassive.rsm~
-d0402(chips)',
- PATH='I8',
- DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='9',
- XY='(-2725,950)',
- ROT='0',
- VER='2',
- PACK_TYPE='1/16W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-0R0,1%',
- VOLTAGE='RVMAX',
- TOL='1%',
- VALUE='0R0',
- PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
-DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
  R33 'RSMD0603_1/16W-270,1%':;
