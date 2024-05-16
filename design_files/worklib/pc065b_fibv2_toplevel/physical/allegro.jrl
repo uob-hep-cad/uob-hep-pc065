@@ -1,750 +1,2643 @@
-\t (00:00:03) allegro 17.4 S033 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Thu Apr  4 14:29:29 2024
-\t (00:00:03)         Host=IT088130 User=phdgc Pid=42440 CPUs=16
-\t (00:00:03) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product Allegro_Venture_PCB_Designer -mpssession phdgc_ProjectMgr25314 -mpshost IT088130
-\t (00:00:03) 
-   (00:00:03) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_20"
-\d (00:00:03) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_20.brd
-\i (00:00:03) trapsize 1042
-\i (00:00:03) trapsize 1066
-\i (00:00:03) trapsize 1073
-\i (00:00:04) trapsize 1345
-\i (00:00:04) trapsize 1345
-\t (00:00:04) Loaded GPU Plugin from: plugins/gpu
-\i (00:00:04) trapsize 1042
-\i (00:00:04) trapsize 1066
-\i (00:00:04) trapsize 1073
-\i (00:00:04) trapsize 1345
-\i (00:00:04) placementedit 
-\i (00:00:11) zoom in 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom in 29.415 12.982
-\i (00:00:11) trapsize 672
-\i (00:00:11) zoom in 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom in 29.415 12.982
-\i (00:00:11) trapsize 336
-\i (00:00:12) zoom in 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom in 29.415 12.982
-\i (00:00:12) trapsize 168
-\i (00:00:35) roam y 96 
-\i (00:00:35) roam y 96
-\i (00:00:44) zoom out 1 
-\i (00:00:44) setwindow pcb
-\i (00:00:44) zoom out 28.508 4.262
-\i (00:00:44) trapsize 336
-\i (00:00:51) zoom in 1 
-\i (00:00:51) setwindow pcb
-\i (00:00:51) zoom in 26.290 21.607
-\i (00:00:51) trapsize 168
-\i (00:01:00) zoom out 1 
-\i (00:01:00) setwindow pcb
-\i (00:01:00) zoom out 26.996 21.271
-\i (00:01:00) trapsize 336
-\i (00:01:01) zoom out 1 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) zoom out 26.995 21.271
-\i (00:01:01) trapsize 672
-\i (00:01:02) zoom in 1 
-\i (00:01:02) setwindow pcb
-\i (00:01:02) zoom in 82.391 26.919
-\i (00:01:02) trapsize 336
-\i (00:01:02) zoom in 1 
-\i (00:01:02) setwindow pcb
-\i (00:01:02) zoom in 82.391 26.919
-\i (00:01:02) trapsize 168
-\i (00:01:06) zoom out 1 
-\i (00:01:06) setwindow pcb
-\i (00:01:06) zoom out 82.291 23.188
-\i (00:01:06) trapsize 336
-\i (00:01:06) zoom out 1 
-\i (00:01:06) setwindow pcb
-\i (00:01:06) zoom out 82.290 23.188
-\i (00:01:06) trapsize 672
-\i (00:01:10) zoom in 1 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) zoom in 51.904 16.061
-\i (00:01:10) trapsize 336
-\i (00:01:10) zoom in 1 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) zoom in 51.904 16.062
-\i (00:01:10) trapsize 168
-\i (00:01:10) zoom in 1 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) zoom in 51.904 16.062
-\i (00:01:10) trapsize 84
-\i (00:01:11) zoom out 1 
-\i (00:01:11) setwindow pcb
-\i (00:01:11) zoom out 51.904 16.063
-\i (00:01:11) trapsize 168
-\i (00:01:11) zoom out 1 
-\i (00:01:11) setwindow pcb
-\i (00:01:11) zoom out 51.937 16.062
-\i (00:01:11) trapsize 336
-\i (00:01:18) roam y 96 
-\i (00:01:18) roam y 96
-\i (00:01:18) roam x -96 
-\i (00:01:18) roam x -96
-\i (00:01:21) roam x -96 
-\i (00:01:21) roam x -96
-\i (00:31:43) trapsize 402
-\i (01:28:31) trapsize 522
-\i (01:28:31) trapsize 402
-\i (01:28:31) trapsize 522
-\i (01:28:34) trapsize 526
-\i (01:59:39) odb_out 
-\t (01:59:39) Valor: Extract out files
-\i (01:59:41) fillin yes 
-\t (01:59:41) extracting technology file
-\t (01:59:41) Starting techfile...
-\t (01:59:44) extracting cross-section report
-\i (01:59:44) reports 'Cross-Section Report' nographic write C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/crosssection_pc065c_fibv2_toplevel_20.out 
-\t (01:59:44) extracting DFA requirements
-\t (01:59:44) Extracting Analysis Regions
-\t (01:59:44) Extracting Padstack
-\t (01:59:44) extracting Component Properties
-\t (01:59:46)  ----- Valor extract completed successfully with zones ----- 
-
-\t (01:59:46) Valor: Extract out files dra
-\t (01:59:46) Starting extracta...
-\t (01:59:47) Valor: Extract out files dra
-\t (01:59:47) Starting extracta...
-\e (01:59:48) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (01:59:49) Valor: Extract out files dra
-\t (01:59:49) Starting extracta...
-\t (01:59:50) Valor: Extract out files dra
-\t (01:59:50) Starting extracta...
-\e (01:59:51) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (01:59:52) Valor: Extract out files dra
-\t (01:59:52) Starting extracta...
-\t (01:59:53) Valor: Extract out files dra
-\t (01:59:53) Starting extracta...
-\e (01:59:53) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (01:59:54) Valor: Extract out files dra
-\t (01:59:54) Starting extracta...
-\t (01:59:56) Valor: Extract out files dra
-\t (01:59:56) Starting extracta...
-\e (01:59:56) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (01:59:57) Valor: Extract out files dra
-\t (01:59:57) Starting extracta...
-\t (01:59:59) Valor: Extract out files dra
-\t (01:59:59) Starting extracta...
-\e (01:59:59) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:00) Valor: Extract out files dra
-\t (02:00:00) Starting extracta...
-\t (02:00:01) Valor: Extract out files dra
-\t (02:00:01) Starting extracta...
-\e (02:00:01) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:03) Valor: Extract out files dra
-\t (02:00:03) Starting extracta...
-\t (02:00:04) Valor: Extract out files dra
-\t (02:00:04) Starting extracta...
-\e (02:00:04) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:05) Valor: Extract out files dra
-\t (02:00:05) Starting extracta...
-\t (02:00:07) Valor: Extract out files dra
-\t (02:00:07) Starting extracta...
-\e (02:00:07) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:08) Valor: Extract out files dra
-\t (02:00:08) Starting extracta...
-\t (02:00:10) Valor: Extract out files dra
-\t (02:00:10) Starting extracta...
-\e (02:00:10) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:11) Valor: Extract out files dra
-\t (02:00:11) Starting extracta...
-\t (02:00:12) Valor: Extract out files dra
-\t (02:00:12) Starting extracta...
-\e (02:00:13) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:14) Valor: Extract out files dra
-\t (02:00:14) Starting extracta...
-\t (02:00:15) Valor: Extract out files dra
-\t (02:00:15) Starting extracta...
-\e (02:00:15) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:16) Valor: Extract out files dra
-\t (02:00:16) Starting extracta...
-\t (02:00:18) Valor: Extract out files dra
-\t (02:00:18) Starting extracta...
-\e (02:00:18) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:19) Valor: Extract out files dra
-\t (02:00:19) Starting extracta...
-\t (02:00:21) Valor: Extract out files dra
-\t (02:00:21) Starting extracta...
-\e (02:00:21) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:22) Valor: Extract out files dra
-\t (02:00:22) Starting extracta...
-\t (02:00:23) Valor: Extract out files dra
-\t (02:00:23) Starting extracta...
-\e (02:00:23) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:25) Valor: Extract out files dra
-\t (02:00:25) Starting extracta...
-\t (02:00:26) Valor: Extract out files dra
-\t (02:00:26) Starting extracta...
-\e (02:00:26) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:27) Valor: Extract out files dra
-\t (02:00:27) Starting extracta...
-\t (02:00:29) Valor: Extract out files dra
-\t (02:00:29) Starting extracta...
-\e (02:00:29) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:30) Valor: Extract out files dra
-\t (02:00:30) Starting extracta...
-\t (02:00:31) Valor: Extract out files dra
-\t (02:00:31) Starting extracta...
-\e (02:00:32) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:33) Valor: Extract out files dra
-\t (02:00:33) Starting extracta...
-\t (02:00:34) Valor: Extract out files dra
-\t (02:00:34) Starting extracta...
-\e (02:00:34) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:36) Valor: Extract out files dra
-\t (02:00:36) Starting extracta...
-\t (02:00:37) Valor: Extract out files dra
-\t (02:00:37) Starting extracta...
-\e (02:00:37) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:38) Valor: Extract out files dra
-\t (02:00:38) Starting extracta...
-\t (02:00:40) Valor: Extract out files dra
-\t (02:00:40) Starting extracta...
-\e (02:00:40) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:41) Valor: Extract out files dra
-\t (02:00:41) Starting extracta...
-\t (02:00:42) Valor: Extract out files dra
-\t (02:00:42) Starting extracta...
-\e (02:00:43) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:44) Valor: Extract out files dra
-\t (02:00:44) Starting extracta...
-\t (02:00:45) Valor: Extract out files dra
-\t (02:00:45) Starting extracta...
-\e (02:00:45) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:46) Valor: Extract out files dra
-\t (02:00:46) Starting extracta...
-\t (02:00:48) Valor: Extract out files dra
-\t (02:00:48) Starting extracta...
-\e (02:00:48) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:49) Valor: Extract out files dra
-\t (02:00:49) Starting extracta...
-\t (02:00:51) Valor: Extract out files dra
-\t (02:00:51) Starting extracta...
-\e (02:00:51) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:52) Valor: Extract out files dra
-\t (02:00:52) Starting extracta...
-\t (02:00:53) Valor: Extract out files dra
-\t (02:00:53) Starting extracta...
-\e (02:00:54) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:55) Valor: Extract out files dra
-\t (02:00:55) Starting extracta...
-\t (02:00:56) Valor: Extract out files dra
-\t (02:00:56) Starting extracta...
-\e (02:00:56) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:57) Valor: Extract out files dra
-\t (02:00:57) Starting extracta...
-\e (02:00:58) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:00:59) Valor: Extract out files dra
-\t (02:00:59) Starting extracta...
-\t (02:01:00) Valor: Extract out files dra
-\t (02:01:00) Starting extracta...
-\e (02:01:00) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:01) Valor: Extract out files dra
-\t (02:01:01) Starting extracta...
-\t (02:01:03) Valor: Extract out files dra
-\t (02:01:03) Starting extracta...
-\e (02:01:03) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:04) Valor: Extract out files dra
-\t (02:01:04) Starting extracta...
-\t (02:01:06) Valor: Extract out files dra
-\t (02:01:06) Starting extracta...
-\e (02:01:06) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:07) Valor: Extract out files dra
-\t (02:01:07) Starting extracta...
-\t (02:01:08) Valor: Extract out files dra
-\t (02:01:08) Starting extracta...
-\e (02:01:09) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:10) Valor: Extract out files dra
-\t (02:01:10) Starting extracta...
-\t (02:01:11) Valor: Extract out files dra
-\t (02:01:11) Starting extracta...
-\e (02:01:11) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:12) Valor: Extract out files dra
-\t (02:01:12) Starting extracta...
-\t (02:01:14) Valor: Extract out files dra
-\t (02:01:14) Starting extracta...
-\e (02:01:14) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:15) Valor: Extract out files dra
-\t (02:01:15) Starting extracta...
-\t (02:01:17) Valor: Extract out files dra
-\t (02:01:17) Starting extracta...
-\e (02:01:17) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:18) Valor: Extract out files dra
-\t (02:01:18) Starting extracta...
-\t (02:01:19) Valor: Extract out files dra
-\t (02:01:19) Starting extracta...
-\e (02:01:20) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:21) Valor: Extract out files dra
-\t (02:01:21) Starting extracta...
-\t (02:01:22) Valor: Extract out files dra
-\t (02:01:22) Starting extracta...
-\e (02:01:23) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:24) Valor: Extract out files dra
-\t (02:01:24) Starting extracta...
-\t (02:01:25) Valor: Extract out files dra
-\t (02:01:25) Starting extracta...
-\e (02:01:25) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:26) Valor: Extract out files dra
-\t (02:01:26) Starting extracta...
-\t (02:01:28) Valor: Extract out files dra
-\t (02:01:28) Starting extracta...
-\e (02:01:28) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:29) Valor: Extract out files dra
-\t (02:01:29) Starting extracta...
-\t (02:01:31) Valor: Extract out files dra
-\t (02:01:31) Starting extracta...
-\e (02:01:31) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:32) Valor: Extract out files dra
-\t (02:01:32) Starting extracta...
-\t (02:01:33) Valor: Extract out files dra
-\t (02:01:33) Starting extracta...
-\e (02:01:33) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (02:01:34) Starting ODB++ Inside export...
-   (02:08:09) Loading mfg.cxt 
-   (02:08:09) Loading signal.cxt 
-\i (02:08:09) placementedit 
-\i (19:32:06) zoom out 1 
-\i (19:32:06) setwindow pcb
-\i (19:32:06) zoom out 35.957 4.878
-\i (19:32:06) trapsize 1052
-\i (19:32:07) zoom in 1 
-\i (19:32:07) setwindow pcb
-\i (19:32:07) zoom in 68.780 13.716
-\i (19:32:07) trapsize 526
-\i (19:32:07) zoom in 1 
-\i (19:32:07) setwindow pcb
-\i (19:32:07) zoom in 68.044 15.189
-\i (19:32:07) trapsize 263
-\i (19:32:11) trapsize 262
-\i (19:32:11) trapsize 238
-\i (19:32:11) trapsize 210
-\i (19:32:11) trapsize 182
-\i (19:32:11) trapsize 172
-\i (19:32:12) trapsize 171
-\i (19:32:12) trapsize 161
-\i (19:32:12) trapsize 147
-\i (19:32:12) trapsize 139
-\i (19:32:12) trapsize 134
-\i (19:32:12) trapsize 130
-\i (19:32:12) trapsize 128
-\i (19:32:12) trapsize 127
-\i (19:32:12) trapsize 126
-\i (19:32:14) pick grid 68.480 15.127
-\t (19:32:14) last pick:  68.500 15.100
-\i (19:32:16) pick grid 59.788 17.476
-\t (19:32:16) last pick:  59.800 17.500
-\i (19:32:17) zoom out 1 
-\i (19:32:17) setwindow pcb
-\i (19:32:17) zoom out 51.020 14.975
-\i (19:32:17) trapsize 253
-\i (19:32:17) zoom out 1 
-\i (19:32:17) setwindow pcb
-\i (19:32:17) zoom out 51.021 14.975
-\i (19:32:17) trapsize 505
-\i (20:00:58) roam x -96 
-\i (20:00:58) roam x -96
-\i (20:00:59) roam x -96 
-\i (20:00:59) roam x -96
-\i (20:01:14) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
-\i (20:01:17) zoom in 1 
-\i (20:01:17) setwindow pcb
-\i (20:01:17) zoom in 17.846 3.756
-\i (20:01:17) trapsize 253
-\i (20:01:17) zoom in 1 
-\i (20:01:17) setwindow pcb
-\i (20:01:17) zoom in 17.846 3.757
-\i (20:01:17) trapsize 126
-\i (20:01:19) zoom out 1 
-\i (20:01:19) setwindow pcb
-\i (20:01:19) zoom out 18.781 4.086
-\i (20:01:19) trapsize 253
-\i (20:01:25) zoom in 1 
-\i (20:01:25) setwindow pcb
-\i (20:01:25) zoom in 58.046 18.539
-\i (20:01:25) trapsize 126
-\i (20:01:25) zoom out 1 
-\i (20:01:25) setwindow pcb
-\i (20:01:25) zoom out 58.047 18.539
-\i (20:01:25) trapsize 253
-\i (20:01:25) zoom out 1 
-\i (20:01:25) setwindow pcb
-\i (20:01:25) zoom out 58.046 18.439
-\i (20:01:25) trapsize 505
-\i (20:01:27) zoom in 1 
-\i (20:01:27) setwindow pcb
-\i (20:01:27) zoom in 84.931 16.013
-\i (20:01:27) trapsize 253
-\i (20:01:28) zoom in 1 
-\i (20:01:28) setwindow pcb
-\i (20:01:28) zoom in 84.627 14.901
-\i (20:01:28) trapsize 126
-\i (20:01:29) zoom in 1 
-\i (20:01:29) setwindow pcb
-\i (20:01:29) zoom in 84.627 14.901
-\i (20:01:29) trapsize 63
-\i (20:01:36) zoom out 1 
-\i (20:01:36) setwindow pcb
-\i (20:01:36) zoom out 83.844 14.838
-\i (20:01:36) trapsize 126
-\i (20:01:36) zoom out 1 
-\i (20:01:36) setwindow pcb
-\i (20:01:36) zoom out 83.844 14.813
-\i (20:01:36) trapsize 253
-\i (20:01:37) roam x -96 
-\i (20:01:37) roam x -96
-\i (20:01:37) roam x -96 
-\i (20:01:37) roam x -96
-\i (20:01:38) zoom in 1 
-\i (20:01:38) setwindow pcb
-\i (20:01:38) zoom in 16.834 7.131
-\i (20:01:38) trapsize 126
-\i (20:01:40) zoom out 1 
-\i (20:01:40) setwindow pcb
-\i (20:01:40) zoom out 16.936 7.232
-\i (20:01:40) trapsize 253
-\i (20:02:19) viewlog -last 
-\i (20:02:21) fillin confirm
-\i (20:02:27) odb_out 
-\t (20:02:27) Valor: Extract out files
-\i (20:02:28) fillin no 
-\t (20:02:28) extracting technology file
-\t (20:02:28) Starting techfile...
-\t (20:02:31) extracting cross-section report
-\i (20:02:31) reports 'Cross-Section Report' nographic write C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/crosssection_pc065c_fibv2_toplevel_20.out 
-\t (20:02:31) extracting DFA requirements
-\t (20:02:31) Extracting Analysis Regions
-\t (20:02:31) Extracting Padstack
-\t (20:02:31) extracting Component Properties
-\t (20:02:31)  ----- Valor extract completed successfully with zones ----- 
-
-\t (20:02:31) Valor: Extract out files dra
-\t (20:02:31) Starting extracta...
-\t (20:02:33) Valor: Extract out files dra
-\t (20:02:33) Starting extracta...
-\t (20:02:34) Valor: Extract out files dra
-\t (20:02:34) Starting extracta...
-\e (20:02:34) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:35) Valor: Extract out files dra
-\t (20:02:35) Starting extracta...
-\t (20:02:36) Valor: Extract out files dra
-\t (20:02:36) Starting extracta...
-\e (20:02:37) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:38) Valor: Extract out files dra
-\t (20:02:38) Starting extracta...
-\e (20:02:38) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:39) Valor: Extract out files dra
-\t (20:02:39) Starting extracta...
-\t (20:02:40) Valor: Extract out files dra
-\t (20:02:40) Starting extracta...
-\e (20:02:41) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:42) Valor: Extract out files dra
-\t (20:02:42) Starting extracta...
-\e (20:02:42) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:43) Valor: Extract out files dra
-\t (20:02:43) Starting extracta...
-\t (20:02:44) Valor: Extract out files dra
-\t (20:02:44) Starting extracta...
-\e (20:02:45) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:46) Valor: Extract out files dra
-\t (20:02:46) Starting extracta...
-\e (20:02:46) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:47) Valor: Extract out files dra
-\t (20:02:47) Starting extracta...
-\t (20:02:48) Valor: Extract out files dra
-\t (20:02:48) Starting extracta...
-\e (20:02:49) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:50) Valor: Extract out files dra
-\t (20:02:50) Starting extracta...
-\e (20:02:50) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:51) Valor: Extract out files dra
-\t (20:02:51) Starting extracta...
-\t (20:02:52) Valor: Extract out files dra
-\t (20:02:52) Starting extracta...
-\e (20:02:53) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:54) Valor: Extract out files dra
-\t (20:02:54) Starting extracta...
-\e (20:02:54) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:55) Valor: Extract out files dra
-\t (20:02:55) Starting extracta...
-\t (20:02:56) Valor: Extract out files dra
-\t (20:02:56) Starting extracta...
-\e (20:02:57) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:58) Valor: Extract out files dra
-\t (20:02:58) Starting extracta...
-\e (20:02:58) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:02:59) Valor: Extract out files dra
-\t (20:02:59) Starting extracta...
-\t (20:03:00) Valor: Extract out files dra
-\t (20:03:00) Starting extracta...
-\e (20:03:01) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:02) Valor: Extract out files dra
-\t (20:03:02) Starting extracta...
-\e (20:03:02) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:03) Valor: Extract out files dra
-\t (20:03:03) Starting extracta...
-\t (20:03:04) Valor: Extract out files dra
-\t (20:03:04) Starting extracta...
-\e (20:03:05) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:06) Valor: Extract out files dra
-\t (20:03:06) Starting extracta...
-\e (20:03:06) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:07) Valor: Extract out files dra
-\t (20:03:07) Starting extracta...
-\t (20:03:08) Valor: Extract out files dra
-\t (20:03:08) Starting extracta...
-\e (20:03:09) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:10) Valor: Extract out files dra
-\t (20:03:10) Starting extracta...
-\e (20:03:10) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:11) Valor: Extract out files dra
-\t (20:03:11) Starting extracta...
-\t (20:03:13) Valor: Extract out files dra
-\t (20:03:13) Starting extracta...
-\e (20:03:13) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:14) Valor: Extract out files dra
-\t (20:03:14) Starting extracta...
-\e (20:03:14) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:15) Valor: Extract out files dra
-\t (20:03:15) Starting extracta...
-\t (20:03:17) Valor: Extract out files dra
-\t (20:03:17) Starting extracta...
-\e (20:03:17) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:18) Valor: Extract out files dra
-\t (20:03:18) Starting extracta...
-\e (20:03:18) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:19) Valor: Extract out files dra
-\t (20:03:19) Starting extracta...
-\t (20:03:20) Valor: Extract out files dra
-\t (20:03:20) Starting extracta...
-\e (20:03:21) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:22) Valor: Extract out files dra
-\t (20:03:22) Starting extracta...
-\e (20:03:22) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:23) Valor: Extract out files dra
-\t (20:03:23) Starting extracta...
-\t (20:03:24) Valor: Extract out files dra
-\t (20:03:24) Starting extracta...
-\e (20:03:25) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:26) Valor: Extract out files dra
-\t (20:03:26) Starting extracta...
-\e (20:03:26) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:27) Valor: Extract out files dra
-\t (20:03:27) Starting extracta...
-\t (20:03:29) Valor: Extract out files dra
-\t (20:03:29) Starting extracta...
-\e (20:03:29) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:30) Valor: Extract out files dra
-\t (20:03:30) Starting extracta...
-\e (20:03:30) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:31) Valor: Extract out files dra
-\t (20:03:31) Starting extracta...
-\t (20:03:32) Valor: Extract out files dra
-\t (20:03:32) Starting extracta...
-\e (20:03:33) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:34) Valor: Extract out files dra
-\t (20:03:34) Starting extracta...
-\e (20:03:34) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:35) Valor: Extract out files dra
-\t (20:03:35) Starting extracta...
-\t (20:03:37) Valor: Extract out files dra
-\t (20:03:37) Starting extracta...
-\e (20:03:37) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:38) Valor: Extract out files dra
-\t (20:03:38) Starting extracta...
-\e (20:03:38) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:39) Valor: Extract out files dra
-\t (20:03:39) Starting extracta...
-\t (20:03:41) Valor: Extract out files dra
-\t (20:03:41) Starting extracta...
-\e (20:03:41) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:42) Valor: Extract out files dra
-\t (20:03:42) Starting extracta...
-\e (20:03:42) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:43) Valor: Extract out files dra
-\t (20:03:43) Starting extracta...
-\t (20:03:45) Valor: Extract out files dra
-\t (20:03:45) Starting extracta...
-\e (20:03:45) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:46) Valor: Extract out files dra
-\t (20:03:46) Starting extracta...
-\e (20:03:46) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:47) Valor: Extract out files dra
-\t (20:03:47) Starting extracta...
-\t (20:03:49) Valor: Extract out files dra
-\t (20:03:49) Starting extracta...
-\e (20:03:49) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:50) Valor: Extract out files dra
-\t (20:03:50) Starting extracta...
-\e (20:03:50) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:51) Valor: Extract out files dra
-\t (20:03:51) Starting extracta...
-\t (20:03:53) Valor: Extract out files dra
-\t (20:03:53) Starting extracta...
-\e (20:03:53) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:54) Valor: Extract out files dra
-\t (20:03:54) Starting extracta...
-\e (20:03:54) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:55) Valor: Extract out files dra
-\t (20:03:55) Starting extracta...
-\t (20:03:57) Valor: Extract out files dra
-\t (20:03:57) Starting extracta...
-\e (20:03:57) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:58) Valor: Extract out files dra
-\t (20:03:58) Starting extracta...
-\e (20:03:58) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:03:59) Valor: Extract out files dra
-\t (20:03:59) Starting extracta...
-\t (20:04:01) Valor: Extract out files dra
-\t (20:04:01) Starting extracta...
-\e (20:04:01) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:02) Valor: Extract out files dra
-\t (20:04:02) Starting extracta...
-\e (20:04:02) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:03) Valor: Extract out files dra
-\t (20:04:03) Starting extracta...
-\t (20:04:05) Valor: Extract out files dra
-\t (20:04:05) Starting extracta...
-\e (20:04:05) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:06) Valor: Extract out files dra
-\t (20:04:06) Starting extracta...
-\e (20:04:06) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:07) Valor: Extract out files dra
-\t (20:04:07) Starting extracta...
-\t (20:04:09) Valor: Extract out files dra
-\t (20:04:09) Starting extracta...
-\e (20:04:09) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:10) Valor: Extract out files dra
-\t (20:04:10) Starting extracta...
-\e (20:04:10) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:11) Valor: Extract out files dra
-\t (20:04:11) Starting extracta...
-\t (20:04:13) Valor: Extract out files dra
-\t (20:04:13) Starting extracta...
-\e (20:04:13) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:14) Valor: Extract out files dra
-\t (20:04:14) Starting extracta...
-\e (20:04:14) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:15) Valor: Extract out files dra
-\t (20:04:15) Starting extracta...
-\t (20:04:17) Valor: Extract out files dra
-\t (20:04:17) Starting extracta...
-\e (20:04:17) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:18) Valor: Extract out files dra
-\t (20:04:18) Starting extracta...
-\e (20:04:18) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:19) Valor: Extract out files dra
-\t (20:04:19) Starting extracta...
-\t (20:04:21) Valor: Extract out files dra
-\t (20:04:21) Starting extracta...
-\e (20:04:21) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:22) Valor: Extract out files dra
-\t (20:04:22) Starting extracta...
-\e (20:04:22) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:23) Valor: Extract out files dra
-\t (20:04:23) Starting extracta...
-\t (20:04:25) Valor: Extract out files dra
-\t (20:04:25) Starting extracta...
-\e (20:04:25) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:26) Valor: Extract out files dra
-\t (20:04:26) Starting extracta...
-\e (20:04:26) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:27) Valor: Extract out files dra
-\t (20:04:27) Starting extracta...
-\t (20:04:29) Valor: Extract out files dra
-\t (20:04:29) Starting extracta...
-\e (20:04:29) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:30) Valor: Extract out files dra
-\t (20:04:30) Starting extracta...
-\e (20:04:30) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:32) Valor: Extract out files dra
-\t (20:04:32) Starting extracta...
-\t (20:04:33) Valor: Extract out files dra
-\t (20:04:33) Starting extracta...
-\e (20:04:33) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:34) Valor: Extract out files dra
-\t (20:04:34) Starting extracta...
-\e (20:04:34) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:35) Valor: Extract out files dra
-\t (20:04:35) Starting extracta...
-\t (20:04:37) Valor: Extract out files dra
-\t (20:04:37) Starting extracta...
-\t (20:04:38) Valor: Extract out files dra
-\t (20:04:38) Starting extracta...
-\e (20:04:38) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:39) Valor: Extract out files dra
-\t (20:04:39) Starting extracta...
-\t (20:04:41) Valor: Extract out files dra
-\t (20:04:41) Starting extracta...
-\e (20:04:41) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:42) Valor: Extract out files dra
-\t (20:04:42) Starting extracta...
-\e (20:04:42) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:43) Valor: Extract out files dra
-\t (20:04:43) Starting extracta...
-\t (20:04:45) Valor: Extract out files dra
-\t (20:04:45) Starting extracta...
-\e (20:04:45) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:46) Valor: Extract out files dra
-\t (20:04:46) Starting extracta...
-\e (20:04:46) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:47) Valor: Extract out files dra
-\t (20:04:47) Starting extracta...
-\t (20:04:48) Valor: Extract out files dra
-\t (20:04:48) Starting extracta...
-\e (20:04:49) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:50) Valor: Extract out files dra
-\t (20:04:50) Starting extracta...
-\e (20:04:50) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:51) Valor: Extract out files dra
-\t (20:04:51) Starting extracta...
-\t (20:04:52) Valor: Extract out files dra
-\t (20:04:52) Starting extracta...
-\e (20:04:53) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:54) Valor: Extract out files dra
-\t (20:04:54) Starting extracta...
-\e (20:04:54) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:55) Valor: Extract out files dra
-\t (20:04:55) Starting extracta...
-\t (20:04:56) Valor: Extract out files dra
-\t (20:04:56) Starting extracta...
-\e (20:04:57) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:58) Valor: Extract out files dra
-\t (20:04:58) Starting extracta...
-\e (20:04:58) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:04:59) Valor: Extract out files dra
-\t (20:04:59) Starting extracta...
-\t (20:05:00) Valor: Extract out files dra
-\t (20:05:00) Starting extracta...
-\e (20:05:00) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:05:01) Valor: Extract out files dra
-\t (20:05:01) Starting extracta...
-\e (20:05:02) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:05:03) Valor: Extract out files dra
-\t (20:05:03) Starting extracta...
-\t (20:05:04) Valor: Extract out files dra
-\t (20:05:04) Starting extracta...
-\e (20:05:04) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:05:05) Valor: Extract out files dra
-\t (20:05:05) Starting extracta...
-\e (20:05:06) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
-\t (20:05:07) Starting ODB++ Inside export...
-   (20:07:01) function valor_extract_info redefined
-   (20:07:01) function odbGenFilmsParameters redefined
-   (20:07:01) function odbGenDraFiles redefined
-   (20:07:01) function outputRegions redefined
-   (20:07:01) function outputPadstack redefined
-   (20:07:01) function padstackCreateFile redefined
-   (20:07:01) function Padstack_Data_Padstack_Filter_Pin_Names redefined
-   (20:07:01) function Padstack_Data_Collect redefined
-\i (20:07:01) placementedit 
-\i (20:07:21) exit 
-\e (20:07:21) Do you want to save the changes you made to pc065c_fibv2_toplevel_20.brd?
-\i (20:07:23) fillin no 
-\t (20:07:23)     Journal end - Fri Apr  5 10:36:49 2024
+\t (00:00:01) allegro 17.4 S011 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu May 16 10:07:20 2024
+\t (00:00:01)         Host=ELWE4 User=hastingsp Pid=12788 CPUs=32
+\t (00:00:01) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product PCB_librarian_expert -mpssession hastingsp_ProjectMgr11334 -mpshost ELWE4
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_25"
+\d (00:00:04) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd
+\t (00:00:04) Grids are drawn 0.800, 0.800 apart for enhanced viewing.
+\i (00:00:04) trapsize 508
+\i (00:00:04) trapsize 519
+\i (00:00:04) trapsize 508
+\t (00:00:04) Grids are drawn 0.800, 0.800 apart for enhanced viewing.
+\t (00:00:04) Grids are drawn 0.400, 0.400 apart for enhanced viewing.
+\i (00:00:04) trapsize 447
+\i (00:00:04) trapsize 453
+\i (00:00:04) trapsize 453
+\i (00:00:04) trapsize 358
+\i (00:00:06) generaledit 
+\t (00:00:21) Grids are drawn 0.800, 0.800 apart for enhanced viewing.
+\i (00:00:21) trapsize 706
+\i (00:00:30) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: 00_working_top"
+\i (00:00:30) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: 00_working_top"
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 78.848 24.149
+\t (00:00:30) Grids are drawn 0.400, 0.400 apart for enhanced viewing.
+\i (00:00:31) trapsize 353
+\i (00:00:32) grid toggle 
+\i (00:00:32) generaledit 
+\i (00:00:33) roam start
+\i (00:00:33) roam x -16
+\i (00:00:33) roam y 16
+\i (00:00:33) roam x -48
+\i (00:00:33) roam y 96
+\i (00:00:33) roam x -16
+\i (00:00:33) roam y 16
+\i (00:00:33) roam y 32
+\i (00:00:33) roam x -16
+\i (00:00:33) roam y 16
+\i (00:00:33) roam y 64
+\i (00:00:33) roam end
+\i (00:00:38) QtSignal CVPLayerGrid CVPBoxAllL3_Sig clicked true
+\i (00:00:39) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:00:40) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 44.863 -0.411
+\i (00:00:41) trapsize 177
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 47.087 0.402
+\i (00:00:42) trapsize 88
+\i (00:00:43) zoom out 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom out 47.351 7.111
+\i (00:00:43) trapsize 177
+\i (00:00:45) slide 
+\t (00:00:45) Pick element to slide.
+\i (00:00:47) pick grid 58.333 1.815
+\t (00:00:47) last pick:  58.300 1.800
+\t (00:00:47) last pick:  58.333 1.800
+\t (00:00:47) Waiting for the destination pick.
+\i (00:00:48) pick grid 58.263 1.356
+\t (00:00:48) last pick:  58.300 1.400
+\t (00:00:48) No DRC errors detected.
+\t (00:00:48) Pick another element to slide.
+\i (00:00:49) pick grid 62.253 3.016
+\t (00:00:49) last pick:  62.300 3.000
+\t (00:00:49) last pick:  62.253 3.000
+\t (00:00:49) Waiting for the destination pick.
+\i (00:00:50) pick grid 62.147 1.356
+\t (00:00:50) last pick:  62.100 1.400
+\t (00:00:50) No DRC errors detected.
+\t (00:00:50) Pick another element to slide.
+\i (00:00:51) pick grid 61.299 3.545
+\t (00:00:51) last pick:  61.300 3.500
+\t (00:00:51) last pick:  61.299 3.600
+\t (00:00:51) Waiting for the destination pick.
+\i (00:00:51) pick grid 61.193 2.627
+\t (00:00:51) last pick:  61.200 2.600
+\t (00:00:51) No DRC errors detected.
+\t (00:00:51) Pick another element to slide.
+\i (00:00:52) pick grid dbl 61.123 2.486
+\t (00:00:52) last pick:  61.100 2.500
+\t (00:00:52) last pick:  61.123 2.500
+\t (00:00:52) Waiting for the destination pick.
+\i (00:00:53) pick grid 61.017 1.921
+\t (00:00:53) last pick:  61.000 1.900
+\t (00:00:53) No DRC errors detected.
+\t (00:00:53) Pick another element to slide.
+\i (00:00:54) drag_start grid 63.453 1.250
+\i (00:00:54) drag_stop 63.029 3.545
+\t (00:00:54) Waiting for origin pick.
+\i (00:00:54) pick grid 63.029 3.545
+\t (00:00:54) last pick:  63.000 3.500
+\t (00:00:54) Waiting for the destination pick.
+\i (00:00:56) pick grid 50.177 3.404
+\t (00:00:56) last pick:  50.200 3.400
+\t (00:00:56) No DRC errors detected.
+\t (00:00:56) Pick another element to slide.
+\i (00:00:56) roam start
+\i (00:00:56) roam x -32
+\i (00:00:56) roam x -64
+\i (00:00:56) roam x -32
+\i (00:00:56) roam x -16
+\i (00:00:56) roam x -96
+\i (00:00:56) roam x -48
+\i (00:00:57) roam x -112
+\i (00:00:57) roam x -64
+\i (00:00:57) roam x -128
+\i (00:00:57) roam x -16
+\i (00:00:57) roam x -32
+\i (00:00:57) roam x -112
+\i (00:00:57) roam y 16
+\i (00:00:57) roam x -16
+\i (00:00:57) roam x -128
+\i (00:00:57) roam y 16
+\i (00:00:57) roam x -48
+\i (00:00:57) roam end
+\i (00:00:57) zoom out 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom out 23.688 -0.827
+\i (00:00:57) trapsize 353
+\i (00:00:58) roam start
+\i (00:00:58) roam x 32
+\i (00:00:58) roam y -80
+\i (00:00:58) roam x 16
+\i (00:00:58) roam y -16
+\i (00:00:58) roam end
+\i (00:00:59) zoom in 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom in 6.174 21.771
+\i (00:00:59) trapsize 177
+\i (00:00:59) zoom in 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom in 6.351 21.913
+\i (00:00:59) trapsize 88
+\i (00:01:03) pick grid 6.686 21.683
+\t (00:01:03) last pick:  6.700 21.700
+\t (00:01:03) last pick:  6.686 21.550
+\t (00:01:03) Waiting for the destination pick.
+\i (00:01:03) pick grid 6.439 23.396
+\t (00:01:03) last pick:  6.400 23.400
+\t (00:01:03) No DRC errors detected.
+\t (00:01:03) Pick another element to slide.
+\i (00:01:04) pick grid 6.016 22.478
+\t (00:01:04) last pick:  6.000 22.500
+\t (00:01:04) last pick:  6.019 22.481
+\t (00:01:04) Waiting for the destination pick.
+\i (00:01:05) pick grid 7.499 23.255
+\t (00:01:05) last pick:  7.500 23.300
+\t (00:01:05) No DRC errors detected.
+\t (00:01:05) Pick another element to slide.
+\i (00:01:06) roam start
+\i (00:01:06) roam y 96
+\i (00:01:06) roam y 144
+\i (00:01:06) roam y 32
+\i (00:01:06) roam y 32
+\i (00:01:06) roam y 144
+\i (00:01:06) roam y 16
+\i (00:01:06) roam end
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out 7.393 11.761
+\i (00:01:07) trapsize 177
+\i (00:01:07) roam start
+\i (00:01:07) roam x 32
+\i (00:01:07) roam x 64
+\i (00:01:08) roam x 288
+\i (00:01:08) roam y 16
+\i (00:01:08) roam x 160
+\i (00:01:08) roam x 128
+\i (00:01:08) roam y 16
+\i (00:01:08) roam x 96
+\i (00:01:08) roam x 240
+\i (00:01:08) roam x 128
+\i (00:01:08) roam x 80
+\i (00:01:08) roam x 96
+\i (00:01:08) roam y -16
+\i (00:01:08) roam x 16
+\i (00:01:08) roam x 176
+\i (00:01:08) roam y -16
+\i (00:01:08) roam x 32
+\i (00:01:08) roam x 16
+\i (00:01:08) roam end
+\i (00:01:09) zoom in 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom in 66.554 8.248
+\i (00:01:09) trapsize 88
+\i (00:01:10) pick grid 64.559 8.725
+\t (00:01:10) last pick:  64.600 8.700
+\t (00:01:10) last pick:  64.559 8.600
+\t (00:01:10) Waiting for the destination pick.
+\i (00:01:11) pick grid 64.524 8.955
+\t (00:01:11) last pick:  64.500 9.000
+\t (00:01:11) No DRC errors detected.
+\t (00:01:11) Pick another element to slide.
+\i (00:01:12) pick grid 64.824 7.648
+\t (00:01:12) last pick:  64.800 7.600
+\t (00:01:12) last pick:  64.824 7.600
+\t (00:01:12) Waiting for the destination pick.
+\i (00:01:12) pick grid 64.859 7.913
+\t (00:01:12) last pick:  64.900 7.900
+\t (00:01:12) No DRC errors detected.
+\t (00:01:12) Pick another element to slide.
+\i (00:01:13) zoom out 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom out 65.035 8.072
+\i (00:01:13) trapsize 177
+\i (00:01:13) zoom out 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom out 65.036 8.072
+\i (00:01:13) trapsize 353
+\i (00:01:16) roam start
+\i (00:01:16) roam x 32
+\i (00:01:16) roam x 16
+\i (00:01:16) roam x 48
+\i (00:01:16) roam x 16
+\i (00:01:16) roam x 192
+\i (00:01:16) roam y 16
+\i (00:01:16) roam x 48
+\i (00:01:16) roam x 32
+\i (00:01:16) roam x 16
+\i (00:01:16) roam end
+\i (00:01:19) roam start
+\i (00:01:19) roam y -80
+\i (00:01:19) roam x 16
+\i (00:01:19) roam y -32
+\i (00:01:19) roam y -32
+\i (00:01:19) roam y -16
+\i (00:01:19) roam x 16
+\i (00:01:19) roam end
+\i (00:01:20) roam start
+\i (00:01:20) roam y -16
+\i (00:01:20) roam x 16
+\i (00:01:20) roam y -32
+\i (00:01:20) roam y -32
+\i (00:01:20) roam x 16
+\i (00:01:20) roam y -16
+\i (00:01:20) roam y -16
+\i (00:01:20) roam y -16
+\i (00:01:20) roam x 16
+\i (00:01:20) roam y -64
+\i (00:01:20) roam end
+\i (00:01:21) zoom in 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom in 138.445 47.830
+\i (00:01:21) trapsize 177
+\i (00:01:21) zoom in 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom in 138.445 47.830
+\i (00:01:21) trapsize 88
+\i (00:01:24) drag_start grid 136.468 43.311
+\i (00:01:24) drag_stop 134.385 43.364
+\t (00:01:24) Waiting for origin pick.
+\i (00:01:25) pick grid 134.385 43.364
+\t (00:01:25) last pick:  134.400 43.400
+\t (00:01:25) Waiting for the destination pick.
+\i (00:01:26) pick grid 133.837 43.364
+\t (00:01:26) last pick:  133.800 43.400
+\t (00:01:26) No DRC errors detected.
+\t (00:01:26) Pick another element to slide.
+\i (00:01:26) pick grid 136.344 44.141
+\t (00:01:26) last pick:  136.300 44.100
+\t (00:01:26) last pick:  136.292 44.192
+\t (00:01:26) Waiting for the destination pick.
+\i (00:01:27) pick grid 136.344 44.458
+\t (00:01:27) last pick:  136.300 44.500
+\t (00:01:27) No DRC errors detected.
+\t (00:01:27) Pick another element to slide.
+\i (00:01:28) roam start
+\i (00:01:28) roam y -16
+\i (00:01:28) roam y -16
+\i (00:01:28) roam y -48
+\i (00:01:28) roam y -16
+\i (00:01:28) roam end
+\i (00:01:29) roam start
+\i (00:01:29) roam y -16
+\i (00:01:29) roam x 16
+\i (00:01:29) roam y -192
+\i (00:01:29) roam y -144
+\i (00:01:29) roam y -32
+\i (00:01:29) roam y -32
+\i (00:01:29) roam y -96
+\i (00:01:29) roam y -16
+\i (00:01:29) roam end
+\i (00:01:29) roam start
+\i (00:01:29) roam y 112
+\i (00:01:29) roam x 16
+\i (00:01:29) roam y 32
+\i (00:01:29) roam x 32
+\i (00:01:29) roam y 192
+\i (00:01:30) roam y 32
+\i (00:01:30) roam end
+\i (00:01:32) pick grid 137.067 52.738
+\t (00:01:32) last pick:  137.100 52.700
+\t (00:01:32) last pick:  137.079 52.751
+\t (00:01:32) Waiting for the destination pick.
+\i (00:01:33) pick grid 136.520 52.138
+\t (00:01:33) last pick:  136.500 52.100
+\t (00:01:33) No DRC errors detected.
+\t (00:01:33) Pick another element to slide.
+\i (00:01:34) pick grid 137.244 49.825
+\t (00:01:34) last pick:  137.200 49.800
+\t (00:01:34) last pick:  137.200 49.825
+\t (00:01:34) Waiting for the destination pick.
+\i (00:01:36) pick grid 136.661 49.560
+\t (00:01:36) last pick:  136.700 49.600
+\t (00:01:36) No DRC errors detected.
+\t (00:01:36) Pick another element to slide.
+\i (00:01:37) drag_start grid 136.873 48.536
+\i (00:01:37) drag_stop 136.079 47.724
+\t (00:01:37) Waiting for origin pick.
+\i (00:01:38) pick grid 136.132 47.724
+\t (00:01:38) last pick:  136.100 47.700
+\t (00:01:38) Waiting for the destination pick.
+\i (00:01:39) pick grid 136.167 47.724
+\t (00:01:39) last pick:  136.200 47.700
+\t (00:01:39) No DRC errors detected.
+\t (00:01:39) Pick another element to slide.
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 138.074 44.793
+\i (00:01:40) trapsize 177
+\i (00:01:41) roam start
+\i (00:01:41) roam y 16
+\i (00:01:41) roam x 16
+\i (00:01:41) roam y 16
+\i (00:01:41) roam x 32
+\i (00:01:41) roam y 112
+\i (00:01:41) roam x 16
+\i (00:01:41) roam y 48
+\i (00:01:41) roam x 48
+\i (00:01:41) roam y 144
+\i (00:01:41) roam y 32
+\i (00:01:41) roam x 16
+\i (00:01:41) roam y 16
+\i (00:01:42) roam y -16
+\i (00:01:42) roam y -16
+\i (00:01:42) roam y -16
+\i (00:01:42) roam y -16
+\i (00:01:42) roam end
+\i (00:01:43) zoom in 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom in 135.126 30.599
+\i (00:01:43) trapsize 88
+\i (00:01:43) zoom in 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom in 135.303 30.493
+\i (00:01:43) trapsize 44
+\i (00:01:44) zoom out 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom out 135.532 30.591
+\i (00:01:44) trapsize 88
+\i (00:01:46) pick grid 134.844 39.118
+\t (00:01:46) last pick:  134.800 39.100
+\t (00:01:46) last pick:  134.831 39.131
+\t (00:01:46) Waiting for the destination pick.
+\i (00:01:49) pick grid 135.833 37.052
+\t (00:01:49) last pick:  135.800 37.100
+\t (00:01:49) No DRC errors detected.
+\t (00:01:49) Pick another element to slide.
+\i (00:01:50) pick grid 132.390 33.804
+\t (00:01:50) last pick:  132.400 33.800
+\t (00:01:50) last pick:  132.400 33.804
+\t (00:01:50) Waiting for the destination pick.
+\i (00:01:51) pick grid 132.567 33.839
+\t (00:01:51) last pick:  132.600 33.800
+\t (00:01:51) No DRC errors detected.
+\t (00:01:51) Pick another element to slide.
+\i (00:01:52) pick grid 133.838 38.818
+\t (00:01:52) last pick:  133.800 38.800
+\t (00:01:52) last pick:  133.778 38.878
+\t (00:01:52) Waiting for the destination pick.
+\i (00:01:53) pick grid 133.962 38.606
+\t (00:01:53) last pick:  134.000 38.600
+\t (00:01:53) No DRC errors detected.
+\t (00:01:53) Pick another element to slide.
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 134.597 36.099
+\i (00:01:53) trapsize 177
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 125.664 27.200
+\i (00:01:54) trapsize 88
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 125.700 27.183
+\i (00:01:54) trapsize 44
+\i (00:01:55) zoom out 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom out 127.033 27.704
+\i (00:01:55) trapsize 88
+\i (00:01:55) zoom out 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom out 127.033 27.705
+\i (00:01:55) trapsize 177
+\i (00:01:56) zoom out 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom out 128.092 29.964
+\i (00:01:56) trapsize 353
+\i (00:01:57) zoom in 1 
+\i (00:01:57) setwindow pcb
+\i (00:01:57) zoom in 130.634 49.102
+\i (00:01:57) trapsize 177
+\i (00:01:58) zoom out 1 
+\i (00:01:58) setwindow pcb
+\i (00:01:58) zoom out 131.234 45.818
+\i (00:01:58) trapsize 353
+\i (00:01:59) roam start
+\i (00:01:59) roam x -48
+\i (00:01:59) roam y 112
+\i (00:01:59) roam y 16
+\i (00:01:59) roam x -16
+\i (00:01:59) roam y 32
+\i (00:01:59) roam x -16
+\i (00:01:59) roam y 16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -32
+\i (00:02:00) roam y -16
+\i (00:02:00) roam x -64
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam y -16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -32
+\i (00:02:00) roam y -16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -32
+\i (00:02:00) roam x -16
+\i (00:02:00) roam x -16
+\i (00:02:01) roam end
+\i (00:02:01) zoom in 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom in 78.348 49.949
+\i (00:02:01) trapsize 177
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 82.868 44.688
+\i (00:02:02) trapsize 353
+\i (00:02:03) roam start
+\i (00:02:03) roam x -16
+\i (00:02:03) roam y 16
+\i (00:02:03) roam x -32
+\i (00:02:03) roam x -256
+\i (00:02:03) roam y 96
+\i (00:02:03) roam x -16
+\i (00:02:03) roam y 16
+\i (00:02:03) roam x -48
+\i (00:02:03) roam y 16
+\i (00:02:03) roam x -80
+\i (00:02:03) roam y 48
+\i (00:02:03) roam end
+\i (00:02:05) roam start
+\i (00:02:05) roam y -16
+\i (00:02:05) roam y -16
+\i (00:02:05) roam y -32
+\i (00:02:05) roam y -16
+\i (00:02:05) roam x 32
+\i (00:02:05) roam y -32
+\i (00:02:05) roam x 48
+\i (00:02:05) roam y -48
+\i (00:02:05) roam x 32
+\i (00:02:05) roam y -48
+\i (00:02:05) roam x 32
+\i (00:02:05) roam y -32
+\i (00:02:05) roam y -16
+\i (00:02:05) roam x 16
+\i (00:02:05) roam y -32
+\i (00:02:05) roam x 16
+\i (00:02:05) roam x 16
+\i (00:02:06) roam x 32
+\i (00:02:06) roam y -16
+\i (00:02:06) roam x 96
+\i (00:02:06) roam y -16
+\i (00:02:06) roam end
+\i (00:02:06) roam start
+\i (00:02:06) roam x 80
+\i (00:02:06) roam y 16
+\i (00:02:06) roam y 16
+\i (00:02:06) roam x 128
+\i (00:02:06) roam y 48
+\i (00:02:06) roam x 16
+\i (00:02:06) roam y 16
+\i (00:02:06) roam x 16
+\i (00:02:06) roam x 16
+\i (00:02:06) roam y 16
+\i (00:02:06) roam x 16
+\i (00:02:06) roam end
+\i (00:02:07) roam start
+\i (00:02:07) roam x 16
+\i (00:02:07) roam y 32
+\i (00:02:07) roam x 80
+\i (00:02:07) roam y 128
+\i (00:02:07) roam x 16
+\i (00:02:07) roam y 16
+\i (00:02:07) roam y 32
+\i (00:02:07) roam y 16
+\i (00:02:07) roam x 16
+\i (00:02:07) roam y 16
+\i (00:02:07) roam y 16
+\i (00:02:07) roam end
+\i (00:02:10) zoom in 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom in 117.117 12.167
+\i (00:02:10) trapsize 177
+\i (00:02:10) zoom in 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom in 117.082 12.238
+\i (00:02:10) trapsize 88
+\i (00:02:12) pick grid 114.963 12.168
+\t (00:02:12) last pick:  115.000 12.200
+\t (00:02:12) last pick:  115.015 12.115
+\t (00:02:12) Waiting for the destination pick.
+\i (00:02:13) pick grid 114.910 14.180
+\t (00:02:13) last pick:  114.900 14.200
+\t (00:02:13) DRC errors detected.
+\t (00:02:13) Pick another element to slide.
+\i (00:02:14) pick grid 114.698 13.192
+\t (00:02:14) last pick:  114.700 13.200
+\t (00:02:14) last pick:  114.581 13.192
+\t (00:02:14) Waiting for the destination pick.
+\i (00:02:15) pick grid 113.833 13.050
+\t (00:02:15) last pick:  113.800 13.100
+\t (00:02:15) No DRC errors detected.
+\t (00:02:15) Pick another element to slide.
+\i (00:02:16) pick grid 114.663 13.880
+\t (00:02:16) last pick:  114.700 13.900
+\t (00:02:16) last pick:  114.621 13.921
+\t (00:02:16) Waiting for the destination pick.
+\i (00:02:17) pick grid 114.681 14.180
+\t (00:02:17) last pick:  114.700 14.200
+\t (00:02:17) No DRC errors detected.
+\t (00:02:17) Pick another element to slide.
+\i (00:02:19) pick grid 116.464 13.721
+\t (00:02:19) last pick:  116.500 13.700
+\t (00:02:19) last pick:  116.400 13.721
+\t (00:02:19) Waiting for the destination pick.
+\i (00:02:20) pick grid 115.122 13.633
+\t (00:02:20) last pick:  115.100 13.600
+\t (00:02:20) No DRC errors detected.
+\t (00:02:20) Pick another element to slide.
+\i (00:02:21) pick grid 116.941 9.361
+\t (00:02:21) last pick:  116.900 9.400
+\t (00:02:21) last pick:  116.941 9.400
+\t (00:02:21) Waiting for the destination pick.
+\i (00:02:25) pick grid 117.364 10.844
+\t (00:02:25) last pick:  117.400 10.800
+\t (00:02:25) No DRC errors detected.
+\t (00:02:25) Pick another element to slide.
+\i (00:02:25) pick grid 117.753 11.267
+\t (00:02:25) last pick:  117.800 11.300
+\t (00:02:25) last pick:  117.800 11.267
+\t (00:02:25) Waiting for the destination pick.
+\i (00:02:26) pick grid 116.640 11.338
+\t (00:02:26) last pick:  116.600 11.300
+\t (00:02:26) DRC errors detected.
+\t (00:02:26) Pick another element to slide.
+\i (00:02:27) pick grid 117.541 11.815
+\t (00:02:27) last pick:  117.500 11.800
+\t (00:02:27) last pick:  117.528 11.828
+\t (00:02:27) Waiting for the destination pick.
+\i (00:02:28) pick grid 116.941 12.079
+\t (00:02:28) last pick:  116.900 12.100
+\t (00:02:28) DRC errors detected.
+\t (00:02:28) Pick another element to slide.
+\i (00:02:29) pick grid 116.535 11.391
+\t (00:02:29) last pick:  116.500 11.400
+\t (00:02:29) last pick:  116.550 11.391
+\t (00:02:29) Waiting for the destination pick.
+\i (00:02:30) pick grid 116.517 11.391
+\t (00:02:30) last pick:  116.500 11.400
+\t (00:02:30) DRC errors detected.
+\t (00:02:30) Pick another element to slide.
+\i (00:02:33) pick grid 120.366 12.927
+\t (00:02:33) last pick:  120.400 12.900
+\t (00:02:33) last pick:  120.346 12.946
+\t (00:02:33) Waiting for the destination pick.
+\i (00:02:34) pick grid 120.136 12.927
+\t (00:02:34) last pick:  120.100 12.900
+\t (00:02:34) DRC errors detected.
+\t (00:02:34) Pick another element to slide.
+\i (00:02:35) pick grid 118.635 12.591
+\t (00:02:35) last pick:  118.600 12.600
+\t (00:02:35) last pick:  118.635 12.600
+\t (00:02:35) Waiting for the destination pick.
+\i (00:02:36) pick grid 118.071 12.132
+\t (00:02:36) last pick:  118.100 12.100
+\t (00:02:36) DRC errors detected.
+\t (00:02:36) Pick another element to slide.
+\i (00:02:36) pick grid 119.765 12.521
+\t (00:02:36) last pick:  119.800 12.500
+\t (00:02:36) last pick:  119.743 12.543
+\t (00:02:36) Waiting for the destination pick.
+\i (00:02:37) pick grid 119.236 12.503
+\t (00:02:37) last pick:  119.200 12.500
+\t (00:02:37) DRC errors detected.
+\t (00:02:37) Pick another element to slide.
+\i (00:02:38) pick grid 119.377 13.351
+\t (00:02:38) last pick:  119.400 13.400
+\t (00:02:38) last pick:  119.377 13.300
+\t (00:02:38) Waiting for the destination pick.
+\i (00:02:40) pick grid 119.801 14.463
+\t (00:02:40) last pick:  119.800 14.500
+\t (00:02:40) DRC errors detected.
+\t (00:02:40) Pick another element to slide.
+\i (00:02:41) pick grid 118.847 14.198
+\t (00:02:41) last pick:  118.800 14.200
+\t (00:02:41) last pick:  118.762 14.282
+\t (00:02:41) Waiting for the destination pick.
+\i (00:02:42) pick grid 119.077 14.163
+\t (00:02:42) last pick:  119.100 14.200
+\t (00:02:42) No DRC errors detected.
+\t (00:02:42) Pick another element to slide.
+\i (00:02:44) pick grid 119.042 12.362
+\t (00:02:44) last pick:  119.000 12.400
+\t (00:02:44) last pick:  119.052 12.352
+\t (00:02:44) Waiting for the destination pick.
+\i (00:02:44) pick grid 118.335 12.574
+\t (00:02:44) last pick:  118.300 12.600
+\t (00:02:44) No DRC errors detected.
+\t (00:02:44) Pick another element to slide.
+\i (00:02:45) pick grid 119.006 10.543
+\t (00:02:45) last pick:  119.000 10.500
+\t (00:02:45) last pick:  119.000 10.543
+\t (00:02:45) Waiting for the destination pick.
+\i (00:02:46) pick grid 117.947 10.579
+\t (00:02:46) last pick:  117.900 10.600
+\t (00:02:46) DRC errors detected.
+\t (00:02:46) Pick another element to slide.
+\i (00:02:47) pick grid 118.688 11.161
+\t (00:02:47) last pick:  118.700 11.200
+\t (00:02:47) last pick:  118.674 11.174
+\t (00:02:47) Waiting for the destination pick.
+\i (00:02:48) pick grid 118.441 11.779
+\t (00:02:48) last pick:  118.400 11.800
+\t (00:02:48) DRC errors detected.
+\t (00:02:48) Pick another element to slide.
+\i (00:02:48) pick grid 117.912 9.926
+\t (00:02:48) last pick:  117.900 9.900
+\t (00:02:48) last pick:  117.900 9.926
+\t (00:02:48) Waiting for the destination pick.
+\i (00:02:49) pick grid 117.841 9.961
+\t (00:02:49) last pick:  117.800 10.000
+\t (00:02:49) No DRC errors detected.
+\t (00:02:49) Pick another element to slide.
+\i (00:02:51) pick grid 117.806 8.743
+\t (00:02:51) last pick:  117.800 8.700
+\t (00:02:51) last pick:  117.800 8.770
+\t (00:02:51) Waiting for the destination pick.
+\i (00:02:52) pick grid 117.753 9.202
+\t (00:02:52) last pick:  117.800 9.200
+\t (00:02:52) No DRC errors detected.
+\t (00:02:52) Pick another element to slide.
+\i (00:02:53) roam start
+\i (00:02:53) roam y -16
+\i (00:02:53) roam x 16
+\i (00:02:53) roam y -16
+\i (00:02:53) roam y -16
+\i (00:02:54) roam x 16
+\i (00:02:54) roam y -16
+\i (00:02:54) roam y -16
+\i (00:02:54) roam end
+\i (00:03:03) zoom out 1 
+\i (00:03:03) setwindow pcb
+\i (00:03:03) zoom out 123.173 14.374
+\i (00:03:03) trapsize 177
+\i (00:03:03) zoom in 1 
+\i (00:03:03) setwindow pcb
+\i (00:03:03) zoom in 123.174 14.374
+\i (00:03:03) trapsize 88
+\i (00:03:07) roam start
+\i (00:03:07) roam x 16
+\i (00:03:07) roam y 16
+\i (00:03:07) roam x 16
+\i (00:03:07) roam x 160
+\i (00:03:07) roam y 64
+\i (00:03:07) roam x 48
+\i (00:03:07) roam y 16
+\i (00:03:07) roam end
+\i (00:03:08) zoom out 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom out 126.387 11.620
+\i (00:03:08) trapsize 177
+\i (00:03:09) zoom in 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom in 128.081 12.397
+\i (00:03:09) trapsize 88
+\i (00:03:11) zoom out 1 
+\i (00:03:11) setwindow pcb
+\i (00:03:11) zoom out 127.022 12.079
+\i (00:03:11) trapsize 177
+\i (00:03:14) zoom out 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom out 129.846 15.682
+\i (00:03:14) trapsize 353
+\i (00:03:14) zoom in 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom in 129.140 30.158
+\i (00:03:14) trapsize 177
+\i (00:03:14) zoom in 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom in 128.999 29.240
+\i (00:03:14) trapsize 88
+\i (00:03:15) zoom in 1 
+\i (00:03:15) setwindow pcb
+\i (00:03:15) zoom in 129.387 24.986
+\i (00:03:15) trapsize 44
+\i (00:03:16) pick grid 129.096 25.525
+\t (00:03:16) last pick:  129.100 25.500
+\t (00:03:16) last pick:  129.160 25.461
+\t (00:03:16) Waiting for the destination pick.
+\i (00:03:18) pick grid 129.025 25.551
+\t (00:03:18) last pick:  129.000 25.600
+\t (00:03:18) No DRC errors detected.
+\t (00:03:18) Pick another element to slide.
+\i (00:03:18) roam start
+\i (00:03:18) roam x 64
+\i (00:03:18) roam x 32
+\i (00:03:18) roam y -16
+\i (00:03:18) roam x 32
+\i (00:03:19) roam x 32
+\i (00:03:19) roam x 48
+\i (00:03:19) roam end
+\i (00:03:20) pick grid 130.412 26.106
+\t (00:03:20) last pick:  130.400 26.100
+\t (00:03:20) last pick:  130.412 26.100
+\t (00:03:20) Waiting for the destination pick.
+\i (00:03:20) pick grid 130.818 26.265
+\t (00:03:20) last pick:  130.800 26.300
+\t (00:03:20) No DRC errors detected.
+\t (00:03:20) Pick another element to slide.
+\i (00:03:21) zoom out 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom out 130.059 25.656
+\i (00:03:21) trapsize 88
+\i (00:03:21) zoom out 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom out 130.058 25.656
+\i (00:03:21) trapsize 177
+\i (00:03:22) roam start
+\i (00:03:22) roam x -16
+\i (00:03:22) roam x -112
+\i (00:03:22) roam y 64
+\i (00:03:22) roam x -16
+\i (00:03:22) roam y 16
+\i (00:03:23) roam x -32
+\i (00:03:23) roam y 16
+\i (00:03:23) roam x -64
+\i (00:03:23) roam y 32
+\i (00:03:23) roam x -32
+\i (00:03:23) roam x -272
+\i (00:03:23) roam y 96
+\i (00:03:23) roam x -16
+\i (00:03:23) roam y 16
+\i (00:03:23) roam x 80
+\i (00:03:23) roam y 48
+\i (00:03:23) roam x 64
+\i (00:03:23) roam y 16
+\i (00:03:23) roam x 32
+\i (00:03:23) roam x 16
+\i (00:03:23) roam y 16
+\i (00:03:23) roam x 16
+\i (00:03:23) roam x 16
+\i (00:03:23) roam y 32
+\i (00:03:23) roam x 32
+\i (00:03:23) roam y 32
+\i (00:03:23) roam x 32
+\i (00:03:23) roam y 16
+\i (00:03:23) roam end
+\i (00:03:25) zoom out 1 
+\i (00:03:25) setwindow pcb
+\i (00:03:25) zoom out 125.769 7.189
+\i (00:03:25) trapsize 353
+\i (00:03:26) roam start
+\i (00:03:26) roam y -16
+\i (00:03:26) roam y -64
+\i (00:03:26) roam y -32
+\i (00:03:26) roam y -16
+\i (00:03:26) roam y -16
+\i (00:03:26) roam x 16
+\i (00:03:26) roam y -64
+\i (00:03:26) roam y -32
+\i (00:03:26) roam y -16
+\i (00:03:26) roam y -16
+\i (00:03:27) roam x 16
+\i (00:03:27) roam y -32
+\i (00:03:27) roam y 16
+\i (00:03:27) roam x -32
+\i (00:03:27) roam y 32
+\i (00:03:27) roam x -16
+\i (00:03:27) roam y 16
+\i (00:03:27) roam x -48
+\i (00:03:27) roam y 48
+\i (00:03:27) roam x -32
+\i (00:03:27) roam y 16
+\i (00:03:27) roam x -32
+\i (00:03:27) roam y 16
+\i (00:03:27) roam x -48
+\i (00:03:27) roam y 16
+\i (00:03:27) roam x -64
+\i (00:03:27) roam y 16
+\i (00:03:27) roam x -128
+\i (00:03:27) roam y 48
+\i (00:03:27) roam x -32
+\i (00:03:28) roam x -16
+\i (00:03:28) roam x -16
+\i (00:03:28) roam x -16
+\i (00:03:28) roam y -16
+\i (00:03:28) roam x -16
+\i (00:03:28) roam x -16
+\i (00:03:28) roam x -16
+\i (00:03:28) roam y -16
+\i (00:03:28) roam y -16
+\i (00:03:28) roam x -16
+\i (00:03:28) roam y -16
+\i (00:03:28) roam x -32
+\i (00:03:28) roam y -32
+\i (00:03:28) roam x -16
+\i (00:03:28) roam y -16
+\i (00:03:28) roam y -16
+\i (00:03:28) roam x -16
+\i (00:03:28) roam x -16
+\i (00:03:28) roam y -16
+\i (00:03:28) roam x -16
+\i (00:03:28) roam y -16
+\i (00:03:29) roam x -64
+\i (00:03:29) roam y -96
+\i (00:03:29) roam y -32
+\i (00:03:29) roam x -16
+\i (00:03:29) roam y -16
+\i (00:03:29) roam y -16
+\i (00:03:29) roam y -16
+\i (00:03:29) roam y -16
+\i (00:03:29) roam y -16
+\i (00:03:29) roam y -16
+\i (00:03:29) roam end
+\i (00:03:30) QtSignal CVPLayerGrid CVPBoxAllL3_Sig clicked false
+\i (00:03:32) QtSignal CVPLayerGrid CVPBoxAllL6_Sig clicked true
+\i (00:03:33) roam start
+\i (00:03:33) roam x -16
+\i (00:03:33) roam y 96
+\i (00:03:33) roam y 16
+\i (00:03:33) roam x -16
+\i (00:03:33) roam y 32
+\i (00:03:33) roam y 48
+\i (00:03:33) roam x -16
+\i (00:03:33) roam y 32
+\i (00:03:33) roam y 32
+\i (00:03:33) roam x -16
+\i (00:03:33) roam y 96
+\i (00:03:33) roam end
+\i (00:03:36) roam start
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 144
+\i (00:03:36) roam y 16
+\i (00:03:36) roam x 32
+\i (00:03:36) roam y 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 80
+\i (00:03:36) roam y 16
+\i (00:03:36) roam x 16
+\i (00:03:36) roam x 32
+\i (00:03:36) roam end
+\i (00:03:37) zoom in 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom in 78.701 1.574
+\i (00:03:37) trapsize 177
+\i (00:03:37) zoom in 1 
+\i (00:03:37) setwindow pcb
+\i (00:03:37) zoom in 79.655 1.539
+\i (00:03:37) trapsize 88
+\i (00:03:39) pick grid 78.561 5.988
+\t (00:03:39) last pick:  78.600 6.000
+\t (00:03:39) last pick:  78.639 5.909
+\t (00:03:39) Waiting for the destination pick.
+\i (00:03:40) pick grid 79.002 4.435
+\t (00:03:40) last pick:  79.000 4.400
+\t (00:03:40) DRC errors detected.
+\t (00:03:40) Pick another element to slide.
+\i (00:03:40) pick grid 79.108 5.582
+\t (00:03:40) last pick:  79.100 5.600
+\t (00:03:40) last pick:  79.159 5.582
+\t (00:03:40) Waiting for the destination pick.
+\i (00:03:41) pick grid 79.991 5.494
+\t (00:03:41) last pick:  80.000 5.500
+\t (00:03:41) DRC errors detected.
+\t (00:03:41) Pick another element to slide.
+\i (00:03:42) pick grid 79.373 4.699
+\t (00:03:42) last pick:  79.400 4.700
+\t (00:03:42) last pick:  79.336 4.736
+\t (00:03:42) Waiting for the destination pick.
+\i (00:03:43) pick grid 80.008 1.115
+\t (00:03:43) last pick:  80.000 1.100
+\t (00:03:43) DRC errors detected.
+\t (00:03:43) Pick another element to slide.
+\i (00:03:44) pick grid 79.920 2.740
+\t (00:03:44) last pick:  79.900 2.700
+\t (00:03:44) last pick:  79.973 2.740
+\t (00:03:44) Waiting for the destination pick.
+\i (00:03:44) pick grid 79.744 2.793
+\t (00:03:44) last pick:  79.700 2.800
+\t (00:03:44) No DRC errors detected.
+\t (00:03:44) Pick another element to slide.
+\i (00:03:45) pick grid 79.726 2.669
+\t (00:03:45) last pick:  79.700 2.700
+\t (00:03:45) last pick:  79.700 2.669
+\t (00:03:45) Waiting for the destination pick.
+\i (00:03:46) pick grid 79.761 2.669
+\t (00:03:46) last pick:  79.800 2.700
+\t (00:03:46) No DRC errors detected.
+\t (00:03:46) Pick another element to slide.
+\i (00:03:46) pick grid 80.079 0.904
+\t (00:03:46) last pick:  80.100 0.900
+\t (00:03:46) last pick:  80.009 0.834
+\t (00:03:46) Waiting for the destination pick.
+\i (00:03:47) pick grid 80.467 1.151
+\t (00:03:47) last pick:  80.500 1.200
+\t (00:03:47) No DRC errors detected.
+\t (00:03:47) Pick another element to slide.
+\i (00:03:48) drag_start grid 78.208 4.523
+\i (00:03:49) drag_stop 76.160 4.523
+\t (00:03:49) Waiting for origin pick.
+\i (00:03:49) pick grid 76.160 4.523
+\t (00:03:49) last pick:  76.200 4.500
+\t (00:03:49) Waiting for the destination pick.
+\i (00:03:50) pick grid 76.972 4.576
+\t (00:03:50) last pick:  77.000 4.600
+\t (00:03:50) No DRC errors detected.
+\t (00:03:50) Pick another element to slide.
+\i (00:03:51) pick grid 78.472 6.994
+\t (00:03:51) last pick:  78.500 7.000
+\t (00:03:51) last pick:  78.458 7.008
+\t (00:03:51) Waiting for the destination pick.
+\i (00:03:52) pick grid 78.667 6.942
+\t (00:03:52) last pick:  78.700 6.900
+\t (00:03:52) No DRC errors detected.
+\t (00:03:52) Pick another element to slide.
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out 82.092 5.970
+\i (00:03:53) trapsize 177
+\i (00:03:54) roam start
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 176
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 48
+\i (00:03:54) roam x 64
+\i (00:03:54) roam x 48
+\i (00:03:54) roam x 128
+\i (00:03:54) roam y 16
+\i (00:03:54) roam x 32
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 96
+\i (00:03:54) roam y -16
+\i (00:03:54) roam x 16
+\i (00:03:54) roam x 32
+\i (00:03:54) roam x 96
+\i (00:03:54) roam x 16
+\i (00:03:54) roam end
+\i (00:03:55) roam start
+\i (00:03:55) roam x 112
+\i (00:03:55) roam x 64
+\i (00:03:55) roam y -16
+\i (00:03:55) roam x 112
+\i (00:03:55) roam y -16
+\i (00:03:56) roam x 16
+\i (00:03:56) roam x 48
+\i (00:03:56) roam y -32
+\i (00:03:56) roam x 16
+\i (00:03:56) roam y -16
+\i (00:03:56) roam x 32
+\i (00:03:56) roam y -16
+\i (00:03:56) roam x 64
+\i (00:03:56) roam y -64
+\i (00:03:56) roam x 32
+\i (00:03:56) roam y -32
+\i (00:03:56) roam x 16
+\i (00:03:56) roam x 16
+\i (00:03:56) roam x 32
+\i (00:03:56) roam y -16
+\i (00:03:56) roam x 16
+\i (00:03:56) roam x 64
+\i (00:03:56) roam end
+\i (00:03:59) roam start
+\i (00:03:59) roam x 16
+\i (00:03:59) roam y 112
+\i (00:03:59) roam y 96
+\i (00:03:59) roam y 16
+\i (00:03:59) roam end
+\i (00:04:00) roam start
+\i (00:04:00) roam y -16
+\i (00:04:00) roam y -112
+\i (00:04:00) roam y -32
+\i (00:04:00) roam y -32
+\i (00:04:00) roam y -48
+\i (00:04:00) roam y -32
+\i (00:04:00) roam y -48
+\i (00:04:00) roam x -64
+\i (00:04:00) roam y -48
+\i (00:04:00) roam x -16
+\i (00:04:00) roam x -32
+\i (00:04:00) roam y -32
+\i (00:04:00) roam x -16
+\i (00:04:01) roam x -16
+\i (00:04:01) roam y -16
+\i (00:04:01) roam x -16
+\i (00:04:01) roam x -16
+\i (00:04:01) roam x -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam x -48
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -32
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam x -64
+\i (00:04:02) roam y -32
+\i (00:04:02) roam x -32
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -32
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -16
+\i (00:04:02) roam y -16
+\i (00:04:02) roam x -16
+\i (00:04:03) roam end
+\i (00:04:06) roam start
+\i (00:04:06) roam y -16
+\i (00:04:06) roam y -32
+\i (00:04:06) roam y -16
+\i (00:04:06) roam y -48
+\i (00:04:06) roam y -16
+\i (00:04:06) roam y -16
+\i (00:04:06) roam y -64
+\i (00:04:06) roam x -16
+\i (00:04:06) roam y -48
+\i (00:04:06) roam x -16
+\i (00:04:06) roam y -48
+\i (00:04:06) roam y -16
+\i (00:04:06) roam x -16
+\i (00:04:06) roam y -16
+\i (00:04:07) roam y -32
+\i (00:04:07) roam y 16
+\i (00:04:07) roam y 16
+\i (00:04:07) roam y 16
+\i (00:04:08) roam y 16
+\i (00:04:08) roam y 16
+\i (00:04:08) roam y 16
+\i (00:04:08) roam end
+\i (00:04:11) zoom in 1 
+\i (00:04:11) setwindow pcb
+\i (00:04:11) zoom in 105.500 30.669
+\i (00:04:11) trapsize 88
+\i (00:04:12) roam start
+\i (00:04:12) roam y 16
+\i (00:04:12) roam y 16
+\i (00:04:12) roam x 16
+\i (00:04:12) roam y 144
+\i (00:04:12) roam y 16
+\i (00:04:12) roam x 16
+\i (00:04:12) roam y 32
+\i (00:04:12) roam y 16
+\i (00:04:12) roam y 32
+\i (00:04:12) roam end
+\i (00:04:13) pick grid 105.518 31.659
+\t (00:04:13) last pick:  105.500 31.700
+\t (00:04:13) last pick:  105.488 31.688
+\t (00:04:13) Waiting for the destination pick.
+\i (00:04:15) pick grid 106.172 25.744
+\t (00:04:15) last pick:  106.200 25.700
+\t (00:04:15) No DRC errors detected.
+\t (00:04:15) Pick another element to slide.
+\i (00:04:16) roam start
+\i (00:04:16) roam y 32
+\i (00:04:16) roam y 32
+\i (00:04:16) roam y 16
+\i (00:04:16) roam y 32
+\i (00:04:16) roam end
+\i (00:04:16) zoom out 1 
+\i (00:04:16) setwindow pcb
+\i (00:04:16) zoom out 106.719 27.032
+\i (00:04:16) trapsize 177
+\i (00:04:17) roam start
+\i (00:04:17) roam x -32
+\i (00:04:17) roam y 112
+\i (00:04:17) roam y 16
+\i (00:04:17) roam x -16
+\i (00:04:17) roam y 48
+\i (00:04:17) roam y 16
+\i (00:04:17) roam end
+\i (00:04:18) zoom in 1 
+\i (00:04:18) setwindow pcb
+\i (00:04:18) zoom in 103.488 20.924
+\i (00:04:18) trapsize 88
+\i (00:04:20) pick grid 101.458 19.441
+\t (00:04:20) last pick:  101.500 19.400
+\t (00:04:20) last pick:  101.359 19.539
+\t (00:04:20) Waiting for the destination pick.
+\i (00:04:21) pick grid 101.758 19.141
+\t (00:04:21) last pick:  101.800 19.100
+\t (00:04:21) No DRC errors detected.
+\t (00:04:21) Pick another element to slide.
+\i (00:04:22) pick grid 101.493 19.936
+\t (00:04:22) last pick:  101.500 19.900
+\t (00:04:22) Pick element to slide.
+\i (00:04:23) pick grid 101.528 20.483
+\t (00:04:23) last pick:  101.500 20.500
+\t (00:04:23) last pick:  101.606 20.405
+\t (00:04:23) Waiting for the destination pick.
+\i (00:04:24) pick grid 101.687 20.236
+\t (00:04:24) last pick:  101.700 20.200
+\t (00:04:24) No DRC errors detected.
+\t (00:04:24) Pick another element to slide.
+\i (00:04:25) zoom out 1 
+\i (00:04:25) setwindow pcb
+\i (00:04:25) zoom out 103.929 21.189
+\i (00:04:25) trapsize 177
+\i (00:04:28) zoom out 1 
+\i (00:04:28) setwindow pcb
+\i (00:04:28) zoom out 91.465 17.447
+\i (00:04:28) trapsize 353
+\i (00:04:29) roam start
+\i (00:04:29) roam x -16
+\i (00:04:29) roam x -16
+\i (00:04:29) roam x -16
+\i (00:04:29) roam x -96
+\i (00:04:29) roam y -16
+\i (00:04:29) roam x -16
+\i (00:04:29) roam x -16
+\i (00:04:29) roam end
+\i (00:04:30) zoom in 1 
+\i (00:04:30) setwindow pcb
+\i (00:04:30) zoom in 67.331 25.727
+\i (00:04:30) trapsize 177
+\i (00:04:30) zoom in 1 
+\i (00:04:30) setwindow pcb
+\i (00:04:30) zoom in 67.719 25.551
+\i (00:04:30) trapsize 88
+\i (00:04:31) pick grid 68.902 24.316
+\t (00:04:31) last pick:  68.900 24.300
+\t (00:04:31) last pick:  68.943 24.357
+\t (00:04:31) Waiting for the destination pick.
+\i (00:04:32) pick grid 69.255 24.686
+\t (00:04:32) last pick:  69.300 24.700
+\t (00:04:32) No DRC errors detected.
+\t (00:04:32) Pick another element to slide.
+\i (00:04:32) pick grid 68.514 23.397
+\t (00:04:32) last pick:  68.500 23.400
+\t (00:04:32) last pick:  68.458 23.342
+\t (00:04:32) Waiting for the destination pick.
+\i (00:04:34) pick grid 68.955 23.751
+\t (00:04:34) last pick:  69.000 23.800
+\t (00:04:34) No DRC errors detected.
+\t (00:04:34) Pick another element to slide.
+\i (00:04:35) zoom out 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom out 69.714 24.104
+\i (00:04:35) trapsize 177
+\i (00:04:36) zoom in 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom in 70.315 26.328
+\i (00:04:36) trapsize 88
+\i (00:04:36) drag_start grid 70.315 26.310
+\i (00:04:37) drag_stop 68.620 23.786
+\t (00:04:37) Waiting for origin pick.
+\i (00:04:37) pick grid 68.832 23.997
+\t (00:04:37) last pick:  68.800 24.000
+\t (00:04:37) Waiting for the destination pick.
+\i (00:04:39) pick grid 69.433 24.456
+\t (00:04:39) last pick:  69.400 24.500
+\t (00:04:39) No DRC errors detected.
+\t (00:04:39) Pick another element to slide.
+\i (00:04:40) drag_start grid 70.986 27.016
+\i (00:04:41) drag_stop 71.233 26.875
+\t (00:04:41) Pick element to slide.
+\i (00:04:41) pick grid 70.739 26.028
+\t (00:04:41) last pick:  70.700 26.000
+\t (00:04:41) last pick:  70.655 25.945
+\t (00:04:41) Waiting for the destination pick.
+\i (00:04:42) pick grid 70.333 25.639
+\t (00:04:42) last pick:  70.300 25.600
+\t (00:04:42) No DRC errors detected.
+\t (00:04:42) Pick another element to slide.
+\i (00:04:43) pick grid 70.933 26.328
+\t (00:04:43) last pick:  70.900 26.300
+\t (00:04:43) Pick element to slide.
+\i (00:04:44) pick grid 70.368 25.604
+\t (00:04:44) last pick:  70.400 25.600
+\t (00:04:44) last pick:  70.332 25.568
+\t (00:04:44) Waiting for the destination pick.
+\i (00:04:44) pick grid 70.562 25.692
+\t (00:04:44) last pick:  70.600 25.700
+\t (00:04:44) No DRC errors detected.
+\t (00:04:44) Pick another element to slide.
+\i (00:04:45) drag_start grid 70.951 26.363
+\i (00:04:45) drag_stop 69.803 25.233
+\t (00:04:45) Waiting for origin pick.
+\i (00:04:45) pick grid 69.909 25.286
+\t (00:04:45) last pick:  69.900 25.300
+\t (00:04:45) Waiting for the destination pick.
+\i (00:04:48) pick grid 69.856 25.251
+\t (00:04:48) last pick:  69.900 25.300
+\t (00:04:48) No DRC errors detected.
+\t (00:04:48) Pick another element to slide.
+\i (00:04:49) drag_start grid 70.739 26.151
+\i (00:04:49) drag_stop 69.733 25.092
+\t (00:04:49) Waiting for origin pick.
+\i (00:04:49) pick grid 70.280 25.322
+\t (00:04:49) last pick:  70.300 25.300
+\t (00:04:49) Waiting for the destination pick.
+\i (00:04:50) pick grid 70.280 25.304
+\t (00:04:50) last pick:  70.300 25.300
+\t (00:04:50) No DRC errors detected.
+\t (00:04:50) Pick another element to slide.
+\i (00:04:51) zoom out 1 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom out 71.728 26.416
+\i (00:04:51) trapsize 177
+\i (00:04:52) roam start
+\i (00:04:53) roam x -16
+\i (00:04:53) roam y -16
+\i (00:04:53) roam x -96
+\i (00:04:53) roam y -48
+\i (00:04:53) roam x -16
+\i (00:04:53) roam y -16
+\i (00:04:53) roam end
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 59.174 33.565
+\i (00:04:53) trapsize 88
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 58.733 33.177
+\i (00:04:53) trapsize 44
+\i (00:04:54) pick grid 58.556 31.739
+\t (00:04:54) last pick:  58.600 31.700
+\t (00:04:54) last pick:  58.556 31.700
+\t (00:04:54) Waiting for the destination pick.
+\i (00:04:55) pick grid 58.971 32.463
+\t (00:04:55) last pick:  59.000 32.500
+\t (00:04:55) No DRC errors detected.
+\t (00:04:55) Pick another element to slide.
+\i (00:04:56) pick grid 55.864 32.622
+\t (00:04:56) last pick:  55.900 32.600
+\t (00:04:56) last pick:  55.800 32.670
+\t (00:04:56) Waiting for the destination pick.
+\i (00:04:57) prepopup 55.731 33.213
+\i (00:04:58) cancel 
+\i (00:04:58) generaledit 
+\i (00:04:59) pick grid 55.793 32.533
+\t (00:04:59) last pick:  55.800 32.500
+\i (00:05:00) pick grid 55.652 32.021
+\t (00:05:00) last pick:  55.700 32.000
+\i (00:05:02) slide 
+\t (00:05:02) Pick element to slide.
+\i (00:05:03) pick grid 55.820 32.524
+\t (00:05:03) last pick:  55.800 32.500
+\t (00:05:03) last pick:  55.883 32.587
+\t (00:05:03) Waiting for the destination pick.
+\i (00:05:04) pick grid 56.650 33.213
+\t (00:05:04) last pick:  56.700 33.200
+\t (00:05:04) No DRC errors detected.
+\t (00:05:04) Pick another element to slide.
+\i (00:05:04) pick grid 56.685 33.239
+\t (00:05:04) last pick:  56.700 33.200
+\t (00:05:04) last pick:  56.673 33.227
+\t (00:05:04) Waiting for the destination pick.
+\i (00:05:05) pick grid 56.367 33.036
+\t (00:05:05) last pick:  56.400 33.000
+\t (00:05:05) No DRC errors detected.
+\t (00:05:05) Pick another element to slide.
+\i (00:05:05) zoom out 1 
+\i (00:05:05) setwindow pcb
+\i (00:05:05) zoom out 56.579 32.613
+\i (00:05:05) trapsize 88
+\i (00:05:05) zoom out 1 
+\i (00:05:05) setwindow pcb
+\i (00:05:05) zoom out 56.579 32.365
+\i (00:05:05) trapsize 177
+\i (00:05:06) roam start
+\i (00:05:06) roam x -96
+\i (00:05:06) roam y -80
+\i (00:05:06) roam x -16
+\i (00:05:06) roam x -192
+\i (00:05:06) roam y -128
+\i (00:05:06) roam x -16
+\i (00:05:06) roam y -16
+\i (00:05:06) roam x -64
+\i (00:05:06) roam y -48
+\i (00:05:06) roam y -16
+\i (00:05:06) roam x -16
+\i (00:05:06) roam y -48
+\i (00:05:06) roam end
+\i (00:05:07) roam start
+\i (00:05:07) roam x -48
+\i (00:05:07) roam y 80
+\i (00:05:07) roam x -16
+\i (00:05:07) roam y 32
+\i (00:05:07) roam x -16
+\i (00:05:07) roam y 16
+\i (00:05:07) roam x -16
+\i (00:05:07) roam y 48
+\i (00:05:07) roam x -16
+\i (00:05:07) roam y 16
+\i (00:05:07) roam y 16
+\i (00:05:08) roam x -16
+\i (00:05:08) roam y 32
+\i (00:05:08) roam x -16
+\i (00:05:08) roam end
+\i (00:05:10) roam start
+\i (00:05:10) roam x -64
+\i (00:05:10) roam y 64
+\i (00:05:10) roam x -32
+\i (00:05:10) roam y 16
+\i (00:05:10) roam x -160
+\i (00:05:10) roam y 64
+\i (00:05:10) roam x -16
+\i (00:05:10) roam y 16
+\i (00:05:10) roam x -16
+\i (00:05:10) roam x -16
+\i (00:05:10) roam x -16
+\i (00:05:10) roam x -16
+\i (00:05:10) roam x -16
+\i (00:05:10) roam x -16
+\i (00:05:10) roam x -64
+\i (00:05:10) roam x -16
+\i (00:05:10) roam x -16
+\i (00:05:10) roam x -16
+\i (00:05:10) roam x -16
+\i (00:05:10) roam end
+\i (00:05:13) zoom out 1 
+\i (00:05:13) setwindow pcb
+\i (00:05:13) zoom out 36.258 31.552
+\i (00:05:13) trapsize 353
+\i (00:05:15) zoom in 1 
+\i (00:05:15) setwindow pcb
+\i (00:05:15) zoom in 14.789 42.852
+\i (00:05:15) trapsize 177
+\i (00:05:15) zoom in 1 
+\i (00:05:15) setwindow pcb
+\i (00:05:15) zoom in 16.590 40.804
+\i (00:05:15) trapsize 88
+\i (00:05:16) pick grid 15.267 41.687
+\t (00:05:16) last pick:  15.300 41.700
+\t (00:05:16) last pick:  15.300 41.687
+\t (00:05:16) Waiting for the destination pick.
+\i (00:05:17) pick grid 14.843 41.581
+\t (00:05:17) last pick:  14.800 41.600
+\t (00:05:17) No DRC errors detected.
+\t (00:05:17) Pick another element to slide.
+\i (00:05:18) pick grid 14.613 39.692
+\t (00:05:18) last pick:  14.600 39.700
+\t (00:05:18) last pick:  14.500 39.692
+\t (00:05:18) Waiting for the destination pick.
+\i (00:05:19) pick grid 14.719 39.727
+\t (00:05:19) last pick:  14.700 39.700
+\t (00:05:19) No DRC errors detected.
+\t (00:05:19) Pick another element to slide.
+\i (00:05:20) pick grid 13.360 37.608
+\t (00:05:20) last pick:  13.400 37.600
+\t (00:05:20) last pick:  13.334 37.634
+\t (00:05:20) Waiting for the destination pick.
+\i (00:05:21) pick grid 13.413 35.949
+\t (00:05:21) last pick:  13.400 35.900
+\t (00:05:21) No DRC errors detected.
+\t (00:05:21) Pick another element to slide.
+\i (00:05:22) pick grid 12.212 34.289
+\t (00:05:22) last pick:  12.200 34.300
+\t (00:05:22) Pick element to slide.
+\i (00:05:24) pick grid 12.371 34.289
+\t (00:05:24) last pick:  12.400 34.300
+\t (00:05:24) last pick:  12.400 34.289
+\t (00:05:24) Waiting for the destination pick.
+\i (00:05:25) pick grid 13.360 34.360
+\t (00:05:25) last pick:  13.400 34.400
+\t (00:05:25) DRC errors detected.
+\t (00:05:25) Pick another element to slide.
+\i (00:05:26) pick grid 13.413 34.395
+\t (00:05:26) last pick:  13.400 34.400
+\t (00:05:26) last pick:  13.400 34.395
+\t (00:05:26) Waiting for the destination pick.
+\i (00:05:26) pick grid 13.236 34.413
+\t (00:05:26) last pick:  13.200 34.400
+\t (00:05:26) No DRC errors detected.
+\t (00:05:26) Pick another element to slide.
+\i (00:05:27) zoom out 1 
+\i (00:05:27) setwindow pcb
+\i (00:05:27) zoom out 14.966 35.190
+\i (00:05:27) trapsize 177
+\i (00:05:28) zoom in 1 
+\i (00:05:28) setwindow pcb
+\i (00:05:28) zoom in 14.049 45.606
+\i (00:05:28) trapsize 88
+\i (00:05:29) pick grid 14.014 47.883
+\t (00:05:29) last pick:  14.000 47.900
+\t (00:05:29) last pick:  14.038 47.907
+\t (00:05:29) Waiting for the destination pick.
+\i (00:05:32) pick grid 13.679 45.253
+\t (00:05:32) last pick:  13.700 45.300
+\t (00:05:32) No DRC errors detected.
+\t (00:05:32) Pick another element to slide.
+\i (00:05:33) zoom out 1 
+\i (00:05:33) setwindow pcb
+\i (00:05:33) zoom out 18.728 44.017
+\i (00:05:33) trapsize 177
+\i (00:05:34) zoom out 1 
+\i (00:05:34) setwindow pcb
+\i (00:05:34) zoom out 19.611 43.981
+\i (00:05:34) trapsize 353
+\i (00:05:35) roam start
+\i (00:05:35) roam x 16
+\i (00:05:36) roam x 16
+\i (00:05:36) roam y 16
+\i (00:05:36) roam x 160
+\i (00:05:36) roam y 80
+\i (00:05:36) roam x 48
+\i (00:05:36) roam y 16
+\i (00:05:36) roam x 16
+\i (00:05:36) roam y 16
+\i (00:05:36) roam x 32
+\i (00:05:36) roam x 16
+\i (00:05:36) roam x 16
+\i (00:05:36) roam end
+\i (00:05:38) zoom in 1 
+\i (00:05:38) setwindow pcb
+\i (00:05:38) zoom in 86.893 41.475
+\i (00:05:38) trapsize 177
+\i (00:05:43) pick grid 79.831 47.090
+\t (00:05:43) last pick:  79.800 47.100
+\t (00:05:43) last pick:  79.843 47.102
+\t (00:05:43) Waiting for the destination pick.
+\i (00:05:44) pick grid 79.195 43.347
+\t (00:05:44) last pick:  79.200 43.300
+\t (00:05:44) No DRC errors detected.
+\t (00:05:44) Pick another element to slide.
+\i (00:05:45) pick grid 80.325 47.690
+\t (00:05:45) last pick:  80.300 47.700
+\t (00:05:45) last pick:  80.340 47.705
+\t (00:05:45) Waiting for the destination pick.
+\i (00:05:46) pick grid 79.972 45.501
+\t (00:05:46) last pick:  80.000 45.500
+\t (00:05:46) No DRC errors detected.
+\t (00:05:46) Pick another element to slide.
+\i (00:05:47) zoom in 1 
+\i (00:05:47) setwindow pcb
+\i (00:05:47) zoom in 81.949 40.910
+\i (00:05:47) trapsize 88
+\i (00:05:47) pick grid 82.002 40.769
+\t (00:05:47) last pick:  82.000 40.800
+\t (00:05:47) last pick:  82.000 40.767
+\t (00:05:47) Waiting for the destination pick.
+\i (00:05:48) pick grid 82.090 40.858
+\t (00:05:48) last pick:  82.100 40.900
+\t (00:05:48) No DRC errors detected.
+\t (00:05:48) Pick another element to slide.
+\i (00:05:50) pick grid 83.150 38.668
+\t (00:05:50) last pick:  83.200 38.700
+\t (00:05:50) last pick:  83.030 38.668
+\t (00:05:50) Waiting for the destination pick.
+\i (00:05:51) pick grid 83.256 38.668
+\t (00:05:51) last pick:  83.300 38.700
+\t (00:05:51) No DRC errors detected.
+\t (00:05:51) Pick another element to slide.
+\i (00:05:52) pick grid 83.679 36.832
+\t (00:05:52) last pick:  83.700 36.800
+\t (00:05:52) last pick:  83.674 36.827
+\t (00:05:52) Waiting for the destination pick.
+\i (00:05:52) pick grid 83.679 36.638
+\t (00:05:52) last pick:  83.700 36.600
+\t (00:05:52) No DRC errors detected.
+\t (00:05:52) Pick another element to slide.
+\i (00:05:53) roam start
+\i (00:05:53) roam x 16
+\i (00:05:53) roam y 32
+\i (00:05:53) roam x 16
+\i (00:05:53) roam y 16
+\i (00:05:53) roam x 16
+\i (00:05:53) roam y 16
+\i (00:05:53) roam x 16
+\i (00:05:53) roam y 32
+\i (00:05:53) roam x 16
+\i (00:05:53) roam y 16
+\i (00:05:53) roam end
+\i (00:05:54) pick grid 86.557 34.906
+\t (00:05:54) last pick:  86.600 34.900
+\t (00:05:54) last pick:  86.557 34.800
+\t (00:05:54) Waiting for the destination pick.
+\i (00:05:55) pick grid 86.310 35.454
+\t (00:05:55) last pick:  86.300 35.500
+\t (00:05:55) No DRC errors detected.
+\t (00:05:55) Pick another element to slide.
+\i (00:05:55) pick grid 86.645 35.136
+\t (00:05:55) last pick:  86.600 35.100
+\t (00:05:55) last pick:  86.567 35.058
+\t (00:05:55) Waiting for the destination pick.
+\i (00:05:56) pick grid 87.475 35.454
+\t (00:05:56) last pick:  87.500 35.500
+\t (00:05:56) No DRC errors detected.
+\t (00:05:56) Pick another element to slide.
+\i (00:05:57) pick grid 87.422 33.600
+\t (00:05:57) last pick:  87.400 33.600
+\t (00:05:57) last pick:  87.361 33.540
+\t (00:05:57) Waiting for the destination pick.
+\i (00:05:58) pick grid 87.069 33.211
+\t (00:05:58) last pick:  87.100 33.200
+\t (00:05:58) No DRC errors detected.
+\t (00:05:58) Pick another element to slide.
+\i (00:05:59) pick grid 87.175 33.123
+\t (00:05:59) last pick:  87.200 33.100
+\t (00:05:59) last pick:  87.176 33.125
+\t (00:05:59) Waiting for the destination pick.
+\i (00:06:00) pick grid 86.433 33.017
+\t (00:06:00) last pick:  86.400 33.000
+\t (00:06:00) DRC errors detected.
+\t (00:06:00) Pick another element to slide.
+\i (00:06:01) pick grid 87.581 32.311
+\t (00:06:01) last pick:  87.600 32.300
+\t (00:06:01) last pick:  87.581 32.378
+\t (00:06:01) Waiting for the destination pick.
+\i (00:06:02) pick grid 86.610 34.394
+\t (00:06:02) last pick:  86.600 34.400
+\t (00:06:02) DRC errors detected.
+\t (00:06:02) Pick another element to slide.
+\i (00:06:02) pick grid 86.751 33.706
+\t (00:06:02) last pick:  86.800 33.700
+\t (00:06:02) last pick:  86.675 33.630
+\t (00:06:02) Waiting for the destination pick.
+\i (00:06:03) pick grid 87.210 34.165
+\t (00:06:03) last pick:  87.200 34.200
+\t (00:06:03) No DRC errors detected.
+\t (00:06:03) Pick another element to slide.
+\i (00:06:04) pick grid 84.173 34.977
+\t (00:06:04) last pick:  84.200 35.000
+\t (00:06:04) last pick:  84.298 35.102
+\t (00:06:04) Waiting for the destination pick.
+\i (00:06:06) pick grid 84.862 35.101
+\t (00:06:06) last pick:  84.900 35.100
+\t (00:06:06) No DRC errors detected.
+\t (00:06:06) Pick another element to slide.
+\i (00:06:06) pick grid dbl 84.915 35.118
+\t (00:06:06) last pick:  84.900 35.100
+\t (00:06:06) last pick:  84.899 35.102
+\t (00:06:06) Waiting for the destination pick.
+\i (00:06:08) pick grid 85.056 35.118
+\t (00:06:08) last pick:  85.100 35.100
+\t (00:06:08) No DRC errors detected.
+\t (00:06:08) Pick another element to slide.
+\i (00:06:08) zoom out 1 
+\i (00:06:08) setwindow pcb
+\i (00:06:08) zoom out 83.961 35.507
+\i (00:06:08) trapsize 177
+\i (00:06:09) roam start
+\i (00:06:09) roam x 16
+\i (00:06:09) roam x 160
+\i (00:06:09) roam y 128
+\i (00:06:09) roam x 16
+\i (00:06:09) roam x 64
+\i (00:06:09) roam y 16
+\i (00:06:09) roam end
+\i (00:06:10) zoom out 1 
+\i (00:06:10) setwindow pcb
+\i (00:06:10) zoom out 89.752 31.588
+\i (00:06:10) trapsize 353
+\i (00:06:11) roam start
+\i (00:06:11) roam x 16
+\i (00:06:11) roam y 16
+\i (00:06:11) roam x 32
+\i (00:06:11) roam y 16
+\i (00:06:11) roam x 128
+\i (00:06:11) roam y 64
+\i (00:06:11) roam x 16
+\i (00:06:11) roam x 80
+\i (00:06:11) roam y 16
+\i (00:06:11) roam x 16
+\i (00:06:11) roam x 32
+\i (00:06:11) roam end
+\i (00:06:24) zoom in 1 
+\i (00:06:24) setwindow pcb
+\i (00:06:24) zoom in 86.256 16.404
+\i (00:06:24) trapsize 177
+\i (00:06:25) roam start
+\i (00:06:25) roam y 16
+\i (00:06:25) roam x -16
+\i (00:06:25) roam x -80
+\i (00:06:25) roam y 80
+\i (00:06:25) roam x -16
+\i (00:06:25) roam y 16
+\i (00:06:25) roam x -16
+\i (00:06:25) roam x -16
+\i (00:06:25) roam y 48
+\i (00:06:25) roam x -16
+\i (00:06:25) roam y 48
+\i (00:06:25) roam end
+\i (00:06:29) pick grid 87.458 14.781
+\t (00:06:29) last pick:  87.500 14.800
+\t (00:06:29) last pick:  87.400 14.781
+\t (00:06:29) Waiting for the destination pick.
+\i (00:06:31) pick grid 88.658 14.957
+\t (00:06:31) last pick:  88.700 15.000
+\t (00:06:31) No DRC errors detected.
+\t (00:06:31) Pick another element to slide.
+\i (00:06:32) zoom in 1 
+\i (00:06:32) setwindow pcb
+\i (00:06:32) zoom in 89.117 12.132
+\i (00:06:32) trapsize 88
+\i (00:06:33) pick grid 89.841 11.921
+\t (00:06:33) last pick:  89.800 11.900
+\t (00:06:33) last pick:  89.841 12.000
+\t (00:06:33) Waiting for the destination pick.
+\i (00:06:34) pick grid 88.888 14.092
+\t (00:06:34) last pick:  88.900 14.100
+\t (00:06:34) No DRC errors detected.
+\t (00:06:34) Pick another element to slide.
+\i (00:06:37) pick grid 93.213 13.086
+\t (00:06:37) last pick:  93.200 13.100
+\t (00:06:37) last pick:  93.213 13.100
+\t (00:06:37) Waiting for the destination pick.
+\i (00:06:38) pick grid 93.195 13.157
+\t (00:06:38) last pick:  93.200 13.200
+\t (00:06:38) No DRC errors detected.
+\t (00:06:38) Pick another element to slide.
+\i (00:06:41) pick grid 92.242 16.352
+\t (00:06:41) last pick:  92.200 16.400
+\t (00:06:41) last pick:  92.300 16.352
+\t (00:06:41) Waiting for the destination pick.
+\i (00:06:43) pick grid 93.955 15.787
+\t (00:06:43) last pick:  94.000 15.800
+\t (00:06:43) No DRC errors detected.
+\t (00:06:43) Pick another element to slide.
+\i (00:06:44) pick grid 94.113 14.640
+\t (00:06:44) last pick:  94.100 14.600
+\t (00:06:44) last pick:  94.170 14.600
+\t (00:06:44) Waiting for the destination pick.
+\i (00:06:45) pick grid 94.396 14.957
+\t (00:06:45) last pick:  94.400 15.000
+\t (00:06:45) No DRC errors detected.
+\t (00:06:45) Pick another element to slide.
+\i (00:06:46) pick grid 94.996 14.640
+\t (00:06:46) last pick:  95.000 14.600
+\t (00:06:46) last pick:  94.978 14.622
+\t (00:06:46) Waiting for the destination pick.
+\i (00:06:47) pick grid 95.773 14.957
+\t (00:06:47) last pick:  95.800 15.000
+\t (00:06:47) No DRC errors detected.
+\t (00:06:47) Pick another element to slide.
+\i (00:06:47) pick grid 95.067 15.081
+\t (00:06:47) last pick:  95.100 15.100
+\t (00:06:47) last pick:  95.067 15.050
+\t (00:06:47) Waiting for the destination pick.
+\i (00:06:48) pick grid 95.243 14.816
+\t (00:06:48) last pick:  95.200 14.800
+\t (00:06:48) No DRC errors detected.
+\t (00:06:48) Pick another element to slide.
+\i (00:06:49) pick grid 92.931 13.157
+\t (00:06:49) last pick:  92.900 13.200
+\t (00:06:49) last pick:  92.931 13.200
+\t (00:06:49) Waiting for the destination pick.
+\i (00:06:50) pick grid 93.160 14.569
+\t (00:06:50) last pick:  93.200 14.600
+\t (00:06:50) No DRC errors detected.
+\t (00:06:50) Pick another element to slide.
+\i (00:06:51) pick grid 91.907 14.640
+\t (00:06:51) last pick:  91.900 14.600
+\t (00:06:51) last pick:  91.918 14.652
+\t (00:06:51) Waiting for the destination pick.
+\i (00:06:52) pick grid 92.154 14.781
+\t (00:06:52) last pick:  92.200 14.800
+\t (00:06:52) No DRC errors detected.
+\t (00:06:52) Pick another element to slide.
+\i (00:06:53) pick grid 92.701 11.427
+\t (00:06:53) last pick:  92.700 11.400
+\t (00:06:53) last pick:  92.687 11.413
+\t (00:06:53) Waiting for the destination pick.
+\i (00:06:53) pick grid 93.372 12.150
+\t (00:06:53) last pick:  93.400 12.200
+\t (00:06:53) No DRC errors detected.
+\t (00:06:53) Pick another element to slide.
+\i (00:06:54) pick grid 92.630 12.009
+\t (00:06:54) last pick:  92.600 12.000
+\t (00:06:54) last pick:  92.630 12.000
+\t (00:06:54) Waiting for the destination pick.
+\i (00:06:54) pick grid 92.701 13.351
+\t (00:06:54) last pick:  92.700 13.400
+\t (00:06:54) No DRC errors detected.
+\t (00:06:54) Pick another element to slide.
+\i (00:06:55) pick grid 92.754 12.751
+\t (00:06:55) last pick:  92.800 12.800
+\t (00:06:55) last pick:  92.766 12.764
+\t (00:06:55) Waiting for the destination pick.
+\i (00:06:56) pick grid 93.178 13.068
+\t (00:06:56) last pick:  93.200 13.100
+\t (00:06:56) DRC errors detected.
+\t (00:06:56) Pick another element to slide.
+\i (00:06:56) pick grid 93.407 12.910
+\t (00:06:56) last pick:  93.400 12.900
+\t (00:06:56) last pick:  93.398 12.902
+\t (00:06:56) Waiting for the destination pick.
+\i (00:06:57) pick grid 93.407 12.715
+\t (00:06:57) last pick:  93.400 12.700
+\t (00:06:57) No DRC errors detected.
+\t (00:06:57) Pick another element to slide.
+\i (00:06:57) pick grid 92.101 13.527
+\t (00:06:57) last pick:  92.100 13.500
+\t (00:06:57) last pick:  92.101 13.400
+\t (00:06:57) Waiting for the destination pick.
+\i (00:06:58) pick grid 92.171 13.316
+\t (00:06:58) last pick:  92.200 13.300
+\t (00:06:58) No DRC errors detected.
+\t (00:06:58) Pick another element to slide.
+\i (00:06:59) pick grid 91.324 13.404
+\t (00:06:59) last pick:  91.300 13.400
+\t (00:06:59) last pick:  91.345 13.425
+\t (00:06:59) Waiting for the destination pick.
+\i (00:06:59) pick grid 91.659 13.598
+\t (00:06:59) last pick:  91.700 13.600
+\t (00:06:59) No DRC errors detected.
+\t (00:06:59) Pick another element to slide.
+\i (00:07:01) pick grid 93.760 11.762
+\t (00:07:01) last pick:  93.800 11.800
+\t (00:07:01) last pick:  93.700 11.762
+\t (00:07:01) Waiting for the destination pick.
+\i (00:07:01) pick grid 94.325 11.444
+\t (00:07:01) last pick:  94.300 11.400
+\t (00:07:01) No DRC errors detected.
+\t (00:07:01) Pick another element to slide.
+\i (00:07:02) pick grid 94.025 12.097
+\t (00:07:02) last pick:  94.000 12.100
+\t (00:07:02) last pick:  94.014 12.086
+\t (00:07:02) Waiting for the destination pick.
+\i (00:07:03) pick grid 94.043 11.939
+\t (00:07:03) last pick:  94.000 11.900
+\t (00:07:03) No DRC errors detected.
+\t (00:07:03) Pick another element to slide.
+\i (00:07:03) pick grid 91.783 10.809
+\t (00:07:03) last pick:  91.800 10.800
+\t (00:07:03) last pick:  91.783 10.800
+\t (00:07:03) Waiting for the destination pick.
+\i (00:07:04) pick grid 91.448 11.956
+\t (00:07:04) last pick:  91.400 12.000
+\t (00:07:04) DRC errors detected.
+\t (00:07:04) Pick another element to slide.
+\i (00:07:05) pick grid 91.571 11.550
+\t (00:07:05) last pick:  91.600 11.600
+\t (00:07:05) last pick:  91.510 11.490
+\t (00:07:05) Waiting for the destination pick.
+\i (00:07:06) pick grid 92.736 11.603
+\t (00:07:06) last pick:  92.700 11.600
+\t (00:07:06) No DRC errors detected.
+\t (00:07:06) Pick another element to slide.
+\i (00:07:08) pick grid 91.271 10.208
+\t (00:07:08) last pick:  91.300 10.200
+\t (00:07:08) last pick:  91.265 10.203
+\t (00:07:08) Waiting for the destination pick.
+\i (00:07:09) pick grid 91.677 10.438
+\t (00:07:09) last pick:  91.700 10.400
+\t (00:07:09) No DRC errors detected.
+\t (00:07:09) Pick another element to slide.
+\i (00:07:17) zoom out 1 
+\i (00:07:17) setwindow pcb
+\i (00:07:17) zoom out 89.117 12.698
+\i (00:07:17) trapsize 177
+\i (00:07:18) zoom in 1 
+\i (00:07:18) setwindow pcb
+\i (00:07:18) zoom in 87.740 13.050
+\i (00:07:18) trapsize 88
+\i (00:07:18) roam start
+\i (00:07:18) roam x 32
+\i (00:07:18) roam y -64
+\i (00:07:18) roam y -16
+\i (00:07:18) roam y -16
+\i (00:07:18) roam x 48
+\i (00:07:18) roam y -128
+\i (00:07:18) roam y -16
+\i (00:07:18) roam end
+\i (00:07:20) pick grid 90.177 17.782
+\t (00:07:20) last pick:  90.200 17.800
+\t (00:07:20) last pick:  90.097 17.703
+\t (00:07:20) Waiting for the destination pick.
+\i (00:07:20) pick grid 90.388 18.152
+\t (00:07:20) last pick:  90.400 18.200
+\t (00:07:20) No DRC errors detected.
+\t (00:07:20) Pick another element to slide.
+\i (00:07:21) pick grid 90.353 18.064
+\t (00:07:21) last pick:  90.400 18.100
+\t (00:07:21) last pick:  90.444 18.156
+\t (00:07:21) Waiting for the destination pick.
+\i (00:07:22) pick grid 90.335 18.029
+\t (00:07:22) last pick:  90.300 18.000
+\t (00:07:22) No DRC errors detected.
+\t (00:07:22) Pick another element to slide.
+\i (00:07:22) pick grid 89.717 16.740
+\t (00:07:22) last pick:  89.700 16.700
+\t (00:07:22) last pick:  89.688 16.712
+\t (00:07:22) Waiting for the destination pick.
+\i (00:07:23) pick grid 90.000 17.164
+\t (00:07:23) last pick:  90.000 17.200
+\t (00:07:23) No DRC errors detected.
+\t (00:07:23) Pick another element to slide.
+\i (00:07:24) pick grid 87.828 16.740
+\t (00:07:24) last pick:  87.800 16.700
+\t (00:07:24) last pick:  87.844 16.756
+\t (00:07:24) Waiting for the destination pick.
+\i (00:07:25) pick grid 88.464 17.552
+\t (00:07:25) last pick:  88.500 17.600
+\t (00:07:25) No DRC errors detected.
+\t (00:07:25) Pick another element to slide.
+\i (00:07:26) pick grid 88.605 15.945
+\t (00:07:26) last pick:  88.600 15.900
+\t (00:07:26) last pick:  88.700 15.945
+\t (00:07:26) Waiting for the destination pick.
+\i (00:07:27) pick grid 89.965 15.592
+\t (00:07:27) last pick:  90.000 15.600
+\t (00:07:27) No DRC errors detected.
+\t (00:07:27) Pick another element to slide.
+\i (00:07:29) pick grid 90.124 12.008
+\t (00:07:29) last pick:  90.100 12.000
+\t (00:07:29) last pick:  90.158 12.042
+\t (00:07:29) Waiting for the destination pick.
+\i (00:07:30) pick grid 90.177 12.061
+\t (00:07:30) last pick:  90.200 12.100
+\t (00:07:30) No DRC errors detected.
+\t (00:07:30) Pick another element to slide.
+\t (00:07:43) Pick another element to slide.
+\t (00:07:43) Pick another element to slide.
+\t (00:07:44) Pick another element to slide.
+\t (00:07:44) Pick another element to slide.
+\i (00:07:44) zoom out 1 
+\i (00:07:44) setwindow pcb
+\i (00:07:44) zoom out 85.657 18.099
+\i (00:07:44) trapsize 177
+\i (00:07:45) zoom in 1 
+\i (00:07:45) setwindow pcb
+\i (00:07:45) zoom in 86.328 14.922
+\i (00:07:45) trapsize 88
+\i (00:07:46) pick grid 86.169 15.787
+\t (00:07:46) last pick:  86.200 15.800
+\t (00:07:46) last pick:  86.100 15.787
+\t (00:07:46) Waiting for the destination pick.
+\i (00:07:47) pick grid 88.676 15.399
+\t (00:07:47) last pick:  88.700 15.400
+\t (00:07:47) No DRC errors detected.
+\t (00:07:47) Pick another element to slide.
+\i (00:07:48) pick grid 87.758 15.576
+\t (00:07:48) last pick:  87.800 15.600
+\t (00:07:48) last pick:  87.791 15.609
+\t (00:07:48) Waiting for the destination pick.
+\i (00:07:49) pick grid 88.111 17.059
+\t (00:07:49) last pick:  88.100 17.100
+\t (00:07:49) No DRC errors detected.
+\t (00:07:49) Pick another element to slide.
+\i (00:07:51) pick grid 90.301 10.650
+\t (00:07:51) last pick:  90.300 10.700
+\t (00:07:51) last pick:  90.301 10.700
+\t (00:07:51) Waiting for the destination pick.
+\i (00:07:51) pick grid 90.159 11.250
+\t (00:07:51) last pick:  90.200 11.300
+\t (00:07:51) No DRC errors detected.
+\t (00:07:51) Pick another element to slide.
+\i (00:07:52) pick grid 88.782 11.444
+\t (00:07:52) last pick:  88.800 11.400
+\t (00:07:52) last pick:  88.754 11.416
+\t (00:07:52) Waiting for the destination pick.
+\i (00:07:53) pick grid 89.153 11.974
+\t (00:07:53) last pick:  89.200 12.000
+\t (00:07:53) No DRC errors detected.
+\t (00:07:53) Pick another element to slide.
+\i (00:07:54) zoom out 1 
+\i (00:07:54) setwindow pcb
+\i (00:07:54) zoom out 89.524 13.386
+\i (00:07:54) trapsize 177
+\i (00:07:56) pick grid 85.039 13.563
+\t (00:07:56) last pick:  85.000 13.600
+\t (00:07:56) last pick:  84.900 13.563
+\t (00:07:56) Waiting for the destination pick.
+\i (00:07:57) pick grid 87.546 13.422
+\t (00:07:57) last pick:  87.500 13.400
+\t (00:07:57) DRC errors detected.
+\t (00:07:57) Pick another element to slide.
+\i (00:07:58) pick grid 87.123 15.152
+\t (00:07:58) last pick:  87.100 15.200
+\t (00:07:58) last pick:  87.035 15.065
+\t (00:07:58) Waiting for the destination pick.
+\i (00:07:59) pick grid 87.476 16.565
+\t (00:07:59) last pick:  87.500 16.600
+\t (00:07:59) DRC errors detected.
+\t (00:07:59) Pick another element to slide.
+\i (00:08:00) pick grid 87.440 14.128
+\t (00:08:00) last pick:  87.400 14.100
+\t (00:08:00) last pick:  87.500 14.128
+\t (00:08:00) Waiting for the destination pick.
+\i (00:08:01) pick grid 87.370 14.093
+\t (00:08:01) last pick:  87.400 14.100
+\t (00:08:01) No DRC errors detected.
+\t (00:08:01) Pick another element to slide.
+\i (00:08:03) zoom in 1 
+\i (00:08:03) setwindow pcb
+\i (00:08:03) zoom in 90.195 9.821
+\i (00:08:03) trapsize 88
+\i (00:08:03) zoom in 1 
+\i (00:08:03) setwindow pcb
+\i (00:08:03) zoom in 90.195 9.821
+\i (00:08:03) trapsize 44
+\i (00:08:04) pick grid 90.196 9.689
+\t (00:08:04) last pick:  90.200 9.700
+\t (00:08:04) last pick:  90.186 9.698
+\t (00:08:04) Waiting for the destination pick.
+\i (00:08:05) pick grid 88.633 10.139
+\t (00:08:05) last pick:  88.600 10.100
+\t (00:08:05) DRC errors detected.
+\t (00:08:05) Pick another element to slide.
+\i (00:08:05) pick grid 89.957 10.060
+\t (00:08:05) last pick:  90.000 10.100
+\t (00:08:05) last pick:  89.957 10.101
+\t (00:08:05) Waiting for the destination pick.
+\i (00:08:07) pick grid 89.790 10.757
+\t (00:08:07) last pick:  89.800 10.800
+\t (00:08:07) DRC errors detected.
+\t (00:08:07) Pick another element to slide.
+\i (00:08:08) pick grid 87.803 9.371
+\t (00:08:08) last pick:  87.800 9.400
+\t (00:08:08) last pick:  87.803 9.406
+\t (00:08:08) Waiting for the destination pick.
+\i (00:08:09) pick grid 88.245 10.757
+\t (00:08:09) last pick:  88.200 10.800
+\t (00:08:09) No DRC errors detected.
+\t (00:08:09) Pick another element to slide.
+\i (00:08:10) pick grid 87.503 10.846
+\t (00:08:10) last pick:  87.500 10.800
+\t (00:08:10) last pick:  87.570 10.800
+\t (00:08:10) Waiting for the destination pick.
+\i (00:08:12) pick grid 87.927 10.749
+\t (00:08:12) last pick:  87.900 10.700
+\t (00:08:12) No DRC errors detected.
+\t (00:08:12) Pick another element to slide.
+\i (00:08:13) zoom out 1 
+\i (00:08:13) setwindow pcb
+\i (00:08:13) zoom out 88.192 9.548
+\i (00:08:13) trapsize 88
+\i (00:08:14) pick grid 90.346 11.331
+\t (00:08:14) last pick:  90.300 11.300
+\t (00:08:14) last pick:  90.346 11.300
+\t (00:08:14) Waiting for the destination pick.
+\i (00:08:16) pick grid 90.310 11.349
+\t (00:08:16) last pick:  90.300 11.300
+\t (00:08:16) No DRC errors detected.
+\t (00:08:16) Pick another element to slide.
+\i (00:08:16) roam start
+\i (00:08:16) roam x -16
+\i (00:08:16) roam y 16
+\i (00:08:17) roam x -16
+\i (00:08:17) roam end
+\i (00:08:20) add connect 
+\t (00:08:20) Pick first element.
+\i (00:08:20) pick grid 80.907 18.593
+\t (00:08:20) last pick:  80.900 18.600
+\t (00:08:20) last pick:  80.900 18.600
+\i (00:08:21) mouse_pos 81.119 18.523
+\i (00:08:21) mouse_pos 81.507 18.417
+\i (00:08:21) mouse_pos 81.984 18.293
+\i (00:08:21) mouse_pos 82.690 18.117
+\i (00:08:22) pick grid 86.450 16.210
+\t (00:08:22) last pick:  86.500 16.200
+\t (00:08:22) No DRC errors detected.
+\i (00:08:24) mouse_pos 87.810 8.618
+\i (00:08:24) mouse_pos 87.898 8.318
+\i (00:08:24) pick grid 87.898 8.318
+\t (00:08:24) last pick:  87.900 8.300
+\t (00:08:24) DRC error(s) created.
+\i (00:08:24) mouse_pos 87.951 8.336
+\i (00:08:25) mouse_pos 88.516 8.707
+\i (00:08:25) prepopup 88.763 8.919
+\i (00:08:26) oops 
+\t (00:08:26) last pick:  86.500 16.200
+\i (00:08:26) mouse_pos 88.640 8.636
+\i (00:08:26) mouse_pos 88.322 8.301
+\i (00:08:27) mouse_pos 87.404 8.389
+\i (00:08:28) pick grid 87.298 8.548
+\t (00:08:28) last pick:  87.300 8.500
+\t (00:08:28) DRC error(s) created.
+\t (00:08:28) Pick first element.
+\i (00:08:30) slide 
+\t (00:08:30) Pick element to slide.
+\i (00:08:31) pick grid 86.521 13.297
+\t (00:08:31) last pick:  86.500 13.300
+\t (00:08:31) last pick:  86.500 13.297
+\t (00:08:31) Waiting for the destination pick.
+\i (00:08:32) pick grid 86.239 13.297
+\t (00:08:32) last pick:  86.200 13.300
+\t (00:08:32) No DRC errors detected.
+\t (00:08:32) Pick another element to slide.
+\i (00:08:35) add connect 
+\t (00:08:35) Pick first element.
+\i (00:08:36) pick grid 80.112 17.675
+\t (00:08:36) last pick:  80.100 17.700
+\t (00:08:36) last pick:  80.100 17.600
+\t (00:08:36) last pick:  80.100 17.600
+\i (00:08:37) mouse_pos 80.465 17.587
+\i (00:08:37) mouse_pos 81.313 17.340
+\i (00:08:37) mouse_pos 81.860 17.163
+\i (00:08:38) pick grid 84.861 16.440
+\t (00:08:38) last pick:  84.900 16.400
+\t (00:08:38) No DRC errors detected.
+\i (00:08:39) roam start
+\i (00:08:39) roam y 80
+\i (00:08:39) roam y 16
+\i (00:08:39) roam y 16
+\i (00:08:39) roam y 32
+\i (00:08:39) roam y 32
+\i (00:08:39) roam end
+\i (00:08:39) mouse_pos 86.062 9.625
+\i (00:08:39) mouse_pos 86.203 9.307
+\i (00:08:40) mouse_pos 86.291 7.242
+\i (00:08:41) pick grid 86.521 7.136
+\t (00:08:41) last pick:  86.500 7.100
+\t (00:08:41) No DRC errors detected.
+\t (00:08:41) Pick first element.
+\i (00:08:42) roam start
+\i (00:08:42) roam y -16
+\i (00:08:42) roam y -32
+\i (00:08:42) roam y -32
+\i (00:08:42) roam y -32
+\i (00:08:42) roam x -16
+\i (00:08:42) roam y -48
+\i (00:08:42) roam y -16
+\i (00:08:42) roam x -16
+\i (00:08:42) roam y -32
+\i (00:08:42) roam end
+\i (00:08:44) zoom out 1 
+\i (00:08:44) setwindow pcb
+\i (00:08:44) zoom out 84.985 12.679
+\i (00:08:44) trapsize 177
+\i (00:08:44) roam start
+\i (00:08:44) roam x -16
+\i (00:08:44) roam x -208
+\i (00:08:44) roam y -16
+\i (00:08:44) roam x -80
+\i (00:08:44) roam y -16
+\i (00:08:44) roam x -16
+\i (00:08:45) roam x -16
+\i (00:08:45) roam y -16
+\i (00:08:45) roam end
+\i (00:08:45) roam start
+\i (00:08:45) roam x -64
+\i (00:08:45) roam x -16
+\i (00:08:45) roam x -32
+\i (00:08:45) roam x -32
+\i (00:08:45) roam x -48
+\i (00:08:45) roam x -16
+\i (00:08:46) roam x -16
+\i (00:08:46) roam x -112
+\i (00:08:46) roam end
+\i (00:08:46) roam start
+\i (00:08:46) roam x 32
+\i (00:08:46) roam x 64
+\i (00:08:46) roam y -16
+\i (00:08:46) roam x 64
+\i (00:08:46) roam y -16
+\i (00:08:46) roam x 64
+\i (00:08:46) roam y -32
+\i (00:08:46) roam end
+\i (00:08:48) slide 
+\t (00:08:48) Pick element to slide.
+\i (00:08:48) zoom in 1 
+\i (00:08:48) setwindow pcb
+\i (00:08:48) zoom in 82.549 21.100
+\i (00:08:48) trapsize 88
+\i (00:08:49) pick grid 82.002 20.147
+\t (00:08:49) last pick:  82.000 20.100
+\t (00:08:49) last pick:  82.002 20.200
+\t (00:08:49) Waiting for the destination pick.
+\i (00:08:50) pick grid 81.931 20.465
+\t (00:08:50) last pick:  81.900 20.500
+\t (00:08:50) No DRC errors detected.
+\t (00:08:50) Pick another element to slide.
+\i (00:08:52) pick grid 82.319 22.177
+\t (00:08:52) last pick:  82.300 22.200
+\t (00:08:52) last pick:  82.319 22.200
+\t (00:08:52) Waiting for the destination pick.
+\i (00:08:53) pick grid 82.408 22.142
+\t (00:08:53) last pick:  82.400 22.100
+\t (00:08:53) No DRC errors detected.
+\t (00:08:53) Pick another element to slide.
+\i (00:08:54) drag_start grid 82.249 24.561
+\i (00:08:54) drag_stop 82.284 22.972
+\t (00:08:54) Waiting for origin pick.
+\i (00:08:54) pick grid 82.284 22.972
+\t (00:08:54) last pick:  82.300 23.000
+\t (00:08:54) Waiting for the destination pick.
+\i (00:08:56) pick grid 82.584 22.601
+\t (00:08:56) last pick:  82.600 22.600
+\t (00:08:56) No DRC errors detected.
+\t (00:08:56) Pick another element to slide.
+\i (00:08:57) pick grid 81.966 19.564
+\t (00:08:57) last pick:  82.000 19.600
+\t (00:08:57) last pick:  81.966 19.500
+\t (00:08:57) Waiting for the destination pick.
+\i (00:09:01) pick grid 82.266 19.653
+\t (00:09:01) last pick:  82.300 19.700
+\t (00:09:01) No DRC errors detected.
+\t (00:09:01) Pick another element to slide.
+\i (00:09:02) pick grid 82.284 18.470
+\t (00:09:02) last pick:  82.300 18.500
+\t (00:09:02) last pick:  82.284 18.600
+\t (00:09:02) Waiting for the destination pick.
+\i (00:09:04) pick grid 82.284 18.946
+\t (00:09:04) last pick:  82.300 18.900
+\t (00:09:04) No DRC errors detected.
+\t (00:09:04) Pick another element to slide.
+\i (00:09:04) pick grid 82.655 17.569
+\t (00:09:04) last pick:  82.700 17.600
+\t (00:09:04) last pick:  82.655 17.600
+\t (00:09:04) Waiting for the destination pick.
+\i (00:09:06) pick grid 82.443 18.134
+\t (00:09:06) last pick:  82.400 18.100
+\t (00:09:06) No DRC errors detected.
+\t (00:09:06) Pick another element to slide.
+\i (00:09:06) zoom out 1 
+\i (00:09:06) setwindow pcb
+\i (00:09:06) zoom out 83.820 17.728
+\i (00:09:06) trapsize 177
+\i (00:09:06) zoom out 1 
+\i (00:09:06) setwindow pcb
+\i (00:09:06) zoom out 83.820 17.658
+\i (00:09:06) trapsize 353
+\i (00:09:09) zoom in 1 
+\i (00:09:09) setwindow pcb
+\i (00:09:09) zoom in 88.975 15.680
+\i (00:09:09) trapsize 177
+\i (00:09:09) zoom out 1 
+\i (00:09:09) setwindow pcb
+\i (00:09:09) zoom out 88.764 14.974
+\i (00:09:09) trapsize 353
+\i (00:09:09) zoom out 1 
+\i (00:09:09) setwindow pcb
+\i (00:09:09) zoom out 86.504 15.256
+\i (00:09:09) trapsize 706
+\i (00:09:10) zoom in 1 
+\i (00:09:10) setwindow pcb
+\i (00:09:10) zoom in 22.663 22.318
+\i (00:09:10) trapsize 353
+\i (00:09:10) zoom in 1 
+\i (00:09:10) setwindow pcb
+\i (00:09:10) zoom in 24.712 20.764
+\i (00:09:10) trapsize 177
+\i (00:09:13) pick grid 31.844 19.635
+\t (00:09:13) last pick:  31.800 19.600
+\t (00:09:13) last pick:  31.844 19.800
+\t (00:09:13) Waiting for the destination pick.
+\i (00:09:17) pick grid 33.786 18.258
+\t (00:09:17) last pick:  33.800 18.300
+\t (00:09:17) No DRC errors detected.
+\t (00:09:17) Pick another element to slide.
+\i (00:09:18) pick grid 33.857 20.765
+\t (00:09:18) last pick:  33.900 20.800
+\t (00:09:18) last pick:  33.857 20.800
+\t (00:09:18) Waiting for the destination pick.
+\i (00:09:19) pick grid 35.164 19.070
+\t (00:09:19) last pick:  35.200 19.100
+\t (00:09:19) No DRC errors detected.
+\t (00:09:19) Pick another element to slide.
+\i (00:09:20) pick grid 34.810 21.542
+\t (00:09:20) last pick:  34.800 21.500
+\t (00:09:20) last pick:  34.810 21.700
+\t (00:09:20) Waiting for the destination pick.
+\i (00:09:21) pick grid 36.046 19.847
+\t (00:09:21) last pick:  36.000 19.800
+\t (00:09:21) No DRC errors detected.
+\t (00:09:21) Pick another element to slide.
+\i (00:09:22) zoom out 1 
+\i (00:09:22) setwindow pcb
+\i (00:09:22) zoom out 37.141 18.823
+\i (00:09:22) trapsize 353
+\i (00:09:22) zoom out 1 
+\i (00:09:22) setwindow pcb
+\i (00:09:22) zoom out 36.858 19.034
+\i (00:09:22) trapsize 706
+\i (00:09:23) roam start
+\i (00:09:23) roam x 16
+\i (00:09:23) roam x 16
+\i (00:09:23) roam x 176
+\i (00:09:23) roam x 16
+\i (00:09:23) roam x 32
+\i (00:09:23) roam x 64
+\i (00:09:23) roam y 16
+\i (00:09:23) roam x 32
+\i (00:09:24) roam x 48
+\i (00:09:24) roam end
+\i (00:09:24) zoom in 1 
+\i (00:09:24) setwindow pcb
+\i (00:09:24) zoom in 135.055 21.206
+\i (00:09:24) trapsize 353
+\i (00:09:25) zoom in 1 
+\i (00:09:25) setwindow pcb
+\i (00:09:25) zoom in 111.469 19.158
+\i (00:09:25) trapsize 177
+\i (00:09:25) zoom in 1 
+\i (00:09:25) setwindow pcb
+\i (00:09:25) zoom in 111.469 19.159
+\i (00:09:25) trapsize 88
+\i (00:09:26) pick grid 111.716 19.654
+\t (00:09:26) last pick:  111.700 19.700
+\t (00:09:26) last pick:  111.716 19.700
+\t (00:09:26) Waiting for the destination pick.
+\i (00:09:27) pick grid 112.069 20.166
+\t (00:09:27) last pick:  112.100 20.200
+\t (00:09:27) No DRC errors detected.
+\t (00:09:27) Pick another element to slide.
+\i (00:09:27) zoom out 1 
+\i (00:09:27) setwindow pcb
+\i (00:09:27) zoom out 111.946 19.760
+\i (00:09:27) trapsize 177
+\i (00:09:27) zoom out 1 
+\i (00:09:27) setwindow pcb
+\i (00:09:27) zoom out 111.875 19.724
+\i (00:09:27) trapsize 353
+\i (00:09:29) zoom in 1 
+\i (00:09:29) setwindow pcb
+\i (00:09:29) zoom in 104.318 24.102
+\i (00:09:29) trapsize 177
+\i (00:09:30) zoom out 1 
+\i (00:09:30) setwindow pcb
+\i (00:09:30) zoom out 105.943 22.690
+\i (00:09:30) trapsize 353
+\i (00:09:34) roam start
+\i (00:09:34) roam x -16
+\i (00:09:34) roam x -112
+\i (00:09:34) roam y 160
+\i (00:09:34) roam x -16
+\i (00:09:34) roam y 32
+\i (00:09:34) roam x -96
+\i (00:09:34) roam y 144
+\i (00:09:34) roam x -16
+\i (00:09:34) roam y 16
+\i (00:09:34) roam x -16
+\i (00:09:34) roam y 16
+\i (00:09:34) roam end
+\i (00:09:35) prepopup 115.776 17.817
+\i (00:09:36) done 
+\i (00:09:36) generaledit 
+\i (00:09:38) QtSignal CVPLayerGrid CVPBoxAllL6_Sig clicked false
+\i (00:09:38) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:09:40) zoom in 1 
+\i (00:09:40) setwindow pcb
+\i (00:09:40) zoom in 86.539 21.348
+\i (00:09:40) trapsize 177
+\i (00:09:40) zoom in 1 
+\i (00:09:40) setwindow pcb
+\i (00:09:40) zoom in 83.008 23.643
+\i (00:09:40) trapsize 88
+\i (00:09:42) slide 
+\t (00:09:42) Pick element to slide.
+\i (00:09:44) pick grid 81.631 23.060
+\t (00:09:44) last pick:  81.600 23.100
+\t (00:09:44) last pick:  81.631 23.100
+\t (00:09:44) Waiting for the destination pick.
+\i (00:09:44) pick grid 81.755 23.025
+\t (00:09:44) last pick:  81.800 23.000
+\t (00:09:44) No DRC errors detected.
+\t (00:09:45) Pick another element to slide.
+\i (00:09:45) zoom out 1 
+\i (00:09:45) setwindow pcb
+\i (00:09:45) zoom out 88.358 20.430
+\i (00:09:45) trapsize 177
+\i (00:09:46) zoom out 1 
+\i (00:09:46) setwindow pcb
+\i (00:09:46) zoom out 89.876 23.643
+\i (00:09:46) trapsize 353
+\i (00:09:47) zoom in 1 
+\i (00:09:47) setwindow pcb
+\i (00:09:47) zoom in 69.326 14.957
+\i (00:09:47) trapsize 177
+\i (00:09:48) zoom in 1 
+\i (00:09:48) setwindow pcb
+\i (00:09:48) zoom in 70.209 14.816
+\i (00:09:48) trapsize 88
+\i (00:09:50) pick grid 70.827 14.746
+\t (00:09:50) last pick:  70.800 14.700
+\t (00:09:50) last pick:  70.827 14.810
+\t (00:09:50) Waiting for the destination pick.
+\i (00:09:51) pick grid 70.809 16.052
+\t (00:09:52) last pick:  70.800 16.100
+\t (00:09:52) No DRC errors detected.
+\t (00:09:52) Pick another element to slide.
+\i (00:09:54) pick grid 78.930 15.046
+\t (00:09:54) last pick:  78.900 15.000
+\t (00:09:54) last pick:  79.036 15.153
+\t (00:09:54) Waiting for the destination pick.
+\i (00:09:56) pick grid 80.537 16.035
+\t (00:09:56) last pick:  80.500 16.000
+\t (00:09:56) No DRC errors detected.
+\t (00:09:56) Pick another element to slide.
+\i (00:09:57) zoom out 1 
+\i (00:09:57) setwindow pcb
+\i (00:09:57) zoom out 74.870 15.664
+\i (00:09:57) trapsize 177
+\i (00:09:58) zoom in 1 
+\i (00:09:58) setwindow pcb
+\i (00:09:58) zoom in 74.022 16.511
+\i (00:09:58) trapsize 88
+\i (00:09:58) pick grid 74.622 16.158
+\t (00:09:58) last pick:  74.600 16.200
+\t (00:09:58) last pick:  74.622 16.100
+\t (00:09:58) Waiting for the destination pick.
+\i (00:09:59) pick grid 74.640 16.158
+\t (00:09:59) last pick:  74.600 16.200
+\t (00:09:59) No DRC errors detected.
+\t (00:09:59) Pick another element to slide.
+\i (00:10:00) zoom out 1 
+\i (00:10:00) setwindow pcb
+\i (00:10:00) zoom out 74.746 16.229
+\i (00:10:00) trapsize 177
+\i (00:10:00) zoom out 1 
+\i (00:10:00) setwindow pcb
+\i (00:10:00) zoom out 74.746 16.194
+\i (00:10:00) trapsize 353
+\i (00:10:01) zoom in 1 
+\i (00:10:01) setwindow pcb
+\i (00:10:01) zoom in 53.842 18.524
+\i (00:10:01) trapsize 177
+\i (00:10:01) zoom in 1 
+\i (00:10:01) setwindow pcb
+\i (00:10:01) zoom in 54.513 18.630
+\i (00:10:01) trapsize 88
+\i (00:10:01) zoom in 1 
+\i (00:10:01) setwindow pcb
+\i (00:10:01) zoom in 54.955 18.400
+\i (00:10:01) trapsize 44
+\i (00:10:02) drag_start grid 55.812 15.717
+\i (00:10:02) drag_stop 55.679 17.995
+\t (00:10:02) Waiting for origin pick.
+\i (00:10:03) pick grid 55.688 17.995
+\t (00:10:03) last pick:  55.700 18.000
+\t (00:10:03) Waiting for the destination pick.
+\i (00:10:05) pick grid 55.838 18.056
+\t (00:10:05) last pick:  55.800 18.100
+\t (00:10:05) No DRC errors detected.
+\t (00:10:05) Pick another element to slide.
+\i (00:10:06) zoom out 1 
+\i (00:10:06) setwindow pcb
+\i (00:10:06) zoom out 56.527 17.138
+\i (00:10:06) trapsize 88
+\i (00:10:06) zoom out 1 
+\i (00:10:06) setwindow pcb
+\i (00:10:06) zoom out 56.527 17.139
+\i (00:10:06) trapsize 177
+\i (00:10:07) zoom out 1 
+\i (00:10:07) setwindow pcb
+\i (00:10:07) zoom out 43.779 13.678
+\i (00:10:07) trapsize 353
+\i (00:10:08) roam start
+\i (00:10:08) roam x 16
+\i (00:10:08) roam x 32
+\i (00:10:08) roam x 48
+\i (00:10:08) roam y 16
+\i (00:10:08) roam x 32
+\i (00:10:08) roam x 32
+\i (00:10:08) roam x 16
+\i (00:10:08) roam y 16
+\i (00:10:08) roam x 16
+\i (00:10:08) roam end
+\i (00:10:10) zoom in 1 
+\i (00:10:10) setwindow pcb
+\i (00:10:10) zoom in 74.251 6.164
+\i (00:10:10) trapsize 177
+\i (00:10:10) zoom in 1 
+\i (00:10:10) setwindow pcb
+\i (00:10:10) zoom in 74.252 6.447
+\i (00:10:10) trapsize 88
+\i (00:10:11) zoom in 1 
+\i (00:10:11) setwindow pcb
+\i (00:10:11) zoom in 74.288 6.500
+\i (00:10:11) trapsize 44
+\i (00:10:12) pick grid 74.430 6.535
+\t (00:10:12) last pick:  74.400 6.500
+\t (00:10:12) last pick:  74.430 6.600
+\t (00:10:12) Waiting for the destination pick.
+\i (00:10:13) pick grid 74.986 7.559
+\t (00:10:13) last pick:  75.000 7.600
+\t (00:10:13) DRC errors detected.
+\t (00:10:13) Pick another element to slide.
+\i (00:10:14) pick grid 74.933 7.577
+\t (00:10:14) last pick:  74.900 7.600
+\t (00:10:14) last pick:  74.933 7.600
+\t (00:10:14) Waiting for the destination pick.
+\i (00:10:15) pick grid 74.933 7.242
+\t (00:10:15) last pick:  74.900 7.200
+\t (00:10:15) No DRC errors detected.
+\t (00:10:15) Pick another element to slide.
+\i (00:10:15) pick grid 74.853 5.971
+\t (00:10:15) last pick:  74.900 6.000
+\t (00:10:15) last pick:  74.853 5.900
+\t (00:10:15) Waiting for the destination pick.
+\i (00:10:17) pick grid 75.136 6.650
+\t (00:10:17) last pick:  75.100 6.700
+\t (00:10:17) No DRC errors detected.
+\t (00:10:17) Pick another element to slide.
+\i (00:10:17) pick grid 77.493 6.924
+\t (00:10:17) last pick:  77.500 6.900
+\t (00:10:17) last pick:  77.458 6.958
+\t (00:10:17) Waiting for the destination pick.
+\i (00:10:18) pick grid 78.058 6.889
+\t (00:10:18) last pick:  78.100 6.900
+\t (00:10:18) No DRC errors detected.
+\t (00:10:18) Pick another element to slide.
+\i (00:10:19) pick grid 70.766 7.577
+\t (00:10:19) last pick:  70.800 7.600
+\t (00:10:19) last pick:  70.794 7.606
+\t (00:10:19) Waiting for the destination pick.
+\i (00:10:20) pick grid 71.057 7.595
+\t (00:10:20) last pick:  71.100 7.600
+\t (00:10:20) No DRC errors detected.
+\t (00:10:20) Pick another element to slide.
+\i (00:10:21) zoom out 1 
+\i (00:10:21) setwindow pcb
+\i (00:10:21) zoom out 73.150 6.156
+\i (00:10:21) trapsize 88
+\i (00:10:21) zoom out 1 
+\i (00:10:21) setwindow pcb
+\i (00:10:21) zoom out 73.167 6.138
+\i (00:10:21) trapsize 177
+\i (00:10:22) zoom in 1 
+\i (00:10:22) setwindow pcb
+\i (00:10:22) zoom in 63.280 7.586
+\i (00:10:22) trapsize 88
+\i (00:10:22) zoom in 1 
+\i (00:10:22) setwindow pcb
+\i (00:10:22) zoom in 63.280 7.604
+\i (00:10:22) trapsize 44
+\i (00:10:23) pick grid 63.307 7.401
+\t (00:10:23) last pick:  63.300 7.400
+\t (00:10:23) last pick:  63.307 7.400
+\t (00:10:23) Waiting for the destination pick.
+\i (00:10:24) pick grid 63.395 7.657
+\t (00:10:24) last pick:  63.400 7.700
+\t (00:10:24) No DRC errors detected.
+\t (00:10:24) Pick another element to slide.
+\i (00:10:24) zoom out 1 
+\i (00:10:24) setwindow pcb
+\i (00:10:24) zoom out 65.523 7.348
+\i (00:10:24) trapsize 88
+\i (00:10:25) roam start
+\i (00:10:25) roam x -32
+\i (00:10:25) roam x -32
+\i (00:10:25) roam x -176
+\i (00:10:25) roam x -32
+\i (00:10:25) roam x -192
+\i (00:10:25) roam x -16
+\i (00:10:25) roam end
+\i (00:10:26) zoom out 1 
+\i (00:10:26) setwindow pcb
+\i (00:10:26) zoom out 58.397 7.224
+\i (00:10:26) trapsize 177
+\i (00:10:26) zoom out 1 
+\i (00:10:26) setwindow pcb
+\i (00:10:26) zoom out 58.574 7.153
+\i (00:10:26) trapsize 353
+\i (00:10:28) roam start
+\i (00:10:28) roam x 112
+\i (00:10:28) roam y 16
+\i (00:10:28) roam x 16
+\i (00:10:28) roam x 112
+\i (00:10:28) roam y 16
+\i (00:10:28) roam x 32
+\i (00:10:28) roam x 48
+\i (00:10:28) roam end
+\i (00:10:31) roam start
+\i (00:10:31) roam x 16
+\i (00:10:31) roam x 16
+\i (00:10:31) roam x 16
+\i (00:10:31) roam x 16
+\i (00:10:31) roam x 16
+\i (00:10:31) roam x 16
+\i (00:10:31) roam x 16
+\i (00:10:31) roam x 80
+\i (00:10:31) roam y 16
+\i (00:10:31) roam x 16
+\i (00:10:32) roam end
+\i (00:10:34) zoom out 1 
+\i (00:10:34) setwindow pcb
+\i (00:10:34) zoom out 117.895 3.905
+\i (00:10:34) trapsize 706
+\i (00:10:35) roam start
+\i (00:10:35) roam x -16
+\i (00:10:35) roam x -16
+\i (00:10:35) roam x -32
+\i (00:10:35) roam x -128
+\i (00:10:35) roam x -16
+\i (00:10:35) roam x -16
+\i (00:10:35) roam x -80
+\i (00:10:35) roam x -16
+\i (00:10:35) roam end
+\i (00:10:35) roam start
+\i (00:10:35) roam x 16
+\i (00:10:36) roam x 48
+\i (00:10:36) roam x 48
+\i (00:10:36) roam y -16
+\i (00:10:36) roam x 16
+\i (00:10:36) roam x 96
+\i (00:10:36) roam x 32
+\i (00:10:36) roam end
+\i (00:10:37) roam start
+\i (00:10:37) roam x 16
+\i (00:10:37) roam x 32
+\i (00:10:37) roam x 192
+\i (00:10:37) roam end
+\i (00:10:39) zoom in 1 
+\i (00:10:39) setwindow pcb
+\i (00:10:39) zoom in 104.829 42.817
+\i (00:10:39) trapsize 353
+\i (00:10:41) zoom in 1 
+\i (00:10:41) setwindow pcb
+\i (00:10:41) zoom in 88.163 42.959
+\i (00:10:41) trapsize 177
+\i (00:10:44) zoom out 1 
+\i (00:10:44) setwindow pcb
+\i (00:10:44) zoom out 88.305 43.171
+\i (00:10:44) trapsize 353
+\i (00:10:46) zoom in 1 
+\i (00:10:46) setwindow pcb
+\i (00:10:46) zoom in 83.503 42.394
+\i (00:10:46) trapsize 177
+\i (00:10:49) pick grid 96.532 43.666
+\t (00:10:49) last pick:  96.500 43.700
+\t (00:10:49) last pick:  96.532 43.700
+\t (00:10:49) Waiting for the destination pick.
+\i (00:10:50) prepopup 98.086 43.595
+\i (00:10:51) oops 
+\t (00:10:51) last pick:  63.400 7.700
+\t (00:10:51) Pick element to slide.
+\i (00:10:53) pick grid 87.917 43.348
+\t (00:10:53) last pick:  87.900 43.300
+\t (00:10:53) last pick:  87.917 43.300
+\t (00:10:53) Waiting for the destination pick.
+\i (00:10:55) pick grid 88.199 43.560
+\t (00:10:55) last pick:  88.200 43.600
+\t (00:10:55) No DRC errors detected.
+\t (00:10:55) Pick another element to slide.
+\i (00:10:55) roam start
+\i (00:10:55) roam x -80
+\i (00:10:55) roam x -112
+\i (00:10:55) roam x -32
+\i (00:10:55) roam x -144
+\i (00:10:55) roam y 16
+\i (00:10:55) roam x -112
+\i (00:10:55) roam x -256
+\i (00:10:55) roam y 16
+\i (00:10:55) roam x -112
+\i (00:10:55) roam y 16
+\i (00:10:56) roam x -16
+\i (00:10:56) roam end
+\i (00:10:57) roam start
+\i (00:10:57) roam x -16
+\i (00:10:57) roam x -16
+\i (00:10:57) roam x -16
+\i (00:10:57) roam x -192
+\i (00:10:57) roam x -32
+\i (00:10:57) roam x -240
+\i (00:10:57) roam y 16
+\i (00:10:57) roam x -32
+\i (00:10:57) roam y 16
+\i (00:10:57) roam x -16
+\i (00:10:57) roam x -32
+\i (00:10:57) roam x -80
+\i (00:10:57) roam x -16
+\i (00:10:58) roam end
+\i (00:10:58) zoom out 1 
+\i (00:10:58) setwindow pcb
+\i (00:10:58) zoom out 52.148 39.462
+\i (00:10:58) trapsize 353
+\i (00:10:59) roam start
+\i (00:10:59) roam x 32
+\i (00:10:59) roam x 176
+\i (00:10:59) roam y -16
+\i (00:10:59) roam x 160
+\i (00:10:59) roam y -16
+\i (00:10:59) roam x 16
+\i (00:10:59) roam x 64
+\i (00:10:59) roam x 288
+\i (00:10:59) roam x 64
+\i (00:10:59) roam x 16
+\i (00:10:59) roam x 48
+\i (00:10:59) roam x 16
+\i (00:11:00) roam x 48
+\i (00:11:00) roam x 16
+\i (00:11:00) roam x 16
+\i (00:11:00) roam x 16
+\i (00:11:00) roam y 16
+\i (00:11:00) roam x 16
+\i (00:11:00) roam x 16
+\i (00:11:00) roam y 16
+\i (00:11:00) roam x 16
+\i (00:11:00) roam y 32
+\i (00:11:00) roam x 16
+\i (00:11:00) roam x 16
+\i (00:11:00) roam x 48
+\i (00:11:00) roam y 16
+\i (00:11:00) roam x 112
+\i (00:11:00) roam y 32
+\i (00:11:00) roam end
+\i (00:11:01) zoom out 1 
+\i (00:11:01) setwindow pcb
+\i (00:11:01) zoom out 132.018 35.683
+\i (00:11:01) trapsize 706
+\i (00:11:01) prepopup 149.249 45.147
+\i (00:11:02) done 
+\i (00:11:02) generaledit 
+\i (00:11:04) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: 01_working_bottom"
+\i (00:11:04) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: 01_working_bottom"
+\i (00:11:07) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: 00_working_top"
+\i (00:11:07) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: 00_working_top"
+\i (00:11:09) roam start
+\i (00:11:09) roam x 32
+\i (00:11:09) roam y -80
+\i (00:11:09) roam y -16
+\i (00:11:09) roam end
+\i (00:11:11) save 
+\i (00:11:12) fillin yes 
+\i (00:11:12) generaledit 
+\i (00:11:16) exit 
+\t (00:11:18)     Journal end - Thu May 16 10:18:37 2024
