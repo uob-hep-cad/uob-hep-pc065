@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 16-May-2024 AT 09:11:15 }
+{ Packager-XL run on 17-May-2024 AT 09:15:35 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065B_FIBV2_TOPLEVEL';
- POST_TIME='16-May-2024 AT 09:11:15';
+ POST_TIME='17-May-2024 AT 09:15:35';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -510,7 +510,7 @@ pcersmdcl2(chips)',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  SIZE='1',
  PHYS_PAGE='9',
- XY='(150,2075)',
+ XY='(-50,3250)',
  ROT='0',
  VER='1',
  PACK_TYPE='0402',
@@ -534,7 +534,151 @@ pcersmdcl2(chips)',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  SIZE='1',
  PHYS_PAGE='9',
- XY='(1000,2075)',
+ XY='(800,3250)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ VALUE='100NF_X7R',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C22 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I115@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i115@cnpassive.~
+capcersmdcl2(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i115@cnpassive.c~
+apcersmdcl2(chips)',
+ PATH='I115',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ PHYS_PAGE='9',
+ XY='(-1050,875)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ VALUE='100NF_X7R',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C23 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I109@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i109@cnpassive.~
+capcersmdcl2(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i109@cnpassive.c~
+apcersmdcl2(chips)',
+ PATH='I109',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ PHYS_PAGE='9',
+ XY='(-200,875)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ VALUE='100NF_X7R',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C24 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I136@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i136@cnpassive.~
+capcersmdcl2(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i136@cnpassive.c~
+apcersmdcl2(chips)',
+ PATH='I136',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ PHYS_PAGE='9',
+ XY='(825,875)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ VALUE='100NF_X7R',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C25 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I130@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i130@cnpassive.~
+capcersmdcl2(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i130@cnpassive.c~
+apcersmdcl2(chips)',
+ PATH='I130',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ PHYS_PAGE='9',
+ XY='(1675,875)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ VALUE='100NF_X7R',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C26 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I157@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i157@cnpassive.~
+capcersmdcl2(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i157@cnpassive.c~
+apcersmdcl2(chips)',
+ PATH='I157',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ PHYS_PAGE='9',
+ XY='(2600,875)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ VALUE='100NF_X7R',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C27 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I151@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i151@cnpassive.~
+capcersmdcl2(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i151@cnpassive.c~
+apcersmdcl2(chips)',
+ PATH='I151',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ PHYS_PAGE='9',
+ XY='(3450,875)',
  ROT='0',
  VER='1',
  PACK_TYPE='0402',
@@ -2407,7 +2551,7 @@ crete.wurth_155060ys73200(chips)',
  PATH='I64',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  PHYS_PAGE='9',
- XY='(2450,2050)',
+ XY='(2250,3225)',
  ROT='0',
  VER='1',
  CDS_LIB='bris_cds_discrete',
@@ -2427,7 +2571,7 @@ crete.wurth_155060ys73200(chips)',
  PATH='I65',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  PHYS_PAGE='9',
- XY='(2450,1825)',
+ XY='(2250,3000)',
  ROT='0',
  VER='1',
  CDS_LIB='bris_cds_discrete',
@@ -2447,7 +2591,7 @@ crete.wurth_155060ys73200(chips)',
  PATH='I66',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  PHYS_PAGE='9',
- XY='(2450,1600)',
+ XY='(2250,2775)',
  ROT='0',
  VER='1',
  CDS_LIB='bris_cds_discrete',
@@ -2467,7 +2611,7 @@ crete.wurth_155060ys73200(chips)',
  PATH='I67',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  PHYS_PAGE='9',
- XY='(2450,1375)',
+ XY='(2250,2550)',
  ROT='0',
  VER='1',
  CDS_LIB='bris_cds_discrete',
@@ -2487,7 +2631,7 @@ crete.wurth_155060ys73200(chips)',
  PATH='I68',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  PHYS_PAGE='9',
- XY='(2450,1150)',
+ XY='(2250,2325)',
  ROT='0',
  VER='1',
  CDS_LIB='bris_cds_discrete',
@@ -2507,7 +2651,7 @@ crete.wurth_155060ys73200(chips)',
  PATH='I69',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  PHYS_PAGE='9',
- XY='(2450,925)',
+ XY='(2250,2100)',
  ROT='0',
  VER='1',
  CDS_LIB='bris_cds_discrete',
@@ -2527,7 +2671,7 @@ crete.wurth_155060ys73200(chips)',
  PATH='I75',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  PHYS_PAGE='9',
- XY='(2450,675)',
+ XY='(2250,1850)',
  ROT='0',
  VER='1',
  CDS_LIB='bris_cds_discrete',
@@ -2547,7 +2691,7 @@ crete.wurth_155060ys73200(chips)',
  PATH='I73',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  PHYS_PAGE='9',
- XY='(2450,450)',
+ XY='(2250,1625)',
  ROT='0',
  VER='1',
  CDS_LIB='bris_cds_discrete',
@@ -2654,7 +2798,64 @@ SECTION_NUMBER 1
  PATH='I85',
  DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
  PHYS_PAGE='9',
- XY='(550,1300)',
+ XY='(350,2475)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='uob_hep_pc065a_lib',
+ CDS_PART_NAME='SN74AXC8T245RHLR',
+ PRIM_FILE='./worklib/sn74axc8t245rhlr/chips/chips.prt';
+
+PART_NAME
+ IC4 'SN74AXC8T245RHLR':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I114@UOB_HEP_PC065A_LIB.SN74AXC8T245RHLR(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i114@uob_hep_pc~
+065a_lib.sn74axc8t245rhlr(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i114@uob_hep_pc0~
+65a_lib.sn74axc8t245rhlr(chips)',
+ PATH='I114',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ PHYS_PAGE='9',
+ XY='(-650,100)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='uob_hep_pc065a_lib',
+ CDS_PART_NAME='SN74AXC8T245RHLR',
+ PRIM_FILE='./worklib/sn74axc8t245rhlr/chips/chips.prt';
+
+PART_NAME
+ IC5 'SN74AXC8T245RHLR':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I135@UOB_HEP_PC065A_LIB.SN74AXC8T245RHLR(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i135@uob_hep_pc~
+065a_lib.sn74axc8t245rhlr(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i135@uob_hep_pc0~
+65a_lib.sn74axc8t245rhlr(chips)',
+ PATH='I135',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ PHYS_PAGE='9',
+ XY='(1225,100)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='uob_hep_pc065a_lib',
+ CDS_PART_NAME='SN74AXC8T245RHLR',
+ PRIM_FILE='./worklib/sn74axc8t245rhlr/chips/chips.prt';
+
+PART_NAME
+ IC6 'SN74AXC8T245RHLR':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I156@UOB_HEP_PC065A_LIB.SN74AXC8T245RHLR(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i156@uob_hep_pc~
+065a_lib.sn74axc8t245rhlr(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i156@uob_hep_pc0~
+65a_lib.sn74axc8t245rhlr(chips)',
+ PATH='I156',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ PHYS_PAGE='9',
+ XY='(3000,100)',
  ROT='0',
  VER='1',
  CDS_LIB='uob_hep_pc065a_lib',
@@ -4864,7 +5065,7 @@ md0603(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(2850,2050)',
+ XY='(2650,3225)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -4875,6 +5076,74 @@ md0603(chips)',
  VALUE='270',
  PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
 DUNE/library/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ R31 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I126@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i126@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i126@cnpassive.r~
+smd0402(chips)',
+ PATH='I126',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='9',
+ XY='(-1400,-450)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='4.7K',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R32 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I127@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i127@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i127@cnpassive.r~
+smd0402(chips)',
+ PATH='I127',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='9',
+ XY='(-1400,-600)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='4.7K',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
 
 PART_NAME
  R33 'RSMD0603_1/16W-270,1%':;
@@ -4898,7 +5167,7 @@ md0603(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(2850,1825)',
+ XY='(2650,3000)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -5796,7 +6065,7 @@ md0603(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(2850,1600)',
+ XY='(2650,2775)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -5830,7 +6099,7 @@ md0603(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(2850,1375)',
+ XY='(2650,2550)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -5864,7 +6133,7 @@ md0603(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(2850,1150)',
+ XY='(2650,2325)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -5898,7 +6167,7 @@ md0603(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(2850,925)',
+ XY='(2650,2100)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -5966,7 +6235,7 @@ md0603(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(2850,675)',
+ XY='(2650,1850)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -6000,7 +6269,7 @@ md0603(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(2850,450)',
+ XY='(2650,1625)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -6068,7 +6337,7 @@ md0402(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(-200,750)',
+ XY='(-400,1925)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -6102,7 +6371,7 @@ md0402(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(-200,600)',
+ XY='(-400,1775)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',
@@ -6136,7 +6405,245 @@ md0402(chips)',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
  PHYS_PAGE='9',
- XY='(-200,450)',
+ XY='(-400,1625)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='4.7K',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R69 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I128@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i128@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i128@cnpassive.r~
+smd0402(chips)',
+ PATH='I128',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='9',
+ XY='(-1400,-750)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='4.7K',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R70 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I147@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i147@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i147@cnpassive.r~
+smd0402(chips)',
+ PATH='I147',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='9',
+ XY='(475,-450)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='4.7K',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R71 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I148@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i148@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i148@cnpassive.r~
+smd0402(chips)',
+ PATH='I148',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='9',
+ XY='(475,-600)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='4.7K',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R72 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I149@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i149@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i149@cnpassive.r~
+smd0402(chips)',
+ PATH='I149',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='9',
+ XY='(475,-750)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='4.7K',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R73 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I168@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i168@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i168@cnpassive.r~
+smd0402(chips)',
+ PATH='I168',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='9',
+ XY='(2250,-450)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='4.7K',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R74 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I169@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i169@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i169@cnpassive.r~
+smd0402(chips)',
+ PATH='I169',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='9',
+ XY='(2250,-600)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='4.7K',
+ PRIM_FILE='//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/~
+DUNE/library/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R75 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13_I170@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page13_i170@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065b_fibv2_toplevel(sch_1):page9_i170@cnpassive.r~
+smd0402(chips)',
+ PATH='I170',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065B_FIBV2_TOPLEVEL(SCH_1):PAGE13',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='9',
+ XY='(2250,-750)',
  ROT='0',
  VER='2',
  PACK_TYPE='1/16W',

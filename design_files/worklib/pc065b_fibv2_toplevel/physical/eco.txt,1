@@ -3,25 +3,805 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
-|                                                    Thu May 16 09:11:27 2024  |
+|                                                    Fri May 17 09:15:45 2024  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C22.1                          
+                                 C23.2                          
+                                 C24.1                          
+                                 C25.2                          
+                                 C26.1                          
+                                 C27.2                          
+                                 IC4.12                         
+                                 IC4.13                         
+                                 IC4.25                         
+                                 IC4.26                         
+                                 IC4.27                         
+                                 IC4.28                         
+                                 IC4.29                         
+                                 IC5.12                         
+                                 IC5.13                         
+                                 IC5.25                         
+                                 IC5.26                         
+                                 IC5.27                         
+                                 IC5.28                         
+                                 IC5.29                         
+                                 IC6.12                         
+                                 IC6.13                         
+                                 IC6.25                         
+                                 IC6.26                         
+                                 IC6.27                         
+                                 IC6.28                         
+                                 IC6.29                         
+                                 R32.1                          
+                                 R69.1                          
+                                 R71.1                          
+                                 R72.1                          
+                                 R74.1                          
+                                 R75.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P2V5         pins ADDED TO this existing net (pins not previously on any net)
+                                 C23.1                          
+                                 C25.1                          
+                                 C26.2                          
+                                 IC4.23                         
+                                 IC4.24                         
+                                 IC5.23                         
+                                 IC5.24                         
+                                 IC6.1                          
+                                 R31.1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R70.1                          
+                                 R73.1                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P3V3         pins ADDED TO this existing net (pins not previously on any net)
+                                 C22.2                          
+                                 C24.2                          
+                                 C27.1                          
+                                 IC4.1                          
+                                 IC5.1                          
+                                 IC6.23                         
+                                 IC6.24                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   SFP_FAULT<0> pins MOVED FROM this net (to net name listed on right)
-                                 J2.K14           96.235  14.615
-                                                                   SFP_FAULT<2>
+                                 J2.E10           91.155   8.265
+                                                              SFP_FAULT_FPGA<0>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC5.3                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   SFP_FAULT<1> pins MOVED FROM this net (to net name listed on right)
-                                 J2.E10           91.155   8.265
-                                                                   SFP_FAULT<0>
+                                 J2.F11           92.425   9.535
+                                                              SFP_FAULT_FPGA<1>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC5.4                          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   SFP_FAULT<2> pins MOVED FROM this net (to net name listed on right)
-                                 J2.F11           92.425   9.535
-                                                                   SFP_FAULT<1>
+                                 J2.E13           94.965   8.265
+                                                              SFP_FAULT_FPGA<2>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC5.5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT<3> pins MOVED FROM this net (to net name listed on right)
+                                 J2.J13           94.965  13.345
+                                                              SFP_FAULT_FPGA<3>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC5.6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT<4> pins MOVED FROM this net (to net name listed on right)
+                                 J2.F14           96.235   9.535
+                                                              SFP_FAULT_FPGA<4>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       3                                        |
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 IC5.7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT<5> pins MOVED FROM this net (to net name listed on right)
+                                 J2.K14           96.235  14.615
+                                                              SFP_FAULT_FPGA<5>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC5.8                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT<6> pins MOVED FROM this net (to net name listed on right)
+                                 J2.J16           98.775  13.345
+                                                              SFP_FAULT_FPGA<6>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC5.9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT<7> pins MOVED FROM this net (to net name listed on right)
+                                 J2.F17          100.045   9.535
+                                                              SFP_FAULT_FPGA<7>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC5.10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT_FPGA<0> pins ADDED TO this new net
+                                 IC5.21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT_FPGA<1> pins ADDED TO this new net
+                                 IC5.20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT_FPGA<2> pins ADDED TO this new net
+                                 IC5.19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT_FPGA<3> pins ADDED TO this new net
+                                 IC5.18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT_FPGA<4> pins ADDED TO this new net
+                                 IC5.17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT_FPGA<5> pins ADDED TO this new net
+                                 IC5.16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT_FPGA<6> pins ADDED TO this new net
+                                 IC5.15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_FAULT_FPGA<7> pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 IC5.14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS<0>   pins MOVED FROM this net (to net name listed on right)
+                                 J2.E9            89.885   8.265
+                                                                SFP_LOS_FPGA<0>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC4.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS<1>   pins MOVED FROM this net (to net name listed on right)
+                                 J2.F10           91.155   9.535
+                                                                SFP_LOS_FPGA<1>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC4.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS<2>   pins MOVED FROM this net (to net name listed on right)
+                                 J2.E12           93.695   8.265
+                                                                SFP_LOS_FPGA<2>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC4.5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS<3>   pins MOVED FROM this net (to net name listed on right)
+                                 J2.J12           93.695  13.345
+                                                                SFP_LOS_FPGA<3>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC4.6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS<4>   pins MOVED FROM this net (to net name listed on right)
+                                 J2.F13           94.965   9.535
+                                                                SFP_LOS_FPGA<4>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC4.7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS<5>   pins MOVED FROM this net (to net name listed on right)
+                                 J2.K13           94.965  14.615
+                                                                SFP_LOS_FPGA<5>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC4.8                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS<6>   pins MOVED FROM this net (to net name listed on right)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.J15           97.505  13.345
+                                                                SFP_LOS_FPGA<6>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC4.9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS<7>   pins MOVED FROM this net (to net name listed on right)
+                                 J2.F16           98.775   9.535
+                                                                SFP_LOS_FPGA<7>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC4.10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS_FPGA<0> pins ADDED TO this new net
+                                 IC4.21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS_FPGA<1> pins ADDED TO this new net
+                                 IC4.20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS_FPGA<2> pins ADDED TO this new net
+                                 IC4.19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS_FPGA<3> pins ADDED TO this new net
+                                 IC4.18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS_FPGA<4> pins ADDED TO this new net
+                                 IC4.17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS_FPGA<5> pins ADDED TO this new net
+                                 IC4.16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS_FPGA<6> pins ADDED TO this new net
+                                 IC4.15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_LOS_FPGA<7> pins ADDED TO this new net
+                                 IC4.14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<0> pins MOVED FROM this net (to net name listed on right)
+                                 J2.F31          117.825   9.535
+                                                         SFP_TX_DISABLE_FPGA<0>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC6.21                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<1> pins MOVED FROM this net (to net name listed on right)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J2.E30          116.555   8.265
+                                                         SFP_TX_DISABLE_FPGA<1>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC6.20                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<2> pins MOVED FROM this net (to net name listed on right)
+                                 J2.K34          121.635  14.615
+                                                         SFP_TX_DISABLE_FPGA<2>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC6.19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<3> pins MOVED FROM this net (to net name listed on right)
+                                 J2.J33          120.365  13.345
+                                                         SFP_TX_DISABLE_FPGA<3>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC6.18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<4> pins MOVED FROM this net (to net name listed on right)
+                                 J2.F32          119.095   9.535
+                                                         SFP_TX_DISABLE_FPGA<4>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC6.17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<5> pins MOVED FROM this net (to net name listed on right)
+                                 J2.E31          117.825   8.265
+                                                         SFP_TX_DISABLE_FPGA<5>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC6.16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<6> pins MOVED FROM this net (to net name listed on right)
+                                 J2.K35          122.905  14.615
+                                                         SFP_TX_DISABLE_FPGA<6>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC6.15                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE<7> pins MOVED FROM this net (to net name listed on right)
+                                 J2.J34          121.635  13.345
+                                                         SFP_TX_DISABLE_FPGA<7>
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 IC6.14                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE_FPGA<0> pins ADDED TO this new net
+                                 IC6.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE_FPGA<1> pins ADDED TO this new net
+                                 IC6.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE_FPGA<2> pins ADDED TO this new net
+                                 IC6.5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE_FPGA<3> pins ADDED TO this new net
+                                 IC6.6                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE_FPGA<4> pins ADDED TO this new net
+                                 IC6.7                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE_FPGA<5> pins ADDED TO this new net
+                                 IC6.8                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE_FPGA<6> pins ADDED TO this new net
+                                 IC6.9                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SFP_TX_DISABLE_FPGA<7> pins ADDED TO this new net
+                                 IC6.10                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_13_RSMD0402_I126_B pins ADDED TO this new net
+                                 IC4.2                          
+                                 R31.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_13_RSMD0402_I127_B pins ADDED TO this new net
+                                 IC4.11                         
+                                 R32.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_13_RSMD0402_I128_B pins ADDED TO this new net
+                                 IC4.22                         
+                                 R69.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_13_RSMD0402_I147_B pins ADDED TO this new net
+                                 IC5.2                          
+                                 R70.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_13_RSMD0402_I148_B pins ADDED TO this new net
+                                 IC5.11                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R71.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_13_RSMD0402_I149_B pins ADDED TO this new net
+                                 IC5.22                         
+                                 R72.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_13_RSMD0402_I168_B pins ADDED TO this new net
+                                 IC6.2                          
+                                 R73.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_13_RSMD0402_I169_B pins ADDED TO this new net
+                                 IC6.11                         
+                                 R74.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_13_RSMD0402_I170_B pins ADDED TO this new net
+                                 IC6.22                         
+                                 R75.2                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C22                 CAPCERSMDCL2_0402-100NF_X7R,16V 
+ C23                 CAPCERSMDCL2_0402-100NF_X7R,16V 
+ C24                 CAPCERSMDCL2_0402-100NF_X7R,16V 
+ C25                 CAPCERSMDCL2_0402-100NF_X7R,16V 
+ C26                 CAPCERSMDCL2_0402-100NF_X7R,16V 
+ C27                 CAPCERSMDCL2_0402-100NF_X7R,16V 
+ IC4                 SN74AXC8T245RHLR      
+ IC5                 SN74AXC8T245RHLR      
+ IC6                 SN74AXC8T245RHLR      
+ R31                 RSMD0402_1/16W-4.7K,1% 
+ R32                 RSMD0402_1/16W-4.7K,1% 
+ R69                 RSMD0402_1/16W-4.7K,1% 
+ R70                 RSMD0402_1/16W-4.7K,1% 
+ R71                 RSMD0402_1/16W-4.7K,1% 
+ R72                 RSMD0402_1/16W-4.7K,1% 
+ R73                 RSMD0402_1/16W-4.7K,1% 
+ R74                 RSMD0402_1/16W-4.7K,1% 
+ R75                 RSMD0402_1/16W-4.7K,1% 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C20.2          129.500  53.800 XY             (-50,3250)
+ C21.2          129.500  55.900 XY             (800,3250)
+ C22.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
+ C22.2                          SIZE           1
+ C22.2                          XY             (-1050,875)
+ C23.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
+ C23.2                          SIZE           1
+ C23.2                          XY             (-200,875)
+ C24.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
+ C24.2                          SIZE           1
+ C24.2                          XY             (825,875)
+ C25.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
+ C25.2                          SIZE           1
+ C25.2                          XY             (1675,875)
+ C26.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
+ C26.2                          SIZE           1
+ C26.2                          XY             (2600,875)
+ C27.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/capcersmdcl2/chips/chips.prt
+ C27.2                          SIZE           1
+ C27.2                          XY             (3450,875)
+ DS1.1           16.450  75.600 XY             (2250,3225)
+ DS2.1           30.700  75.600 XY             (2250,3000)
+ DS3.1           44.950  75.600 XY             (2250,2775)
+ DS4.1           59.200  75.600 XY             (2250,2550)
+ DS5.1           78.100  75.600 XY             (2250,2325)
+ DS6.1           92.350  75.600 XY             (2250,2100)
+ DS7.1          106.600  75.600 XY             (2250,1850)
+ DS8.1          120.850  75.600 XY             (2250,1625)
+ IC3.24         133.100  55.200 XY             (350,2475)
+ IC4.24                         PRIM_FILE      ./worklib/sn74axc8t245rhlr/chips/chips.prt
+ IC4.24                         XY             (-650,100)
+ IC5.24                         PRIM_FILE      ./worklib/sn74axc8t245rhlr/chips/chips.prt
+ IC5.24                         XY             (1225,100)
+ IC6.24                         PRIM_FILE      ./worklib/sn74axc8t245rhlr/chips/chips.prt
+ IC6.24                         XY             (3000,100)
+ R30.2           17.100  73.400 XY             (2650,3225)
+ R31.2                          DIST           FLAT
+ R31.2                          MAX_TEMP       RTMAX
+ R31.2                          NEGTOL         RTOL%
+ R31.2                          POSTOL         RTOL%
+ R31.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R31.2                          SIZE           1
+ R31.2                          SLOPE          RSMAX
+ R31.2                          TC1            RTMPL
+ R31.2                          TC2            RTMPQ
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R31.2                          TOL_ON_OFF     ON
+ R31.2                          XY             (-1400,-450)
+ R32.2                          DIST           FLAT
+ R32.2                          MAX_TEMP       RTMAX
+ R32.2                          NEGTOL         RTOL%
+ R32.2                          POSTOL         RTOL%
+ R32.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R32.2                          SIZE           1
+ R32.2                          SLOPE          RSMAX
+ R32.2                          TC1            RTMPL
+ R32.2                          TC2            RTMPQ
+ R32.2                          TOL_ON_OFF     ON
+ R32.2                          XY             (-1400,-600)
+ R33.2           31.400  73.400 XY             (2650,3000)
+ R58.2           45.600  73.400 XY             (2650,2775)
+ R59.2           59.900  73.400 XY             (2650,2550)
+ R60.2           78.800  73.400 XY             (2650,2325)
+ R61.2           93.000  73.400 XY             (2650,2100)
+ R63.2          107.300  73.400 XY             (2650,1850)
+ R64.2          121.500  73.400 XY             (2650,1625)
+ R66.2          130.500  50.600 XY             (-400,1925)
+ R67.2          137.800  51.600 XY             (-400,1775)
+ R68.2          131.000  60.400 XY             (-400,1625)
+ R69.2                          DIST           FLAT
+ R69.2                          MAX_TEMP       RTMAX
+ R69.2                          NEGTOL         RTOL%
+ R69.2                          POSTOL         RTOL%
+ R69.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R69.2                          SIZE           1
+ R69.2                          SLOPE          RSMAX
+ R69.2                          TC1            RTMPL
+ R69.2                          TC2            RTMPQ
+ R69.2                          TOL_ON_OFF     ON
+ R69.2                          XY             (-1400,-750)
+ R70.2                          DIST           FLAT
+ R70.2                          MAX_TEMP       RTMAX
+ R70.2                          NEGTOL         RTOL%
+ R70.2                          POSTOL         RTOL%
+ R70.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R70.2                          SIZE           1
+ R70.2                          SLOPE          RSMAX
+ R70.2                          TC1            RTMPL
+ R70.2                          TC2            RTMPQ
+ R70.2                          TOL_ON_OFF     ON
+ R70.2                          XY             (475,-450)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R71.2                          DIST           FLAT
+ R71.2                          MAX_TEMP       RTMAX
+ R71.2                          NEGTOL         RTOL%
+ R71.2                          POSTOL         RTOL%
+ R71.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R71.2                          SIZE           1
+ R71.2                          SLOPE          RSMAX
+ R71.2                          TC1            RTMPL
+ R71.2                          TC2            RTMPQ
+ R71.2                          TOL_ON_OFF     ON
+ R71.2                          XY             (475,-600)
+ R72.2                          DIST           FLAT
+ R72.2                          MAX_TEMP       RTMAX
+ R72.2                          NEGTOL         RTOL%
+ R72.2                          POSTOL         RTOL%
+ R72.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R72.2                          SIZE           1
+ R72.2                          SLOPE          RSMAX
+ R72.2                          TC1            RTMPL
+ R72.2                          TC2            RTMPQ
+ R72.2                          TOL_ON_OFF     ON
+ R72.2                          XY             (475,-750)
+ R73.2                          DIST           FLAT
+ R73.2                          MAX_TEMP       RTMAX
+ R73.2                          NEGTOL         RTOL%
+ R73.2                          POSTOL         RTOL%
+ R73.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R73.2                          SIZE           1
+ R73.2                          SLOPE          RSMAX
+ R73.2                          TC1            RTMPL
+ R73.2                          TC2            RTMPQ
+ R73.2                          TOL_ON_OFF     ON
+ R73.2                          XY             (2250,-450)
+ R74.2                          DIST           FLAT
+ R74.2                          MAX_TEMP       RTMAX
+ R74.2                          NEGTOL         RTOL%
+ R74.2                          POSTOL         RTOL%
+ R74.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R74.2                          SIZE           1
+ R74.2                          SLOPE          RSMAX
+ R74.2                          TC1            RTMPL
+ R74.2                          TC2            RTMPQ
+ R74.2                          TOL_ON_OFF     ON
+ R74.2                          XY             (2250,-600)
+ R75.2                          DIST           FLAT
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R75.2                          MAX_TEMP       RTMAX
+ R75.2                          NEGTOL         RTOL%
+ R75.2                          POSTOL         RTOL%
+ R75.2                          PRIM_FILE      //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/library/cnpassive/rsmd0402/chips/chips.prt
+ R75.2                          SIZE           1
+ R75.2                          SLOPE          RSMAX
+ R75.2                          TC1            RTMPL
+ R75.2                          TC2            RTMPQ
+ R75.2                          TOL_ON_OFF     ON
+ R75.2                          XY             (2250,-750)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C22.1                          CDS_PINID      A(0)
+ C22.2                          CDS_PINID      B(0)
+ C23.1                          CDS_PINID      A(0)
+ C23.2                          CDS_PINID      B(0)
+ C24.1                          CDS_PINID      A(0)
+ C24.2                          CDS_PINID      B(0)
+ C25.1                          CDS_PINID      A(0)
+ C25.2                          CDS_PINID      B(0)
+ C26.1                          CDS_PINID      A(0)
+ C26.2                          CDS_PINID      B(0)
+ C27.1                          CDS_PINID      A(0)
+ C27.2                          CDS_PINID      B(0)
+ IC4.1                          CDS_PINID      VCCA
+ IC4.2                          CDS_PINID      DIR1
+ IC4.3                          CDS_PINID      A1
+ IC4.4                          CDS_PINID      A2
+ IC4.5                          CDS_PINID      A3
+ IC4.6                          CDS_PINID      A4
+ IC4.7                          CDS_PINID      A5
+ IC4.8                          CDS_PINID      A6
+ IC4.9                          CDS_PINID      A7
+ IC4.10                         CDS_PINID      A8
+ IC4.11                         CDS_PINID      DIR2
+ IC4.12                         CDS_PINID      GND1
+ IC4.13                         CDS_PINID      GND2
+ IC4.14                         CDS_PINID      B8
+ IC4.15                         CDS_PINID      B7
+ IC4.16                         CDS_PINID      B6
+ IC4.17                         CDS_PINID      B5
+ IC4.18                         CDS_PINID      B4
+ IC4.19                         CDS_PINID      B3
+ IC4.20                         CDS_PINID      B2
+ IC4.21                         CDS_PINID      B1
+ IC4.22                         CDS_PINID      \oe*\
+ IC4.23                         CDS_PINID      VCCB1
+ IC4.24                         CDS_PINID      VCCB2
+ IC4.25                         CDS_PINID      EXPAD(0)
+ IC4.26                         CDS_PINID      EXPAD(1)
+ IC4.27                         CDS_PINID      EXPAD(2)
+ IC4.28                         CDS_PINID      EXPAD(3)
+ IC4.29                         CDS_PINID      EXPAD(4)
+ IC5.1                          CDS_PINID      VCCA
+ IC5.2                          CDS_PINID      DIR1
+ IC5.3                          CDS_PINID      A1
+ IC5.4                          CDS_PINID      A2
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC5.5                          CDS_PINID      A3
+ IC5.6                          CDS_PINID      A4
+ IC5.7                          CDS_PINID      A5
+ IC5.8                          CDS_PINID      A6
+ IC5.9                          CDS_PINID      A7
+ IC5.10                         CDS_PINID      A8
+ IC5.11                         CDS_PINID      DIR2
+ IC5.12                         CDS_PINID      GND1
+ IC5.13                         CDS_PINID      GND2
+ IC5.14                         CDS_PINID      B8
+ IC5.15                         CDS_PINID      B7
+ IC5.16                         CDS_PINID      B6
+ IC5.17                         CDS_PINID      B5
+ IC5.18                         CDS_PINID      B4
+ IC5.19                         CDS_PINID      B3
+ IC5.20                         CDS_PINID      B2
+ IC5.21                         CDS_PINID      B1
+ IC5.22                         CDS_PINID      \oe*\
+ IC5.23                         CDS_PINID      VCCB1
+ IC5.24                         CDS_PINID      VCCB2
+ IC5.25                         CDS_PINID      EXPAD(0)
+ IC5.26                         CDS_PINID      EXPAD(1)
+ IC5.27                         CDS_PINID      EXPAD(2)
+ IC5.28                         CDS_PINID      EXPAD(3)
+ IC5.29                         CDS_PINID      EXPAD(4)
+ IC6.1                          CDS_PINID      VCCA
+ IC6.2                          CDS_PINID      DIR1
+ IC6.3                          CDS_PINID      A1
+ IC6.4                          CDS_PINID      A2
+ IC6.5                          CDS_PINID      A3
+ IC6.6                          CDS_PINID      A4
+ IC6.7                          CDS_PINID      A5
+ IC6.8                          CDS_PINID      A6
+ IC6.9                          CDS_PINID      A7
+ IC6.10                         CDS_PINID      A8
+ IC6.11                         CDS_PINID      DIR2
+ IC6.12                         CDS_PINID      GND1
+ IC6.13                         CDS_PINID      GND2
+ IC6.14                         CDS_PINID      B8
+ IC6.15                         CDS_PINID      B7
+ IC6.16                         CDS_PINID      B6
+ IC6.17                         CDS_PINID      B5
+ IC6.18                         CDS_PINID      B4
+ IC6.19                         CDS_PINID      B3
+ IC6.20                         CDS_PINID      B2
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  16  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC6.21                         CDS_PINID      B1
+ IC6.22                         CDS_PINID      \oe*\
+ IC6.23                         CDS_PINID      VCCB1
+ IC6.24                         CDS_PINID      VCCB2
+ IC6.25                         CDS_PINID      EXPAD(0)
+ IC6.26                         CDS_PINID      EXPAD(1)
+ IC6.27                         CDS_PINID      EXPAD(2)
+ IC6.28                         CDS_PINID      EXPAD(3)
+ IC6.29                         CDS_PINID      EXPAD(4)
+ R31.1                          CDS_PINID      A(0)
+ R31.2                          CDS_PINID      B(0)
+ R32.1                          CDS_PINID      A(0)
+ R32.2                          CDS_PINID      B(0)
+ R69.1                          CDS_PINID      A(0)
+ R69.2                          CDS_PINID      B(0)
+ R70.1                          CDS_PINID      A(0)
+ R70.2                          CDS_PINID      B(0)
+ R71.1                          CDS_PINID      A(0)
+ R71.2                          CDS_PINID      B(0)
+ R72.1                          CDS_PINID      A(0)
+ R72.2                          CDS_PINID      B(0)
+ R73.1                          CDS_PINID      A(0)
+ R73.2                          CDS_PINID      B(0)
+ R74.1                          CDS_PINID      A(0)
+ R74.2                          CDS_PINID      B(0)
+ R75.1                          CDS_PINID      A(0)
+ R75.2                          CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  .../worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_25.brd     |
+|                                                    Fri May 17 09:15:45 2024  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :     141                                        |
+|       Components added      :      18                                        |
+|       Pin property added    :     117                                        |
+|       Slot property added   :     145                                        |
 |                                                                              |
-|   Total ECO changes reported:       3                                        |
+|   Total ECO changes reported:     421                                        |
 |------------------------------------------------------------------------------|
