@@ -1,127 +1,74 @@
 \t (00:00:01) allegro 17.4 S011 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Fri May 31 12:42:21 2024
-\t (00:00:01)         Host=ELWE4 User=hastingsp Pid=33488 CPUs=32
-\t (00:00:01) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product PCB_librarian_expert -mpssession hastingsp_ProjectMgr6046 -mpshost ELWE4
+\t (00:00:01)     Journal start - Mon Jun  3 12:20:26 2024
+\t (00:00:01)         Host=ELWE4 User=hastingsp Pid=21232 CPUs=32
+\t (00:00:01) CmdLine= allegro -proj \\ppfs6.physics.ox.ac.uk\CEG\Central Electronics\Projects\Hastingsp\DUNE\uob-hep-pc065\design_files\pc065c_fibv2_toplevel.cpm -product PCB_librarian_expert -mpssession hastingsp_ProjectMgr20509 -mpshost ELWE4
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-\t (00:00:02) Opening existing design...
-\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_27"
-\d (00:00:02) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_27.brd
-\i (00:00:02) trapsize 468
-\i (00:00:02) trapsize 489
-\i (00:00:02) trapsize 468
-\i (00:00:02) trapsize 344
-\i (00:00:02) trapsize 354
-\i (00:00:02) trapsize 367
-\i (00:00:03) generaledit 
-\i (00:01:00) trapsize 254
-\i (00:01:01) zoom in 1 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) zoom in 43.808 28.552
-\i (00:01:01) trapsize 127
-\i (00:01:01) zoom in 1 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) zoom in 43.834 28.502
-\i (00:01:01) trapsize 64
-\i (00:01:02) roam start
-\i (00:01:02) roam y 16
-\i (00:01:02) roam x -96
-\i (00:01:02) roam y 192
-\i (00:01:02) roam x -160
-\i (00:01:02) roam y 256
-\i (00:01:02) roam x -192
-\i (00:01:02) roam y 288
-\i (00:01:02) roam end
-\i (00:01:03) roam start
-\i (00:01:03) roam x -32
-\i (00:01:03) roam y 64
-\i (00:01:03) roam x -112
-\i (00:01:03) roam y 112
-\i (00:01:03) roam x -160
-\i (00:01:03) roam y 144
-\i (00:01:03) roam end
-\i (00:01:03) zoom out 1 
-\i (00:01:04) setwindow pcb
-\i (00:01:04) zoom out 29.864 16.006
-\i (00:01:04) trapsize 127
-\i (00:01:04) zoom out 1 
-\i (00:01:04) setwindow pcb
-\i (00:01:04) zoom out 29.864 16.006
-\i (00:01:04) trapsize 254
-\i (00:01:04) roam start
-\i (00:01:04) roam x 16
-\i (00:01:04) roam x 400
-\i (00:01:04) roam y 64
-\i (00:01:04) roam x 512
-\i (00:01:04) roam y 80
-\i (00:01:04) roam x 512
-\i (00:01:04) roam y 96
-\i (00:01:05) roam x 528
-\i (00:01:05) roam y 96
-\i (00:01:05) roam x 528
-\i (00:01:05) roam y 80
-\i (00:01:05) roam x 528
-\i (00:01:05) roam y 96
-\i (00:01:05) roam end
-\i (00:01:05) roam start
-\i (00:01:05) roam x -112
-\i (00:01:05) roam y -48
-\i (00:01:05) roam x -208
-\i (00:01:05) roam y -80
-\i (00:01:05) roam x -352
-\i (00:01:05) roam y -160
-\i (00:01:05) roam x -416
-\i (00:01:05) roam y -176
-\i (00:01:05) roam x -432
-\i (00:01:05) roam y -208
-\i (00:01:05) roam end
-\i (00:01:06) zoom in 1 
-\i (00:01:06) setwindow pcb
-\i (00:01:06) zoom in 108.917 24.140
-\i (00:01:06) trapsize 127
-\i (00:01:07) zoom out 1 
-\i (00:01:07) setwindow pcb
-\i (00:01:07) zoom out 114.357 21.598
-\i (00:01:07) trapsize 254
-\i (00:01:08) zoom in 1 
-\i (00:01:08) setwindow pcb
-\i (00:01:08) zoom in 110.646 26.937
-\i (00:01:08) trapsize 127
-\i (00:01:09) zoom in 1 
-\i (00:01:09) setwindow pcb
-\i (00:01:09) zoom in 111.918 26.861
-\i (00:01:09) trapsize 64
-\i (00:01:10) zoom out 1 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) zoom out 111.956 26.874
-\i (00:01:10) trapsize 127
-\i (00:01:11) zoom out 1 
-\i (00:01:11) setwindow pcb
-\i (00:01:11) zoom out 111.956 26.875
-\i (00:01:11) trapsize 254
-\i (00:01:11) zoom out 1 
-\i (00:01:11) setwindow pcb
-\i (00:01:11) zoom out 111.956 26.874
-\i (00:01:11) trapsize 508
-\i (00:01:13) zoom in 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom in 13.432 38.669
-\i (00:01:13) trapsize 254
-\i (00:01:13) zoom in 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom in 13.483 38.771
-\i (00:01:13) trapsize 127
-\i (00:01:13) zoom in 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom in 14.221 38.415
-\i (00:01:13) trapsize 64
-\i (00:01:14) zoom out 1 
-\i (00:01:14) setwindow pcb
-\i (00:01:14) zoom out 16.648 37.233
-\i (00:01:14) trapsize 127
-\i (00:01:14) zoom out 1 
-\i (00:01:14) setwindow pcb
-\i (00:01:14) zoom out 17.055 37.411
-\i (00:01:14) trapsize 254
-\i (00:01:17) exit 
-\t (00:01:20)     Journal end - Fri May 31 12:43:39 2024
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065c_fibv2_toplevel_28"
+\d (00:00:04) Design opened: //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_28.brd
+\i (00:00:04) trapsize 839
+\i (00:00:04) trapsize 863
+\i (00:00:04) trapsize 839
+\i (00:00:04) trapsize 684
+\i (00:00:04) trapsize 697
+\i (00:00:04) trapsize 724
+\i (00:00:05) trapsize 513
+\i (00:00:06) generaledit 
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 20.744 23.955
+\i (00:00:06) trapsize 257
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 20.744 23.955
+\i (00:00:06) trapsize 128
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 22.514 23.237
+\i (00:00:07) trapsize 257
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 22.617 23.237
+\i (00:00:07) trapsize 513
+\i (00:00:27) pick grid -38.952 10.513
+\t (00:00:27) last pick:  -39.000 10.500
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 22.514 25.290
+\i (00:00:28) trapsize 257
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 21.796 24.829
+\i (00:00:28) trapsize 128
+\i (00:00:30) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 22.207 21.469
+\i (00:00:38) trapsize 257
+\i (00:00:55) zoom out 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom out 35.444 22.033
+\i (00:00:55) trapsize 513
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 29.596 6.743
+\i (00:00:57) trapsize 257
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 29.596 6.743
+\i (00:00:57) trapsize 128
+\i (00:00:57) zoom in 1 
+\i (00:00:57) setwindow pcb
+\i (00:00:57) zoom in 29.673 6.692
+\i (00:00:57) trapsize 64
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 29.673 6.680
+\i (00:01:00) trapsize 128
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 29.672 6.680
+\i (00:01:00) trapsize 257
+\i (00:01:03) exit 
+\t (00:01:06)     Journal end - Mon Jun  3 12:21:31 2024
