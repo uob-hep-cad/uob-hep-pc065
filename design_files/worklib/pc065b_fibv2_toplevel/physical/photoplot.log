@@ -2,9 +2,9 @@
 (                                                                     )
 (    ARTWORK LOG                                                      )
 (                                                                     )
-(    Drawing          : pc065c_fibv2_toplevel_19.brd                  )
+(    Drawing          : pc065c_fibv2_toplevel_28smoothed.brd          )
 (    Software Version : 17.4S011                                      )
-(    Date/Time        : Thu Apr  4 13:41:42 2024                      )
+(    Date/Time        : Tue Jun  4 08:24:08 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -28,8 +28,8 @@ Results from parameter file ...
 
 
 ================================================================
-     PROCESSING FILM < L01P >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_L01P.ger > ...
+     PROCESSING FILM < 03_L01P >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_03_L01P.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -79,86 +79,16 @@ Results from parameter file ...
   RECTANGLE  1.80000     x 2.50000      90.000 NO     DARK 
   RECTANGLE  1.90500     x 0.38100       0.000 NO     DARK 
   RECTANGLE  2.00000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  2.05000     x 4.05000      90.000 NO     DARK 
+  OBLONG     0.24000     x 0.60000       0.000 NO     DARK 
+  OBLONG     0.24000     x 0.60000      90.000 NO     DARK 
 
-     art_pc065a_L01P.ger created.
-
-
-================================================================
-     PROCESSING FILM < L02P >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_L02P.ger > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.200
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.000
-  Offset y:                           0.000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.50000                                  DARK 
-  CIRCLE     0.56000                                  DARK 
-  CIRCLE     1.00000                                  DARK 
-  CIRCLE     1.00100                                  DARK 
-  CIRCLE     1.39700                                  DARK 
-  CIRCLE     1.65000                                  DARK 
-  CIRCLE     1.70000                                  DARK 
-  CIRCLE     1.75000                                  DARK 
-  CIRCLE     4.50000                                  DARK 
-
-     art_pc065a_L02P.ger created.
+     art_pc065c_03_L01P created.
 
 
 ================================================================
-     PROCESSING FILM < L03P >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_L03P.ger > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.200
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.000
-  Offset y:                           0.000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.17000                                  DARK 
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.50000                                  DARK 
-  CIRCLE     0.56000                                  DARK 
-  CIRCLE     1.00000                                  DARK 
-  CIRCLE     1.00100                                  DARK 
-  CIRCLE     1.39700                                  DARK 
-  CIRCLE     1.65000                                  DARK 
-  CIRCLE     1.70000                                  DARK 
-  CIRCLE     1.75000                                  DARK 
-  CIRCLE     4.50000                                  DARK 
-
-     art_pc065a_L03P.ger created.
-
-
-================================================================
-     PROCESSING FILM < L04P >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_L04P.ger > ...
+     PROCESSING FILM < 04_L02P >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_04_L02P.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -189,48 +119,12 @@ Results from parameter file ...
   CIRCLE     1.75000                                  DARK 
   CIRCLE     4.50000                                  DARK 
 
-     art_pc065a_L04P.ger created.
+     art_pc065c_04_L02P created.
 
 
 ================================================================
-     PROCESSING FILM < L05P >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_L05P.ger > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.200
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.000
-  Offset y:                           0.000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.50000                                  DARK 
-  CIRCLE     0.56000                                  DARK 
-  CIRCLE     1.00000                                  DARK 
-  CIRCLE     1.00100                                  DARK 
-  CIRCLE     1.39700                                  DARK 
-  CIRCLE     1.65000                                  DARK 
-  CIRCLE     1.70000                                  DARK 
-  CIRCLE     1.75000                                  DARK 
-  CIRCLE     4.50000                                  DARK 
-
-     art_pc065a_L05P.ger created.
-
-
-================================================================
-     PROCESSING FILM < L06P >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_L06P.ger > ...
+     PROCESSING FILM < 05_L03P >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_05_L03P.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -253,6 +147,7 @@ Results from parameter file ...
   CIRCLE     0.15000                                  DARK 
   CIRCLE     0.17000                                  DARK 
   CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
   CIRCLE     0.56000                                  DARK 
   CIRCLE     1.00000                                  DARK 
   CIRCLE     1.00100                                  DARK 
@@ -262,12 +157,12 @@ Results from parameter file ...
   CIRCLE     1.75000                                  DARK 
   CIRCLE     4.50000                                  DARK 
 
-     art_pc065a_L06P.ger created.
+     art_pc065c_05_L03P created.
 
 
 ================================================================
-     PROCESSING FILM < ASSEMBLY_TOP >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_ASSEMBLY_TOP.ger > ...
+     PROCESSING FILM < 06_L04P >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_06_L04P.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -281,39 +176,29 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
-    WARNING: 0 width line found at (-32.090 -69.345)
-           ... using undefined line width of 0.200
-
-    WARNING: Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 0.200
-
-    WARNING: text composed 0 width line found at (-30.185 -54.740)
-           ... using undefined line width of 0.200
-
-    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 0.200
-
 
 
   APERTURES USED:
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.10000                                  DARK 
-  CIRCLE     0.12500                                  DARK 
-  CIRCLE     0.15000                                  DARK 
-  CIRCLE     0.18000                                  DARK 
   CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.20300                                  DARK 
-  CIRCLE     0.25000                                  DARK 
-  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.56000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.00100                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     4.50000                                  DARK 
 
-     art_pc065a_ASSEMBLY_TOP.ger created with warnings
+     art_pc065c_06_L04P created.
 
 
 ================================================================
-     PROCESSING FILM < SMD1 >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_SMD1.ger > ...
+     PROCESSING FILM < 07_L05P >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_07_L05P.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -333,29 +218,61 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.89000                                  DARK 
-  SQUARE     0.60000                     0.000 NO     DARK 
-  RECTANGLE  0.30500     x 0.66000       0.000 NO     DARK 
-  RECTANGLE  0.38100     x 1.90500       0.000 NO     DARK 
-  RECTANGLE  0.71100     x 0.22900       0.000 NO     DARK 
-  RECTANGLE  0.90000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.45000     x 0.45000       0.000 NO     DARK 
-  RECTANGLE  1.45000     x 0.45000      90.000 NO     DARK 
-  RECTANGLE  1.45000     x 1.20000       0.000 NO     DARK 
-  RECTANGLE  1.45000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.60000     x 0.60000      90.000 NO     DARK 
-  RECTANGLE  1.62000     x 2.25000      90.000 NO     DARK 
-  RECTANGLE  1.90500     x 0.38100       0.000 NO     DARK 
-  RECTANGLE  2.00000     x 0.50000      90.000 NO     DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.56000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.00100                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     4.50000                                  DARK 
 
-     art_pc065a_SMD1.ger created.
+     art_pc065c_07_L05P created.
 
 
 ================================================================
-     PROCESSING FILM < OUTLINE >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_OUTLINE.ger > ...
+     PROCESSING FILM < 08_L06P >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_08_L06P.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.200
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.000
+  Offset y:                           0.000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.15000                                  DARK 
+  CIRCLE     0.17000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.56000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.00100                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.65000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     4.50000                                  DARK 
+
+     art_pc065c_08_L06P created.
+
+
+================================================================
+     PROCESSING FILM < 00_OUTLINE >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_00_OUTLINE.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -377,42 +294,12 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.10000                                  DARK 
 
-     art_pc065a_OUTLINE.ger created.
+     art_pc065c_00_OUTLINE created.
 
 
 ================================================================
-     PROCESSING FILM < BOHR >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_BOHR.ger > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.500
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.000
-  Offset y:                           0.000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.15000                                  DARK 
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.25000                                  DARK 
-  CIRCLE     0.50000                                  DARK 
-
-     art_pc065a_BOHR.ger created.
-
-
-================================================================
-     PROCESSING FILM < POS2 >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_POS2.ger > ...
+     PROCESSING FILM < 12_POS2 >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_12_POS2.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -426,6 +313,12 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: 0 width line found at (17.250 75.300)
+           ... using undefined line width of 0.250
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.250
+
 
 
   APERTURES USED:
@@ -433,17 +326,18 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.17000                                  DARK 
   CIRCLE     0.18000                                  DARK 
   CIRCLE     0.20000                                  DARK 
   CIRCLE     0.20300                                  DARK 
   CIRCLE     0.25000                                  DARK 
 
-     art_pc065a_POS2.ger created.
+     art_pc065c_12_POS2 created with warnings
 
 
 ================================================================
-     PROCESSING FILM < POS1 >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_POS1.ger > ...
+     PROCESSING FILM < 01_POS1 >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_01_POS1.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -465,17 +359,18 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.10000                                  DARK 
   CIRCLE     0.15200                                  DARK 
+  CIRCLE     0.17000                                  DARK 
   CIRCLE     0.18000                                  DARK 
   CIRCLE     0.20000                                  DARK 
   CIRCLE     0.20300                                  DARK 
   CIRCLE     0.25000                                  DARK 
 
-     art_pc065a_POS1.ger created.
+     art_pc065c_01_POS1 created.
 
 
 ================================================================
-     PROCESSING FILM < LSM2 >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_LSM2.ger > ...
+     PROCESSING FILM < 11_LSM2 >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_11_LSM2.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -495,6 +390,9 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60200                                  DARK 
+  CIRCLE     0.64000                                  DARK 
   CIRCLE     1.30000                                  DARK 
   CIRCLE     1.55000                                  DARK 
   CIRCLE     1.65000                                  DARK 
@@ -504,11 +402,8 @@ Results from parameter file ...
   CIRCLE     6.50000                                  DARK 
   SQUARE     0.60000                     0.000 NO     DARK 
   SQUARE     0.85000                     0.000 NO     DARK 
-  SQUARE     2.25000                     0.000 NO     DARK 
   RECTANGLE  0.40000     x 0.50000       0.000 NO     DARK 
   RECTANGLE  0.61000     x 0.91400      90.000 NO     DARK 
-  RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
-  RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
   RECTANGLE  1.05000     x 1.00000      90.000 NO     DARK 
   RECTANGLE  1.25000     x 1.15000       0.000 NO     DARK 
   RECTANGLE  1.25000     x 1.15000      90.000 NO     DARK 
@@ -516,14 +411,17 @@ Results from parameter file ...
   RECTANGLE  1.45000     x 1.20000       0.000 NO     DARK 
   RECTANGLE  1.65000     x 1.45000       0.000 NO     DARK 
   RECTANGLE  1.65000     x 1.45000      90.000 NO     DARK 
+  RECTANGLE  2.15200     x 4.15200      90.000 NO     DARK 
   RECTANGLE  2.20000     x 1.05000       0.000 NO     DARK 
+  OBLONG     0.34200     x 0.70200       0.000 NO     DARK 
+  OBLONG     0.34200     x 0.70200      90.000 NO     DARK 
 
-     art_pc065a_LSM2.ger created.
+     art_pc065c_11_LSM2 created.
 
 
 ================================================================
-     PROCESSING FILM < LSM1 >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_LSM1.ger > ...
+     PROCESSING FILM < 02_LSM1 >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_02_LSM1.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -543,6 +441,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.60200                                  DARK 
   CIRCLE     0.64000                                  DARK 
   CIRCLE     1.30000                                  DARK 
   CIRCLE     1.55000                                  DARK 
@@ -565,90 +464,17 @@ Results from parameter file ...
   RECTANGLE  1.85000     x 0.85000      90.000 NO     DARK 
   RECTANGLE  1.95000     x 2.65000      90.000 NO     DARK 
   RECTANGLE  2.00000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  2.15200     x 4.15200      90.000 NO     DARK 
   RECTANGLE  2.15900     x 0.63500       0.000 NO     DARK 
+  OBLONG     0.34200     x 0.70200       0.000 NO     DARK 
+  OBLONG     0.34200     x 0.70200      90.000 NO     DARK 
 
-     art_pc065a_LSM1.ger created.
-
-
-================================================================
-     PROCESSING FILM < ASSEMBLY_BOTTOM >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_ASSEMBLY_BOTTOM.ger > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.200
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.000
-  Offset y:                           0.000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.02500                                  DARK 
-  CIRCLE     0.10000                                  DARK 
-  CIRCLE     0.12500                                  DARK 
-  CIRCLE     0.15000                                  DARK 
-  CIRCLE     0.18000                                  DARK 
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.20300                                  DARK 
-  CIRCLE     0.25000                                  DARK 
-  CIRCLE     0.30000                                  DARK 
-
-     art_pc065a_ASSEMBLY_BOTTOM.ger created.
+     art_pc065c_02_LSM1 created.
 
 
 ================================================================
-     PROCESSING FILM < SMD2 >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_SMD2.ger > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.200
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.000
-  Offset y:                           0.000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  SQUARE     0.50000                     0.000 NO     DARK 
-  SQUARE     0.60000                     0.000 NO     DARK 
-  SQUARE     2.25000                     0.000 NO     DARK 
-  RECTANGLE  0.30000     x 0.40000       0.000 NO     DARK 
-  RECTANGLE  0.35600     x 0.66000      90.000 NO     DARK 
-  RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
-  RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
-  RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
-  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
-  RECTANGLE  1.05000     x 1.00000      90.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.45000     x 0.45000       0.000 NO     DARK 
-  RECTANGLE  1.45000     x 1.20000       0.000 NO     DARK 
-  RECTANGLE  2.20000     x 1.05000       0.000 NO     DARK 
-
-     art_pc065a_SMD2.ger created.
-
-
-================================================================
-     PROCESSING FILM < L08P >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_L08P.ger > ...
+     PROCESSING FILM < 10_L08P >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_10_L08P.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -671,7 +497,6 @@ Results from parameter file ...
   CIRCLE     0.15000                                  DARK 
   CIRCLE     0.17000                                  DARK 
   CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.30000                                  DARK 
   CIRCLE     0.50000                                  DARK 
   CIRCLE     0.56000                                  DARK 
   CIRCLE     1.00000                                  DARK 
@@ -682,11 +507,8 @@ Results from parameter file ...
   CIRCLE     1.75000                                  DARK 
   CIRCLE     4.50000                                  DARK 
   SQUARE     0.60000                     0.000 NO     DARK 
-  SQUARE     2.25000                     0.000 NO     DARK 
   RECTANGLE  0.35600     x 0.66000      90.000 NO     DARK 
   RECTANGLE  0.40000     x 0.50000       0.000 NO     DARK 
-  RECTANGLE  0.80000     x 0.30000       0.000 NO     DARK 
-  RECTANGLE  0.80000     x 0.30000      90.000 NO     DARK 
   RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
   RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
   RECTANGLE  1.05000     x 1.00000      90.000 NO     DARK 
@@ -694,14 +516,17 @@ Results from parameter file ...
   RECTANGLE  1.40000     x 1.20000      90.000 NO     DARK 
   RECTANGLE  1.45000     x 0.45000       0.000 NO     DARK 
   RECTANGLE  1.45000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  2.05000     x 4.05000      90.000 NO     DARK 
   RECTANGLE  2.20000     x 1.05000       0.000 NO     DARK 
+  OBLONG     0.24000     x 0.60000       0.000 NO     DARK 
+  OBLONG     0.24000     x 0.60000      90.000 NO     DARK 
 
-     art_pc065a_L08P.ger created.
+     art_pc065c_10_L08P created.
 
 
 ================================================================
-     PROCESSING FILM < L07P >
-     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065a_L07P.ger > ...
+     PROCESSING FILM < 09_L07P >
+     TO FILE < //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065b_fibv2_toplevel/physical/art_pc065c_09_L07P.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -732,28 +557,23 @@ Results from parameter file ...
   CIRCLE     1.75000                                  DARK 
   CIRCLE     4.50000                                  DARK 
 
-     art_pc065a_L07P.ger created.
+     art_pc065c_09_L07P created.
 
 
 ------------------------------------------------------
  SUMMARY:
-        art_pc065a_L01P.ger created.
-        art_pc065a_L02P.ger created.
-        art_pc065a_L03P.ger created.
-        art_pc065a_L04P.ger created.
-        art_pc065a_L05P.ger created.
-        art_pc065a_L06P.ger created.
-        art_pc065a_ASSEMBLY_TOP.ger created with warnings
-        art_pc065a_SMD1.ger created.
-        art_pc065a_OUTLINE.ger created.
-        art_pc065a_BOHR.ger created.
-        art_pc065a_POS2.ger created.
-        art_pc065a_POS1.ger created.
-        art_pc065a_LSM2.ger created.
-        art_pc065a_LSM1.ger created.
-        art_pc065a_ASSEMBLY_BOTTOM.ger created.
-        art_pc065a_SMD2.ger created.
-        art_pc065a_L08P.ger created.
-        art_pc065a_L07P.ger created.
+        art_pc065c_03_L01P created.
+        art_pc065c_04_L02P created.
+        art_pc065c_05_L03P created.
+        art_pc065c_06_L04P created.
+        art_pc065c_07_L05P created.
+        art_pc065c_08_L06P created.
+        art_pc065c_00_OUTLINE created.
+        art_pc065c_12_POS2 created with warnings
+        art_pc065c_01_POS1 created.
+        art_pc065c_11_LSM2 created.
+        art_pc065c_02_LSM1 created.
+        art_pc065c_10_L08P created.
+        art_pc065c_09_L07P created.
 
  ARTWORK had warnings
