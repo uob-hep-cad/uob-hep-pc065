@@ -1,0 +1,16 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TCA9803'
+CLASS = IC 
+PHYS_DES_PREFIX = IC 
+
+{========================================================================================}
+:'TYPE'         |'PACK_TYPE'            = 'STATUS'       |'PART_NUMBER'    |'MANUFACTURER'         |'DESCRIPTION'                           |'DATASHEET_URL'                                                |'PINCOUNT'    |'SMD'    |'CASE'     |'JEDEC_TYPE'            ;
+{========================================================================================}
+ 'TCA9803DGKR'  |'MSOP' (~TCA9803DGKR)  = 'Preferred'  |'TCA9803DGKR'  |'TEXAS INSTRUMENTS'  |'Level-Translating I2C Bus Repeater'  |'file://cern.ch/dfs/services/cdslib/datasheets/pca9517.pdf'  |'8'         |'YES'  |'MSOP8'  |'SOP65P490X110-8N'    
+
+
+END_PART
+
+END.
+

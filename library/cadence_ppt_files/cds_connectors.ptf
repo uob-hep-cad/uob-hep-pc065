@@ -1,0 +1,654 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1-HOLE'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    = CI         | NO_LIST | PART_DESCRIPTION               ;
+{========================================================================================}
+ '0-4'(!)     = '02040A-1' | 'TRUE'  | '0.4mm Hole'                  
+ '0-8'(!)     = '00152A-1' | 'TRUE'  | '0.8mm Hole'                  
+ '0-9'(!)     = '00152A-2' | 'TRUE'  | '0.9mm Hole'                  
+ '1-0'(!)     = '00152A-3' | 'TRUE'  | '1.0mm Hole'                  
+ '1-1'(!)     = '00152A-4' | 'TRUE'  | '1.1mm Hole'                  
+ '1-2'(!)     = '02275A-1' | 'TRUE'  | '1.2mm Hole'                  
+ '1-4'(!)     = '02613A-1' | 'TRUE'  | '1.4mm Hole'                  
+ '1-5'(!)     = '00152A-6' | 'TRUE'  | '1.5mm Hole'                  
+ '2-0P'(!)    = '00152A-8' | 'TRUE'  | '2.0mm Hole Plated'           
+ '2-0U'(!)    = '00152A-7' | 'TRUE'  | '2.0mm Hole Unplated'         
+ '2-1P'(!)    = '03426A-1' | 'TRUE'  | '2.1mm Hole Plated'           
+ '2-5N'(!)    = '03368A-1' | 'TRUE'  | '2.5mm Hole Non-Plated'       
+ '2-5P'(!)    = '03365A-1' | 'TRUE'  | '2.5mm Hole Plated'           
+ '2-6P'(!)    = '03433A-1' | 'TRUE'  | '2.6mm Hole Plated'           
+ '2-8'(!)     = '00152A-5' | 'TRUE'  | '2.8mm Hole'                  
+ '2-8N'(!)    = '03476A-1' | 'TRUE'  | '2.8mm Hole Non-Plated'       
+ '3-0N'(!)    = '03369A-1' | 'TRUE'  | '3.0mm Hole Non-Plated'       
+ '3-0P'(!)    = '03366A-1' | 'TRUE'  | '3.0mm Hole Plated'           
+ '3-4P'(!)    = '03315A-1' | 'TRUE'  | '3.4mm Hole'                  
+ '5-0P'(!)    = '01905A-1' | 'TRUE'  | '5.0mm Hole'                  
+ '5-3P'(!)    = '01905A-1' | 'TRUE'  | '5.3mm Hole'                  
+ '6-0'(!)     = '01904A-1' | 'TRUE'  | '6.0mm Hole'                  
+ '8-0N'(!)    = '03370A-1' | 'TRUE'  | '8.0mm Hole Non-Plated'       
+ '8-0P'(!)    = '03367A-1' | 'TRUE'  | '8.0mm Hole Plated'           
+ 'FXG2-7'(!)  = '03574A-1' | 'TRUE'  | '2.7mm Fixing Hole'           
+ 'FXG2-7N'(!) = '03576A-1' | 'TRUE'  | '2.7mm Fixing Hole Non-Plated'
+ 'M2-5'(!)    = '02614A-1' | 'TRUE'  | 'M2.5 Hole'                   
+ 'M3'(!)      = '01836A-5' | 'TRUE'  | 'M3 Hole'                     
+ 'M4'(!)      = '03430A-1' | 'TRUE'  | 'M4 Hole'                     
+ 'SMD10000UX5000U_NOP'(!)      = '03430A-6' | 'TRUE'  | 'Surface mount pad 10mm x 5mm'                     
+
+END_PART
+
+PART 'DTYPE-50'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                    | OL_COMMENTS              | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'McMurdo'(!)       = '00'    | 'PCB 50way D-type'             | 'D type connector, socket, PCB mtg' | 'Available from Farnell' | '-'         | '-'        
+ 'PL'         | 'McMurdo'(!)       = '00'    | 'PCB 50way D-type'             | 'D type connector, plug, PCB mtg'   | 'Available from Farnell' | '-'         | '-'        
+
+END_PART
+
+PART 'DTYPE15WIRE'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                   | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'PL'         | 'Multicomp'(!)     = '00'    | '5504F1-15P-02-03-F1'          | '15 way D type connector, plug, PCB mtg, rt-angle' | 'Available from Farnell 1084698' | '-'         | '-'        
+ 'SK'         | 'Multicomp'(!)     = '00'    | '5504F1-15S-01-03-F1'          | '15 way D type connector, plug, PCB mtg, rt-angle' | 'Available from Farnell 1084711' | '-'         | '-'        
+
+END_PART
+
+PART 'DTYPE25WIRE'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'PL'         | 'Multicomp'(!)     = '00'    | '-'                            | '25 way D type connector, plug, PCB mtg, rt-angle'   | 'Available from Farnell '        | '-'         | '-'        
+ 'SK'         | 'Multicomp'(!)     = '00'    | '-'                            | '15 way D type connector, socket, PCB mtg, rt-angle' | 'Available from Farnell '        | '-'         | '-'        
+
+END_PART
+
+PART 'ZPWR'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'PL'         | 'FCI'(!)           = '00'    | '01234'                        | '4x12 2mm pitch pins, Futurebus'                     | '-'                              | '-'         | '-'        
+
+END_PART
+
+PART 'MILLIPACS_4X2PWR'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'PL'         | 'FCI'(!)           = '00'    | '01234'                        | '4x12 2mm pitch pins, Futurebus'                     | '-'                              | '-'         | '-'        
+
+END_PART
+
+PART 'MILLIPACS_4X12'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'PL'         | 'FCI'(!)           = '00'    | '01234'                        | '4x12 2mm pitch pins, Futurebus'                     | '-'                              | '-'         | '-'        
+
+END_PART
+
+PART 'HEADER1X17'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Harwin'(!)        = '00'    | '00'                           | '1x17 header, plug'                                  | '-'                              | '-'         | '-'        
+
+END_PART
+
+PART 'PL-SAMTEC-2X60-QTH'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR-SMT'    | 'Samtec'(!)        = ''      | 'Samtec QTH-060-05-L-D-A'      | '2x60pin SMT Double Row Connector, QTH Series'       | '-'                              | '-'         | '-'        
+
+END_PART
+
+PART 'SK-SAMTEC-2X60-QSH'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR-SMT'    | 'Samtec'(!)        = ''      | 'Samtec QSH-060-01-L-D-A'      | '2x60pin SMT Double Row Connector, QSH Series'       | '-'                              | '-'         | '-'        
+
+END_PART
+
+PART 'SK-SAMTEC-40PIN-MB1'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT-SMT'    | 'Samtec'(!)        = ''      | 'Samtec MB1-140-01-L-S-02-SL'      | '40-pin SMT Mini Card Guide. 1mm pitch pins. MB1 series'       | 'Available Farnell 1753947'                              | '-'         | '-'        
+
+END_PART
+
+PART 'SK_2-54MM_3x20'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI      | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT'    | 'Samtec'(!)        = ''      | 'Samtec SSQ-120-02-G-T-RA'      | '3x20pin through-hole 0.1-inch PCB socket. QSH Series'       | '-'                              | '-'         | '-'        
+
+END_PART
+
+PART 'SK-SMB-PCB'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                      | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'RS components'(!) = '00207A-1' | 'RS 456-330'                   | 'SMB PCB Straight Socket'                            | '-'                              | '-'         | '-'        
+ 'RT-ANG'     | 'Farnell'(!)       = '00573A-1' | 'Farnell 310-694'              | 'SMB PCB Rt-Angle Socket'                            | '-'                              | '-'         | '-'        
+
+END_PART
+
+PART 'SK_1MM_PCB'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Harwin'(!)        = '00208A-1' | 'H3183-05'                     | '1mm burried PCB Socket'                             | 'Farnell 150501 (matching pins Farnell 105354)' | '-'         | '-'        
+
+END_PART
+
+PART 'SK_8P8C_2X4_RJ45'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT'         | 'Tyco'(!)          = '00208A-1' | '5569260-1'                    | '2x2 8p/8c RJ45 shielded sockets'                    | 'RS 615-4349 , Farnell 1162484'                 | '-'         | '-'        
+
+END_PART
+
+PART 'SK-BNC-PCB'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Tyco'(!)          = '00207A-1' | 'Farnell 1020959'              | 'BNC 50-ohm PCB Straight Socket'                     | '-'                                             | '-'         | '-'        
+ 'RT-ANG'     | 'Tyco'(!)          = '00573A-1' | 'Farnell 1020955'              | 'BNC 50-ohm PCB Rt-Angle Socket'                     | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'SK-SMA-PCB-INDEPT-GND'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                     | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS | JEDEC_TYPE    ;
+{========================================================================================}
+ 'STR'        | 'Johnson'(!)       = ''         | 'RS 408-6373'                  | 'SMA PCB Straight Socket'                            | '-'                                             | '-'         | '-'         | 'SK_SMA_PCBS'
+ 'RT-ANG'     | 'Johnson'(!)       = ''         | 'RS 313-6843'                  | 'SMA PCB Rt-Angle Socket'                            | '-'                                             | '-'         | '-'         | 'SK_SMA_PCBR'
+
+END_PART
+
+PART 'SK-SMA-PCBE'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'EDGE'       | 'Johnson'(!)       = ''         | 'RS 363-4690'                  | 'SMA PCB Edge launch socket, tab centre pin, 1.57mm board' | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'SK-SSMB-PCB'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Multicomp'(!)     = ''         | '46-14-TGG '                   | 'SSMB PCB mounting 50-ohm coax socket'                     | 'Farnell 1342645'                               | '-'         | '-'        
+
+END_PART
+
+PART 'SK_VHDM-HSD_10X8'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                            | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT'         | 'Teradyne'(!)      = ''         | ''                             | 'Teradyne VHDM-HSD 10 of 8row-wafers Rows C and F grounded' | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'SAMTEC_QTSE_020'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                            | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'ST'         | 'Samtec'(!)        = ''         | 'qse-020-a'                    | 'SMT 40-way "Samtec" QSE socket'                            | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'SAMTEC_QSH-040-01-X-D-DP-A'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                            | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ ''         | 'Samtec'(!)        = ''         | 'QSH-040-01-X-D-DP-A'                    | 'SMT 40-way differential pair "Samtec" QSH socket'                            | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'MICTOR_38WAY_SKT'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                            | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'ST'         | 'Amp'(!)           = ''         | 'mictor 38way skt'             | '-'                                                         | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'TYCO_ZPACK_HM_ZD'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                            | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'HD'         | 'Amp'(!)           = ''         | 'TYCO ZPACK HM ZD'             | '-'                                                         | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'SOLDER-BRIDGE'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    = CI                 | NO_LIST    | PART_DESCRIPTION               ;
+{========================================================================================}
+ '0603'(!)    = '01792A-1'         | 'TRUE'     | '0603 Solder Bridge'          
+
+END_PART
+
+PART 'HEADER2X4'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                            | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Harwin'(!)        = '00447A-1' | 'Harwin M20-998 04 05'         | 'Harwin Straight 2x4 pin Header'                            | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'HEADER2X2'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                            | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Harwin'(!)        = '-'        | '-'                            | '0.1inch 2x2 header. Cut from larger part'                  | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'PL_VHDM-HSD_10X8'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI         | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Teradyne'(!)      = ''         | ''                             | 'Teradyne VHDM-HSD backplane(plug)10 of 8row-wafers Rows C and F grounded' | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'SK-MDR-14'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | VALUE              | MANUF(OPT='CAT')   = CI                             | PART_NUMBER                                                                | PART_DESCRIPTION                                | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS   ;
+{========================================================================================}
+ 'RT-ANG'     | 'SK-MDR-14'        | '3M'(!)            = '01861A-1'                     | '3M N10214-1210Ve'                                                         | '14way .050 Mini D Ribbon Connector Rt-Angle'   | '-'         | '-'         | '-'          
+
+END_PART
+
+PART 'PL-MET-POWER-4X2ST'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'FCI'(!)           = '02300A-1'         | 'BERG XXXXX-XXX'               | '4x2 Power Header,Press-fit, straight, 2mm pitch'                          | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'PL-MET-4X24ST2-0'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'FCI'(!)           = '02298A-1'         | 'BERG XXXXX-XXX'               | '96way Metral Straight PCB Plug 4x24, 2mm pitch'                           | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'HEADER3X6'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Harwin'(!)        = '-'                | '-'                            | '0.1inch 3X6 header. Cut from larger part'                                 | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'HEADER2X35'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Samtec'(!)        = '-'                | 'TLW-135-05-G-D'               | '0.1inch 2x35 (70 way) header'                                             | 'Fanell 1668517'                                | '-'         | '-'        
+
+END_PART
+
+PART 'SK_HSSDC2'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT'         | 'Tyco'(!)          = '-'                | '-'                            | 'pcb mounting hssdc2 connector for infiniband'                             | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'PL-IDC2MM-14'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Molex'(!)         = '-'                | '-'                            | '2mm hard-metric IDC header'                                               | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'PL-IDC-6'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Harting'(!)       = '-'                | '0918 506 7324 '               | '6 way straight IDC header'                                                | 'Farnell 1096984'                               | '-'         | '-'        
+
+END_PART
+
+PART 'SKT-AMP-050-68'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | VALUE              | MANUF(OPT='CAT')   = CI                             | PART_NUMBER                                                                | PART_DESCRIPTION                                | OL_COMMENTS | KL_COMMENTS | PL_COMMENTS   ;
+{========================================================================================}
+ 'RT-ANG'     | '787190-7'         | 'Amplimite'(!)     = '00304A-1'                     | 'Amplimite 787190-7'                                                       | '68way SCSI-II-type Right Angle Socket'         | '-'         | '-'         | '-'          
+ 'STR'        | '749075-7'         | 'Amplimite'(!)     = '00312A-1'                     | 'Amplimite 749075-7'                                                       | '68way SCSI-II-type Straight Socket'            | '-'         | '-'         | '-'          
+
+END_PART
+
+PART 'PL_MET_POWER_4X2RA'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT-ANG'     | 'Berg'(!)          = '02300A-1'         | 'BERG 85735-102'               | '4x2 Power Header,Press-fit, Rtang, 2mm pitch'                             | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'PL-TERA-VHDM-HSD-50DUMMY'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                           | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Teradyne'(!)      = '03569A-1'         | 'Teradyne C-467-5010-500'      | 'Dummy component, ony has pads. Holes drilled by connector other side'     | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'SK-IDC-64'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'        | 'Harwin'(!)        = '02124A-1'         | 'Harwin  M20F6113205'          | '32x2 0.1-inch pitch PCB mounting socket. Compatible with non-stackthrough PC014' | 'Available from Farnell 359993'                 | '-'         | '-'        
+
+END_PART
+
+PART 'JACK_RJ_8P'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT-ANG'     | 'Harwin'(!)        = ''                 | 'Harwin  '                     | ''                                                                                | 'Available from Farnell'                        | '-'         | '-'        
+
+END_PART
+
+PART 'RA_PCB_CABLE_TERMINAL'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RA'         | 'Amphenol'(!)      = ''                 | 'Amphenol'                     | ''                                                                                | 'Available from Farnell 1111393'                | '-'         | '-'        
+
+END_PART
+
+PART 'FFC50PIN'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT'         | 'Samtec'(!)        = ''                 | 'Samtec'                       | '50 way flex-flat cable connector'                                                | 'Available from ?'                              | '-'         | '-'        
+
+END_PART
+
+PART 'FFC30PIN'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT'         | 'Molex'(!)         = ''                 | 'Molex 52892-3095 '            | '30 way flex-flat cable connector'                                                | 'Available from Farnell 1556810 '               | '-'         | '-'        
+
+END_PART
+
+PART 'FFC10PIN'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT'         | 'Molex'(!)         = ''                 | 'Molex 52893-1095'             | '10 way flex-flat cable connector'                                                | 'Available from Farnell 1556793'                | '-'         | '-'        
+
+END_PART
+
+PART 'FFC9PIN'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT'         | 'FCI'(!)           = ''                 | 'FCI 59453-091110EDLF '        | '9 way flex-flat cable connector, bottom contact'                                 | 'Available from RS 673-4885'                    | '-'         | '-'        
+
+END_PART
+
+PART 'FX2-100S-127DS'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SKT'        | 'Hirose'(!)        = ''                 | 'Hirose fx2-100s-127ds'        | '100 way PCB through-hole recepticle'                                             | 'Available from Digikey'                        | '-'         | '-'        
+
+END_PART
+
+PART 'QSE-060-01-X-D-A'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'QSE-060-01-X-D-A' | 'Samtec'(!)        = ''                 | 'qse-060-01-l-d-a'             | '134 way str smd connector'                                                       | 'Available from ?'                              | '-'         | '-'        
+
+END_PART
+
+PART 'TERM-BLK-3'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')   = CI                       | PART_NUMBER             | PART_DESCRIPTION                                | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SMD'           | 'Phoenix Contact'(!)       = '00603A-2'         | 'PTSM 0,5/ 3-2,5-H-SMD'  | 'Term Block 3W 2.5mm P SMD 6A 32V Horiz'        | 'Available RS 712-4611'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'TERM-BLK-8'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT-ANG'           | 'Klippon'(!)       = '00603A-1'         | 'Available RS 404-036, for matching socket order RS 403-910' | 'Side Entry PCB 8-pin Header'                                                     | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'TERM-BLK-10'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')       = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'              | 'Tyco/Electronics/Amp'(!) = '03324A-1'         | 'Farnell 308-9113'                                           | 'Straight PCB 10-pin Terminal Block'                                              | '-'                                             | '-'         | '-'        
+
+END_PART
+
+PART 'SK-SMD-IDC-40'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')       = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'              | 'Harwin'(!)               = '02128A-1'         | 'HARWIN - M20-7872042'                                         | '20x2 0.1-inch pitch PCB surface mount socket, bottom entry'                                   | 'Available from Farnell 1256663'                    | '-'         | '-'        
+
+END_PART
+
+PART 'PL-SMD-IDC-40'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')       = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'              | 'Samtec'(!)               = '02129A-1'         | 'SAMTEC - TSM-120-01-L-DV'                                         | 'SAMTEC - TSM-120-01-L-DV - HEADER, 2.54MM, SMT, 2X20WAY'                                   | 'Available from Farnell 1805784'                    | '-'         | '-'        
+
+END_PART
+
+PART 'PL-SMD-IDC-34'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')       = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'              | 'Samtec'(!)               = '02129A-1'         | 'SAMTEC - TSM-117-01-L-DV'                                         | 'SAMTEC - TSM-117-01-L-DV - HEADER, 2.54MM, SMT, 2X17WAY'                                   | 'Order from Samtec, or Farnell 1805405'                    | '-'         | '-'        
+
+END_PART
+
+
+PART 'PL-SMD-IDC-50'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')       = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'              | 'FCI'(!)               = '02126A-1'         | 'FCI 95278-101-50LF'                                         | '25x2 0.1-inch pitch PCB surface mount header.'                                   | 'Available from RS 673-7341'                    | '-'         | '-'        
+
+END_PART
+
+PART 'PL-SMD-IDC-64'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')       = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'              | 'Samtec'(!)               = '02128A-1'         | 'Samtec HTSS-132-01-L-DV'                                         | 'HEADER, 2.54MM, SMT, 2X32WAY PCB surface mount header.'                                   | 'Available from Farnell 1802107'                    | '-'         | '-'        
+ 'STR'              | '3M'(!)                   = '02128A-2'         | '3M N2564-6V0C-RB-WH'                                         | 'HEADER, 2.54MM, SMT, 2X32WAY PCB surface mount header.'                                   | 'Available from RS 212-777'                    | '-'         | '-'        
+
+END_PART
+
+PART 'PL-SMD-IDC-10'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')       = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'              | 'Tyco'(!)              = '02126A-2'         | 'Tyco 1241050-5 '                                            | '5x2 0.1-inch pitch PCB surface mount header.'                                    | 'Available from RS 528-6350'                    | '-'         | '-'        
+
+END_PART
+
+PART 'SK-SMD-EDGE-34'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')       = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'STR'              | 'Samtec'(!)               = '02129A-1'         | 'SAMTEC - TSM-117-01-L-DV'                                         | '34-way PCB through-hole mounting connector mounted edge on to PCB 2X17WAY'                                   | 'Order from Samtec, or Farnell 1805405'                    | '-'         | '-'        
+
+END_PART
+
+PART 'FFC45PIN'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE          | MANUF(OPT='CAT')       = CI                 | PART_NUMBER                                                  | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'RT'               | 'Molex'(!)             = ''                 | 'Molex'                                                      | '45 way flex-flat cable connector'                                                | 'Available from Farnell'                        | '-'         | '-'        
+
+END_PART
+
+PART 'SK_SATA'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SMD_STR'        | 'Molex'(!)        = '02124A-2'         | 'Molex 67800-5025 '          | 'MOLEX - 67800-5025 - HEADER, SATA, SMT vertical, 1.27MM, 7WAY' | 'Available from Farnell 1519802'                 | '-'         | '-'        
+ 'SMD_RA'         | 'Molex'(!)        = '02124A-3'         | 'Molex  67490-1220 '          | 'MOLEX -  67490-1220 - HEADER, SATA, SMT right-angle, 1.27MM, 7WAY' | 'Available from Farnell 1078524'            | '-'         | '-'        
+
+END_PART
+
+PART 'SAMTEC_ERM8_070'
+CLASS=IO
+
+{========================================================================================}
+:PACK_TYPE    | MANUF(OPT='CAT')   = CI                 | PART_NUMBER                    | PART_DESCRIPTION                                                                  | OL_COMMENTS                                     | KL_COMMENTS | PL_COMMENTS ;
+{========================================================================================}
+ 'SMD_EDGE'        | 'Samtec'(!)        = '02125A-2'         | 'Samtec ERM8-070-01-L-D-EM2 '          | 'Samtec 0.80 mm Edge Rate® Rugged High-Speed Terminal Strip, Edge Mount 2 x 70 pin' | 'Order direct from Samtec'                 | '-'         | '-'
+ 'SMD_RA'        | 'Samtec'(!)        = '02126A-2'         | 'Samtec ERM8-070-01-S-D-RA'          | 'Samtec 0.80 mm Edge Rate® Rugged High-Speed Terminal Strip, Right Angle 2 x 70 pin' | 'Order direct from Samtec'                 | '-'         | '-'        
+END_PART
+
+
+END.
+

@@ -1,0 +1,308 @@
+(Cell	74avc4t245_bris
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.7)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/05/20,14:10:42)
+
+			(User	phpgb)
+
+			(Path	bris_cds_special.74avc4t245_bris)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.6)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	03/05/20,14:10:42)
+
+					(User	phpgb)
+
+					(Path	bris_cds_special.74avc4t245_bris)
+
+				)
+
+			)
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Fixed)
+
+					(Max_Size	2)
+
+					(Checksum	00000000cc6b2094)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.6)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/05/20,14:10:42)
+
+							(User	phpgb)
+
+							(Path	bris_cds_special.74avc4t245_bris)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Fixed)
+
+					(Max_Size	2)
+
+					(Checksum	000000003c0a20a7)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.6)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/05/20,14:10:42)
+
+							(User	phpgb)
+
+							(Path	bris_cds_special.74avc4t245_bris)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a5f0350)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000ed7008d9)
+
+			(Primitives	2
+
+				(Primitive	74AVC4T245_BRIS_SOIC
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/05/20,14:10:42)
+
+							(User	phpgb)
+
+							(Path	bris_cds_special.74avc4t245_bris)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	74AVC4T245_BRIS
+
+							(PackType	74AVC4T245_BRIS_SOIC)
+
+							(PackType	74AVC4T245_BRIS_TSSOP)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	2
+
+							(FunctionGroup	1[2]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+							(FunctionGroup	2[2]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+				(Primitive	74AVC4T245_BRIS_UQFN
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	)
+
+							(User	)
+
+							(Path	)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	74AVC4T245_BRIS
+
+							(PackType	74AVC4T245_BRIS_UQFN)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	2
+
+							(FunctionGroup	1[2]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+							(FunctionGroup	2[2]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cb003b0)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.2-2016 S063 (3833650))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c96039c)
+
+)
+

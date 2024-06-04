@@ -1,0 +1,35 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'LP38692SD_WSON';
+  pin
+    'SNS':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*,*)';
+    'OUT':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(*,*)';
+    'IN1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*,*)';
+    'IN2':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*,*)';
+    'EN':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*,*)';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='GROUND';
+    'DAP':
+      PIN_NUMBER='(7)';
+      PINUSE='GROUND';
+  end_pin;
+  body
+    PART_NAME='LP38692SD';
+    BODY_NAME='LP38692SD';
+    JEDEC_TYPE='wson6';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.

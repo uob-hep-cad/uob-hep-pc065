@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SI5395'
+PHYS_DES_PREFIX = IC 
+CLASS = IC 
+
+{========================================================================================}
+:'TYPE'          |'PACK_TYPE'            = 'STATUS'       |'PART_NUMBER'     |'MANUFACTURER'    |'DESCRIPTION'                                                                                                |'DATASHEET_URL'                                               |'PINCOUNT'    |'SMD'    |'CASE'     |'JEDEC_TYPE'                   ;
+{========================================================================================}
+ 'Si5395A-A-GM'  |'QFN' (~SI5395A-A-GM)  = 'Preferred'  |'Si5395A-A-GM'  |'SILICON LABS'  |'1028MHz (Integer+Fractional), 10-Channel, Any-Frequency, Any-Output Jitter Attenuator/Clock Multiplier'  |'https://www.silabs.com/documents/public/data-sheets/si5395-94-92-a-datasheet.pdf'  |'65'        |'YES'  |'QFN64'  |'QFN50P900X900X90-65N-S530'  : POWER_PINS = '(GND:65;VDD:32,46,60;VDDA:13)'
+
+END_PART
+
+END.
+

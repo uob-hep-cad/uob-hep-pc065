@@ -1,0 +1,24 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'BOURNS_SF_0603S300_2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+    '2':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+  end_pin;
+  body
+    PART_NAME='BOURNS_SF_0603S300_2';
+    BODY_NAME='BOURNS_SF_0603S300_2';
+    JEDEC_TYPE='C0603';
+    PHYS_DES_PREFIX='F';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.
