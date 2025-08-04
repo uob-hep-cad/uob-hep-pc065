@@ -2,472 +2,316 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  P3V3         pins MOVED FROM this net (to net name listed on right)
-                                 C118.1          137.900  27.700
-                                                                           P2V5
-                                 C119.1          138.200  25.650
-                                                                           P2V5
-                                 U11.1           136.975  25.695
-                                                                           P2V5
+ R134                RSMD0402_0.0625W-XX,1%  67.900   4.900 RSMD0402_1/16W-4.7K,1%
+ R135                RSMD0402_0.0625W-XX,1%  67.900   2.900 RSMD0402_1/16W-4.7K,1%
+ R139                RSMD0402_0.0625W-XX,1%  20.800  26.400 RSMD0402_1/16W-4.7K,1%
+ R140                RSMD0402_0.0625W-XX,1%  20.800  27.500 RSMD0402_1/16W-4.7K,1%
+ R144                RSMD0402_0.0625W-XX,1%  37.200  26.400 RSMD0402_1/16W-4.7K,1%
+ R145                RSMD0402_0.0625W-XX,1%  37.200  27.500 RSMD0402_1/16W-4.7K,1%
+ R149                RSMD0402_0.0625W-XX,1%  60.000  26.400 RSMD0402_1/16W-4.7K,1%
+ R150                RSMD0402_0.0625W-XX,1%  60.000  27.500 RSMD0402_1/16W-4.7K,1%
+ R154                RSMD0402_0.0625W-XX,1%  73.500  26.400 RSMD0402_1/16W-4.7K,1%
+ R155                RSMD0402_0.0625W-XX,1%  73.500  27.500 RSMD0402_1/16W-4.7K,1%
+ R159                RSMD0402_0.0625W-XX,1%  89.600  29.300 RSMD0402_1/16W-4.7K,1%
+ R160                RSMD0402_0.0625W-XX,1%  87.600  29.300 RSMD0402_1/16W-4.7K,1%
+ R164                RSMD0402_0.0625W-XX,1% 103.800  29.300 RSMD0402_1/16W-4.7K,1%
+ R165                RSMD0402_0.0625W-XX,1% 101.800  29.300 RSMD0402_1/16W-4.7K,1%
+ R169                RSMD0402_0.0625W-XX,1% 118.200  29.300 RSMD0402_1/16W-4.7K,1%
+ R170                RSMD0402_0.0625W-XX,1% 116.200  29.300 RSMD0402_1/16W-4.7K,1%
+ R174                RSMD0402_0.0625W-XX,1% 131.400  29.400 RSMD0402_1/16W-4.7K,1%
+ R175                RSMD0402_0.0625W-XX,1% 129.400  29.400 RSMD0402_1/16W-4.7K,1%
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1.2           135.000  44.000 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C2.2           134.200  42.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C3.2            29.300  11.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C4.2             3.100  16.000 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C5.2             3.700  19.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C6.2            14.400  18.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C7.2            23.800  14.000 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C8.2             2.900  20.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C9.2            23.800  12.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C10.2           13.800  15.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C11.2           23.800  11.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C12.2           23.300  10.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C13.2           31.500   6.000 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C14.2           31.500   4.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C15.2           31.500   3.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C16.2           19.000  12.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C17.2           25.000   4.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C18.2           19.000  11.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C19.2          135.300  19.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C20.2          129.500  53.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C21.2          129.500  55.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C22.2           36.200  12.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C23.2           37.400  10.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C24.2           46.300  12.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C25.2           47.500  10.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C26.2           56.900  10.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C27.2           58.100  12.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C29.2            9.500  18.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C30.2           16.900   3.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C31.2           11.400  37.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C32.2           11.400  49.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C33.2           17.000  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C34.2           15.500  41.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C35.2           14.000  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C36.2          135.000  37.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C37.2          134.200  35.750 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C38.2          135.000  40.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C39.2          134.200  38.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C40.2           25.650  37.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C41.2           25.650  49.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C42.2           31.250  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C43.2           29.750  41.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C44.2           28.250  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C45.2           39.900  37.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C46.2           39.900  49.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
+ R134.2          67.900   4.900 DIST           FLAT
+ R134.2          67.900   4.900 MAX_TEMP       RTMAX
+ R134.2          67.900   4.900 NEGTOL         RTOL%
+ R134.2          67.900   4.900 POSTOL         RTOL%
+ R134.2          67.900   4.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R134.2          67.900   4.900 ROOM           I2C_TR_GEN
+ R134.2          67.900   4.900 SIZE           1
+ R134.2          67.900   4.900 SLOPE          RSMAX
+ R134.2          67.900   4.900 TC1            RTMPL
+ R134.2          67.900   4.900 TC2            RTMPQ
+ R134.2          67.900   4.900 TOL_ON_OFF     ON
+ R134.2          67.900   4.900 XY             (825,2150)
+ R135.2          67.900   2.900 DIST           FLAT
+ R135.2          67.900   2.900 MAX_TEMP       RTMAX
+ R135.2          67.900   2.900 NEGTOL         RTOL%
+ R135.2          67.900   2.900 POSTOL         RTOL%
+ R135.2          67.900   2.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R135.2          67.900   2.900 ROOM           I2C_TR_GEN
+ R135.2          67.900   2.900 SIZE           1
+ R135.2          67.900   2.900 SLOPE          RSMAX
+ R135.2          67.900   2.900 TC1            RTMPL
+ R135.2          67.900   2.900 TC2            RTMPQ
+ R135.2          67.900   2.900 TOL_ON_OFF     ON
+ R135.2          67.900   2.900 XY             (950,2150)
+ R139.2          20.800  26.400 DIST           FLAT
+ R139.2          20.800  26.400 MAX_TEMP       RTMAX
+ R139.2          20.800  26.400 NEGTOL         RTOL%
+ R139.2          20.800  26.400 POSTOL         RTOL%
+ R139.2          20.800  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R139.2          20.800  26.400 ROOM           I2C_TR_1
+ R139.2          20.800  26.400 SIZE           1
+ R139.2          20.800  26.400 SLOPE          RSMAX
+ R139.2          20.800  26.400 TC1            RTMPL
+ R139.2          20.800  26.400 TC2            RTMPQ
+ R139.2          20.800  26.400 TOL_ON_OFF     ON
+ R139.2          20.800  26.400 XY             (825,2150)
+ R140.2          20.800  27.500 DIST           FLAT
+ R140.2          20.800  27.500 MAX_TEMP       RTMAX
+ R140.2          20.800  27.500 NEGTOL         RTOL%
+ R140.2          20.800  27.500 POSTOL         RTOL%
+ R140.2          20.800  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R140.2          20.800  27.500 ROOM           I2C_TR_1
+ R140.2          20.800  27.500 SIZE           1
+ R140.2          20.800  27.500 SLOPE          RSMAX
+ R140.2          20.800  27.500 TC1            RTMPL
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C47.2           45.500  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C48.2           44.000  41.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C49.2           42.500  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C50.2           54.150  37.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C51.2           54.150  49.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C52.2           59.750  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C53.2           58.250  41.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C54.2           56.750  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C59.2          115.850  37.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C60.2          115.850  49.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C61.2          121.450  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C62.2          119.950  41.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C63.2          118.450  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C64.2          101.600  37.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C65.2          101.600  49.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C66.2          107.200  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C67.2          105.700  41.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C68.2          104.200  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C69.2           87.350  37.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C70.2           87.350  49.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C71.2           92.950  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C72.2           91.450  41.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C73.2           89.950  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C74.2           73.100  37.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C75.2           73.100  49.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C76.2           78.700  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C77.2           77.200  41.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C78.2           75.700  40.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C79.2           72.500   2.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C80.2           65.900   1.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C81.2           26.600  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C82.2           23.200  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C83.2           43.000  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C84.2           39.600  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C85.2           65.800  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C86.2           62.400  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C87.2           79.300  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C88.2           75.900  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C89.2           85.900  27.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C90.2           85.500  30.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C91.2          100.100  27.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C92.2           99.700  30.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C93.2          114.500  27.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C94.2          114.100  30.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C95.2          127.700  27.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
+ R140.2          20.800  27.500 TC2            RTMPQ
+ R140.2          20.800  27.500 TOL_ON_OFF     ON
+ R140.2          20.800  27.500 XY             (950,2150)
+ R144.2          37.200  26.400 DIST           FLAT
+ R144.2          37.200  26.400 MAX_TEMP       RTMAX
+ R144.2          37.200  26.400 NEGTOL         RTOL%
+ R144.2          37.200  26.400 POSTOL         RTOL%
+ R144.2          37.200  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R144.2          37.200  26.400 ROOM           I2C_TR_2
+ R144.2          37.200  26.400 SIZE           1
+ R144.2          37.200  26.400 SLOPE          RSMAX
+ R144.2          37.200  26.400 TC1            RTMPL
+ R144.2          37.200  26.400 TC2            RTMPQ
+ R144.2          37.200  26.400 TOL_ON_OFF     ON
+ R144.2          37.200  26.400 XY             (825,2150)
+ R145.2          37.200  27.500 DIST           FLAT
+ R145.2          37.200  27.500 MAX_TEMP       RTMAX
+ R145.2          37.200  27.500 NEGTOL         RTOL%
+ R145.2          37.200  27.500 POSTOL         RTOL%
+ R145.2          37.200  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R145.2          37.200  27.500 ROOM           I2C_TR_2
+ R145.2          37.200  27.500 SIZE           1
+ R145.2          37.200  27.500 SLOPE          RSMAX
+ R145.2          37.200  27.500 TC1            RTMPL
+ R145.2          37.200  27.500 TC2            RTMPQ
+ R145.2          37.200  27.500 TOL_ON_OFF     ON
+ R145.2          37.200  27.500 XY             (950,2150)
+ R149.2          60.000  26.400 DIST           FLAT
+ R149.2          60.000  26.400 MAX_TEMP       RTMAX
+ R149.2          60.000  26.400 NEGTOL         RTOL%
+ R149.2          60.000  26.400 POSTOL         RTOL%
+ R149.2          60.000  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R149.2          60.000  26.400 ROOM           I2C_TR_3
+ R149.2          60.000  26.400 SIZE           1
+ R149.2          60.000  26.400 SLOPE          RSMAX
+ R149.2          60.000  26.400 TC1            RTMPL
+ R149.2          60.000  26.400 TC2            RTMPQ
+ R149.2          60.000  26.400 TOL_ON_OFF     ON
+ R149.2          60.000  26.400 XY             (825,2150)
+ R150.2          60.000  27.500 DIST           FLAT
+ R150.2          60.000  27.500 MAX_TEMP       RTMAX
+ R150.2          60.000  27.500 NEGTOL         RTOL%
+ R150.2          60.000  27.500 POSTOL         RTOL%
+ R150.2          60.000  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R150.2          60.000  27.500 ROOM           I2C_TR_3
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C96.2          127.300  30.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C99.2          135.100  27.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C100.2         135.100  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C101.2         138.100  18.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C112.2           6.600  23.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C118.2         137.900  28.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C119.2         138.200  25.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C120.2         132.500  21.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- C121.2          16.900   5.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/capcersmdcl2/chips/chips.prt
- DS1.1           16.450  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS2.1           30.700  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS3.1           44.950  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS4.1           59.200  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS5.1           78.100  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS6.1           92.350  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS7.1          106.600  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS8.1          120.850  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- F1.2           131.500   7.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/sf#2d0603s300#2d2/chips/chips.prt
- F2.2           135.900   4.000 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/sf#2d0603s300#2d2/chips/chips.prt
- IC1.4            3.300  26.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnmemory/24aa025e48/chips/chips.prt
- IC2.5            7.400  18.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_logic/tmp1075ndrlr/chips/chips.prt
- IC11.8          68.500   3.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/tca9803/chips/chips.prt
- IC12.8          24.900  26.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/tca9803/chips/chips.prt
- IC14.8          41.300  26.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/tca9803/chips/chips.prt
- IC15.8          64.100  26.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/tca9803/chips/chips.prt
- IC16.8          77.600  26.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/tca9803/chips/chips.prt
- IC17.8          88.600  28.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/tca9803/chips/chips.prt
- IC18.8         102.800  28.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/tca9803/chips/chips.prt
- IC19.8         117.200  28.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/tca9803/chips/chips.prt
- IC20.8         130.400  28.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/tca9803/chips/chips.prt
- J1.3            11.300  27.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con3p/chips/chips.prt
- J2.A9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J2.B9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J2.C9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J2.D9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J2.E9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J2.F9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J2.G9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J2.H9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J2.J9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J2.K9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
- J7.20           16.440  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con20p_sfp/chips/chips.prt
- J12.20          30.690  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con20p_sfp/chips/chips.prt
- J16.20          44.940  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con20p_sfp/chips/chips.prt
- J20.20          59.190  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con20p_sfp/chips/chips.prt
+ R150.2          60.000  27.500 SIZE           1
+ R150.2          60.000  27.500 SLOPE          RSMAX
+ R150.2          60.000  27.500 TC1            RTMPL
+ R150.2          60.000  27.500 TC2            RTMPQ
+ R150.2          60.000  27.500 TOL_ON_OFF     ON
+ R150.2          60.000  27.500 XY             (950,2150)
+ R154.2          73.500  26.400 DIST           FLAT
+ R154.2          73.500  26.400 MAX_TEMP       RTMAX
+ R154.2          73.500  26.400 NEGTOL         RTOL%
+ R154.2          73.500  26.400 POSTOL         RTOL%
+ R154.2          73.500  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R154.2          73.500  26.400 ROOM           I2C_TR_4
+ R154.2          73.500  26.400 SIZE           1
+ R154.2          73.500  26.400 SLOPE          RSMAX
+ R154.2          73.500  26.400 TC1            RTMPL
+ R154.2          73.500  26.400 TC2            RTMPQ
+ R154.2          73.500  26.400 TOL_ON_OFF     ON
+ R154.2          73.500  26.400 XY             (825,2150)
+ R155.2          73.500  27.500 DIST           FLAT
+ R155.2          73.500  27.500 MAX_TEMP       RTMAX
+ R155.2          73.500  27.500 NEGTOL         RTOL%
+ R155.2          73.500  27.500 POSTOL         RTOL%
+ R155.2          73.500  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R155.2          73.500  27.500 ROOM           I2C_TR_4
+ R155.2          73.500  27.500 SIZE           1
+ R155.2          73.500  27.500 SLOPE          RSMAX
+ R155.2          73.500  27.500 TC1            RTMPL
+ R155.2          73.500  27.500 TC2            RTMPQ
+ R155.2          73.500  27.500 TOL_ON_OFF     ON
+ R155.2          73.500  27.500 XY             (950,2150)
+ R159.2          89.600  29.300 DIST           FLAT
+ R159.2          89.600  29.300 MAX_TEMP       RTMAX
+ R159.2          89.600  29.300 NEGTOL         RTOL%
+ R159.2          89.600  29.300 POSTOL         RTOL%
+ R159.2          89.600  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R159.2          89.600  29.300 ROOM           I2C_TR_5
+ R159.2          89.600  29.300 SIZE           1
+ R159.2          89.600  29.300 SLOPE          RSMAX
+ R159.2          89.600  29.300 TC1            RTMPL
+ R159.2          89.600  29.300 TC2            RTMPQ
+ R159.2          89.600  29.300 TOL_ON_OFF     ON
+ R159.2          89.600  29.300 XY             (825,2150)
+ R160.2          87.600  29.300 DIST           FLAT
+ R160.2          87.600  29.300 MAX_TEMP       RTMAX
+ R160.2          87.600  29.300 NEGTOL         RTOL%
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J24.20         120.890  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con20p_sfp/chips/chips.prt
- J28.20         106.640  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con20p_sfp/chips/chips.prt
- J32.20          92.390  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con20p_sfp/chips/chips.prt
- J36.20          78.140  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con20p_sfp/chips/chips.prt
- J40.4          137.300  39.000 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/con4p/chips/chips.prt
- L1.2             3.100  17.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L2.2            27.300  11.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L3.2            15.300  15.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L4.2            18.100  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L5.2            12.900  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L6.2            32.350  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L7.2            27.150  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L8.2            46.600  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L9.2            41.400  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L10.2           60.850  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L11.2           55.650  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L12.2          122.550  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L13.2          117.350  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L14.2          108.300  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L15.2          103.100  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L16.2           94.050  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L17.2           88.850  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L18.2           79.800  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- L19.2           74.600  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cndiscrete/inductance/chips/chips.prt
- PX3.1           11.100   2.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/pcoax/chips/chips.prt
- PX4.1           11.100   6.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnconnector/pcoax/chips/chips.prt
- QZ1.6           11.700  11.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/sit5022/chips/chips.prt
- R1.2            18.100  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R2.2            20.600  11.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R3.2            11.700  14.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R4.2            21.600   9.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R5.2            19.200  13.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R6.2            19.200  14.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R7.2            19.200   7.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R8.2             6.600  21.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R9.2            19.200   9.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R10.2            8.200  21.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R11.2            6.600  16.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R12.2           16.900   2.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R13.2           77.600   5.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
- R14.2           80.700   5.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
- R15.2           79.500  12.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R16.2          120.800   4.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R17.2           16.900   6.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R18.2           14.700   2.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R160.2          87.600  29.300 POSTOL         RTOL%
+ R160.2          87.600  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R160.2          87.600  29.300 ROOM           I2C_TR_5
+ R160.2          87.600  29.300 SIZE           1
+ R160.2          87.600  29.300 SLOPE          RSMAX
+ R160.2          87.600  29.300 TC1            RTMPL
+ R160.2          87.600  29.300 TC2            RTMPQ
+ R160.2          87.600  29.300 TOL_ON_OFF     ON
+ R160.2          87.600  29.300 XY             (950,2150)
+ R164.2         103.800  29.300 DIST           FLAT
+ R164.2         103.800  29.300 MAX_TEMP       RTMAX
+ R164.2         103.800  29.300 NEGTOL         RTOL%
+ R164.2         103.800  29.300 POSTOL         RTOL%
+ R164.2         103.800  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R164.2         103.800  29.300 ROOM           I2C_TR_6
+ R164.2         103.800  29.300 SIZE           1
+ R164.2         103.800  29.300 SLOPE          RSMAX
+ R164.2         103.800  29.300 TC1            RTMPL
+ R164.2         103.800  29.300 TC2            RTMPQ
+ R164.2         103.800  29.300 TOL_ON_OFF     ON
+ R164.2         103.800  29.300 XY             (825,2150)
+ R165.2         101.800  29.300 DIST           FLAT
+ R165.2         101.800  29.300 MAX_TEMP       RTMAX
+ R165.2         101.800  29.300 NEGTOL         RTOL%
+ R165.2         101.800  29.300 POSTOL         RTOL%
+ R165.2         101.800  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R165.2         101.800  29.300 ROOM           I2C_TR_6
+ R165.2         101.800  29.300 SIZE           1
+ R165.2         101.800  29.300 SLOPE          RSMAX
+ R165.2         101.800  29.300 TC1            RTMPL
+ R165.2         101.800  29.300 TC2            RTMPQ
+ R165.2         101.800  29.300 TOL_ON_OFF     ON
+ R165.2         101.800  29.300 XY             (950,2150)
+ R169.2         118.200  29.300 DIST           FLAT
+ R169.2         118.200  29.300 MAX_TEMP       RTMAX
+ R169.2         118.200  29.300 NEGTOL         RTOL%
+ R169.2         118.200  29.300 POSTOL         RTOL%
+ R169.2         118.200  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R169.2         118.200  29.300 ROOM           I2C_TR_7
+ R169.2         118.200  29.300 SIZE           1
+ R169.2         118.200  29.300 SLOPE          RSMAX
+ R169.2         118.200  29.300 TC1            RTMPL
+ R169.2         118.200  29.300 TC2            RTMPQ
+ R169.2         118.200  29.300 TOL_ON_OFF     ON
+ R169.2         118.200  29.300 XY             (825,2150)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   6  |
 |------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R19.2           14.700   6.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R20.2          122.000   6.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R21.2          121.900   8.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R22.2           18.120  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R23.2           20.070  33.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R24.2           19.100  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R25.2           13.600  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R26.2           15.800  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R27.2           16.900  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R28.2           18.000  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R29.2           14.700  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R30.2           17.100  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
- R31.2           37.400  12.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R32.2           45.300  12.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R33.2           31.400  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
- R34.2           32.370  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R35.2           34.320  33.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R36.2           33.350  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R37.2           27.850  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R38.2           30.050  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R39.2           31.150  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R40.2           32.250  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R41.2           28.950  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R42.2           46.620  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R43.2           48.570  33.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R44.2           47.600  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R45.2           42.100  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R46.2           44.300  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R47.2           45.400  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R48.2           46.500  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R49.2           43.200  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R50.2           60.870  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R51.2           62.820  33.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R52.2           61.850  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R53.2           56.350  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R54.2           58.550  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R55.2           59.650  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R56.2           60.750  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R57.2           57.450  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R58.2           45.600  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
- R59.2           59.900  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
- R60.2           78.800  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
- R61.2           93.000  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
- R62.2          137.000  17.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R63.2          107.300  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
+ R170.2         116.200  29.300 DIST           FLAT
+ R170.2         116.200  29.300 MAX_TEMP       RTMAX
+ R170.2         116.200  29.300 NEGTOL         RTOL%
+ R170.2         116.200  29.300 POSTOL         RTOL%
+ R170.2         116.200  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R170.2         116.200  29.300 ROOM           I2C_TR_7
+ R170.2         116.200  29.300 SIZE           1
+ R170.2         116.200  29.300 SLOPE          RSMAX
+ R170.2         116.200  29.300 TC1            RTMPL
+ R170.2         116.200  29.300 TC2            RTMPQ
+ R170.2         116.200  29.300 TOL_ON_OFF     ON
+ R170.2         116.200  29.300 XY             (950,2150)
+ R174.2         131.400  29.400 DIST           FLAT
+ R174.2         131.400  29.400 MAX_TEMP       RTMAX
+ R174.2         131.400  29.400 NEGTOL         RTOL%
+ R174.2         131.400  29.400 POSTOL         RTOL%
+ R174.2         131.400  29.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R174.2         131.400  29.400 ROOM           I2C_TR_8
+ R174.2         131.400  29.400 SIZE           1
+ R174.2         131.400  29.400 SLOPE          RSMAX
+ R174.2         131.400  29.400 TC1            RTMPL
+ R174.2         131.400  29.400 TC2            RTMPQ
+ R174.2         131.400  29.400 TOL_ON_OFF     ON
+ R174.2         131.400  29.400 XY             (825,2150)
+ R175.2         129.400  29.400 DIST           FLAT
+ R175.2         129.400  29.400 MAX_TEMP       RTMAX
+ R175.2         129.400  29.400 NEGTOL         RTOL%
+ R175.2         129.400  29.400 POSTOL         RTOL%
+ R175.2         129.400  29.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R175.2         129.400  29.400 ROOM           I2C_TR_8
+ R175.2         129.400  29.400 SIZE           1
+ R175.2         129.400  29.400 SLOPE          RSMAX
+ R175.2         129.400  29.400 TC1            RTMPL
+ R175.2         129.400  29.400 TC2            RTMPQ
+ R175.2         129.400  29.400 TOL_ON_OFF     ON
+ R175.2         129.400  29.400 XY             (950,2150)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   7  |
 |------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R64.2          121.500  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0603/chips/chips.prt
- R65.2          117.700   6.100 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R66.2          130.500  50.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R67.2          137.800  51.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R68.2          131.000  60.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R69.2           38.900   8.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R70.2           47.500  12.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R71.2           55.300  12.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R72.2           48.900   8.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R73.2           58.100  10.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R74.2           66.000  10.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R75.2           59.600  14.850 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R93.2            8.900  25.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R94.2            8.900  27.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R99.2          122.570  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R100.2         124.520  33.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R101.2         123.550  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R102.2         118.050  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R103.2         120.250  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R104.2         121.350  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R105.2         122.450  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R106.2         119.150  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R107.2         108.320  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R108.2         110.270  33.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R109.2         109.300  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R110.2         103.800  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R111.2         106.000  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R112.2         107.100  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R113.2         108.200  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R114.2         104.900  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R115.2          94.070  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R116.2          96.020  33.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R117.2          95.050  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R118.2          89.550  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R119.2          91.750  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R120.2          92.850  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R121.2          93.950  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R122.2          90.650  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R123.2          79.820  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R124.2          81.770  33.350 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R125.2          80.800  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R126.2          75.300  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R127.2          77.500  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R128.2          78.600  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R129.2          79.700  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R130.2          76.400  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R131.2          69.100   4.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R132.2          69.100   2.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R133.2          64.700   5.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R134.2          67.900   4.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R135.2          67.900   2.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R136.2          29.100  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R137.2          29.100  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R138.2          20.800  25.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R139.2          20.800  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R140.2          20.800  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R141.2          45.500  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R142.2          45.500  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R143.2          37.200  25.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R144.2          37.200  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R145.2          37.200  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R146.2          68.300  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R147.2          68.300  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R148.2          60.000  25.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R149.2          60.000  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R150.2          60.000  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R151.2          81.800  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R152.2          81.800  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R153.2          73.500  25.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R154.2          73.500  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R155.2          73.500  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R156.2          89.600  27.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R157.2          87.600  27.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R158.2          91.100  30.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R159.2          89.600  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R160.2          87.600  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R161.2         103.800  27.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R162.2         101.800  27.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R163.2         105.300  30.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R164.2         103.800  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R165.2         101.800  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R166.2         118.200  27.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R167.2         116.200  27.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R168.2         119.700  30.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R169.2         118.200  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R170.2         116.200  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R171.2         131.400  27.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R172.2         129.400  27.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R173.2         132.900  30.800 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R174.2         131.400  29.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   9  |
-|------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R175.2         129.400  29.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R182.2         135.900  17.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R183.2         134.800  17.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R186.2          20.100  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R187.2          32.300  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R188.2          34.300  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R189.2          46.500  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R190.2          48.500  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R191.2          60.800  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R192.2          62.800  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R193.2         122.600  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R194.2         124.600  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R195.2         108.400  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R196.2         110.400  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R197.2          94.000  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R198.2          96.000  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R199.2          79.800  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R200.2          81.800  25.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R201.2           5.300  27.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R202.2           4.000  27.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R203.2           1.400  27.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- R204.2           2.700  27.200 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
- SFP1.NC         59.200  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnmech/sfp_cage_x4/chips/chips.prt
- SFP2.NC        120.850  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnmech/sfp_cage_x4/chips/chips.prt
- TP10.1         134.400  48.660 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/tp/chips/chips.prt
- U1.25           28.100  10.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_logic/cdclvd110/chips/chips.prt
- U3.7            19.100  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/max9381_umax/chips/chips.prt
- U4.7            33.350  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/max9381_umax/chips/chips.prt
- U5.7            47.600  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/max9381_umax/chips/chips.prt
- U6.7            61.850  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/max9381_umax/chips/chips.prt
- U7.7           123.550  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/max9381_umax/chips/chips.prt
- U8.7           109.300  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/max9381_umax/chips/chips.prt
- U9.7            95.050  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/max9381_umax/chips/chips.prt
- U10.7           80.800  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_discrete/max9381_umax/chips/chips.prt
- U11.4          136.000  23.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cds_special/mp20075_reg/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  10  |
-|------------------------------------------------------------------------------|
-|  C:.../physical/pc065c_fibv2_toplevel_28smoothed_upreved.brd                 |
-|                                                    Mon Aug  4 15:47:44 2025  |
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       3                                        |
-|       Slot property added   :     350                                        |
+|       Components changed    :      18                                        |
+|       Slot property added   :     216                                        |
 |                                                                              |
-|   Total ECO changes reported:     353                                        |
+|   Total ECO changes reported:     234                                        |
 |------------------------------------------------------------------------------|
