@@ -1,23 +1,16 @@
 \t (00:00:01) padstack_editor 17.4 S011 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Mon Jun  3 10:54:35 2024
-\t (00:00:01)         Host=ELWE4 User=hastingsp Pid=4004 CPUs=32
-\t (00:00:01) CmdLine= padstack_editor -mpssession hastingsp_ProjectMgr20509 -file C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaadn18288.tmp -pname VIA22RD0-3D -data C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaadq18288.tmp
+\t (00:00:01)     Journal start - Mon Jun  3 10:56:18 2024
+\t (00:00:01)         Host=ELWE4 User=hastingsp Pid=21712 CPUs=32
+\t (00:00:01) CmdLine= padstack_editor -mpssession hastingsp_ProjectMgr20509 -file C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaadr18288.tmp -pname VIA22RD0-3D_OPEN -data C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaadu18288.tmp
 \t (00:00:01) 
-\d (00:00:06) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
-\d (00:00:07) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
-\d (00:00:09) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 1 Pad
-\d (00:00:09) QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 Pad 1 1
-\d (00:00:09) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
-\d (00:00:09) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad 0 1
-\d (00:00:16) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
-\d (00:00:20) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
-\d (00:00:25) QtSignal GuidedMaskLayersTab PadDiameter editingFinished "0.600"
-\d (00:00:26) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 1 Pad
-\d (00:00:26) QtSignal GuidedMaskLayersTab LayersTable cellClicked 1 Pad 1 1
-\d (00:00:29) QtSignal GuidedMaskLayersTab PadDiameter editingFinished "0.600"
-\d (00:00:34) QtSignal MainWindow SaveAs triggered
-\d (00:00:37) QtSignal pseCheckBrowser Close clicked
-\d (00:00:38) QtFillin Yes
-\d (00:00:48) QtSignal MainWindow AQFileDialog finished 1
-\d (00:00:48) QtFillin "VIA22RD0-3D_open.pad"
-\t (00:00:49)     Journal end - Mon Jun  3 10:55:23 2024
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:05) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:05) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:09) QtSignal GuidedMaskLayersTab PadDiameter editingFinished "0.600"
+\d (00:00:10) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 3 Pad
+\d (00:00:10) QtSignal GuidedMaskLayersTab LayersTable cellClicked 3 Pad 3 1
+\d (00:00:14) QtSignal GuidedMaskLayersTab PadDiameter editingFinished "0.600"
+\d (00:00:17) QtSignal MainWindow Save triggered
+\d (00:00:19) QtSignal pseCheckBrowser Close clicked
+\d (00:00:20) QtFillin Yes
+\t (00:00:21)     Journal end - Mon Jun  3 10:56:39 2024

@@ -1,0 +1,424 @@
+\t (00:00:13) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:13)     Journal start - Mon Aug  4 17:10:00 2025
+\t (00:00:13)         Host=IT088130 User=phdgc Pid=51100 CPUs=16
+\t (00:00:13) CmdLine= C:\Cadence\SPB_24.1\tools\bin\allegro.exe
+\t (00:00:13) 
+\t (00:00:14) Loading axlcore.cxt 
+\t (00:00:15) Opening existing design...
+\i (00:00:15) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2a_toplevel_29"
+\d (00:00:15) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd
+\i (00:00:15) trapsize 580
+\i (00:00:15) trapsize 595
+\i (00:00:15) trapsize 599
+\i (00:00:16) trapsize 497
+\i (00:00:16) trapsize 497
+\t (00:00:16) Loading NV GPU Plugin
+\i (00:00:16) generaledit 
+\i (00:00:24) odb_out 
+\t (00:00:24) Valor: Extract out files
+\i (00:00:26) fillin yes 
+\t (00:00:26) extracting technology file
+\t (00:00:26) Starting techfile...
+\t (00:00:27) SpawnProcessExit background process completed status = 0
+
+\t (00:00:28) extracting cross-section report
+\i (00:00:28) reports 'Cross-Section Report' nographic write C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/crosssection_pc065d_fibv2a_toplevel_29.out 
+\t (00:00:28) extracting DFA requirements
+\t (00:00:28) Extracting Analysis Regions
+\t (00:00:28) Extracting Padstack
+\t (00:00:28) extracting Component Properties
+\t (00:00:29)  ----- Valor extract completed successfully with zones ----- 
+
+\t (00:00:29) Starting ODB++ Inside export...
+\t (00:04:20) Loading mfg.cxt 
+\t (00:04:20) Loading signal.cxt 
+\i (00:04:20) generaledit 
+\i (00:04:56) odb_out 
+\t (00:04:56) Valor: Extract out files
+\i (00:04:57) fillin yes 
+\t (00:04:57) extracting technology file
+\t (00:04:57) Starting techfile...
+\t (00:04:58) SpawnProcessExit background process completed status = 0
+
+\t (00:04:59) extracting cross-section report
+\i (00:04:59) reports 'Cross-Section Report' nographic write C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/crosssection_pc065d_fibv2a_toplevel_29.out 
+\t (00:04:59) extracting DFA requirements
+\t (00:04:59) Extracting Analysis Regions
+\t (00:04:59) Extracting Padstack
+\t (00:04:59) extracting Component Properties
+\t (00:05:00)  ----- Valor extract completed successfully with zones ----- 
+
+\t (00:05:00) Starting ODB++ Inside export...
+\t (00:08:05) function valor_extract_info redefined
+\t (00:08:05) function odbGenFilmsParameters redefined
+\t (00:08:05) function odbGenDraFiles redefined
+\t (00:08:05) function outputRegions redefined
+\t (00:08:05) function outputPadstack redefined
+\t (00:08:05) function padstackCreateFile redefined
+\t (00:08:05) function Padstack_Data_Padstack_Filter_Pin_Names redefined
+\t (00:08:05) function Padstack_Data_Collect redefined
+\i (00:08:06) generaledit 
+\t (00:08:06) [17:17:52.442000] Periodic Lic check successful
+[17:17:52.442000] Feature usage summary:
+[17:17:52.442000] Allegro_X_Platinum_Layout
+[17:17:52.442000] Allegro_Venture_PCB_Designer
+[17:17:52.442000] PCB_design_studio
+[17:17:52.442000] Venture_PCB_Schematic
+[17:17:52.442000] Allegro_Venture_PCB_Designer2
+
+\i (00:08:14) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: 12_POS2"
+\i (00:08:14) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: 12_POS2"
+\i (00:08:17) zoom in 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom in 42.246 10.349
+\i (00:08:17) trapsize 249
+\i (00:08:17) zoom in 1 
+\i (00:08:17) setwindow pcb
+\i (00:08:17) zoom in 42.346 10.349
+\i (00:08:17) trapsize 124
+\i (00:08:23) QtSignal CVPLayerGrid CVPButtonPinBottom clicked
+\i (00:08:23) updateport CVPane
+\i (00:08:24) roam y 96 
+\i (00:08:24) roam y 96
+\i (00:08:25) roam x -96 
+\i (00:08:25) roam x -96
+\i (00:08:26) roam x -96 
+\i (00:08:26) roam x -96
+\i (00:08:26) roam x -96 
+\i (00:08:26) roam x -96
+\i (00:08:26) roam x -96 
+\i (00:08:26) roam x -96
+\i (00:08:26) roam x -96 
+\i (00:08:26) roam x -96
+\i (00:08:27) roam y 96 
+\i (00:08:27) roam y 96
+\i (00:08:27) roam x -96 
+\i (00:08:27) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:29) roam x -96 
+\i (00:08:29) roam x -96
+\i (00:08:29) roam x 96 
+\i (00:08:29) roam x 96
+\i (00:08:30) zoom out 1 
+\i (00:08:30) setwindow pcb
+\i (00:08:30) zoom out 21.277 7.890
+\i (00:08:30) trapsize 249
+\i (00:08:30) zoom out 1 
+\i (00:08:30) setwindow pcb
+\i (00:08:30) zoom out 21.276 7.890
+\i (00:08:30) trapsize 497
+\i (00:08:30) zoom out 1 
+\i (00:08:30) setwindow pcb
+\i (00:08:30) zoom out 21.277 7.891
+\i (00:08:30) trapsize 995
+\i (00:08:31) zoom in 1 
+\i (00:08:31) setwindow pcb
+\i (00:08:31) zoom in 21.276 7.891
+\i (00:08:31) trapsize 497
+\i (00:08:31) zoom in 1 
+\i (00:08:31) setwindow pcb
+\i (00:08:31) zoom in 21.276 7.990
+\i (00:08:31) trapsize 249
+\i (00:08:33) roam x 96 
+\i (00:08:33) roam x 96
+\i (00:08:33) roam x 96 
+\i (00:08:33) roam x 96
+\i (00:08:33) roam x 96 
+\i (00:08:33) roam x 96
+\i (00:08:33) roam x 96 
+\i (00:08:33) roam x 96
+\i (00:08:35) zoom out 1 
+\i (00:08:35) setwindow pcb
+\i (00:08:35) zoom out 40.352 7.990
+\i (00:08:35) trapsize 497
+\i (00:08:35) zoom in 1 
+\i (00:08:35) setwindow pcb
+\i (00:08:35) zoom in 40.452 8.189
+\i (00:08:35) trapsize 249
+\i (00:08:40) copy 
+\t (00:08:40) Select the element(s) to copy.
+\i (00:08:42) setwindow form.find
+\i (00:08:42) FORM find lines YES 
+\i (00:08:47) setwindow pcb
+\i (00:08:47) pick grid 66.613 28.283
+\t (00:08:47) last pick:  66.600 28.300
+\t (00:08:47) last pick:  66.875 28.600
+\t (00:08:47) last pick:  66.600 28.300
+\i (00:08:47) paste 
+\t (00:08:47) last pick:  66.600 28.300
+\i (00:08:50) zoom in 1 
+\i (00:08:50) setwindow pcb
+\i (00:08:50) zoom in 40.950 9.085
+\i (00:08:50) trapsize 124
+\i (00:08:50) zoom in 1 
+\i (00:08:50) setwindow pcb
+\i (00:08:50) zoom in 41.000 9.110
+\i (00:08:50) trapsize 62
+\i (00:08:57) pick grid 38.451 13.785
+\t (00:08:57) last pick:  38.500 13.800
+\i (00:09:04) pick grid 48.398 13.847
+\t (00:09:04) last pick:  48.400 13.800
+\i (00:09:04) roam x 96 
+\i (00:09:04) roam x 96
+\i (00:09:04) roam x 96 
+\i (00:09:04) roam x 96
+\i (00:09:04) roam x 96 
+\i (00:09:04) roam x 96
+\i (00:09:05) zoom out 1 
+\i (00:09:05) setwindow pcb
+\i (00:09:05) zoom out 52.087 13.810
+\i (00:09:05) trapsize 124
+\i (00:09:05) zoom out 1 
+\i (00:09:05) setwindow pcb
+\i (00:09:05) zoom out 52.087 13.810
+\i (00:09:05) trapsize 249
+\i (00:09:07) prepopup 50.595 15.352
+\i (00:09:08) done 
+\i (00:09:08) generaledit 
+\i (00:09:09) zoom in 1 
+\i (00:09:09) setwindow pcb
+\i (00:09:09) zoom in 38.708 11.871
+\i (00:09:09) trapsize 124
+\i (00:09:11) show element 
+\i (00:09:14) zoom in 1 
+\i (00:09:14) setwindow pcb
+\i (00:09:14) zoom in 39.057 12.418
+\i (00:09:14) trapsize 62
+\i (00:09:14) zoom in 1 
+\i (00:09:14) setwindow pcb
+\i (00:09:14) zoom in 39.082 12.419
+\i (00:09:14) trapsize 31
+\i (00:09:15) zoom out 1 
+\i (00:09:15) setwindow pcb
+\i (00:09:15) zoom out 39.107 12.419
+\i (00:09:15) trapsize 62
+\i (00:09:15) zoom out 1 
+\i (00:09:15) setwindow pcb
+\i (00:09:15) zoom out 39.107 12.418
+\i (00:09:15) trapsize 124
+\i (00:09:15) roam y -96 
+\i (00:09:15) roam y -96
+\i (00:09:16) roam x 96 
+\i (00:09:16) roam x 96
+\i (00:09:16) roam x 96 
+\i (00:09:16) roam x 96
+\i (00:09:26) zoom out 1 
+\i (00:09:26) setwindow pcb
+\i (00:09:26) zoom out 47.925 15.044
+\i (00:09:26) trapsize 249
+\i (00:09:26) zoom in 1 
+\i (00:09:26) setwindow pcb
+\i (00:09:26) zoom in 47.925 15.194
+\i (00:09:26) trapsize 124
+\i (00:09:30) move 
+\t (00:09:31) Select element(s) to move.
+\i (00:09:32) pick grid 39.247 14.572
+\t (00:09:32) last pick:  39.200 14.600
+\t (00:09:32) last pick:  39.060 15.000
+\t (00:09:32) Pick new location for the element(s).
+\i (00:09:40) pick grid 39.048 15.691
+\t (00:09:40) last pick:  39.000 15.700
+\i (00:09:46) flipdesign 
+\i (00:09:49) pick grid 38.849 15.641
+\t (00:09:49) last pick:  38.800 15.600
+\t (00:09:49) last pick:  39.000 15.700
+\t (00:09:49) Pick new location for the element(s).
+\i (00:09:50) prepopup 39.570 16.189
+\i (00:09:52) rotate 
+\t (00:09:52) Spin the element(s).
+\i (00:09:54) iangle 180.000
+\t (00:09:54) last angle:  90.000 Degrees
+\i (00:09:54) mouse_pos 39.000 15.700
+\i (00:09:57) pick grid 39.122 15.666
+\t (00:09:57) last pick:  39.100 15.700
+\i (00:09:59) roam y -96 
+\i (00:09:59) roam y -96
+\i (00:09:59) roam y -96 
+\i (00:09:59) roam y -96
+\i (00:09:59) roam y -96 
+\i (00:09:59) roam y -96
+\i (00:10:07) QtSignal CVPLayerGrid CVPButtonViaBottom clicked
+\i (00:10:07) updateport CVPane
+\i (00:10:12) pick grid 52.898 19.719
+\t (00:10:12) last pick:  52.900 19.700
+\i (00:10:14) roam y 96 
+\i (00:10:14) roam y 96
+\i (00:10:15) roam y 96 
+\i (00:10:15) roam y 96
+\i (00:10:17) pick grid 51.008 8.480
+\t (00:10:17) last pick:  51.000 8.500
+\t (00:10:17) last pick:  50.700 8.600
+\t (00:10:17) Pick new location for the element(s).
+\i (00:10:18) prepopup 50.337 14.945
+\i (00:10:20) rotate 
+\t (00:10:20) Spin the element(s).
+\i (00:10:21) iangle 90.000
+\t (00:10:21) last angle:  90.000 Degrees
+\i (00:10:21) mouse_pos 50.700 8.600
+\i (00:10:24) pick grid 50.038 14.970
+\t (00:10:24) last pick:  50.000 15.000
+\i (00:10:25) roam y 96 
+\i (00:10:25) roam y 96
+\i (00:10:25) roam x 96 
+\i (00:10:25) roam x 96
+\i (00:10:26) roam x 96 
+\i (00:10:26) roam x 96
+\i (00:10:26) roam x 96 
+\i (00:10:26) roam x 96
+\i (00:10:26) roam x 96 
+\i (00:10:26) roam x 96
+\i (00:10:27) zoom out 1 
+\i (00:10:27) setwindow pcb
+\i (00:10:27) zoom out 39.122 12.732
+\i (00:10:27) trapsize 249
+\i (00:10:27) zoom out 1 
+\i (00:10:27) setwindow pcb
+\i (00:10:27) zoom out 39.122 12.732
+\i (00:10:27) trapsize 497
+\i (00:10:27) roam y -96 
+\i (00:10:27) roam y -96
+\i (00:10:28) roam y -96 
+\i (00:10:28) roam y -96
+\i (00:10:28) roam y -96 
+\i (00:10:29) roam y -96
+\i (00:10:30) roam x -96 
+\i (00:10:30) roam x -96
+\i (00:10:30) roam x -96 
+\i (00:10:30) roam x -96
+\i (00:10:31) roam x -96 
+\i (00:10:31) roam x -96
+\i (00:10:31) roam x -96 
+\i (00:10:31) roam x -96
+\i (00:10:31) roam x -96 
+\i (00:10:31) roam x -96
+\i (00:10:32) roam x -96 
+\i (00:10:32) roam x -96
+\i (00:10:36) roam x 96 
+\i (00:10:36) roam x 96
+\i (00:10:38) zoom in 1 
+\i (00:10:38) setwindow pcb
+\i (00:10:38) zoom in 59.787 17.756
+\i (00:10:38) trapsize 249
+\i (00:10:38) roam y 96 
+\i (00:10:38) roam y 96
+\i (00:10:38) roam y 96 
+\i (00:10:38) roam y 96
+\i (00:10:39) zoom in 1 
+\i (00:10:39) setwindow pcb
+\i (00:10:39) zoom in 57.300 9.698
+\i (00:10:39) trapsize 124
+\i (00:10:39) zoom in 1 
+\i (00:10:39) setwindow pcb
+\i (00:10:39) zoom in 57.300 9.698
+\i (00:10:39) trapsize 62
+\i (00:10:40) roam x 96 
+\i (00:10:40) roam x 96
+\i (00:10:40) roam x 96 
+\i (00:10:40) roam x 96
+\i (00:10:41) roam x 96 
+\i (00:10:41) roam x 96
+\i (00:10:42) zoom out 1 
+\i (00:10:42) setwindow pcb
+\i (00:10:42) zoom out 53.694 9.798
+\i (00:10:42) trapsize 124
+\i (00:10:42) zoom out 1 
+\i (00:10:42) setwindow pcb
+\i (00:10:42) zoom out 53.693 9.798
+\i (00:10:42) trapsize 249
+\i (00:10:44) zoom in 1 
+\i (00:10:44) setwindow pcb
+\i (00:10:44) zoom in 48.720 14.821
+\i (00:10:44) trapsize 124
+\i (00:10:51) roam y 96 
+\i (00:10:51) roam y 96
+\i (00:10:52) roam y -96 
+\i (00:10:52) roam y -96
+\i (00:11:00) pick grid 40.142 20.962
+\t (00:11:00) last pick:  40.100 21.000
+\i (00:11:02) prepopup 38.550 12.284
+\i (00:11:03) done 
+\i (00:11:03) generaledit 
+\i (00:11:09) setwindow form.find
+\i (00:11:09) FORM find pins YES 
+\i (00:11:15) setwindow pcb
+\i (00:11:15) zoom fit 
+\i (00:11:15) trapsize 497
+\i (00:11:17) save 
+\i (00:11:18) fillin yes 
+\i (00:11:19) generaledit 
+\i (00:11:24) odb_out 
+\t (00:11:24) Valor: Extract out files
+\i (00:11:27) fillin yes 
+\t (00:11:27) extracting technology file
+\t (00:11:27) Starting techfile...
+\t (00:11:28) SpawnProcessExit background process completed status = 0
+
+\t (00:11:29) extracting cross-section report
+\i (00:11:29) reports 'Cross-Section Report' nographic write C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/crosssection_pc065d_fibv2a_toplevel_29.out 
+\t (00:11:29) extracting DFA requirements
+\t (00:11:29) Extracting Analysis Regions
+\t (00:11:29) Extracting Padstack
+\t (00:11:30) extracting Component Properties
+\t (00:11:30)  ----- Valor extract completed successfully with zones ----- 
+
+\t (00:11:30) Starting ODB++ Inside export...
+\t (00:14:12) function valor_extract_info redefined
+\t (00:14:12) function odbGenFilmsParameters redefined
+\t (00:14:12) function odbGenDraFiles redefined
+\t (00:14:12) function outputRegions redefined
+\t (00:14:12) function outputPadstack redefined
+\t (00:14:12) function padstackCreateFile redefined
+\t (00:14:12) function Padstack_Data_Padstack_Filter_Pin_Names redefined
+\t (00:14:12) function Padstack_Data_Collect redefined
+\i (00:14:13) generaledit 
+\t (00:14:13) [17:23:59.445000] Periodic Lic check successful
+[17:23:59.445000] Feature usage summary:
+[17:23:59.445000] Allegro_X_Platinum_Layout
+[17:23:59.445000] Allegro_Venture_PCB_Designer
+[17:23:59.445000] PCB_design_studio
+[17:23:59.445000] Venture_PCB_Schematic
+[17:23:59.445000] Allegro_Venture_PCB_Designer2
+
+\i (00:14:15) artwork 
+\i (00:14:18) setwindow form.film_control
+\i (00:14:18) FORM film_control select_all  
+\i (00:14:19) FORM film_control create  
+\t (00:14:19) Checking db records
+\t (00:14:19)     checking for orphans...
+\t (00:14:19)     Checked  12 percent
+\t (00:14:19)     Checked  24 percent
+\t (00:14:19)     Checked  37 percent
+\t (00:14:19)     Checked  49 percent
+\t (00:14:19)     Checked  62 percent
+\t (00:14:19)     Checked  74 percent
+\t (00:14:19)     Checked  87 percent
+\t (00:14:19)     Checked  99 percent
+\t (00:14:19)     Checked 100 percent
+\t (00:14:19) Done dbdoctor.
+\t (00:14:19) Starting Create artwork films...
+\t (00:14:20) SpawnProcessExit background process completed status = 1
+
+\w (00:14:20) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:14:21) Artwork generated with warnings.
+\i (00:14:24) setwindow text
+\i (00:14:24) close
+\i (00:14:27) setwindow form.film_control
+\i (00:14:27) FORM film_control ok  
+\i (00:14:27) setwindow pcb
+\i (00:14:27) generaledit 
+\i (00:16:05) exit 
+\e (00:16:05) Do you want to save the changes you made to C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd?
+\i (00:16:06) fillin yes 
+\t (00:16:07) Lic Summary:
+[17:25:53.470000] Cdslmd servers: ppl
+[17:25:53.470000] Feature usage summary:
+[17:25:53.470000] Allegro_X_Platinum_Layout
+[17:25:53.470000] Allegro_Venture_PCB_Designer
+[17:25:53.470000] PCB_design_studio
+[17:25:53.470000] Venture_PCB_Schematic
+[17:25:53.470000] Allegro_Venture_PCB_Designer2
+
+\t (00:16:07)     Journal end - Mon Aug  4 17:25:53 2025

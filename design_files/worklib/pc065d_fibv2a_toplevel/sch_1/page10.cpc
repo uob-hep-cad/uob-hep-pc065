@@ -1,0 +1,24 @@
+#ISCELL
+  bris_cds_standard bris_std_a3 *
+  *
+#ISCELL
+  cnpower p3v3 *
+  page11_i3
+#ISCELL
+  cnpower gnd *
+  page11_i4
+#ISCELL
+  standard ioport *
+  page11_i5
+#ISCELL
+  standard outport *
+  page11_i6
+#CELL
+  cnconnector con3p *
+  page11_i7
+#CELL
+  cnpassive rsmd0402 *
+  page11_i8
+#CELL
+  cnpassive rsmd0402 *
+  page11_i9
