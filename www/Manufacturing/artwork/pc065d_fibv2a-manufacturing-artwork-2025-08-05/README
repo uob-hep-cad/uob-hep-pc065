@@ -1,0 +1,106 @@
+
+uob_hep_pc065d
+
+These file describes PCB fabrication and assembly details of a 
+Fibre Interface Board (FIB) for the DUNE Timing System.
+
+
+contact:	David.Cussans@bristol.ac.uk
+		tel: 0117 95 46879
+		     0117 33 17199
+		fax: 0117 925 5624
+
+Files produced by Cadence DE-HDL / Allegro 24.1
+
+Artwork:
+--------
+
+Format: Gerber RS-274X , parameters described in art_param.txt. 
+All layers viewed from top
+
+Build:
+------
+
+Eight Layers as follows:
+
+art_pc065d_L01P.ger
+art_pc065d_L02P.ger
+art_pc065d_L03P.ger
+art_pc065d_L04P.ger
+art_pc065d_L05P.ger
+art_pc065d_L06P.ger
+art_pc065d_L07P.ger
+art_pc065d_L08P.ger
+
+FR4 or similar laminate
+
+35um copper on outers ( after plating )
+18um copper on inners
+
+Solder Masks
+------------
+
+art_pc065d_LSM1.ger
+art_pc065d_LSM2.ger
+
+Colour not critical, suggest green. Photo-imagable.
+
+Solderpaste mask
+-----------------
+
+art_pc065d_SMD1.ger
+art_pc065d_SMD2.ger
+
+Silk screen
+-----------
+
+art_pc065d_POS1.ger
+art_pc065d_POS2.ger
+
+Colour not critical, suggest white.
+
+Assembly Diagram
+-----------------
+
+art_pc065d_ASSEMBLY_TOP.ger
+art_pc065d_ASSEMBLY_BOTTOM.ger
+
+
+Board outline: (Gerber RS-274X)
+-------------------------------
+
+art_pc065d_OUTLINE.ger
+
+For details of FMC standard board outline see ansi_vita_57.1_double_fmc_outline.pdf
+
+Drill figure: ( illustration of hole sizes and position )
+-------------
+
+art_pc065d_DRILL_FIGURE.ger
+
+Drill information ( Excellon format, described in nc_param.txt )
+-----------------
+Plated and unplated holes in same file.
+
+pc065d_fibv2a_toplevel_29-1-8.drl
+
+Bill of Materials
+-----------------
+
+Two "sheets":
+- one line per component type
+- one line per component instance ( includes position information )
+
+pc065d_bom.xlsx
+
+Component placement
+-------------------
+
+pc065d_fibv2a_placement_body_centre.txt
+
+( Position of pin-1 in mm and rotation in degrees of each component )
+
+Fabrication and Assembly information in ODB++ Format:
+-----------------------------------------------------
+
+pc065d_fibv2a_toplevel_29.tgz

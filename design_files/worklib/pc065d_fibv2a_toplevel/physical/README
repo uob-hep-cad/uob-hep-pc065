@@ -76,7 +76,7 @@ For details of FMC standard board outline see ansi_vita_57.1_double_fmc_outline.
 Drill figure: ( illustration of hole sizes and position )
 -------------
 
-art_pc065d_BOHR.ger
+art_pc065d_DRILL_FIGURE.ger
 
 Drill information ( Excellon format, described in nc_param.txt )
 -----------------
@@ -87,16 +87,13 @@ pc065d_fibv2a_toplevel_29-1-8.drl
 Bill of Materials
 -----------------
 
-Two "sheets":
-- one line per component type
-- one line per component instance ( includes position information )
+pc065d_fibv2a_bom.xlsx
 
-pc065d_bom.xlsx
 
 Component placement
 -------------------
 
-placement_body_centre.txt
+pc065d_fibv2a_placement_body_centre.txt
 
 ( Position of pin-1 in mm and rotation in degrees of each component )
 

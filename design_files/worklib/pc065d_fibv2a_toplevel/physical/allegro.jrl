@@ -1,141 +1,365 @@
-\t (00:00:10) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:10)     Journal start - Mon Aug  4 18:00:13 2025
-\t (00:00:10)         Host=IT088130 User=phdgc Pid=59044 CPUs=16
-\t (00:00:10) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2a_toplevel.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr12904 -mpshost IT088130
-\t (00:00:10) 
-\t (00:00:10) Loading axlcore.cxt 
-\t (00:00:11) Opening existing design...
-\i (00:00:11) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2a_toplevel_29"
-\d (00:00:11) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd
-\i (00:00:11) trapsize 580
-\i (00:00:11) trapsize 595
-\i (00:00:11) trapsize 599
-\i (00:00:11) trapsize 497
-\i (00:00:11) trapsize 497
-\t (00:00:11) Loading NV GPU Plugin
-\i (00:00:12) generaledit 
-\i (00:00:18) place manual 
-\i (00:00:18) setwindow form.plc_manual
-\i (00:00:18) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 48.214 26.562
-\i (00:00:20) trapsize 249
-\i (00:00:23) show element 
-\i (00:00:27) setwindow form.find
-\i (00:00:27) FORM find all_off  
-\i (00:00:31) FORM find components YES 
-\i (00:00:44) setwindow pcb
-\i (00:00:44) pick grid 73.529 26.463
-\t (00:00:44) last pick:  73.500 26.500
-\i (00:00:51) setwindow text
-\i (00:00:51) close
-\i (00:01:01) setwindow pcb
-\i (00:01:01) odb_out 
-\t (00:01:01) Valor: Extract out files
-\i (00:01:03) fillin yes 
-\t (00:01:03) extracting technology file
-\t (00:01:03) Starting techfile...
-\t (00:01:04) SpawnProcessExit background process completed status = 0
+\t (00:00:14) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:14)     Journal start - Tue Aug  5 09:33:26 2025
+\t (00:00:14)         Host=IT088130 User=phdgc Pid=22652 CPUs=16
+\t (00:00:14) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2a_toplevel.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr12597 -mpshost IT088130
+\t (00:00:14) 
+\t (00:00:15) Loading axlcore.cxt 
+\t (00:00:18) Opening existing design...
+\i (00:00:18) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2a_toplevel_29"
+\d (00:00:18) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd
+\i (00:00:18) trapsize 290
+\i (00:00:18) trapsize 297
+\i (00:00:18) trapsize 300
+\i (00:00:18) trapsize 249
+\i (00:00:18) trapsize 249
+\t (00:00:19) Loading NV GPU Plugin
+\i (00:00:19) generaledit 
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 58.858 32.381
+\i (00:00:21) trapsize 497
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 58.857 32.381
+\i (00:00:21) trapsize 995
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 58.857 32.382
+\i (00:00:21) trapsize 1989
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 41.596 13.284
+\i (00:00:22) trapsize 995
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in 24.815 14.875
+\i (00:00:22) trapsize 497
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 79.722 25.817
+\i (00:00:23) trapsize 995
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 79.722 25.818
+\i (00:00:23) trapsize 1989
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 110.828 18.461
+\i (00:00:24) trapsize 995
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 61.818 18.462
+\i (00:00:24) trapsize 497
+\i (00:00:28) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:00:28) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:00:29) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 141.394 23.933
+\i (00:00:31) trapsize 249
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 141.395 23.934
+\i (00:00:31) trapsize 124
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 141.394 23.934
+\i (00:00:32) trapsize 62
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 141.394 23.935
+\i (00:00:32) trapsize 31
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 141.394 23.935
+\i (00:00:32) trapsize 16
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 141.394 23.935
+\i (00:00:32) trapsize 8
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 141.394 23.935
+\i (00:00:32) trapsize 4
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 141.394 23.935
+\i (00:00:33) trapsize 8
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 141.394 23.936
+\i (00:00:33) trapsize 16
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 141.394 23.935
+\i (00:00:33) trapsize 31
+\i (00:00:35) roam x -96 
+\i (00:00:35) roam x -96
+\i (00:00:35) roam x -96 
+\i (00:00:35) roam x -96
+\i (00:00:54) copy 
+\t (00:00:54) Select the element(s) to copy.
+\i (00:00:57) setwindow form.find
+\i (00:00:57) FORM find all_off  
+\i (00:00:59) FORM find vias YES 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) pick grid 135.007 23.469
+\t (00:01:09) last pick:  135.000 23.500
+\t (00:01:09) last pick:  135.000 23.500
+\i (00:01:09) paste 
+\t (00:01:09) last pick:  135.000 23.500
+\i (00:01:12) pick grid 136.952 23.469
+\t (00:01:12) last pick:  137.000 23.500
+\i (00:01:14) prepopup 136.990 23.469
+\i (00:01:15) done 
+\i (00:01:15) generaledit 
+\i (00:01:17) move 
+\t (00:01:17) Select element(s) to move.
+\i (00:01:25) setwindow form.mini
+\i (00:01:25) FORM mini move_alignment_display_controls  
+\i (00:01:26) setwindow form.prfedit
+\i (00:01:26) FORM prfedit treelist  My_favorites 
+\i (00:01:26) FORM prfedit treelist  'Align Guides' Display 
+\i (00:01:26) setwindow pcb
+\i (00:01:26) trapsize 31
+\i (00:01:36) setwindow form.prfedit
+\i (00:01:36) FORM prfedit cancel  
+\i (00:01:37) setwindow form.mini
+\i (00:01:37) FORM mini move_enable_dynamic_alignment YES 
+\i (00:01:41) setwindow form.find
+\i (00:01:41) FORM find all_off  
+\i (00:01:42) FORM find vias YES 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) pick grid 136.020 23.451
+\t (00:01:44) last pick:  136.000 23.500
+\t (00:01:44) last pick:  136.000 23.500
+\t (00:01:44) Pick new location for the element(s).
+\i (00:01:50) pick grid 136.952 23.457
+\t (00:01:50) last pick:  137.000 23.500
+\i (00:02:12) zoom out 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom out 137.058 22.935
+\i (00:02:12) trapsize 62
+\i (00:02:12) zoom out 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom out 137.058 22.935
+\i (00:02:12) trapsize 124
+\i (00:02:12) zoom out 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom out 137.059 22.935
+\i (00:02:12) trapsize 249
+\i (00:02:13) zoom in 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom in 137.058 23.034
+\i (00:02:13) trapsize 124
+\i (00:02:30) reports 
+\i (00:02:30) QtSignal StdRep StdRepAvailableReports currentRowChanged 0
+\i (00:02:30) generaledit 
+\i (00:02:35) QtSignal StdRep StdRepAvailableReports currentRowChanged 63
+\i (00:02:35) QtSignal StdRep StdRepAvailableReports itemSelectionChanged "Unplaced Components Report"
+\i (00:02:35) QtSignal StdRep StdRepAvailableReports itemDoubleClicked "Unplaced Components Report"
+\i (00:02:36) QtSignal StdRep StdRepAvailableReports currentRowChanged 62
+\i (00:02:36) QtSignal StdRep StdRepAvailableReports itemSelectionChanged "Unconnected Pins Report"
+\i (00:02:36) QtSignal StdRep StdRepAvailableReports itemDoubleClicked "Unconnected Pins Report"
+\i (00:02:40) QtSignal StdRep StdRepGenerateButton clicked
+\i (00:02:41) setwindow text
+\i (00:02:41) stick
+\i (00:02:41) setwindow text
+\i (00:02:41) stick
+\i (00:02:45) close
+\i (00:02:46) setwindow text
+\i (00:02:46) close
+\i (00:02:53) setwindow pcb
+\i (00:02:53) drc update 
+\t (00:02:53) Performing DRC...
+\t (00:02:53) Multithreaded DRC update (16 threads).
+\t (00:02:53) No DRC errors detected.
+\i (00:02:53) generaledit 
+\i (00:03:33) zoom fit 
+\i (00:03:33) trapsize 497
+\i (00:03:36) save 
+\i (00:03:39) fillin yes 
+\i (00:03:39) generaledit 
+\i (00:03:44) toolswap 
+\i (00:03:50) fillin menu_cancel
+\i (00:03:50) generaledit 
+\i (00:04:13) artwork 
+\i (00:04:14) setwindow form.film_control
+\i (00:04:14) FORM film_control cancel  
+\i (00:04:14) setwindow pcb
+\i (00:04:14) generaledit 
+\i (00:04:18) ncdrill legend 
+\t (00:04:19) Loading mfg.cxt 
+\i (00:04:27) setwindow form.nc_drilllegend
+\i (00:04:27) FORM nc_drilllegend done  
+\i (00:04:30) setwindow pcb
+\i (00:04:30) zoom out 
+\i (00:04:30) setwindow pcb
+\i (00:04:30) zoom out 69.501 38.200
+\i (00:04:30) trapsize 995
+\i (00:04:31) zoom out 
+\i (00:04:31) setwindow pcb
+\i (00:04:31) zoom out 69.500 38.200
+\i (00:04:31) trapsize 1989
+\i (00:04:31) zoom out 
+\i (00:04:31) setwindow pcb
+\i (00:04:31) zoom out 173.691 38.201
+\i (00:04:31) trapsize 2574
+\i (00:04:33) pick grid -8.519 186.769
+\t (00:04:33) last pick:  -8.500 186.800
+\t (00:04:33) NC Drill Legend generation successful
+\i (00:04:33) generaledit 
+\i (00:04:37) artwork 
+\i (00:04:41) setwindow form.film_control
+\i (00:04:41) FORM film_control select_all  
+\i (00:04:44) FORM film_control filmtree  00_working_top 
+\i (00:04:44) FORM film_control filmtree 'MULTISEL NO' 00_working_top 
+\i (00:04:45) FORM film_control filmtree  01_working_bottom 
+\i (00:04:45) FORM film_control filmtree 'MULTISEL NO' 01_working_bottom 
+\i (00:04:59) FORM film_control filmtree  BOHR 
+\i (00:05:27) FORM film_control filmtree RENAME= DRILL_FIGURE 
+\i (00:05:27) FORM film_control filmtree  SMD1 
+\i (00:05:33) FORM film_control create  
+\t (00:05:33) Checking db records
+\t (00:05:33)     checking for orphans...
+\t (00:05:33)     Checked  12 percent
+\t (00:05:33)     Checked  24 percent
+\t (00:05:33)     Checked  36 percent
+\t (00:05:33)     Checked  49 percent
+\t (00:05:33)     Checked  61 percent
+\t (00:05:33)     Checked  73 percent
+\t (00:05:33)     Checked  86 percent
+\t (00:05:33)     Checked  98 percent
+\t (00:05:33)     Checked 100 percent
+\t (00:05:33) Done dbdoctor.
+\t (00:05:33) Starting Create artwork films...
+\t (00:05:34) SpawnProcessExit background process completed status = 1
 
-\t (00:01:05) extracting cross-section report
-\i (00:01:05) reports 'Cross-Section Report' nographic write C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/crosssection_pc065d_fibv2a_toplevel_29.out 
-\w (00:01:05) *WARNING* (): Non-Committed Database Transaction detected, cancelling...
-\t (00:01:05) extracting DFA requirements
-\t (00:01:05) Extracting Analysis Regions
-\t (00:01:05) Extracting Padstack
-\t (00:01:05) extracting Component Properties
-\t (00:01:06)  ----- Valor extract completed successfully with zones ----- 
+\w (00:05:34) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:05:35) Artwork generated with warnings.
+\i (00:05:45) setwindow text
+\i (00:05:45) close
+\i (00:05:48) setwindow form.film_control
+\i (00:05:48) FORM film_control ok  
+\i (00:05:48) setwindow pcb
+\i (00:05:48) generaledit 
+\t (00:05:48) [09:39:00.176712] Periodic Lic check successful
+[09:39:00.701000] Feature usage summary:
+[09:39:00.701000] Allegro_X_Platinum_Layout
+[09:39:00.701000] Allegro_PCB_Productivity_TB
+[09:39:00.701000] Allegro_PCB_RF
+[09:39:00.701000] Allegro_PCB_Harmony_Option
+[09:39:00.701000] Allegro_Venture_PCB_Designer
+[09:39:00.701000] PCB_design_studio
+[09:39:00.701000] Venture_PCB_Schematic
+[09:39:00.701000] Allegro_Venture_PCB_Designer2
 
-\t (00:01:06) Starting ODB++ Inside export...
-\t (00:02:30) Loading mfg.cxt 
-\t (00:02:30) Loading signal.cxt 
-\i (00:02:31) generaledit 
-\i (00:02:36) artwork 
-\i (00:02:37) setwindow form.film_control
-\i (00:02:37) FORM film_control select_all  
-\i (00:02:38) FORM film_control create  
-\t (00:02:38) Checking db records
-\t (00:02:38)     checking for orphans...
-\t (00:02:38)     Checked  12 percent
-\t (00:02:38)     Checked  24 percent
-\t (00:02:38)     Checked  37 percent
-\t (00:02:38)     Checked  49 percent
-\t (00:02:38)     Checked  62 percent
-\t (00:02:38)     Checked  74 percent
-\t (00:02:38)     Checked  87 percent
-\t (00:02:38)     Checked  99 percent
-\t (00:02:38)     Checked 100 percent
-\w (00:02:38) Run batch DRC to correctly regenerate DRC errs.
+\i (00:05:56) nctape_full 
+\i (00:06:01) setwindow form.nc_drill
+\i (00:06:01) FORM nc_drill execute  
+\t (00:06:01) Starting Generating NC Drill...
+\t (00:06:01) SpawnProcessExit background process completed status = 0
 
-\t (00:02:38) Done dbdoctor.
-\t (00:02:38) Starting Create artwork films...
-\t (00:02:39) SpawnProcessExit background process completed status = 1
+\i (00:06:04) FORM nc_drill viewlog  
+\i (00:06:11) setwindow text
+\i (00:06:11) close
+\i (00:06:12) setwindow form.nc_drill
+\i (00:06:12) FORM nc_drill close  
+\i (00:06:12) setwindow pcb
+\i (00:06:12) generaledit 
+\i (00:08:58) plctxt out 
+\i (00:08:59) setwindow form.plctxt
+\i (00:08:59) FORM plctxt browse  
+\i (00:09:06) fillin "menu_cancel"
+\i (00:10:00) FORM plctxt cancel  
+\i (00:10:00) setwindow pcb
+\i (00:10:00) generaledit 
+\i (00:10:10) odb_out 
+\t (00:10:10) Valor: Extract out files
+\i (00:10:11) fillin yes 
+\t (00:10:11) extracting technology file
+\t (00:10:11) Starting techfile...
+\t (00:10:13) SpawnProcessExit background process completed status = 0
 
-\w (00:02:39) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:02:40) Artwork generated with warnings.
-\i (00:02:44) setwindow text
-\i (00:02:44) close
-\i (00:02:49) setwindow pcb
-\i (00:02:49) drc update 
-\t (00:02:50) Performing DRC...
-\t (00:02:50) Multithreaded DRC update (16 threads).
-\t (00:02:50) No DRC errors detected.
-\i (00:02:50) generaledit 
-\i (00:02:53) artwork 
-\i (00:02:55) setwindow form.film_control
-\i (00:02:55) FORM film_control select_all  
-\i (00:02:56) FORM film_control create  
-\t (00:02:56) Checking db records
-\t (00:02:56)     checking for orphans...
-\t (00:02:56)     Checked  12 percent
-\t (00:02:56)     Checked  24 percent
-\t (00:02:56)     Checked  37 percent
-\t (00:02:56)     Checked  49 percent
-\t (00:02:56)     Checked  62 percent
-\t (00:02:56)     Checked  74 percent
-\t (00:02:56)     Checked  87 percent
-\t (00:02:56)     Checked  99 percent
-\t (00:02:56)     Checked 100 percent
-\t (00:02:56) Done dbdoctor.
-\t (00:02:56) Starting Create artwork films...
-\t (00:02:57) SpawnProcessExit background process completed status = 1
+\t (00:10:14) extracting cross-section report
+\i (00:10:14) reports 'Cross-Section Report' nographic write C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/crosssection_pc065d_fibv2a_toplevel_29.out 
+\t (00:10:14) extracting DFA requirements
+\t (00:10:14) Extracting Analysis Regions
+\t (00:10:14) Extracting Padstack
+\t (00:10:15) extracting Component Properties
+\t (00:10:15)  ----- Valor extract completed successfully with zones ----- 
 
-\w (00:02:57) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:02:58) Artwork generated with warnings.
-\i (00:03:26) setwindow text
-\i (00:03:26) close
-\i (00:03:35) setwindow form.film_control
-\i (00:03:35) FORM film_control ok  
-\i (00:03:35) setwindow pcb
-\i (00:03:35) generaledit 
-\i (00:03:40) nctape_full 
-\i (00:03:43) setwindow form.nc_drill
-\i (00:03:43) FORM nc_drill execute  
-\t (00:03:43) Starting Generating NC Drill...
-\t (00:03:44) SpawnProcessExit background process completed status = 0
+\t (00:10:15) Starting ODB++ Inside export...
+\t (00:14:25) Loading signal.cxt 
+\i (00:14:26) generaledit 
+\t (00:14:26) [09:47:38.059000] Periodic Lic check successful
+[09:47:38.059000] Feature usage summary:
+[09:47:38.059000] Allegro_X_Platinum_Layout
+[09:47:38.059000] Allegro_PCB_Productivity_TB
+[09:47:38.059000] Allegro_PCB_RF
+[09:47:38.059000] Allegro_PCB_Harmony_Option
+[09:47:38.059000] Allegro_Venture_PCB_Designer
+[09:47:38.059000] PCB_design_studio
+[09:47:38.059000] Venture_PCB_Schematic
+[09:47:38.059000] Allegro_Venture_PCB_Designer2
 
-\i (00:03:46) FORM nc_drill viewlog  
-\i (00:03:53) setwindow text
-\i (00:03:53) close
-\i (00:03:54) setwindow form.nc_drill
-\i (00:03:54) FORM nc_drill close  
-\i (00:03:54) setwindow pcb
-\i (00:03:54) generaledit 
-\i (00:04:03) exit 
-\e (00:04:03) Do you want to save the changes you made to pc065d_fibv2a_toplevel_29.brd?
-\i (00:04:05) fillin yes 
-\t (00:04:06) Lic Summary:
-[18:04:08.289000] Cdslmd servers: ppl
-[18:04:08.289000] Feature usage summary:
-[18:04:08.289000] Allegro_X_Platinum_Layout
-[18:04:08.289000] Allegro_PCB_Productivity_TB
-[18:04:08.289000] Allegro_PCB_RF
-[18:04:08.289000] Allegro_PCB_Harmony_Option
-[18:04:08.289000] Allegro_Venture_PCB_Designer
-[18:04:08.289000] PCB_design_studio
-[18:04:08.289000] Venture_PCB_Schematic
-[18:04:08.289000] Allegro_Venture_PCB_Designer2
+\i (00:14:37) artwork 
+\i (00:14:41) setwindow form.film_control
+\i (00:14:41) FORM film_control filmtree  DRILL_FIGURE 
+\i (00:14:42) FORM film_control filmtree popup 'Display for Visibility' DRILL_FIGURE 
+\i (00:14:42) setwindow pcb
+\i (00:14:42) updateport CVPane
+\i (00:14:44) zoom in 1 
+\i (00:14:44) setwindow pcb
+\i (00:14:44) zoom in 70.761 108.004
+\i (00:14:44) trapsize 1287
+\i (00:14:44) zoom in 1 
+\i (00:14:44) setwindow pcb
+\i (00:14:44) zoom in -38.120 108.261
+\i (00:14:44) trapsize 644
+\i (00:14:44) zoom in 1 
+\i (00:14:44) setwindow pcb
+\i (00:14:44) zoom in -37.991 108.391
+\i (00:14:44) trapsize 322
+\i (00:14:45) zoom out 1 
+\i (00:14:45) setwindow pcb
+\i (00:14:45) zoom out -27.437 105.237
+\i (00:14:45) trapsize 644
+\i (00:14:47) zoom out 1 
+\i (00:14:47) setwindow pcb
+\i (00:14:47) zoom out -1.054 96.101
+\i (00:14:47) trapsize 1287
+\i (00:14:49) setwindow form.film_control
+\i (00:14:49) FORM film_control ok  
+\i (00:14:49) setwindow pcb
+\i (00:14:49) generaledit 
+\i (00:14:52) zoom fit 
+\i (00:14:52) trapsize 497
+\i (00:14:54) zoom out 
+\i (00:14:54) setwindow pcb
+\i (00:14:54) zoom out 69.501 38.200
+\i (00:14:54) trapsize 995
+\i (00:14:54) zoom out 
+\i (00:14:54) setwindow pcb
+\i (00:14:54) zoom out 69.500 38.200
+\i (00:14:54) trapsize 1989
+\i (00:14:58) roam y -96 
+\i (00:14:58) roam y -96
+\i (00:15:00) save 
+\i (00:15:02) fillin yes 
+\i (00:15:02) generaledit 
+\i (00:15:06) exit 
+\i (00:15:06) QtSignal StdRep StdRep closed
+\t (00:15:06) Lic Summary:
+[09:48:18.020712] Cdslmd servers: ppl
+[09:48:18.545000] Feature usage summary:
+[09:48:18.545000] Allegro_X_Platinum_Layout
+[09:48:18.545000] Allegro_PCB_Productivity_TB
+[09:48:18.545000] Allegro_PCB_RF
+[09:48:18.545000] Allegro_PCB_Harmony_Option
+[09:48:18.545000] Allegro_Venture_PCB_Designer
+[09:48:18.545000] PCB_design_studio
+[09:48:18.545000] Venture_PCB_Schematic
+[09:48:18.545000] Allegro_Venture_PCB_Designer2
 
-\t (00:04:06)     Journal end - Mon Aug  4 18:04:08 2025
+\t (00:15:06)     Journal end - Tue Aug  5 09:48:18 2025

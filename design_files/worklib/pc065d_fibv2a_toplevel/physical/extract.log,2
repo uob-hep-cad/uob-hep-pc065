@@ -1,40 +1,31 @@
 #
-# composite_pad_baseview - basic fields for the COMPOSITE_PAD view
+# Property of Cadence Design Systems, Inc.  All rights reserved.
 #
-COMPOSITE_PAD
-  CLASS
-  PAD_STACK_NAME
-  PAD_STACK_INNER_LAYER
-  PAD_STACK_TYPE
-  GRAPHIC_DATA_NAME
-  GRAPHIC_DATA_NUMBER
-  GRAPHIC_DATA_1
-  GRAPHIC_DATA_2
-  GRAPHIC_DATA_3
-  GRAPHIC_DATA_4
-  START_LAYER_NAME
-  START_LAYER_NUMBER
-  END_LAYER_NAME
-  END_LAYER_NUMBER
-  REFDES
-  PIN_NUMBER
-  PIN_X
-  PIN_Y
-  TEST_POINT
-  VIA_MIRROR
-  VIA_X
-  VIA_Y
-  NET_NAME
-  DRILL_HOLE_NAME
-  DRILL_HOLE_X
-  DRILL_HOLE_Y
-  DRILL_HOLE_PLATING
-  DRILL_FIGURE_CHAR
-  DRILL_FIGURE_SHAPE
-  DRILL_FIGURE_WIDTH
-  DRILL_FIGURE_HEIGHT
-  DRILL_FIGURE_ROTATION
-
-  VIA_NO_SHAPE_CONNECT
-  VIA_PAD_STACK_NAME
-END
+# $Header: cmp_rep_view.txt.v 1.1 12/01/87 ddd Prealpha 
+#
+# File: cmp_rep_view.txt - Component data extract cmd file for 
+#				component list report
+#
+# Revision history:
+#	(0.10) ddd 12/01/87	Preliminary initial version
+#
+#
+COMPONENT
+#
+# Extract: refdes(sort), refdes, device_type, value, tolerance,
+# 	  package, x, y, angle, mirror.
+#
+REFDES_SORT
+REFDES
+COMP_DEVICE_TYPE
+COMP_VALUE
+COMP_TOL
+COMP_PACKAGE
+SYM_X
+SYM_Y
+SYM_ROTATE
+SYM_MIRROR
+ALTERNATE_SYMBOLS
+#
+# end of cmp_rep_view
+#

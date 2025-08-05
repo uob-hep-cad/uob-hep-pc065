@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : pc065d_fibv2a_toplevel_29.brd                 )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Mon Aug  4 18:02:59 2025                      )
+(    Date/Time        : Tue Aug  5 09:38:45 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -396,8 +396,8 @@ Results from parameter file ...
 
 
 ================================================================
-     PROCESSING FILM < BOHR >
-     TO FILE < C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/art_pc065d_BOHR.art > ...
+     PROCESSING FILM < DRILL_FIGURE >
+     TO FILE < C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/art_pc065d_DRILL_FIGURE.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -423,7 +423,7 @@ Results from parameter file ...
   CIRCLE     0.30000                                  DARK 
   CIRCLE     0.50000                                  DARK 
 
-     art_pc065d_BOHR created.
+     art_pc065d_DRILL_FIGURE created.
 
 
 ================================================================
@@ -763,134 +763,6 @@ Results from parameter file ...
      art_pc065d_09_L07P created.
 
 
-================================================================
-     PROCESSING FILM < 00_working_top >
-     TO FILE < C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/art_pc065d_00_working_top.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.000
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.000
-  Offset y:                           0.000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-    WARNING: rectangle or unfilled shape composed 0 width line found at (0.000 0.000)
-           ... ignored.
-
-    WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
-           ... ignored.
-
-
-
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.10000                                  DARK 
-  CIRCLE     0.15000                                  DARK 
-  CIRCLE     0.15200                                  DARK 
-  CIRCLE     0.17000                                  DARK 
-  CIRCLE     0.18000                                  DARK 
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.20300                                  DARK 
-  CIRCLE     0.25000                                  DARK 
-  CIRCLE     0.30000                                  DARK 
-  CIRCLE     0.35000                                  DARK 
-  CIRCLE     0.50000                                  DARK 
-  CIRCLE     0.56000                                  DARK 
-  CIRCLE     0.64000                                  DARK 
-  CIRCLE     0.91400                                  DARK 
-  CIRCLE     1.00000                                  DARK 
-  CIRCLE     1.00100                                  DARK 
-  CIRCLE     1.39700                                  DARK 
-  CIRCLE     1.65000                                  DARK 
-  CIRCLE     1.70000                                  DARK 
-  CIRCLE     1.75000                                  DARK 
-  CIRCLE     4.50000                                  DARK 
-  SQUARE     0.60000                     0.000 NO     DARK 
-  RECTANGLE  0.33000     x 0.76200       0.000 NO     DARK 
-  RECTANGLE  0.38100     x 1.90500       0.000 NO     DARK 
-  RECTANGLE  0.71100     x 0.22900       0.000 NO     DARK 
-  RECTANGLE  0.90000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.45000     x 0.45000       0.000 NO     DARK 
-  RECTANGLE  1.45000     x 0.45000      90.000 NO     DARK 
-  RECTANGLE  1.45000     x 1.20000       0.000 NO     DARK 
-  RECTANGLE  1.45000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.60000     x 0.60000      90.000 NO     DARK 
-  RECTANGLE  1.80000     x 2.50000      90.000 NO     DARK 
-  RECTANGLE  1.90500     x 0.38100       0.000 NO     DARK 
-  RECTANGLE  2.00000     x 0.50000      90.000 NO     DARK 
-  RECTANGLE  2.05000     x 4.05000      90.000 NO     DARK 
-  OBLONG     0.24000     x 0.60000       0.000 NO     DARK 
-  OBLONG     0.24000     x 0.60000      90.000 NO     DARK 
-
-     art_pc065d_00_working_top created with warnings
-
-
-================================================================
-     PROCESSING FILM < 01_working_bottom >
-     TO FILE < C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2a_toplevel/physical/art_pc065d_01_working_bottom.art > ...
-================================================================
-
-  FILM PARAMETERS :
-  ---------------------------------------------------------
-  Undefined line width                0.000
-  Mirror code                         NONE
-  Rotate angle                        NONE
-  Offset x:                           0.000
-  Offset y:                           0.000
-  Plot negative                       NO
-  Suppress unconnected internal pads  NO
-  Draw holes only                     NO
-
-
-
-  APERTURES USED:
-  ---------------------------------------------------------
-  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
-  ---------------------------------------------------------
-  CIRCLE     0.10000                                  DARK 
-  CIRCLE     0.15000                                  DARK 
-  CIRCLE     0.17000                                  DARK 
-  CIRCLE     0.18000                                  DARK 
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.20300                                  DARK 
-  CIRCLE     0.25000                                  DARK 
-  CIRCLE     0.50000                                  DARK 
-  CIRCLE     0.56000                                  DARK 
-  CIRCLE     0.91400                                  DARK 
-  CIRCLE     1.00000                                  DARK 
-  CIRCLE     1.00100                                  DARK 
-  CIRCLE     1.39700                                  DARK 
-  CIRCLE     1.65000                                  DARK 
-  CIRCLE     1.70000                                  DARK 
-  CIRCLE     1.75000                                  DARK 
-  CIRCLE     4.50000                                  DARK 
-  SQUARE     0.60000                     0.000 NO     DARK 
-  RECTANGLE  0.35600     x 0.66000      90.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.50000       0.000 NO     DARK 
-  RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
-  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
-  RECTANGLE  1.05000     x 1.00000      90.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.45000     x 0.45000       0.000 NO     DARK 
-  RECTANGLE  1.45000     x 1.20000       0.000 NO     DARK 
-  RECTANGLE  2.05000     x 4.05000      90.000 NO     DARK 
-  RECTANGLE  2.20000     x 1.05000       0.000 NO     DARK 
-  OBLONG     0.24000     x 0.60000       0.000 NO     DARK 
-  OBLONG     0.24000     x 0.60000      90.000 NO     DARK 
-
-     art_pc065d_01_working_bottom created.
-
-
 ------------------------------------------------------
  SUMMARY:
         art_pc065d_03_L01P created.
@@ -902,7 +774,7 @@ Results from parameter file ...
         art_pc065d_ASSEMBLY_TOP created with warnings
         art_pc065d_SMD1 created.
         art_pc065d_00_OUTLINE created.
-        art_pc065d_BOHR created.
+        art_pc065d_DRILL_FIGURE created.
         art_pc065d_12_POS2 created.
         art_pc065d_01_POS1 created.
         art_pc065d_11_LSM2 created.
@@ -911,7 +783,5 @@ Results from parameter file ...
         art_pc065d_SMD2 created.
         art_pc065d_10_L08P created.
         art_pc065d_09_L07P created.
-        art_pc065d_00_working_top created with warnings
-        art_pc065d_01_working_bottom created.
 
  ARTWORK had warnings
