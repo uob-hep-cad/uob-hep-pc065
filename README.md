@@ -9,4 +9,6 @@ Versions:
 * pc065b_toplevel.cpm - second version. Used for tests with AFC v4. Schematic at https://github.com/uob-hep-cad/uob-hep-pc065/blob/master/www/Schematics/pc065b_toplevel_14may20.pdf
 * pc065c_fibv2_toplevel.cpm -  pre-production prototype - bug in PCB. Re-spun
 * pc065d_fibv2a_toplevel.cpm - Second pre-production prototype. Schematic at https://github.com/uob-hep-cad/uob-hep-pc065/blob/master/www/Schematics/pc065d_fibv2a_toplevel_4aug25.pdf
-  
+
+![FIB v2a top side](www/Docs/docs/fib_v2a_top_IMG_9397.JPG)
+![FIB v2a bottom side](www/Docs/docs/fib_v2a_bottom_IMG_9398.JPG)
