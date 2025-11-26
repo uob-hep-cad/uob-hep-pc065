@@ -4,7 +4,7 @@ Design Files for DUNE Timing System FIB (Fibre Interface Board)
 
 The FIB is a double width FMC format board with LPC connector. 
 
-It is designed to fit on the [Open Hardware AFC board][https://ohwr.org/projects/afc/]. We are grateful to [Altium][https://www.altium.com/] for sponsoring us through their Teams scheme, which facilitates our interactions with [Creotech][https://creotech.pl/] who make the AFC.
+It is designed to fit on the [Open Hardware AFC board](https://ohwr.org/projects/afc/). We are grateful to [Altium](https://www.altium.com/) for sponsoring us through their Teams scheme, which facilitates our technical interactions with [Creotech](https://creotech.pl/) who make the AFC.
 
 Designed using Cadence DE-HDL for schematic capture and Cadence Allegro PCB for layout
 
