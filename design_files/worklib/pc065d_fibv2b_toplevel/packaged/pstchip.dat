@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 26-Feb-2026 AT 12:41:07 }
+{ Packager-XL run on 26-Feb-2026 AT 14:45:00 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -3092,41 +3092,44 @@ df';
       PARENT_PPT_PART='CON4P-MTLW-104-07-L-S-250';
   end_body;
 end_primitive;
-primitive 'INDUCTANCE_0402HP-4.7NH_2%';
+primitive 'FERRITE_SMD-BLM15HG601SN1,MURAA';
   pin
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
-      PINUSE='UNSPEC';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'A'<0>:
       PIN_NUMBER='(1)';
       PIN_GROUP='1';
-      PINUSE='UNSPEC';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
-      PART_NAME='INDUCTANCE';
-      BODY_NAME='INDUCTANCE';
+      CLASS='DISCRETE';
+      PART_NAME='FERRITE';
+      BODY_NAME='FERRITE';
       NO_LOAD_CHECK='TRUE';
       UNKNOWN_LOADING='TRUE';
       NO_IO_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
       PHYS_DES_PREFIX='L';
-      CLASS='DISCRETE';
-      STATUS='';
-      PART_NUMBER='0402HP-4N7XGL_';
-      MANUFACTURER='COILCRAFT';
-      DESCRIPTION='2% High-Q high-L SMD Ceramic Inductor - 0402HP Series';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/ind_coilcraft~
-_0402hp.pdf';
+      STATUS='Preferred';
+      PART_NUMBER='BLM15HG601SN1';
+      MANUFACTURER='MURATA';
+      DESCRIPTION='Chip EMIFIL(R) Inductor Type for GHz Noise Chip Ferrite Bead ~
+BLM15H Series';
+      DATASHEET_URL='';
       PINCOUNT='2';
-      SMD='YES';
-      CASE='0402';
-      JEDEC_TYPE='INDC_0402HP';
-      VALUE='4.7nH';
-      TOL='2%';
-      PARENT_PART_TYPE='INDUCTANCE_0402HP';
-      PARENT_PPT='INDUCTANCE';
-      PARENT_PPT_PART='INDUCTANCE_0402HP-4.7NH_2%';
+      SMD='';
+      CASE='';
+      JEDEC_TYPE='C0402';
+      PARENT_PART_TYPE='FERRITE_SMD';
+      PARENT_PPT='FERRITE';
+      PARENT_PPT_PART='FERRITE_SMD-BLM15HG601SN1,MURATA';
   end_body;
 end_primitive;
 primitive 'INDUCTANCE_0805-0.10UH';

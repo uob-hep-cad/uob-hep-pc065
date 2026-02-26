@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 26-Feb-2026 AT 12:41:07 }
-TIME=' COMPILATION ON 26-Feb-2026 AT 12:41:07';
+{ Packager-XL run on 26-Feb-2026 AT 14:45:00 }
+TIME=' COMPILATION ON 26-Feb-2026 AT 14:45:00';
 primitive '24AA025E48T-I/SN';body '24AA025E48';
     'VCC':'(8)';
     'VSS':'(4)';
@@ -495,9 +495,9 @@ primitive 'CON4P-MTLW-104-07-L-S-250';body 'CON4P';
     'A'<1>:'(2)';
     'A'<0>:'(1)';
 end_primitive;
-primitive 'INDUCTANCE_0402HP-4.7NH_2%';body 'INDUCTANCE';
-    'B'<0>:'(2)';
-    'A'<0>:'(1)';
+primitive 'FERRITE_SMD-BLM15HG601SN1,MURAA';body 'FERRITE';
+    'B'<0>:'(2)';BIDI;
+    'A'<0>:'(1)';BIDI;
 end_primitive;
 primitive 'INDUCTANCE_0805-0.10UH';body 'INDUCTANCE';
     'B'<0>:'(2)';

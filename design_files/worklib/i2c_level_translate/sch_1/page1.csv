@@ -22,9 +22,9 @@ HDL_PORT"IN"8;
 %"TCA9803"
 "1","(375,1800)","0","bris_cds_special","I10";
 ;
-$LOCATION"IC?"
 TYPE"TCA9803DGKR"
 PACK_TYPE"MSOP"
+$LOCATION"IC?"
 CDS_LIB"bris_cds_special"
 CDS_LMAN_SYM_OUTLINE"-200,175,200,-150";
 "EN"9;
@@ -46,8 +46,8 @@ VHDL_INIT"0"1;
 %"RSMD0402"
 "3","(825,2150)","1","cnpassive","I12";
 ;
-$LOCATION"R?"
 VALUE"XX"
+$LOCATION"R?"
 DIST"FLAT"
 MAX_TEMP"RTMAX"
 NEGTOL"RTOL%"
@@ -67,8 +67,8 @@ TOL"1%";
 %"RSMD0402"
 "3","(950,2150)","1","cnpassive","I13";
 ;
-$LOCATION"R?"
 VALUE"XX"
+$LOCATION"R?"
 DIST"FLAT"
 MAX_TEMP"RTMAX"
 NEGTOL"RTOL%"
@@ -88,8 +88,8 @@ TOL"1%";
 %"CAPCERSMDCL2"
 "1","(1100,2150)","1","cnpassive","I14";
 ;
-$LOCATION"C?"
 VALUE"100NF_X7R"
+$LOCATION"C?"
 CDS_LIB"cnpassive"
 VOLTAGE"16V"
 PACK_TYPE"0402"
@@ -143,8 +143,8 @@ VHDL_INIT"0"2;
 %"CAPCERSMDCL2"
 "1","(-575,2150)","1","cnpassive","I5";
 ;
-$LOCATION"C?"
 VALUE"100NF_X7R"
+$LOCATION"C?"
 CDS_LIB"cnpassive"
 VOLTAGE"16V"
 PACK_TYPE"0402"
@@ -165,8 +165,8 @@ VHDL_INIT"1"4;
 %"RSMD0402"
 "2","(-25,1750)","0","cnpassive","I7";
 ;
-$LOCATION"R?"
 VALUE"0R0"
+$LOCATION"R?"
 CDS_LIB"cnpassive"
 VOLTAGE"RVMAX"
 TOL_ON_OFF"ON"
@@ -186,8 +186,8 @@ TOL"1%";
 %"RSMD0402"
 "2","(-375,2150)","1","cnpassive","I8";
 ;
-$LOCATION"R?"
 VALUE"4.7K"
+$LOCATION"R?"
 CDS_LIB"cnpassive"
 VOLTAGE"RVMAX"
 TOL_ON_OFF"ON"
@@ -207,8 +207,8 @@ TOL"1%";
 %"RSMD0402"
 "2","(-250,2150)","1","cnpassive","I9";
 ;
-$LOCATION"R?"
 VALUE"4.7K"
+$LOCATION"R?"
 CDS_LIB"cnpassive"
 VOLTAGE"RVMAX"
 TOL_ON_OFF"ON"

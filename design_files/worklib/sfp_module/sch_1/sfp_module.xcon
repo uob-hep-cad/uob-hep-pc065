@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2026-02-26T12:36:31</modificationTime>
+    <modificationTime>2026-02-26T14:31:56</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="sfp_module" view="sch_1">
       <lastids>
-        <instanceid>26</instanceid>
+        <instanceid>28</instanceid>
         <netid>47</netid>
-        <insttermid>88</insttermid>
+        <insttermid>92</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -215,9 +215,9 @@
           </terms>
         </cell>
         <cell>
-          <id>S9</id>
+          <id>S10</id>
           <library>cndiscrete</library>
-          <name>inductance</name>
+          <name>ferrite</name>
           <view>sym_1</view>
           <parameters>
             <parameter>
@@ -227,12 +227,12 @@
           </parameters>
           <terms>
             <term>
-              <id>T66</id>
+              <id>T82</id>
               <name>a&lt;SIZE-1..0&gt;</name>
               <direction>inout</direction>
             </term>
             <term>
-              <id>T67</id>
+              <id>T83</id>
               <name>b&lt;SIZE-1..0&gt;</name>
               <direction>inout</direction>
             </term>
@@ -378,12 +378,12 @@
           <name>page1_i13</name>
           <powers>
             <power>
-              <name>vee</name>
-              <override>N31</override>
-            </power>
-            <power>
               <name>vcc</name>
               <override>N27</override>
+            </power>
+            <power>
+              <name>vee</name>
+              <override>N31</override>
             </power>
           </powers>
           <pins>
@@ -730,12 +730,12 @@
         </instance>
         <instance>
           <id>I13</id>
-          <cellid>S9</cellid>
+          <cellid>S10</cellid>
           <name>page1_i29</name>
           <pins>
             <pin>
-              <id>M63</id>
-              <termid>T66</termid>
+              <id>M89</id>
+              <termid>T82</termid>
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
@@ -743,8 +743,8 @@
               </connections>
             </pin>
             <pin>
-              <id>M64</id>
-              <termid>T67</termid>
+              <id>M90</id>
+              <termid>T83</termid>
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
@@ -755,12 +755,12 @@
         </instance>
         <instance>
           <id>I14</id>
-          <cellid>S9</cellid>
+          <cellid>S10</cellid>
           <name>page1_i30</name>
           <pins>
             <pin>
-              <id>M65</id>
-              <termid>T66</termid>
+              <id>M91</id>
+              <termid>T82</termid>
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>
@@ -768,8 +768,8 @@
               </connections>
             </pin>
             <pin>
-              <id>M66</id>
-              <termid>T67</termid>
+              <id>M92</id>
+              <termid>T83</termid>
               <msb>0</msb>
               <lsb>0</lsb>
               <connections>

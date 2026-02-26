@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 26-Feb-2026 AT 12:41:07 }
+{ Packager-XL run on 26-Feb-2026 AT 14:45:00 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065D_FIBV2B_TOPLEVEL';
- POST_TIME='26-Feb-2026 AT 12:41:07';
+ POST_TIME='26-Feb-2026 AT 14:45:00';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -3572,400 +3572,416 @@ SECTION_NUMBER 1
 ete/inductance/chips/chips.prt';
 
 PART_NAME
- L4 'INDUCTANCE_0402HP-4.7NH_2%':;
+ L4 'FERRITE_SMD-BLM15HG601SN1,MURAA':;
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I1@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I1@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i1@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page5_i1@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  PATH='I30',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(700,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
- VALUE='4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L5 'INDUCTANCE_0402HP-4.7NH_2%':;
+ L5 'FERRITE_SMD-BLM15HG601SN1,MURAA':;
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I1@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I1@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i1@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page5_i1@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  PATH='I29',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(2975,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
- VALUE='4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L6 'INDUCTANCE_0402HP-4.7NH_2%':
+ L6 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_1';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I2@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I2@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i2@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page5_i2@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  PATH='I30',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(700,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_1',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L7 'INDUCTANCE_0402HP-4.7NH_2%':
+ L7 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_1';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I2@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I2@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i2@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page5_i2@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  PATH='I29',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(2975,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_1',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L8 'INDUCTANCE_0402HP-4.7NH_2%':
+ L8 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_2';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I3@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I3@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i3@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page5_i3@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  PATH='I30',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(700,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_2',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L9 'INDUCTANCE_0402HP-4.7NH_2%':
+ L9 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_2';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I3@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I3@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i3@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page5_i3@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  PATH='I29',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(2975,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_2',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L10 'INDUCTANCE_0402HP-4.7NH_2%':
+ L10 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_3';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I4@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I4@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i4@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page5_i4@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  PATH='I30',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(700,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_3',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L11 'INDUCTANCE_0402HP-4.7NH_2%':
+ L11 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_3';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I4@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE6_I4@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i4@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page5_i4@uob_hep_pc06~
-5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+5a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  PATH='I29',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(2975,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_3',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L12 'INDUCTANCE_0402HP-4.7NH_2%':
+ L12 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_7';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I13@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I13@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page9_i13@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i13@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  PATH='I30',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(700,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_7',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L13 'INDUCTANCE_0402HP-4.7NH_2%':
+ L13 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_7';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I13@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I13@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page9_i13@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i13@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  PATH='I29',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(2975,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_7',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L14 'INDUCTANCE_0402HP-4.7NH_2%':
+ L14 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_6';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I35@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I35@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page9_i35@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i35@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  PATH='I30',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(700,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_6',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L15 'INDUCTANCE_0402HP-4.7NH_2%':
+ L15 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_6';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I35@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I35@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page9_i35@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i35@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  PATH='I29',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(2975,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_6',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L16 'INDUCTANCE_0402HP-4.7NH_2%':
+ L16 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_5';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I45@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I45@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page9_i45@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i45@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  PATH='I30',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(700,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_5',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L17 'INDUCTANCE_0402HP-4.7NH_2%':
+ L17 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_5';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I45@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I45@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page9_i45@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i45@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  PATH='I29',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(2975,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_5',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L18 'INDUCTANCE_0402HP-4.7NH_2%':
+ L18 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_4';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I47@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I47@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I30@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page9_i47@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i47@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i30@cndiscrete.ferrite(chips)',
  PATH='I30',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(700,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_4',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
- L19 'INDUCTANCE_0402HP-4.7NH_2%':
+ L19 'FERRITE_SMD-BLM15HG601SN1,MURAA':
  ROOM='SFP_4';
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I47@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.INDUCTANCE(CHIPS)':
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE9_I47@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1_I29@CNDISCRETE.FERRITE(CHIPS)':
  C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page9_i47@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page6_i47@uob_hep_pc0~
-65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.inductance(chips)',
+65a_lib.sfp_module(sch_1):page1_i29@cndiscrete.ferrite(chips)',
  PATH='I29',
  DRAWING='@UOB_HEP_PC065A_LIB.SFP_MODULE(SCH_1):PAGE1',
  SIZE='1',
+ MODEL='MURATA',
  PHYS_PAGE='1',
  XY='(2975,5500)',
  ROT='0',
  VER='1',
- PACK_TYPE='0402HP',
+ PACK_TYPE='SMD',
  CDS_LIB='cndiscrete',
- CDS_PART_NAME='INDUCTANCE_0402HP-4.7NH_2%',
+ CDS_PART_NAME='FERRITE_SMD-BLM15HG601SN1,MURAA',
  ROOM='SFP_4',
- VALUE='4.7NH_2%',
+ VALUE='BLM15HG601SN1',
  PRIM_FILE='z:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscr~
-ete/inductance/chips/chips.prt';
+ete/ferrite/chips/chips.prt';
 
 PART_NAME
  PX3 'PCOAX-U.FL-R-SMT-1(10)':;
