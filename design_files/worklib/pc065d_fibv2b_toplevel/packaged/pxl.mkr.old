@@ -1,0 +1,16 @@
+(marker_file
+ (version 5.0)
+ (markers
+  (
+   (tool "Packager-XL")
+   (class "LOGICAL")
+   (severity 40)
+   (error_num 563)
+   (short_msg "ERROR(SPCODD-563): The following blocks have netlisting errors: fmc_hpc_generic,sfp_module,i2c_level_translate Fix them in Design Entry HDL before packaging.")
+   (long_msg "ERROR(SPCODD-563): The following blocks have netlisting errors: fmc_hpc_generic,sfp_module,i2c_level_translate Fix them in Design Entry HDL before packaging.
+
+      To view the netlisting errors, run File - Save Hierarchy in Design Entry HDL. When you save the hierarchy, error details are listed in hierwrite_netlister.mkr. To access the .mkr file, choose Tools - Markers, then navigate to <TEMP_DIR>/hierwrite.
+      ")
+  )
+ )
+)

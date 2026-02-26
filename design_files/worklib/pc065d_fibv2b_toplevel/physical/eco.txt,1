@@ -1,0 +1,317 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R134                RSMD0402_0.0625W-XX,1%  67.900   4.900 RSMD0402_1/16W-4.7K,1%
+ R135                RSMD0402_0.0625W-XX,1%  67.900   2.900 RSMD0402_1/16W-4.7K,1%
+ R139                RSMD0402_0.0625W-XX,1%  20.800  26.400 RSMD0402_1/16W-4.7K,1%
+ R140                RSMD0402_0.0625W-XX,1%  20.800  27.500 RSMD0402_1/16W-4.7K,1%
+ R144                RSMD0402_0.0625W-XX,1%  37.200  26.400 RSMD0402_1/16W-4.7K,1%
+ R145                RSMD0402_0.0625W-XX,1%  37.200  27.500 RSMD0402_1/16W-4.7K,1%
+ R149                RSMD0402_0.0625W-XX,1%  60.000  26.400 RSMD0402_1/16W-4.7K,1%
+ R150                RSMD0402_0.0625W-XX,1%  60.000  27.500 RSMD0402_1/16W-4.7K,1%
+ R154                RSMD0402_0.0625W-XX,1%  73.500  26.400 RSMD0402_1/16W-4.7K,1%
+ R155                RSMD0402_0.0625W-XX,1%  73.500  27.500 RSMD0402_1/16W-4.7K,1%
+ R159                RSMD0402_0.0625W-XX,1%  89.600  29.300 RSMD0402_1/16W-4.7K,1%
+ R160                RSMD0402_0.0625W-XX,1%  87.600  29.300 RSMD0402_1/16W-4.7K,1%
+ R164                RSMD0402_0.0625W-XX,1% 103.800  29.300 RSMD0402_1/16W-4.7K,1%
+ R165                RSMD0402_0.0625W-XX,1% 101.800  29.300 RSMD0402_1/16W-4.7K,1%
+ R169                RSMD0402_0.0625W-XX,1% 118.200  29.300 RSMD0402_1/16W-4.7K,1%
+ R170                RSMD0402_0.0625W-XX,1% 116.200  29.300 RSMD0402_1/16W-4.7K,1%
+ R174                RSMD0402_0.0625W-XX,1% 131.400  29.400 RSMD0402_1/16W-4.7K,1%
+ R175                RSMD0402_0.0625W-XX,1% 129.400  29.400 RSMD0402_1/16W-4.7K,1%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R134.2          67.900   4.900 DIST           FLAT
+ R134.2          67.900   4.900 MAX_TEMP       RTMAX
+ R134.2          67.900   4.900 NEGTOL         RTOL%
+ R134.2          67.900   4.900 POSTOL         RTOL%
+ R134.2          67.900   4.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R134.2          67.900   4.900 ROOM           I2C_TR_GEN
+ R134.2          67.900   4.900 SIZE           1
+ R134.2          67.900   4.900 SLOPE          RSMAX
+ R134.2          67.900   4.900 TC1            RTMPL
+ R134.2          67.900   4.900 TC2            RTMPQ
+ R134.2          67.900   4.900 TOL_ON_OFF     ON
+ R134.2          67.900   4.900 XY             (825,2150)
+ R135.2          67.900   2.900 DIST           FLAT
+ R135.2          67.900   2.900 MAX_TEMP       RTMAX
+ R135.2          67.900   2.900 NEGTOL         RTOL%
+ R135.2          67.900   2.900 POSTOL         RTOL%
+ R135.2          67.900   2.900 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R135.2          67.900   2.900 ROOM           I2C_TR_GEN
+ R135.2          67.900   2.900 SIZE           1
+ R135.2          67.900   2.900 SLOPE          RSMAX
+ R135.2          67.900   2.900 TC1            RTMPL
+ R135.2          67.900   2.900 TC2            RTMPQ
+ R135.2          67.900   2.900 TOL_ON_OFF     ON
+ R135.2          67.900   2.900 XY             (950,2150)
+ R139.2          20.800  26.400 DIST           FLAT
+ R139.2          20.800  26.400 MAX_TEMP       RTMAX
+ R139.2          20.800  26.400 NEGTOL         RTOL%
+ R139.2          20.800  26.400 POSTOL         RTOL%
+ R139.2          20.800  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R139.2          20.800  26.400 ROOM           I2C_TR_1
+ R139.2          20.800  26.400 SIZE           1
+ R139.2          20.800  26.400 SLOPE          RSMAX
+ R139.2          20.800  26.400 TC1            RTMPL
+ R139.2          20.800  26.400 TC2            RTMPQ
+ R139.2          20.800  26.400 TOL_ON_OFF     ON
+ R139.2          20.800  26.400 XY             (825,2150)
+ R140.2          20.800  27.500 DIST           FLAT
+ R140.2          20.800  27.500 MAX_TEMP       RTMAX
+ R140.2          20.800  27.500 NEGTOL         RTOL%
+ R140.2          20.800  27.500 POSTOL         RTOL%
+ R140.2          20.800  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R140.2          20.800  27.500 ROOM           I2C_TR_1
+ R140.2          20.800  27.500 SIZE           1
+ R140.2          20.800  27.500 SLOPE          RSMAX
+ R140.2          20.800  27.500 TC1            RTMPL
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R140.2          20.800  27.500 TC2            RTMPQ
+ R140.2          20.800  27.500 TOL_ON_OFF     ON
+ R140.2          20.800  27.500 XY             (950,2150)
+ R144.2          37.200  26.400 DIST           FLAT
+ R144.2          37.200  26.400 MAX_TEMP       RTMAX
+ R144.2          37.200  26.400 NEGTOL         RTOL%
+ R144.2          37.200  26.400 POSTOL         RTOL%
+ R144.2          37.200  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R144.2          37.200  26.400 ROOM           I2C_TR_2
+ R144.2          37.200  26.400 SIZE           1
+ R144.2          37.200  26.400 SLOPE          RSMAX
+ R144.2          37.200  26.400 TC1            RTMPL
+ R144.2          37.200  26.400 TC2            RTMPQ
+ R144.2          37.200  26.400 TOL_ON_OFF     ON
+ R144.2          37.200  26.400 XY             (825,2150)
+ R145.2          37.200  27.500 DIST           FLAT
+ R145.2          37.200  27.500 MAX_TEMP       RTMAX
+ R145.2          37.200  27.500 NEGTOL         RTOL%
+ R145.2          37.200  27.500 POSTOL         RTOL%
+ R145.2          37.200  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R145.2          37.200  27.500 ROOM           I2C_TR_2
+ R145.2          37.200  27.500 SIZE           1
+ R145.2          37.200  27.500 SLOPE          RSMAX
+ R145.2          37.200  27.500 TC1            RTMPL
+ R145.2          37.200  27.500 TC2            RTMPQ
+ R145.2          37.200  27.500 TOL_ON_OFF     ON
+ R145.2          37.200  27.500 XY             (950,2150)
+ R149.2          60.000  26.400 DIST           FLAT
+ R149.2          60.000  26.400 MAX_TEMP       RTMAX
+ R149.2          60.000  26.400 NEGTOL         RTOL%
+ R149.2          60.000  26.400 POSTOL         RTOL%
+ R149.2          60.000  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R149.2          60.000  26.400 ROOM           I2C_TR_3
+ R149.2          60.000  26.400 SIZE           1
+ R149.2          60.000  26.400 SLOPE          RSMAX
+ R149.2          60.000  26.400 TC1            RTMPL
+ R149.2          60.000  26.400 TC2            RTMPQ
+ R149.2          60.000  26.400 TOL_ON_OFF     ON
+ R149.2          60.000  26.400 XY             (825,2150)
+ R150.2          60.000  27.500 DIST           FLAT
+ R150.2          60.000  27.500 MAX_TEMP       RTMAX
+ R150.2          60.000  27.500 NEGTOL         RTOL%
+ R150.2          60.000  27.500 POSTOL         RTOL%
+ R150.2          60.000  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R150.2          60.000  27.500 ROOM           I2C_TR_3
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R150.2          60.000  27.500 SIZE           1
+ R150.2          60.000  27.500 SLOPE          RSMAX
+ R150.2          60.000  27.500 TC1            RTMPL
+ R150.2          60.000  27.500 TC2            RTMPQ
+ R150.2          60.000  27.500 TOL_ON_OFF     ON
+ R150.2          60.000  27.500 XY             (950,2150)
+ R154.2          73.500  26.400 DIST           FLAT
+ R154.2          73.500  26.400 MAX_TEMP       RTMAX
+ R154.2          73.500  26.400 NEGTOL         RTOL%
+ R154.2          73.500  26.400 POSTOL         RTOL%
+ R154.2          73.500  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R154.2          73.500  26.400 ROOM           I2C_TR_4
+ R154.2          73.500  26.400 SIZE           1
+ R154.2          73.500  26.400 SLOPE          RSMAX
+ R154.2          73.500  26.400 TC1            RTMPL
+ R154.2          73.500  26.400 TC2            RTMPQ
+ R154.2          73.500  26.400 TOL_ON_OFF     ON
+ R154.2          73.500  26.400 XY             (825,2150)
+ R155.2          73.500  27.500 DIST           FLAT
+ R155.2          73.500  27.500 MAX_TEMP       RTMAX
+ R155.2          73.500  27.500 NEGTOL         RTOL%
+ R155.2          73.500  27.500 POSTOL         RTOL%
+ R155.2          73.500  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R155.2          73.500  27.500 ROOM           I2C_TR_4
+ R155.2          73.500  27.500 SIZE           1
+ R155.2          73.500  27.500 SLOPE          RSMAX
+ R155.2          73.500  27.500 TC1            RTMPL
+ R155.2          73.500  27.500 TC2            RTMPQ
+ R155.2          73.500  27.500 TOL_ON_OFF     ON
+ R155.2          73.500  27.500 XY             (950,2150)
+ R159.2          89.600  29.300 DIST           FLAT
+ R159.2          89.600  29.300 MAX_TEMP       RTMAX
+ R159.2          89.600  29.300 NEGTOL         RTOL%
+ R159.2          89.600  29.300 POSTOL         RTOL%
+ R159.2          89.600  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R159.2          89.600  29.300 ROOM           I2C_TR_5
+ R159.2          89.600  29.300 SIZE           1
+ R159.2          89.600  29.300 SLOPE          RSMAX
+ R159.2          89.600  29.300 TC1            RTMPL
+ R159.2          89.600  29.300 TC2            RTMPQ
+ R159.2          89.600  29.300 TOL_ON_OFF     ON
+ R159.2          89.600  29.300 XY             (825,2150)
+ R160.2          87.600  29.300 DIST           FLAT
+ R160.2          87.600  29.300 MAX_TEMP       RTMAX
+ R160.2          87.600  29.300 NEGTOL         RTOL%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R160.2          87.600  29.300 POSTOL         RTOL%
+ R160.2          87.600  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R160.2          87.600  29.300 ROOM           I2C_TR_5
+ R160.2          87.600  29.300 SIZE           1
+ R160.2          87.600  29.300 SLOPE          RSMAX
+ R160.2          87.600  29.300 TC1            RTMPL
+ R160.2          87.600  29.300 TC2            RTMPQ
+ R160.2          87.600  29.300 TOL_ON_OFF     ON
+ R160.2          87.600  29.300 XY             (950,2150)
+ R164.2         103.800  29.300 DIST           FLAT
+ R164.2         103.800  29.300 MAX_TEMP       RTMAX
+ R164.2         103.800  29.300 NEGTOL         RTOL%
+ R164.2         103.800  29.300 POSTOL         RTOL%
+ R164.2         103.800  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R164.2         103.800  29.300 ROOM           I2C_TR_6
+ R164.2         103.800  29.300 SIZE           1
+ R164.2         103.800  29.300 SLOPE          RSMAX
+ R164.2         103.800  29.300 TC1            RTMPL
+ R164.2         103.800  29.300 TC2            RTMPQ
+ R164.2         103.800  29.300 TOL_ON_OFF     ON
+ R164.2         103.800  29.300 XY             (825,2150)
+ R165.2         101.800  29.300 DIST           FLAT
+ R165.2         101.800  29.300 MAX_TEMP       RTMAX
+ R165.2         101.800  29.300 NEGTOL         RTOL%
+ R165.2         101.800  29.300 POSTOL         RTOL%
+ R165.2         101.800  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R165.2         101.800  29.300 ROOM           I2C_TR_6
+ R165.2         101.800  29.300 SIZE           1
+ R165.2         101.800  29.300 SLOPE          RSMAX
+ R165.2         101.800  29.300 TC1            RTMPL
+ R165.2         101.800  29.300 TC2            RTMPQ
+ R165.2         101.800  29.300 TOL_ON_OFF     ON
+ R165.2         101.800  29.300 XY             (950,2150)
+ R169.2         118.200  29.300 DIST           FLAT
+ R169.2         118.200  29.300 MAX_TEMP       RTMAX
+ R169.2         118.200  29.300 NEGTOL         RTOL%
+ R169.2         118.200  29.300 POSTOL         RTOL%
+ R169.2         118.200  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R169.2         118.200  29.300 ROOM           I2C_TR_7
+ R169.2         118.200  29.300 SIZE           1
+ R169.2         118.200  29.300 SLOPE          RSMAX
+ R169.2         118.200  29.300 TC1            RTMPL
+ R169.2         118.200  29.300 TC2            RTMPQ
+ R169.2         118.200  29.300 TOL_ON_OFF     ON
+ R169.2         118.200  29.300 XY             (825,2150)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R170.2         116.200  29.300 DIST           FLAT
+ R170.2         116.200  29.300 MAX_TEMP       RTMAX
+ R170.2         116.200  29.300 NEGTOL         RTOL%
+ R170.2         116.200  29.300 POSTOL         RTOL%
+ R170.2         116.200  29.300 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R170.2         116.200  29.300 ROOM           I2C_TR_7
+ R170.2         116.200  29.300 SIZE           1
+ R170.2         116.200  29.300 SLOPE          RSMAX
+ R170.2         116.200  29.300 TC1            RTMPL
+ R170.2         116.200  29.300 TC2            RTMPQ
+ R170.2         116.200  29.300 TOL_ON_OFF     ON
+ R170.2         116.200  29.300 XY             (950,2150)
+ R174.2         131.400  29.400 DIST           FLAT
+ R174.2         131.400  29.400 MAX_TEMP       RTMAX
+ R174.2         131.400  29.400 NEGTOL         RTOL%
+ R174.2         131.400  29.400 POSTOL         RTOL%
+ R174.2         131.400  29.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R174.2         131.400  29.400 ROOM           I2C_TR_8
+ R174.2         131.400  29.400 SIZE           1
+ R174.2         131.400  29.400 SLOPE          RSMAX
+ R174.2         131.400  29.400 TC1            RTMPL
+ R174.2         131.400  29.400 TC2            RTMPQ
+ R174.2         131.400  29.400 TOL_ON_OFF     ON
+ R174.2         131.400  29.400 XY             (825,2150)
+ R175.2         129.400  29.400 DIST           FLAT
+ R175.2         129.400  29.400 MAX_TEMP       RTMAX
+ R175.2         129.400  29.400 NEGTOL         RTOL%
+ R175.2         129.400  29.400 POSTOL         RTOL%
+ R175.2         129.400  29.400 PRIM_FILE      C:/Users/phdgc/Downloads/library/cnpassive/rsmd0402/chips/chips.prt
+ R175.2         129.400  29.400 ROOM           I2C_TR_8
+ R175.2         129.400  29.400 SIZE           1
+ R175.2         129.400  29.400 SLOPE          RSMAX
+ R175.2         129.400  29.400 TC1            RTMPL
+ R175.2         129.400  29.400 TC2            RTMPQ
+ R175.2         129.400  29.400 TOL_ON_OFF     ON
+ R175.2         129.400  29.400 XY             (950,2150)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2a_toplevel/physical/pc065d_fibv2a_toplevel_29.brd         |
+|                                                    Mon Aug  4 17:59:08 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Components changed    :      18                                        |
+|       Slot property added   :     216                                        |
+|                                                                              |
+|   Total ECO changes reported:     234                                        |
+|------------------------------------------------------------------------------|
