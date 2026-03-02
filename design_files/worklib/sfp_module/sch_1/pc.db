@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 24.1 P001 (4234998) 9/4/2024 on Thu Feb 26 14:31:56 2026
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 24.1 P001 (4234998) 9/4/2024 on Mon Mar  2 17:42:10 2026
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -51,13 +51,13 @@
   cnpassive rsmd0402 *
   page1_i25
 #CELL
-  cndiscrete ferrite *
+  bris_cds_discrete mh1005-121y *
   page1_i29
 #ISCELL
   standard inport *
   page1_i3
 #CELL
-  cndiscrete ferrite *
+  bris_cds_discrete mh1005-121y *
   page1_i30
 #CELL
   cnpassive capcersmdcl2 *

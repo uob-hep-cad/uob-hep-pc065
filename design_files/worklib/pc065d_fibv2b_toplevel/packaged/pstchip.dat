@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 26-Feb-2026 AT 14:45:00 }
+{ Packager-XL run on 02-Mar-2026 AT 17:50:34 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -3092,46 +3092,6 @@ df';
       PARENT_PPT_PART='CON4P-MTLW-104-07-L-S-250';
   end_body;
 end_primitive;
-primitive 'FERRITE_SMD-BLM15HG601SN1,MURAA';
-  pin
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      CLASS='DISCRETE';
-      PART_NAME='FERRITE';
-      BODY_NAME='FERRITE';
-      NO_LOAD_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      NO_IO_CHECK='TRUE';
-      PHYS_DES_PREFIX='L';
-      STATUS='Preferred';
-      PART_NUMBER='BLM15HG601SN1';
-      MANUFACTURER='MURATA';
-      DESCRIPTION='Chip EMIFIL(R) Inductor Type for GHz Noise Chip Ferrite Bead ~
-BLM15H Series';
-      DATASHEET_URL='';
-      PINCOUNT='2';
-      SMD='';
-      CASE='';
-      JEDEC_TYPE='C0402';
-      PARENT_PART_TYPE='FERRITE_SMD';
-      PARENT_PPT='FERRITE';
-      PARENT_PPT_PART='FERRITE_SMD-BLM15HG601SN1,MURATA';
-  end_body;
-end_primitive;
 primitive 'INDUCTANCE_0805-0.10UH';
   pin
     'B'<0>:
@@ -3206,6 +3166,46 @@ primitive 'MAX9381_UMAX-VCC=P3V3,VEE=GND';
       POWER_PINS='(GND:5;P3V3:8)';
       PARENT_PART_TYPE='MAX9381_UMAX';
       SCH_MODIFIED_PART='TRUE';
+  end_body;
+end_primitive;
+primitive 'MH1005-121Y_SMD-MH1005-121Y,BOA';
+  pin
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='BI';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='MH1005-121Y';
+      BODY_NAME='MH1005-121Y';
+      NO_LOAD_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_IO_CHECK='TRUE';
+      PHYS_DES_PREFIX='L';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='MH1005-121Y';
+      MANUFACTURER='BOURNS';
+      DESCRIPTION='Ferrite Bead, 0402 [1005 Metric], 120 ohm, 2 A, MH1005 Series~
+, 0.05 ohm, ± 25%';
+      DATASHEET_URL='';
+      PINCOUNT='2';
+      SMD='';
+      CASE='';
+      JEDEC_TYPE='INDC_0402HP';
+      PARENT_PART_TYPE='MH1005-121Y_SMD';
+      PARENT_PPT='MH1005-121Y';
+      PARENT_PPT_PART='MH1005-121Y_SMD-MH1005-121Y,BOURNS';
   end_body;
 end_primitive;
 primitive 'MP20075_REG';
@@ -3760,18 +3760,24 @@ primitive 'SF-0603S300-2';
 end_primitive;
 primitive 'SIT5022AI-2CE-33N-250.000000';
   pin
-    'ENDIS':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'OUTP':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'OUTN':
       PIN_NUMBER='(5)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
+    'OUTP':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'ENDIS':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='SIT5022';
@@ -3789,7 +3795,6 @@ ated Oscillator - SiT5022 Series';
       CASE='7.0x5.0mm';
       JEDEC_TYPE='QFN_5032_6PINS';
       VALUE='250MHz';
-      POWER_PINS='(GND:3;VDD:6)';
       NC_PINS='(2)';
       *='*';
       PARENT_PART_TYPE='SIT5022_145';
@@ -4207,7 +4212,7 @@ primitive 'TMP1075NDRLR-TEXAS INSTRUMENTSA';
       BODY_NAME='TMP1075NDRLR';
       PHYS_DES_PREFIX='IC';
       CLASS='IC';
-      PART_NUMBER='TMP1075NDRLR';
+      PART_NUMBER='';
       JEDEC_TYPE='SOT_DRL_TEX';
       PACK_TYPE='SOT';
       MOUSER_PART_NUMBER='595-TMP1075NDRLR';

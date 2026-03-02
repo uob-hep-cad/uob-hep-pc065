@@ -1,9 +1,9 @@
-Fri Mar 15 10:27:53 2024				Page     1
+Mon Mar  2 17:55:52 2026				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Fri Mar 15 10:27:53 2024
+	Mon Mar  2 17:55:52 2026
 
 ------ Module Refresh Messages ------
 
@@ -17,20 +17,20 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Refresh Symbol                                                   )
 (                                                                     )
-(    Drawing          : pc065c_fibv2_toplevel_10.brd                  )
-(    Software Version : 17.4S011                                      )
-(    Date/Time        : Fri Mar 15 10:27:55 2024                      )
+(    Drawing          : pc065d_fibv2b_toplevel_31.brd                 )
+(    Software Version : 24.1P001                                      )
+(    Date/Time        : Mon Mar  2 17:55:53 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Fri Mar 15 10:27:55 2024				Page     1
+Mon Mar  2 17:55:53 2026				Page     1
 
 
 ------ Symbol Refresh Directives ------
 
-Input design  = '//ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/worklib/pc065~
-b_fibv2_toplevel/physical/pc065c_fibv2_toplevel_10.brd'
+Input design  = 'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_topleve~
+l_31.brd'
 Output design = ''
 
 Update mechanical symbols              = 'NO'
@@ -43,29 +43,68 @@ Reset symbol text and size locations   = 'NO'
 Reset Pin Escapes (fanouts)            = 'NO'
 Ripup Etch                             = 'NO'
 Reset custom drill data                = 'NO'
-Symbol list file                       = 'C:/Users/HASTIN~1/AppData/Local/Temp/#Taaaafe41732.tmp'
+Symbol list file                       = 'C:/Users/phdgc/AppData/Local/Temp/#Taaaabl50996.tmp'
 
 
 ------ Library Paths ------
-PSMPATH =  //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/mu3e/dev/worklib/top/physical 
-           . 
-           .. 
-           Y:/Users/CEG/Central Electronics/Projects/Hastingsp/SLHC/Potting Wirebond Tests/footprints/ 
-           Y:/Users/CEG/Central Electronics/Projects/Hastingsp/SLHC/130nm Double Sided Tape Designs Jan 2018/footprints/ 
-           Y:/users/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/symbols/ 
-           Y:/users/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/formats/ 
+PSMPATH =  . 
+           z:/cad/bris_cdslib/lib_psd14.x/symbols 
+           z:/cad/bris_cdslib/lib_psd14.x/formats 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/passif 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/cap 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/led 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/rel 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/sw 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/mec 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/pwr 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/res 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
+           z:/cad/ral_cdslib/lib_psd15.x/symbols 
+           C:/Users/phdgc/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/24.1.0/downloaded_parts/allegropcb 
 
 PADPATH =  . 
+           symbols 
            .. 
-           //ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/mu3e/dev/worklib/top/physical 
-           //ppfs6.physics.ox.ac.uk/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/pads 
-           Y:/Users/CEG/Central Electronics/Projects/Hastingsp/SLHC/130nm Double Sided Tape Designs Jan 2018/footprints/ 
-           Y:/users/CEG/CEG_Software/Cadence/Shared_Libraries/V16_5/pads/ 
+           ../symbols 
+           /software/CAD/Cadence/SPB17.40.034/share/local/pcb/padstacks 
+           /software/CAD/Cadence/SPB17.40.034/share/pcb/pcb_lib/symbols 
+           /software/CAD/Cadence/SPB17.40.034/share/pcb/allegrolib/symbols 
+           z:/cad/bris_cdslib/lib_psd14.x/pads 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
+           z:/cad/ral_cdslib/lib_psd15.x/pads 
+           ./symbols 
+           z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/pads/ 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           Z:/cad/bris_cdslib/lib_psd14.x/pads 
+           C:/SPB_Data/cis_hep_partslib/Allegro_Library/pads 
+           C:/Users/phdgc/AppData/Roaming/SPB_Data/downloaded_parts/allegropcb 
+           Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           C:/Users/phdgc/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/24.1.0/downloaded_parts/allegropcb 
 
 
 ------ Symbol Refresh Messages ------
 
-'QFN_5032_6PINS'  symbol refreshed successfully.
+'INDC_0402HP'  symbol refreshed successfully.
+
+
+------ Updating padstacks referring to the refreshed shapes and flash symbols.  ------
+
 
 
 ----- Symbol Update Summary ----

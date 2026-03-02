@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : pc065d_fibv2b_toplevel_30.brd                 )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Thu Feb 26 14:45:13 2026                      )
+(    Date/Time        : Mon Mar  2 17:50:40 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,18 +20,18 @@ DRC update:                  Yes
 Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\packaged'
 Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical'
 Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_30.brd'
-New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_30.brd'
+New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -y 1 -z -O C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\physical\pc065d_fibv2b_toplevel_30.brd C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\physical\pc065d_fibv2b_toplevel_30.brd -w C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -y 1 -z -O C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\physical\pc065d_fibv2b_toplevel_30.brd C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\physical\pc065d_fibv2b_toplevel_31.brd -w C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstchip.dat (00:00:00.34)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstchip.dat (00:00:00.38)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxprt.dat 
    Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxprt.dat (00:00:00.00)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxnet.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxnet.dat (00:00:00.00)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -41,11 +41,11 @@ Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc0
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaaj21688.tmp
-	Start time: Thu Feb 26 14:45:13 2026
+	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaaj42000.tmp
+	Start time: Mon Mar  2 17:50:40 2026
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Thu Feb 26 14:45:13 2026
+Finished Constraint Update	Time: Mon Mar  2 17:50:40 2026
 ===========================================================
 
 ------ Library Paths ------
@@ -58,9 +58,6 @@ MODULEPATH =  .
            C:/Users/phdgc/Downloads/aidainnova_tlu-hw/hardware/Cadence/aidainnova_tlu_baseboard_v1a/worklib/fmc_tlu_threshold_discriminator_dual/physical 
 
 PSMPATH =  . 
-           F:/cad/bris_cdslib/lib_psd14.x/symbols 
-           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
-           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
            z:/cad/bris_cdslib/lib_psd14.x/symbols 
            z:/cad/bris_cdslib/lib_psd14.x/formats 
            z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
@@ -100,11 +97,6 @@ PADPATH =  .
            ./symbols 
            z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
            ../../../../cis_hep_partslib/cis_hep_partslib/Allegro_Library/pads/ 
-           F:/cad/bris_cdslib/lib_psd14.x/pads 
-           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
-           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
-           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
-           F:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
            Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
            Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
            Z:/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
@@ -119,9 +111,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Feb 26 14:45:13 2026
+netrev run on Mar 2 17:50:40 2026
    DESIGN NAME : 'PC065D_FIBV2B_TOPLEVEL'
-   PACKAGING ON 26-Feb-2026 AT 14:45:00
+   PACKAGING ON 02-Mar-2026 AT 17:50:34
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -150,6 +142,6 @@ netrev run on Feb 26 14:45:13 2026
  No oversight detected
  No warning detected
 
-cpu time      0:03:54
+cpu time      0:03:01
 elapsed time  0:00:01
 
