@@ -1,0 +1,28 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'MH1005-121Y','MH1005-121Y_SMD';
+  pin
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+  end_pin;
+  body
+    PART_NAME='MH1005-121Y';
+    BODY_NAME='MH1005-121Y';
+    NO_LOAD_CHECK='TRUE';
+    UNKNOWN_LOADING='TRUE';
+    NO_IO_CHECK='TRUE';
+    PHYS_DES_PREFIX='U';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.

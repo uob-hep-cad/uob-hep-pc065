@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MH1005-121Y'
+PHYS_DES_PREFIX=L
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE         | PACK_TYPE | MODEL    = STATUS      | PART_NUMBER   | MANUFACTURER | DESCRIPTION                                                                      | DATASHEET_URL | PINCOUNT | SMD | CASE | JEDEC_TYPE    ;
+{========================================================================================}
+ 'MH1005-121Y' | 'SMD'     | 'BOURNS'(!) = 'Preferred' | 'MH1005-121Y' | 'BOURNS'     | 'Ferrite Bead, 0402 [1005 Metric], 120 ohm, 2 A, MH1005 Series, 0.05 ohm, ± 25%' | ''            | '2'      | ''  | ''   | 'INDC_0402HP'
+
+END_PART
+
+END.
+
