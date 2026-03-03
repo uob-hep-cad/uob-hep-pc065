@@ -1,15 +1,120 @@
-02/26/26  14:42:25		Opening project C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/pc065d_fibv2b_toplevel.cpm
-02/26/26  14:42:25		cdslib C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/cds.lib opened
-02/26/26  14:42:25		Project C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/pc065d_fibv2b_toplevel.cpm opened
-02/26/26  14:42:53		Loading cell ferrite from library cndiscrete
-02/26/26  14:42:53		Loading view sym_2 of cell ferrite
-02/26/26  14:42:53		Loading view sym_1 of cell ferrite
-02/26/26  14:42:53		Loading view chips of cell ferrite
-02/26/26  14:42:53		Loading view part_table of cell ferrite
-02/26/26  14:42:53		Loading file ferrite.ptf of PTF view part_table of cell ferrite
-02/26/26  14:42:53		Loading cell ferrite from library cndiscrete
-02/26/26  14:42:53		Analyzing view relationships of cell ferrite in library cndiscrete
-02/26/26  14:42:53		Completed loading cell ferrite from library cndiscrete
-02/26/26  14:42:53		Starting validations on cell ferrite of library cndiscrete
-02/26/26  14:42:53		Completed validations on cell ferrite of library cndiscrete
-02/26/26  16:32:21		Project C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/pc065d_fibv2b_toplevel.cpm is closed.
+03/03/26  15:39:17		Opening project C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/pc065d_fibv2b_toplevel.cpm
+03/03/26  15:39:17		cdslib C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/cds.lib opened
+03/03/26  15:39:17		Project C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/pc065d_fibv2b_toplevel.cpm opened
+03/03/26  15:39:39		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  15:39:39		Loading view sym_1 of cell sn74axc8t245rhlr
+03/03/26  15:39:39		Loading view chips of cell sn74axc8t245rhlr
+03/03/26  15:39:39		Loading view entity of cell sn74axc8t245rhlr
+03/03/26  15:39:40		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  15:39:40		Analyzing view relationships of cell sn74axc8t245rhlr in library uob_hep_pc065a_lib
+03/03/26  15:39:40		Completed loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  15:39:40		Starting validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  15:39:40		Completed validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:27:19		Loading file part.ptf of PTF view part_table of cell sn74axc8t245rhlr
+03/03/26  16:34:40		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:34:40		Loading view sym_1 of cell sn74axc8t245rhlr
+03/03/26  16:34:40		Loading view chips of cell sn74axc8t245rhlr
+03/03/26  16:34:40		Loading view part_table of cell sn74axc8t245rhlr
+03/03/26  16:34:40		Loading file sn74axc8t245rhlr.ptf of PTF view part_table of cell sn74axc8t245rhlr
+03/03/26  16:34:40		ERROR(SPCODD-27): The row separator on line 15 does not match the header definition.
+      The row separator should exactly match, in number and position, the header definition.
+      You cannot use a pipe ( | ) symbol in the header row and a comma ( , ) in a PPT row as row separators.
+      Ensure that the row separators match the separators defined in the header for the concerned PPT part.
+       
+	Details: The row separator should exactly match in number and in its position with the header definition. The row separator should also be the same character. You cannot use a pipe ( | ) in the header row and a comma ( , ) in a PPT row as the row separator. You could have used a different number of row separators as listed in the header row of the PPT part which generated the problem or you could have forgotten to add the quote ( ' ) for the first property value. As a result, Packager-XL is unable to load the ptf file properly. Ensure that the row separators match the separators defined in the header for the concerned PPT part.
+03/03/26  16:34:40		ERROR(SPCODD-47): Packaging cannot be completed because the file C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\sn74axc8t245rhlr\part_table\sn74axc8t245rhlr.ptf could not be loaded. There might be syntax errors in this file. Ensure that the syntax is correct before proceeding.
+       
+	Details: This error is generated along with another packaging error, which prevents Packager-XL from completing its operation. Fix the other errors that are generated in the pxl.log file and package the design again.
+03/03/26  16:34:40		Could not load view part_table
+03/03/26  16:34:40		Loading view entity of cell sn74axc8t245rhlr
+03/03/26  16:34:40		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:34:40		Analyzing view relationships of cell sn74axc8t245rhlr in library uob_hep_pc065a_lib
+03/03/26  16:34:40		Completed loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:34:40		Starting validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:34:40		Completed validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:36:01		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:36:01		Loading view sym_1 of cell sn74axc8t245rhlr
+03/03/26  16:36:01		Loading view chips of cell sn74axc8t245rhlr
+03/03/26  16:36:01		Loading view part_table of cell sn74axc8t245rhlr
+03/03/26  16:36:01		Loading file sn74axc8t245rhlr.ptf of PTF view part_table of cell sn74axc8t245rhlr
+03/03/26  16:36:01		Loading view entity of cell sn74axc8t245rhlr
+03/03/26  16:36:01		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:36:01		Analyzing view relationships of cell sn74axc8t245rhlr in library uob_hep_pc065a_lib
+03/03/26  16:36:01		Completed loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:36:01		Starting validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:36:01		Completed validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:37:34		Starting validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:37:34		Completed validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:37:46		Completed saving cell sn74axc8t245rhlr in library uob_hep_pc065a_lib with errors/warnings
+03/03/26  16:38:01		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:38:01		Loading view sym_1 of cell sn74axc8t245rhlr
+03/03/26  16:38:01		Loading view chips of cell sn74axc8t245rhlr
+03/03/26  16:38:01		Loading view part_table of cell sn74axc8t245rhlr
+03/03/26  16:38:01		Loading file sn74axc8t245rhlr.ptf of PTF view part_table of cell sn74axc8t245rhlr
+03/03/26  16:38:01		Loading view entity of cell sn74axc8t245rhlr
+03/03/26  16:38:01		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:38:01		Analyzing view relationships of cell sn74axc8t245rhlr in library uob_hep_pc065a_lib
+03/03/26  16:38:01		Completed loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:38:01		Starting validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:38:01		Completed validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:45:23		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:45:23		Loading view sym_1 of cell sn74axc8t245rhlr
+03/03/26  16:45:23		Loading view chips of cell sn74axc8t245rhlr
+03/03/26  16:45:23		Loading view part_table of cell sn74axc8t245rhlr
+03/03/26  16:45:23		Loading file sn74axc8t245rhlr.ptf of PTF view part_table of cell sn74axc8t245rhlr
+03/03/26  16:45:23		Loading view entity of cell sn74axc8t245rhlr
+03/03/26  16:45:23		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:45:23		Analyzing view relationships of cell sn74axc8t245rhlr in library uob_hep_pc065a_lib
+03/03/26  16:45:23		Completed loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
+03/03/26  16:45:23		Starting validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:45:23		Completed validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
+03/03/26  16:49:15		Loading cell wurth_155060ys73200 from library bris_cds_discrete
+03/03/26  16:49:15		Loading view sym_1 of cell wurth_155060ys73200
+03/03/26  16:49:15		Loading view chips of cell wurth_155060ys73200
+03/03/26  16:49:15		Loading view part_table of cell wurth_155060ys73200
+03/03/26  16:49:15		Loading file part.ptf of PTF view part_table of cell wurth_155060ys73200
+03/03/26  16:49:15		Loading view entity of cell wurth_155060ys73200
+03/03/26  16:49:15		Loading cell wurth_155060ys73200 from library bris_cds_discrete
+03/03/26  16:49:15		Analyzing view relationships of cell wurth_155060ys73200 in library bris_cds_discrete
+03/03/26  16:49:15		Completed loading cell wurth_155060ys73200 from library bris_cds_discrete
+03/03/26  16:49:15		Starting validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:49:15		Completed validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:50:28		Starting validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:50:28		Completed validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:50:38		Starting validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:50:38		Completed validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:50:55		Completed saving cell wurth_155060ys73200 in library bris_cds_discrete with errors/warnings
+03/03/26  16:50:59		Starting validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:50:59		Completed validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:55:55		Completed saving cell wurth_155060ys73200 in library bris_cds_discrete with errors/warnings
+03/03/26  16:57:06		Loading cell wurth_155060ys73200 from library bris_cds_discrete
+03/03/26  16:57:06		Loading view sym_1 of cell wurth_155060ys73200
+03/03/26  16:57:06		Loading view chips of cell wurth_155060ys73200
+03/03/26  16:57:06		Loading view part_table of cell wurth_155060ys73200
+03/03/26  16:57:06		Loading file part.ptf of PTF view part_table of cell wurth_155060ys73200
+03/03/26  16:57:06		Loading view entity of cell wurth_155060ys73200
+03/03/26  16:57:06		Loading cell wurth_155060ys73200 from library bris_cds_discrete
+03/03/26  16:57:06		Analyzing view relationships of cell wurth_155060ys73200 in library bris_cds_discrete
+03/03/26  16:57:06		Completed loading cell wurth_155060ys73200 from library bris_cds_discrete
+03/03/26  16:57:06		Starting validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:57:06		Completed validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:57:36		Starting validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:57:36		Completed validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:57:51		Starting validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:57:51		Completed validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:57:51		Completed saving cell wurth_155060ys73200 in library bris_cds_discrete 
+03/03/26  16:59:00		Loading cell wurth_155060ys73200 from library bris_cds_discrete
+03/03/26  16:59:00		Loading view sym_1 of cell wurth_155060ys73200
+03/03/26  16:59:00		Loading view chips of cell wurth_155060ys73200
+03/03/26  16:59:00		Loading view part_table of cell wurth_155060ys73200
+03/03/26  16:59:00		Loading file wurth_155060ys73200.ptf of PTF view part_table of cell wurth_155060ys73200
+03/03/26  16:59:00		Loading view entity of cell wurth_155060ys73200
+03/03/26  16:59:00		Loading cell wurth_155060ys73200 from library bris_cds_discrete
+03/03/26  16:59:00		Analyzing view relationships of cell wurth_155060ys73200 in library bris_cds_discrete
+03/03/26  16:59:00		Completed loading cell wurth_155060ys73200 from library bris_cds_discrete
+03/03/26  16:59:00		Starting validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:59:00		Completed validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:59:30		Starting validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:59:30		Completed validations on cell wurth_155060ys73200 of library bris_cds_discrete
+03/03/26  16:59:31		Completed saving cell wurth_155060ys73200 in library bris_cds_discrete 
+03/03/26  17:01:55		Project C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/pc065d_fibv2b_toplevel.cpm is closed.

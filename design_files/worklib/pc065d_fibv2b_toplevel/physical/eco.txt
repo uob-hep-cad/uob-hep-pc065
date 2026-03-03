@@ -3,19 +3,23 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
+|                                                    Tue Mar  3 16:46:31 2026  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ MAX9381_UMAX-BASE-VCC=P3V3,VEEA
  RSMD0402_1/16W-510,1%
+ SF-0603S300-2_SMD-SF-0603S300-A
+ SN74AXC8T245RHLR_SMD-SN74AXC8TA
+ WURTH_155060YS73200-BASE
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
+|                                                    Tue Mar  3 16:46:31 2026  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -23,16 +27,38 @@
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  C8                  CAPCERSMDCL2_0805-10UF,10V_GEN   2.900  20.900 CAPCERSMDCL2_0805-22UF,6.3V
  C120                CAPCERSMDCL2_0805-10UF,10V_GEN 132.500  21.200 CAPCERSMDCL2_0805-4.7UF,10V
+ DS1                 WURTH_155060YS73200-BASE  16.450  75.600 WURTH_155060YS73200
+ DS2                 WURTH_155060YS73200-BASE  30.700  75.600 WURTH_155060YS73200
+ DS3                 WURTH_155060YS73200-BASE  44.950  75.600 WURTH_155060YS73200
+ DS4                 WURTH_155060YS73200-BASE  59.200  75.600 WURTH_155060YS73200
+ DS5                 WURTH_155060YS73200-BASE  78.100  75.600 WURTH_155060YS73200
+ DS6                 WURTH_155060YS73200-BASE  92.350  75.600 WURTH_155060YS73200
+ DS7                 WURTH_155060YS73200-BASE 106.600  75.600 WURTH_155060YS73200
+ DS8                 WURTH_155060YS73200-BASE 120.850  75.600 WURTH_155060YS73200
+ F1                  SF-0603S300-2_SMD-SF-0603S300-A 131.500   7.100 SF-0603S300-2
+ F2                  SF-0603S300-2_SMD-SF-0603S300-A 135.900   4.000 SF-0603S300-2
+ IC3                 SN74AXC8T245RHLR_SMD-SN74AXC8TA 133.100  55.200 SN74AXC8T245RHLR
+ IC4                 SN74AXC8T245RHLR_SMD-SN74AXC8TA  41.300  11.600 SN74AXC8T245RHLR
+ IC5                 SN74AXC8T245RHLR_SMD-SN74AXC8TA  51.300  11.600 SN74AXC8T245RHLR
+ IC6                 SN74AXC8T245RHLR_SMD-SN74AXC8TA  62.000  11.600 SN74AXC8T245RHLR
  R12                 RSMD0402_1/16W-51,1%   16.900   2.400 RSMD0402_1/16W-49.9,1%
  R17                 RSMD0402_1/16W-51,1%   16.900   6.800 RSMD0402_1/16W-49.9,1%
  R18                 RSMD0402_1/16W-510,1%  14.700   2.400 RSMD0402_1/16W-499,1%
  R19                 RSMD0402_1/16W-510,1%  14.700   6.800 RSMD0402_1/16W-499,1%
+ U3                  MAX9381_UMAX-BASE-VCC=P3V3,VEEA  19.100  29.600 MAX9381_UMAX-VCC=P3V3,VEE=GND
+ U4                  MAX9381_UMAX-BASE-VCC=P3V3,VEEA  33.350  29.600 MAX9381_UMAX-VCC=P3V3,VEE=GND
+ U5                  MAX9381_UMAX-BASE-VCC=P3V3,VEEA  47.600  29.600 MAX9381_UMAX-VCC=P3V3,VEE=GND
+ U6                  MAX9381_UMAX-BASE-VCC=P3V3,VEEA  61.850  29.600 MAX9381_UMAX-VCC=P3V3,VEE=GND
+ U7                  MAX9381_UMAX-BASE-VCC=P3V3,VEEA 123.550  29.600 MAX9381_UMAX-VCC=P3V3,VEE=GND
+ U8                  MAX9381_UMAX-BASE-VCC=P3V3,VEEA 109.300  29.600 MAX9381_UMAX-VCC=P3V3,VEE=GND
+ U9                  MAX9381_UMAX-BASE-VCC=P3V3,VEEA  95.050  29.600 MAX9381_UMAX-VCC=P3V3,VEE=GND
+ U10                 MAX9381_UMAX-BASE-VCC=P3V3,VEEA  80.800  29.600 MAX9381_UMAX-VCC=P3V3,VEE=GND
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
+|                                                    Tue Mar  3 16:46:31 2026  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -88,7 +114,7 @@
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
+|                                                    Tue Mar  3 16:46:31 2026  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -144,7 +170,7 @@
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
 |  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
+|                                                    Tue Mar  3 16:46:31 2026  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -165,17 +191,52 @@
  C120.2         132.500  21.200 XY             (675,2825)
  C121.2          16.900   5.500 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/capcersmdcl2/chips/chips.prt
  DS1.1           16.450  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
+ DS1.1           16.450  75.600 XY             (2250,3225)
  DS2.1           30.700  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
+ DS2.1           30.700  75.600 XY             (2250,3000)
  DS3.1           44.950  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
+ DS3.1           44.950  75.600 XY             (2250,2775)
  DS4.1           59.200  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
+ DS4.1           59.200  75.600 XY             (2250,2550)
  DS5.1           78.100  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
+ DS5.1           78.100  75.600 XY             (2250,2325)
  DS6.1           92.350  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
+ DS6.1           92.350  75.600 XY             (2250,2100)
  DS7.1          106.600  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
+ DS7.1          106.600  75.600 XY             (2250,1850)
  DS8.1          120.850  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
+ DS8.1          120.850  75.600 XY             (2250,1625)
+ F1.2           131.500   7.100 MODEL          BOURNS
  F1.2           131.500   7.100 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/sf#2d0603s300#2d2/chips/chips.prt
+ F1.2           131.500   7.100 XY             (2950,4775)
+ F2.2           135.900   4.000 MODEL          BOURNS
  F2.2           135.900   4.000 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/sf#2d0603s300#2d2/chips/chips.prt
+ F2.2           135.900   4.000 XY             (475,650)
  IC1.4            3.300  26.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnmemory/24aa025e48/chips/chips.prt
  IC2.5            7.400  18.800 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_logic/tmp1075ndrlr/chips/chips.prt
+ IC3.24         133.100  55.200 MODEL          SN74AXC8T245RHLR
+ IC3.24         133.100  55.200 PRIM_FILE      ./worklib/sn74axc8t245rhlr/chips/chips.prt
+ IC3.24         133.100  55.200 XY             (350,2475)
+ IC4.24          41.300  11.600 MODEL          SN74AXC8T245RHLR
+ IC4.24          41.300  11.600 PRIM_FILE      ./worklib/sn74axc8t245rhlr/chips/chips.prt
+ IC4.24          41.300  11.600 XY             (-650,100)
+ IC5.24          51.300  11.600 MODEL          SN74AXC8T245RHLR
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
+|                                                    Tue Mar  3 16:46:31 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC5.24          51.300  11.600 PRIM_FILE      ./worklib/sn74axc8t245rhlr/chips/chips.prt
+ IC5.24          51.300  11.600 XY             (1225,100)
+ IC6.24          62.000  11.600 MODEL          SN74AXC8T245RHLR
+ IC6.24          62.000  11.600 PRIM_FILE      ./worklib/sn74axc8t245rhlr/chips/chips.prt
+ IC6.24          62.000  11.600 XY             (3000,100)
  IC11.8          68.500   3.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_special/tca9803/chips/chips.prt
  IC12.8          24.900  26.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_special/tca9803/chips/chips.prt
  IC14.8          41.300  26.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_special/tca9803/chips/chips.prt
@@ -195,17 +256,6 @@
  J2.G9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
  J2.H9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
  J2.J9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   6  |
-|------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  J2.K9          104.490   8.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnconnector/con400p_40abcdefghjk_vita571/chips/chips.prt
  J7.20           16.440  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnconnector/con20p_sfp/chips/chips.prt
  J12.20          30.690  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnconnector/con20p_sfp/chips/chips.prt
@@ -227,6 +277,17 @@
  L9.2            41.400  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/mh1005#2d121y/chips/chips.prt
  L10.2           60.850  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/mh1005#2d121y/chips/chips.prt
  L11.2           55.650  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/mh1005#2d121y/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
+|                                                    Tue Mar  3 16:46:31 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  L12.2          122.550  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/mh1005#2d121y/chips/chips.prt
  L13.2          117.350  40.100 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/mh1005#2d121y/chips/chips.prt
  L14.2          108.300  40.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/mh1005#2d121y/chips/chips.prt
@@ -251,17 +312,6 @@
  R11.2            6.600  16.400 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R12.2           16.900   2.400 DIST           FLAT
  R12.2           16.900   2.400 MAX_TEMP       RTMAX
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   7  |
-|------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R12.2           16.900   2.400 NEGTOL         RTOL%
  R12.2           16.900   2.400 POSTOL         RTOL%
  R12.2           16.900   2.400 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
@@ -283,6 +333,17 @@
  R17.2           16.900   6.800 SIZE           1
  R17.2           16.900   6.800 SLOPE          RSMAX
  R17.2           16.900   6.800 TC1            RTMPL
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
+|                                                    Tue Mar  3 16:46:31 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R17.2           16.900   6.800 TC2            RTMPQ
  R17.2           16.900   6.800 TOL_ON_OFF     ON
  R17.2           16.900   6.800 XY             (-1375,5400)
@@ -307,17 +368,6 @@
  R19.2           14.700   6.800 TC1            RTMPL
  R19.2           14.700   6.800 TC2            RTMPQ
  R19.2           14.700   6.800 TOL_ON_OFF     ON
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   8  |
-|------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R19.2           14.700   6.800 XY             (-1200,5575)
  R20.2          122.000   6.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R21.2          121.900   8.800 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
@@ -339,6 +389,17 @@
  R37.2           27.850  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R38.2           30.050  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R39.2           31.150  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
+|                                                    Tue Mar  3 16:46:31 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R40.2           32.250  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R41.2           28.950  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R42.2           46.620  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
@@ -363,17 +424,6 @@
  R61.2           93.000  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0603/chips/chips.prt
  R62.2          137.000  17.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R63.2          107.300  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0603/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   9  |
-|------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R64.2          121.500  73.400 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0603/chips/chips.prt
  R65.2          117.700   6.100 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R66.2          130.500  50.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
@@ -395,6 +445,17 @@
  R103.2         120.250  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R104.2         121.350  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R105.2         122.450  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
+|                                                    Tue Mar  3 16:46:31 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R106.2         119.150  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R107.2         108.320  33.360 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R108.2         110.270  33.350 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
@@ -419,17 +480,6 @@
  R127.2          77.500  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R128.2          78.600  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R129.2          79.700  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  10  |
-|------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R130.2          76.400  49.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R131.2          69.100   4.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R132.2          69.100   2.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
@@ -451,6 +501,17 @@
  R148.2          60.000  25.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R149.2          60.000  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R150.2          60.000  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
+|                                                    Tue Mar  3 16:46:31 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R151.2          81.800  26.400 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R152.2          81.800  27.500 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R153.2          73.500  25.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
@@ -475,17 +536,6 @@
  R172.2         129.400  27.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R173.2         132.900  30.800 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R174.2         131.400  29.400 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page  11  |
-|------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R175.2         129.400  29.400 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R182.2         135.900  17.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R183.2         134.800  17.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
@@ -507,35 +557,61 @@
  R201.2           5.300  27.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R202.2           4.000  27.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  R203.2           1.400  27.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
+|                                                    Tue Mar  3 16:46:31 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
  R204.2           2.700  27.200 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
  SFP1.NC         59.200  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnmech/sfp_cage_x4/chips/chips.prt
  SFP2.NC        120.850  41.700 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnmech/sfp_cage_x4/chips/chips.prt
  TP10.1         134.400  48.660 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/tp/chips/chips.prt
  U1.25           28.100  10.900 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_logic/cdclvd110/chips/chips.prt
  U3.7            19.100  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U3.7            19.100  29.600 XY             (-900,5900)
  U4.7            33.350  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U4.7            33.350  29.600 ROOM           SFP_1
+ U4.7            33.350  29.600 XY             (-900,5900)
  U5.7            47.600  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U5.7            47.600  29.600 ROOM           SFP_2
+ U5.7            47.600  29.600 XY             (-900,5900)
  U6.7            61.850  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U6.7            61.850  29.600 ROOM           SFP_3
+ U6.7            61.850  29.600 XY             (-900,5900)
  U7.7           123.550  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U7.7           123.550  29.600 ROOM           SFP_7
+ U7.7           123.550  29.600 XY             (-900,5900)
  U8.7           109.300  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U8.7           109.300  29.600 ROOM           SFP_6
+ U8.7           109.300  29.600 XY             (-900,5900)
  U9.7            95.050  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U9.7            95.050  29.600 ROOM           SFP_5
+ U9.7            95.050  29.600 XY             (-900,5900)
  U10.7           80.800  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U10.7           80.800  29.600 ROOM           SFP_4
+ U10.7           80.800  29.600 XY             (-900,5900)
  U11.4          136.000  23.500 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_special/mp20075_reg/chips/chips.prt
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page  12  |
+|                                                                    Page  13  |
 |------------------------------------------------------------------------------|
 |  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd         |
-|                                                    Tue Mar  3 13:43:01 2026  |
+|                                                    Tue Mar  3 16:46:31 2026  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Comp definitions added:       1                                        |
-|       Components changed    :       6                                        |
-|       Slot property added   :     395                                        |
+|       Comp definitions added:       5                                        |
+|       Components changed    :      28                                        |
+|       Slot property added   :     434                                        |
 |                                                                              |
-|   Total ECO changes reported:     402                                        |
+|   Total ECO changes reported:     467                                        |
 |------------------------------------------------------------------------------|

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : pc065d_fibv2b_toplevel_31.brd                 )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Tue Mar  3 13:43:01 2026                      )
+(    Date/Time        : Tue Mar  3 16:46:31 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -27,7 +27,7 @@ CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstchip.dat (00:00:00.32)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstchip.dat (00:00:00.31)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxprt.dat 
    Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxprt.dat (00:00:00.00)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxnet.dat 
@@ -41,11 +41,11 @@ Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc0
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaaj50812.tmp
-	Start time: Tue Mar  3 13:43:01 2026
+	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaaj34760.tmp
+	Start time: Tue Mar  3 16:46:31 2026
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Tue Mar  3 13:43:01 2026
+Finished Constraint Update	Time: Tue Mar  3 16:46:31 2026
 ===========================================================
 
 ------ Library Paths ------
@@ -111,9 +111,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 3 13:43:00 2026
+netrev run on Mar 3 16:46:30 2026
    DESIGN NAME : 'PC065D_FIBV2B_TOPLEVEL'
-   PACKAGING ON 03-Mar-2026 AT 13:42:54
+   PACKAGING ON 03-Mar-2026 AT 16:46:24
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -142,6 +142,6 @@ netrev run on Mar 3 13:43:00 2026
  No oversight detected
  No warning detected
 
-cpu time      0:02:51
+cpu time      0:02:38
 elapsed time  0:00:01
 

@@ -1,28 +1,53 @@
-\t (00:00:03) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Tue Mar  3 13:43:42 2026
-\t (00:00:03)         Host=IT088130 User=phdgc Pid=52624 CPUs=16
-\t (00:00:03) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr12153 -mpshost IT088130
-\t (00:00:03) 
-\t (00:00:03) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2b_toplevel_32"
-\d (00:00:03) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_32.brd
-\i (00:00:04) trapsize 212
-\i (00:00:04) trapsize 220
-\i (00:00:04) trapsize 212
-\i (00:00:04) trapsize 212
-\i (00:00:04) trapsize 72
-\i (00:00:04) generaledit 
-\i (00:00:10) place manual 
-\i (00:00:10) setwindow form.plc_manual
-\i (00:00:10) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:13) FORM plc_manual cancel  
-\i (00:00:13) setwindow pcb
-\i (00:00:13) generaledit 
-\i (00:00:52) exit 
-\t (00:00:53) Lic Summary:
-[13:44:32.278000] Cdslmd servers: ppl
-[13:44:32.278000] Feature usage summary:
-[13:44:32.278000] PCB_librarian_expert
+\t (00:00:02) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Tue Mar  3 16:47:42 2026
+\t (00:00:02)         Host=IT088130 User=phdgc Pid=41948 CPUs=16
+\t (00:00:02) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr12153 -mpshost IT088130
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2b_toplevel_32"
+\d (00:00:05) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_32.brd
+\i (00:00:05) trapsize 212
+\i (00:00:05) trapsize 220
+\i (00:00:05) trapsize 212
+\i (00:00:06) trapsize 212
+\i (00:00:06) generaledit 
+\i (00:00:09) place manual 
+\i (00:00:09) setwindow form.plc_manual
+\i (00:00:09) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:12) FORM plc_manual cancel  
+\i (00:00:12) setwindow pcb
+\i (00:00:12) generaledit 
+\i (00:00:16) trapsize 200
+\i (00:00:16) trapsize 170
+\i (00:00:16) trapsize 137
+\i (00:00:16) trapsize 134
+\i (00:00:17) trapsize 132
+\i (00:01:05) reports 'Unconnected Pins Report' 
+\i (00:01:05) generaledit 
+\i (00:01:07) setwindow text
+\i (00:01:07) close
+\i (00:07:39) setwindow form.find
+\i (00:07:39) FORM find symbols YES 
+\i (00:07:43) FORM find find_name DS1 
+\i (00:07:43) setwindow pcb
+\i (00:07:43) trapsize 47
+\i (00:07:53) show element 
+\t (00:07:53) [16:55:33.029000] Periodic Lic check successful
+[16:55:33.029000] Feature usage summary:
+[16:55:33.029000] PCB_librarian_expert
 
-\t (00:00:53)     Journal end - Tue Mar  3 13:44:32 2026
+\i (00:07:53) generaledit 
+\i (00:07:55) pick grid 15.895 75.451
+\t (00:07:55) last pick:  15.900 75.500
+\i (00:14:21) exit 
+\t (00:14:21) [17:02:01.048712] Periodic Lic check successful
+[17:02:01.573000] Feature usage summary:
+[17:02:01.573000] PCB_librarian_expert
+
+\t (00:14:22) Lic Summary:
+[17:02:01.294712] Cdslmd servers: ppl
+[17:02:01.819000] Feature usage summary:
+[17:02:01.819000] PCB_librarian_expert
+
+\t (00:14:22)     Journal end - Tue Mar  3 17:02:01 2026

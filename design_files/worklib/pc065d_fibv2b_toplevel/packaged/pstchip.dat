@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 03-Mar-2026 AT 13:42:54 }
+{ Packager-XL run on 03-Mar-2026 AT 16:46:24 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -3044,7 +3044,7 @@ eries.pdf';
       PARENT_PPT_PART='INDUCTANCE_0805-0.10UH';
   end_body;
 end_primitive;
-primitive 'MAX9381_UMAX-VCC=P3V3,VEE=GND';
+primitive 'MAX9381_UMAX-BASE-VCC=P3V3,VEEA';
   pin
     'D_P':
       PIN_NUMBER='(1)';
@@ -3080,6 +3080,8 @@ primitive 'MAX9381_UMAX-VCC=P3V3,VEE=GND';
       POWER_PINS='(GND:5;P3V3:8)';
       PARENT_PART_TYPE='MAX9381_UMAX';
       SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='MAX9381_UMAX';
+      PARENT_PPT_PART='MAX9381_UMAX-BASE';
   end_body;
 end_primitive;
 primitive 'MH1005-121Y_SMD-MH1005-121Y,BOA';
@@ -3604,7 +3606,7 @@ primitive 'RSMD0603_1/16W-270,1%';
       PARENT_PPT_PART='RSMD0603_1/16W-270,1%';
   end_body;
 end_primitive;
-primitive 'SF-0603S300-2';
+primitive 'SF-0603S300-2_SMD-SF-0603S300-A';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -3629,8 +3631,20 @@ primitive 'SF-0603S300-2';
       PART_NAME='SF-0603S300-2';
       BODY_NAME='SF-0603S300-2';
       JEDEC_TYPE='C0603';
-      PHYS_DES_PREFIX='F';
+      PHYS_DES_PREFIX='L';
       CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='SF-0603s300-2';
+      MANUFACTURER='BOURNS';
+      DESCRIPTION='BOURNS - SF-0603S300-2 - Fuse, Surface Mount, 3 A, Slow Blow,~
+ 32 VDC, 0603 [1608 Metric], SF-0603S';
+      DATASHEET_URL='';
+      PINCOUNT='2';
+      SMD='';
+      CASE='';
+      PARENT_PART_TYPE='SF-0603S300-2_SMD';
+      PARENT_PPT='SF-0603S300-2';
+      PARENT_PPT_PART='SF-0603S300-2_SMD-SF-0603S300-2,BOURNS';
   end_body;
 end_primitive;
 primitive 'SIT5022AI-2CE-33N-250.000000';
@@ -3677,41 +3691,8 @@ ated Oscillator - SiT5022 Series';
       PARENT_PPT_PART='SIT5022AI-2CE-33N-250.000000';
   end_body;
 end_primitive;
-primitive 'SN74AXC8T245RHLR';
+primitive 'SN74AXC8T245RHLR_SMD-SN74AXC8TA';
   pin
-    'A1':
-      PIN_NUMBER='(3)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='BI';
-    'A2':
-      PIN_NUMBER='(4)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='BI';
-    'A3':
-      PIN_NUMBER='(5)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='BI';
     'A4':
       PIN_NUMBER='(6)';
       BIDIRECTIONAL='TRUE';
@@ -3745,30 +3726,8 @@ primitive 'SN74AXC8T245RHLR';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='BI';
-    'A7':
-      PIN_NUMBER='(9)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='BI';
-    'A8':
-      PIN_NUMBER='(10)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='BI';
-    'B1':
-      PIN_NUMBER='(21)';
+    'B3':
+      PIN_NUMBER='(19)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -3789,19 +3748,8 @@ primitive 'SN74AXC8T245RHLR';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='BI';
-    'B3':
-      PIN_NUMBER='(19)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='BI';
-    'B4':
-      PIN_NUMBER='(18)';
+    'B1':
+      PIN_NUMBER='(21)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -3813,6 +3761,17 @@ primitive 'SN74AXC8T245RHLR';
       PINUSE='BI';
     'B5':
       PIN_NUMBER='(17)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='BI';
+    'B4':
+      PIN_NUMBER='(18)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -3844,8 +3803,83 @@ primitive 'SN74AXC8T245RHLR';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='BI';
-    'B8':
-      PIN_NUMBER='(14)';
+    'EXPAD'<0>:
+      PIN_NUMBER='(25)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'EXPAD'<1>:
+      PIN_NUMBER='(26)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'EXPAD'<2>:
+      PIN_NUMBER='(27)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'EXPAD'<3>:
+      PIN_NUMBER='(28)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'EXPAD'<4>:
+      PIN_NUMBER='(29)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'GND1':
+      PIN_NUMBER='(12)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='BI';
+    'GND2':
+      PIN_NUMBER='(13)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='BI';
+    'VCCB2':
+      PIN_NUMBER='(24)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'VCCB1':
+      PIN_NUMBER='(23)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'VCCA':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='BI';
+    'A8':
+      PIN_NUMBER='(10)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -3877,28 +3911,6 @@ primitive 'SN74AXC8T245RHLR';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='BI';
-    'GND1':
-      PIN_NUMBER='(12)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='BI';
-    'GND2':
-      PIN_NUMBER='(13)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='BI';
     'OE*':
       PIN_NUMBER='(22)';
       BIDIRECTIONAL='TRUE';
@@ -3910,8 +3922,8 @@ primitive 'SN74AXC8T245RHLR';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='BI';
-    'VCCA':
-      PIN_NUMBER='(1)';
+    'A2':
+      PIN_NUMBER='(4)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -3921,47 +3933,49 @@ primitive 'SN74AXC8T245RHLR';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='BI';
-    'VCCB1':
-      PIN_NUMBER='(23)';
+    'A1':
+      PIN_NUMBER='(3)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
       PINUSE='BI';
-    'VCCB2':
-      PIN_NUMBER='(24)';
+    'A3':
+      PIN_NUMBER='(5)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
       PINUSE='BI';
-    'EXPAD'<0>:
-      PIN_NUMBER='(25)';
+    'B8':
+      PIN_NUMBER='(14)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
       PINUSE='BI';
-    'EXPAD'<1>:
-      PIN_NUMBER='(26)';
+    'A7':
+      PIN_NUMBER='(9)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'EXPAD'<2>:
-      PIN_NUMBER='(27)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'EXPAD'<3>:
-      PIN_NUMBER='(28)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'EXPAD'<4>:
-      PIN_NUMBER='(29)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
       PINUSE='BI';
   end_pin;
   body
@@ -3970,6 +3984,17 @@ primitive 'SN74AXC8T245RHLR';
       JEDEC_TYPE='RHL0024A';
       PHYS_DES_PREFIX='IC';
       CLASS='IC';
+      STATUS='Preferred';
+      PART_NUMBER='SF-0603s300-2';
+      MANUFACTURER='Texas Instruments';
+      DESCRIPTION='TI 8-bit dual-supply bus transceiver';
+      DATASHEET_URL='';
+      PINCOUNT='29';
+      SMD='';
+      CASE='';
+      PARENT_PART_TYPE='SN74AXC8T245RHLR_SMD';
+      PARENT_PPT='SN74AXC8T245RHLR';
+      PARENT_PPT_PART='SN74AXC8T245RHLR_SMD-SN74AXC8T245RHLR,SN74AXC8T245RHLR';
   end_body;
 end_primitive;
 primitive 'TCA9803DGKR';
@@ -4161,7 +4186,7 @@ pdf';
       PARENT_PPT_PART='TYCO_2007132';
   end_body;
 end_primitive;
-primitive 'WURTH_155060YS73200';
+primitive 'WURTH_155060YS73200-BASE';
   pin
     'K':
       PIN_NUMBER='(1)';
@@ -4188,6 +4213,9 @@ primitive 'WURTH_155060YS73200';
       JEDEC_TYPE='155060YS73200';
       PHYS_DES_PREFIX='DS';
       CLASS='DISCRETE';
+      PARENT_PART_TYPE='WURTH_155060YS73200';
+      PARENT_PPT='WURTH_155060YS73200';
+      PARENT_PPT_PART='WURTH_155060YS73200-BASE';
   end_body;
 end_primitive;
 END.

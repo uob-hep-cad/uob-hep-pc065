@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'wurth_155060ys73200'
+PHYS_DES_PREFIX=DS
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE         | PACK_TYPE   | MODEL    = STATUS        | PART_NUMBER     | MANUFACTURER | DESCRIPTION                                                | DATASHEET_URL | PINCOUNT | SMD | CASE | JEDEC_TYPE    ;
+{========================================================================================}
+ '155060YS73200' | 'SMD'     | 'wurth'(!) = 'Preferred' | '155060YS73200' | 'wurth'      | 'Single Colour LEDs WL-SMSW Wtrclr SdVw Ylw 2V 20mA 591nm' | ''            | '2'      | ''  | ''   | '155060YS73200'
+
+END_PART
+
+END.
+
