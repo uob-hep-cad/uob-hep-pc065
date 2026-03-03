@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 03-Mar-2026 AT 16:46:24 }
-TIME=' COMPILATION ON 03-Mar-2026 AT 16:46:24';
+{ Packager-XL run on 03-Mar-2026 AT 18:27:52 }
+TIME=' COMPILATION ON 03-Mar-2026 AT 18:27:52';
 primitive '24AA025E48T-I/SN';body '24AA025E48';
     'VCC':'(8)';
     'VSS':'(4)';
@@ -608,7 +608,7 @@ primitive 'TCA9803DGKR'; body 'TCA9803';
     'VCCB':'(8)';
     'EN':'(5)';IN;
 end_primitive;
-primitive 'TMP1075NDRLR-TEXAS INSTRUMENTSA';body 'TMP1075NDRLR';
+primitive 'TMP112A_SOT-TEXAS INSTRUMENTS,A';body 'TMP112A';
     'SCL':'(1)';
     'GND':'(2)';
     'ALERT':'(3)';
@@ -622,7 +622,7 @@ end_primitive;
 primitive 'TYCO_2007132';body 'SFP_CAGE_X4';
     'NC':'(NC)';
 end_primitive;
-primitive 'WURTH_155060YS73200-BASE';body 'WURTH_155060YS73200';
+primitive 'WURTH_155060YS73200_SMD-155060A';body 'WURTH_155060YS73200';
     'K':'(1)';
     'A':'(2)';
 end_primitive;

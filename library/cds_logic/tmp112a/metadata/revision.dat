@@ -1,0 +1,186 @@
+(Cell	tmp112a
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/03/26,18:04:02)
+
+			(User	phdgc)
+
+			(Path	bris_cds_logic.TMP112A)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	03/03/26,18:04:02)
+
+					(User	phdgc)
+
+					(Path	bris_cds_logic.TMP112A)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006f02e685)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/03/26,18:04:02)
+
+							(User	phdgc)
+
+							(Path	bris_cds_logic.TMP112A)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c3f0387)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000282304f4)
+
+			(Primitives	1
+
+				(Primitive	TMP112A
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/03/26,18:04:02)
+
+							(User	phdgc)
+
+							(Path	bris_cds_logic.TMP112A)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TMP112A
+
+							(PackType	TMP112A)
+
+							(PackType	TMP112A_SOT)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001a520352)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	24.1 P001 (4234998))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b2c0344)
+
+)
+

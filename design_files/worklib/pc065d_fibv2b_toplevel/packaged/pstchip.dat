@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 03-Mar-2026 AT 16:46:24 }
+{ Packager-XL run on 03-Mar-2026 AT 18:27:52 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -4066,7 +4066,7 @@ primitive 'TCA9803DGKR';
       PARENT_PPT_PART='TCA9803DGKR';
   end_body;
 end_primitive;
-primitive 'TMP1075NDRLR-TEXAS INSTRUMENTSA';
+primitive 'TMP112A_SOT-TEXAS INSTRUMENTS,A';
   pin
     'SCL':
       PIN_NUMBER='(1)';
@@ -4106,25 +4106,24 @@ primitive 'TMP1075NDRLR-TEXAS INSTRUMENTSA';
       ALLOW_CONNECT='TRUE';
   end_pin;
   body
-      PART_NAME='TMP1075NDRLR';
+      PART_NAME='TMP112A';
       NO_LOAD_CHECK='TRUE';
       PIN_COUNT='6';
-      BODY_NAME='TMP1075NDRLR';
+      BODY_NAME='TMP112A';
       PHYS_DES_PREFIX='IC';
       CLASS='IC';
       PART_NUMBER='';
       JEDEC_TYPE='SOT_DRL_TEX';
       PACK_TYPE='SOT';
-      MOUSER_PART_NUMBER='595-TMP1075NDRLR';
+      MOUSER_PART_NUMBER='595-TMP112AIDRLR ';
       MOUSER_PRICE/STOCK='https://www.mouser.co.uk/ProductDetail/Texas-Instrumen~
-ts/TMP1075NDRLR';
-      DESCRIPTION='I2C temperature probe. LM75 compatiblehttps://www.ti.com/lit/~
-ds/symlink/tmp1075.pdf';
-      DATASHEET='https://www.ti.com/lit/ds/symlink/tmp1075.pdf';
+ts/TMP112AIDRLR';
+      DESCRIPTION='I2C temperature probe. LM75 / TMP1075 compatible';
+      DATASHEET='https://www.ti.com/lit/gpn/tmp112d';
       HEIGHT='0.6 mm';
-      PARENT_PART_TYPE='TMP1075NDRLR_SOT';
-      PARENT_PPT='TMP1075NDRLR';
-      PARENT_PPT_PART='TMP1075NDRLR-TEXAS INSTRUMENTS,TMP1075NDRLR';
+      PARENT_PART_TYPE='TMP112A_SOT';
+      PARENT_PPT='TMP112A';
+      PARENT_PPT_PART='TMP112A-TEXAS INSTRUMENTS,TMP112AIDRLR';
   end_body;
 end_primitive;
 primitive 'TP_HOLE-0.8MM';
@@ -4186,7 +4185,7 @@ pdf';
       PARENT_PPT_PART='TYCO_2007132';
   end_body;
 end_primitive;
-primitive 'WURTH_155060YS73200-BASE';
+primitive 'WURTH_155060YS73200_SMD-155060A';
   pin
     'K':
       PIN_NUMBER='(1)';
@@ -4213,9 +4212,17 @@ primitive 'WURTH_155060YS73200-BASE';
       JEDEC_TYPE='155060YS73200';
       PHYS_DES_PREFIX='DS';
       CLASS='DISCRETE';
-      PARENT_PART_TYPE='WURTH_155060YS73200';
+      STATUS='Preferred';
+      PART_NUMBER='155060YS73200';
+      MANUFACTURER='wurth';
+      DESCRIPTION='Single Colour LEDs WL-SMSW Wtrclr SdVw Ylw 2V 20mA 591nm';
+      DATASHEET_URL='';
+      PINCOUNT='2';
+      SMD='';
+      CASE='';
+      PARENT_PART_TYPE='WURTH_155060YS73200_SMD';
       PARENT_PPT='WURTH_155060YS73200';
-      PARENT_PPT_PART='WURTH_155060YS73200-BASE';
+      PARENT_PPT_PART='WURTH_155060YS73200_SMD-155060YS73200,WURTH';
   end_body;
 end_primitive;
 END.
