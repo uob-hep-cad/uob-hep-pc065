@@ -1,42 +1,1321 @@
-\t (00:00:04) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Mon Mar  2 17:46:39 2026
-\t (00:00:04)         Host=IT088130 User=phdgc Pid=38608 CPUs=16
-\t (00:00:04) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr32711 -mpshost IT088130
-\t (00:00:04) 
-\t (00:00:04) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2b_toplevel_30"
-\d (00:00:05) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_30.brd
-\i (00:00:05) trapsize 3394
-\i (00:00:05) trapsize 3524
-\i (00:00:05) trapsize 3394
-\i (00:00:05) trapsize 3394
-\i (00:00:06) generaledit 
-\i (00:00:09) zoom in 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom in 19.963 34.271
-\i (00:00:09) trapsize 1697
+\t (00:00:02) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Mon Mar  2 17:51:21 2026
+\t (00:00:02)         Host=IT088130 User=phdgc Pid=50996 CPUs=16
+\t (00:00:02) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr32711 -mpshost IT088130
+\t (00:00:02) 
+\t (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2b_toplevel_31"
+\d (00:00:02) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd
+\i (00:00:03) trapsize 3394
+\i (00:00:03) trapsize 3524
+\i (00:00:03) trapsize 3394
+\i (00:00:03) trapsize 3394
+\i (00:00:03) generaledit 
+\i (00:00:07) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
 \i (00:00:10) zoom in 1 
 \i (00:00:10) setwindow pcb
-\i (00:00:10) zoom in 14.433 34.271
+\i (00:00:10) zoom in 14.533 46.488
+\i (00:00:10) trapsize 1697
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 13.076 46.488
 \i (00:00:10) trapsize 848
-\i (00:00:10) zoom in 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom in 14.603 34.271
-\i (00:00:10) trapsize 424
-\i (00:00:10) zoom in 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom in 14.687 34.271
-\i (00:00:10) trapsize 212
-\i (00:00:14) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
-\i (00:03:28) xrefdes L4 
-\i (00:03:28) xrefdes L4 
-\i (00:03:28) xname_flush 
-\i (00:03:28) trapsize 76
-\i (00:03:47) exit 
-\t (00:03:47) Lic Summary:
-[17:50:22.180712] Cdslmd servers: ppl
-[17:50:22.705000] Feature usage summary:
-[17:50:22.705000] PCB_librarian_expert
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 16.639 40.550
+\i (00:00:12) trapsize 424
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 16.639 40.550
+\i (00:00:12) trapsize 212
+\i (00:00:13) zoom in 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom in 16.640 40.550
+\i (00:00:13) trapsize 106
+\i (00:00:21) show element 
+\i (00:00:24) pick grid 18.082 39.702
+\t (00:00:24) last pick:  18.100 39.700
+\i (00:00:36) refresh symbol 
+\i (00:00:39) setwindow form.upd_element
+\i (00:00:39) FORM upd_element tree  'Package symbols' 
+\i (00:00:49) FORM upd_element tree  INDC_0402HP 'Package symbols' 
+\i (00:00:49) FORM upd_element tree 'MULTISEL YES' INDC_0402HP 'Package symbols' 
+\i (00:00:52) FORM upd_element refresh  
+\t (00:00:52) Starting Refresh Symbol...
+\t (00:00:53) SpawnProcessExit background process completed status = 2
 
-\t (00:03:47)     Journal end - Mon Mar  2 17:50:22 2026
+\e (00:00:53) ERROR(SPMHGE-268): refresh_symbol had errors, use Viewlog to review the log file.
+\i (00:01:29) FORM upd_element close  
+\i (00:01:29) setwindow pcb
+\i (00:01:29) generaledit 
+\i (00:01:31) setwindow text
+\i (00:01:31) close
+\i (00:01:33) setwindow pcb
+\i (00:01:33) open 
+\i (00:03:15) fillin "Z:/cad/bris_cdslib/lib_psd14.x/symbols/indc_0402hp.dra"
+\i (00:03:15) cd "Z:/cad/bris_cdslib/lib_psd14.x/symbols"
+\t (00:03:15) Opening existing design...
+\e (00:03:15) ERROR(SPMHDB-181): The current version of software is unable to open design Z:/cad/bris_cdslib/lib_psd14.x/symbols/indc_0402hp.dra.
+The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
+\e (00:03:15) ERROR(SPMHDB-181): The current version of software is unable to open design Z:/cad/bris_cdslib/lib_psd14.x/symbols/indc_0402hp.dra.
+The design was last saved using version 15.0 and must be updated using DB Doctor. [help]
+\i (00:03:19) fillin confirm
+\t (00:03:19) Starting new design...
+\i (00:03:19) trapsize 1111
+\i (00:03:20) trapsize 1154
+\i (00:03:20) trapsize 1111
+\i (00:03:20) trapsize 1760
+\i (00:03:25) fillin "menu_cancel"
+\i (00:03:25) generaledit 
+\i (00:04:22) opencd C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd 
+\t (00:04:22) Opening existing design...
+\i (00:04:23) trapsize 3394
+\d (00:04:23) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_31.brd
+\i (00:04:23) generaledit 
+\i (00:04:27) refresh symbol 
+\i (00:04:29) setwindow form.upd_element
+\i (00:04:29) FORM upd_element tree  'Package symbols' 
+\i (00:04:32) FORM upd_element tree  INDC_0402HP 'Package symbols' 
+\i (00:04:32) FORM upd_element tree 'MULTISEL YES' INDC_0402HP 'Package symbols' 
+\i (00:04:33) FORM upd_element refresh  
+\t (00:04:33) Starting Refresh Symbol...
+\t (00:04:34) SpawnProcessExit background process completed status = 0
+
+\t (00:04:34) Opening existing design...
+\i (00:04:35) setwindow pcb
+\i (00:04:35) trapsize 3394
+\i (00:04:38) setwindow form.upd_element
+\i (00:04:38) FORM upd_element close  
+\i (00:04:38) setwindow pcb
+\i (00:04:38) generaledit 
+\i (00:04:40) trapsize 1159
+\i (00:04:46) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:04:48) zoom in 1 
+\i (00:04:48) setwindow pcb
+\i (00:04:48) zoom in 18.735 40.570
+\i (00:04:48) trapsize 579
+\i (00:04:49) zoom in 1 
+\i (00:04:49) setwindow pcb
+\i (00:04:49) zoom in 15.061 40.686
+\i (00:04:49) trapsize 290
+\i (00:04:49) zoom in 1 
+\i (00:04:49) setwindow pcb
+\i (00:04:49) zoom in 15.178 40.918
+\i (00:04:49) trapsize 145
+\i (00:04:49) zoom in 1 
+\i (00:04:49) setwindow pcb
+\i (00:04:49) zoom in 15.178 40.947
+\i (00:04:49) trapsize 72
+\i (00:04:50) zoom in 1 
+\i (00:04:50) setwindow pcb
+\i (00:04:50) zoom in 15.206 40.962
+\i (00:04:50) trapsize 36
+\i (00:05:03) zoom in 1 
+\t (00:05:03) [17:56:22.198000] Periodic Lic check successful
+[17:56:22.198000] Feature usage summary:
+[17:56:22.198000] PCB_librarian_expert
+
+\i (00:05:03) setwindow pcb
+\i (00:05:03) zoom in 13.098 39.636
+\i (00:05:03) trapsize 18
+\i (00:05:03) zoom in 1 
+\i (00:05:03) setwindow pcb
+\i (00:05:03) zoom in 13.099 39.636
+\i (00:05:03) trapsize 9
+\i (00:05:07) add connect 
+\t (00:05:08) Pick first element.
+\i (00:05:10) pick grid 12.865 39.653
+\t (00:05:10) last pick:  12.900 39.700
+\t (00:05:10) last pick:  12.900 39.650
+\t (00:05:10) Target Odd-angle Line Segment is defined on BOTTOM.
+\t (00:05:10) last pick:  12.900 39.650
+\i (00:05:10) mouse_pos 12.865 39.653
+\i (00:05:11) pick grid 12.912 39.645
+\t (00:05:11) last pick:  12.900 39.600
+\t (00:05:11) No DRC errors detected.
+\t (00:05:11) Pick first element.
+\i (00:05:12) zoom out 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom out 14.437 39.564
+\i (00:05:12) trapsize 18
+\i (00:05:12) zoom out 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom out 14.441 39.585
+\i (00:05:12) trapsize 36
+\i (00:05:15) zoom in 1 
+\i (00:05:15) setwindow pcb
+\i (00:05:15) zoom in 18.071 39.760
+\i (00:05:15) trapsize 18
+\i (00:05:15) zoom in 1 
+\i (00:05:15) setwindow pcb
+\i (00:05:15) zoom in 18.071 39.760
+\i (00:05:15) trapsize 9
+\i (00:05:16) pick grid 18.100 39.760
+\t (00:05:16) last pick:  18.100 39.800
+\t (00:05:16) Pick first element.
+\t (00:05:16) last pick:  18.100 39.750
+\t (00:05:16) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:05:16) last pick:  18.100 39.750
+\i (00:05:17) pick grid 18.100 39.760
+\t (00:05:17) last pick:  18.100 39.800
+\t (00:05:17) No DRC errors detected.
+\t (00:05:17) Pick first element.
+\i (00:05:18) zoom out 1 
+\i (00:05:18) setwindow pcb
+\i (00:05:18) zoom out 18.100 39.760
+\i (00:05:18) trapsize 18
+\i (00:05:18) zoom out 1 
+\i (00:05:18) setwindow pcb
+\i (00:05:18) zoom out 18.101 39.760
+\i (00:05:18) trapsize 36
+\i (00:05:18) roam x 96 
+\i (00:05:18) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:19) roam x 96 
+\i (00:05:19) roam x 96
+\i (00:05:20) roam x 96 
+\i (00:05:20) roam x 96
+\i (00:05:20) zoom in 1 
+\i (00:05:20) setwindow pcb
+\i (00:05:20) zoom in 27.420 39.659
+\i (00:05:20) trapsize 18
+\i (00:05:20) zoom in 1 
+\i (00:05:20) setwindow pcb
+\i (00:05:20) zoom in 27.420 39.660
+\i (00:05:20) trapsize 9
+\i (00:05:21) zoom in 1 
+\i (00:05:21) setwindow pcb
+\i (00:05:21) zoom in 27.420 39.660
+\i (00:05:21) trapsize 5
+\i (00:05:24) pick grid 27.153 39.658
+\t (00:05:24) last pick:  27.200 39.700
+\t (00:05:24) Pick first element.
+\t (00:05:24) last pick:  27.150 39.650
+\t (00:05:24) Target Odd-angle Line Segment is defined on BOTTOM.
+\t (00:05:24) last pick:  27.150 39.650
+\i (00:05:24) pick grid 27.153 39.658
+\t (00:05:24) last pick:  27.200 39.700
+\t (00:05:24) No DRC errors detected.
+\t (00:05:24) Pick first element.
+\i (00:05:25) zoom out 1 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) zoom out 27.153 39.658
+\i (00:05:25) trapsize 9
+\i (00:05:25) zoom out 1 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) zoom out 27.152 39.658
+\i (00:05:25) trapsize 18
+\i (00:05:26) roam x 96 
+\i (00:05:26) roam x 96
+\i (00:05:26) roam x 96 
+\i (00:05:26) roam x 96
+\i (00:05:26) roam x 96 
+\i (00:05:26) roam x 96
+\i (00:05:26) roam x 96 
+\i (00:05:26) roam x 96
+\i (00:05:26) roam x 96 
+\i (00:05:26) roam x 96
+\i (00:05:26) roam x 96 
+\i (00:05:26) roam x 96
+\i (00:05:26) roam x 96 
+\i (00:05:26) roam x 96
+\i (00:05:26) roam x 96 
+\i (00:05:26) roam x 96
+\i (00:05:26) roam x 96 
+\i (00:05:26) roam x 96
+\i (00:05:33) slide 
+\t (00:05:33) Pick element to slide.
+\i (00:05:34) pick grid 32.269 39.760
+\t (00:05:34) last pick:  32.300 39.800
+\t (00:05:34) last pick:  32.269 39.765
+\t (00:05:34) Waiting for the destination pick.
+\i (00:05:38) pick grid 32.352 39.753
+\t (00:05:38) last pick:  32.400 39.800
+\t (00:05:38) No DRC errors detected.
+\t (00:05:38) Pick another element to slide.
+\i (00:05:39) pick grid 32.371 39.818
+\t (00:05:39) last pick:  32.400 39.800
+\t (00:05:39) last pick:  32.350 39.799
+\t (00:05:39) Waiting for the destination pick.
+\i (00:05:44) undo 
+\i (00:05:44) trapsize 18
+\i (00:05:44) generaledit 
+\i (00:05:46) undo 
+\i (00:05:46) trapsize 18
+\i (00:05:46) generaledit 
+\i (00:05:47) undo 
+\i (00:05:47) trapsize 5
+\i (00:05:47) generaledit 
+\i (00:05:54) add connect 
+\t (00:05:54) Pick first element.
+\i (00:05:56) pick grid 27.143 39.660
+\t (00:05:56) last pick:  27.100 39.700
+\t (00:05:56) last pick:  27.150 39.650
+\t (00:05:56) Target Odd-angle Line Segment is defined on BOTTOM.
+\t (00:05:56) last pick:  27.150 39.650
+\i (00:05:56) mouse_pos 27.143 39.660
+\i (00:05:56) pick grid 27.143 39.660
+\t (00:05:56) last pick:  27.100 39.700
+\t (00:05:56) No DRC errors detected.
+\t (00:05:56) Pick first element.
+\i (00:05:57) zoom out 1 
+\i (00:05:57) setwindow pcb
+\i (00:05:57) zoom out 27.143 39.660
+\i (00:05:57) trapsize 9
+\i (00:05:57) zoom out 1 
+\i (00:05:57) setwindow pcb
+\i (00:05:57) zoom out 27.142 39.660
+\i (00:05:57) trapsize 18
+\i (00:05:57) zoom out 1 
+\i (00:05:57) setwindow pcb
+\i (00:05:57) zoom out 27.142 39.660
+\i (00:05:57) trapsize 36
+\i (00:05:58) roam x 96 
+\i (00:05:58) roam x 96
+\i (00:05:58) zoom in 1 
+\i (00:05:58) setwindow pcb
+\i (00:05:58) zoom in 32.442 39.601
+\i (00:05:58) trapsize 18
+\i (00:05:58) zoom in 1 
+\i (00:05:58) setwindow pcb
+\i (00:05:58) zoom in 32.441 39.602
+\i (00:05:58) trapsize 9
+\i (00:05:58) zoom in 1 
+\i (00:05:58) setwindow pcb
+\i (00:05:58) zoom in 32.441 39.608
+\i (00:05:59) trapsize 5
+\i (00:06:01) pick grid 32.350 39.759
+\t (00:06:01) last pick:  32.400 39.800
+\t (00:06:01) Pick first element.
+\t (00:06:01) last pick:  32.350 39.750
+\t (00:06:01) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:06:01) last pick:  32.350 39.750
+\i (00:06:01) mouse_pos 32.350 39.759
+\i (00:06:01) pick grid 32.350 39.759
+\t (00:06:01) last pick:  32.400 39.800
+\t (00:06:01) No DRC errors detected.
+\t (00:06:01) Pick first element.
+\i (00:06:02) zoom out 1 
+\i (00:06:02) setwindow pcb
+\i (00:06:02) zoom out 32.350 39.758
+\i (00:06:02) trapsize 9
+\i (00:06:02) zoom out 1 
+\i (00:06:02) setwindow pcb
+\i (00:06:02) zoom out 32.350 39.758
+\i (00:06:02) trapsize 18
+\i (00:06:03) zoom out 1 
+\i (00:06:03) setwindow pcb
+\i (00:06:03) zoom out 32.351 39.757
+\i (00:06:03) trapsize 36
+\i (00:06:03) zoom out 1 
+\i (00:06:03) setwindow pcb
+\i (00:06:03) zoom out 32.351 39.758
+\i (00:06:03) trapsize 72
+\i (00:06:03) zoom out 1 
+\i (00:06:03) setwindow pcb
+\i (00:06:03) zoom out 32.350 39.757
+\i (00:06:03) trapsize 145
+\i (00:06:04) roam x 96 
+\i (00:06:04) roam x 96
+\i (00:06:05) roam x 96 
+\i (00:06:05) roam x 96
+\i (00:06:05) zoom in 1 
+\i (00:06:05) setwindow pcb
+\i (00:06:05) zoom in 37.738 39.757
+\i (00:06:05) trapsize 72
+\i (00:06:05) zoom in 1 
+\i (00:06:05) setwindow pcb
+\i (00:06:05) zoom in 37.738 39.757
+\i (00:06:05) trapsize 36
+\i (00:06:06) roam x 96 
+\i (00:06:06) roam x 96
+\i (00:06:06) roam x 96 
+\i (00:06:06) roam x 96
+\i (00:06:06) roam x 96 
+\i (00:06:06) roam x 96
+\i (00:06:06) roam x 96 
+\i (00:06:06) roam x 96
+\i (00:06:07) zoom in 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom in 41.585 39.649
+\i (00:06:07) trapsize 18
+\i (00:06:07) zoom in 1 
+\i (00:06:07) setwindow pcb
+\i (00:06:07) zoom in 41.585 39.649
+\i (00:06:07) trapsize 9
+\i (00:06:09) pick grid 41.410 39.657
+\t (00:06:09) last pick:  41.400 39.700
+\t (00:06:09) Pick first element.
+\t (00:06:09) last pick:  41.400 39.650
+\t (00:06:09) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:06:09) last pick:  41.400 39.650
+\i (00:06:09) mouse_pos 41.410 39.657
+\i (00:06:10) pick grid 41.410 39.657
+\t (00:06:10) last pick:  41.400 39.700
+\t (00:06:10) No DRC errors detected.
+\t (00:06:10) Pick first element.
+\i (00:06:11) roam x 96 
+\i (00:06:11) roam x 96
+\i (00:06:11) roam x 96 
+\i (00:06:11) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:12) roam x 96 
+\i (00:06:12) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:13) roam x 96 
+\i (00:06:13) roam x 96
+\i (00:06:14) pick grid 46.608 39.764
+\t (00:06:14) last pick:  46.600 39.800
+\t (00:06:14) Pick first element.
+\t (00:06:14) last pick:  46.600 39.750
+\t (00:06:14) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:06:14) last pick:  46.600 39.750
+\i (00:06:14) mouse_pos 46.608 39.764
+\i (00:06:15) pick grid 46.608 39.764
+\t (00:06:15) last pick:  46.600 39.800
+\t (00:06:15) No DRC errors detected.
+\t (00:06:15) Pick first element.
+\i (00:06:15) zoom out 1 
+\i (00:06:15) setwindow pcb
+\i (00:06:15) zoom out 46.608 39.764
+\i (00:06:15) trapsize 18
+\i (00:06:16) zoom out 1 
+\i (00:06:16) setwindow pcb
+\i (00:06:16) zoom out 46.607 39.763
+\i (00:06:16) trapsize 36
+\i (00:06:16) roam x 96 
+\i (00:06:16) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:17) roam x 96 
+\i (00:06:17) roam x 96
+\i (00:06:18) pick grid 55.656 39.705
+\t (00:06:18) last pick:  55.700 39.700
+\t (00:06:18) Pick first element.
+\t (00:06:18) last pick:  55.650 39.650
+\t (00:06:18) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:06:18) last pick:  55.650 39.650
+\i (00:06:19) mouse_pos 55.656 39.705
+\i (00:06:19) pick grid 55.656 39.705
+\t (00:06:19) last pick:  55.700 39.700
+\t (00:06:19) No DRC errors detected.
+\t (00:06:19) Pick first element.
+\i (00:06:21) pick grid 60.859 39.742
+\t (00:06:21) last pick:  60.900 39.700
+\t (00:06:21) Pick first element.
+\t (00:06:21) last pick:  60.850 39.750
+\t (00:06:21) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:06:21) last pick:  60.850 39.750
+\i (00:06:21) mouse_pos 60.859 39.742
+\i (00:06:22) pick grid dbl 60.859 39.742
+\t (00:06:22) last pick:  60.900 39.700
+\t (00:06:22) VIA22RD0-3D used for drill.
+\t (00:06:22) No DRC errors detected.
+\i (00:06:22) roam x 96 
+\i (00:06:22) roam x 96
+\i (00:06:24) undo 
+\i (00:06:24) trapsize 36
+\i (00:06:24) generaledit 
+\i (00:06:28) pick grid 60.859 39.742
+\t (00:06:28) last pick:  60.900 39.700
+\i (00:06:29) pick grid 60.859 39.742
+\t (00:06:29) last pick:  60.900 39.700
+\i (00:06:31) zoom in 1 
+\i (00:06:31) setwindow pcb
+\i (00:06:31) zoom in 60.743 39.727
+\i (00:06:31) trapsize 18
+\i (00:06:31) zoom in 1 
+\i (00:06:31) setwindow pcb
+\i (00:06:31) zoom in 60.742 39.727
+\i (00:06:31) trapsize 9
+\i (00:06:34) add connect 
+\t (00:06:34) Selected item not valid for current operation, ignored: Net "Unnamed_1_Capcersmdcl2_I35_B_3"
+\t (00:06:34) No valid items selected for the current operation, exiting.
+\i (00:06:34) generaledit 
+\i (00:06:37) pick grid 60.851 39.771
+\t (00:06:37) last pick:  60.900 39.800
+\i (00:06:37) pick grid 60.851 39.771
+\t (00:06:37) last pick:  60.900 39.800
+\i (00:06:40) pick grid 60.842 39.766
+\t (00:06:40) last pick:  60.800 39.800
+\i (00:06:41) pick grid 60.824 39.546
+\t (00:06:41) last pick:  60.800 39.500
+\i (00:06:46) add connect 
+\t (00:06:46) Selected item not valid for current operation, ignored: Net "Unnamed_1_Capcersmdcl2_I35_B_3"
+\t (00:06:46) No valid items selected for the current operation, exiting.
+\i (00:06:46) generaledit 
+\i (00:06:48) pick grid 60.864 39.760
+\t (00:06:48) last pick:  60.900 39.800
+\i (00:06:49) pick grid 60.864 39.760
+\t (00:06:49) last pick:  60.900 39.800
+\i (00:06:58) setwindow form.find
+\i (00:06:58) FORM find cline_segs YES 
+\i (00:07:00) setwindow pcb
+\i (00:07:00) pick grid 60.860 39.588
+\t (00:07:00) last pick:  60.900 39.600
+\i (00:07:06) prepopup 57.389 39.266
+\i (00:07:07) pick grid 57.185 39.351
+\t (00:07:07) last pick:  57.200 39.400
+\i (00:07:09) add connect 
+\t (00:07:09) Pick first element.
+\i (00:07:11) pick grid 60.867 39.762
+\t (00:07:11) last pick:  60.900 39.800
+\t (00:07:11) last pick:  60.850 39.750
+\t (00:07:11) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:07:11) last pick:  60.850 39.750
+\i (00:07:12) mouse_pos 60.867 39.762
+\i (00:07:12) pick grid 60.867 39.762
+\t (00:07:12) last pick:  60.900 39.800
+\t (00:07:12) No DRC errors detected.
+\t (00:07:12) Pick first element.
+\i (00:07:13) roam x 96 
+\i (00:07:13) roam x 96
+\i (00:07:13) roam x 96 
+\i (00:07:13) roam x 96
+\i (00:07:13) roam x 96 
+\i (00:07:13) roam x 96
+\i (00:07:13) roam x 96 
+\i (00:07:13) roam x 96
+\i (00:07:13) roam x 96 
+\i (00:07:13) roam x 96
+\i (00:07:13) roam x 96 
+\i (00:07:13) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:14) roam x 96 
+\i (00:07:14) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:15) roam x 96 
+\i (00:07:15) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:16) roam x 96 
+\i (00:07:16) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:17) roam x 96 
+\i (00:07:17) roam x 96
+\i (00:07:20) pick grid 74.607 39.662
+\t (00:07:20) last pick:  74.600 39.700
+\t (00:07:20) Pick first element.
+\t (00:07:20) last pick:  74.600 39.650
+\t (00:07:20) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:07:20) last pick:  74.600 39.650
+\i (00:07:20) mouse_pos 74.607 39.662
+\i (00:07:20) pick grid 74.607 39.662
+\t (00:07:20) last pick:  74.600 39.700
+\t (00:07:20) No DRC errors detected.
+\t (00:07:20) Pick first element.
+\i (00:07:21) roam x 96 
+\i (00:07:21) roam x 96
+\i (00:07:21) roam x 96 
+\i (00:07:21) roam x 96
+\i (00:07:21) roam x 96 
+\i (00:07:21) roam x 96
+\i (00:07:21) roam x 96 
+\i (00:07:21) roam x 96
+\i (00:07:21) roam x 96 
+\i (00:07:21) roam x 96
+\i (00:07:21) roam x 96 
+\i (00:07:21) roam x 96
+\i (00:07:21) roam x 96 
+\i (00:07:21) roam x 96
+\i (00:07:21) roam x 96 
+\i (00:07:21) roam x 96
+\i (00:07:21) roam x 96 
+\i (00:07:21) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:23) roam x 96 
+\i (00:07:23) roam x 96
+\i (00:07:25) pick grid 79.782 39.758
+\t (00:07:25) last pick:  79.800 39.800
+\t (00:07:25) Pick first element.
+\t (00:07:25) last pick:  79.800 39.750
+\t (00:07:25) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:07:25) last pick:  79.800 39.750
+\i (00:07:25) mouse_pos 79.782 39.758
+\i (00:07:25) pick grid 79.782 39.758
+\t (00:07:25) last pick:  79.800 39.800
+\t (00:07:25) No DRC errors detected.
+\t (00:07:25) Pick first element.
+\i (00:07:26) roam x 96 
+\i (00:07:26) roam x 96
+\i (00:07:26) roam x 96 
+\i (00:07:26) roam x 96
+\i (00:07:26) roam x 96 
+\i (00:07:26) roam x 96
+\i (00:07:26) roam x 96 
+\i (00:07:26) roam x 96
+\i (00:07:26) roam x 96 
+\i (00:07:26) roam x 96
+\i (00:07:26) roam x 96 
+\i (00:07:26) roam x 96
+\i (00:07:26) roam x 96 
+\i (00:07:26) roam x 96
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:27) zoom out 1 
+\i (00:07:27) setwindow pcb
+\i (00:07:27) zoom out 82.391 39.758
+\i (00:07:27) trapsize 18
+\i (00:07:27) zoom out 1 
+\i (00:07:27) setwindow pcb
+\i (00:07:27) zoom out 82.392 39.759
+\i (00:07:27) trapsize 36
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:29) roam x 96 
+\i (00:07:29) roam x 96
+\i (00:07:31) pick grid 88.864 39.650
+\t (00:07:31) last pick:  88.900 39.700
+\t (00:07:31) Pick first element.
+\t (00:07:31) last pick:  88.850 39.650
+\t (00:07:31) Target Odd-angle Line Segment is defined on BOTTOM.
+\t (00:07:31) last pick:  88.850 39.650
+\i (00:07:31) mouse_pos 88.864 39.650
+\i (00:07:32) pick grid 88.864 39.650
+\t (00:07:32) last pick:  88.900 39.700
+\t (00:07:32) No DRC errors detected.
+\t (00:07:32) Pick first element.
+\i (00:07:35) pick grid 94.030 39.758
+\t (00:07:35) last pick:  94.000 39.800
+\t (00:07:35) Pick first element.
+\t (00:07:35) last pick:  94.050 39.750
+\t (00:07:35) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:07:35) last pick:  94.050 39.750
+\i (00:07:35) mouse_pos 94.030 39.758
+\i (00:07:36) pick grid 94.030 39.758
+\t (00:07:36) last pick:  94.000 39.800
+\t (00:07:36) No DRC errors detected.
+\t (00:07:36) Pick first element.
+\i (00:07:36) roam x 96 
+\i (00:07:36) roam x 96
+\i (00:07:37) zoom out 1 
+\i (00:07:37) setwindow pcb
+\i (00:07:37) zoom out 94.733 39.758
+\i (00:07:37) trapsize 72
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:37) roam x 96 
+\i (00:07:37) roam x 96
+\i (00:07:39) zoom in 1 
+\i (00:07:39) setwindow pcb
+\i (00:07:39) zoom in 103.008 39.585
+\i (00:07:39) trapsize 36
+\i (00:07:39) zoom in 1 
+\i (00:07:39) setwindow pcb
+\i (00:07:39) zoom in 103.023 39.585
+\i (00:07:39) trapsize 18
+\i (00:07:41) pick grid 103.103 39.654
+\t (00:07:41) last pick:  103.100 39.700
+\t (00:07:41) Pick first element.
+\t (00:07:41) last pick:  103.100 39.650
+\t (00:07:41) Target Odd-angle Line Segment is defined on BOTTOM.
+\t (00:07:41) last pick:  103.100 39.650
+\i (00:07:41) mouse_pos 103.103 39.654
+\i (00:07:42) pick grid 103.103 39.654
+\t (00:07:42) last pick:  103.100 39.700
+\t (00:07:42) No DRC errors detected.
+\t (00:07:42) Pick first element.
+\i (00:07:42) roam x 96 
+\i (00:07:42) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:43) roam x 96 
+\i (00:07:43) roam x 96
+\i (00:07:45) pick grid 108.291 39.755
+\t (00:07:45) last pick:  108.300 39.800
+\t (00:07:45) Pick first element.
+\t (00:07:45) last pick:  108.300 39.750
+\t (00:07:45) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:07:45) last pick:  108.300 39.750
+\i (00:07:45) pick grid 108.291 39.755
+\t (00:07:45) last pick:  108.300 39.800
+\t (00:07:45) No DRC errors detected.
+\t (00:07:45) Pick first element.
+\i (00:07:46) roam x 96 
+\i (00:07:46) roam x 96
+\i (00:07:46) roam x 96 
+\i (00:07:46) roam x 96
+\i (00:07:46) roam x 96 
+\i (00:07:46) roam x 96
+\i (00:07:46) roam x 96 
+\i (00:07:46) roam x 96
+\i (00:07:46) roam x 96 
+\i (00:07:46) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:47) roam x 96 
+\i (00:07:47) roam x 96
+\i (00:07:48) roam x 96 
+\i (00:07:48) roam x 96
+\i (00:07:48) roam x 96 
+\i (00:07:48) roam x 96
+\i (00:07:48) roam x 96 
+\i (00:07:48) roam x 96
+\i (00:07:50) pick grid 117.348 39.661
+\t (00:07:50) last pick:  117.300 39.700
+\t (00:07:50) Pick first element.
+\t (00:07:50) last pick:  117.350 39.650
+\t (00:07:50) Target Odd-angle Line Segment is defined on BOTTOM.
+\t (00:07:50) last pick:  117.350 39.650
+\i (00:07:50) mouse_pos 117.348 39.661
+\i (00:07:50) pick grid 117.348 39.661
+\t (00:07:50) last pick:  117.300 39.700
+\t (00:07:50) No DRC errors detected.
+\t (00:07:50) Pick first element.
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:51) roam x 96 
+\i (00:07:51) roam x 96
+\i (00:07:52) roam x 96 
+\i (00:07:52) roam x 96
+\i (00:07:52) roam x 96 
+\i (00:07:52) roam x 96
+\i (00:07:52) roam x 96 
+\i (00:07:52) roam x 96
+\i (00:07:54) pick grid 122.550 39.752
+\t (00:07:54) last pick:  122.600 39.800
+\t (00:07:54) Pick first element.
+\t (00:07:54) last pick:  122.550 39.750
+\t (00:07:54) Target Horizontal Line Segment is defined on BOTTOM.
+\t (00:07:54) last pick:  122.550 39.750
+\i (00:07:54) mouse_pos 122.550 39.752
+\i (00:07:55) pick grid 122.550 39.752
+\t (00:07:55) last pick:  122.600 39.800
+\t (00:07:55) No DRC errors detected.
+\t (00:07:55) Pick first element.
+\i (00:07:55) roam x 96 
+\i (00:07:55) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:56) roam x 96 
+\i (00:07:56) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:57) roam x 96 
+\i (00:07:57) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) roam x 96 
+\i (00:07:58) roam x 96
+\i (00:07:58) zoom out 1 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom out 140.780 39.763
+\i (00:07:58) trapsize 36
+\i (00:07:59) zoom out 1 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom out 140.781 39.762
+\i (00:07:59) trapsize 72
+\i (00:07:59) roam x -96 
+\i (00:07:59) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:00) roam x -96 
+\i (00:08:00) roam x -96
+\i (00:08:18) reports 'Unconnected Pins Report' 
+\i (00:08:18) generaledit 
+\i (00:08:20) setwindow text
+\i (00:08:20) close
+\i (00:08:22) setwindow pcb
+\i (00:08:22) save 
+\i (00:08:25) fillin yes 
+\i (00:08:25) generaledit 
+\i (00:08:26) zoom out 1 
+\i (00:08:26) setwindow pcb
+\i (00:08:26) zoom out 110.383 37.937
+\i (00:08:26) trapsize 145
+\i (00:08:26) zoom out 1 
+\i (00:08:26) setwindow pcb
+\i (00:08:26) zoom out 110.383 37.937
+\i (00:08:26) trapsize 290
+\i (00:08:27) roam x -96 
+\i (00:08:27) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:28) roam x -96 
+\i (00:08:28) roam x -96
+\i (00:08:49) zoom in 1 
+\i (00:08:49) setwindow pcb
+\i (00:08:49) zoom in 17.044 11.041
+\i (00:08:49) trapsize 145
+\i (00:08:50) zoom in 1 
+\i (00:08:50) setwindow pcb
+\i (00:08:50) zoom in 17.045 11.128
+\i (00:08:50) trapsize 72
+\i (00:08:50) zoom in 1 
+\i (00:08:50) setwindow pcb
+\i (00:08:50) zoom in 17.045 11.143
+\i (00:08:50) trapsize 36
+\i (00:08:57) reports 'Net Short Properties Report' 
+\i (00:08:58) generaledit 
+\i (00:09:00) setwindow text
+\i (00:09:00) close
+\i (00:09:01) setwindow pcb
+\i (00:09:01) zoom out 1 
+\i (00:09:01) setwindow pcb
+\i (00:09:01) zoom out 22.472 14.419
+\i (00:09:01) trapsize 72
+\i (00:09:01) zoom out 1 
+\i (00:09:01) setwindow pcb
+\i (00:09:01) zoom out 22.472 14.418
+\i (00:09:01) trapsize 145
+\i (00:09:02) zoom out 1 
+\i (00:09:02) setwindow pcb
+\i (00:09:02) zoom out 22.473 14.418
+\i (00:09:02) trapsize 290
+\i (00:09:03) roam y -96 
+\i (00:09:03) roam y -96
+\i (00:09:03) roam y -96 
+\i (00:09:03) roam y -96
+\i (00:09:03) roam y -96 
+\i (00:09:03) roam y -96
+\i (00:09:03) roam y -96 
+\i (00:09:03) roam y -96
+\i (00:09:04) roam y -96 
+\i (00:09:04) roam y -96
+\i (00:09:04) roam y -96 
+\i (00:09:04) roam y -96
+\i (00:09:05) roam y -96 
+\i (00:09:05) roam y -96
+\i (00:09:05) roam y -96 
+\i (00:09:05) roam y -96
+\i (00:09:08) exit 
+\t (00:09:09) Lic Summary:
+[18:00:28.059000] Cdslmd servers: ppl
+[18:00:28.059000] Feature usage summary:
+[18:00:28.059000] PCB_librarian_expert
+
+\t (00:09:09)     Journal end - Mon Mar  2 18:00:28 2026

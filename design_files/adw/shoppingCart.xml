@@ -76,4 +76,19 @@
 		<property name="PACK_TYPE"  value="SMD"/>
 		<property name="VALUE"  value="MH1005-121Y"/>
 	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0805_10UF_10V_10%_X5R" quantity="1" >
+		<property name="PACK_TYPE"  value="0805"/>
+		<property name="VALUE"  value="10uF"/>
+		<property name="VOLTAGE"  value="10V_GEN"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_51R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="51"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_510R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="510"/>
+	</component>
 </sc:shoppingCart>
