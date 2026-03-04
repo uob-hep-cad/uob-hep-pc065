@@ -1,9 +1,10 @@
 
-uob_hep_pc065d
+uob_hep_pc065d-1
 
 These file describes PCB fabrication and assembly details of a 
 Fibre Interface Board (FIB) for the DUNE Timing System.
 
+Version FIBv2b
 
 contact:	David.Cussans@bristol.ac.uk
 		tel: 0117 95 46879
@@ -71,7 +72,6 @@ Board outline: (Gerber RS-274X)
 
 art_pc065d_OUTLINE.ger
 
-For details of FMC standard board outline see ansi_vita_57.1_double_fmc_outline.pdf
 
 Drill figure: ( illustration of hole sizes and position )
 -------------
@@ -82,12 +82,12 @@ Drill information ( Excellon format, described in nc_param.txt )
 -----------------
 Plated and unplated holes in same file.
 
-pc065d_fibv2a_toplevel_29-1-8.drl
+pc065d_fibv2b_toplevel_35-1-8.drl
 
 Bill of Materials
 -----------------
 
-pc065d_fibv2a_bom.xlsx
+pc065d_fibv2b_bom_newbury.xlsx
 
 
 Component placement
@@ -100,4 +100,5 @@ pc065d_fibv2a_placement_body_centre.txt
 Fabrication and Assembly information in ODB++ Format:
 -----------------------------------------------------
 
-pc065d_fibv2a_toplevel_29.tgz
+pc065d_fibv2b_toplevel_35.tgz
+
