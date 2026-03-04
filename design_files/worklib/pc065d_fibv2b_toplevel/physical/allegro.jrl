@@ -1,98 +1,135 @@
 \t (00:00:03) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Tue Mar  3 18:28:44 2026
-\t (00:00:03)         Host=IT088130 User=phdgc Pid=53332 CPUs=16
+\t (00:00:03)     Journal start - Wed Mar  4 14:32:13 2026
+\t (00:00:03)         Host=IT088130 User=phdgc Pid=55748 CPUs=16
 \t (00:00:03) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr12153 -mpshost IT088130
 \t (00:00:03) 
 \t (00:00:03) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2b_toplevel_33"
-\d (00:00:03) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_33.brd
-\i (00:00:03) trapsize 131
-\i (00:00:04) trapsize 134
-\i (00:00:04) trapsize 131
-\i (00:00:04) trapsize 131
-\i (00:00:04) generaledit 
-\i (00:00:08) place manual 
-\i (00:00:08) setwindow form.plc_manual
-\i (00:00:08) FORM plc_manual tree  'Components by refdes' 
-\i (00:00:10) FORM plc_manual cancel  
-\i (00:00:10) setwindow pcb
-\i (00:00:10) generaledit 
-\i (00:00:11) zoom out 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom out 107.324 30.747
-\i (00:00:11) trapsize 262
-\i (00:00:11) zoom out 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom out 107.480 31.481
-\i (00:00:11) trapsize 525
-\i (00:00:11) zoom out 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom out 107.481 31.481
-\i (00:00:11) trapsize 1049
-\i (00:00:11) zoom out 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom out 7.952 31.481
-\i (00:00:11) trapsize 2098
-\i (00:00:12) zoom in 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom in 5.316 2.845
-\i (00:00:12) trapsize 1049
-\i (00:00:12) zoom in 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom in 5.316 2.845
-\i (00:00:12) trapsize 525
-\i (00:00:13) zoom in 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom in 5.421 2.950
-\i (00:00:13) trapsize 262
-\i (00:00:13) zoom in 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom in 5.421 2.950
-\i (00:00:13) trapsize 131
-\i (00:00:14) roam y -96 
-\i (00:00:14) roam y -96
-\i (00:00:15) zoom out 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom out 14.337 8.468
-\i (00:00:15) trapsize 262
-\i (00:00:15) zoom out 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom out 14.338 8.467
-\i (00:00:15) trapsize 525
-\i (00:00:16) roam x 96 
-\i (00:00:16) roam x 96
-\i (00:00:16) roam x 96 
-\i (00:00:16) roam x 96
-\i (00:00:16) roam x 96 
-\i (00:00:16) roam x 96
-\i (00:00:16) roam x 96 
-\i (00:00:16) roam x 96
-\i (00:00:16) roam x 96 
-\i (00:00:16) roam x 96
-\i (00:00:20) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
-\i (00:00:21) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
-\i (00:00:23) zoom in 1 
-\i (00:00:23) setwindow pcb
-\i (00:00:23) zoom in 5.735 15.181
-\i (00:00:23) trapsize 262
-\i (00:00:23) zoom in 1 
-\i (00:00:23) setwindow pcb
-\i (00:00:23) zoom in 5.525 16.492
-\i (00:00:23) trapsize 131
-\i (00:00:23) zoom in 1 
-\i (00:00:23) setwindow pcb
-\i (00:00:23) zoom in 5.604 16.545
-\i (00:00:23) trapsize 66
-\i (00:00:24) roam y -96 
-\i (00:00:24) roam y -96
-\i (00:00:26) show element 
-\i (00:00:27) pick grid 6.941 18.814
-\t (00:00:27) last pick:  6.900 18.800
-\i (00:00:56) exit 
-\t (00:00:57) Lic Summary:
-[18:29:38.340000] Cdslmd servers: ppl
-[18:29:38.340000] Feature usage summary:
-[18:29:38.340000] PCB_librarian_expert
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2b_toplevel_34"
+\d (00:00:06) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_34.brd
+\i (00:00:06) trapsize 131
+\i (00:00:06) trapsize 134
+\i (00:00:06) trapsize 131
+\i (00:00:07) trapsize 131
+\i (00:00:07) generaledit 
+\i (00:00:12) place manual 
+\i (00:00:12) setwindow form.plc_manual
+\i (00:00:12) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:14) FORM plc_manual cancel  
+\i (00:00:14) setwindow pcb
+\i (00:00:14) generaledit 
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 131.739 41.224
+\i (00:00:17) trapsize 66
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 131.739 41.225
+\i (00:00:17) trapsize 33
+\i (00:00:17) zoom in 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom in 131.739 41.226
+\i (00:00:18) trapsize 16
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 131.739 41.226
+\i (00:00:18) trapsize 33
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 131.739 41.226
+\i (00:00:18) trapsize 66
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 131.740 41.225
+\i (00:00:18) trapsize 131
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 131.740 41.225
+\i (00:00:18) trapsize 262
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 131.687 41.225
+\i (00:00:18) trapsize 525
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 131.687 41.226
+\i (00:00:18) trapsize 1049
+\i (00:00:18) zoom out 1 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) zoom out 131.687 41.225
+\i (00:00:18) trapsize 2098
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in -2.650 56.863
+\i (00:00:20) trapsize 1049
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 3.434 54.765
+\i (00:00:20) trapsize 525
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 33.542 44.590
+\i (00:00:21) trapsize 262
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 33.543 44.590
+\i (00:00:21) trapsize 131
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 33.543 44.590
+\i (00:00:22) trapsize 262
+\i (00:00:25) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:00:26) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 18.647 31.425
+\i (00:00:29) trapsize 131
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 18.647 31.426
+\i (00:00:29) trapsize 66
+\i (00:00:31) show element 
+\i (00:00:33) pick grid 18.307 31.335
+\t (00:00:33) last pick:  18.300 31.300
+\i (00:00:57) setwindow text
+\i (00:00:57) close
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom out 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom out 24.352 31.833
+\i (00:00:58) trapsize 131
+\i (00:00:58) zoom out 1 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) zoom out 24.352 31.833
+\i (00:00:58) trapsize 262
+\i (00:00:59) roam y 96 
+\i (00:00:59) roam y 96
+\i (00:00:59) roam y 96 
+\i (00:00:59) roam y 96
+\i (00:00:59) roam y 96 
+\i (00:00:59) roam y 96
+\i (00:00:59) roam y 96 
+\i (00:00:59) roam y 96
+\i (00:01:00) roam y 96 
+\i (00:01:00) roam y 96
+\i (00:01:01) zoom in 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom in 6.202 18.520
+\i (00:01:01) trapsize 131
+\i (00:01:03) pick grid 6.989 18.232
+\t (00:01:03) last pick:  7.000 18.200
+\i (00:29:55) xrefdes J40 
+\i (00:29:55) xrefdes J40 
+\i (00:29:55) xname_flush 
+\i (00:29:55) trapsize 173
+\i (01:46:42) exit 
+\t (01:46:42) [16:18:53.250000] Periodic Lic check successful
+[16:18:53.250000] Feature usage summary:
+[16:18:53.250000] PCB_librarian_expert
 
-\t (00:00:57)     Journal end - Tue Mar  3 18:29:38 2026
+\t (01:46:43) Lic Summary:
+[16:18:53.015712] Cdslmd servers: ppl
+[16:18:53.540000] Feature usage summary:
+[16:18:53.540000] PCB_librarian_expert
+
+\t (01:46:43)     Journal end - Wed Mar  4 16:18:53 2026

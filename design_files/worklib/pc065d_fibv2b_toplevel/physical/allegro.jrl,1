@@ -1,105 +1,61 @@
-\t (00:00:04) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:04)     Journal start - Tue Mar  3 17:37:07 2026
-\t (00:00:04)         Host=IT088130 User=phdgc Pid=40896 CPUs=16
-\t (00:00:04) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr12153 -mpshost IT088130
-\t (00:00:04) 
-\t (00:00:04) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2b_toplevel_32"
-\d (00:00:04) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_32.brd
-\i (00:00:05) trapsize 132
-\i (00:00:05) trapsize 135
-\i (00:00:05) trapsize 132
-\i (00:00:05) trapsize 132
-\i (00:00:05) generaledit 
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in 104.544 40.673
-\i (00:00:08) trapsize 66
-\i (00:00:08) zoom in 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom in 104.544 40.673
-\i (00:00:08) trapsize 33
-\i (00:00:08) zoom out 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom out 104.544 40.674
-\i (00:00:08) trapsize 66
-\i (00:00:08) zoom out 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom out 104.544 40.674
-\i (00:00:08) trapsize 132
-\i (00:00:08) zoom out 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom out 104.544 40.673
-\i (00:00:08) trapsize 263
-\i (00:00:09) zoom out 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom out 104.860 41.359
-\i (00:00:09) trapsize 527
-\i (00:00:09) zoom out 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom out 104.860 41.358
-\i (00:00:09) trapsize 1053
-\i (00:00:10) zoom in 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom in 24.032 76.957
-\i (00:00:10) trapsize 527
-\i (00:00:10) zoom in 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom in 24.032 76.957
-\i (00:00:10) trapsize 263
-\i (00:00:10) zoom in 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom in 24.085 77.010
-\i (00:00:10) trapsize 132
-\i (00:00:13) show element 
-\i (00:00:14) pick grid 30.062 75.430
-\t (00:00:14) last pick:  30.100 75.400
-\i (00:00:53) xrefdes Ds1 
-\i (00:00:53) xrefdes DS1 
-\i (00:00:53) xname_flush 
-\i (00:00:53) trapsize 47
-\i (00:00:55) xrefdes Ds2 
-\i (00:00:56) xrefdes DS2 
-\i (00:00:56) xname_flush 
-\i (00:00:56) trapsize 47
-\i (00:00:57) xrefdes Ds3 
-\i (00:00:57) xrefdes DS3 
-\i (00:00:57) xname_flush 
-\i (00:00:57) trapsize 47
-\i (00:00:59) xrefdes Ds4 
-\i (00:00:59) xrefdes DS4 
-\i (00:00:59) xname_flush 
-\i (00:00:59) trapsize 47
-\i (00:01:02) xrefdes Ds5 
-\i (00:01:02) xrefdes DS5 
-\i (00:01:02) xname_flush 
-\i (00:01:02) trapsize 47
-\i (00:01:04) xrefdes Ds6 
-\i (00:01:04) xrefdes DS6 
-\i (00:01:04) xname_flush 
-\i (00:01:04) trapsize 47
-\i (00:01:06) xrefdes Ds7 
-\i (00:01:06) xrefdes DS7 
-\i (00:01:06) xname_flush 
-\i (00:01:06) trapsize 47
-\i (00:01:08) xrefdes Ds8 
-\i (00:01:08) xrefdes DS8 
-\i (00:01:08) xname_flush 
-\i (00:01:08) trapsize 47
-\i (00:05:46) setwindow text
-\i (00:05:46) close
-\i (00:37:41) setwindow pcb
-\i (00:37:41) pick grid 116.245 75.843
-\t (00:37:41) last pick:  116.200 75.800
-\i (00:37:47) exit 
-\t (00:37:47) [18:14:50.008000] Periodic Lic check successful
-[18:14:50.008000] Feature usage summary:
-[18:14:50.008000] PCB_librarian_expert
+\t (00:00:05) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Wed Mar  4 10:55:03 2026
+\t (00:00:05)         Host=IT088130 User=phdgc Pid=54968 CPUs=16
+\t (00:00:05) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr12153 -mpshost IT088130
+\t (00:00:05) 
+\t (00:00:05) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2b_toplevel_33"
+\d (00:00:06) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_33.brd
+\i (00:00:06) trapsize 131
+\i (00:00:06) trapsize 134
+\i (00:00:07) trapsize 131
+\i (00:00:07) trapsize 131
+\i (00:00:07) generaledit 
+\i (00:00:16) pick grid 110.287 38.471
+\t (00:00:16) last pick:  110.300 38.500
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 110.287 38.471
+\i (00:00:17) trapsize 262
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 110.287 38.471
+\i (00:00:17) trapsize 524
+\i (00:00:19) roam x -96 
+\i (00:00:19) roam x -96
+\i (00:00:19) roam x -96 
+\i (00:00:19) roam x -96
+\i (00:00:20) roam x -96 
+\i (00:00:20) roam x -96
+\i (00:00:20) roam x -96 
+\i (00:00:20) roam x -96
+\i (00:00:22) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:00:23) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 32.064 28.610
+\i (00:00:25) trapsize 262
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 32.064 28.610
+\i (00:00:25) trapsize 131
+\i (00:00:27) show element 
+\i (00:00:29) pick grid 32.589 31.495
+\t (00:00:29) last pick:  32.600 31.500
+\i (00:12:05) xrefdes U3 
+\i (00:12:05) xrefdes U3 
+\i (00:12:05) xname_flush 
+\i (00:12:05) trapsize 92
+\i (00:17:43) xname_flush 
+\i (03:35:40) exit 
+\t (03:35:40) [14:30:39.130000] Periodic Lic check successful
+[14:30:39.130000] Feature usage summary:
+[14:30:39.130000] PCB_librarian_expert
 
-\t (00:37:47) Lic Summary:
-[18:14:50.269000] Cdslmd servers: ppl
-[18:14:50.269000] Feature usage summary:
-[18:14:50.269000] PCB_librarian_expert
+\t (03:35:40) Lic Summary:
+[14:30:39.452000] Cdslmd servers: ppl
+[14:30:39.452000] Feature usage summary:
+[14:30:39.452000] PCB_librarian_expert
 
-\t (00:37:47)     Journal end - Tue Mar  3 18:14:50 2026
+\t (03:35:40)     Journal end - Wed Mar  4 14:30:39 2026

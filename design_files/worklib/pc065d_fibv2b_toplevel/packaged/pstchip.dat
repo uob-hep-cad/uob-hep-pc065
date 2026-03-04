@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 03-Mar-2026 AT 18:27:52 }
+{ Packager-XL run on 04-Mar-2026 AT 14:31:07 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -3044,32 +3044,32 @@ eries.pdf';
       PARENT_PPT_PART='INDUCTANCE_0805-0.10UH';
   end_body;
 end_primitive;
-primitive 'MAX9381_UMAX-BASE-VCC=P3V3,VEEA';
+primitive 'MAX9381_UMAX_SMD-MAXIM,MAX9381B';
   pin
     'D_P':
       PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'D_N':
-      PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'CLK_P':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
-    'CLK_N':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'Q_N':
-      PIN_NUMBER='(6)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
     'Q_P':
       PIN_NUMBER='(7)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
+    'D*':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'Q*':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'CLK*':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
       PART_NAME='MAX9381_UMAX';
@@ -3077,11 +3077,18 @@ primitive 'MAX9381_UMAX-BASE-VCC=P3V3,VEEA';
       JEDEC_TYPE='SOP65P490X110-8N';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
+      PART='';
+      PACK_TYPE='SMD';
+      OL_COMMENT='Mouser 1762_17875976 ';
+      DESCRIPTION='Lowest Power 3.0GHz ECL/PECL Differential Data and Clock D Fl~
+ip-Flop';
+      DATASHEET='https://www.mouser.co.uk/datasheet/3/1014/1/MAX9381.pdf';
+      HEIGHT='0.6 mm';
       POWER_PINS='(GND:5;P3V3:8)';
-      PARENT_PART_TYPE='MAX9381_UMAX';
+      PARENT_PART_TYPE='MAX9381_UMAX_SMD';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='MAX9381_UMAX';
-      PARENT_PPT_PART='MAX9381_UMAX-BASE';
+      PARENT_PPT_PART='MAX9381_UMAX-MAXIM,MAX9381EUA+';
   end_body;
 end_primitive;
 primitive 'MH1005-121Y_SMD-MH1005-121Y,BOA';
@@ -3113,7 +3120,7 @@ primitive 'MH1005-121Y_SMD-MH1005-121Y,BOA';
       PART_NUMBER='MH1005-121Y';
       MANUFACTURER='BOURNS';
       DESCRIPTION='Ferrite Bead, 0402 [1005 Metric], 120 ohm, 2 A, MH1005 Series~
-, 0.05 ohm, ± 25%';
+, 0.05 ohm, +/- 25%';
       DATASHEET_URL='';
       PINCOUNT='2';
       SMD='';
@@ -4066,7 +4073,7 @@ primitive 'TCA9803DGKR';
       PARENT_PPT_PART='TCA9803DGKR';
   end_body;
 end_primitive;
-primitive 'TMP112A_SOT-TEXAS INSTRUMENTS,A';
+primitive 'TMP112A-TEXAS INSTRUMENTS,TMP1A';
   pin
     'SCL':
       PIN_NUMBER='(1)';

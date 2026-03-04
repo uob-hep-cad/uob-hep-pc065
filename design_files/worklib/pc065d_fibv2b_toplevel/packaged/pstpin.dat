@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 03-Mar-2026 AT 18:27:52 }
-TIME=' COMPILATION ON 03-Mar-2026 AT 18:27:52';
+{ Packager-XL run on 04-Mar-2026 AT 14:31:07 }
+TIME=' COMPILATION ON 04-Mar-2026 AT 14:31:07';
 primitive '24AA025E48T-I/SN';body '24AA025E48';
     'VCC':'(8)';
     'VSS':'(4)';
@@ -491,13 +491,13 @@ primitive 'INDUCTANCE_0805-0.10UH';body 'INDUCTANCE';
     'B'<0>:'(2)';
     'A'<0>:'(1)';
 end_primitive;
-primitive 'MAX9381_UMAX-BASE-VCC=P3V3,VEEA';body 'MAX9381_UMAX';
+primitive 'MAX9381_UMAX_SMD-MAXIM,MAX9381B';body 'MAX9381_UMAX';
     'D_P':'(1)';IN;
-    'D_N':'(2)';IN;
     'CLK_P':'(3)';IN;
-    'CLK_N':'(4)';IN;
-    'Q_N':'(6)';OUT;
     'Q_P':'(7)';OUT;
+    'D*':'(2)';IN;
+    'Q*':'(6)';OUT;
+    'CLK*':'(4)';IN;
 end_primitive;
 primitive 'MH1005-121Y_SMD-MH1005-121Y,BOA';body 'MH1005-121Y';
     'B'<0>:'(2)';BIDI;
@@ -608,7 +608,7 @@ primitive 'TCA9803DGKR'; body 'TCA9803';
     'VCCB':'(8)';
     'EN':'(5)';IN;
 end_primitive;
-primitive 'TMP112A_SOT-TEXAS INSTRUMENTS,A';body 'TMP112A';
+primitive 'TMP112A-TEXAS INSTRUMENTS,TMP1A';body 'TMP112A';
     'SCL':'(1)';
     'GND':'(2)';
     'ALERT':'(3)';
