@@ -2,87 +2,122 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_32.brd         |
-|                                                    Tue Mar  3 18:27:58 2026  |
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_33.brd         |
+|                                                    Wed Mar  4 14:31:15 2026  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- TMP112A_SOT-TEXAS INSTRUMENTS,A
- WURTH_155060YS73200_SMD-155060A
+ MAX9381_UMAX_SMD-MAXIM,MAX9381B
+ TMP112A-TEXAS INSTRUMENTS,TMP1A
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_32.brd         |
-|                                                    Tue Mar  3 18:27:58 2026  |
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_33.brd         |
+|                                                    Wed Mar  4 14:31:15 2026  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- DS1                 WURTH_155060YS73200_SMD-155060A  16.450  75.600 WURTH_155060YS73200-BASE
- DS2                 WURTH_155060YS73200_SMD-155060A  30.700  75.600 WURTH_155060YS73200-BASE
- DS3                 WURTH_155060YS73200_SMD-155060A  44.950  75.600 WURTH_155060YS73200-BASE
- DS4                 WURTH_155060YS73200_SMD-155060A  59.200  75.600 WURTH_155060YS73200-BASE
- DS5                 WURTH_155060YS73200_SMD-155060A  78.100  75.600 WURTH_155060YS73200-BASE
- DS6                 WURTH_155060YS73200_SMD-155060A  92.350  75.600 WURTH_155060YS73200-BASE
- DS7                 WURTH_155060YS73200_SMD-155060A 106.600  75.600 WURTH_155060YS73200-BASE
- DS8                 WURTH_155060YS73200_SMD-155060A 120.850  75.600 WURTH_155060YS73200-BASE
- IC2                 TMP112A_SOT-TEXAS INSTRUMENTS,A   7.400  18.800 TMP1075NDRLR-TEXAS INSTRUMENTSA
+ IC2                 TMP112A-TEXAS INSTRUMENTS,TMP1A   7.400  18.800 TMP112A_SOT-TEXAS INSTRUMENTS,A
+ U3                  MAX9381_UMAX_SMD-MAXIM,MAX9381B  19.100  29.600 MAX9381_UMAX-BASE-VCC=P3V3,VEEA
+ U4                  MAX9381_UMAX_SMD-MAXIM,MAX9381B  33.350  29.600 MAX9381_UMAX-BASE-VCC=P3V3,VEEA
+ U5                  MAX9381_UMAX_SMD-MAXIM,MAX9381B  47.600  29.600 MAX9381_UMAX-BASE-VCC=P3V3,VEEA
+ U6                  MAX9381_UMAX_SMD-MAXIM,MAX9381B  61.850  29.600 MAX9381_UMAX-BASE-VCC=P3V3,VEEA
+ U7                  MAX9381_UMAX_SMD-MAXIM,MAX9381B 123.550  29.600 MAX9381_UMAX-BASE-VCC=P3V3,VEEA
+ U8                  MAX9381_UMAX_SMD-MAXIM,MAX9381B 109.300  29.600 MAX9381_UMAX-BASE-VCC=P3V3,VEEA
+ U9                  MAX9381_UMAX_SMD-MAXIM,MAX9381B  95.050  29.600 MAX9381_UMAX-BASE-VCC=P3V3,VEEA
+ U10                 MAX9381_UMAX_SMD-MAXIM,MAX9381B  80.800  29.600 MAX9381_UMAX-BASE-VCC=P3V3,VEEA
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_32.brd         |
-|                                                    Tue Mar  3 18:27:58 2026  |
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_33.brd         |
+|                                                    Wed Mar  4 14:31:15 2026  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- DS1.1           16.450  75.600 MODEL          WURTH
- DS1.1           16.450  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS1.1           16.450  75.600 XY             (2250,3225)
- DS2.1           30.700  75.600 MODEL          WURTH
- DS2.1           30.700  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS2.1           30.700  75.600 XY             (2250,3000)
- DS3.1           44.950  75.600 MODEL          WURTH
- DS3.1           44.950  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS3.1           44.950  75.600 XY             (2250,2775)
- DS4.1           59.200  75.600 MODEL          WURTH
- DS4.1           59.200  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS4.1           59.200  75.600 XY             (2250,2550)
- DS5.1           78.100  75.600 MODEL          WURTH
- DS5.1           78.100  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS5.1           78.100  75.600 XY             (2250,2325)
- DS6.1           92.350  75.600 MODEL          WURTH
- DS6.1           92.350  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS6.1           92.350  75.600 XY             (2250,2100)
- DS7.1          106.600  75.600 MODEL          WURTH
- DS7.1          106.600  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS7.1          106.600  75.600 XY             (2250,1850)
- DS8.1          120.850  75.600 MODEL          WURTH
- DS8.1          120.850  75.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/wurth_155060ys73200/chips/chips.prt
- DS8.1          120.850  75.600 XY             (2250,1625)
  IC2.5            7.400  18.800 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_logic/tmp112a/chips/chips.prt
  IC2.5            7.400  18.800 XY             (-4425,5550)
+ U3.7            19.100  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U3.7            19.100  29.600 XY             (-900,5900)
+ U4.7            33.350  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U4.7            33.350  29.600 ROOM           SFP_1
+ U4.7            33.350  29.600 XY             (-900,5900)
+ U5.7            47.600  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U5.7            47.600  29.600 ROOM           SFP_2
+ U5.7            47.600  29.600 XY             (-900,5900)
+ U6.7            61.850  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U6.7            61.850  29.600 ROOM           SFP_3
+ U6.7            61.850  29.600 XY             (-900,5900)
+ U7.7           123.550  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U7.7           123.550  29.600 ROOM           SFP_7
+ U7.7           123.550  29.600 XY             (-900,5900)
+ U8.7           109.300  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U8.7           109.300  29.600 ROOM           SFP_6
+ U8.7           109.300  29.600 XY             (-900,5900)
+ U9.7            95.050  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U9.7            95.050  29.600 ROOM           SFP_5
+ U9.7            95.050  29.600 XY             (-900,5900)
+ U10.7           80.800  29.600 PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cds_discrete/max9381_umax/chips/chips.prt
+ U10.7           80.800  29.600 ROOM           SFP_4
+ U10.7           80.800  29.600 XY             (-900,5900)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_32.brd         |
-|                                                    Tue Mar  3 18:27:58 2026  |
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_33.brd         |
+|                                                    Wed Mar  4 14:31:15 2026  |
 |------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
+| PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U3.2            18.775  27.400 CDS_PINID      \d*\
+ U3.4            20.075  27.400 CDS_PINID      \clk*\
+ U3.6            19.425  31.800 CDS_PINID      \q*\
+ U4.2            33.025  27.400 CDS_PINID      \d*\
+ U4.4            34.325  27.400 CDS_PINID      \clk*\
+ U4.6            33.675  31.800 CDS_PINID      \q*\
+ U5.2            47.275  27.400 CDS_PINID      \d*\
+ U5.4            48.575  27.400 CDS_PINID      \clk*\
+ U5.6            47.925  31.800 CDS_PINID      \q*\
+ U6.2            61.525  27.400 CDS_PINID      \d*\
+ U6.4            62.825  27.400 CDS_PINID      \clk*\
+ U6.6            62.175  31.800 CDS_PINID      \q*\
+ U7.2           123.225  27.400 CDS_PINID      \d*\
+ U7.4           124.525  27.400 CDS_PINID      \clk*\
+ U7.6           123.875  31.800 CDS_PINID      \q*\
+ U8.2           108.975  27.400 CDS_PINID      \d*\
+ U8.4           110.275  27.400 CDS_PINID      \clk*\
+ U8.6           109.625  31.800 CDS_PINID      \q*\
+ U9.2            94.725  27.400 CDS_PINID      \d*\
+ U9.4            96.025  27.400 CDS_PINID      \clk*\
+ U9.6            95.375  31.800 CDS_PINID      \q*\
+ U10.2           80.475  27.400 CDS_PINID      \d*\
+ U10.4           81.775  27.400 CDS_PINID      \clk*\
+ U10.6           81.125  31.800 CDS_PINID      \q*\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_33.brd         |
+|                                                    Wed Mar  4 14:31:15 2026  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
 |       Comp definitions added:       2                                        |
 |       Components changed    :       9                                        |
-|       Slot property added   :      26                                        |
+|       Pin property added    :      24                                        |
+|       Slot property added   :      25                                        |
 |                                                                              |
-|   Total ECO changes reported:      37                                        |
+|   Total ECO changes reported:      60                                        |
 |------------------------------------------------------------------------------|
