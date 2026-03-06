@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2026-03-03T18:25:53</modificationTime>
+    <modificationTime>2026-03-06T14:43:09</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065d_fibv2b_toplevel" view="sch_1">
       <lastids>
         <instanceid>323</instanceid>
-        <netid>808</netid>
-        <insttermid>6093</insttermid>
+        <netid>813</netid>
+        <insttermid>6149</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1037,16 +1037,12 @@
         <net>
           <id>N88</id>
           <name>fmc_la_n</name>
-          <scope>interface</scope>
-          <direction>inout</direction>
           <msb>33</msb>
           <lsb>0</lsb>
         </net>
         <net>
           <id>N89</id>
           <name>fmc_la_p</name>
-          <scope>interface</scope>
-          <direction>inout</direction>
           <msb>33</msb>
           <lsb>0</lsb>
         </net>
@@ -1506,16 +1502,12 @@
         <net>
           <id>N639</id>
           <name>fmc_ha_n</name>
-          <scope>interface</scope>
-          <direction>inout</direction>
           <msb>23</msb>
           <lsb>0</lsb>
         </net>
         <net>
           <id>N640</id>
           <name>fmc_ha_p</name>
-          <scope>interface</scope>
-          <direction>inout</direction>
           <msb>23</msb>
           <lsb>0</lsb>
         </net>
@@ -1534,8 +1526,6 @@
         <net>
           <id>N643</id>
           <name>fmc_hb_n</name>
-          <scope>interface</scope>
-          <direction>inout</direction>
           <msb>21</msb>
           <lsb>0</lsb>
         </net>
@@ -1548,8 +1538,6 @@
         <net>
           <id>N645</id>
           <name>fmc_hb_p</name>
-          <scope>interface</scope>
-          <direction>inout</direction>
           <msb>21</msb>
           <lsb>0</lsb>
         </net>
@@ -6877,42 +6865,6 @@
             <pageScope number="9">
               <scope>interface</scope>
               <direction>input</direction>
-            </pageScope>
-          </netScope>
-          <netScope ref="fmc_ha_n">
-            <pageScope number="4">
-              <scope>interface</scope>
-              <direction>inout</direction>
-            </pageScope>
-          </netScope>
-          <netScope ref="fmc_ha_p">
-            <pageScope number="4">
-              <scope>interface</scope>
-              <direction>inout</direction>
-            </pageScope>
-          </netScope>
-          <netScope ref="fmc_hb_n">
-            <pageScope number="4">
-              <scope>interface</scope>
-              <direction>inout</direction>
-            </pageScope>
-          </netScope>
-          <netScope ref="fmc_hb_p">
-            <pageScope number="4">
-              <scope>interface</scope>
-              <direction>inout</direction>
-            </pageScope>
-          </netScope>
-          <netScope ref="fmc_la_n">
-            <pageScope number="4">
-              <scope>interface</scope>
-              <direction>inout</direction>
-            </pageScope>
-          </netScope>
-          <netScope ref="fmc_la_p">
-            <pageScope number="4">
-              <scope>interface</scope>
-              <direction>inout</direction>
             </pageScope>
           </netScope>
           <netScope ref="gnd">

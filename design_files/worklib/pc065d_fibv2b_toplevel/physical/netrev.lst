@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc065d_fibv2b_toplevel_34.brd                 )
+(    Drawing          : pc065d_fibv2b_toplevel_35.brd                 )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Wed Mar  4 16:40:57 2026                      )
+(    Date/Time        : Fri Mar  6 14:43:30 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,17 +19,17 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\packaged'
 Design Directory:            'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical'
-Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_34.brd'
+Old design name:             'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd'
 New design name:             'C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd'
 
-CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -y 1 -z -O C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\physical\pc065d_fibv2b_toplevel_34.brd C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\physical\pc065d_fibv2b_toplevel_35.brd -w C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -y 1 -z -O C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\physical\pc065d_fibv2b_toplevel_35.brd C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\physical\pc065d_fibv2b_toplevel_35.brd -w C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstchip.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstchip.dat (00:00:00.32)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstchip.dat (00:00:00.33)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxprt.dat 
-   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxprt.dat (00:00:00.00)
+   Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxprt.dat (00:00:00.01)
 Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxnet.dat 
    Finished reading C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstxnet.dat (00:00:00.01)
 
@@ -41,11 +41,11 @@ Starting to read C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc0
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaaj57052.tmp
-	Start time: Wed Mar  4 16:40:57 2026
+	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaaj06564.tmp
+	Start time: Fri Mar  6 14:43:30 2026
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Wed Mar  4 16:40:57 2026
+Finished Constraint Update	Time: Fri Mar  6 14:43:30 2026
 ===========================================================
 
 ------ Library Paths ------
@@ -111,9 +111,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 4 16:40:56 2026
+netrev run on Mar 6 14:43:30 2026
    DESIGN NAME : 'PC065D_FIBV2B_TOPLEVEL'
-   PACKAGING ON 04-Mar-2026 AT 16:40:49
+   PACKAGING ON 06-Mar-2026 AT 14:43:22
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
