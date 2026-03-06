@@ -2,53 +2,53 @@ FILE_TYPE = CONNECTIVITY;
 {Allegro Design Entry HDL 24.1 P001 (4234998) 9/4/2024}
 "PAGE_NUMBER" = 8;
 0"NC";
-1"P3V3A\g";
+1"P3V3\g";
 2"GND\g";
 3"P3V3A\g";
-4"P3V3A\g";
-5"P3V3A\g";
+4"P3V3\g";
+5"P3V3C\g";
 6"GND\g";
-7"GND\g";
+7"P2V5\g";
 8"GND\g";
 9"GND\g";
 10"GND\g";
-11"P3V3A\g";
-12"250MXTAL_P";
-13"250MXTAL_N";
-14"CDCLVD110_SI";
-15"CDCLVD110_EN";
-16"CDCLVD110_CK";
-17"P2V5_FILT";
-18"GND\g";
-19"UN$8$CAPCERSMDCL2$I167$A";
-20"UN$8$CAPCERSMDCL2$I168$B";
-21"P3V3C\g";
-22"P3V3\g";
-23"GND\g";
-24"GND\g";
-25"GND\g";
-26"GND\g";
-27"P2V5\g";
-28"GND\g";
-29"GND\g";
-30"P3V3\g";
-31"I2C_SCL";
-32"TEMP_ALERT";
-33"I2C_SDA";
-34"UN$8$PCOAX$I155$A";
-35"UN$8$CAPCERSMDCL2$I158$B";
-36"UN$8$PCOAX$I121$A";
-37"UN$8$CAPCERSMDCL2$I154$B";
-38"CLK_MAIN_P<9>";
-39"CLK_IN_N<3..0>";
-40"CLK_IN_P<3..0>";
-41"CLK_MAIN_N<9..0>";
-42"CLK_MAIN_P<9..0>";
-43"250MXTAL_N";
-44"250MXTAL_P";
-45"UN$8$RSMD0402$I172$B";
-46"CLK_IN_N<1>";
-47"CLK_IN_P<1>";
+11"GND\g";
+12"GND\g";
+13"GND\g";
+14"GND\g";
+15"P3V3A\g";
+16"GND\g";
+17"P3V3A\g";
+18"P3V3A\g";
+19"GND\g";
+20"P3V3A\g";
+21"GND\g";
+22"GND\g";
+23"CLK_IN_P<3..0>";
+24"CLK_IN_N<3..0>";
+25"P2V5_FILT";
+26"CLK_IN_P<1>";
+27"CLK_IN_N<1>";
+28"UN$8$RSMD0402$I172$B";
+29"I2C_SCL";
+30"CLK_MAIN_N<9..0>";
+31"CLK_MAIN_P<9..0>";
+32"I2C_SDA";
+34"250MXTAL_P";
+33"250MXTAL_P";
+36"250MXTAL_N";
+35"250MXTAL_N";
+37"CDCLVD110_EN";
+38"CDCLVD110_SI";
+39"CDCLVD110_CK";
+40"UN$8$CAPCERSMDCL2$I167$A";
+41"UN$8$CAPCERSMDCL2$I168$B";
+42"TEMP_ALERT";
+43"UN$8$PCOAX$I155$A";
+44"UN$8$CAPCERSMDCL2$I158$B";
+45"UN$8$PCOAX$I121$A";
+46"UN$8$CAPCERSMDCL2$I154$B";
+47"CLK_MAIN_P<9>";
 48"CLK_VOLTREFOUT";
 49"CLK_MAIN_N<9>";
 %"INDUCTANCE"
@@ -63,9 +63,9 @@ ROOM"CLOCK_MODULE"
 CDS_LIB"cndiscrete"
 PACK_TYPE"0805";
 "B <SIZE-1..0>\NAC"
-$PN"2"11;
+$PN"2"3;
 "A <SIZE-1..0>\NAC"
-$PN"1"30;
+$PN"1"1;
 %"CAPCERSMDCL2"
 "1","(-6600,5375)","1","cnpassive","I103";
 ;
@@ -80,9 +80,9 @@ CDS_LIB"cnpassive"
 SIZE"1"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"29;
+$PN"1"2;
 "B <SIZE-1..0>\NAC"
-$PN"2"11;
+$PN"2"3;
 %"CAPCERSMDCL2"
 "1","(-5200,4350)","1","cnpassive","I111";
 ;
@@ -97,9 +97,9 @@ VOLTAGE"16V"
 PACK_TYPE"0402"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"22;
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"25;
 %"CAPCERSMDCL2"
 "1","(-5000,4350)","1","cnpassive","I112";
 ;
@@ -114,9 +114,9 @@ VOLTAGE"16V"
 PACK_TYPE"0402"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"22;
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"25;
 %"CAPCERSMDCL2"
 "1","(-4600,4350)","1","cnpassive","I113";
 ;
@@ -131,9 +131,9 @@ PACK_TYPE"0402"
 VOLTAGE"16V"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"22;
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"25;
 %"CAPCERSMDCL2"
 "1","(-4400,4350)","1","cnpassive","I114";
 ;
@@ -148,9 +148,9 @@ VOLTAGE"16V"
 PACK_TYPE"0402"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"22;
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"25;
 %"CAPCERSMDCL2"
 "1","(-4200,4350)","1","cnpassive","I115";
 ;
@@ -165,9 +165,9 @@ VOLTAGE"16V"
 PACK_TYPE"0402"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"22;
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"25;
 %"CAPCERSMDCL2"
 "1","(-4800,4350)","1","cnpassive","I116";
 ;
@@ -182,9 +182,9 @@ VOLTAGE"10V_GEN"
 PACK_TYPE"0805"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"22;
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"25;
 %"CAPCERSMDCL2"
 "1","(-4000,4350)","1","cnpassive","I117";
 ;
@@ -199,9 +199,9 @@ VOLTAGE"10V_GEN"
 PACK_TYPE"0805"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"22;
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"25;
 %"IOPORT"
 "1","(-5475,5550)","2","standard","I118";
 ;
@@ -209,7 +209,7 @@ OFFPAGE"TRUE"
 CDS_LIB"standard";
 "A"
 HDL_PORT"INOUT"
-VHDL_PORT"INOUT"33;
+VHDL_PORT"INOUT"32;
 %"CDCLVD110"
 "1","(-3300,3425)","0","bris_cds_logic","I119";
 ;
@@ -221,32 +221,32 @@ MANUF"TI"
 PACK_TYPE"LQFP"
 CDS_LIB"bris_cds_logic"
 CDS_LMAN_SYM_OUTLINE"-200,275,200,-275";
-"Q<9..0>"42;
-"Q<9..0>* \B"41;
+"Q<9..0>"31;
+"Q<9..0>* \B"30;
 "VDD1"
-$PN"32"17;
+$PN"32"25;
 "VDD0"
-$PN"16"17;
+$PN"16"25;
 "VSS1"
-$PN"25"7;
+$PN"25"12;
 "VSS0"
-$PN"9"6;
+$PN"9"13;
 "EN"
-$PN"8"15;
+$PN"8"37;
 "CLK1* \B"
-$PN"7"13;
+$PN"7"36,35;
 "CLK1"
-$PN"6"12;
+$PN"6"34,33;
 "VBB"
 $PN"5"48;
 "CLK0* \B"
-$PN"4"20;
+$PN"4"41;
 "CLK0"
-$PN"3"19;
+$PN"3"40;
 "SI"
-$PN"2"14;
+$PN"2"38;
 "CK"
-$PN"1"16;
+$PN"1"39;
 %"PCOAX"
 "1","(-775,6075)","0","cnconnector","I121";
 ;
@@ -258,7 +258,7 @@ $LOCATION"PX3"
 NEEDS_NO_SIZE"TRUE"
 CDS_LIB"cnconnector";
 "A\NAC"
-$PN"1"36;
+$PN"1"45;
 %"TMP112A"
 "1","(-4425,5550)","0","bris_cds_logic","I124";
 ;
@@ -272,17 +272,17 @@ CDS_LMAN_SYM_OUTLINE"-250,320,250,-320"
 CDS_LIB"bris_cds_logic"
 PACK_TYPE"SOT";
 "SDA"
-$PN"6"33;
+$PN"6"32;
 "V+"
-$PN"5"1;
+$PN"5"20;
 "A0"
-$PN"4"23;
+$PN"4"16;
 "ALERT"
-$PN"3"32;
+$PN"3"42;
 "GND"
-$PN"2"2;
+$PN"2"19;
 "SCL"
-$PN"1"31;
+$PN"1"29;
 %"P3V3A"
 "1","(-4425,6300)","0","cnpower","I125";
 ;
@@ -292,7 +292,7 @@ HDL_POWER"P3V3A"
 SIZE"1B"
 ROOM"CLOCK_MODULE";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"1;
+VHDL_INIT"1"20;
 %"GND"
 "1","(-4425,5050)","0","cnpower","I126";
 ;
@@ -302,7 +302,7 @@ SIZE"1B"
 ROOM"CLOCK_MODULE"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"2;
+VHDL_INIT"0"19;
 %"RSMD0402"
 "2","(-5100,6050)","1","cnpassive","I127";
 ;
@@ -327,9 +327,9 @@ DIST"FLAT"
 PACK_TYPE"0.0625W"
 TOL"1%";
 "A <SIZE-1..0>\NAC"
-$PN"1"31;
+$PN"1"29;
 "B <SIZE-1..0>\NAC"
-$PN"2"3;
+$PN"2"18;
 %"RSMD0402"
 "2","(-4900,6050)","1","cnpassive","I128";
 ;
@@ -354,9 +354,9 @@ VOLTAGE"RVMAX"
 CDS_LIB"cnpassive"
 TOL"1%";
 "A <SIZE-1..0>\NAC"
-$PN"1"33;
+$PN"1"32;
 "B <SIZE-1..0>\NAC"
-$PN"2"4;
+$PN"2"17;
 %"P3V3A"
 "1","(-5100,6300)","0","cnpower","I129";
 ;
@@ -366,7 +366,7 @@ HDL_POWER"P3V3A"
 SIZE"1B"
 ROOM"CLOCK_MODULE";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"3;
+VHDL_INIT"1"18;
 %"P3V3A"
 "1","(-4900,6300)","0","cnpower","I130";
 ;
@@ -376,7 +376,7 @@ HDL_POWER"P3V3A"
 BODY_TYPE"PLUMBING"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"4;
+VHDL_INIT"1"17;
 %"GND"
 "1","(-4875,5150)","0","cnpower","I131";
 ;
@@ -386,7 +386,7 @@ SIZE"1B"
 ROOM"CLOCK_MODULE"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"23;
+VHDL_INIT"0"16;
 %"RSMD0402"
 "2","(-3200,5775)","1","cnpassive","I132";
 ;
@@ -410,9 +410,9 @@ DIST"FLAT"
 CDS_LIB"cnpassive"
 PACK_TYPE"1/16W";
 "A <SIZE-1..0>\NAC"
-$PN"1"32;
+$PN"1"42;
 "B <SIZE-1..0>\NAC"
-$PN"2"5;
+$PN"2"15;
 %"P3V3A"
 "1","(-3200,6300)","0","cnpower","I133";
 ;
@@ -422,7 +422,7 @@ SIZE"1B"
 HDL_POWER"P3V3A"
 BODY_TYPE"PLUMBING";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"5;
+VHDL_INIT"1"15;
 %"CAPCERSMDCL2"
 "1","(-4225,6200)","0","cnpassive","I134";
 ;
@@ -437,9 +437,9 @@ VOLTAGE"16V"
 PACK_TYPE"0402"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"1;
+$PN"1"20;
 "B <SIZE-1..0>\NAC"
-$PN"2"24;
+$PN"2"14;
 %"GND"
 "1","(-3950,6125)","0","cnpower","I135";
 ;
@@ -449,7 +449,7 @@ HDL_POWER"GND"
 SIZE"1B"
 ROOM"CLOCK_MODULE";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"24;
+VHDL_INIT"0"14;
 %"RSMD0402"
 "2","(-4300,3425)","0","cnpassive","I139";
 ;
@@ -474,9 +474,9 @@ SIZE"1B"
 ROOM"CLOCK_MODULE"
 CDS_LIB"cnpassive";
 "A <SIZE-1..0>\NAC"
-$PN"1"12;
+$PN"1"34,33;
 "B <SIZE-1..0>\NAC"
-$PN"2"13;
+$PN"2"36,35;
 %"GND"
 "1","(-3350,2925)","0","cnpower","I141";
 ;
@@ -486,7 +486,7 @@ BODY_TYPE"PLUMBING"
 HDL_POWER"GND"
 SIZE"1B";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"6;
+VHDL_INIT"0"13;
 %"GND"
 "1","(-3250,2925)","0","cnpower","I142";
 ;
@@ -496,7 +496,7 @@ HDL_POWER"GND"
 BODY_TYPE"PLUMBING"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"7;
+VHDL_INIT"0"12;
 %"RSMD0402"
 "2","(-4500,2925)","0","cnpassive","I144";
 ;
@@ -521,9 +521,9 @@ TOL"1%"
 SIZE"1B"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"25;
+$PN"1"11;
 "B <SIZE-1..0>\NAC"
-$PN"2"14;
+$PN"2"38;
 %"RSMD0402"
 "2","(-4500,2800)","0","cnpassive","I145";
 ;
@@ -548,9 +548,9 @@ TC1"RTMPL"
 TC2"RTMPQ"
 CDS_LIB"cnpassive";
 "A <SIZE-1..0>\NAC"
-$PN"1"25;
+$PN"1"11;
 "B <SIZE-1..0>\NAC"
-$PN"2"16;
+$PN"2"39;
 %"RSMD0402"
 "2","(-4500,2675)","0","cnpassive","I146";
 ;
@@ -575,9 +575,9 @@ SIZE"1B"
 ROOM"CLOCK_MODULE"
 CDS_LIB"cnpassive";
 "A <SIZE-1..0>\NAC"
-$PN"1"25;
+$PN"1"11;
 "B <SIZE-1..0>\NAC"
-$PN"2"15;
+$PN"2"37;
 %"GND"
 "1","(-4750,2500)","0","cnpower","I147";
 ;
@@ -587,7 +587,7 @@ HDL_POWER"GND"
 SIZE"1B"
 ROOM"CLOCK_MODULE";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"25;
+VHDL_INIT"0"11;
 %"RSMD0402"
 "2","(-1200,6075)","0","cnpassive","I149";
 ;
@@ -611,9 +611,9 @@ DIST"FLAT"
 CDS_LIB"cnpassive"
 PACK_TYPE"1/16W";
 "A <SIZE-1..0>\NAC"
-$PN"1"37;
+$PN"1"46;
 "B <SIZE-1..0>\NAC"
-$PN"2"36;
+$PN"2"45;
 %"RSMD0402"
 "2","(-1375,5900)","1","cnpassive","I152";
 ;
@@ -637,9 +637,9 @@ DIST"FLAT"
 CDS_LIB"cnpassive"
 PACK_TYPE"1/16W";
 "A <SIZE-1..0>\NAC"
-$PN"1"8;
+$PN"1"10;
 "B <SIZE-1..0>\NAC"
-$PN"2"37;
+$PN"2"46;
 %"GND"
 "1","(-1375,5700)","0","cnpower","I153";
 ;
@@ -649,7 +649,7 @@ HDL_POWER"GND"
 BODY_TYPE"PLUMBING"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"8;
+VHDL_INIT"0"10;
 %"CAPCERSMDCL2"
 "1","(-1650,6075)","0","cnpassive","I154";
 ;
@@ -664,9 +664,9 @@ PACK_TYPE"0402"
 VOLTAGE"16V"
 SIZE"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"38;
+$PN"1"47;
 "B <SIZE-1..0>\NAC"
-$PN"2"37;
+$PN"2"46;
 %"PCOAX"
 "1","(-775,5575)","0","cnconnector","I155";
 ;
@@ -678,7 +678,7 @@ $LOCATION"PX4"
 CDS_LIB"cnconnector"
 NEEDS_NO_SIZE"TRUE";
 "A\NAC"
-$PN"1"34;
+$PN"1"43;
 %"RSMD0402"
 "2","(-1200,5575)","0","cnpassive","I156";
 ;
@@ -702,9 +702,9 @@ DIST"FLAT"
 CDS_LIB"cnpassive"
 PACK_TYPE"1/16W";
 "A <SIZE-1..0>\NAC"
-$PN"1"35;
+$PN"1"44;
 "B <SIZE-1..0>\NAC"
-$PN"2"34;
+$PN"2"43;
 %"RSMD0402"
 "2","(-1375,5400)","1","cnpassive","I157";
 ;
@@ -730,7 +730,7 @@ PACK_TYPE"1/16W";
 "A <SIZE-1..0>\NAC"
 $PN"1"9;
 "B <SIZE-1..0>\NAC"
-$PN"2"35;
+$PN"2"44;
 %"CAPCERSMDCL2"
 "1","(-1650,5575)","0","cnpassive","I158";
 ;
@@ -747,7 +747,7 @@ SIZE"1";
 "A <SIZE-1..0>\NAC"
 $PN"1"49;
 "B <SIZE-1..0>\NAC"
-$PN"2"35;
+$PN"2"44;
 %"GND"
 "1","(-1375,5200)","0","cnpower","I159";
 ;
@@ -766,7 +766,7 @@ ROOM"CLOCK_MODULE"
 CDS_LIB"standard";
 "A"
 HDL_PORT"OUT"
-VHDL_PORT"OUT"42;
+VHDL_PORT"OUT"31;
 %"OUTPORT"
 "1","(-2175,3375)","0","standard","I161";
 ;
@@ -775,7 +775,7 @@ ROOM"CLOCK_MODULE"
 OFFPAGE"TRUE";
 "A"
 VHDL_PORT"OUT"
-HDL_PORT"OUT"41;
+HDL_PORT"OUT"30;
 %"RSMD0402"
 "2","(-2225,3225)","0","cnpassive","I164";
 ;
@@ -802,7 +802,7 @@ CDS_LIB"cnpassive";
 "A <SIZE-1..0>\NAC"
 $PN"1"48;
 "B <SIZE-1..0>\NAC"
-$PN"2"26;
+$PN"2"8;
 %"GND"
 "1","(-2075,3125)","0","cnpower","I165";
 ;
@@ -812,7 +812,7 @@ SIZE"1B"
 ROOM"CLOCK_MODULE"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"26;
+VHDL_INIT"0"8;
 %"RSMD0402"
 "2","(-4000,3825)","0","cnpassive","I166";
 ;
@@ -837,9 +837,9 @@ TC2"RTMPQ"
 TC1"RTMPL"
 CDS_LIB"cnpassive";
 "A <SIZE-1..0>\NAC"
-$PN"1"19;
+$PN"1"40;
 "B <SIZE-1..0>\NAC"
-$PN"2"20;
+$PN"2"41;
 %"CAPCERSMDCL2"
 "2","(-4300,3925)","0","cnpassive","I167";
 ;
@@ -854,9 +854,9 @@ SIZE"1"
 VOLTAGE"16V"
 PACK_TYPE"0402";
 "B <SIZE-1..0>\NAC"
-$PN"2"47;
+$PN"2"26;
 "A <SIZE-1..0>\NAC"
-$PN"1"19;
+$PN"1"40;
 %"CAPCERSMDCL2"
 "1","(-4300,3725)","0","cnpassive","I168";
 ;
@@ -871,9 +871,9 @@ VOLTAGE"16V"
 PACK_TYPE"0402"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"46;
+$PN"1"27;
 "B <SIZE-1..0>\NAC"
-$PN"2"20;
+$PN"2"41;
 %"P2V5"
 "1","(-5825,4600)","0","cnpower","I169";
 ;
@@ -882,7 +882,7 @@ HDL_POWER"P2V5"
 BODY_TYPE"PLUMBING"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"27;
+VHDL_INIT"1"7;
 %"GND"
 "1","(-5700,3050)","0","cnpower","I170";
 ;
@@ -892,7 +892,7 @@ HDL_POWER"GND"
 SIZE"1B"
 ROOM"CLOCK_MODULE";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"10;
+VHDL_INIT"0"6;
 %"SIT5022"
 "1","(-6000,3350)","0","bris_cds_discrete","I171";
 ;
@@ -906,15 +906,15 @@ PACK_TYPE"145"
 CDS_LIB"bris_cds_discrete"
 CDS_LMAN_SYM_OUTLINE"-200,100,200,-100";
 "VDD"
-$PN"6"21;
+$PN"6"5;
 "GND"
-$PN"3"10;
+$PN"3"6;
 "ENDIS"
-$PN"1"45;
+$PN"1"28;
 "OUTP"
-$PN"4"43;
+$PN"4"36,35;
 "OUTN \B"
-$PN"5"44;
+$PN"5"34,33;
 %"RSMD0402"
 "2","(-6525,3250)","0","cnpassive","I172";
 ;
@@ -939,9 +939,9 @@ TC1"RTMPL"
 TC2"RTMPQ"
 CDS_LIB"cnpassive";
 "A <SIZE-1..0>\NAC"
-$PN"1"21;
+$PN"1"5;
 "B <SIZE-1..0>\NAC"
-$PN"2"45;
+$PN"2"28;
 %"P3V3C"
 "1","(-6725,3350)","0","cnpower","I173";
 ;
@@ -951,7 +951,7 @@ HDL_POWER"P3V3C"
 BODY_TYPE"PLUMBING"
 ROOM"CLOCK_MODULE";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"21;
+VHDL_INIT"1"5;
 %"CAPCERSMDCL2"
 "1","(-6875,3050)","1","cnpassive","I174";
 ;
@@ -966,9 +966,9 @@ VOLTAGE"16V"
 PACK_TYPE"0402"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"28;
+$PN"1"21;
 "B <SIZE-1..0>\NAC"
-$PN"2"21;
+$PN"2"5;
 %"INDUCTANCE"
 "1","(-7050,3225)","0","cndiscrete","I175";
 ;
@@ -981,9 +981,9 @@ PACK_TYPE"0805"
 CDS_LIB"cndiscrete"
 ROOM"CLOCK_MODULE";
 "B <SIZE-1..0>\NAC"
-$PN"2"21;
+$PN"2"5;
 "A <SIZE-1..0>\NAC"
-$PN"1"22;
+$PN"1"4;
 %"P3V3"
 "1","(-7300,3400)","0","cnpower","I176";
 ;
@@ -993,7 +993,7 @@ BODY_TYPE"PLUMBING"
 SIZE"1B"
 ROOM"CLOCK_MODULE";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"22;
+VHDL_INIT"1"4;
 %"GND"
 "1","(-7075,2750)","0","cnpower","I177";
 ;
@@ -1003,7 +1003,7 @@ CDS_LIB"cnpower"
 BODY_TYPE"PLUMBING"
 ROOM"CLOCK_MODULE";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"28;
+VHDL_INIT"0"21;
 %"CAPCERSMDCL2"
 "1","(-7300,3050)","1","cnpassive","I178";
 ;
@@ -1018,27 +1018,27 @@ PACK_TYPE"0805"
 VOLTAGE"10V_GEN"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"28;
+$PN"1"21;
 "B <SIZE-1..0>\NAC"
-$PN"2"22;
+$PN"2"4;
 %"INPORT"
-"1","(-1725,4900)","0","standard","I39";
+"1","(-6300,3925)","0","standard","I39";
 ;
-CDS_LIB"standard"
+ROOM"CLOCK_MODULE"
 OFFPAGE"TRUE"
-ROOM"CLOCK_MODULE";
+CDS_LIB"standard";
 "A"
-VHDL_PORT"IN"
-HDL_PORT"IN"40;
+HDL_PORT"IN"
+VHDL_PORT"IN"23;
 %"INPORT"
-"1","(-1725,4825)","0","standard","I40";
+"1","(-6300,3850)","0","standard","I40";
 ;
-CDS_LIB"standard"
+ROOM"CLOCK_MODULE"
 OFFPAGE"TRUE"
-ROOM"CLOCK_MODULE";
+CDS_LIB"standard";
 "A"
-VHDL_PORT"IN"
-HDL_PORT"IN"39;
+HDL_PORT"IN"
+VHDL_PORT"IN"24;
 %"INPORT"
 "1","(-5475,5800)","0","standard","I70";
 ;
@@ -1046,7 +1046,7 @@ OFFPAGE"TRUE"
 CDS_LIB"standard";
 "A"
 VHDL_PORT"IN"
-HDL_PORT"IN"31;
+HDL_PORT"IN"29;
 %"P3V3A"
 "1","(-6800,5625)","0","cnpower","I73";
 ;
@@ -1056,7 +1056,7 @@ SIZE"1B"
 ROOM"CLOCK_MODULE"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"11;
+VHDL_INIT"1"3;
 %"INDUCTANCE"
 "1","(-5575,4525)","0","cndiscrete","I91";
 ;
@@ -1069,9 +1069,9 @@ PACK_TYPE"0805"
 CDS_LIB"cndiscrete"
 ROOM"CLOCK_MODULE";
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"25;
 "A <SIZE-1..0>\NAC"
-$PN"1"27;
+$PN"1"7;
 %"CAPCERSMDCL2"
 "1","(-5400,4350)","1","cnpassive","I93";
 ;
@@ -1086,9 +1086,9 @@ VOLTAGE"16V"
 PACK_TYPE"0402"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"22;
 "B <SIZE-1..0>\NAC"
-$PN"2"17;
+$PN"2"25;
 %"GND"
 "1","(-5600,4050)","0","cnpower","I94";
 ;
@@ -1097,7 +1097,7 @@ HDL_POWER"GND"
 BODY_TYPE"PLUMBING"
 CDS_LIB"cnpower";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"18;
+VHDL_INIT"0"22;
 %"CAPCERSMDCL2"
 "1","(-5825,4350)","1","cnpassive","I95";
 ;
@@ -1112,9 +1112,9 @@ VOLTAGE"10V_GEN"
 PACK_TYPE"0805"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"18;
+$PN"1"22;
 "B <SIZE-1..0>\NAC"
-$PN"2"27;
+$PN"2"7;
 %"CAPCERSMDCL2"
 "1","(-7125,5375)","1","cnpassive","I96";
 ;
@@ -1129,9 +1129,9 @@ VOLTAGE"10V_GEN"
 CDS_LIB"cnpassive"
 SIZE"1";
 "A <SIZE-1..0>\NAC"
-$PN"1"29;
+$PN"1"2;
 "B <SIZE-1..0>\NAC"
-$PN"2"30;
+$PN"2"1;
 %"GND"
 "1","(-6900,5075)","0","cnpower","I97";
 ;
@@ -1141,7 +1141,7 @@ SIZE"1B"
 BODY_TYPE"PLUMBING"
 HDL_POWER"GND";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"0"29;
+VHDL_INIT"0"2;
 %"CAPCERSMDCL2"
 "1","(-6800,5375)","1","cnpassive","I98";
 ;
@@ -1156,9 +1156,9 @@ VOLTAGE"16V"
 PACK_TYPE"0402"
 ROOM"CLOCK_MODULE";
 "A <SIZE-1..0>\NAC"
-$PN"1"29;
+$PN"1"2;
 "B <SIZE-1..0>\NAC"
-$PN"2"11;
+$PN"2"3;
 %"P3V3"
 "1","(-7125,5625)","0","cnpower","I99";
 ;
@@ -1168,5 +1168,5 @@ CDS_LIB"cnpower"
 BODY_TYPE"PLUMBING"
 SIZE"1B";
 "A<SIZE-1..0>\NAC"
-VHDL_INIT"1"30;
+VHDL_INIT"1"1;
 END.

@@ -1,166 +1,587 @@
-\t (00:00:03) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Wed Mar  4 17:08:11 2026
-\t (00:00:03)         Host=IT088130 User=phdgc Pid=55848 CPUs=16
-\t (00:00:03) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr12153 -mpshost IT088130
-\t (00:00:03) 
-\t (00:00:03) Loading axlcore.cxt 
+\t (00:00:04) allegro 24.1 P001 (4234998) [9/4/2024] Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Thu Mar  5 17:21:55 2026
+\t (00:00:04)         Host=IT088130 User=phdgc Pid=66872 CPUs=16
+\t (00:00:04) CmdLine= allegro -proj C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\pc065d_fibv2b_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr12153 -mpshost IT088130
+\t (00:00:04) 
+\t (00:00:05) Loading axlcore.cxt 
 \t (00:00:06) Opening existing design...
 \i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc065d_fibv2b_toplevel_35"
 \d (00:00:06) Design opened: C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd
-\i (00:00:06) trapsize 524
-\i (00:00:07) trapsize 537
-\i (00:00:07) trapsize 525
-\i (00:00:07) trapsize 524
+\i (00:00:06) trapsize 262
+\i (00:00:06) trapsize 268
+\i (00:00:06) trapsize 262
+\i (00:00:07) trapsize 262
 \i (00:00:07) generaledit 
-\i (00:00:12) artwork 
-\i (00:00:18) setwindow form.film_control
-\i (00:00:18) FORM film_control filmtree  12_POS2 
-\i (00:00:20) FORM film_control filmtree popup 'Display for Visibility' 12_POS2 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) updateport CVPane
-\i (00:00:33) setwindow form.film_control
-\i (00:00:33) FORM film_control filmtree  01_POS1 
-\i (00:00:34) FORM film_control filmtree popup 'Display for Visibility' 01_POS1 
-\i (00:00:34) setwindow pcb
-\i (00:00:34) updateport CVPane
-\i (00:00:44) setwindow form.film_control
-\i (00:00:44) FORM film_control filmtree  12_POS2 
-\i (00:00:46) FORM film_control filmtree popup 'Display for Visibility' 12_POS2 
-\i (00:00:46) setwindow pcb
-\i (00:00:46) updateport CVPane
-\i (00:00:52) text edit 
-\i (00:00:54) pick grid 3.007 35.639
-\t (00:00:54) last pick:  3.000 35.600
-\i (00:01:18) setwindow pcb
-\i (00:01:18) pick 3.007 35.639
-\t (00:01:18) Pick text to edit.
-\i (00:01:24) save 
-\i (00:01:26) fillin yes 
-\i (00:01:26) generaledit 
-\i (00:01:30) zoom out 1 
-\i (00:01:30) setwindow pcb
-\i (00:01:30) zoom out 68.360 16.232
-\i (00:01:30) trapsize 1049
-\i (00:01:37) artwork 
-\i (00:01:39) setwindow form.film_control
-\i (00:01:39) FORM film_control filmtree  01_POS1 
-\i (00:01:39) FORM film_control filmtree 'MULTISEL YES' 01_POS1 
-\i (00:01:41) FORM film_control filmtree  12_POS2 
-\i (00:01:41) FORM film_control filmtree 'MULTISEL YES' 12_POS2 
-\i (00:01:43) FORM film_control general_parameters  
-\i (00:01:55) FORM film_control film_control  
-\i (00:01:58) FORM film_control ok  
-\i (00:01:58) setwindow pcb
-\i (00:01:58) generaledit 
-\i (00:02:07) artwork 
-\i (00:02:10) setwindow form.film_control
-\i (00:02:10) FORM film_control filmtree  01_POS1 
-\i (00:02:11) FORM film_control filmtree 'MULTISEL YES' 01_POS1 
-\i (00:02:13) FORM film_control filmtree  12_POS2 
-\i (00:02:13) FORM film_control filmtree 'MULTISEL YES' 12_POS2 
-\i (00:02:15) FORM film_control create  
-\t (00:02:15) Checking db records
-\t (00:02:15)     checking for orphans...
-\t (00:02:15)     Checked  12 percent
-\t (00:02:15)     Checked  24 percent
-\t (00:02:15)     Checked  37 percent
-\t (00:02:15)     Checked  49 percent
-\t (00:02:15)     Checked  62 percent
-\t (00:02:15)     Checked  74 percent
-\t (00:02:15)     Checked  87 percent
-\t (00:02:15)     Checked  99 percent
-\t (00:02:15)     Checked 100 percent
-\w (00:02:15) Run batch DRC to correctly regenerate DRC errs.
+\i (00:00:11) artwork 
+\i (00:00:21) setwindow form.film_control
+\i (00:00:21) FORM film_control filmtree  02_LSM1 
+\i (00:00:21) FORM film_control filmtree 'MULTISEL YES' 02_LSM1 
+\i (00:00:24) FORM film_control create  
+\t (00:00:24) Checking db records
+\t (00:00:24)     checking for orphans...
+\t (00:00:24)     Checked  12 percent
+\t (00:00:24)     Checked  24 percent
+\t (00:00:24)     Checked  37 percent
+\t (00:00:24)     Checked  49 percent
+\t (00:00:24)     Checked  62 percent
+\t (00:00:24)     Checked  74 percent
+\t (00:00:24)     Checked  87 percent
+\t (00:00:24)     Checked  99 percent
+\t (00:00:24)     Checked 100 percent
+\w (00:00:24) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:02:15) Done dbdoctor.
-\t (00:02:15) Starting Create artwork films...
-\t (00:02:16) SpawnProcessExit background process completed status = 1
+\t (00:00:24) Done dbdoctor.
+\t (00:00:24) Starting Create artwork films...
+\t (00:00:24) SpawnProcessExit background process completed status = 1
 
-\w (00:02:16) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:02:17) Artwork generated with warnings.
-\i (00:02:27) setwindow text
-\i (00:02:27) close
-\i (00:02:35) setwindow form.film_control
-\i (00:02:35) FORM film_control ok  
-\i (00:02:35) setwindow pcb
-\i (00:02:35) generaledit 
-\i (00:03:45) odb_out 
-\t (00:03:45) Valor: Extract out files
-\i (00:03:46) fillin yes 
-\t (00:03:46) extracting technology file
-\t (00:03:46) Starting techfile...
-\t (00:03:47) SpawnProcessExit background process completed status = 0
+\w (00:00:24) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:00:25) Artwork generated with warnings.
+\i (00:00:38) setwindow text
+\i (00:00:38) close
+\i (00:00:42) setwindow form.film_control
+\i (00:00:42) FORM film_control cancel  
+\i (00:00:42) setwindow pcb
+\i (00:00:42) generaledit 
+\i (00:00:45) drc update 
+\t (00:00:45) Performing DRC...
+\t (00:00:45) Multithreaded DRC update (16 threads).
+\t (00:00:46) No DRC errors detected.
+\i (00:00:46) generaledit 
+\i (00:00:50) artwork 
+\i (00:00:56) setwindow form.film_control
+\i (00:00:56) FORM film_control filmtree  02_LSM1 
+\i (00:00:56) FORM film_control filmtree 'MULTISEL YES' 02_LSM1 
+\i (00:00:58) FORM film_control create  
+\t (00:00:58) Checking db records
+\t (00:00:58)     checking for orphans...
+\t (00:00:58)     Checked  12 percent
+\t (00:00:58)     Checked  24 percent
+\t (00:00:58)     Checked  37 percent
+\t (00:00:58)     Checked  49 percent
+\t (00:00:58)     Checked  62 percent
+\t (00:00:58)     Checked  74 percent
+\t (00:00:58)     Checked  87 percent
+\t (00:00:58)     Checked  99 percent
+\t (00:00:59)     Checked 100 percent
+\t (00:00:59) Done dbdoctor.
+\t (00:00:59) Starting Create artwork films...
+\t (00:00:59) SpawnProcessExit background process completed status = 0
 
-\t (00:03:48) extracting cross-section report
-\i (00:03:48) reports 'Cross-Section Report' nographic write C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/crosssection_pc065d_fibv2b_toplevel_35.out 
-\t (00:03:48) extracting DFA requirements
-\t (00:03:48) Extracting Analysis Regions
-\t (00:03:48) Extracting Padstack
-\t (00:03:48) extracting Component Properties
-\t (00:03:49)  ----- Valor extract completed successfully with zones ----- 
+\t (00:01:00) Plot generated.
+\i (00:01:03) FORM film_control viewlog  
+\i (00:39:05) setwindow text
+\i (00:39:05) close
+\i (00:39:13) setwindow form.film_control
+\i (00:39:13) FORM film_control cancel  
+\i (00:39:13) setwindow pcb
+\i (00:39:13) generaledit 
+\t (00:39:13) [18:01:03.488000] Periodic Lic check successful
+[18:01:03.488000] Feature usage summary:
+[18:01:03.488000] PCB_librarian_expert
 
-\t (00:03:49) Starting ODB++ Inside export...
-\t (00:05:20) Loading signal.cxt 
-\t (00:05:20) Loading mfg.cxt 
-\i (00:05:21) generaledit 
-\t (00:05:21) [17:13:28.348712] Periodic Lic check successful
-[17:13:28.873000] Feature usage summary:
-[17:13:28.873000] PCB_librarian_expert
+\i (18:36:51) artwork 
+\t (18:36:51) [11:58:42.031000] Periodic Lic check successful
+[11:58:42.031000] Feature usage summary:
+[11:58:42.031000] PCB_librarian_expert
 
-\i (00:07:19) artwork 
-\i (00:07:20) setwindow form.film_control
-\i (00:07:20) FORM film_control cancel  
-\i (00:07:21) setwindow pcb
-\i (00:07:21) generaledit 
-\i (00:07:25) nctape_full 
-\i (00:07:30) setwindow form.nc_drill
-\i (00:07:30) FORM nc_drill execute  
-\t (00:07:30) Starting Generating NC Drill...
-\t (00:07:31) SpawnProcessExit background process completed status = 0
+\i (18:36:58) setwindow form.film_control
+\i (18:36:58) FORM film_control select_all  
+\i (18:37:04) FORM film_control filmtree  02_LSM1 
+\i (18:37:04) FORM film_control filmtree 'MULTISEL NO' 02_LSM1 
+\i (18:37:07) FORM film_control create  
+\t (18:37:07) Checking db records
+\t (18:37:07)     checking for orphans...
+\t (18:37:07)     Checked  12 percent
+\t (18:37:07)     Checked  24 percent
+\t (18:37:07)     Checked  37 percent
+\t (18:37:07)     Checked  49 percent
+\t (18:37:07)     Checked  62 percent
+\t (18:37:07)     Checked  74 percent
+\t (18:37:07)     Checked  87 percent
+\t (18:37:07)     Checked  99 percent
+\t (18:37:07)     Checked 100 percent
+\t (18:37:07) Done dbdoctor.
+\t (18:37:07) Starting Create artwork films...
+\t (18:37:09) SpawnProcessExit background process completed status = 1
 
-\i (00:12:26) FORM nc_drill close  
-\i (00:12:26) setwindow pcb
-\i (00:12:26) generaledit 
-\t (00:12:26) [17:20:34.289000] Periodic Lic check successful
-[17:20:34.289000] Feature usage summary:
-[17:20:34.289000] PCB_librarian_expert
+\w (18:37:09) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (18:37:10) Artwork generated with warnings.
+\i (18:37:20) setwindow text
+\i (18:37:20) close
+\i (18:38:36) setwindow form.film_control
+\i (18:38:36) FORM film_control cancel  
+\i (18:38:36) setwindow pcb
+\i (18:38:36) generaledit 
+\i (18:38:39) artwork 
+\i (18:38:41) setwindow form.film_control
+\i (18:38:41) FORM film_control general_parameters  
+\i (18:39:39) FORM film_control cancel  
+\i (18:39:39) setwindow pcb
+\i (18:39:39) generaledit 
+\i (18:39:48) artwork 
+\i (18:40:02) setwindow form.film_control
+\i (18:40:02) FORM film_control filmtree  03_L01P 
+\i (18:40:02) FORM film_control filmtree 'MULTISEL YES' 03_L01P 
+\i (18:40:04) FORM film_control filmtree popup 'Display for Visibility''MULTISEL YES' 03_L01P 
+\i (18:40:04) setwindow pcb
+\i (18:40:04) updateport CVPane
+\i (18:40:06) setwindow form.film_control
+\i (18:40:06) FORM film_control ok  
+\i (18:40:06) setwindow pcb
+\i (18:40:06) generaledit 
+\i (18:40:18) roam y -96 
+\i (18:40:18) roam y -96
+\t (18:40:18) Loading signal.cxt 
+\i (18:40:19) roam y -96 
+\i (18:40:19) roam y -96
+\i (18:40:19) roam y -96 
+\i (18:40:19) roam y -96
+\i (18:40:21) roam y -96 
+\i (18:40:21) roam y -96
+\i (18:40:21) roam y -96 
+\i (18:40:21) roam y -96
+\i (18:40:21) roam y -96 
+\i (18:40:21) roam y -96
+\i (18:41:45) roam y 96 
+\i (18:41:45) roam y 96
+\i (18:41:46) roam y 96 
+\i (18:41:46) roam y 96
+\i (18:41:46) roam y 96 
+\i (18:41:46) roam y 96
+\i (18:41:46) roam y 96 
+\i (18:41:46) roam y 96
+\i (18:41:47) roam y 96 
+\i (18:41:47) roam y 96
+\i (18:41:52) roam y 96 
+\i (18:41:52) roam y 96
+\i (18:41:53) roam y 96 
+\i (18:41:53) roam y 96
+\i (18:41:53) roam y 96 
+\i (18:41:53) roam y 96
+\i (18:41:55) roam y 96 
+\i (18:41:55) roam y 96
+\i (18:41:55) roam y 96 
+\i (18:41:55) roam y 96
+\i (18:41:56) roam y -96 
+\i (18:41:56) roam y -96
+\i (18:42:13) zoom in 1 
+\t (18:42:13) [12:04:03.145712] Periodic Lic check successful
+[12:04:03.670000] Feature usage summary:
+[12:04:03.670000] PCB_librarian_expert
 
-\i (00:12:32) pick grid -30.456 26.303
-\t (00:12:32) last pick:  -30.500 26.300
-\i (00:12:34) zoom in 1 
-\i (00:12:34) setwindow pcb
-\i (00:12:34) zoom in -3.811 32.597
-\i (00:12:34) trapsize 524
-\i (00:12:34) zoom in 1 
-\i (00:12:34) setwindow pcb
-\i (00:12:34) zoom in -3.811 32.597
-\i (00:12:34) trapsize 262
-\i (00:12:36) prepopup -3.915 39.469
-\i (00:12:37) pick grid -7.534 31.601
-\t (00:12:37) last pick:  -7.500 31.600
-\i (00:12:38) roam y -96 
-\i (00:12:38) roam y -96
-\i (00:12:38) roam y -96 
-\i (00:12:38) roam y -96
-\i (00:12:44) flipdesign 
-\i (00:12:52) flipdesign 
-\i (00:12:54) artwork 
-\i (00:12:56) setwindow form.film_control
-\i (00:12:56) FORM film_control filmtree  01_POS1 
-\i (00:12:56) FORM film_control filmtree 'MULTISEL YES' 01_POS1 
-\i (00:12:57) FORM film_control filmtree popup 'Display for Visibility''MULTISEL YES' 01_POS1 
-\i (00:12:57) setwindow pcb
-\i (00:12:57) updateport CVPane
-\i (00:13:01) setwindow form.film_control
-\i (00:13:01) FORM film_control cancel  
-\i (00:13:01) setwindow pcb
-\i (00:13:01) generaledit 
-\i (00:13:05) exit 
-\e (00:13:05) Do you want to save the changes you made to C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd?
-\i (00:13:06) fillin yes 
-\t (00:13:07) Lic Summary:
-[17:21:15.065000] Cdslmd servers: ppl
-[17:21:15.065000] Feature usage summary:
-[17:21:15.065000] PCB_librarian_expert
+\i (18:42:13) setwindow pcb
+\i (18:42:13) zoom in 12.659 12.218
+\i (18:42:13) trapsize 131
+\i (18:42:13) zoom in 1 
+\i (18:42:13) setwindow pcb
+\i (18:42:13) zoom in 12.659 12.218
+\i (18:42:13) trapsize 66
+\i (18:42:14) zoom in 1 
+\i (18:42:14) setwindow pcb
+\i (18:42:14) zoom in 12.659 12.218
+\i (18:42:14) trapsize 33
+\i (18:45:10) artwork 
+\i (18:45:14) setwindow form.film_control
+\i (18:45:14) FORM film_control filmtree  08_L06P 
+\i (18:45:14) FORM film_control filmtree 'MULTISEL YES' 08_L06P 
+\i (18:45:16) FORM film_control filmtree popup 'Display for Visibility''MULTISEL YES' 08_L06P 
+\i (18:45:16) setwindow pcb
+\i (18:45:16) updateport CVPane
+\i (18:45:18) setwindow form.film_control
+\i (18:45:18) FORM film_control ok  
+\i (18:45:18) setwindow pcb
+\i (18:45:18) generaledit 
+\i (18:45:25) roam x 96 
+\i (18:45:25) roam x 96
+\i (18:45:25) roam x 96 
+\i (18:45:25) roam x 96
+\i (18:45:28) roam y -96 
+\i (18:45:28) roam y -96
+\i (18:45:29) roam y -96 
+\i (18:45:29) roam y -96
+\i (18:45:29) roam y -96 
+\i (18:45:29) roam y -96
+\i (18:45:29) roam y -96 
+\i (18:45:29) roam y -96
+\i (18:45:29) roam y -96 
+\i (18:45:29) roam y -96
+\i (18:45:29) roam y -96 
+\i (18:45:29) roam y -96
+\i (18:45:29) roam y -96 
+\i (18:45:29) roam y -96
+\i (18:45:29) roam y -96 
+\i (18:45:29) roam y -96
+\i (18:45:29) roam y -96 
+\i (18:45:29) roam y -96
+\i (18:45:29) roam y -96 
+\i (18:45:29) roam y -96
+\i (18:45:30) roam y -96 
+\i (18:45:30) roam y -96
+\i (18:45:30) roam y -96 
+\i (18:45:30) roam y -96
+\i (18:45:30) roam y -96 
+\i (18:45:30) roam y -96
+\i (18:45:30) roam y -96 
+\i (18:45:30) roam y -96
+\i (18:45:31) roam y -96 
+\i (18:45:31) roam y -96
+\i (18:45:31) roam y -96 
+\i (18:45:31) roam y -96
+\i (18:45:33) roam y -96 
+\i (18:45:33) roam y -96
+\i (18:45:33) roam y -96 
+\i (18:45:33) roam y -96
+\i (18:45:34) roam y -96 
+\i (18:45:34) roam y -96
+\i (18:45:34) roam y -96 
+\i (18:45:34) roam y -96
+\i (18:45:34) roam y -96 
+\i (18:45:34) roam y -96
+\i (18:45:34) roam y -96 
+\i (18:45:34) roam y -96
+\i (18:45:34) roam y -96 
+\i (18:45:34) roam y -96
+\i (18:45:34) roam y -96 
+\i (18:45:34) roam y -96
+\i (18:45:35) roam y -96 
+\i (18:45:35) roam y -96
+\i (18:45:35) roam y -96 
+\i (18:45:35) roam y -96
+\i (18:45:35) roam y -96 
+\i (18:45:35) roam y -96
+\i (18:45:35) roam y -96 
+\i (18:45:35) roam y -96
+\i (18:45:35) roam y -96 
+\i (18:45:35) roam y -96
+\i (18:45:37) roam y -96 
+\i (18:45:37) roam y -96
+\i (18:45:37) roam y -96 
+\i (18:45:37) roam y -96
+\i (18:45:37) roam y -96 
+\i (18:45:37) roam y -96
+\i (18:45:37) roam y -96 
+\i (18:45:37) roam y -96
+\i (18:45:38) roam y -96 
+\i (18:45:38) roam y -96
+\i (18:45:38) roam y -96 
+\i (18:45:38) roam y -96
+\i (18:45:38) roam y -96 
+\i (18:45:38) roam y -96
+\i (18:45:38) roam y -96 
+\i (18:45:38) roam y -96
+\i (18:45:38) roam y -96 
+\i (18:45:38) roam y -96
+\i (18:45:39) roam y -96 
+\i (18:45:39) roam y -96
+\i (18:45:39) roam y -96 
+\i (18:45:39) roam y -96
+\i (18:45:42) zoom out 1 
+\i (18:45:42) setwindow pcb
+\i (18:45:42) zoom out 17.557 37.888
+\i (18:45:42) trapsize 66
+\i (18:45:42) zoom out 1 
+\i (18:45:42) setwindow pcb
+\i (18:45:42) zoom out 17.557 37.889
+\i (18:45:42) trapsize 131
+\i (18:45:44) roam y 96 
+\i (18:45:44) roam y 96
+\i (18:45:45) zoom out 1 
+\i (18:45:45) setwindow pcb
+\i (18:45:45) zoom out 17.557 35.357
+\i (18:45:45) trapsize 262
+\i (18:45:46) zoom out 1 
+\i (18:45:46) setwindow pcb
+\i (18:45:46) zoom out 17.557 35.410
+\i (18:45:46) trapsize 525
+\i (18:45:46) zoom out 1 
+\i (18:45:46) setwindow pcb
+\i (18:45:46) zoom out 17.557 35.410
+\i (18:45:46) trapsize 1049
+\i (18:45:47) zoom in 1 
+\i (18:45:47) setwindow pcb
+\i (18:45:47) zoom in 45.186 34.990
+\i (18:45:47) trapsize 525
+\i (18:45:48) zoom in 1 
+\i (18:45:48) setwindow pcb
+\i (18:45:48) zoom in 45.186 34.990
+\i (18:45:48) trapsize 262
+\i (18:45:48) zoom in 1 
+\i (18:45:48) setwindow pcb
+\i (18:45:48) zoom in 45.187 34.990
+\i (18:45:48) trapsize 131
+\i (18:45:48) zoom out 1 
+\i (18:45:48) setwindow pcb
+\i (18:45:48) zoom out 45.187 34.990
+\i (18:45:48) trapsize 262
+\i (18:45:48) zoom out 1 
+\i (18:45:48) setwindow pcb
+\i (18:45:48) zoom out 45.188 34.990
+\i (18:45:48) trapsize 525
+\i (18:45:52) roam y 96 
+\i (18:45:52) roam y 96
+\i (18:45:52) roam y 96 
+\i (18:45:52) roam y 96
+\i (18:47:19) artwork 
+\t (18:47:19) [12:09:09.390712] Periodic Lic check successful
+[12:09:09.915000] Feature usage summary:
+[12:09:09.915000] PCB_librarian_expert
 
-\t (00:13:07)     Journal end - Wed Mar  4 17:21:15 2026
+\i (18:47:22) setwindow form.film_control
+\i (18:47:22) FORM film_control filmtree  10_L08P 
+\i (18:47:22) FORM film_control filmtree 'MULTISEL YES' 10_L08P 
+\i (18:47:24) FORM film_control filmtree popup 'Display for Visibility''MULTISEL YES' 10_L08P 
+\i (18:47:24) setwindow pcb
+\i (18:47:24) updateport CVPane
+\i (18:47:26) setwindow form.film_control
+\i (18:47:26) FORM film_control ok  
+\i (18:47:26) setwindow pcb
+\i (18:47:26) generaledit 
+\i (18:47:47) zoom in 1 
+\i (18:47:47) setwindow pcb
+\i (18:47:47) zoom in 17.073 39.868
+\i (18:47:47) trapsize 262
+\i (18:47:47) zoom in 1 
+\i (18:47:47) setwindow pcb
+\i (18:47:47) zoom in 17.073 39.868
+\i (18:47:47) trapsize 131
+\i (18:47:47) zoom in 1 
+\i (18:47:47) setwindow pcb
+\i (18:47:47) zoom in 17.074 39.868
+\i (18:47:47) trapsize 66
+\i (18:48:00) zoom in 1 
+\i (18:48:00) setwindow pcb
+\i (18:48:00) zoom in 17.573 39.698
+\i (18:48:00) trapsize 33
+\i (18:48:00) zoom in 1 
+\i (18:48:00) setwindow pcb
+\i (18:48:00) zoom in 17.573 39.699
+\i (18:48:00) trapsize 16
+\i (18:48:00) zoom in 1 
+\i (18:48:00) setwindow pcb
+\i (18:48:00) zoom in 17.573 39.699
+\i (18:48:00) trapsize 8
+\i (18:48:01) zoom out 1 
+\i (18:48:01) setwindow pcb
+\i (18:48:01) zoom out 17.573 39.700
+\i (18:48:01) trapsize 16
+\i (18:48:03) zoom out 1 
+\i (18:48:03) setwindow pcb
+\i (18:48:03) zoom out 17.573 39.700
+\i (18:48:03) trapsize 33
+\i (18:48:39) roam x -96 
+\i (18:48:39) roam x -96
+\i (18:48:39) roam x -96 
+\i (18:48:39) roam x -96
+\i (18:48:48) pick grid 16.376 40.106
+\t (18:48:48) last pick:  16.400 40.100
+\i (18:48:49) zoom out 1 
+\i (18:48:49) setwindow pcb
+\i (18:48:49) zoom out 16.376 40.106
+\i (18:48:49) trapsize 66
+\i (18:48:49) roam x 96 
+\i (18:48:49) roam x 96
+\i (18:48:49) roam x 96 
+\i (18:48:49) roam x 96
+\i (18:48:50) roam x 96 
+\i (18:48:50) roam x 96
+\i (18:48:50) roam x 96 
+\i (18:48:50) roam x 96
+\i (18:48:50) roam x 96 
+\i (18:48:50) roam x 96
+\i (18:48:50) roam x 96 
+\i (18:48:50) roam x 96
+\i (18:48:50) roam x 96 
+\i (18:48:50) roam x 96
+\i (18:48:50) roam x 96 
+\i (18:48:50) roam x 96
+\i (18:48:50) roam x 96 
+\i (18:48:50) roam x 96
+\i (18:48:50) roam x 96 
+\i (18:48:50) roam x 96
+\i (18:48:51) roam x 96 
+\i (18:48:51) roam x 96
+\i (18:48:51) roam x 96 
+\i (18:48:51) roam x 96
+\i (18:48:51) roam x 96 
+\i (18:48:51) roam x 96
+\i (18:48:51) roam x 96 
+\i (18:48:51) roam x 96
+\i (18:48:51) roam x 96 
+\i (18:48:51) roam x 96
+\i (18:48:52) roam x 96 
+\i (18:48:52) roam x 96
+\i (18:48:52) roam x 96 
+\i (18:48:52) roam x 96
+\i (18:48:52) roam x 96 
+\i (18:48:52) roam x 96
+\i (18:48:53) roam x 96 
+\i (18:48:53) roam x 96
+\i (18:48:54) roam x 96 
+\i (18:48:54) roam x 96
+\i (18:48:55) roam x 96 
+\i (18:48:55) roam x 96
+\i (18:48:59) zoom in 1 
+\i (18:48:59) setwindow pcb
+\i (18:48:59) zoom in 42.823 40.107
+\i (18:48:59) trapsize 33
+\i (18:48:59) zoom in 1 
+\i (18:48:59) setwindow pcb
+\i (18:48:59) zoom in 42.823 40.107
+\i (18:48:59) trapsize 16
+\i (18:48:59) zoom in 1 
+\i (18:48:59) setwindow pcb
+\i (18:48:59) zoom in 42.823 40.107
+\i (18:48:59) trapsize 8
+\i (18:48:59) zoom out 1 
+\i (18:48:59) setwindow pcb
+\i (18:48:59) zoom out 42.823 40.108
+\i (18:48:59) trapsize 16
+\i (18:49:06) reports 'Unconnected Pins Report' 
+\i (18:49:06) generaledit 
+\i (18:49:09) setwindow text
+\i (18:49:09) close
+\i (18:49:39) setwindow pcb
+\i (18:49:39) trapsize 10
+\i (18:57:46) pick grid 43.991 40.939
+\t (18:57:46) last pick:  44.000 40.900
+\i (18:57:50) pick grid 40.819 40.729
+\t (18:57:50) last pick:  40.800 40.700
+\i (18:58:47) trapsize 16
+\i (18:58:51) trapsize 18
+\i (18:58:51) trapsize 25
+\i (18:58:51) trapsize 44
+\i (18:58:51) trapsize 67
+\i (18:58:52) trapsize 82
+\i (18:59:01) trapsize 81
+\i (18:59:01) trapsize 72
+\i (18:59:01) trapsize 43
+\i (18:59:01) trapsize 30
+\i (18:59:01) trapsize 28
+\i (18:59:01) trapsize 24
+\i (18:59:01) trapsize 23
+\i (18:59:01) trapsize 21
+\i (18:59:01) trapsize 20
+\i (18:59:02) trapsize 19
+\i (18:59:07) nctape_full 
+\t (18:59:07) [12:20:57.394000] Periodic Lic check successful
+[12:20:57.394000] Feature usage summary:
+[12:20:57.394000] PCB_librarian_expert
+
+\i (18:59:14) setwindow form.nc_drill
+\i (18:59:14) FORM nc_drill execute  
+\t (18:59:14) Starting Generating NC Drill...
+\t (18:59:15) SpawnProcessExit background process completed status = 0
+
+\i (19:01:38) FORM nc_drill close  
+\i (19:01:38) setwindow pcb
+\i (19:01:38) generaledit 
+\i (19:01:40) artwork 
+\i (19:01:42) setwindow form.film_control
+\i (19:01:42) FORM film_control filmtree  00_working_top 
+\i (19:01:42) FORM film_control filmtree 'MULTISEL YES' 00_working_top 
+\i (19:01:43) FORM film_control filmtree popup 'Display for Visibility''MULTISEL YES' 00_working_top 
+\i (19:01:43) setwindow pcb
+\i (19:01:43) updateport CVPane
+\i (19:01:44) zoom out 1 
+\i (19:01:44) setwindow pcb
+\i (19:01:44) zoom out 41.767 39.947
+\i (19:01:44) trapsize 37
+\i (19:01:44) zoom out 1 
+\i (19:01:44) setwindow pcb
+\i (19:01:44) zoom out 41.767 39.947
+\i (19:01:44) trapsize 74
+\i (19:01:45) zoom out 1 
+\i (19:01:45) setwindow pcb
+\i (19:01:45) zoom out 41.766 39.947
+\i (19:01:45) trapsize 148
+\i (19:01:45) zoom out 1 
+\i (19:01:45) setwindow pcb
+\i (19:01:45) zoom out 41.767 39.946
+\i (19:01:45) trapsize 296
+\i (19:01:45) zoom out 1 
+\i (19:01:45) setwindow pcb
+\i (19:01:45) zoom out 41.766 39.947
+\i (19:01:45) trapsize 593
+\i (19:01:45) zoom out 1 
+\i (19:01:45) setwindow pcb
+\i (19:01:45) zoom out 41.767 39.947
+\i (19:01:45) trapsize 1185
+\i (19:01:46) zoom in 1 
+\i (19:01:46) setwindow pcb
+\i (19:01:46) zoom in 10.293 39.946
+\i (19:01:46) trapsize 593
+\i (19:01:46) zoom in 1 
+\i (19:01:46) setwindow pcb
+\i (19:01:46) zoom in 10.294 39.947
+\i (19:01:46) trapsize 296
+\i (19:01:47) zoom out 1 
+\i (19:01:47) setwindow pcb
+\i (19:01:47) zoom out 10.294 39.947
+\i (19:01:47) trapsize 593
+\i (19:01:47) zoom out 1 
+\i (19:01:47) setwindow pcb
+\i (19:01:47) zoom out 10.295 39.947
+\i (19:01:47) trapsize 1185
+\i (19:01:47) zoom in 1 
+\i (19:01:47) setwindow pcb
+\i (19:01:47) zoom in 10.293 39.946
+\i (19:01:47) trapsize 593
+\i (19:01:52) setwindow form.film_control
+\i (19:01:52) FORM film_control cancel  
+\i (19:01:52) setwindow pcb
+\i (19:01:52) generaledit 
+\i (19:01:56) artwork 
+\i (19:01:58) setwindow form.film_control
+\i (19:01:58) FORM film_control filmtree  00_working_top 
+\i (19:02:01) FORM film_control cancel  
+\i (19:02:01) setwindow pcb
+\i (19:02:01) generaledit 
+\i (21:16:16) zoom out 1 
+\i (21:16:16) setwindow pcb
+\i (21:16:16) zoom out 15.508 46.346
+\t (21:16:16) [14:38:06.428712] Periodic Lic check successful
+[14:38:06.953000] Feature usage summary:
+[14:38:06.953000] PCB_librarian_expert
+
+\i (21:16:16) trapsize 1185
+\i (21:16:18) zoom in 1 
+\i (21:16:18) setwindow pcb
+\i (21:16:18) zoom in 56.275 65.071
+\i (21:16:18) trapsize 593
+\i (21:16:20) zoom out 1 
+\i (21:16:20) setwindow pcb
+\i (21:16:20) zoom out 56.750 66.375
+\i (21:16:20) trapsize 1185
+\i (21:16:20) zoom out 1 
+\i (21:16:20) setwindow pcb
+\i (21:16:20) zoom out 56.749 66.375
+\i (21:16:20) trapsize 2370
+\i (21:16:21) zoom in 1 
+\i (21:16:21) setwindow pcb
+\i (21:16:21) zoom in 115.143 114.984
+\i (21:16:21) trapsize 1185
+\i (21:16:21) zoom in 1 
+\i (21:16:21) setwindow pcb
+\i (21:16:21) zoom in 63.385 115.221
+\i (21:16:21) trapsize 593
+\i (21:16:21) zoom in 1 
+\i (21:16:21) setwindow pcb
+\i (21:16:21) zoom in 63.623 115.458
+\i (21:16:21) trapsize 296
+\i (21:16:21) zoom out 1 
+\i (21:16:21) setwindow pcb
+\i (21:16:21) zoom out 63.623 115.458
+\i (21:16:21) trapsize 593
+\i (21:16:22) zoom out 1 
+\i (21:16:22) setwindow pcb
+\i (21:16:22) zoom out 63.623 115.458
+\i (21:16:22) trapsize 1185
+\i (21:16:25) exit 
+\e (21:16:25) Do you want to save the changes you made to pc065d_fibv2b_toplevel_35.brd?
+\i (21:16:30) fillin no 
+\t (21:16:30) Lic Summary:
+[14:38:20.115712] Cdslmd servers: ppl
+[14:38:20.640000] Feature usage summary:
+[14:38:20.640000] PCB_librarian_expert
+
+\t (21:16:30)     Journal end - Fri Mar  6 14:38:20 2026
