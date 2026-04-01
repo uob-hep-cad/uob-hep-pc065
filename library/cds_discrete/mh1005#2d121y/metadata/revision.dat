@@ -1,0 +1,236 @@
+(Cell	mh1005-121y
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/02/26,14:28:02)
+
+			(User	phdgc)
+
+			(Path	bris_cds_discrete.MH1005-121Y)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/02/26,14:39:54)
+
+			(User	phdgc)
+
+			(Path	bris_cds_discrete.mh1005-121y)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	03/02/26,14:28:02)
+
+					(User	phdgc)
+
+					(Path	bris_cds_discrete.MH1005-121Y)
+
+				)
+
+			)
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Sizable)
+
+					(Max_Size	0)
+
+					(Checksum	0000000012925775)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/02/26,14:28:02)
+
+							(User	phdgc)
+
+							(Path	bris_cds_discrete.MH1005-121Y)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Sizable)
+
+					(Max_Size	0)
+
+					(Checksum	00000000666e5b25)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/02/26,14:28:02)
+
+							(User	phdgc)
+
+							(Path	bris_cds_discrete.MH1005-121Y)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b18037f)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000036de8ab0)
+
+			(Primitives	1
+
+				(Primitive	MH1005-121Y
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/02/26,14:28:02)
+
+							(User	phdgc)
+
+							(Path	bris_cds_discrete.MH1005-121Y)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MH1005-121Y
+
+							(PackType	MH1005-121Y)
+
+							(PackType	MH1005-121Y_SMD)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c1a03b8)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	24.1 P001 (4234998))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c6d03a4)
+
+)
+

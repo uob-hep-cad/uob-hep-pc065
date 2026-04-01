@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TMP112A'
+CLASS = IC 
+
+{========================================================================================}
+:'MANUFACTURER_NAME'  |'MANUFACTURER_PART_NUMBER'   = 'PART_NUMBER'    |'JEDEC_TYPE'     |'PACK_TYPE'    |'MOUSER_PART_NUMBER'    |'MOUSER_PRICE/STOCK'                                                       |'DESCRIPTION'                                                                            |'DATASHEET'                                        |'HEIGHT'    ;
+{========================================================================================}
+ 'Texas Instruments'  |'TMP112AIDRLR' (!)           = ''             |'SOT_DRL_TEX'  |'SOT'        |'595-TMP112AIDRLR '    |'https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMP112AIDRLR'  |'I2C temperature probe. LM75 / TMP1075 compatible'  |'https://www.ti.com/lit/gpn/tmp112d'  |'0.6 mm'  
+
+END_PART
+
+END.
+

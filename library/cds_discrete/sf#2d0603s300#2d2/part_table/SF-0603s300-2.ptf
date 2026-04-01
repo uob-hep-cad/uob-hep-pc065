@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SF-0603s300-2'
+PHYS_DES_PREFIX=L
+CLASS=DISCRETE
+
+{========================================================================================}
+:VALUE         | PACK_TYPE | MODEL    = STATUS      | PART_NUMBER   | MANUFACTURER | DESCRIPTION                                                                                                 | DATASHEET_URL | PINCOUNT | SMD | CASE | JEDEC_TYPE    ;
+{========================================================================================}
+ 'SF-0603s300-2' | 'SMD'     | 'BOURNS'(!) = 'Preferred' | 'SF-0603s300-2' | 'BOURNS'     | 'BOURNS - SF-0603S300-2 - Fuse, Surface Mount, 3 A, Slow Blow, 32 VDC, 0603 [1608 Metric], SF-0603S' | ''            | '2'      | ''  | ''   | 'C0603'
+
+END_PART
+
+END.
+

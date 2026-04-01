@@ -66,4 +66,52 @@
 		<property name="PACK_TYPE"  value="0603"/>
 		<property name="VALUE"  value="4.7nH"/>
 	</component>
+	<component cell="ferrite" library="cndiscrete" partname="FERRITE" partno="BLM15HG601SN1" quantity="1" >
+		<property name="MODEL"  value="MURATA"/>
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="BLM15HG601SN1"/>
+	</component>
+	<component cell="mh1005-121y" library="bris_cds_discrete" partname="MH1005-121Y" partno="MH1005-121Y" quantity="1" >
+		<property name="MODEL"  value="BOURNS"/>
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="MH1005-121Y"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0805_10UF_10V_10%_X5R" quantity="1" >
+		<property name="PACK_TYPE"  value="0805"/>
+		<property name="VALUE"  value="10uF"/>
+		<property name="VOLTAGE"  value="10V_GEN"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_51R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="51"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_510R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="510"/>
+	</component>
+	<component cell="sf-0603s300-2" library="bris_cds_discrete" partname="SF-0603S300-2" partno="SF-0603s300-2" quantity="1" >
+		<property name="MODEL"  value="BOURNS"/>
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="SF-0603s300-2"/>
+	</component>
+	<component cell="sn74axc8t245rhlr" library="uob_hep_pc065a_lib" partname="SN74AXC8T245RHLR" partno="SF-0603s300-2" quantity="1" >
+		<property name="MODEL"  value="SN74AXC8T245RHLR"/>
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="SN74AXC8T245RHLR"/>
+	</component>
+	<component cell="wurth_155060ys73200" library="bris_cds_discrete" partname="WURTH_155060YS73200" partno="155060YS73200" quantity="1" >
+		<property name="MODEL"  value="wurth"/>
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="155060YS73200"/>
+	</component>
+	<component cell="tmp112a" library="bris_cds_logic" partname="TMP112A" partno="" quantity="1" >
+		<property name="MANUFACTURER_NAME"  value="Texas Instruments"/>
+		<property name="MANUFACTURER_PART_NUMBER"  value="TMP112AIDRLR"/>
+	</component>
+	<component cell="max9381_umax" library="bris_cds_discrete" partname="MAX9381_UMAX" partno="MAX9381EUA+" quantity="1" >
+		<property name="MANUFACTURER_NAME"  value="Maxim"/>
+		<property name="PART_NUMBER"  value="MAX9381EUA+"/>
+	</component>
 </sc:shoppingCart>

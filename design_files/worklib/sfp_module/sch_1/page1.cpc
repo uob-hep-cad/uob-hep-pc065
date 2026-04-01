@@ -50,13 +50,13 @@
   cnpassive rsmd0402 *
   page1_i25
 #CELL
-  cndiscrete inductance *
+  bris_cds_discrete mh1005-121y *
   page1_i29
 #ISCELL
   standard inport *
   page1_i3
 #CELL
-  cndiscrete inductance *
+  bris_cds_discrete mh1005-121y *
   page1_i30
 #CELL
   cnpassive capcersmdcl2 *

@@ -3,12 +3,12 @@
 <ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_24.1/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Mon Aug  4 17:59:08 2025
+    <Entry Name="Report time">Fri Mar  6 14:43:30 2026
 </Entry>
     <Entry Name="Software version">24.1 (P001)</Entry>
-    <Entry Name="Layout">C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2a_toplevel\physical\pc065d_fibv2a_toplevel_29.brd</Entry>
-    <Entry Name="Schematic">C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2a_toplevel\packaged\pstcmdb.dat</Entry>
-    <Entry Name="Baseline File">C:\Users\phdgc\AppData\Local\Temp\#Taaaaaj57296.tmp</Entry>
+    <Entry Name="Layout">C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\physical\pc065d_fibv2b_toplevel_35.brd</Entry>
+    <Entry Name="Schematic">C:\Users\phdgc\Downloads\uob-hep-pc065\design_files\worklib\pc065d_fibv2b_toplevel\packaged\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\phdgc\AppData\Local\Temp\#Taaaaaj06564.tmp</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Diff3</Entry>
     <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
@@ -18,18 +18,22 @@
 
   <Tree>
     <Item Filter="0x1" Name="Summary" Ref="main-summary">
-      <Item Filter="0x0" Name="Buses [9]" Ref="17">
-        <Item Filter="0x0" Name="HA_N" Ref="13"/>
-        <Item Filter="0x0" Name="HA_P" Ref="12"/>
-        <Item Filter="0x0" Name="PAGE4_FMC_HB_N" Ref="14"/>
-        <Item Filter="0x0" Name="PAGE4_FMC_HB_P" Ref="15"/>
-        <Item Filter="0x0" Name="RD_FPGA_N" Ref="d"/>
-        <Item Filter="0x0" Name="RD_FPGA_P" Ref="e"/>
-        <Item Filter="0x0" Name="SFP_FAULT" Ref="10"/>
-        <Item Filter="0x0" Name="SFP_LOS" Ref="11"/>
-        <Item Filter="0x0" Name="SFP_TX_DISABLE" Ref="f"/>
+      <Item Filter="0x0" Name="Buses [13]" Ref="1b">
+        <Item Filter="0x0" Name="HA_N" Ref="17"/>
+        <Item Filter="0x0" Name="HA_P" Ref="16"/>
+        <Item Filter="0x0" Name="HB_N" Ref="11"/>
+        <Item Filter="0x0" Name="HB_P" Ref="e"/>
+        <Item Filter="0x0" Name="LA_N" Ref="d"/>
+        <Item Filter="0x0" Name="LA_P" Ref="10"/>
+        <Item Filter="0x0" Name="PAGE4_FMC_HB_N" Ref="18"/>
+        <Item Filter="0x0" Name="PAGE4_FMC_HB_P" Ref="19"/>
+        <Item Filter="0x0" Name="RD_FPGA_N" Ref="f"/>
+        <Item Filter="0x0" Name="RD_FPGA_P" Ref="12"/>
+        <Item Filter="0x0" Name="SFP_FAULT" Ref="14"/>
+        <Item Filter="0x0" Name="SFP_LOS" Ref="15"/>
+        <Item Filter="0x0" Name="SFP_TX_DISABLE" Ref="13"/>
       </Item>
-      <Item Filter="0x0" Name="DiffPairs [12]" Ref="16">
+      <Item Filter="0x0" Name="DiffPairs [12]" Ref="1a">
         <Item Filter="0x0" Name="CLK_IN&lt;0>" Ref="1"/>
         <Item Filter="0x0" Name="CLK_IN&lt;2>" Ref="2"/>
         <Item Filter="0x0" Name="CLK_IN&lt;3>" Ref="3"/>
@@ -48,10 +52,10 @@
 
   <Summaries>
     <MainSummary ID="main-summary">
-      <ChangedObject Filter="0x0" Name="Buses" ObjNumber="9" Ref="17"/>
-      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="12" Ref="16"/>
+      <ChangedObject Filter="0x0" Name="Buses" ObjNumber="13" Ref="1b"/>
+      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="12" Ref="1a"/>
     </MainSummary>
-    <GroupSummary ID="16" Name="DiffPairs">
+    <GroupSummary ID="1a" Name="DiffPairs">
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLK_IN&lt;0>" Notes="1" Other="0" Ref="1" Reference="0"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLK_IN&lt;2>" Notes="1" Other="0" Ref="2" Reference="0"/>
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="CLK_IN&lt;3>" Notes="1" Other="0" Ref="3" Reference="0"/>
@@ -125,58 +129,82 @@
         <Note Text="Not creating DiffPair: &quot;FMC_LA&lt;9>&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <GroupSummary ID="17" Name="Buses">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="HA_N" Notes="1" Other="0" Ref="13" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="HA_P" Notes="1" Other="0" Ref="12" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_FMC_HB_N" Notes="1" Other="0" Ref="14" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_FMC_HB_P" Notes="1" Other="0" Ref="15" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="RD_FPGA_N" Notes="1" Other="0" Ref="d" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="RD_FPGA_P" Notes="1" Other="0" Ref="e" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_FAULT" Notes="1" Other="0" Ref="10" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_LOS" Notes="1" Other="0" Ref="11" Reference="0"/>
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_TX_DISABLE" Notes="1" Other="0" Ref="f" Reference="0"/>
+    <GroupSummary ID="1b" Name="Buses">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="HA_N" Notes="1" Other="0" Ref="17" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="HA_P" Notes="1" Other="0" Ref="16" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="HB_N" Notes="1" Other="0" Ref="11" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="HB_P" Notes="1" Other="0" Ref="e" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="LA_N" Notes="1" Other="0" Ref="d" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="LA_P" Notes="1" Other="0" Ref="10" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_FMC_HB_N" Notes="1" Other="0" Ref="18" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="PAGE4_FMC_HB_P" Notes="1" Other="0" Ref="19" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="RD_FPGA_N" Notes="1" Other="0" Ref="f" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="RD_FPGA_P" Notes="1" Other="0" Ref="12" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_FAULT" Notes="1" Other="0" Ref="14" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_LOS" Notes="1" Other="0" Ref="15" Reference="0"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="SFP_TX_DISABLE" Notes="1" Other="0" Ref="13" Reference="0"/>
     </GroupSummary>
-    <ObjectSummary ID="13" Kind="Bus" Name="HA_N">
+    <ObjectSummary ID="17" Kind="Bus" Name="HA_N">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;HA_N&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <ObjectSummary ID="12" Kind="Bus" Name="HA_P">
+    <ObjectSummary ID="16" Kind="Bus" Name="HA_P">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;HA_P&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <ObjectSummary ID="14" Kind="Bus" Name="PAGE4_FMC_HB_N">
+    <ObjectSummary ID="11" Kind="Bus" Name="HB_N">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating Bus: &quot;HB_N&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="e" Kind="Bus" Name="HB_P">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating Bus: &quot;HB_P&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="d" Kind="Bus" Name="LA_N">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating Bus: &quot;LA_N&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="10" Kind="Bus" Name="LA_P">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Not creating Bus: &quot;LA_P&quot;. Preserving deletion." Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <ObjectSummary ID="18" Kind="Bus" Name="PAGE4_FMC_HB_N">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;PAGE4_FMC_HB_N&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <ObjectSummary ID="15" Kind="Bus" Name="PAGE4_FMC_HB_P">
+    <ObjectSummary ID="19" Kind="Bus" Name="PAGE4_FMC_HB_P">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;PAGE4_FMC_HB_P&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <ObjectSummary ID="d" Kind="Bus" Name="RD_FPGA_N">
+    <ObjectSummary ID="f" Kind="Bus" Name="RD_FPGA_N">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;RD_FPGA_N&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <ObjectSummary ID="e" Kind="Bus" Name="RD_FPGA_P">
+    <ObjectSummary ID="12" Kind="Bus" Name="RD_FPGA_P">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;RD_FPGA_P&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <ObjectSummary ID="10" Kind="Bus" Name="SFP_FAULT">
+    <ObjectSummary ID="14" Kind="Bus" Name="SFP_FAULT">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;SFP_FAULT&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <ObjectSummary ID="11" Kind="Bus" Name="SFP_LOS">
+    <ObjectSummary ID="15" Kind="Bus" Name="SFP_LOS">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;SFP_LOS&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <ObjectSummary ID="f" Kind="Bus" Name="SFP_TX_DISABLE">
+    <ObjectSummary ID="13" Kind="Bus" Name="SFP_TX_DISABLE">
       <Notes Filter="0x0" Type="Notes">
         <Note Text="Not creating Bus: &quot;SFP_TX_DISABLE&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
@@ -196,15 +224,19 @@
     <Note Ref="a" Text="Not creating DiffPair: &quot;FMC_LA&lt;14>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;14>)" Type="Warning"/>
     <Note Ref="b" Text="Not creating DiffPair: &quot;FMC_LA&lt;31>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;31>)" Type="Warning"/>
     <Note Ref="c" Text="Not creating DiffPair: &quot;FMC_LA&lt;33>&quot;. Preserving deletion. (DiffPair FMC_LA&lt;33>)" Type="Warning"/>
-    <Note Ref="d" Text="Not creating Bus: &quot;RD_FPGA_N&quot;. Preserving deletion. (Bus RD_FPGA_N)" Type="Warning"/>
-    <Note Ref="e" Text="Not creating Bus: &quot;RD_FPGA_P&quot;. Preserving deletion. (Bus RD_FPGA_P)" Type="Warning"/>
-    <Note Ref="f" Text="Not creating Bus: &quot;SFP_TX_DISABLE&quot;. Preserving deletion. (Bus SFP_TX_DISABLE)" Type="Warning"/>
-    <Note Ref="10" Text="Not creating Bus: &quot;SFP_FAULT&quot;. Preserving deletion. (Bus SFP_FAULT)" Type="Warning"/>
-    <Note Ref="11" Text="Not creating Bus: &quot;SFP_LOS&quot;. Preserving deletion. (Bus SFP_LOS)" Type="Warning"/>
-    <Note Ref="12" Text="Not creating Bus: &quot;HA_P&quot;. Preserving deletion. (Bus HA_P)" Type="Warning"/>
-    <Note Ref="13" Text="Not creating Bus: &quot;HA_N&quot;. Preserving deletion. (Bus HA_N)" Type="Warning"/>
-    <Note Ref="14" Text="Not creating Bus: &quot;PAGE4_FMC_HB_N&quot;. Preserving deletion. (Bus PAGE4_FMC_HB_N)" Type="Warning"/>
-    <Note Ref="15" Text="Not creating Bus: &quot;PAGE4_FMC_HB_P&quot;. Preserving deletion. (Bus PAGE4_FMC_HB_P)" Type="Warning"/>
+    <Note Ref="d" Text="Not creating Bus: &quot;LA_N&quot;. Preserving deletion. (Bus LA_N)" Type="Warning"/>
+    <Note Ref="e" Text="Not creating Bus: &quot;HB_P&quot;. Preserving deletion. (Bus HB_P)" Type="Warning"/>
+    <Note Ref="f" Text="Not creating Bus: &quot;RD_FPGA_N&quot;. Preserving deletion. (Bus RD_FPGA_N)" Type="Warning"/>
+    <Note Ref="10" Text="Not creating Bus: &quot;LA_P&quot;. Preserving deletion. (Bus LA_P)" Type="Warning"/>
+    <Note Ref="11" Text="Not creating Bus: &quot;HB_N&quot;. Preserving deletion. (Bus HB_N)" Type="Warning"/>
+    <Note Ref="12" Text="Not creating Bus: &quot;RD_FPGA_P&quot;. Preserving deletion. (Bus RD_FPGA_P)" Type="Warning"/>
+    <Note Ref="13" Text="Not creating Bus: &quot;SFP_TX_DISABLE&quot;. Preserving deletion. (Bus SFP_TX_DISABLE)" Type="Warning"/>
+    <Note Ref="14" Text="Not creating Bus: &quot;SFP_FAULT&quot;. Preserving deletion. (Bus SFP_FAULT)" Type="Warning"/>
+    <Note Ref="15" Text="Not creating Bus: &quot;SFP_LOS&quot;. Preserving deletion. (Bus SFP_LOS)" Type="Warning"/>
+    <Note Ref="16" Text="Not creating Bus: &quot;HA_P&quot;. Preserving deletion. (Bus HA_P)" Type="Warning"/>
+    <Note Ref="17" Text="Not creating Bus: &quot;HA_N&quot;. Preserving deletion. (Bus HA_N)" Type="Warning"/>
+    <Note Ref="18" Text="Not creating Bus: &quot;PAGE4_FMC_HB_N&quot;. Preserving deletion. (Bus PAGE4_FMC_HB_N)" Type="Warning"/>
+    <Note Ref="19" Text="Not creating Bus: &quot;PAGE4_FMC_HB_P&quot;. Preserving deletion. (Bus PAGE4_FMC_HB_P)" Type="Warning"/>
   </Notes>
 
   <Layers>

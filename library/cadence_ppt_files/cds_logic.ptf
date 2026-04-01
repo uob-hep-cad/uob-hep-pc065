@@ -641,7 +641,7 @@ CLASS=IC
 {========================================================================================}
 :PACK_TYPE  | MANUF(OPT='CAT')    = CI                 | PART_NUMBER               | PART_DESCRIPTION                                      | OL_COMMENTS                          | KL_COMMENTS      | PL_COMMENTS                 ;
 {========================================================================================}
- 'LQFP'      | 'TI'(!)             = ''                 | 'TI CDCLVDS110AVF'            | '10-output low jitter LVDS clock buffer'          | 'RS 662-5330 , Digikey 296-21573-ND'        | '-'              | '-'                        
+ 'LQFP'      | 'TI'(!)             = ''                 | 'TI CDCLVD110AVF'            | '10-output low jitter LVDS clock buffer'          | 'RS 662-5330 , Digikey 296-21573-ND'        | '-'              | '-'                        
 
 END_PART
 

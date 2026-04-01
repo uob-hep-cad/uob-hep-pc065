@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX9381_UMAX'
+CLASS = IC 
+
+{========================================================================================}
+:'MANUFACTURER_NAME'  |'PART_NUMBER'         = 'PART'           |'JEDEC_TYPE'       |'PACK_TYPE'    |'OL_COMMENT'            |'DESCRIPTION'                                                              |'DATASHEET'                                        |'HEIGHT'    ;
+{========================================================================================}
+ 'Maxim'               |'MAX9381EUA+' (!)     = ''               |'SOP65P490X110-8N' |'SMD'          |'Mouser 1762_17875976 ' |'Lowest Power 3.0GHz ECL/PECL Differential Data and Clock D Flip-Flop'     |'https://www.mouser.co.uk/datasheet/3/1014/1/MAX9381.pdf'  |'0.6 mm'  
+
+END_PART
+
+END.
+

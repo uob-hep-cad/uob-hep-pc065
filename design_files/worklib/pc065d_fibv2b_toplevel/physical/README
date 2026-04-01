@@ -1,0 +1,104 @@
+
+uob_hep_pc065d-1
+
+These file describes PCB fabrication and assembly details of a 
+Fibre Interface Board (FIB) for the DUNE Timing System.
+
+Version FIBv2b
+
+contact:	David.Cussans@bristol.ac.uk
+		tel: 0117 95 46879
+		     0117 33 17199
+		fax: 0117 925 5624
+
+Files produced by Cadence DE-HDL / Allegro 24.1
+
+Artwork:
+--------
+
+Format: Gerber RS-274X , parameters described in art_param.txt. 
+All layers viewed from top
+
+Build:
+------
+
+Eight Layers as follows:
+
+art_pc065d_L01P.art
+art_pc065d_L02P.art
+art_pc065d_L03P.art
+art_pc065d_L04P.art
+art_pc065d_L05P.art
+art_pc065d_L06P.art
+art_pc065d_L07P.art
+art_pc065d_L08P.art
+
+FR4 or similar laminate
+
+35um copper on outers ( after plating )
+18um copper on inners
+
+Solder Masks
+------------
+
+art_pc065d_LSM1.art
+art_pc065d_LSM2.art
+
+Colour not critical, suggest green. Photo-imagable.
+
+Solderpaste mask
+-----------------
+
+art_pc065d_SMD1.art
+art_pc065d_SMD2.art
+
+Silk screen
+-----------
+
+art_pc065d_POS1.art
+art_pc065d_POS2.art
+
+Colour not critical, suggest white.
+
+Assembly Diagram
+-----------------
+
+art_pc065d_ASSEMBLY_TOP.art
+art_pc065d_ASSEMBLY_BOTTOM.art
+
+
+Board outline: (Gerber RS-274X)
+-------------------------------
+
+art_pc065d_OUTLINE.art
+
+
+Drill figure: ( illustration of hole sizes and position )
+-------------
+
+art_pc065d_DRILL_FIGURE.art
+
+Drill information ( Excellon format, described in nc_param.txt )
+-----------------
+Plated and unplated holes in same file.
+
+pc065d_fibv2b_toplevel_35-1-8.drl
+
+Bill of Materials
+-----------------
+
+pc065d_fibv2b_bom_newbury.xlsx
+
+
+Component placement
+-------------------
+
+pc065d_fibv2b_placement_body_centre.txt
+
+( Position of pin-1 in mm and rotation in degrees of each component )
+
+Fabrication and Assembly information in ODB++ Format:
+-----------------------------------------------------
+
+pc065d_fibv2b_toplevel_35.tgz
+

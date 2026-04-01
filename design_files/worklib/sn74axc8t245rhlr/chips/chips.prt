@@ -1,36 +1,6 @@
 FILE_TYPE=LIBRARY_PARTS;
-primitive 'SN74AXC8T245RHLR';
+primitive 'SN74AXC8T245RHLR','SN74AXC8T245RHLR_SMD';
   pin
-    'A1':
-      PIN_NUMBER='(3)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'A2':
-      PIN_NUMBER='(4)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'A3':
-      PIN_NUMBER='(5)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
     'A4':
       PIN_NUMBER='(6)';
       BIDIRECTIONAL='TRUE';
@@ -61,28 +31,8 @@ primitive 'SN74AXC8T245RHLR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'A7':
-      PIN_NUMBER='(9)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'A8':
-      PIN_NUMBER='(10)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'B1':
-      PIN_NUMBER='(21)';
+    'B3':
+      PIN_NUMBER='(19)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -101,18 +51,8 @@ primitive 'SN74AXC8T245RHLR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'B3':
-      PIN_NUMBER='(19)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'B4':
-      PIN_NUMBER='(18)';
+    'B1':
+      PIN_NUMBER='(21)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -123,6 +63,16 @@ primitive 'SN74AXC8T245RHLR';
       ALLOW_CONNECT='TRUE';
     'B5':
       PIN_NUMBER='(17)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'B4':
+      PIN_NUMBER='(18)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -151,8 +101,73 @@ primitive 'SN74AXC8T245RHLR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'B8':
-      PIN_NUMBER='(14)';
+    'EXPAD'<0>:
+      PIN_NUMBER='(25)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'EXPAD'<1>:
+      PIN_NUMBER='(26)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'EXPAD'<2>:
+      PIN_NUMBER='(27)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'EXPAD'<3>:
+      PIN_NUMBER='(28)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'EXPAD'<4>:
+      PIN_NUMBER='(29)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'GND1':
+      PIN_NUMBER='(12)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'GND2':
+      PIN_NUMBER='(13)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VCCB2':
+      PIN_NUMBER='(24)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'VCCB1':
+      PIN_NUMBER='(23)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'VCCA':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'A8':
+      PIN_NUMBER='(10)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -181,26 +196,6 @@ primitive 'SN74AXC8T245RHLR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'GND1':
-      PIN_NUMBER='(12)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'GND2':
-      PIN_NUMBER='(13)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
     '-OE':
       PIN_NUMBER='(22)';
       BIDIRECTIONAL='TRUE';
@@ -211,8 +206,8 @@ primitive 'SN74AXC8T245RHLR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'VCCA':
-      PIN_NUMBER='(1)';
+    'A2':
+      PIN_NUMBER='(4)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -221,41 +216,46 @@ primitive 'SN74AXC8T245RHLR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'VCCB1':
-      PIN_NUMBER='(23)';
+    'A1':
+      PIN_NUMBER='(3)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-    'VCCB2':
-      PIN_NUMBER='(24)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'A3':
+      PIN_NUMBER='(5)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-    'EXPAD'<0>:
-      PIN_NUMBER='(25)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'B8':
+      PIN_NUMBER='(14)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-    'EXPAD'<1>:
-      PIN_NUMBER='(26)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'A7':
+      PIN_NUMBER='(9)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-    'EXPAD'<2>:
-      PIN_NUMBER='(27)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-    'EXPAD'<3>:
-      PIN_NUMBER='(28)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-    'EXPAD'<4>:
-      PIN_NUMBER='(29)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
   end_pin;
   body
     PART_NAME='SN74AXC8T245RHLR';

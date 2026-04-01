@@ -1,16 +1,39 @@
-05/13/24  07:52:38		Opening project \\ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/pc065c_fibv2_toplevel.cpm
-05/13/24  07:52:38		cdslib \\ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/cds.lib opened
-05/13/24  07:52:38		Project \\ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/pc065c_fibv2_toplevel.cpm opened
-05/13/24  07:52:51		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
-05/13/24  07:52:51		Loading view sym_1 of cell sn74axc8t245rhlr
-05/13/24  07:52:52		Loading view chips of cell sn74axc8t245rhlr
-05/13/24  07:52:52		Loading view entity of cell sn74axc8t245rhlr
-05/13/24  07:52:52		Loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
-05/13/24  07:52:52		Analyzing view relationships of cell sn74axc8t245rhlr in library uob_hep_pc065a_lib
-05/13/24  07:52:52		Completed loading cell sn74axc8t245rhlr from library uob_hep_pc065a_lib
-05/13/24  07:52:52		Starting validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
-05/13/24  07:52:52		Completed validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
-05/13/24  07:53:37		Starting validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
-05/13/24  07:53:37		Completed validations on cell sn74axc8t245rhlr of library uob_hep_pc065a_lib
-05/13/24  07:53:37		Completed saving cell sn74axc8t245rhlr in library uob_hep_pc065a_lib 
-05/13/24  07:53:39		Project \\ppfs6.physics.ox.ac.uk/CEG/Central Electronics/Projects/Hastingsp/DUNE/uob-hep-pc065/design_files/pc065c_fibv2_toplevel.cpm is closed.
+03/04/26  10:57:34		Opening project C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/pc065d_fibv2b_toplevel.cpm
+03/04/26  10:57:34		cdslib C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/cds.lib opened
+03/04/26  10:57:34		Project C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/pc065d_fibv2b_toplevel.cpm opened
+03/04/26  10:57:47		Loading cell max9381_umax from library bris_cds_discrete
+03/04/26  10:57:47		Loading view sym_1 of cell max9381_umax
+03/04/26  10:57:47		Loading view chips of cell max9381_umax
+03/04/26  10:57:47		Loading view part_table of cell max9381_umax
+03/04/26  10:57:47		Loading file part.ptf of PTF view part_table of cell max9381_umax
+03/04/26  10:57:47		ERROR(SPCODD-27): The row separator on line 9 does not match the header definition.
+      The row separator should exactly match, in number and position, the header definition.
+      You cannot use a pipe ( | ) symbol in the header row and a comma ( , ) in a PPT row as row separators.
+      Ensure that the row separators match the separators defined in the header for the concerned PPT part.
+       
+	Details: The row separator should exactly match in number and in its position with the header definition. The row separator should also be the same character. You cannot use a pipe ( | ) in the header row and a comma ( , ) in a PPT row as the row separator. You could have used a different number of row separators as listed in the header row of the PPT part which generated the problem or you could have forgotten to add the quote ( ' ) for the first property value. As a result, Packager-XL is unable to load the ptf file properly. Ensure that the row separators match the separators defined in the header for the concerned PPT part.
+03/04/26  10:57:47		ERROR(SPCODD-47): Packaging cannot be completed because the file C:\Users\phdgc\Downloads\uob-hep-pc065\library\cds_discrete\max9381_umax\part_table\part.ptf could not be loaded. There might be syntax errors in this file. Ensure that the syntax is correct before proceeding.
+       
+	Details: This error is generated along with another packaging error, which prevents Packager-XL from completing its operation. Fix the other errors that are generated in the pxl.log file and package the design again.
+03/04/26  10:57:47		Could not load view part_table
+03/04/26  10:57:47		Loading view entity of cell max9381_umax
+03/04/26  10:57:47		Loading cell max9381_umax from library bris_cds_discrete
+03/04/26  10:57:47		Analyzing view relationships of cell max9381_umax in library bris_cds_discrete
+03/04/26  10:57:47		Completed loading cell max9381_umax from library bris_cds_discrete
+03/04/26  10:57:47		Starting validations on cell max9381_umax of library bris_cds_discrete
+03/04/26  10:57:47		Completed validations on cell max9381_umax of library bris_cds_discrete
+03/04/26  11:00:16		Loading cell max9381_umax from library bris_cds_discrete
+03/04/26  11:00:16		Loading view sym_1 of cell max9381_umax
+03/04/26  11:00:16		Loading view chips of cell max9381_umax
+03/04/26  11:00:16		Loading view part_table of cell max9381_umax
+03/04/26  11:00:16		Loading file part.ptf of PTF view part_table of cell max9381_umax
+03/04/26  11:00:16		Loading view entity of cell max9381_umax
+03/04/26  11:00:16		Loading cell max9381_umax from library bris_cds_discrete
+03/04/26  11:00:16		Analyzing view relationships of cell max9381_umax in library bris_cds_discrete
+03/04/26  11:00:16		Completed loading cell max9381_umax from library bris_cds_discrete
+03/04/26  11:00:16		Starting validations on cell max9381_umax of library bris_cds_discrete
+03/04/26  11:00:16		Completed validations on cell max9381_umax of library bris_cds_discrete
+03/04/26  11:00:47		Starting validations on cell max9381_umax of library bris_cds_discrete
+03/04/26  11:00:47		Completed validations on cell max9381_umax of library bris_cds_discrete
+03/04/26  11:00:48		Completed saving cell max9381_umax in library bris_cds_discrete 
+03/04/26  11:01:09		Project C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/pc065d_fibv2b_toplevel.cpm is closed.
