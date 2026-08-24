@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2026-03-02T17:41:41</modificationTime>
+    <modificationTime>2026-03-03T18:25:53</modificationTime>
     <savedLibrary>uob_hep_pc065a_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="pc065d_fibv2b_toplevel" view="sch_1">
       <lastids>
-        <instanceid>322</instanceid>
-        <netid>803</netid>
-        <insttermid>6031</insttermid>
+        <instanceid>323</instanceid>
+        <netid>808</netid>
+        <insttermid>6093</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -712,46 +712,6 @@
           </terms>
         </cell>
         <cell>
-          <id>S55</id>
-          <library>bris_cds_logic</library>
-          <name>tmp1075ndrlr</name>
-          <view>sym_1</view>
-          <parameters>
-          </parameters>
-          <terms>
-            <term>
-              <id>T1298</id>
-              <name>a0</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T1299</id>
-              <name>alert</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T1300</id>
-              <name>gnd</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T1301</id>
-              <name>scl</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T1302</id>
-              <name>sda</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T1303</id>
-              <name>v+</name>
-              <direction>inout</direction>
-            </term>
-          </terms>
-        </cell>
-        <cell>
           <id>S57</id>
           <library>bris_cds_discrete</library>
           <name>sf-0603s300-2</name>
@@ -948,6 +908,46 @@
             <term>
               <id>T1720</id>
               <name>vccb2</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S63</id>
+          <library>bris_cds_logic</library>
+          <name>tmp112a</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T1890</id>
+              <name>a0</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1891</id>
+              <name>alert</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1892</id>
+              <name>gnd</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1893</id>
+              <name>scl</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1894</id>
+              <name>sda</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T1895</id>
+              <name>v+</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -3977,47 +3977,47 @@
         </instance>
         <instance>
           <id>I235</id>
-          <cellid>S55</cellid>
+          <cellid>S63</cellid>
           <name>page8_i124</name>
           <pins>
             <pin>
-              <id>M3140</id>
-              <termid>T1298</termid>
+              <id>M6088</id>
+              <termid>T1890</termid>
               <connections>
                 <connection net="gnd" />
               </connections>
             </pin>
             <pin>
-              <id>M3141</id>
-              <termid>T1299</termid>
+              <id>M6089</id>
+              <termid>T1891</termid>
               <connections>
                 <connection net="N458" />
               </connections>
             </pin>
             <pin>
-              <id>M3142</id>
-              <termid>T1300</termid>
+              <id>M6090</id>
+              <termid>T1892</termid>
               <connections>
                 <connection net="gnd" />
               </connections>
             </pin>
             <pin>
-              <id>M3143</id>
-              <termid>T1301</termid>
+              <id>M6091</id>
+              <termid>T1893</termid>
               <connections>
                 <connection net="N34" />
               </connections>
             </pin>
             <pin>
-              <id>M3144</id>
-              <termid>T1302</termid>
+              <id>M6092</id>
+              <termid>T1894</termid>
               <connections>
                 <connection net="N35" />
               </connections>
             </pin>
             <pin>
-              <id>M3145</id>
-              <termid>T1303</termid>
+              <id>M6093</id>
+              <termid>T1895</termid>
               <connections>
                 <connection net="N20" />
               </connections>

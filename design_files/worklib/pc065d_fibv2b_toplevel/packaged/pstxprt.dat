@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 06-Mar-2026 AT 14:43:22 }
+{ Packager-XL run on 24-Aug-2026 AT 17:15:28 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC065D_FIBV2B_TOPLEVEL';
- POST_TIME='06-Mar-2026 AT 14:43:22';
+ POST_TIME='24-Aug-2026 AT 17:15:28';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -394,32 +394,6 @@ capcersmdcl2(chips)',
 2/chips/chips.prt';
 
 PART_NAME
- C16 'CAPCERSMDCL2_0402-100NF_X7R,16V':
- ROOM='CLOCK_MODULE';
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE8_I167@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
- C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page8_i167@cnpassive.~
-capcersmdcl2(chips)',
- P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page7_i167@cnpassive.~
-capcersmdcl2(chips)',
- PATH='I167',
- DRAWING='@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE8',
- SIZE='1',
- PHYS_PAGE='7',
- XY='(-4300,3925)',
- ROT='0',
- VER='2',
- PACK_TYPE='0402',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
- VOLTAGE='16V',
- ROOM='CLOCK_MODULE',
- VALUE='100NF_X7R',
- PRIM_FILE='C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/capcersmdcl~
-2/chips/chips.prt';
-
-PART_NAME
  C17 'CAPCERSMDCL2_0805-10UF,10V_GEN':
  ROOM='CLOCK_MODULE';
 
@@ -442,32 +416,6 @@ capcersmdcl2(chips)',
  VOLTAGE='10V_GEN',
  ROOM='CLOCK_MODULE',
  VALUE='10UF',
- PRIM_FILE='C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/capcersmdcl~
-2/chips/chips.prt';
-
-PART_NAME
- C18 'CAPCERSMDCL2_0402-100NF_X7R,16V':
- ROOM='CLOCK_MODULE';
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE8_I168@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
- C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page8_i168@cnpassive.~
-capcersmdcl2(chips)',
- P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page7_i168@cnpassive.~
-capcersmdcl2(chips)',
- PATH='I168',
- DRAWING='@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE8',
- SIZE='1',
- PHYS_PAGE='7',
- XY='(-4300,3725)',
- ROT='0',
- VER='1',
- PACK_TYPE='0402',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
- VOLTAGE='16V',
- ROOM='CLOCK_MODULE',
- VALUE='100NF_X7R',
  PRIM_FILE='C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/capcersmdcl~
 2/chips/chips.prt';
 
@@ -10327,6 +10275,80 @@ smd0402(chips)',
  CDS_LIB='cnpassive',
  CDS_PART_NAME='RSMD0402_1/16W-0R0,1%',
  VOLTAGE='RVMAX',
+ TOL='1%',
+ VALUE='0R0',
+ PRIM_FILE='C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/ch~
+ips/chips.prt';
+
+PART_NAME
+ R205 'RSMD0402_1/16W-0R0,1%':
+ ROOM='CLOCK_MODULE';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE8_I167@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page8_i167@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page7_i167@cnpassive.~
+rsmd0402(chips)',
+ PATH='I167',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE8',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='7',
+ XY='(-4300,3925)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ LOCATION='R205',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-0R0,1%',
+ VOLTAGE='RVMAX',
+ ROOM='CLOCK_MODULE',
+ TOL='1%',
+ VALUE='0R0',
+ PRIM_FILE='C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/ch~
+ips/chips.prt';
+
+PART_NAME
+ R206 'RSMD0402_1/16W-0R0,1%':
+ ROOM='CLOCK_MODULE';
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE8_I168@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page8_i168@cnpassive.~
+rsmd0402(chips)',
+ P_PATH='@uob_hep_pc065a_lib.pc065d_fibv2b_toplevel(sch_1):page7_i168@cnpassive.~
+rsmd0402(chips)',
+ PATH='I168',
+ DRAWING='@UOB_HEP_PC065A_LIB.PC065D_FIBV2B_TOPLEVEL(SCH_1):PAGE8',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='7',
+ XY='(-4300,3725)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='1/16W',
+ LOCATION='R206',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-0R0,1%',
+ VOLTAGE='RVMAX',
+ ROOM='CLOCK_MODULE',
  TOL='1%',
  VALUE='0R0',
  PRIM_FILE='C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/ch~

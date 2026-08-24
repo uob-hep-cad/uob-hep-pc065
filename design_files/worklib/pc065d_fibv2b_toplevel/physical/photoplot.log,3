@@ -2,12 +2,17 @@
 (                                                                     )
 (    ARTWORK LOG                                                      )
 (                                                                     )
-(    Drawing          : pc065d_fibv2b_toplevel_35.brd                 )
+(    Drawing          : pc065d_fibv2b-i_toplevel_36.brd               )
 (    Software Version : 24.1P001                                      )
-(    Date/Time        : Thu Mar  5 17:22:49 2026                      )
+(    Date/Time        : Mon Aug 24 17:50:03 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -28,13 +33,13 @@ Results from parameter file ...
 
 
 ================================================================
-     PROCESSING FILM < 02_LSM1 >
-     TO FILE < C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/art_pc065d_02_LSM1.art > ...
+     PROCESSING FILM < 01_POS1 >
+     TO FILE < C:/Users/phdgc/Downloads/uob-hep-pc065/design_files/worklib/pc065d_fibv2b_toplevel/physical/art_pc065d_01_POS1.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.200
+  Undefined line width                0.250
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.000
@@ -43,45 +48,31 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: 0 width line found at (137.440 22.865)
+           ... using undefined line width of 0.250
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.250
+
 
 
   APERTURES USED:
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.60200                                  DARK 
-  CIRCLE     0.64000                                  DARK 
-  CIRCLE     1.30000                                  DARK 
-  CIRCLE     1.55000                                  DARK 
-  CIRCLE     1.65000                                  DARK 
-  CIRCLE     1.65100                                  DARK 
-  CIRCLE     1.70000                                  DARK 
-  CIRCLE     1.75000                                  DARK 
-  CIRCLE     6.50000                                  DARK 
-  SQUARE     0.85000                     0.000 NO     DARK 
-  RECTANGLE  0.48300     x 0.91400       0.000 NO     DARK 
-  RECTANGLE  0.63500     x 2.15900       0.000 NO     DARK 
-  RECTANGLE  0.71100     x 0.22900       0.000 NO     DARK 
-  RECTANGLE  0.90000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.45000     x 0.45000       0.000 NO     DARK 
-  RECTANGLE  1.45000     x 0.45000      90.000 NO     DARK 
-  RECTANGLE  1.45000     x 1.20000       0.000 NO     DARK 
-  RECTANGLE  1.45000     x 1.20000      90.000 NO     DARK 
-  RECTANGLE  1.65000     x 1.45000       0.000 NO     DARK 
-  RECTANGLE  1.65000     x 1.45000      90.000 NO     DARK 
-  RECTANGLE  1.85000     x 0.85000      90.000 NO     DARK 
-  RECTANGLE  1.95000     x 2.65000      90.000 NO     DARK 
-  RECTANGLE  2.00000     x 0.50000      90.000 NO     DARK 
-  RECTANGLE  2.15200     x 4.15200      90.000 NO     DARK 
-  RECTANGLE  2.15900     x 0.63500       0.000 NO     DARK 
-  OBLONG     0.34200     x 0.70200       0.000 NO     DARK 
-  OBLONG     0.34200     x 0.70200      90.000 NO     DARK 
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.15200                                  DARK 
+  CIRCLE     0.17000                                  DARK 
+  CIRCLE     0.18000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20300                                  DARK 
+  CIRCLE     0.25000                                  DARK 
 
-     art_pc065d_02_LSM1 created.
+     art_pc065d_01_POS1 created with warnings
 
 
 ------------------------------------------------------
  SUMMARY:
-        art_pc065d_02_LSM1 created.
+        art_pc065d_01_POS1 created with warnings
 
- ARTWORK finished
+ ARTWORK had warnings

@@ -3,9 +3,135 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd         |
-|                                                    Fri Mar  6 14:43:30 2026  |
+|                                                    Mon Aug 24 17:15:37 2026  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  CLK_IN_N<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 R206.1                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLK_IN_P<1>  pins ADDED TO this existing net (pins not previously on any net)
+                                 R205.1                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_CAPCERSMDCL2_I167_A pins MOVED FROM this net (to net name listed on right)
+                                 R2.1             20.600  12.150
+                                                UNNAMED_8_CDCLVD110_I119_CLK0_1
+                                 U1.3             23.900  12.100
+                                                UNNAMED_8_CDCLVD110_I119_CLK0_1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_CAPCERSMDCL2_I168_B pins MOVED FROM this net (to net name listed on right)
+                                 R2.2             20.600  11.250
+                                                  UNNAMED_8_CDCLVD110_I119_CLK0
+                                 U1.4             23.900  11.300
+                                                  UNNAMED_8_CDCLVD110_I119_CLK0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_CDCLVD110_I119_CLK0_1 pins ADDED TO this new net
+                                 R205.2                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_CDCLVD110_I119_CLK0 pins ADDED TO this new net
+                                 R206.2                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd         |
+|                                                    Mon Aug 24 17:15:37 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C16                 CAPCERSMDCL2_0402-100NF_X7R,16V  19.000  12.200
+ C18                 CAPCERSMDCL2_0402-100NF_X7R,16V  19.000  11.200
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd         |
+|                                                    Mon Aug 24 17:15:37 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R205                RSMD0402_1/16W-0R0,1% 
+ R206                RSMD0402_1/16W-0R0,1% 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd         |
+|                                                    Mon Aug 24 17:15:37 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R205                           ROOM           CLOCK_MODULE
+ R206                           ROOM           CLOCK_MODULE
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd         |
+|                                                    Mon Aug 24 17:15:37 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R205.2                         DIST           FLAT
+ R205.2                         HARD_LOCATION  
+ R205.2                         MAX_TEMP       RTMAX
+ R205.2                         NEGTOL         RTOL%
+ R205.2                         NO_SWAP_GATE_E 
+ R205.2                         POSTOL         RTOL%
+ R205.2                         PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
+ R205.2                         ROOM           CLOCK_MODULE
+ R205.2                         SIZE           1
+ R205.2                         SLOPE          RSMAX
+ R205.2                         TC1            RTMPL
+ R205.2                         TC2            RTMPQ
+ R205.2                         TOL_ON_OFF     ON
+ R205.2                         XY             (-4300,3925)
+ R206.2                         DIST           FLAT
+ R206.2                         HARD_LOCATION  
+ R206.2                         MAX_TEMP       RTMAX
+ R206.2                         NEGTOL         RTOL%
+ R206.2                         NO_SWAP_GATE_E 
+ R206.2                         POSTOL         RTOL%
+ R206.2                         PRIM_FILE      C:/Users/phdgc/Downloads/uob-hep-pc065/library/cnpassive/rsmd0402/chips/chips.prt
+ R206.2                         ROOM           CLOCK_MODULE
+ R206.2                         SIZE           1
+ R206.2                         SLOPE          RSMAX
+ R206.2                         TC1            RTMPL
+ R206.2                         TC2            RTMPQ
+ R206.2                         TOL_ON_OFF     ON
+ R206.2                         XY             (-4300,3725)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../pc065d_fibv2b_toplevel/physical/pc065d_fibv2b_toplevel_35.brd         |
+|                                                    Mon Aug 24 17:15:37 2026  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R205.1                         CDS_PINID      A(0)
+ R205.2                         CDS_PINID      B(0)
+ R206.1                         CDS_PINID      A(0)
+ R206.2                         CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|       Nets changed          :       8                                        |
+|       Components added      :       2                                        |
+|       Components deleted    :       2                                        |
+|       Comp property added   :       2                                        |
+|       Pin property added    :       4                                        |
+|       Slot property added   :      28                                        |
 |                                                                              |
-|   Total ECO changes reported:       0                                        |
+|   Total ECO changes reported:      46                                        |
 |------------------------------------------------------------------------------|
